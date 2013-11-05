@@ -55,6 +55,16 @@
         android:summary="%s"
         android:title="@string/status_bar_logo_style_title" />
 
+    <SwitchPreference
+        android:key="status_bar_show_clock"
+        android:title="@string/status_bar_show_clock_title"
+        android:defaultValue="true" />
+
+    <Preference
+        android:key="status_bar_clock"
+        android:fragment="com.bootleggers.dumpster.external.StatusBarClockSettings"
+        android:title="@string/status_bar_clock_title" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

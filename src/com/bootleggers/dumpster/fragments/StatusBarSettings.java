@@ -37,7 +37,10 @@ import java.util.Collections;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private static final String STATUS_BAR_SHOW_CLOCK = "status_bar_show_clock";
+
     private ListPreference mLogoStyle;
+    private SwitchPreference mStatusBarClock;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -55,6 +58,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mLogoStyle.setValue(String.valueOf(logoStyle));
         mLogoStyle.setSummary(mLogoStyle.getEntry());
 
+        mStatusBarClock = (SwitchPreference) findPreference(STATUS_BAR_SHOW_CLOCK);
+        mStatusBarClock.setChecked((Settings.System.getInt(resolver,
+                Settings.System.STATUS_BAR_CLOCK, 1) == 1));
+        mStatusBarClock.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -66,6 +74,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             int index = mLogoStyle.findIndexOfValue((String) newValue);
             mLogoStyle.setSummary(
                     mLogoStyle.getEntries()[index]);
+            return true;
+        } else if (preference == mStatusBarClock) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(resolver, Settings.System.STATUS_BAR_CLOCK, value ? 1 : 0);
             return true;
         }
         return false;
