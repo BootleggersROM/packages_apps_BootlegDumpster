@@ -16,6 +16,8 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import android.view.View;
+import android.widget.Toast;
 
 import com.android.settings.R;
 
@@ -40,6 +42,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
     private static final String WALLPAPER_INTRA_OPEN = "wallpaper_intra_open";
     private static final String WALLPAPER_INTRA_CLOSE = "wallpaper_intra_close";
     private static final String TASK_OPEN_BEHIND = "task_open_behind";
+    private static final String KEY_TOAST_ANIMATION = "toast_animation";
 
     ListPreference mActivityOpenPref;
     ListPreference mActivityClosePref;
@@ -53,6 +56,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
     ListPreference mWallpaperIntraClose;
     ListPreference mTaskOpenBehind;
     SwitchPreference mAnimNoOverride;
+    private ListPreference mToastAnimation;
 
     private int[] mAnimations;
     private String[] mAnimationsStrings;
@@ -68,6 +72,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
 
         mContext = getActivity();
         PreferenceScreen prefs = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
         mAnimations = AwesomeAnimationHelper.getAnimationsList();
         int animqty = mAnimations.length;
         mAnimationsStrings = new String[animqty];
@@ -146,6 +151,13 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
         mTaskOpenBehind.setSummary(getProperSummary(mTaskOpenBehind));
         mTaskOpenBehind.setEntries(mAnimationsStrings);
         mTaskOpenBehind.setEntryValues(mAnimationsNum);
+
+        mToastAnimation = (ListPreference) findPreference(KEY_TOAST_ANIMATION);
+        mToastAnimation.setSummary(mToastAnimation.getEntry());
+        int CurrentToastAnimation = Settings.System.getInt(getContentResolver(), Settings.System.TOAST_ANIMATION, 1);
+        mToastAnimation.setValueIndex(CurrentToastAnimation); //set to index of default value
+        mToastAnimation.setSummary(mToastAnimation.getEntries()[CurrentToastAnimation]);
+        mToastAnimation.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -195,6 +207,12 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
             int val = Integer.parseInt((String) newValue);
             result = Settings.System.putInt(mContext.getContentResolver(),
                     Settings.System.ACTIVITY_ANIMATION_CONTROLS[10], val);
+        } else if (preference == mToastAnimation) {
+            int index = mToastAnimation.findIndexOfValue((String) newValue);
+            Settings.System.putString(getContentResolver(), Settings.System.TOAST_ANIMATION, (String) newValue);
+            mToastAnimation.setSummary(mToastAnimation.getEntries()[index]);
+            Toast.makeText(mContext, "Toast Test", Toast.LENGTH_SHORT).show();
+            return true;
         }
         preference.setSummary(getProperSummary(preference));
         return result;

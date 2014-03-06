@@ -69,6 +69,19 @@
      </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="anim_system"
+        android:title="@string/anim_system_category" >
+
+        <ListPreference
+            android:key="toast_animation"
+            android:title="@string/toast_animation_title"
+            android:entries="@array/toast_animation_entries"
+            android:entryValues="@array/toast_animation_values"
+            android:persistent="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="anim_misc"
         android:title="@string/misc_title" >
 
