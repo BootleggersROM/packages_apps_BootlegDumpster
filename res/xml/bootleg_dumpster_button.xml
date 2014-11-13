@@ -48,4 +48,9 @@
 
     </PreferenceCategory>
 
+   <Preference
+        android:key="button_settings"
+        android:title="@string/button_pref_title"
+        android:fragment="com.bootleggers.dumpster.external.HardwareKeys" />
+
 </PreferenceScreen>
