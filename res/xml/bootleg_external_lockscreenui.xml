@@ -66,6 +66,22 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory 
+         android:title="@string/ls_shortcuts_title">
+
+         <Preference
+             android:key="lockscreen_shortcuts"
+             android:title="@string/lockscreen_mdshortcuts_title"
+             android:summary="@string/lockscreen_mdshortcuts_summary"
+             android:fragment="com.bootleggers.dumpster.preferences.dslv.ActionListViewSettings">
+                 <extra android:name="actionMode" android:value="4" />
+                 <extra android:name="maxAllowedActions" android:value="8" />
+                 <extra android:name="disableLongpress" android:value="true" />
+                 <extra android:name="useAppPickerOnly" android:value="true" />
+                 <extra android:name="fragment" android:value="com.bootleggers.dumpster.external.LockscreenShortcuts" />
+        </Preference>
+
+    </PreferenceCategory>
 
     <!--<PreferenceCategory
         android:title="@string/lockui_opacity"
