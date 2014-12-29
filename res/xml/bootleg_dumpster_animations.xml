@@ -18,4 +18,61 @@
     android:title="@string/animations_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="anim_general"
+        android:title="@string/anim_general_category" >
+
+        <ListPreference
+            android:key="activity_open"
+            android:title="@string/activity_open_title" />
+
+        <ListPreference
+            android:key="activity_close"
+            android:title="@string/activity_close_title" />
+
+        <ListPreference
+            android:key="task_open"
+            android:title="@string/task_open_title" />
+
+        <ListPreference
+            android:key="task_close"
+            android:title="@string/task_close_title" />
+
+        <ListPreference
+            android:key="task_move_to_front"
+            android:title="@string/task_move_to_front_title" />
+
+        <ListPreference
+            android:key="task_move_to_back"
+            android:title="@string/task_move_to_back_title" />
+
+        <ListPreference
+            android:key="wallpaper_open"
+            android:title="@string/wallpaper_open_title" />
+
+        <ListPreference
+            android:key="wallpaper_close"
+            android:title="@string/wallpaper_close_title" />
+
+        <ListPreference
+            android:key="wallpaper_intra_open"
+            android:title="@string/wallpaper_intra_open_title" />
+
+        <ListPreference
+            android:key="wallpaper_intra_close"
+            android:title="@string/wallpaper_intra_close_title" />
+
+     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="anim_misc"
+        android:title="@string/misc_title" >
+
+        <SwitchPreference
+            android:key="animation_no_override"
+            android:title="@string/title_animation_no_override"
+            android:summary="@string/summary_animation_no_override" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
