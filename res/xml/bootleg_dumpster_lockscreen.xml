@@ -52,6 +52,10 @@
             android:summary="@string/lockscreen_battery_info_summary" 
             android:defaultValue="true" />
         
+        <Preference
+            android:key="lockscreen_weather"
+            android:title="@string/lockscreen_weather_title"
+            android:fragment="com.bootleggers.dumpster.LockScreenWeatherSettings" />
      </PreferenceCategory>
 
 </PreferenceScreen>
