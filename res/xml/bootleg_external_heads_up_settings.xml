@@ -33,4 +33,16 @@
         android:entryValues="@array/heads_up_snooze_values"
         android:persistent="false" />
 
+    <PreferenceCategory
+        android:title="@string/heads_up_blacklist_title"
+        android:key="blacklist_applications" >
+
+        <Preference
+            android:key="add_blacklist_packages"
+            android:icon="@drawable/ic_add_24dp"
+            android:title="@string/add_heads_up_package"
+            android:summary="@string/add_heads_up_blacklist_summary" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
