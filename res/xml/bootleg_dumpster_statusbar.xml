@@ -39,6 +39,19 @@
      </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="statusbar_battery_icon"
+        android:title="@string/battery_style_category_title">
+
+    <ListPreference
+        android:key="status_bar_show_battery_percent"
+        android:title="@string/status_bar_battery_percentage_title"
+        android:dialogTitle="@string/status_bar_battery_percentage_title"
+        android:entries="@array/status_bar_battery_percentage_entries"
+        android:entryValues="@array/status_bar_battery_percentage_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="statusbar_custom_clock"
         android:title="@string/date_and_time">
 
