@@ -34,4 +34,21 @@
     <dimen name="floating_widget_view_padding">10dp</dimen>
     <dimen name="floating_widget_window_padding">10dp</dimen>
 
+    <!-- FAB Dimensions -->
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+    <dimen name="fab_elevation_normal">8dp</dimen>
+    <dimen name="fab_elevation_pressed">6dp</dimen>
+
+    <!-- Icon pack picker -->
+    <dimen name="alert_dialog_padding_material">20dp</dimen>
+
+    <!-- Shortcut picker -->
+    <dimen name="shortcut_picker_left_padding">70dip</dimen>
+
+    <!-- Color engine -->
+    <dimen name="theme_preview_actionbar_size">15dp</dimen>
+    <dimen name="theme_color_margin_side">20dp</dimen>
+
 </resources>
