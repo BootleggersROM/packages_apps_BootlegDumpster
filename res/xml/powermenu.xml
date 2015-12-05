@@ -40,6 +40,11 @@
         android:defaultValue="false" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_screenrecord"
+        android:title="@string/powermenu_screenrecord"
+        android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="powermenu_airplane"
         android:title="@string/powermenu_airplane"
         android:defaultValue="false" />
