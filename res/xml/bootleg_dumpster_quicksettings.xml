@@ -34,6 +34,13 @@
         android:defaultValue="true"/>
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="qs_show_brightness_icon"
+        android:title="@string/brightness_icon_title"
+        android:summary="@string/brightness_icon_summary"
+        android:dependency="qs_show_brightness_slider"
+        android:defaultValue="false"/>
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="qs_running_services_toggle"
         android:title="@string/qs_running_services_title"
         android:summary="@string/qs_running_services_summary"
