@@ -155,4 +155,8 @@
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
+    <!-- Brightness icon-->
+    <string name="brightness_icon_title">Brightness icon </string>
+    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+
 </resources>
