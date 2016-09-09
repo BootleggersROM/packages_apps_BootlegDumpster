@@ -196,4 +196,8 @@
     <string name="statusbar_items_title">Statusbar icons</string>
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 
+    <!-- App icon on Toast -->
+    <string name="toast_icon_title">App\'s icon in toast</string>
+    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+
 </resources>
