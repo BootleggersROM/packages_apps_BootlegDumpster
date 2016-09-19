@@ -829,4 +829,8 @@
     <string name="bootleg_logo_summary">Add our custom logo on your statusbar to brag about what ROM are you on</string>
     <string name="status_bar_logo_style_title">Custom bootleg logo style</string>
 
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Hide apps from recents</string>
+    <string name="hide_apps_from_recents_summary">Prevent apps from appearing in recents</string>
+    <string name="hide_from_recents_add_app">Add app</string>
 </resources>
