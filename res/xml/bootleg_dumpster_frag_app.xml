@@ -28,6 +28,14 @@
         android:summary="@string/app_volume_summary"
         android:defaultValue="false" />
 
+    <!-- Live volume steps -->
+    <PreferenceScreen
+        android:key="volume_steps"
+        android:icon="@drawable/ic_settings_sound"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.bootleggers.dumpster.fragments.VolumeSteps" />
+
    </PreferenceCategory>
 
 </PreferenceScreen>
