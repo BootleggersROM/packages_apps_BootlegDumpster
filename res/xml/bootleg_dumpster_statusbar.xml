@@ -153,6 +153,12 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
+    <Preference
+        android:key="battery_bar_settings"
+        android:title="@string/battery_bar_title"
+        android:summary="@string/battery_bar_summary"
+        android:fragment="com.bootleggers.dumpster.external.BatteryBar" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
