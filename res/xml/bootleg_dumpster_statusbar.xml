@@ -115,6 +115,12 @@
         android:key="statusbar_misc_cat"
         android:title="@string/misc_title">
 
+    <Preference
+        android:key="carrier_label"
+        android:fragment="com.bootleggers.dumpster.external.CarrierLabel"
+        android:title="@string/carrier_category"
+        android:summary="@string/carrier_label_settings_summary" />
+
      <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_title"
