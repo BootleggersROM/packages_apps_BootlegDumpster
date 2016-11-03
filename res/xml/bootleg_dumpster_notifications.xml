@@ -18,4 +18,10 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="heads_up_settings"
+        android:title="@string/heads_up_cat_title"
+        android:summary="@string/heads_up_cat_summary"
+        android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings" />
+
 </PreferenceScreen>
