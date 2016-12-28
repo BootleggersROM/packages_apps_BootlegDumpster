@@ -28,6 +28,12 @@
         android:summary="@string/media_art_summary"
         android:defaultValue="true" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary" 
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
 
