@@ -28,6 +28,11 @@
         android:summary="@string/smart_pixels_summary"
         android:fragment="com.bootleggers.dumpster.external.SmartPixels" />
 
+      <Preference
+        android:key="screenstate_category"
+        android:title="@string/screen_state_toggles_title" 
+        android:fragment="com.bootleggers.dumpster.external.ScreenStateToggles" />
+
     </PreferenceCategory>
 
     <!--<PreferenceCategory
