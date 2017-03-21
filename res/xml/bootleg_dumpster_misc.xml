@@ -30,6 +30,11 @@
          android:summary="@string/log_it_summary"
          android:fragment="com.bootleggers.dumpster.external.LogIt" />
 
+      <Preference
+        android:key="screenstate_category"
+        android:title="@string/screen_state_toggles_title" 
+        android:fragment="com.bootleggers.dumpster.external.ScreenStateToggles" />
+
     <PreferenceCategory
         android:key="misc_settings_related"
         android:title="@string/misc_settings_cat_title">
