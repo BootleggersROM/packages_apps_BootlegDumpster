@@ -261,4 +261,8 @@
     <string name="media_art_title">Show media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
+    <!-- Launch music on headphones connected -->
+    <string name="headset_connect_player_title">Launch music app on headset connection</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+
 </resources>
