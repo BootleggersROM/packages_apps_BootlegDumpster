@@ -136,6 +136,10 @@
     <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">Pulldown statusbar from right side to show QS panel</string>
 
+    <!-- Features Strings - Miscellaneous -->
+    <string name="headset_connect_player_title">Launch music app on headset connection</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
+
     <!-- Features Strings - StatusBar -->
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>

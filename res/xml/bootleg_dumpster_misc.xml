@@ -22,6 +22,12 @@
         android:key="misc_general_idk"
         android:title="@string/general_system_stuff_preference">
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="headset_connect_player"
+        android:title="@string/headset_connect_player_title"
+        android:summary="@string/headset_connect_player_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
 
