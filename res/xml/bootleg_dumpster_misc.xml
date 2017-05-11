@@ -28,6 +28,12 @@
         android:summary="@string/headset_connect_player_summary"
         android:defaultValue="true" />
 
+    <Preference
+        android:key="headset_options"
+        android:title="@string/headset_title"
+        android:title="@string/bootleg_external_summary"
+        android:fragment="com.bootleggers.dumpster.external.Headset" />
+
     </PreferenceCategory>
 
 
