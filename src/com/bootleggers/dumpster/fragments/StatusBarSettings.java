@@ -26,7 +26,7 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.Utils;
+import com.bootleggers.dumpster.extra.Utils;
 import android.util.Log;
 
 import java.util.List;
@@ -38,6 +38,16 @@ import java.util.Collections;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    // Categories
+    private static final String KEY_CAT_ICONS = "statusbar_icons_cat";
+
+    private PreferenceCategory mIconsCat;
+
+    // Preferences
+    private static final String KEY_SHOW_FOURG = "show_fourg_icon";
+
+    private SwitchPreference mShowFourg;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -46,6 +56,12 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefSet = getPreferenceScreen();
 
+        mIconsCat = (PreferenceCategory) prefSet.findPreference(KEY_CAT_ICONS);
+        mShowFourg = (SwitchPreference) mIconsCat.findPreference(KEY_SHOW_FOURG);
+
+        if (!Utils.isVoiceCapable(getActivity())) {
+            mIconsCat.removePreference(mShowFourg);
+        }
     }
 
     @Override

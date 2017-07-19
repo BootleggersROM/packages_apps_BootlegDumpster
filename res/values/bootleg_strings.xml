@@ -202,4 +202,8 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Status bar icons</string>
     <string name="statusbar_items_summary">Tune and toggle your icons</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Show 4G icon</string>
+    <string name="show_fourg_icon_summary">Display the 4G icon on the signal icon instead of LTE</string>
 </resources>
