@@ -28,6 +28,7 @@ import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -39,6 +40,8 @@ public class OldTicker extends SettingsPreferenceFragment implements
 
     private ListPreference mTickerMode;
     private ListPreference mLogoStyle;
+    private ColorPickerPreference mStatusBarLogoColor;
+    static final int DEFAULT_LOGO_COLOR = 0xff009688;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

@@ -269,4 +269,6 @@
     <!-- Bootleggers statusbar logos -->
     <string name="status_bar_logo_title">Bootleg logo</string>
     <string name="status_bar_logo_summary">Enable to show Bootleg logo on statusbar</string>
+    <string name="status_bar_logo_style_title">Bootleggers logo style</string>
+    <string name="status_bar_logo_color_title">Select color</string>
 </resources>

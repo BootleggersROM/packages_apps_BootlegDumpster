@@ -19,6 +19,7 @@ import android.support.v14.preference.PreferenceFragment;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.settings.R;
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 import java.util.Locale;
 import android.text.TextUtils;
@@ -37,6 +38,10 @@ import java.util.Collections;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private ListPreference mLogoStyle;
+    private ColorPickerPreference mStatusBarLogoColor;
+    static final int DEFAULT_LOGO_COLOR = 0xff009688;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -51,6 +56,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 0, UserHandle.USER_CURRENT);
         mLogoStyle.setValue(String.valueOf(logoStyle));
         mLogoStyle.setSummary(mLogoStyle.getEntry());
+        
+        mStatusBarLogoColor = (ColorPickerPreference) findPreference("status_bar_logo_color");
+        mStatusBarLogoColor.setOnPreferenceChangeListener(this);
+        int intColor = Settings.System.getInt(getContentResolver(),
+                Settings.System.STATUS_BAR_LOGO_COLOR, DEFAULT_LOGO_COLOR);
+        String hexColor = String.format("#%08x", (DEFAULT_LOGO_COLOR & intColor));
+        mStatusBarLogoColor.setSummary(hexColor);
+        mStatusBarLogoColor.setNewPreviewColor(intColor);
     }
 
     @Override
@@ -63,7 +76,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 mLogoStyle.setSummary(
                         mLogoStyle.getEntries()[index]);
                 return true;
-            }
+        } else if (preference.equals(mStatusBarLogoColor)) {
+            String hex = ColorPickerPreference.convertToARGB(
+                    Integer.valueOf(String.valueOf(newValue)));
+            preference.setSummary(hex);
+            int intHex = ColorPickerPreference.convertToColorInt(hex);
+            Settings.System.putInt(resolver,
+                    Settings.System.STATUS_BAR_LOGO_COLOR, intHex);
+            return true;
+         }
         return false;
     }
 

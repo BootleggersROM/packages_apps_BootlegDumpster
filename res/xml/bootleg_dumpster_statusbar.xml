@@ -31,6 +31,13 @@
         android:summary="%s"
         android:title="@string/status_bar_logo_style_title" />
      
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="status_bar_logo_color"
+        android:title="@string/status_bar_logo_color_title"
+        android:defaultValue="0xff009688"
+        android:dependency="status_bar_logo" />
+        
+        
      <Preference
        android:key="systemui_tuner_statusbar"
        android:title="@string/statusbar_items_title"
