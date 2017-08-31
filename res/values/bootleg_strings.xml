@@ -97,4 +97,9 @@
     <string name="recents_clear_all_location_bottom_right">Bottom right</string>
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    
+    <!--DT2S on stuff -->
+    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
+    
+    
 </resources>
