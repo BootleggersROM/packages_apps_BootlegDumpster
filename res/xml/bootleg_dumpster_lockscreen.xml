@@ -17,5 +17,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+     
+    <PreferenceCategory
+        android:key="lockscreen_misc"
+        android:title="@string/misc_title">
+         
+         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+             android:key="double_tap_sleep_lockscreen"
+             android:title="@string/double_tap_sleep_lockscreen"
+             android:defaultValue="true" />
+        
+     </PreferenceCategory>
 
 </PreferenceScreen>
