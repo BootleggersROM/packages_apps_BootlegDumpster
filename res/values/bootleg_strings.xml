@@ -105,5 +105,6 @@
     <!--DT2S on stuff -->
     <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
     
-    
+    <!-- Volume Rocker related strings -->
+    <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
 </resources>
