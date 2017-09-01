@@ -22,6 +22,12 @@
         android:key="hw_volume_keys"
         android:title="@string/volume_title">
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

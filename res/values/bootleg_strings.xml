@@ -119,4 +119,8 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!-- Features Strings -->
+    <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
+    <string name="swap_volume_buttons_summary">Change the order of volume buttons according of screen rotation</string>
 </resources>
