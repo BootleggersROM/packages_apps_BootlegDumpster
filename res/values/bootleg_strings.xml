@@ -125,6 +125,8 @@
     <string name="swap_volume_buttons_summary">Change the order of volume buttons according of screen rotation</string>
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
     <string name="volume_keys_control_media_stream_summary">The volume keys will control media volume instead of ringtone</string>
+    <string name="volume_rocker_music_controls_title">Volume Keys as Music Controls</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
     <!-- Features Strings - QuickSettings -->
     <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
