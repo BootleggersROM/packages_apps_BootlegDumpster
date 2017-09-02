@@ -28,6 +28,13 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_media_metadata"
+        android:title="@string/media_art_title"
+        android:summary="@string/media_art_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
 
