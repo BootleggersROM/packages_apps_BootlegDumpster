@@ -22,10 +22,16 @@
         android:key="lockscreen_misc"
         android:title="@string/misc_title">
          
-         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-             android:key="double_tap_sleep_lockscreen"
-             android:title="@string/double_tap_sleep_lockscreen"
-             android:defaultValue="true" />
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/double_tap_sleep_lockscreen"
+            android:defaultValue="true" />
+            
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_media_metadata"
+            android:title="@string/media_art_title"
+            android:summary="@string/media_art_summary"
+            android:defaultValue="false" />
         
      </PreferenceCategory>
 
