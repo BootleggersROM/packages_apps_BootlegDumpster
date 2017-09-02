@@ -128,6 +128,10 @@
     <string name="volume_rocker_music_controls_title">Volume Keys as Music Controls</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
+    <!-- Features Strings - Lockscreen -->
+    <string name="media_art_title">Show media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
     <!-- Features Strings - QuickSettings -->
     <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">Pulldown statusbar from right side to show QS panel</string>

@@ -22,6 +22,12 @@
         android:key="locksect_ui"
         android:title="@string/general_ui_tweaks_preference">
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_media_metadata"
+        android:title="@string/media_art_title"
+        android:summary="@string/media_art_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
 
