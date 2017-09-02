@@ -281,6 +281,9 @@
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
     <string name="screen_off_animation_title">Screen off animation</string>
+    <!-- MTP Dirty Hack -->
+    <string name="enable_mtp_dirtyhack_title">Transfer Files instead of Charging</string>
+    <string name="enable_mtp_dirtyhack_summary">Default to MTP instead of Charging when connected to a PC</string>
     <!-- Suspend Actions -->
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Suspend Actions</string>

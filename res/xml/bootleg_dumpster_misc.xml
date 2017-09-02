@@ -47,6 +47,12 @@
         android:entryValues="@array/screen_off_animation_values"
         android:persistent="false"/>
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="mtp_dirty_hack"
+        android:title="@string/enable_mtp_dirtyhack_title"
+        android:summary="@string/enable_mtp_dirtyhack_summary"
+        android:defaultValue="true" />
+
     <PreferenceScreen
         android:key="suspend_actions"
         android:title="@string/screen_state_toggles_title"
