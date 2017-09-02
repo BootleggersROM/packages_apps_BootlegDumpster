@@ -102,6 +102,12 @@
         android:summary="@string/wakelock_blocker_summary" />
 
     <Preference
+        android:key="alarm_blocker"
+        android:fragment="com.bootleggers.dumpster.external.AlarmBlocker"
+        android:title="@string/alarm_blocker"
+        android:summary="@string/alarm_blocker_summary" />
+
+    <Preference
         android:title="@string/app_ops_settings"
         android:fragment="com.android.settings.applications.AppOpsSummary"/>
 
