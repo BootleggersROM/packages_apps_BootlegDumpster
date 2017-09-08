@@ -21,6 +21,13 @@
     <PreferenceCategory
         android:key="lockscreen_misc"
         android:title="@string/misc_title">
+        
+        <Preference
+            android:title="@string/lockscreen_tuner_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
+        </Preference>
          
         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_lockscreen"
