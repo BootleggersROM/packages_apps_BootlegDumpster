@@ -139,4 +139,11 @@
     <string name="status_bar_battery_saver_color_title">Statusbar battery saver color</string>
     <string name="status_bar_battery_saver_color_summary">Note: If battery saver already enabled, for new color be effective, disbale and renable battery saver!</string>
 
+    <!-- QS rows and columns -->
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+
 </resources>
