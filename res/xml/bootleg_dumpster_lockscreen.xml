@@ -22,6 +22,12 @@
         android:key="locksect_ui"
         android:title="@string/general_ui_tweaks_preference">
 
+    <Preference
+            android:title="@string/lockscreen_tuner_title" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
+    </Preference>
     </PreferenceCategory>
 
 

@@ -194,5 +194,6 @@
 
     <!-- SystemUITuner -->
     <string name="statusbar_items_title">Statusbar icons</string>
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 
 </resources>
