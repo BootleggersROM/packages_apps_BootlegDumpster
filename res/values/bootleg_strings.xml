@@ -202,8 +202,8 @@
     <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-
-    <!-- Features Settings - Notifications -->
+    
+    <!-- Features Strings - Notifications -->
     <string name="light_category">Lights</string>
     <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_settings_summary">Enable and configure how the LED should work</string>
@@ -216,6 +216,7 @@
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <string name="notification_light_settings">Notifications light</string>
+    <string name="statusbar_items_title">Statusbar items</string> 
     
     <!-- Features Strings - Power Menu -->
     <string name="powermenu_title">Power menu</string>
