@@ -240,6 +240,12 @@
     <string name="smart_pulldown_none">no notifications</string>
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
+    <!-- QS Rows and such -->
+    <string name="qs_rows_columns_title">QS rows and columns</string>
+    <string name="qs_rows_title">Rows</string>
+    <string name="qs_columns_title">Columns</string>
+    <string name="qs_rowscol_portrait_title">Portrait</string>
+    <string name="qs_rowscol_landscape_title">Landscape</string>
 
     <!-- Volume keys control media -->
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
