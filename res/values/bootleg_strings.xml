@@ -191,4 +191,8 @@
     <string name="hide_apps_from_recents_title">Hidden apps</string>
     <string name="hide_from_recents_add_app">Add App</string>
     <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
+
+    <!-- SystemUITuner -->
+    <string name="statusbar_items_title">Statusbar icons</string>
+
 </resources>
