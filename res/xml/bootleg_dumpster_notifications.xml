@@ -18,4 +18,15 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/light_category">
+
+        <Preference
+             android:key="battery_charging_light"
+             android:fragment="com.bootleggers.dumpster.external.LedSettings"
+             android:title="@string/battery_light_settings" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
