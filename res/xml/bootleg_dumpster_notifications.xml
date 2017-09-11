@@ -19,6 +19,17 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/light_category">
+
+     <Preference
+         android:key="battery_charging_light"
+         android:fragment="com.bootleggers.dumpster.external.BatteryLightSettings"
+         android:title="@string/battery_light_settings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="notifs_random_misc"
         android:title="@string/misc_title">
 
