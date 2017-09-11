@@ -17,5 +17,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+        <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/light_category">
+
+     <Preference
+         android:key="battery_charging_light"
+         android:fragment="org.aospextended.extensions.BatteryLightSettings"
+         android:title="@string/battery_light_settings" />
+
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
