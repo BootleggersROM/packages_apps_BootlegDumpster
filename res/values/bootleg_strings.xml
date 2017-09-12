@@ -228,6 +228,7 @@
     <string name="file_header_select_summary">Select custom image</string>
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_provider" translatable="false">file</string>
+    <string name="qs_tile_title_visibility_title">Show tiles title</string>
 
     <!-- Features Strings - Miscellaneous -->
     <string name="headset_connect_player_title">Launch music app on headset connection</string>
