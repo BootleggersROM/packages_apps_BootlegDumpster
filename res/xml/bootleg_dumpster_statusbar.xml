@@ -28,6 +28,11 @@
              android:summary="@string/show_fourg_icon_summary"
              android:defaultValue="false"/>
 
+    <Preference
+        android:key="network_traffic"
+        android:title="@string/network_traffic_title"
+        android:fragment="com.bootleggers.dumpster.external.NetworkTraffic" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
