@@ -47,6 +47,11 @@
             android:defaultValue="true"/>
 
     <Preference
+        android:key="traffic"
+        android:title="@string/network_traffic_title"
+        android:fragment="com.bootleggers.dumpster.external.Traffic" />
+
+    <Preference
             android:title="@string/statusbar_tuner_title"
             android:summary="@string/statusbar_tuner_summary">
         <intent android:action="android.intent.action.MAIN"
