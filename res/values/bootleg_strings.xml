@@ -517,4 +517,7 @@
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_provider" translatable="false">file</string>
 
+    <!-- Show QS tile title -->
+    <string name="qs_tile_title_visibility_title">Show tiles title</string>
+
 </resources>
