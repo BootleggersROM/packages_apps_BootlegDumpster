@@ -22,6 +22,11 @@
         android:key="statusbar_custom_uitweaks"
         android:title="@string/general_ui_tweaks_preference">
 
+    <Preference
+        android:key="network_traffic"
+        android:title="@string/network_traffic_title"
+        android:fragment="com.bootleggers.dumpster.external.NetworkTraffic" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
