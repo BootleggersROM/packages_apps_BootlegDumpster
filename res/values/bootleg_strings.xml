@@ -129,7 +129,13 @@
     <string name="headset_connect_player_bt_no_carkit">When BT headset (no carkit) is plugged in</string>
     <string name="headset_connect_player_bt">When BT headset is plugged in</string>
     <string name="headset_connect_player_both_no_carkit">When wired or BT headset (no carkit) is plugged in</string>
-    <string name="headset_connect_player_both">When wired or BT headset is plugged in</string>    
+    <string name="headset_connect_player_both">When wired or BT headset is plugged in</string>  
+    
+    
+    <!-- Headset ringtone audio focus -->
+    <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
+    <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
+    <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
 
     <!-- Toast icon -->
     <string name="toast_icon_title">App\'s icon in toast</string>
