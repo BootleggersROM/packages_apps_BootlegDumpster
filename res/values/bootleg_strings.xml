@@ -131,6 +131,8 @@
     <!-- Features Strings - Lockscreen -->
     <string name="media_art_title">Show media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="lockscreen_power_menu_disabled_title">No power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
 
     <!-- Features Strings - QuickSettings -->
     <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
