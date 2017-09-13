@@ -38,8 +38,10 @@ public class Headset extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String HEADSET_CONNECT_PLAYER = "headset_connect_player";
+    private static final String RINGTONE_FOCUS_MODE = "ringtone_focus_mode";
 
     private ListPreference mLaunchPlayerHeadsetConnection;
+    private ListPreference mHeadsetRingtoneFocus;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -55,6 +57,13 @@ public class Headset extends SettingsPreferenceFragment implements
         mLaunchPlayerHeadsetConnection.setValue(Integer.toString(mLaunchPlayerHeadsetConnectionValue));
         mLaunchPlayerHeadsetConnection.setSummary(mLaunchPlayerHeadsetConnection.getEntry());
         mLaunchPlayerHeadsetConnection.setOnPreferenceChangeListener(this);
+
+        mHeadsetRingtoneFocus = (ListPreference) findPreference(RINGTONE_FOCUS_MODE);
+        int mHeadsetRingtoneFocusValue = Settings.Global.getInt(resolver,
+                Settings.Global.RINGTONE_FOCUS_MODE, 0);
+        mHeadsetRingtoneFocus.setValue(Integer.toString(mHeadsetRingtoneFocusValue));
+        mHeadsetRingtoneFocus.setSummary(mHeadsetRingtoneFocus.getEntry());
+        mHeadsetRingtoneFocus.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -76,6 +85,14 @@ public class Headset extends SettingsPreferenceFragment implements
                     mLaunchPlayerHeadsetConnection.getEntries()[index]);
             Settings.System.putIntForUser(resolver, Settings.System.HEADSET_CONNECT_PLAYER,
                     mLaunchPlayerHeadsetConnectionValue, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mHeadsetRingtoneFocus) {
+            int mHeadsetRingtoneFocusValue = Integer.valueOf((String) newValue);
+            int index = mHeadsetRingtoneFocus.findIndexOfValue((String) newValue);
+            mHeadsetRingtoneFocus.setSummary(
+                    mHeadsetRingtoneFocus.getEntries()[index]);
+            Settings.Global.putInt(resolver, Settings.Global.RINGTONE_FOCUS_MODE,
+                    mHeadsetRingtoneFocusValue);
             return true;
         }
         return false;
