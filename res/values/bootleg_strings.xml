@@ -149,6 +149,10 @@
     
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">No power menu when locked</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>git 
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
+    
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
 </resources>
