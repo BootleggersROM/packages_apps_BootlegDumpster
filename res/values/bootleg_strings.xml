@@ -272,4 +272,8 @@
     <string name="headset_connect_player_both">When wired or BT headset is plugged in</string>
     <string name="headset_title">Headset connection settings</string>
 
+    <!-- Led on apps string -->
+    <string name="notification_light_settings">LED on Apps</string>
+    <string name="notification_light_settings_summary">Enable which apps can use the LED</string>
+
 </resources>
