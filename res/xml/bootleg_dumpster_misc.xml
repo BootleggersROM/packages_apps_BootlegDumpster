@@ -51,5 +51,8 @@
         android:title="@string/vibration_on_charge_state_changed_title"
         android:summary="@string/vibration_on_charge_state_changed_summary"
         android:defaultValue="true" />
-        
+    
+    <Preference
+        android:title="@string/app_ops_settings"
+        android:fragment="com.android.settings.applications.AppOpsSummary"/>
 </PreferenceScreen>
