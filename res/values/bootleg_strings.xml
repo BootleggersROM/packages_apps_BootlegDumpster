@@ -161,6 +161,7 @@
     <string name="powermenu_lockdown">Lock Down</string>
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
+    <string name="powermenu_torch">Flashlight</string>
 
     <!-- Features Strings - StatusBar -->
     <!-- 4G icon -->
