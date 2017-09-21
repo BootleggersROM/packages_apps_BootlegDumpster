@@ -151,9 +151,11 @@
     <string name="lockscreen_power_menu_disabled_title">No power menu when locked</string>
     <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
     
-    <!-- Wake on Plug -->
+    <!-- On Plug Stuff -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="vibration_on_charge_state_changed_title">Vibrate on plug</string>
+    <string name="vibration_on_charge_state_changed_summary">Vibrate when connecting or disconnecting a power source</string>
 
     <!-- Brightness icon-->
     <string name="brightness_icon_title">Brightness icon </string>
