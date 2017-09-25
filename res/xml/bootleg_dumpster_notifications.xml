@@ -32,4 +32,16 @@
             android:title="@string/notification_light_settings" />
     </PreferenceCategory>
 
+    <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:title="@string/heads_up_notifications"
+            android:summaryOn="@string/summary_heads_up_enabled"
+            android:summaryOff="@string/summary_heads_up_disabled"
+            android:defaultValue="false" />
+
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings" />
+
 </PreferenceScreen>
