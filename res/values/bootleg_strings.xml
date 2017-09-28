@@ -229,6 +229,9 @@
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_provider" translatable="false">file</string>
     <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 
     <!-- Features Strings - Miscellaneous -->
     <string name="headset_connect_player_title">Launch music app on headset connection</string>
