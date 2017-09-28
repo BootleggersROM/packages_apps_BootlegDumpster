@@ -309,4 +309,8 @@
     <string name="show_fourg_icon_title">4G icon on Statusbar</string>
     <string name="show_fourg_icon_summary">On signal icon, show 4G instead of LTE</string>
 
+    <!-- Small quick settings scroller -->
+    <string name="qqs_scroll_title">Scroll small QS tiles</string>
+    <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
+
 </resources>
