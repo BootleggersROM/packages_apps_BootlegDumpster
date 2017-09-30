@@ -127,6 +127,9 @@
     <string name="volume_keys_control_media_stream_summary">The volume keys will control media volume instead of ringtone</string>
     <string name="volume_rocker_music_controls_title">Volume Keys as Music Controls</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
 
     <!-- Features Strings - Lockscreen -->
     <string name="media_art_title">Show media cover art</string>
