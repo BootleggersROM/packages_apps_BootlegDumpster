@@ -97,11 +97,12 @@
         android:key="misc_settings_related"
         android:title="@string/misc_settings_cat_title">
 
-    <Preference
-        android:key="gaming_mode"
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="gaming_mode_master_switch"
+        android:fragment="com.bootleggers.dumpster.external.GamingMode"
         android:title="@string/gaming_mode_title"
         android:summary="@string/gaming_mode_summary"
-        android:fragment="com.bootleggers.dumpster.external.GamingMode" />
+        android:defaultValue="true" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="enable_conditions"

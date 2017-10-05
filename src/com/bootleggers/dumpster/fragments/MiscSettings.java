@@ -46,10 +46,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     private static final String KEY_ASPECT_RATIO_APPS_LIST_SCROLLER = "aspect_ratio_apps_list_scroller";
     private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
     private static final String CALL_SETTINGS_OPTIONS = "call_features";
+    private static final String GAMING_MODE_MASTER_SWITCH = "gaming_mode_master_switch";
 
     private AppMultiSelectListPreference mAspectRatioAppsSelect;
     private ScrollAppsViewPreference mAspectRatioApps;
     private ListPreference mFlashlightOnCall;
+    private SystemSettingMasterSwitchPreference mGamingMode;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -116,6 +118,11 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         if (!enableSmartPixels){
             overallPreferences.removePreference(smartPixelsPref);
         }
+
+        mGamingMode = (SystemSettingMasterSwitchPreference) findPreference(GAMING_MODE_MASTER_SWITCH);
+        mGamingMode.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.GAMING_MODE_MASTER_SWITCH, 1) == 1));
+        mGamingMode.setOnPreferenceChangeListener(this);
     }
 
     @Override
