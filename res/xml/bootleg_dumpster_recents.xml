@@ -36,6 +36,11 @@
         android:defaultValue="5"
         android:dependency="show_clear_all_recents" />
 
+    <Preference
+        android:key="recents_icon_pack"
+        android:title="@string/recents_icon_pack_title"
+        android:summary="@string/recents_icon_pack_summary" />
+
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
          android:key="systemui_recents_mem_display"
          android:title="@string/recents_show_membar_title"
