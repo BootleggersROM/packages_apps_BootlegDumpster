@@ -85,4 +85,6 @@
         <item>900000</item>
         <item>1200000</item>
     </string-array>
+    
+    <dimen name="alert_dialog_padding_material">20dp</dimen>
 </resources>
