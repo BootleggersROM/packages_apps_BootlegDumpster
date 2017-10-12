@@ -264,4 +264,9 @@
     <string name="ticker_disabled">Disabled</string>
     <string name="ticker_enabled">Notification ticker</string>
     <string name="ticker_media_enabled">Notification and music ticker</string>
+    
+
+    <!-- Bootleggers statusbar logos -->
+    <string name="status_bar_logo_title">Bootleg logo</string>
+    <string name="status_bar_logo_summary">Enable to show Bootleg logo on statusbar</string>
 </resources>
