@@ -35,5 +35,10 @@
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
         android:fragment="com.bootleggers.dumpster.HeadsUpSettings" />
+        
+    <Preference
+        android:key="old_ticker_notifications"
+        android:title="@string/ticker_mode_title"
+        android:fragment="com.bootleggers.dumpster.OldTicker" />
 
 </PreferenceScreen>
