@@ -28,7 +28,9 @@ import android.content.res.Resources;
 import android.database.ContentObserver;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.support.v7.preference.Preference;
+import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -70,10 +72,23 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private AlertDialog mDialog;
     private ListView mListView;
 
+    private SwitchPreference mSlimToggle;
+    private Preference mStockIconPacks;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.recents_settings);
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        mStockIconPacks = (Preference) findPreference("recents_icon_pack");
+        mSlimToggle = (SwitchPreference) findPreference("use_slim_recents");
+        boolean enabled = Settings.System.getIntForUser(
+                resolver, Settings.System.USE_SLIM_RECENTS, 0,
+                UserHandle.USER_CURRENT) == 1;
+        mSlimToggle.setChecked(enabled);
+        mStockIconPacks.setEnabled(!enabled);
+        mSlimToggle.setOnPreferenceChangeListener(this);
 
     }
 
@@ -83,12 +98,22 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mSlimToggle) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.USE_SLIM_RECENTS, value ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+            mSlimToggle.setChecked(value);
+            mStockIconPacks.setEnabled(!value);
+            return true;
+        }
         return false;
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == findPreference("recents_icon_pack")) {
+        if (preference == mStockIconPacks) {
             pickIconPack(getContext());
             return true;
         }
