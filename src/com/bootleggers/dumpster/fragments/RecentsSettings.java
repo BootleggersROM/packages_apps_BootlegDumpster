@@ -69,6 +69,9 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private ListPreference mRecentsType;
     private static final String RECENTS_TYPE = "recents_layout_style";
 
+    private SwitchPreference mSlimToggle;
+    private Preference mStockIconPacks;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -93,6 +96,16 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         mRecentsType.setValue(String.valueOf(style));
         mRecentsType.setSummary(mRecentsType.getEntry());
         mRecentsType.setOnPreferenceChangeListener(this);
+
+        mSlimToggle = (SwitchPreference) findPreference("use_slim_recents");
+        mStockIconPacks = (Preference) findPreference("recents_icon_pack");
+        boolean enabled = Settings.System.getIntForUser(
+                resolver, Settings.System.USE_SLIM_RECENTS, 0,
+                UserHandle.USER_CURRENT) == 1;
+        mSlimToggle.setChecked(enabled);
+        mStockIconPacks.setEnabled(!enabled);
+        mSlimToggle.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -112,14 +125,21 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             mRecentsType.setSummary(mRecentsType.getEntries()[index]);
             Utils.restartSystemUi(getContext());
         return true;
+        } else if (preference == mSlimToggle) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.USE_SLIM_RECENTS, value ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+            mSlimToggle.setChecked(value);
+            mStockIconPacks.setEnabled(!value);
+            return true;
         }
     return false;
-
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == findPreference("recents_icon_pack")) {
+        if (preference == mStockIconPacks) {
             pickIconPack(getContext());
             return true;
         }
