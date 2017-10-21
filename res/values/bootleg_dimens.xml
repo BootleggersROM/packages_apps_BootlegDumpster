@@ -114,4 +114,31 @@
         <item>2</item>
     </string-array>
 
+    <!-- Logos arrays, thanks to validus -->
+    <string-array name="status_bar_logo_style_entries">
+        <item>Bootleggers HOME</item>
+        <item>BTLG</item>
+        <item>Pitchblack Inspired</item>
+        <item>Quetzal Logo</item>
+        <item>Quetzal alt</item>
+        <item>Shishu</item>
+        <item>Shishu Builds</item>
+        <item>Themeable logo 1 (mdi cross)</item>
+        <item>Themeable logo 2 (mdi lightning)</item>
+        <item>Themeable logo 3 (mdi skull)</item>
+    </string-array>
+
+    <string-array name="status_bar_logo_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
 </resources>

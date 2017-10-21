@@ -38,6 +38,7 @@ public class OldTicker extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private ListPreference mTickerMode;
+    private ListPreference mLogoStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,7 +53,6 @@ public class OldTicker extends SettingsPreferenceFragment implements
                 1, UserHandle.USER_CURRENT);
         mTickerMode.setValue(String.valueOf(tickerMode));
         mTickerMode.setSummary(mTickerMode.getEntry());
-
     }
 
     @Override
@@ -75,8 +75,7 @@ public class OldTicker extends SettingsPreferenceFragment implements
             mTickerMode.setSummary(
                     mTickerMode.getEntries()[index]);
             return true;
-        }
-
+        } 
         return false;
     }
 }
