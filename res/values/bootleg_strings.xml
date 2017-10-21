@@ -323,6 +323,7 @@
     <string name="ticker_media_enabled">Notification and music ticker</string>
     <string name="status_bar_logo_title">Bootleg logo</string>
     <string name="status_bar_logo_summary">Enable to show Bootleg logo on statusbar</string>
+    <string name="status_bar_logo_style_title">Bootleg logo style</string>
 
     <!-- Features Strings - Recents -->
     <string name="recent_settings_title">Recents</string>
