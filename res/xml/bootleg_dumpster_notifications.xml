@@ -76,10 +76,4 @@
         android:dependency="heads_up_notifications_enabled"
         android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings" />
 
-    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-        android:key="status_bar_logo"
-        android:title="@string/status_bar_logo_title"
-        android:summary="@string/status_bar_logo_summary"
-        android:defaultValue="false"/>
-
 </PreferenceScreen>

@@ -307,6 +307,7 @@
     <string name="ticker_media_enabled">Notification and music ticker</string>
     <string name="status_bar_logo_title">Bootleg logo</string>
     <string name="status_bar_logo_summary">Enable to show Bootleg logo on statusbar</string>
+    <string name="status_bar_logo_style_title">Bootleg logo style</string>
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon on Statusbar</string>

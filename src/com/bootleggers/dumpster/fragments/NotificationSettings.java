@@ -71,7 +71,6 @@ public class NotificationSettings extends SettingsPreferenceFragment
                 1, UserHandle.USER_CURRENT);
         mTickerMode.setValue(String.valueOf(tickerMode));
         mTickerMode.setSummary(mTickerMode.getEntry());
-
     }
 
     @Override
