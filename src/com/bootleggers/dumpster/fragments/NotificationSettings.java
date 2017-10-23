@@ -34,6 +34,8 @@ public class NotificationSettings extends SettingsPreferenceFragment
     private Preference mChargingLeds;
     private SystemSettingSwitchPreference mLowBatteryBlinking;
 
+    private ListPreference mTickerMode;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -62,10 +64,28 @@ public class NotificationSettings extends SettingsPreferenceFragment
             prefSet.removePreference(mLedsCategory);
         }
 
+        mTickerMode = (ListPreference) findPreference("ticker_mode");
+        mTickerMode.setOnPreferenceChangeListener(this);
+        int tickerMode = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_SHOW_TICKER,
+                1, UserHandle.USER_CURRENT);
+        mTickerMode.setValue(String.valueOf(tickerMode));
+        mTickerMode.setSummary(mTickerMode.getEntry());
+
     }
-    
-    public boolean onPreferenceChange(Preference preference, Object value) {
-        if (preference == mLowBatteryBlinking) {
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference.equals(mTickerMode)) {
+            int tickerMode = Integer.parseInt(((String) newValue).toString());
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.STATUS_BAR_SHOW_TICKER, tickerMode, UserHandle.USER_CURRENT);
+            int index = mTickerMode.findIndexOfValue((String) newValue);
+            mTickerMode.setSummary(
+                    mTickerMode.getEntries()[index]);
+            return true;
+        } else if (preference == mLowBatteryBlinking) {
             boolean value = (Boolean) newValue;
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.BATTERY_LIGHT_LOW_BLINKING, value ? 1 : 0,
