@@ -54,6 +54,19 @@
             android:title="@string/notification_light_settings" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="ticker_notifications_category"
+        android:title="@string/ticker_screen_title">
+
+        <ListPreference
+            android:key="ticker_mode"
+            android:entries="@array/ticker_mode_entries"
+            android:entryValues="@array/ticker_mode_values"
+            android:summary="%s"
+            android:title="@string/ticker_mode_title" />
+
+    </PreferenceCategory>
+
     <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
             android:title="@string/heads_up_notifications"

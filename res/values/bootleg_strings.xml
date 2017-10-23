@@ -252,6 +252,12 @@
     <string name="heads_up_snooze_10min">10 minutes</string>
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
+    <!-- Statusbar ticker -->
+    <string name="ticker_screen_title">Ticker</string>
+    <string name="ticker_mode_title">Statusbar notification ticker</string>
+    <string name="ticker_disabled">Disabled</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notification and music ticker</string>
 
     <!-- Features Strings - Power Menu -->
     <string name="powermenu_optitle">Select Options</string>
