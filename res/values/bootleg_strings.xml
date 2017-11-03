@@ -109,6 +109,7 @@
     <!-- Specific categories -->
     <string name="lockscreen_ambient_preference">Ambient Display</string>
     <string name="misc_app_related_preference">Apps Related</string>
+    <string name="hardware_otherdevices">Hardware Keys and more</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -155,6 +156,10 @@
     <string name="button_timeout_title">Backlight timeout</string>
     <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
     <string name="button_backlight_on_touch_only_summary">Button backlight will only appear when buttons are pressed rather than on all the time. Timeout still impacts this feature.</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_category">Fingerprint</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 
     <!-- Features Strings - Lockscreen -->
     <string name="media_art_title">Show media cover art</string>
