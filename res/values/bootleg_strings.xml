@@ -366,6 +366,10 @@
     <!-- Heads up -->
     <string name="heads_up_cat_title">Heads up</string>
     <string name="heads_up_cat_summary">Snooze, timeout blacklist etc</string>
+    <string name="heads_up_title">Enable</string>
+    <string name="heads_up_summary_enabled">Heads up notifications are enabled</string>
+    <string name="heads_up_summary_disabled">Heads up notifications are disabled</string>
+    <string name="heads_up_advanced_title">Advanced Heads up options</string>
     <string name="heads_up_time_out_title">Time out</string>
     <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
     <string name="heads_up_time_out_2sec">2 seconds</string>
