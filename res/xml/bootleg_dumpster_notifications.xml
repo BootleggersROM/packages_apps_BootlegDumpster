@@ -30,10 +30,24 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/heads_up_cat_title"
+        android:key="notifs_headsup">
+
+    <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+        android:key="heads_up_notifications_enabled"
+        android:title="@string/heads_up_title"
+        android:summaryOn="@string/heads_up_summary_enabled"
+        android:summaryOff="@string/heads_up_summary_disabled"
+        android:defaultValue="true" />
+
     <Preference
         android:key="heads_up_settings"
         android:title="@string/heads_up_cat_title"
         android:summary="@string/heads_up_cat_summary"
+        android:dependency="heads_up_notifications_enabled"
         android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
