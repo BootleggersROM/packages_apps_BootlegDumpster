@@ -21,7 +21,7 @@
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
-            android:summary="@string/statusbar_title_summary"
+            android:summary="@string/statusbar_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/>
 
@@ -29,6 +29,7 @@
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
+            android:summary="@string/quicksettings_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
@@ -36,6 +37,7 @@
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
+            android:summary="@string/buttons_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
@@ -43,13 +45,15 @@
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
+            android:summary="@string/navbar_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Gestures -->
         <Preference
             android:key="gestures_category"
-            android:title="@string/gestures_title" 
+            android:title="@string/gestures_title"
+            android:summary="@string/gestures_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
 
@@ -57,6 +61,7 @@
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
+            android:summary="@string/lockscreen_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
@@ -64,6 +69,7 @@
         <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title" 
+            android:summary="@string/powermenu_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
@@ -71,6 +77,7 @@
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
+            android:summary="@string/recents_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.RecentsSettings"
             android:icon="@drawable/ic_settings_recents"/>
 
@@ -78,6 +85,7 @@
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
+            android:summary="@string/notifications_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
@@ -85,6 +93,7 @@
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title" 
+            android:summary="@string/misc_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
