@@ -12,8 +12,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="nitrogen_settings_title">Nitrogen Settings</string>
-
+    <string name="bootleg_dumpster_title">Bootleg Dumpster</string>
+    
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
@@ -26,6 +26,9 @@
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
+    
+    <!-- Summaries for categories -->
+    <string name="statusbar_title_summary">Wew sir u thug</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>

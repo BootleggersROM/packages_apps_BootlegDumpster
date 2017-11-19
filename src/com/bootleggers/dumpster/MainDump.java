@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.nitrogen.settings;
+package com.bootleggers.dumpster;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,18 +29,18 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class NitrogenSettings extends SettingsPreferenceFragment {
+public class MainDump extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.nitrogen_settings);
+        addPreferencesFromResource(R.xml.bootleg_dumpster);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.DUMPSTER;
     }
 
     public static void lockCurrentOrientation(Activity activity) {

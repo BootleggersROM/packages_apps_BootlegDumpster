@@ -20,7 +20,7 @@
 
     <PreferenceScreen
         android:key="volume_key"
-        android:fragment="com.nitrogen.settings.fragments.VolumeRockerSettings"
+        android:fragment="com.bootleggers.dumpster.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
 
 </PreferenceScreen>
