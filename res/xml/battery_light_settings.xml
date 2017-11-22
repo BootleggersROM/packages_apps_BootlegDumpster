@@ -23,7 +23,7 @@
         android:key="battery_light_allow_on_dnd"
         android:title="@string/battery_light_allow_on_dnd_title"
         android:dependency="battery_light_enabled"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="battery_light_low_blinking"

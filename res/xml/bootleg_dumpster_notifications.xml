@@ -17,5 +17,18 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    
+    <PreferenceCategory
+        android:key="light_category"
+        android:title="@string/led_configs_title">
+
+     <Preference
+         android:key="battery_charging_light"
+         android:fragment="com.bootleggers.dumpster.BatteryLightSettings"
+         android:title="@string/battery_light_settings"
+         android:summary="@string/battery_light_summary"/>
+
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
