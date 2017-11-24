@@ -22,7 +22,7 @@
         android:key="volume_rocker_configs"
         android:title="@string/volume_rocker_title">
 
-        <PreferenceScreen
+        <Preference
             android:key="volume_key"
             android:fragment="com.bootleggers.dumpster.fragments.VolumeRockerSettings"
             android:title="@string/volume_title" />

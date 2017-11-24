@@ -20,7 +20,8 @@
      
      <Preference
        android:key="systemui_tuner_statusbar"
-       android:title="@string/statusbar_title"
+       android:title="@string/statusbar_items_title"
+       android:summary="@string/statusbar_items_summary"
        android:icon="@drawable/ic_systemui_tuner_statusbaritems" >
        <intent android:action="android.intent.action.MAIN"
            android:targetPackage="com.android.systemui"

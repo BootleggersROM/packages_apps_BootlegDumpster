@@ -70,6 +70,10 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
     
+    <!--Statusbar Icons -->
+    <string name="statusbar_items_title">Statusbar Items</string>
+    <string name="statusbar_items_summary">Pick which icons you want to see on the statusbar</string>
+    
     <!-- Battery Light -->
     <string name="light_category">Lights</string>
     <string name="led_configs_title">LED Settings</string>

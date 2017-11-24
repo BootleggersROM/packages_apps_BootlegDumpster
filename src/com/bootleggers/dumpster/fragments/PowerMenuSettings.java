@@ -44,29 +44,11 @@ import java.util.List;
 public class PowerMenuSettings extends SettingsPreferenceFragment
                 implements Preference.OnPreferenceChangeListener {
 
-
-    private PreferenceCategory mLedsCategory;
-    private Preference mChargingLeds;
-
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.bootleg_dumpster_power);
-
-        final ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefSet = getPreferenceScreen();
-
-        mLedsCategory = (PreferenceCategory) findPreference("light_category");
-        mChargingLeds = (Preference) findPreference("battery_charging_light");
-        if (mChargingLeds != null
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            mLedsCategory.removePreference(mChargingLeds);
-        }
-          if (mChargingLeds == null) {
-            prefSet.removePreference(mLedsCategory);
-        }
 
     }
 
