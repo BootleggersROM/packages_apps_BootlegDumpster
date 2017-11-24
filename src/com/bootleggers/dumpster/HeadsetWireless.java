@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.gzr.wolvesden.fragments;
+package com.bootleggers.dumpster;
 
 import android.content.Context;
 import android.content.ContentResolver;
