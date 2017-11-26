@@ -102,10 +102,6 @@
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
     
-    <!--DT2S on stuff -->
-    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
-    <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
-    
     <!-- Volume Rocker related strings -->
     <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
