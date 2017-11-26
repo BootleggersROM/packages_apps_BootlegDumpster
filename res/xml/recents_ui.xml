@@ -35,6 +35,7 @@
         android:dependency="show_clear_all_recents" />
     <Preference
         android:key="recents_icon_pack"
+        android:fragment="com.bootelggers.dumpster.RecentsSettings"
         android:title="@string/recents_icon_pack_title"
         android:summary="@string/recents_icon_pack_summary" />
         

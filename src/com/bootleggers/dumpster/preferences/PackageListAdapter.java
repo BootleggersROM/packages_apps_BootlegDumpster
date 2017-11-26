@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.bootleggers.dumpster.preference;
+package com.bootleggers.dumpster.preferences;
 
 import android.content.Context;
 import android.content.Intent;

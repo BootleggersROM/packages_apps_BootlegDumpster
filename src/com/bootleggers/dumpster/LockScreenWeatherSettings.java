@@ -41,7 +41,7 @@ import com.android.internal.util.gzosp.PackageUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.gzr.wolvesden.preference.CustomSeekBarPreference;
+import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 import com.android.settings.Utils;
 
 import java.util.ArrayList;
