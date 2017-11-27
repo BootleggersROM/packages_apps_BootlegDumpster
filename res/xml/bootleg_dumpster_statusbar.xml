@@ -71,6 +71,11 @@
         android:fragment="com.bootleggers.dumpster.external.StatusBarClockSettings"
         android:title="@string/status_bar_clock_title" />
 
+    <Preference
+        android:key="status_bar_carrier"
+        android:fragment="com.bootleggers.dumpster.external.CarrierLabelSettings"
+        android:title="@string/carrier_category" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
