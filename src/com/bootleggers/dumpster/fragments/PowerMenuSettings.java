@@ -64,7 +64,7 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.DUMPSTER;
+        return MetricsProto.MetricsEvent.BOOTLEG;
     }
 
 }

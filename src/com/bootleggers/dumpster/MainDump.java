@@ -40,7 +40,7 @@ public class MainDump extends SettingsPreferenceFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.DUMPSTER;
+        return MetricsProto.MetricsEvent.BOOTLEG;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
