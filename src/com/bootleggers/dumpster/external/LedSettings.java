@@ -52,16 +52,6 @@ public class LedSettings extends SettingsPreferenceFragment implements
         PreferenceScreen prefSet = getPreferenceScreen();
         mColorCategory = (PreferenceCategory) findPreference("battery_light_cat");
 
-        mLowBatteryBlinking = (SystemSettingSwitchPreference)prefSet.findPreference("battery_light_low_blinking");
-        if (getResources().getBoolean(
-                        com.android.internal.R.bool.config_ledCanPulse)) {
-            mLowBatteryBlinking.setChecked(Settings.System.getIntForUser(getContentResolver(),
-                            Settings.System.BATTERY_LIGHT_LOW_BLINKING, 0, UserHandle.USER_CURRENT) == 1);
-            mLowBatteryBlinking.setOnPreferenceChangeListener(this);
-        } else {
-            prefSet.removePreference(mLowBatteryBlinking);
-        }
-
         if (getResources().getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed)) {
             int color = Settings.System.getIntForUser(getContentResolver(),
                     Settings.System.BATTERY_LIGHT_LOW_COLOR, 0xFFFF0000,
