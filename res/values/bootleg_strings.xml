@@ -136,6 +136,7 @@
     <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
     <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_tuner_summary">Change the bottom shortcuts on the LS</string>
 
     <!-- Features Strings - QuickSettings -->
     <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
@@ -203,7 +204,9 @@
     <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    
+    <string name="statusbar_items_title">Status bar icons</string>
+    <string name="statusbar_items_summary">Set which icons should appear on the status bar</string>
+
     <!-- Features Strings - Notifications -->
     <string name="light_category">Lights</string>
     <string name="battery_light_settings">Battery charging light</string>
@@ -216,9 +219,10 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
-    <string name="notification_light_settings">Notifications light</string>
-    <string name="statusbar_items_title">Statusbar items</string> 
+    <string name="notification_light_settings">LED on Apps</string>
+    <string name="notification_light_settings_summary">Enable which apps can use the LED</string>
     <string name="heads_up_notifications">Heads up</string>
+
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
     <string name="add_heads_up_package">Add app</string>
@@ -227,9 +231,10 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
-    
+
     <!-- Features Strings - Power Menu -->
-    <string name="powermenu_title">Power menu</string>
+    <string name="powermenu_optitle">Select Options</string>
+    <string name="powermenu_optsummary">Check which options should appear on the power menu</string>
     <string name="powermenu_screenshot">Screenshot</string>
     <string name="powermenu_power">Power</string>
     <string name="powermenu_restart">Restart</string>

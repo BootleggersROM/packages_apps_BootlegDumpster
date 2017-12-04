@@ -14,23 +14,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-        android:key="battery_light_enabled"
-        android:title="@string/battery_light_enable"
-        android:defaultValue="true"/>
-
-    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-        android:key="battery_light_allow_on_dnd"
-        android:title="@string/battery_light_allow_on_dnd_title"
-        android:dependency="battery_light_enabled"
-        android:defaultValue="false" />
-
-    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-        android:key="battery_light_low_blinking"
-        android:title="@string/battery_light_low_blinking_title"
-        android:dependency="battery_light_enabled"
-        android:defaultValue="false" />
-
     <PreferenceCategory
         android:key="battery_light_cat"
         android:title="@string/battery_light_cat"

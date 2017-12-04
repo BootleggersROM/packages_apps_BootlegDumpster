@@ -22,6 +22,28 @@
         android:key="light_category"
         android:title="@string/light_category">
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="battery_light_enabled"
+        android:title="@string/battery_light_enable"
+        android:defaultValue="true"/>
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="battery_light_allow_on_dnd"
+        android:title="@string/battery_light_allow_on_dnd_title"
+        android:dependency="battery_light_enabled"
+        android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="battery_light_low_blinking"
+        android:title="@string/battery_light_low_blinking_title"
+        android:dependency="battery_light_enabled"
+        android:defaultValue="false" />
+
+    <Preference
+                android:key="charging_light"
+                android:fragment="com.bootleggers.dumpster.external.LedSettings"
+                android:title="@string/battery_light_settings"
+                android:summary="@string/battery_light_settings_summary"/>
         <Preference
              android:key="battery_charging_light"
              android:fragment="com.bootleggers.dumpster.external.LedSettings"
@@ -41,7 +63,9 @@
 
     <Preference
         android:key="heads_up_notifications"
-        android:title="@string/heads_up_notifications"
-        android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings" />
+        android:title="@string/bootleg_advancedopt_title"
+        android:summary="@string/bootleg_external_summary"
+        android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings"
+        android:dependency="heads_up_notifications_enabled" />
 
 </PreferenceScreen>

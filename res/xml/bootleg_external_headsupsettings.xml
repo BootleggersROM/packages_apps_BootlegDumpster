@@ -17,8 +17,7 @@
 
     <PreferenceCategory
             android:title="@string/heads_up_stoplist_title"
-            android:key="stoplist_applications"
-            android:dependency="heads_up_notifications_enabled" >
+            android:key="stoplist_applications" >
         <Preference
             android:key="add_stoplist_packages"
             android:icon="@drawable/ic_menu_add"
