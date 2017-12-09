@@ -65,7 +65,6 @@
         android:summary="@string/screen_state_toggles_summary_opt"
         android:fragment="com.bootleggers.dumpster.external.SuspendActions" />
 
-
      <Preference
          android:title="@string/log_it_title"
          android:key="logit_section"
