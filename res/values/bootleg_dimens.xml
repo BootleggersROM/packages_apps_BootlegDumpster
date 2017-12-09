@@ -45,4 +45,8 @@
     <dimen name="theme_preview_actionbar_size">15dp</dimen>
     <dimen name="theme_color_margin_side">20dp</dimen>
 
+    <!-- Gesture Anywhere -->
+    <dimen name="ga_gesture_thumbnail_inset">8dip</dimen>
+    <dimen name="ga_gesture_thumbnail_size">64dip</dimen>
+
 </resources>
