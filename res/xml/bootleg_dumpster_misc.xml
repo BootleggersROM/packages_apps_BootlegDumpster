@@ -65,7 +65,6 @@
         android:summary="@string/screen_state_toggles_summary_opt"
         android:fragment="com.bootleggers.dumpster.external.SuspendActions" />
 
-
      <Preference
          android:title="@string/log_it_title"
          android:key="logit_section"
@@ -92,6 +91,12 @@
         android:entries="@array/listview_interpolator_entries"
         android:entryValues="@array/listview_interpolator_values"
         android:defaultValue="0" />
+
+    <Preference
+        android:key="gesture_anywhere"
+        android:title="@string/gesture_anywhere_title"
+        android:summary="@string/gesture_anywhere_summary"
+        android:fragment="com.bootleggers.dumpster.gestureanywhere.GestureAnywhereSettings" />
 
     </PreferenceCategory>
 
