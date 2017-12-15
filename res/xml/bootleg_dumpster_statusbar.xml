@@ -78,6 +78,11 @@
             android:dependency="status_bar_show_clock"
             android:fragment="com.bootleggers.dumpster.external.ClockDateSettings" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_sleep_gesture_title"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
