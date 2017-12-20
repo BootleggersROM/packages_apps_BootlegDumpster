@@ -76,7 +76,7 @@ public class GestureAnywhereSettings extends SettingsPreferenceFragment implemen
         mTriggerWidthPref.setOnPreferenceChangeListener(this);
 
         mTriggerTopPref = (CustomSeekBarPreference) findPreference(KEY_TRIGGER_TOP);
-        mTriggerWidthPref.setValue(Settings.System.getInt(getContentResolver(),
+        mTriggerTopPref.setValue(Settings.System.getInt(getContentResolver(),
                 Settings.System.GESTURE_ANYWHERE_TRIGGER_TOP, 0));
         mTriggerTopPref.setOnPreferenceChangeListener(this);
 
