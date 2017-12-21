@@ -16,8 +16,7 @@
 
     <PreferenceCategory
         android:key="battery_light_cat"
-        android:title="@string/battery_light_cat"
-        android:dependency="battery_light_enabled">
+        android:title="@string/battery_light_cat">
         <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="battery_light_low_color"
             android:title="@string/battery_light_low_color"

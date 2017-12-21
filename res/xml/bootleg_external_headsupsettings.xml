@@ -41,8 +41,7 @@
 
     <PreferenceCategory
             android:title="@string/heads_up_blacklist_title"
-            android:key="blacklist_applications"
-            android:dependency="heads_up_notifications_enabled" >
+            android:key="blacklist_applications" >
         <Preference
             android:key="add_blacklist_packages"
             android:icon="@drawable/ic_menu_add"

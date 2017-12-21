@@ -43,15 +43,18 @@
                 android:key="charging_light"
                 android:fragment="com.bootleggers.dumpster.external.LedSettings"
                 android:title="@string/battery_light_settings"
-                android:summary="@string/battery_light_settings_summary"/>
+                android:summary="@string/battery_light_settings_summary"
+                android:dependency="battery_light_enabled"/>
         <Preference
              android:key="battery_charging_light"
              android:fragment="com.bootleggers.dumpster.external.LedSettings"
-             android:title="@string/battery_light_settings" />
+             android:title="@string/battery_light_settings"
+             android:dependency="battery_light_enabled"/>
     <Preference
             android:key="notification_light"
             android:fragment="com.android.settings.applications.NotificationApps"
-            android:title="@string/notification_light_settings" />
+            android:title="@string/notification_light_settings" 
+            android:dependency="battery_light_enabled"/>
     </PreferenceCategory>
 
     <PreferenceCategory
