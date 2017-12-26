@@ -579,4 +579,11 @@
     <string name="smartbar_double_tap_sleep_title">Double tap to sleep</string>
     <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
 
+    <!-- Torch Power button gestures -->
+    <string name="power_category">Power Button</string>
+    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+
 </resources>

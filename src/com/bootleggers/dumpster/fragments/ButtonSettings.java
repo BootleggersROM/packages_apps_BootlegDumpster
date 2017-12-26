@@ -31,6 +31,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import com.android.internal.util.gzosp.GzospUtils;
 
 import com.android.settings.R;
 
@@ -42,6 +43,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener{
 
     private static final String SUBMENU_HWKEYS = "button_settings";
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -51,12 +53,28 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public static final int KEY_MASK_ASSIST = 0x08;
     public static final int KEY_MASK_APP_SWITCH = 0x10;
 
+    private ListPreference mTorchPowerButton;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.bootleg_dumpster_button);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        if (!GzospUtils.deviceHasFlashlight(getContext())) {
+            Preference toRemove = prefScreen.findPreference(TORCH_POWER_BUTTON_GESTURE);
+            if (toRemove != null) {
+                prefScreen.removePreference(toRemove);
+            }
+        } else {
+            mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+            int mTorchPowerButtonValue = Settings.Secure.getInt(resolver,
+                    Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0);
+            mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+            mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+            mTorchPowerButton.setOnPreferenceChangeListener(this);
+        }
 
         // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
@@ -83,7 +101,20 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-
+        if (preference == mTorchPowerButton) {
+            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
+            mTorchPowerButton.setSummary(
+                    mTorchPowerButton.getEntries()[index]);
+            Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.TORCH_POWER_BUTTON_GESTURE,
+                    mTorchPowerButtonValue);
+            if (mTorchPowerButtonValue == 1) {
+                //if doubletap for torch is enabled, switch off double tap for camera
+                Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
+                        1);
+            }
+            return true;
+        }
         return false;
     }
 
