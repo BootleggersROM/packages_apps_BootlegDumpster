@@ -683,5 +683,15 @@
     <string name="log_it_alert_title">What\'s this?</string>
     <string name="log_it_alert_faq">Maybe you\'re here and wondering \"What the hell is all this and what i have to send?\"\nWell, here\'s some info about the stuff you can send:\n\nLogcat: It\'s the way that Android outputs all system events, like errors, crashes, or even info about a process being run. Ideal for crashes and FCs.\n\nDmesg: It outputs some of the kernel messages, but filtering stuff that users may not care&#8230; if they do care\n\nKmesg: It\'s the same as Dmesg but without the filters, giving more info about all the kernel events. Ideal for random reboots.</string>
 
+    <!-- HW Keys, fingerprint and other stuff -->
+    <string name="hardware_otherdevices">Hardware Keys and more</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_category">Power Button</string>
+    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+
 </resources>
 

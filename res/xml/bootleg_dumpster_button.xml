@@ -48,9 +48,27 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="power_button"
+        android:title="@string/power_category">
+
+    <ListPreference
+        android:key="torch_power_button_gesture"
+        android:title="@string/torch_power_button_gesture_title"
+        android:entries="@array/torch_power_button_gesture_entries"
+        android:entryValues="@array/torch_power_button_gesture_values" />
+    
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="hw_fpandmore"
+        android:title="@string/hardware_otherdevices">
+
    <Preference
         android:key="button_settings"
         android:title="@string/button_pref_title"
         android:fragment="com.bootleggers.dumpster.external.HardwareKeys" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
