@@ -105,4 +105,12 @@
             android:fragment="com.bootleggers.dumpster.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
+        <!-- About the ROM -->
+        <Preference
+            android:key="aboutbootleg_category"
+            android:title="@string/about_bootleg_title" 
+            android:summary="@string/about_bootleg_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.AboutBootleggers"
+            android:icon="@drawable/ic_settings_bootlegdump_alt"/>
+
 </PreferenceScreen>
