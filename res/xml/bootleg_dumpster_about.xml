@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Nitrogen Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/about_bootleg_title"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+        android:title="@string/bootleg_pref_title_about_us"
+        android:key="pref_bootleg_aboutus">
+
+        <Preference
+            android:key="bootleg_whoami"
+            android:title="@string/bootleg_ab_title_whoami"
+            android:summary="@string/bootleg_ab_summary_whoami">
+        </Preference>
+
+        <Preference
+            android:key="bootleg_thanku"
+            android:title="@string/bootleg_ab_title_thankssec"
+            android:summary="@string/bootleg_ab_summary_thankssec">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://bootleggersrom.github.io/thanks" />
+        </Preference>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/bootleg_pref_title_romextras"
+        android:key="pref_bootleg_extras">
+
+        <Preference
+            android:key="bootleg_listfeatures"
+            android:title="@string/bootleg_ex_title_featurelist"
+            android:summary="@string/bootleg_ex_summary_featurelist">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/BootleggersROM/ExtraStuff/blob/master/Features.md#rom-features" />
+        </Preference>
+        
+        <Preference
+            android:key="bootleg_someaddons"
+            android:title="@string/bootleg_ex_title_addons"
+            android:summary="@string/bootleg_ex_summary_addons">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://bootleggersrom.github.io/romstuff/addons" />
+        </Preference>
+
+        <Preference
+            android:key="bootleg_sharemsg"
+            android:title="@string/bootleg_ex_title_sharemsg"
+            android:summary="@string/bootleg_ex_summary_sharemsg">
+        </Preference>
+    </PreferenceCategory>
+
+
+<!--    DUMPED BECAUSE OF THE POINTLESS OF I CAN'T SHOW STUFF FROM BUILD.PROP
+    <PreferenceCategory
+        android:title="@string/bootleg_pref_title_rominfo"
+        android:key="pref_bootleg_romstuff">
+
+        <ListPreference
+            android:key="bootleg_aboutbuild"
+            android:title="@string/bootleg_ri_title_buildtype"
+            android:summary="@string/bootleg_ri_summary_buildtype"/>
+
+        <ListPreference
+            android:key="bootleg_whoami"
+            android:title="@string/bootleg_ri_title_musicode"
+            android:summary="@string/bootleg_ri_summary_musicode"/>
+
+    </PreferenceCategory>
+        -->
+</PreferenceScreen>
