@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Nitrogen Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/bootleg_pref_moarstuff_title"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <PreferenceCategory
+        android:title="@string/bootleg_pref_moarstuff_info_title"
+        android:key="pref_bootleg_moreinfo">
+
+        <Preference
+            android:key="bootleg_moreblog"
+            android:title="@string/bootleg_moarstuff_blog_title"
+            android:summary="@string/bootleg_moarstuff_blog_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://bootleggersrom.github.io/blog" />
+        </Preference>
+
+        <Preference
+            android:key="bootleg_moregit"
+            android:title="@string/bootleg_moarstuff_git_title"
+            android:summary="@string/bootleg_moarstuff_git_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/BootleggersROM" />
+        </Preference>
+
+        <Preference
+            android:key="bootleg_morefaq"
+            android:title="@string/bootleg_moarstuff_faq_title"
+            android:summary="@string/bootleg_moarstuff_faq_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://bootleggersrom.github.io/faq" />
+        </Preference>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/bootleg_pref_moarstuff_social_title"
+        android:key="pref_bootleg_moresocial">
+        
+        <Preference
+            android:key="bootleg_moretg"
+            android:title="@string/bootleg_moarstuff_tg_title"
+            android:summary="@string/bootleg_moarstuff_tg_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://t.me/keepthebootleg" />
+        </Preference>
+
+        <Preference
+            android:key="bootleg_morecd"
+            android:title="@string/bootleg_moarstuff_cd_title"
+            android:summary="@string/bootleg_moarstuff_cd_back_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://crowdin.com/project/bootleggers-rom" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

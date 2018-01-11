@@ -49,6 +49,69 @@
     <string name="notifications_title">Notifications</string>
     <string name="notifications_settings_summary">Change how you can see those notifications</string>
 
+    <string name="about_bootleg_title">About Bootleggers</string>
+    <string name="about_bootleg_summary">Some info about us, just in case you\'re curious about it</string>
+    <string name="about_bootleg_small_title">About us</string>
+    <string name="about_bootleg_small_summary">Some more info about our project</string>
+
+    <!-- DUMPSTER - About Section strings -->
+    <string name="bootleg_pref_title_about_us" translatable="false">@string/about_bootleg_small_title</string>
+    <string name="bootleg_ab_title_whoami">What\'s Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers is a ROM packed with features and apps with the purpose of make your feel like 家. Hope you like it and enjoy our experience.</string>
+    <string name="bootleg_ab_title_thankssec">Thank you list</string>
+    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project. Also, huge thanks to %s for bring it for %s.</string>
+    <string name="bootleg_ab_summary_thanksclean">Touch here to see who made and inspired this project.</string>
+    <string name="bootleg_pref_title_romextras">Extras and Addons</string>
+    <string name="bootleg_ex_title_featurelist">Feature List</string>
+    <string name="bootleg_ex_summary_featurelist">Check the current list of features on this build</string>
+    <string name="bootleg_ex_title_addons">Addons and Downloads</string>
+    <string name="bootleg_ex_summary_addons">Recommended list of Themes and Mods from our part (a.k.a honest advertisement)</string>
+    <string name="bootleg_ex_title_sharemsg">Share our ROM</string>
+    <string name="bootleg_ex_summary_sharemsg">Make people know about us and our work! We\'ll really appreciate it.</string>
+    <string name="bootleg_ab_madstinky_test">It seems that you\'re running a Mad Stinky build, that means that you\'re using a totally experimental build, and obviously bugs and issues are expected. If the bugs you\'re facing aren\'t listed on our post about this kind of builds, please report it to our Telegram group or, in case that\'s a device-related issue, report it who did the build.</string>
+    <string name="bootleg_changelog_title">See the changelog</string>
+    <string name="bootleg_changelog_summary">See the latest changes added on this build</string>
+
+    <!-- More about us strings -->
+    <string name="bootleg_pref_moarstuff_title">More about us?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Info and sources</string>
+    <string name="bootleg_moarstuff_blog_title">Our Blog</string>
+    <string name="bootleg_moarstuff_blog_summary">Where we will post about releases and news</string>
+    <string name="bootleg_moarstuff_git_title">Our Github</string>
+    <string name="bootleg_moarstuff_git_summary">Where our sources and reverts are placed</string>
+    <string name="bootleg_pref_moarstuff_social_title">Get in touch!</string>
+    <string name="bootleg_moarstuff_tg_title">Our Telegram Community</string>
+    <string name="bootleg_moarstuff_tg_summary">Talk with us, get hyped with future updates and join our great community</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">I think you found this really not so secret place but well, if you got here i just want to let you know that thank you for flashing this ROM and welp, as we said many times before, hope you enjoy it and have a good time with this ROM.</string>
+    <string name="bootleg_moarstuff_faq_title">Our FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">Our Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">We don\'t speak your language? So come here and feel free to help us to translate our ROM to your native language!</string>
+    <string name="bootleg_moarstuff_cd_summary01" translatable="false">Nosotros não parlare váš jazyk?</string>
+    <string name="bootleg_moarstuff_cd_summary02">So come here and feel free to help us to translate our ROM to your native language!</string>
+    <string name="bootleg_moarstuff_cd_sumgen" translatable="false">%s %s</string>
+    <string name="bootleg_moarstuff_faq_summary">Where all the most asked questions and requested features got their answer.</string>
+    <string name="bootleg_moarstuff_donos_title">Support our project</string>
+    <string name="bootleg_moarstuff_donos_summary">Donate to support this project, we\'ll appreciate it a lot</string>
+
+    <!-- Messages to send? -->
+    <string name="share_chooser_title">Share our ROM via..</string>
+    <string name="bootleg_sharemsg1">Hey, i\'m using this ROM called Bootleggers, it\'s nice tbh. You should check more about it on https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">I\'ve installed Bootleggers ROM and it seems to be good at the moment, you should check more on https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">So i went to Bootleggers ROM and i\'m liking the experience for now, it\'s a pretty cool ROM </string>
+    <string name="bootleg_sharemsg4">Hey, i\'ve just flashed Bootleggers and i\'m kinda enjoying the ROM right now, i would recommend it </string>
+    <string name="bootleg_sharemsg5">I went to Bootleggers ROM, it seems pretty nice, it got some different default fonts and various features </string>
+    <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
+    
+    <!-- Build type info -->
+    <string name="bootleg_ri_title_buildtype">Build Type</string>
+    <string name="bootleg_ri_summary_buildtype">Your build is %s... or %s.</string>
+    <string name="bootleg_pref_title_rominfo">ROM Info</string>
+    <string name="bootleg_ri_title_ota">OTA Updates</string>
+    <string name="bootleg_ri_summary_ota">Check if there\'s any new release</string>
+    <string name="bootleg_ri_title_musicode">Musical Codename</string>
+    <string name="bootleg_ri_summary_musicode">%s</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
