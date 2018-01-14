@@ -121,6 +121,9 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
+    <!-- Footer warnings -->
+    <string name="carrier_label_warning_text">Be advised that the custom carrier label is not available in the extended statusbar area, also known as the quick settings area. Also using emojis as your carrier label might cause some visibility issues on lighter backgrounds.</string>
+
     <!-- Features Strings - Buttons -->
     <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
     <string name="swap_volume_buttons_summary">Change the order of volume buttons according of screen rotation</string>
