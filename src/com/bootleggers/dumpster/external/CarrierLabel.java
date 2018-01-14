@@ -69,6 +69,8 @@ public class CarrierLabel extends SettingsPreferenceFragment implements OnPrefer
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
+        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.carrier_label_warning_text);
+
         mShowCarrierLabel = (ListPreference) findPreference(KEY_STATUS_BAR_CARRIER);
         int showCarrierLabel = Settings.System.getInt(resolver,
                 Settings.System.STATUS_BAR_CARRIER, 1);
