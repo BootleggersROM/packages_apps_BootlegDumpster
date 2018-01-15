@@ -103,6 +103,6 @@
             android:title="@string/about_bootleg_title" 
             android:summary="@string/about_bootleg_summary"
             android:fragment="com.bootleggers.dumpster.fragments.AboutBootleggers"
-            android:icon="@drawable/ic_settings_miscs"/>
+            android:icon="@drawable/ic_settings_aboutbootleg"/>
 
 </PreferenceScreen>

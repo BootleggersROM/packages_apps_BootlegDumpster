@@ -101,7 +101,11 @@
     <string name="obviousum02">And the title explains it all</string>
     <string name="obviousum03">Welp, i shouldn\'t explain it</string>
     <string name="bootleg_external_summary">Customize it more on this submenu</string>
+    <!-- General Categories -->
     <string name="bootleg_advancedopt_title">Advanced options</string>
+    <string name="general_ui_tweaks_preference">UI and Tweaks</string>
+    <string name="general_system_stuff_preference">System Behaviour</string>
+    <string name="general_gesturesmaybe_preference">Gestures</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
