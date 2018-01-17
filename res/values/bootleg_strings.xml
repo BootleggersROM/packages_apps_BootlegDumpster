@@ -165,6 +165,7 @@
     <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
     <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
     <string name="lockscreen_tuner_summary">Change the bottom shortcuts on the LS</string>
+
     <!-- Ambient music -->
     <string name="ambient_display_category">Ambient display options</string>
     <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
@@ -175,6 +176,9 @@
     <string name="force_ambient_for_media_on">Normal</string>
     <string name="force_ambient_for_media_on_forced">Normal (forced)</string>
     <string name="force_ambient_for_media_on_forced_clean">Minimal (forced)</string>
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Lock screen visualizer</string>
+    <string name="lockscreen_visualizer_summary">Displays a live design on lock screen while music is playing (works with most audio apps)</string>
 
     <!-- Features Strings - QuickSettings -->
     <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
