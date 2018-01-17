@@ -18,11 +18,17 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="lockscreen_ui_stuff"
         android:title="@string/cat_general_ui">
 
-    </PreferenceCategory>-->
+    <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+        android:key="lockscreen_visualizer"
+        android:title="@string/lockscreen_visualizer_title"
+        android:summary="@string/lockscreen_visualizer_summary"
+        android:defaultValue="false"/>
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="lock_ambient_cat"
