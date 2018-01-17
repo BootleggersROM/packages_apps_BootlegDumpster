@@ -541,4 +541,8 @@
     <string name="force_ambient_for_media_on">Normal</string>
     <string name="force_ambient_for_media_on_forced_clean">Minimal (forced)</string>
 
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Lock screen visualizer</string>
+    <string name="lockscreen_visualizer_summary">Shows some spectrum bars reacting to the music you\'re listening (works with most audio apps)</string>
+
 </resources>
