@@ -433,4 +433,8 @@
     <string name="show_fourg_icon_title">4G icon on Statusbar</string>
     <string name="show_fourg_icon_summary">On signal icon, show 4G instead of LTE</string>
 
+    <!-- lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Lock screen visualizer</string>
+    <string name="lockscreen_visualizer_summary">Shows some spectrum bars reacting to the music you\'re listening (works with most audio apps)</string>
+
 </resources>
