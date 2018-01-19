@@ -27,7 +27,8 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
-public class NotificationSettings extends SettingsPreferenceFragment {
+public class NotificationSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     private PreferenceCategory mLedsCategory;
     private Preference mChargingLeds;
