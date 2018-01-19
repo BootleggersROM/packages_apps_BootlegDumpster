@@ -42,6 +42,21 @@ import com.android.internal.utils.du.DUActionUtils;
 import com.android.internal.utils.du.Config.ButtonConfig;
 import com.android.settings.R;
 
+public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+
+    private static final String NAVBAR_VISIBILITY = "navbar_visibility";
+    private static final String KEY_NAVBAR_MODE = "navbar_mode";
+    private static final String KEY_DEFAULT_NAVBAR_SETTINGS = "default_settings";
+    private static final String KEY_FLING_NAVBAR_SETTINGS = "fling_settings";
+    private static final String KEY_CATEGORY_NAVIGATION_INTERFACE = "category_navbar_interface";
+    private static final String KEY_CATEGORY_NAVIGATION_GENERAL = "category_navbar_general";
+    private static final String KEY_NAVIGATION_BAR_LEFT = "navigation_bar_left";
+    private static final String KEY_SMARTBAR_SETTINGS = "smartbar_settings";
+    private static final String KEY_NAVIGATION_HEIGHT_PORT = "navbar_height_portrait";
+    private static final String KEY_NAVIGATION_HEIGHT_LAND = "navbar_height_landscape";
+    private static final String KEY_NAVIGATION_WIDTH = "navbar_width";
+    private static final String KEY_PULSE_SETTINGS = "pulse_settings";
+
     private SwitchPreference mNavbarVisibility;
     private ListPreference mNavbarMode;
     private PreferenceScreen mFlingSettings;
