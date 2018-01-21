@@ -208,10 +208,10 @@
     <string name="smart_pulldown_ongoing">no ongoing</string>
     <!-- QS Rows and such -->
     <string name="qs_rows_columns_title">QS rows and columns</string>
-    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
-    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
-    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
-    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
+    <string name="qs_rows_title">Rows</string>
+    <string name="qs_columns_title">Columns</string>
+    <string name="qs_rowscol_portrait_title">Portrait</string>
+    <string name="qs_rowscol_landscape_title">Landscape</string>
     <!-- Small quick settings scroller -->
     <string name="qqs_scroll_title">Scroll small QS tiles</string>
     <string name="qqs_scroll_summary">Allow scrolling through the small QS tiles</string>
@@ -284,8 +284,8 @@
 
     <!-- Features Strings - StatusBar -->
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">4G icon on Statusbar</string>
+    <string name="show_fourg_icon_summary">On signal icon, show 4G instead of LTE</string>
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>

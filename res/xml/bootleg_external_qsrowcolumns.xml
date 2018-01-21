@@ -17,31 +17,43 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+    android:title="@string/qs_rowscol_portrait_title"
+    android:key="qs_rowscol_section">
+
     <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
         android:key="qs_rows_portrait"
-        android:title="@string/qs_rows_portrait_title"
+        android:title="@string/qs_rows_title"
         android:max="5"
         settings:min="1"
         settings:units="" />
 
     <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
+        android:key="qs_columns_portrait"
+        android:title="@string/qs_columns_title"
+        android:max="7"
+        settings:min="1"
+        settings:units="" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+    android:title="@string/qs_rowscol_landscape_title"
+    android:key="qs_rowcol_land">
+    <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
         android:key="qs_rows_landscape"
-        android:title="@string/qs_rows_landscape_title"
+        android:title="@string/qs_rows_title"
         android:max="3"
         settings:min="1"
         settings:units="" />
 
     <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
-        android:key="qs_columns_portrait"
-        android:title="@string/qs_columns_portrait_title"
-        android:max="7"
-        settings:min="1"
-        settings:units="" />
-
-    <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
         android:key="qs_columns_landscape"
-        android:title="@string/qs_columns_landscape_title"
+        android:title="@string/qs_columns_title"
         android:max="9"
         settings:min="1"
         settings:units="" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

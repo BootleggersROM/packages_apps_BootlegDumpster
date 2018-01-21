@@ -83,6 +83,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
             mTickerMode.setSummary(
                     mTickerMode.getEntries()[index]);
             return true;
+        } else if (preference == mLowBatteryBlinking) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.BATTERY_LIGHT_LOW_BLINKING, value ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+            mLowBatteryBlinking.setChecked(value);
+            return true;
         }
         return false;
     }

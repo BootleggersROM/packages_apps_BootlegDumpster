@@ -91,7 +91,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         // load categories and init/remove preferences based on device
         // configuration
-        final Preference hwKeysSubmenu = prefScreen
+        final Preference hwKeysSubmenu = (Preference) prefScreen
                 .findPreference(SUBMENU_HWKEYS);
 
         // remove this feature on non-hw phones
