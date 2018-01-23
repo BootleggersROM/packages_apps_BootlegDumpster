@@ -15,6 +15,7 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
@@ -33,7 +34,17 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
+        final PreferenceScreen prefSet = getPreferenceScreen();
         addPreferencesFromResource(R.xml.bootleg_dumpster_misc);
+        PreferenceCategory overallPreferences = (PreferenceCategory) findPreference("misc_overall_cat");
+
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
+        Preference smartPixelsPref = (Preference) findPreference("smart_pixels");
+
+        if (!enableSmartPixels){
+            overallPreferences.removePreference(smartPixelsPref);
+        }
     }
 
     @Override
