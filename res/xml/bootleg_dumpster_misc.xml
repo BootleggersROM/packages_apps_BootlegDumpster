@@ -53,6 +53,12 @@
         android:title="@string/screen_state_toggles_title" 
         android:fragment="com.bootleggers.dumpster.external.ScreenStateToggles" />
 
+      <Preference
+        android:key="smart_pixels"
+        android:title="@string/smart_pixels_title"
+        android:summary="@string/smart_pixels_summary"
+        android:fragment="com.bootleggers.dumpster.external.SmartPixels" />
+
     <PreferenceCategory
          android:key="call_features"
          android:title="@string/call_notifications_cat" >
