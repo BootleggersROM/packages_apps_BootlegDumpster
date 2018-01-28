@@ -80,6 +80,12 @@
         android:summary="%s"
         android:title="@string/status_bar_logo_style_title" />
 
+    <Preference
+        android:key="carrier_label"
+        android:fragment="com.bootleggers.dumpster.external.CarrierLabel"
+        android:title="@string/carrierlabel_title" />
+
+
     </PreferenceCategory>
 
 </PreferenceScreen>
