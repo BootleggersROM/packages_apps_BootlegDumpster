@@ -179,6 +179,8 @@
     <!-- lock screen visualizer -->
     <string name="lockscreen_visualizer_title">Lock screen visualizer</string>
     <string name="lockscreen_visualizer_summary">Displays a live design on lock screen while music is playing (works with most audio apps)</string>
+    <string name="ambient_visualizer_title">Visualizer on Ambient Display</string>
+    <string name="ambient_visualizer_summary">Displays a spectrum bars on Ambient Display while music is playing</string>
 
     <!-- Features Strings - QuickSettings -->
     <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
