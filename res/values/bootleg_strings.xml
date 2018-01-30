@@ -545,4 +545,8 @@
     <string name="lockscreen_visualizer_title">Lock screen visualizer</string>
     <string name="lockscreen_visualizer_summary">Shows some spectrum bars reacting to the music you\'re listening (works with most audio apps)</string>
 
+    <!-- ambient visualizer -->
+    <string name="ambient_visualizer_title">Ambient display visualizer</string>
+    <string name="ambient_visualizer_summary">Show the lockscreen visualizer but also in ambient display</string>
+
 </resources>
