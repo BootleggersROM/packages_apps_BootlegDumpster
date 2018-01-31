@@ -90,7 +90,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
         mNavbarVisibility.setOnPreferenceChangeListener(this);
 
         int mode = Settings.Secure.getInt(getContentResolver(), Settings.Secure.NAVIGATION_BAR_MODE,
-                0);
+                1);
 
         updateBarModeSettings(mode);
         mNavbarMode.setOnPreferenceChangeListener(this);
