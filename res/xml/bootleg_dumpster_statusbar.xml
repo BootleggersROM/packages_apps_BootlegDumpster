@@ -18,4 +18,10 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="statusbar_custom_uitweaks"
+        android:title="@string/general_ui_tweaks_preference">
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

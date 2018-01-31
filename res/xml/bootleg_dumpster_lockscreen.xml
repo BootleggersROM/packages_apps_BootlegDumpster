@@ -18,4 +18,24 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="locksect_ui"
+        android:title="@string/general_ui_tweaks_preference">
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:key="locksect_ambient"
+        android:title="@string/lockscreen_ambient_preference">
+
+    </PreferenceCategory>
+
+
+     <PreferenceCategory
+        android:key="locksect_misc"
+        android:title="@string/misc_title">
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -42,7 +42,7 @@
     <string name="statusbar_title">Status bar</string>
     <string name="statusbar_settings_summary">The statusbar is nice but it could be better</string>
 
-    <string name="volume_title">Volume rocker</string>
+    <string name="volume_title">Volume Keys</string>
     <string name="volume_settings_summary">Get those volume buttons to do magic stuff</string>
     
     <string name="notifications_title">Notifications</string>
@@ -106,6 +106,9 @@
     <string name="general_ui_tweaks_preference">UI and Tweaks</string>
     <string name="general_system_stuff_preference">System Behaviour</string>
     <string name="general_gesturesmaybe_preference">Gestures</string>
+    <!-- Specific categories -->
+    <string name="lockscreen_ambient_preference">Ambient Display</string>
+    <string name="misc_app_related_preference">Apps Related</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
