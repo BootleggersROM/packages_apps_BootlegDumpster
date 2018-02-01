@@ -63,4 +63,6 @@
         android:summary="@string/fprint_sucess_vib_summary"
         android:defaultValue="true" />
 
+    </PreferenceCategory>
+
 </PreferenceScreen>

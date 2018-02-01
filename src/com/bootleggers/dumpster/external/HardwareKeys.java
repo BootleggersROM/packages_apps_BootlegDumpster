@@ -47,6 +47,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.gzosp.GzospUtils;
 import com.android.internal.utils.du.ActionConstants;
 import com.android.internal.utils.du.DUActionUtils;
+import com.bootleggers.dumpster.external.dui.ActionFragment;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -99,7 +100,7 @@ public class HardwareKeys extends ActionFragment implements
 
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        ContentResolver resolver = getContentResolver();
+        ContentResolver resolver = getActivity().getContentResolver();
 
         mManualButtonBrightness = (CustomSeekBarPreference) findPreference(
                 KEY_BUTTON_MANUAL_BRIGHTNESS_NEW);
