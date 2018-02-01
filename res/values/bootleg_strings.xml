@@ -634,4 +634,8 @@
     <string name="smartbar_double_tap_sleep_title">Double tap to sleep</string>
     <string name="smartbar_double_tap_sleep_summary">Double tap on empty navbar areas to sleep</string>
 
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
 </resources>
