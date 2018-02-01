@@ -28,6 +28,12 @@
              android:summary="@string/show_fourg_icon_summary"
              android:defaultValue="false"/>
 
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="roaming_indicator_icon"
+            android:title="@string/roaming_indicator_icon_title"
+            android:summary="@string/roaming_indicator_icon_summary"
+            android:defaultValue="true"/>
+
     <Preference
         android:key="network_traffic"
         android:title="@string/network_traffic_title"
