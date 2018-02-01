@@ -28,6 +28,7 @@ import android.content.res.Resources;
 import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
@@ -41,6 +42,8 @@ import com.android.settings.SettingsPreferenceFragment;
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
+    private ListPreference mAmbientTicker;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
@@ -50,11 +53,25 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 
+       mAmbientTicker = (ListPreference) findPreference("force_ambient_for_media");
+        int mode = Settings.System.getIntForUser(resolver,
+                Settings.System.FORCE_AMBIENT_FOR_MEDIA, 0, UserHandle.USER_CURRENT);
+        mAmbientTicker.setValue(Integer.toString(mode));
+        mAmbientTicker.setSummary(mAmbientTicker.getEntry());
+        mAmbientTicker.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-
+        if (preference == mAmbientTicker) {
+            int mode = Integer.valueOf((String) newValue);
+            int index = mAmbientTicker.findIndexOfValue((String) newValue);
+            mAmbientTicker.setSummary(
+                    mAmbientTicker.getEntries()[index]);
+            Settings.System.putIntForUser(resolver, Settings.System.FORCE_AMBIENT_FOR_MEDIA,
+                    mode, UserHandle.USER_CURRENT);
+            return true;
+        }
         return false;
     }
 
