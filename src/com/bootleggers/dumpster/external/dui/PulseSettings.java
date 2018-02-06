@@ -53,6 +53,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     SwitchPreference mShowPulse;
     ListPreference mRenderMode;
     SwitchPreference mPulseAccentColorEnabled;
+    SwitchPreference mAutoColor;
     ColorPickerPreference mPulseColor;
     SwitchPreference mLavaLampEnabled;
     CustomSeekBarPreference mCustomDimen;
@@ -95,6 +96,13 @@ public class PulseSettings extends SettingsPreferenceFragment implements
         mPulseAccentColorEnabled.setChecked(Settings.Secure.getIntForUser(getContentResolver(),
                 Settings.Secure.PULSE_ACCENT_COLOR_ENABLED, 0, UserHandle.USER_CURRENT) == 1);
         mPulseAccentColorEnabled.setOnPreferenceChangeListener(this);
+
+        mAutoColor = (SwitchPreference) findPreference("pulse_auto_color");
+        mAutoColor.setEnabled(Settings.Secure.getIntForUser(getContentResolver(),
+                Settings.Secure.PULSE_ACCENT_COLOR_ENABLED, 0, UserHandle.USER_CURRENT) == 0);
+        mAutoColor.setChecked(Settings.Secure.getIntForUser(getContentResolver(),
+                Settings.Secure.PULSE_AUTO_COLOR, 0, UserHandle.USER_CURRENT) == 1);
+        mAutoColor.setOnPreferenceChangeListener(this);
 
         int pulseColor = Settings.Secure.getIntForUser(getContentResolver(),
                 Settings.Secure.FLING_PULSE_COLOR, Color.WHITE, UserHandle.USER_CURRENT);
@@ -205,8 +213,14 @@ public class PulseSettings extends SettingsPreferenceFragment implements
             Settings.Secure.putIntForUser(getContentResolver(),
                     Settings.Secure.PULSE_ACCENT_COLOR_ENABLED, enabled ? 1 : 0,
                     UserHandle.USER_CURRENT);
+            mAutoColor.setEnabled(!enabled);
             mPulseColor.setEnabled(!enabled);
             mLavaLampEnabled.setEnabled(!enabled);
+            return true;
+        } else if (preference.equals(mAutoColor)) {
+            boolean enabled = ((Boolean) newValue).booleanValue();
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.PULSE_AUTO_COLOR, enabled ? 1 : 0, UserHandle.USER_CURRENT);
             return true;
         } else if (preference.equals(mPulseColor)) {
             int color = ((Integer) newValue).intValue();
