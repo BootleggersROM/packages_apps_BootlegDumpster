@@ -47,6 +47,12 @@
         android:entryValues="@array/screen_off_animation_values"
         android:persistent="false"/>
 
+    <PreferenceScreen
+        android:key="suspend_actions"
+        android:title="@string/screen_state_toggles_title"
+        android:icon="@drawable/rr_suspend_icon"
+        android:fragment="com.bootleggers.dumpster.external.SuspendActions" />
+
     </PreferenceCategory>
 
 
