@@ -16,6 +16,8 @@
 
 package com.bootleggers.dumpster.external;
 
+import com.android.internal.logging.nano.MetricsProto;
+
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
@@ -23,6 +25,7 @@ import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.content.res.Resources;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
@@ -35,8 +38,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.R;
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 
-public class SuspendActions extends BaseSettingsFragment
-            implements Preference.OnPreferenceChangeListener {
+public class SuspendActions extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     private static final String TAG = "SuspendActions";
 
@@ -65,8 +68,9 @@ public class SuspendActions extends BaseSettingsFragment
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.bootleg_external_suspendactions);
 
-        PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceScreen prefSet = getPreferenceScreen();
+        Resources resources = getResources();
 
         mContext = (Context) getActivity();
 
@@ -143,7 +147,7 @@ public class SuspendActions extends BaseSettingsFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.BOOTLEG;
+        return MetricsProto.MetricsEvent.BOOTLEG;
     }
 
     @Override
