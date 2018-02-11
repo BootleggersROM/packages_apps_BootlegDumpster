@@ -46,6 +46,11 @@
          android:summary="@string/log_it_summary"
          android:fragment="com.bootleggers.dumpster.external.LogIt" />
 
+    <PreferenceScreen
+        android:key="suspend_actions"
+        android:title="@string/screen_state_toggles_title"
+        android:fragment="com.bootleggers.dumpster.external.SuspendActions" />
+
     </PreferenceCategory>
 
 
