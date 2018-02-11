@@ -286,14 +286,23 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <!-- Data Disabled Icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross next to statusbar when data is disabled</string>
+    <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <!-- Status Bar icons-->
     <string name="statusbar_items_title">Status bar icons</string>
     <string name="statusbar_items_summary">Set which icons should appear on the status bar</string>
-    <string name="status_bar_clock_title">Clock options</string>
     <!-- Statusbar Clock options -->
-    <string name="status_bar_show_clock_title">Show clock &amp; date</string>
+    <string name="status_bar_clock_title">Clock &amp; Date</string>
+    <string name="status_bar_clock_summary">Tweak the clock to your satisfaction</string>
+    <string name="status_bar_show_clock_title">Clock &amp; Date</string>
     <string name="clock_title_enable">Alignment</string>
     <string name="right_clock">Right clock</string>
     <string name="center_clock">Center clock</string>
@@ -318,9 +327,6 @@
     <string name="clock_date_style_uppercase">Uppercase</string>
     <string name="clock_date_format_custom">Custom java format</string>
     <string name="menu_cancel">Cancel</string>
-    <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 
     <!-- Features Strings - Notifications -->
     <string name="light_category">Lights</string>
