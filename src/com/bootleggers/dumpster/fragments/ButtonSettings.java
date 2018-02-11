@@ -61,6 +61,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.bootleg_dumpster_button);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+
 
         if (!GzospUtils.deviceHasFlashlight(getContext())) {
             Preference toRemove = prefScreen.findPreference(TORCH_POWER_BUTTON_GESTURE);
@@ -89,7 +91,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         // load categories and init/remove preferences based on device
         // configuration
-        final PreferenceCategory hwKeysSubmenu = (PreferenceCategory) prefScreen
+        final PreferenceCategory hwKeysSubmenu = (Preference) prefScreen
                 .findPreference(SUBMENU_HWKEYS);
 
         // remove this feature on non-hw phones

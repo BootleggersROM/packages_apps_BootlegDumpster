@@ -20,8 +20,13 @@ package com.bootleggers.dumpster.fragments;
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.app.Activity;
+import android.app.ActivityManagerNative;
+import android.app.AlertDialog;
+import android.app.Dialog; 
+import android.app.DialogFragment; 
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.DialogInterface;
 import android.app.WallpaperManager;
 import android.content.Intent;
 import android.content.res.Resources;
