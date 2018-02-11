@@ -40,12 +40,6 @@
             android:fragment="com.bootleggers.dumpster.external.dui.SmartbarSettings" />
 
         <PreferenceScreen
-            android:key="pulse_settings"
-            android:title="@string/pulse_settings"
-            android:summary="@string/pulse_settings_summary"
-            android:fragment="com.bootleggers.dumpster.external.dui.PulseSettings" />
-
-        <PreferenceScreen
             android:key="fling_settings"
             android:title="@string/fling_settings"
             android:summary="@string/fling_settings_summary"
@@ -59,6 +53,13 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.NavBarActivity" />
         </Preference>
+
+        <PreferenceScreen
+            android:key="pulse_settings"
+            android:title="@string/pulse_settings"
+            android:summary="@string/pulse_settings_summary"
+            android:fragment="com.bootleggers.dumpster.external.dui.PulseSettings" />
+
     </PreferenceCategory>
     
     <PreferenceCategory
