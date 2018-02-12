@@ -38,9 +38,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String STATUS_BAR_SHOW_CLOCK = "status_bar_show_clock";
+    private static final String BATTERY_STYLE = "battery_style";
 
     private ListPreference mLogoStyle;
     private SwitchPreference mStatusBarClock;
+    private ListPreference mBatteryIconStyle;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -64,6 +66,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
         mStatusBarClock.setOnPreferenceChangeListener(this);
 
+        mBatteryIconStyle = (ListPreference) findPreference(BATTERY_STYLE);
+        mBatteryIconStyle.setValue(Integer.toString(Settings.Secure.getInt(resolver,
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, 0)));
+        mBatteryIconStyle.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -82,6 +89,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         } else if (preference == mStatusBarClock) {
             boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver, Settings.System.STATUS_BAR_CLOCK, value ? 1 : 0);
+            return true;
+        } else if (preference == mBatteryIconStyle) {
+            int value = Integer.valueOf((String) newValue);
+            Settings.Secure.putInt(resolver, Settings.Secure.STATUS_BAR_BATTERY_STYLE, value);
             return true;
         }
         return false;
