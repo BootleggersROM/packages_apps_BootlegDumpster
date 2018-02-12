@@ -90,15 +90,21 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="statusbar_battery_icons"
-        android:title="@string/status_bar_battery_icon_title">
+        android:key="battery_style_category"
+        android:title="@string/battery_style_category_title" >
 
-    <ListPreference
-        android:key="battery_style"
-        android:title="@string/battery_style_title"
-        android:summary="@string/battery_style_summary"
-        android:entries="@array/battery_style_entries"
-        android:entryValues="@array/battery_style_values" />
+        <ListPreference
+            android:key="battery_style"
+            android:title="@string/battery_style_title"
+            android:summary="@string/battery_style_summary"
+            android:entries="@array/battery_style_entries"
+            android:entryValues="@array/battery_style_values" />
+
+        <SwitchPreference
+            android:key="show_battery_percent"
+            android:title="@string/show_battery_percent_title"
+            android:summary="@string/show_battery_percent_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 

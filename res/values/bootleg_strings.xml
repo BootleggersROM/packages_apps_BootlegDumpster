@@ -666,16 +666,19 @@
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
 
     <!-- Battery Styles -->
-    <string name="status_bar_battery_icon_title">Battery style</string>
-    <string name="battery_style_title">Select Style</string>
-    <string name="battery_style_summary">Pick how the icon should look like</string>
+    <string name="battery_style_category_title">Battery style</string>
+    <string name="battery_style_title">Battery icon style</string>
+    <string name="battery_style_summary">Change the look of the icon in the statusbar</string>
     <string name="battery_style_port">Portrait</string>
     <string name="battery_style_land">Landscape</string>
     <string name="battery_style_circle">Circle</string>
     <string name="battery_style_dotted_circle">Dotted circle</string>
-    <string name="battery_style_solid_circle">Solid circle</string>
+    <string name="battery_style_big_circle">Big circle</string>
+    <string name="battery_style_big_dotted_circle">Big dotted circle</string>
     <string name="battery_style_text">Text</string>
     <string name="battery_style_hidden">Hidden</string>
+    <string name="show_battery_percent_title">Show battery percentage</string>
+    <string name="show_battery_percent_summary">Show battery level percentage near the icon</string>
 
 </resources>
 
