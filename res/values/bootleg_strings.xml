@@ -18,9 +18,6 @@
     <string name="button_title">HW Buttons</string>
     <string name="buttons_settings_summary">Change things of your HW buttons</string>
 
-    <string name="gestures_title">Gestures</string>
-    <string name="gestures_settings_summary">Set some gestures to make stuff easier</string>
-
     <string name="lockscreen_title">Lockscreen</string>
     <string name="lockscreen_settings_summary">Change layout and features on your LS</string>
 
