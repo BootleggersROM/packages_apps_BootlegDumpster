@@ -49,6 +49,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.bootleg_dumpster_statusbar);
 
         PreferenceScreen prefSet = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
 
         mLogoStyle = (ListPreference) findPreference("status_bar_logo_style");
         mLogoStyle.setOnPreferenceChangeListener(this);
@@ -67,6 +68,9 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+
+        ContentResolver resolver = getActivity().getContentResolver();
+
         if (preference.equals(mLogoStyle)) {
             int logoStyle = Integer.parseInt(((String) newValue).toString());
             Settings.System.putIntForUser(getContentResolver(),

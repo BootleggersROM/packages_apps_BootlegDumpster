@@ -56,7 +56,8 @@
         android:key="status_bar_clock"
         android:title="@string/status_bar_clock_title"
         android:summary="@string/status_bar_clock_summary"
-        android:fragment="com.bootleggers.dumpster.external.StatusBarClockSettings" />
+        android:fragment="com.bootleggers.dumpster.external.StatusBarClockSettings"
+        android:dependency="status_bar_show_clock" />
 
     <Preference
             android:title="@string/statusbar_items_title"
