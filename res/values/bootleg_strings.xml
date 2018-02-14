@@ -124,6 +124,8 @@
     <string name="lockscreen_ambient_preference">Ambient Display</string>
     <string name="misc_app_related_preference">Apps Related</string>
     <string name="hardware_otherdevices">Hardware Keys and more</string>
+    <string name="statusbar_tweaks_ui_icons">UI Icons</string>
+    <string name="statusbar_tweaks_ui_icons">UI Icons</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -191,7 +193,7 @@
     <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
     <string name="force_ambient_for_media_pref_summary">Configure the Ambient music ticker</string>
     <string name="ambient_ticker_footer">This feature allows for the ability to show the current music track info on the lockscreen with or without Ambient display enabled.\n\nYou can select from two layouts, normal and minimal. While this feature takes advantage of ambient display, it does not depend on it. It can be triggered without having ambient display enabled by using the (forced) options.\n\nNormal view includes the lockscreen clock, date and ticker.\n\nMinimal view includes just the ticker at the center of the screen.</string>
-    <string name="force_ambient_for_media_title">Select layout</string>
+    <string name="force_ambient_for_media_title">Media Info on Ambient Display</string>
     <string name="force_ambient_for_media_off">Disabled</string>
     <string name="force_ambient_for_media_on">Normal</string>
     <string name="force_ambient_for_media_on_forced">Normal (forced)</string>
@@ -200,7 +202,7 @@
     <string name="lockscreen_visualizer_title">Lock screen visualizer</string>
     <string name="lockscreen_visualizer_summary">Displays a live design on lock screen while music is playing (works with most audio apps)</string>
     <string name="ambient_visualizer_title">Visualizer on Ambient Display</string>
-    <string name="ambient_visualizer_summary">Displays a spectrum bars on Ambient Display while music is playing</string>
+    <string name="ambient_visualizer_summary">Displays a spectrum bar on Ambient Display while music is playing</string>
 
     <!-- Features Strings - QuickSettings -->
     <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
@@ -284,6 +286,7 @@
 
     <!-- Features Strings - Power Menu -->
     <string name="power_menu_title">Power menu</string>
+    <string name="powermenu_buttons_tile">Power menu options</string>
     <string name="power_menu_title_summary">View or change power menu entries</string>
     <string name="powermenu_screenshot">Screenshot</string>
     <string name="powermenu_screenrecord">Screenrecord</string>
@@ -316,8 +319,11 @@
     <string name="statusbar_items_summary">Set which icons should appear on the status bar</string>
     <!-- Statusbar Clock options -->
     <string name="status_bar_clock_title">Clock &amp; Date</string>
-    <string name="status_bar_clock_summary">Tweak the clock to your satisfaction</string>
-    <string name="status_bar_show_clock_title">Clock &amp; Date</string>
+    <string name="status_bar_show_clock_title">Enable Clock &amp; Date on Statusbar</string>
+    <string name="status_bar_show_clock_summary">Show the time on the statusbar</string>
+    <string name="status_bar_clock_advanced_title">Advanced options</string>
+    <string name="status_bar_clock_advanced_title_alt">Advanced Clock &amp; Date options</string>
+    <string name="status_bar_clock_advanced_summary">Tweak the clock to your satisfaction</string>
     <string name="clock_title_enable">Alignment</string>
     <string name="right_clock">Right clock</string>
     <string name="center_clock">Center clock</string>
@@ -357,7 +363,8 @@
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
     <string name="notification_light_settings">LED on Apps</string>
     <string name="notification_light_settings_summary">Enable which apps can use the LED</string>
-    <string name="heads_up_notifications">Heads up</string>
+    <string name="headsup_screen_title">Heads up</string>
+    <string name="heads_up_notifications">Enable Heads up</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
     <string name="add_heads_up_package">Add app</string>
@@ -614,6 +621,7 @@
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Suspend Actions</string>
+    <string name="screen_state_toggles_summary">Control how the device network should behave when the screen is off</string>
     <string name="screen_state_toggles_enable_title">Enable</string>
     <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
     <string name="screen_state_toggles_mobile_title">Mobile networks</string>
@@ -630,15 +638,19 @@
     <string name="screen_state_on_delay_summary">Number of minutes to wait before performing actions after screen on</string>
 
     <!-- Carrier Label -->
+    <string name="carrierlabel_title">Custom Carrier Label</string>
+    <string name="carrierlabel_summary">Select where to show your carrier name... or make your own</string>
     <string name="carrier_options">Select display locations</string>
     <string name="custom_carrier_label_title">Custom carrier label</string>
     <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
     <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen</string>
-    <string name="show_carrier_statusbar">Status bar</string>
-    <string name="show_carrier_enabled">Both</string>
+    <string name="show_carrier_title">Show Carrier label on...</string>
+    <string name="show_carrier_disabled">Nowhere</string>
+    <string name="show_carrier_keyguard">Lockscreen only</string>
+    <string name="show_carrier_statusbar">Statusbar only</string>
+    <string name="show_carrier_enabled">Lockscreen &amp; Statusbar</string>
 
+    <!-- app ops sumamry -->
+    <string name="app_ops_summary">Control your app permissions in a detailed way</string>
 </resources>
 

@@ -18,6 +18,10 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="pwermenu_buttons_list"
+        android:title="@string/powermenu_buttons_tile">
+
          <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
             android:key="powermenu_power"
             android:title="@string/powermenu_power"
@@ -73,5 +77,7 @@
             android:key="powermenu_soundpanel"
             android:title="@string/powermenu_soundpanel"
             android:defaultValue="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

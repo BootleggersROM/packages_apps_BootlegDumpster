@@ -53,17 +53,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="ticker_notifications_category"
-        android:title="@string/ticker_screen_title">
-
-        <ListPreference
-            android:key="ticker_mode"
-            android:entries="@array/ticker_mode_entries"
-            android:entryValues="@array/ticker_mode_values"
-            android:summary="%s"
-            android:title="@string/ticker_mode_title" />
-
-    </PreferenceCategory>
+        android:key="headsup_notifications_category"
+        android:title="@string/headsup_screen_title">
 
     <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
@@ -78,5 +69,20 @@
         android:summary="@string/bootleg_external_summary"
         android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings"
         android:dependency="heads_up_notifications_enabled" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="ticker_notifications_category"
+        android:title="@string/ticker_screen_title">
+
+        <ListPreference
+            android:key="ticker_mode"
+            android:entries="@array/ticker_mode_entries"
+            android:entryValues="@array/ticker_mode_values"
+            android:summary="%s"
+            android:title="@string/ticker_mode_title" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

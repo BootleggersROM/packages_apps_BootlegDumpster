@@ -19,8 +19,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
-        android:key="statusbar_custom_uitweaks"
-        android:title="@string/general_ui_tweaks_preference">
+        android:key="statusbar_custom_icons"
+        android:title="@string/statusbar_tweaks_ui_icons">
 
          <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
              android:key="show_fourg_icon"
@@ -46,19 +46,6 @@
         android:summary="@string/bootleg_external_summary"
         android:fragment="com.bootleggers.dumpster.external.NetworkTraffic" />
 
-
-    <SwitchPreference
-        android:key="status_bar_show_clock"
-        android:title="@string/status_bar_show_clock_title"
-        android:defaultValue="true" />
-
-    <Preference
-        android:key="status_bar_clock"
-        android:title="@string/status_bar_clock_title"
-        android:summary="@string/status_bar_clock_summary"
-        android:fragment="com.bootleggers.dumpster.external.StatusBarClockSettings"
-        android:dependency="status_bar_show_clock" />
-
     <Preference
             android:title="@string/statusbar_items_title"
             android:summary="@string/statusbar_items_summary" >
@@ -80,12 +67,38 @@
         android:summary="%s"
         android:title="@string/status_bar_logo_style_title" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="statusbar_custom_clock"
+        android:title="@string/status_bar_clock_title">
+
+    <SwitchPreference
+        android:key="status_bar_show_clock"
+        android:title="@string/status_bar_show_clock_title"
+        android:summary="@string/status_bar_show_clock_summary"
+        android:defaultValue="true" />
+
+    <Preference
+        android:key="status_bar_clock"
+        android:title="@string/status_bar_clock_advanced_title"
+        android:summary="@string/status_bar_clock_advanced_summary"
+        android:fragment="com.bootleggers.dumpster.external.StatusBarClockSettings"
+        android:dependency="status_bar_show_clock" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="statusbar_custom_misc"
+        android:title="@string/misc_title">
+
     <Preference
         android:key="carrier_label"
         android:fragment="com.bootleggers.dumpster.external.CarrierLabel"
-        android:title="@string/carrierlabel_title" />
-
+        android:title="@string/carrierlabel_title"
+        android:summary="@string/carrierlabel_summary"/>
 
     </PreferenceCategory>
+
 
 </PreferenceScreen>

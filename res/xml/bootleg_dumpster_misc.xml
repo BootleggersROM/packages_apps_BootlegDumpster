@@ -50,6 +50,7 @@
     <PreferenceScreen
         android:key="suspend_actions"
         android:title="@string/screen_state_toggles_title"
+        android:summary="@string/screen_state_toggles_summary"
         android:fragment="com.bootleggers.dumpster.external.SuspendActions" />
 
     </PreferenceCategory>
@@ -67,6 +68,7 @@
 
     <Preference
         android:title="@string/app_ops_settings"
+        android:summary="@string/app_ops_summary"
         android:fragment="com.android.settings.applications.AppOpsSummary"/>
 
     </PreferenceCategory>
