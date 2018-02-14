@@ -25,7 +25,8 @@
         <Preference
             android:key="bootleg_whoami"
             android:title="@string/bootleg_ab_title_whoami"
-            android:summary="@string/bootleg_ab_summary_whoami">
+            android:summary="@string/bootleg_ab_summary_whoami"
+            android:fragment="com.bootleggers.dumpster.external.AboutMore">
         </Preference>
 
         <Preference
