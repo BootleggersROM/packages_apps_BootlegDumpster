@@ -35,7 +35,7 @@ public abstract class HAFRAppChooserAdapter extends BaseAdapter implements Filte
     protected List<PackageInfo> mTemporarylist;
 
     boolean isUpdating;
-
+    boolean hasLauncherFilter = false;
     public HAFRAppChooserAdapter(Context context) {
         mContext = context;
         mHandler = new Handler();
@@ -179,4 +179,9 @@ public abstract class HAFRAppChooserAdapter extends BaseAdapter implements Filte
         ImageView icon;
         TextView pkg;
     }
+
+   protected void setLauncherFilter(boolean enabled) {
+          hasLauncherFilter = enabled;
+}
+
 }
