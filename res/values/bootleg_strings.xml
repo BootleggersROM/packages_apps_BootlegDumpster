@@ -125,7 +125,6 @@
     <string name="misc_app_related_preference">Apps Related</string>
     <string name="hardware_otherdevices">Hardware Keys and more</string>
     <string name="statusbar_tweaks_ui_icons">UI Icons</string>
-    <string name="statusbar_tweaks_ui_icons">UI Icons</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -621,7 +620,7 @@
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Suspend Actions</string>
-    <string name="screen_state_toggles_summary">Control how the device network should behave when the screen is off</string>
+    <string name="screen_state_toggles_summary_opt">Control how the device network should behave when the screen is off</string>
     <string name="screen_state_toggles_enable_title">Enable</string>
     <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
     <string name="screen_state_toggles_mobile_title">Mobile networks</string>

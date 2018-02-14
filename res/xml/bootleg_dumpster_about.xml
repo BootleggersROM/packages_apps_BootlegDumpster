@@ -51,7 +51,7 @@
             android:summary="@string/bootleg_ex_summary_featurelist">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/BootleggersROM/ExtraStuff/blob/oreo.1/Features.md#rom-features" />
+                android:data="https://github.com/BootleggersROM/ExtraStuff/blob/master/Features.md#rom-features" />
         </Preference>
         
         <Preference
