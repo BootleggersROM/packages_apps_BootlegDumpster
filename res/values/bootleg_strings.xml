@@ -652,5 +652,9 @@
 
     <!-- app ops sumamry -->
     <string name="app_ops_summary">Control your app permissions in a detailed way</string>
+
+    <!-- dt2forget -->
+    <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_gesture_title">Double tap status bar to sleep</string>
 </resources>
 
