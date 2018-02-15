@@ -65,7 +65,8 @@
         android:entries="@array/status_bar_logo_style_entries"
         android:entryValues="@array/status_bar_logo_style_values"
         android:summary="%s"
-        android:title="@string/status_bar_logo_style_title" />
+        android:title="@string/status_bar_logo_style_title"
+        android:dependency="status_bar_logo"/>
 
     </PreferenceCategory>
 
