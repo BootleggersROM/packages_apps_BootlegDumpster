@@ -43,4 +43,20 @@
     <string name="longpress_info">Удерживайте, чтобы сохранить цвет</string>
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Стиль батареи</string>
+    <string name="battery_style_port">Вертикальный значок</string>
+    <string name="battery_style_land">Горизонтальный значок</string>
+    <string name="battery_style_circle">Круг</string>
+    <string name="battery_style_dotted_circle">Точечный круг</string>
+    <string name="battery_style_big_circle">Большой круг</string>
+    <string name="battery_style_big_dotted_circle">Большой точечный круг</string>
+    <string name="battery_style_text">Текст</string>
+    <string name="battery_style_hidden">Нет</string>
+    <string name="show_battery_percent_title">Процент заряда</string>
+    <string name="battery_style_category_title">Иконка батареи</string>
+    <string name="battery_percent_none">Не отображать</string>
+    <string name="battery_percent_outside">Рядом с иконкой</string>
+    <string name="battery_percent_inside">Внутри иконки</string>
 </resources>
