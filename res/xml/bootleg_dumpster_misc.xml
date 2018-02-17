@@ -98,6 +98,12 @@
         android:summary="@string/toast_icon_summary"
         android:defaultValue="true" />
 
+     <Preference
+        android:key="weather_jaws"
+        android:fragment="com.bootleggers.dumpster.external.Weather"
+        android:title="@string/weather_title"
+        android:summary="@string/weather_summary" />
+
     <Preference
         android:title="@string/app_ops_settings"
         android:summary="@string/app_ops_summary"
