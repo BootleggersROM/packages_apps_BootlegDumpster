@@ -168,6 +168,7 @@ public final class Utils {
         }
     }
 
+
     /**
      * Locks the activity orientation to the current device orientation
      * @param activity
