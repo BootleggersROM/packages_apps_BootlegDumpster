@@ -100,11 +100,13 @@
     
 <!--
     DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY.
-    <string name="bootleg_pref_title_rominfo">ROM Info</string>
     <string name="bootleg_ri_title_buildtype">Build Type</string>
-    <string name="bootleg_ri_summary_buildtype">%1$s</string>
+    <string name="bootleg_ri_summary_buildtype">%1$s</string> -->
+    <string name="bootleg_pref_title_rominfo">ROM Info</string>
+    <string name="bootleg_ri_title_ota">OTA Updates</string>
+    <string name="bootleg_ri_summary_ota">Check if there\'s any new release</string>
     <string name="bootleg_ri_title_musicode">Musical Codename</string>
-    <string name="bootleg_ri_summary_musicode">%1$s</string> -->
+    <string name="bootleg_ri_summary_musicode">Blue Print</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
