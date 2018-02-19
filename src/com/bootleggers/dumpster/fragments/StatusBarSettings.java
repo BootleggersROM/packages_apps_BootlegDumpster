@@ -113,7 +113,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                     .findIndexOfValue((String) newValue);
             mBatteryIconStyle
                     .setSummary(mBatteryIconStyle.getEntries()[valueIndex]);
-            boolean hideForcePercentage = value == 6 || value == 7;/*text or hidden style*/
+            boolean hideForcePercentage = value == 4 || value == 5;/*text or hidden style*/
             mBatteryPercentage.setEnabled(!hideForcePercentage);
             return true;
         } else  if (preference == mBatteryPercentage) {
