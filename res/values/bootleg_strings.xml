@@ -263,6 +263,7 @@
     <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 
     <!-- Features Strings - Miscellaneous -->
+    <!-- Launch Music app on Headset connection -->
     <string name="headset_connect_player_title">Launch music app on headset connection</string>
     <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
     <string name="headset_connect_player_disabled">Disabled</string>
@@ -275,16 +276,44 @@
     <string name="ringtone_focus_mode_title">Where to play ringtones from</string>
     <string name="ringtone_focus_mode_dynamic">From headset if connected and playing music</string>
     <string name="ringtone_focus_mode_stock">"From speakerphone (aosp default)"</string>
-    <string name="toast_icon_title">App\'s icon in toast</string>
-    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+    <!-- Wake on plug -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
-    <string name="app_ops_settings">AppOps</string>
+    <!-- Screen Off Animation-->
     <string name="screen_off_animation_default">Default</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scale</string>
     <string name="screen_off_animation_title">Screen off animation</string>
-
+    <!-- Suspend Actions -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Suspend Actions</string>
+    <string name="screen_state_toggles_summary_opt">Control how the device network should behave when the screen is off</string>
+    <string name="screen_state_toggles_enable_title">Enable</string>
+    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
+    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
+    <string name="screen_state_toggles_location_title">Location</string>
+    <string name="screen_state_toggles_twog">Switch to 2G</string>
+    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
+    <string name="screen_state_toggles_gps">Disable GPS</string>
+    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
+    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
+    <string name="screen_state_off_delay_title">Screen Off actions delay</string>
+    <string name="screen_state_off_delay_summary">Number of minutes to wait before performing actions after screen off</string>
+    <string name="screen_state_on_delay_title">Screen On actions delay</string>
+    <string name="screen_state_on_delay_summary">Number of minutes to wait before performing actions after screen on</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <!-- Toast Icon -->
+    <string name="toast_icon_title">App\'s icon in toast</string>
+    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+    <!-- App Ops -->
+    <string name="app_ops_settings">AppOps</string>
+    <string name="app_ops_summary">Control your app permissions in a detailed way</string>
+    
     <!-- Features Strings - Power Menu -->
     <string name="power_menu_title">Power menu</string>
     <string name="powermenu_buttons_tile">Power menu options</string>
@@ -620,25 +649,6 @@
     <string name="face_auto_unlock_title">Face auto unlock</string>
     <string name="face_auto_unlock_summary">Dismiss lockscreen after face unlocking</string>
 
-    <!-- Screen state service -->
-    <string name="screen_state_toggles_summary">@null</string>
-    <string name="screen_state_toggles_title">Suspend Actions</string>
-    <string name="screen_state_toggles_summary_opt">Control how the device network should behave when the screen is off</string>
-    <string name="screen_state_toggles_enable_title">Enable</string>
-    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
-    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
-    <string name="screen_state_toggles_location_title">Location</string>
-    <string name="screen_state_toggles_twog">Switch to 2G</string>
-    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
-    <string name="screen_state_toggles_gps">Disable GPS</string>
-    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
-    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
-    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
-    <string name="screen_state_off_delay_title">Screen Off actions delay</string>
-    <string name="screen_state_off_delay_summary">Number of minutes to wait before performing actions after screen off</string>
-    <string name="screen_state_on_delay_title">Screen On actions delay</string>
-    <string name="screen_state_on_delay_summary">Number of minutes to wait before performing actions after screen on</string>
-
     <!-- Carrier Label -->
     <string name="carrierlabel_title">Custom Carrier Label</string>
     <string name="carrierlabel_summary">Select where to show your carrier name... or make your own</string>
@@ -651,9 +661,6 @@
     <string name="show_carrier_keyguard">Lockscreen only</string>
     <string name="show_carrier_statusbar">Statusbar only</string>
     <string name="show_carrier_enabled">Lockscreen &amp; Statusbar</string>
-
-    <!-- app ops sumamry -->
-    <string name="app_ops_summary">Control your app permissions in a detailed way</string>
 
     <!-- dt2forget -->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
@@ -684,10 +691,5 @@
     <string name="battery_percent_outside">Show near icon</string>
     <string name="battery_percent_inside">Show inside icon</string>
 
-    <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">In-call vibration options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
 
