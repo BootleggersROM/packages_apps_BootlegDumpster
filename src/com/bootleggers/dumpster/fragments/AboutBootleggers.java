@@ -40,6 +40,8 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
+import com.bootleggers.dumpster.extra.SystemPropertiesReflection;
+
 import java.util.Random;
 
 public class AboutBootleggers extends SettingsPreferenceFragment implements
@@ -58,13 +60,14 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources res = getResources();
         addPreferencesFromResource(R.xml.bootleg_dumpster_about);
+
+        String bootlegMusicode = getSystemProp(this, "ro.bootleg.songcodename");
         /** Commented out due to not working
 
         String bootlegMaintainer = SystemProperties.get("BOOTLEG_MAINTAINER");
         String nomaintainer = res.getString(R.string.bootleg_ab_summary_whoami_unknown);
         String bootlegCodename = SystemProperties.get("BOOTLEG_DEVICECODENAME");
         String bootlegBuildtype = SystemProperties.get("BOOTLEG_RELEASETYPE");
-        String bootlegMusicode = SystemProperties.get("BOOTLEG_MUSICODENAME");
         String bootlegBuildMeaning = "Aidonnou";
         
         
@@ -95,9 +98,9 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
         } else {
             bootlegBuildMeaning = "Aidonnou";
         }
-        String bootlegFBuildtype = String.format(res.getString(R.string.bootleg_ri_summary_buildtype), bootlegBuildtype);
+        String bootlegFBuildtype = String.format(res.getString(R.string.bootleg_ri_summary_buildtype), bootlegBuildtype);*/
         String bootlegFMusical = String.format(res.getString(R.string.bootleg_ri_summary_musicode), bootlegMusicode);
-*/
+
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -149,6 +152,16 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
                 return super.onPreferenceTreeClick(preference);
         }
         return true;
+    }
+
+    public static String getSystemProp(Context context, String prop) {
+        String result = null;
+        try {
+            result = SystemPropertiesReflection.get(context, prop);
+        } catch (IllegalArgumentException iae) {
+            Log.e(TAG, "Failed to get prop: " + prop);
+        }
+        return result;
     }
 
     @Override

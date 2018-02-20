@@ -106,7 +106,7 @@
     <string name="bootleg_ri_title_ota">OTA Updates</string>
     <string name="bootleg_ri_summary_ota">Check if there\'s any new release</string>
     <string name="bootleg_ri_title_musicode">Musical Codename</string>
-    <string name="bootleg_ri_summary_musicode">Blue Print</string>
+    <string name="bootleg_ri_summary_musicode">%s</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
