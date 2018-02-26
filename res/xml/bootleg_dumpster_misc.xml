@@ -26,7 +26,7 @@
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
         android:summary="@string/headset_connect_player_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <Preference
         android:key="headset_options"
@@ -84,7 +84,7 @@
         android:key="toast_icon"
         android:title="@string/toast_icon_title"
         android:summary="@string/toast_icon_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <Preference
         android:title="@string/app_ops_settings"

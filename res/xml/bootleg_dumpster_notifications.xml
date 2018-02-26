@@ -61,7 +61,7 @@
             android:title="@string/heads_up_notifications"
             android:summaryOn="@string/summary_heads_up_enabled"
             android:summaryOff="@string/summary_heads_up_disabled"
-            android:defaultValue="false" />
+            android:defaultValue="true" />
 
     <Preference
         android:key="heads_up_notifications"

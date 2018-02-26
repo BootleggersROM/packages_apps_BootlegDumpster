@@ -22,7 +22,7 @@
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"
