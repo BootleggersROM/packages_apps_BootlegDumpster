@@ -75,12 +75,6 @@
         android:title="@string/bootleg_pref_title_rominfo"
         android:key="pref_bootleg_romstuff">
 
-<!--    DUMPED BECAUSE OF THE POINTLESS OF I CAN'T SHOW STUFF FROM BUILD.PROP
-        <ListPreference
-            android:key="bootleg_aboutbuild"
-            android:title="@string/bootleg_ri_title_buildtype"
-            android:summary="@string/bootleg_ri_summary_buildtype"/>
-        -->
         <!-- Updater -->
     <Preference
             android:key="update_settings"
@@ -90,13 +84,19 @@
                     android:targetPackage="com.bootleggers.ota"
                     android:targetClass="com.bootleggers.ota.MainActivity" />
     </Preference>
-        <ListPreference
-            android:key="bootleg_whoami"
-            android:title="@string/bootleg_ri_title_musicode"
-            android:summary="@string/bootleg_ri_summary_musicode"/>
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.youtube.com/watch?v=Mol1fLL4KHs" />
-    </PreferenceCategory>
 
+<!--    DUMPED BECAUSE OF THE POINTLESS OF I CAN'T SHOW STUFF FROM BUILD.PROP-->
+        <Preference
+            android:key="bootleg_aboutbuild"
+            android:title="@string/bootleg_ri_title_buildtype"
+            android:summary="@string/bootleg_ri_summary_buildtype">
+        </Preference> 
+
+    <Preference
+        android:key="bootleg_aboutmusicode"
+        android:title="@string/bootleg_ri_title_musicode"
+        android:summary="@string/bootleg_ri_summary_musicode">
+    </Preference>
+
+    </PreferenceCategory>
 </PreferenceScreen>

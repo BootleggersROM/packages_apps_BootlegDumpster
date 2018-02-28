@@ -28,7 +28,7 @@
             android:summary="@string/bootleg_moarstuff_blog_summary">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://bootleggersrom.github.io" />
+                android:data="https://bootleggersrom.github.io/blog" />
         </Preference>
 
         <Preference
