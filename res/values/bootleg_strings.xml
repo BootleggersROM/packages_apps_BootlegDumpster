@@ -56,16 +56,12 @@
     <string name="bootleg_ab_title_whoami">What\'s Bootleggers?</string>
     <string name="bootleg_ab_summary_whoami">Bootleggers is a ROM packed with features and apps with the purpose of make your feel like 家. Hope you like it and enjoy our experience.</string>
     <string name="bootleg_ab_title_thankssec">Thank you list</string>
-<!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY.
-    <string name="bootleg_ab_summary_thankssecfirst">Touch here to see who made and inspired this project. Also, huge thanks to %1$s</string>
-    <string name="bootleg_ab_summary_thankssecont"> for bring it for %1$s.</string>
-    -->
-    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
-<!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY.
-    <string name="bootleg_ab_summary_whoami_unknown">... somebody who didn\'t declared properly who it is.. </string>
-    -->
+    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project. Also, huge thanks to %s for bring it for %s.</string>
+
+<!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
+
+    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+    <string name="bootleg_ab_summary_whoami_unknown">... somebody who didn\'t declared properly who it is... </string>
     <string name="bootleg_pref_title_romextras">Extras and Addons</string>
     <string name="bootleg_ex_title_featurelist">Feature List</string>
     <string name="bootleg_ex_summary_featurelist">Check the current list of features on this build</string>
@@ -99,14 +95,15 @@
     <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
     
 <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY.
+    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
     <string name="bootleg_ri_title_buildtype">Build Type</string>
-    <string name="bootleg_ri_summary_buildtype">%1$s</string> -->
+    <string name="bootleg_ri_summary_buildtype">Your build is %s... or %s.</string>
     <string name="bootleg_pref_title_rominfo">ROM Info</string>
     <string name="bootleg_ri_title_ota">OTA Updates</string>
     <string name="bootleg_ri_summary_ota">Check if there\'s any new release</string>
     <string name="bootleg_ri_title_musicode">Musical Codename</string>
     <string name="bootleg_ri_summary_musicode">%s</string>
+    <string name="bootleg_ri_intent_musicode">goo.gl/yn9B2s</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
