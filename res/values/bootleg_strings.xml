@@ -250,4 +250,9 @@
 
     <!-- SystemUI Restart -->
     <string name="systemui_restart_toast">This feature requires a SystemUI restart to be applied. We\'ll restart the SystemUI right now.</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">FP unlock</string>
+    <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
+
 </resources>
