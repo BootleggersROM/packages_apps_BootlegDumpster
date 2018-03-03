@@ -1066,6 +1066,6 @@
     <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
     <string name="slim_blacklist_add_apps_title">Add app</string>
     <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
-    <string name="slim_recents_hints_footer">To clear all apps, pinch-in with two fingers on the panel. To block an app from being cleared, long press on its icon to star it.\n\nSlim Recents allow you to dynamically trigger multiwindow mode: drag an app A above or under an app B to open a multiwindow session with A as top app and B as bottom app or viceversa.\n\nTo kill an app and all of related background processes, tap on the three dots in the app card then tap on the bomb icon.</string>
+    <string name="slim_recents_hints_footer">To clear all apps, pinch-in with two fingers on the panel. To block an app from being cleared, long press on its icon to star it.\n\nFor additional recents features such as multiwindow or to kill an app, long press or drag an app card in the panel.</string>
 
 </resources>
