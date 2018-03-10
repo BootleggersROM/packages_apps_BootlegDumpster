@@ -22,6 +22,14 @@
         android:key="recents_ui_aosp_recents_category"
         android:title="@string/aosp_recents_category">
 
+    <ListPreference
+        android:key="recents_layout_style"
+        android:title="@string/recents_type_title"
+        android:dialogTitle="@string/recents_type_title"
+        android:entries="@array/recents_type_title_entries"
+        android:defaultValue="0"
+        android:entryValues="@array/recents_type_title_values"/>
+
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="show_clear_all_recents"
         android:title="@string/show_clear_all_recents_button_title"

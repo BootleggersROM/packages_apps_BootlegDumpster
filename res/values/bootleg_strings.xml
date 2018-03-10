@@ -998,4 +998,10 @@
     <string name="lockscreen_items_other">Other</string>
     <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend you set the amount of disabled pixels at 75 percent.</string>
 
+    <!-- AOSP Recents Style -->
+    <string name="recents_type_title">Recents Layout</string>
+    <string name="recents_stock">Stock</string>
+    <string name="recents_grid">Grid</string>
+    <string name="recents_go">Android Go</string>
+
 </resources>
