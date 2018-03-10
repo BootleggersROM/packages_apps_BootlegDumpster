@@ -42,6 +42,7 @@ import android.util.DisplayMetrics;
 import android.view.DisplayInfo;
 import android.view.Surface;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.android.settings.R;
 
@@ -213,20 +214,12 @@ public final class Utils {
         return false;
     }
     public static void restartSystemUi(Context context) {
+        Toast.makeText(context, R.string.systemui_restart_toast, Toast.LENGTH_LONG).show();
         new RestartSystemUiTask(context).execute();
     }
 
     public static void showSystemUiRestartDialog(Context context) {
-        new AlertDialog.Builder(context)
-                .setTitle(R.string.systemui_restart_title)
-                .setMessage(R.string.systemui_restart_message)
-                .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        restartSystemUi(context);
-                    }
-                })
-                .setNegativeButton(R.string.cancel, null)
-                .show();
+        restartSystemUi(context);
     }
 
     private static class RestartSystemUiTask extends AsyncTask<Void, Void, Void> {
@@ -239,6 +232,10 @@ public final class Utils {
 
         @Override
         protected Void doInBackground(Void... params) {
+        	try {
+        	     Thread.sleep(3000); //3s
+        	} catch (InterruptedException ie) {}
+
             try {
                 ActivityManager am =
                         (ActivityManager) mContext.getSystemService(Context.ACTIVITY_SERVICE);
