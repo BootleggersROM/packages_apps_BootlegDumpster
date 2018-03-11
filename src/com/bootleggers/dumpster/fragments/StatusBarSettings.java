@@ -77,7 +77,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mBatteryIconStyle.setOnPreferenceChangeListener(this);
 
         int showPercent = Settings.System.getInt(resolver,
-                Settings.System.SHOW_BATTERY_PERCENT, 1);
+                Settings.System.SHOW_BATTERY_PERCENT, 0);
         mBatteryPercentage = (ListPreference) findPreference(BATTERY_PERCENT);
         mBatteryPercentage.setValue(Integer.toString(showPercent));
         valueIndex = mBatteryPercentage.findIndexOfValue(String.valueOf(showPercent));
