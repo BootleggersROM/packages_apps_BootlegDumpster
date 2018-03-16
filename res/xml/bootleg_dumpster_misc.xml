@@ -51,6 +51,11 @@
         android:title="@string/screen_state_toggles_title"
         android:fragment="com.bootleggers.dumpster.external.SuspendActions" />
 
+    <Preference
+        android:key="screenshot_edit_app"
+        android:title="@string/screenshot_edit_app"
+        android:summary="@string/screenshot_edit_app_summary" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

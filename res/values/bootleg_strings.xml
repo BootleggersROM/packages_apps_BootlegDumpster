@@ -722,6 +722,11 @@
     <string name="screen_state_on_delay_title">Screen On actions delay</string>
     <string name="screen_state_on_delay_summary">Number of minutes to wait before performing actions after screen on</string>
 
+    <!-- Screenshot editor -->
+    <string name="screenshot_edit_app">Screenshot editor</string>
+    <string name="screenshot_edit_app_summary">Select which image editor to use to edit screenshots with</string>
+    <string name="screenshot_edit_app_no_editor">No image editor available</string>
+
     <!-- Battery Styles -->
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Change the look of the icon in the statusbar</string>
