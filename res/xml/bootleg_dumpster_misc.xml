@@ -72,6 +72,11 @@
          android:summary="@string/log_it_summary"
          android:fragment="com.bootleggers.dumpster.external.LogIt" />
 
+    <Preference
+        android:key="screenshot_edit_app"
+        android:title="@string/screenshot_edit_app"
+        android:summary="@string/screenshot_edit_app_summary" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
