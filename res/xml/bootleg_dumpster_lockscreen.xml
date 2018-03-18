@@ -75,6 +75,12 @@
         android:key="locksect_misc"
         android:title="@string/misc_title">
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_lockscreen"
+        android:title="@string/powermenu_lockscreen_title"
+        android:summary="@string/powermenu_lockscreen_summary"
+        android:defaultValue="true" />
+
     <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
         android:key="face_auto_unlock"
         android:title="@string/face_auto_unlock_title"

@@ -704,5 +704,9 @@
     <string name="hide_apps_from_recents_title">Hidden apps</string>
     <string name="hide_from_recents_add_app">Add App</string>
     <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
+
+    <!-- Show power menu on lockscreen -->
+    <string name="powermenu_lockscreen_title">Show powermenu on Lockscreen</string>
+    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
 </resources>
 
