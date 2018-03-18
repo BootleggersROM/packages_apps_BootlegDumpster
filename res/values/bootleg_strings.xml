@@ -215,4 +215,8 @@
     <string name="powermenu_users">Users</string>
     <string name="powermenu_torch">Flashlight</string>
 
+    <!-- Show power menu on lockscreen -->
+    <string name="powermenu_lockscreen_title">Show powermenu on Lockscreen</string>
+    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+
 </resources>
