@@ -26,4 +26,8 @@
     <dimen name="qs_styles_layout_background_size">72dp</dimen>
     <dimen name="qs_styles_layout_foreground_size">24dp</dimen>
     <dimen name="qs_styles_tile_preview_spacing">15dp</dimen>
+
+    <!-- SeekBarPreferenceCham: offset of the value popup -->
+    <dimen name="seek_bar_preference_cham_value_x_offset">0dp</dimen>
+    <dimen name="seek_bar_preference_cham_value_y_offset">-16dp</dimen>
 </resources>
