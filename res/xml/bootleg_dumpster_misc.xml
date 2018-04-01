@@ -47,6 +47,12 @@
         android:entryValues="@array/screen_off_animation_values"
         android:persistent="false"/>
 
+    <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+        android:key="system_default_animation"
+        android:title="@string/system_default_animation_title"
+        android:summary="@string/system_default_animation_summary"
+        android:defaultValue="false" />
+
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="mtp_dirty_hack"
         android:title="@string/enable_mtp_dirtyhack_title"
