@@ -489,6 +489,11 @@
         <item>@string/lock_clock_font_condensed_bold_italic</item>
         <item>@string/lock_clock_font_medium_normal</item>
         <item>@string/lock_clock_font_medium_italic</item>
+        <item>@string/lock_clock_font_gobold</item>
+        <item>@string/lock_clock_font_roadrage</item>
+        <item>@string/lock_clock_font_snowstorm</item>
+        <item>@string/lock_clock_font_googlesans</item>
+        <item>@string/lock_clock_font_themeable</item>
     </string-array>
 
     <string-array name="lock_clock_fonts_values" translatable="false">
@@ -504,6 +509,11 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
     </string-array>
 
 </resources>
