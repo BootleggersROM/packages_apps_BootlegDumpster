@@ -807,6 +807,13 @@
     <string name="lock_fonts_medium_normal">System Medium</string>
     <string name="lock_fonts_medium_italic">System Medium Italic</string>
 
+    <!-- Lockscreen fonts - other fonts, unstranslatable by default -->
+    <string name="lock_clock_font_gobold" translatable="false">GoBold Light</string>
+    <string name="lock_clock_font_roadrage" translatable="false">Road Rage</string>
+    <string name="lock_clock_font_snowstorm" translatable="false">Snowstorm</string>
+    <string name="lock_clock_font_googlesans" translatable="false">Google Sans</string>
+    <string name="lock_clock_font_themeable" translatable="false">Themeable (or VCR OSD Mono)</string>
+
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Clock font options</string>
     <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
