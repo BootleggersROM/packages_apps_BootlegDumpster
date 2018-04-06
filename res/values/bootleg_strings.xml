@@ -753,4 +753,8 @@
     <string name="fp_unlock_keystore_title">FP unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
 
+    <!-- Disable QS on secure Lockscreen -->
+    <string name="lockscreen_qs_disabled_title">No QS when secured</string>
+    <string name="lockscreen_qs_disabled_summary">Disable quick settings tiles on secured lockscreen</string>
+
 </resources>
