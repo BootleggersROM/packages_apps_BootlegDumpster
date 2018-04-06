@@ -741,18 +741,18 @@
     <string name="lock_clock_font_title">Clock font options</string>
     <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
     <string name="lock_clock_font_dialog_title">Select lock clock font</string>
-    <string name="lock_clock_font_stock">Normal (default)</string>
-    <string name="lock_clock_font_bold">Bold</string>
-    <string name="lock_clock_font_italic">Italic</string>
-    <string name="lock_clock_font_bold_italic">Bold Italic</string>
-    <string name="lock_clock_font_light_italic">Light Italic</string>
-    <string name="lock_clock_font_thin_italic">Thin Italic</string>
-    <string name="lock_clock_font_condensed_normal">Condensed</string>
-    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
-    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
-    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
-    <string name="lock_clock_font_medium_normal">Medium</string>
-    <string name="lock_clock_font_medium_italic">Medium Italic</string>
+    <string name="lock_clock_font_stock">System Normal (default)</string>
+    <string name="lock_clock_font_bold">System Bold</string>
+    <string name="lock_clock_font_italic">System Italic</string>
+    <string name="lock_clock_font_bold_italic">System Bold Italic</string>
+    <string name="lock_clock_font_light_italic">System Light Italic</string>
+    <string name="lock_clock_font_thin_italic">System Thin Italic</string>
+    <string name="lock_clock_font_condensed_normal">System Condensed</string>
+    <string name="lock_clock_font_condensed_italic">System Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold">System Condensed Bold</string>
+    <string name="lock_clock_font_condensed_bold_italic">System Condensed Bold Italic</string>
+    <string name="lock_clock_font_medium_normal">System Medium</string>
+    <string name="lock_clock_font_medium_italic">System Medium Italic</string>
 
 </resources>
 
