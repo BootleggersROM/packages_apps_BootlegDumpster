@@ -714,5 +714,10 @@
     <!-- Show power menu on lockscreen -->
     <string name="powermenu_lockscreen_title">Show powermenu on Lockscreen</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+
+    <!-- Disable QS on secure Lockscreen -->
+    <string name="lockscreen_qs_disabled_title">No QS when secured</string>
+    <string name="lockscreen_qs_disabled_summary">Disable quick settings tiles on secured lockscreen</string>
+
 </resources>
 
