@@ -102,8 +102,8 @@
     <string name="bootleg_ri_title_ota">OTA Updates</string>
     <string name="bootleg_ri_summary_ota">Check if there\'s any new release</string>
     <string name="bootleg_ri_title_musicode">Musical Codename</string>
-    <string name="bootleg_ri_summary_musicode">%s</string>
-    <string name="bootleg_ri_intent_musicode">goo.gl/yn9B2s</string>
+    <string name="bootleg_ri_summary_musicode" translatable="false">%s</string>
+    <string name="bootleg_ri_intent_musicode" translatable="false">goo.gl/yn9B2s</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -128,10 +128,10 @@
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
-    <string name="arrow_right">→</string>
-    <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
+    <string name="arrow_right" translatable="false">→</string>
+    <string name="arrow_down" translatable="false">↓</string>
+    <string name="hex" translatable="false">Hex:</string>
+    <string name="hex_hint" translatable="false">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
@@ -238,7 +238,7 @@
     <string name="daylight_header_pack_title">Header image collection</string>
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="unit_percent">\u0025</string>
+    <string name="unit_percent" translatable="false">\u0025</string>
     <string name="static_header_provider" translatable="false">static</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
     <string name="static_header_provider_title">Static image</string>
@@ -753,10 +753,10 @@
     <string name="lock_clock_font_condensed_bold_italic">System Condensed Bold Italic</string>
     <string name="lock_clock_font_medium_normal">System Medium</string>
     <string name="lock_clock_font_medium_italic">System Medium Italic</string>
-    <string name="lock_clock_font_gobold">GoBold Light</string>
-    <string name="lock_clock_font_roadrage">Road Rage</string>
-    <string name="lock_clock_font_snowstorm">Snowstorm</string>
-    <string name="lock_clock_font_googlesans">Google Sans</string>
+    <string name="lock_clock_font_gobold" translatable="false">GoBold Light</string>
+    <string name="lock_clock_font_roadrage" translatable="false">Road Rage</string>
+    <string name="lock_clock_font_snowstorm" translatable="false">Snowstorm</string>
+    <string name="lock_clock_font_googlesans" translatable="false">Google Sans</string>
     <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
 
     <!-- Lockscreen Weather -->
