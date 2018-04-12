@@ -105,6 +105,12 @@
     <string name="bootleg_ri_summary_musicode" translatable="false">%s</string>
     <string name="bootleg_ri_intent_musicode" translatable="false">goo.gl/yn9B2s</string>
 
+    <!-- System theme -->
+    <string name="accent_picker_dialog_title">Select an accent color</string>
+    <string name="theme_accent_picker_title">Accent color</string>
+    <string name="theme_accent_picker_summary">Select system theme accent color</string>
+    <string name="theme_accent_picker_default">Default</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
