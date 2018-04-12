@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2018 The Dirty Unicorns Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="40dp"
+    android:layout_marginEnd="40dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:id="@+id/Gridlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/warmthAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#ff6f20" />
+
+            <Button
+                android:id="@+id/maniaAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#f6ca11" />
+
+            <Button
+                android:id="@+id/moveAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#46ff99" />
+
+            <Button
+                android:id="@+id/seasideAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#01c18c" />
+
+            <Button
+                android:id="@+id/naturedAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#00ad84" />
+
+            <Button
+                android:id="@+id/aospAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#009688" />
+
+            <Button
+                android:id="@+id/kaAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#025e79" />
+
+            <Button
+                android:id="@+id/holillusionAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#0ac8ff" />
+
+            <Button
+                android:id="@+id/heirloomAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#327ccb" />
+
+            <Button
+                android:id="@+id/obfuscAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#0042ba" />
+
+            <Button
+                android:id="@+id/frenchAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#2856ff" />
+
+            <Button
+                android:id="@+id/footprintAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#3c5ae0" />
+
+            <Button
+                android:id="@+id/dreamyAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#7278e5" />
+
+            <Button
+                android:id="@+id/notimpAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#8522ff" />
+
+            <Button
+                android:id="@+id/spookedAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#822b6b" />
+
+            <Button
+                android:id="@+id/trufilAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#ae2463" />
+
+            <Button
+                android:id="@+id/bubblegumAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#e52c5f" />
+
+            <Button
+                android:id="@+id/boucheAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#bc092f" />
+
+            <Button
+                android:id="@+id/misleadingAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#ea3556" />
+
+            <Button
+                android:id="@+id/whytheAccent"
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_columnWeight="1"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:background="#91919b" />
+
+        </GridLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/SelectAccentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="20dp"
+        android:textSize="14sp"
+        android:text="@string/accent_picker_dialog_title" />
+</LinearLayout>
