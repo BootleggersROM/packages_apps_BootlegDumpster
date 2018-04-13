@@ -747,8 +747,8 @@
     <string name="lock_clock_font_bold">System Bold</string>
     <string name="lock_clock_font_italic">System Italic</string>
     <string name="lock_clock_font_bold_italic">System Bold Italic</string>
+    <string name="lock_clock_font_light">System Light Normal</string>
     <string name="lock_clock_font_light_italic">System Light Italic</string>
-    <string name="lock_clock_font_thin_italic">System Thin Italic</string>
     <string name="lock_clock_font_condensed_normal">System Condensed</string>
     <string name="lock_clock_font_condensed_italic">System Condensed Italic</string>
     <string name="lock_clock_font_condensed_bold">System Condensed Bold</string>
