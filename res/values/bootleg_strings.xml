@@ -1028,6 +1028,9 @@
     <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
     <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
     <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_shift">Prevent burn-in by shifting pixels every</string>
+    <string name="smart_pixels_shift_title">Burn-in protection</string>
+    <string name="smart_pixels_shift_summary">Prevents burn-in on OLED devices by shifting pixels every so often</string>
+    <string name="lockscreen_items_other">Other</string>
+    <string name="smart_pixels_warning_text">Smart pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend you set the amount of disabled pixels at 75 percent.</string>
 
 </resources>
