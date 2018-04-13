@@ -228,6 +228,10 @@ public final class Utils {
         new RestartSystemUiTask(context).execute();
     }
 
+    public static void restartSystemUiSilent(Context context) {
+        new RestartSystemUiTask(context).execute();
+    }
+
     public static void showSystemUiRestartDialog(Context context) {
         restartSystemUi(context);
     }
