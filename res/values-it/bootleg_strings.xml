@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="bootleg_dumpster_title">Bootleg Dumpster</string>
   <!-- Categories -->
   <string name="button_title">Pulsanti fisici</string>
   <string name="buttons_settings_summary">Modifica i pulsanti fisici</string>
@@ -680,7 +678,6 @@
   <string name="lock_clock_font_italic">Corsivo</string>
   <string name="lock_clock_font_bold_italic">Grassetto corsivo</string>
   <string name="lock_clock_font_light_italic">Corsivo leggero</string>
-  <string name="lock_clock_font_thin_italic">Sottile corsivo</string>
   <string name="lock_clock_font_condensed_normal">Condensato</string>
   <string name="lock_clock_font_condensed_italic">Corsivo condensato</string>
   <string name="lock_clock_font_condensed_bold">Grassetto condensato</string>

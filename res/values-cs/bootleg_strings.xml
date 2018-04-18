@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="bootleg_dumpster_title">Bootleg Dumpster</string>
   <!-- Categories -->
   <string name="button_title">Hardwarová tlačítka</string>
   <string name="buttons_settings_summary">Změna nastavení HW tlačítek</string>
@@ -680,7 +678,6 @@
   <string name="lock_clock_font_italic">Systémové Italic</string>
   <string name="lock_clock_font_bold_italic">Systémové Bold Italic</string>
   <string name="lock_clock_font_light_italic">Systémové Light Italic</string>
-  <string name="lock_clock_font_thin_italic">Systémové Thin Italic</string>
   <string name="lock_clock_font_condensed_normal">Systémové Condensed</string>
   <string name="lock_clock_font_condensed_italic">Systémové Condensed Italic</string>
   <string name="lock_clock_font_condensed_bold">Systémové Condensed Bold</string>

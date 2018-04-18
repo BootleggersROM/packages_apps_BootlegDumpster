@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="bootleg_dumpster_title">Lixeira Bootleg</string>
   <!-- Categories -->
   <string name="button_title">Botões HW</string>
   <string name="buttons_settings_summary">Mude algumas coisas dos seus botões HW</string>
@@ -682,7 +680,6 @@ Contexto | Contexto de solicitação</string>
   <string name="lock_clock_font_italic">System Italic</string>
   <string name="lock_clock_font_bold_italic">System Bold Italic</string>
   <string name="lock_clock_font_light_italic">System Light Italic</string>
-  <string name="lock_clock_font_thin_italic">System Thin Italic</string>
   <string name="lock_clock_font_condensed_normal">System Condensed</string>
   <string name="lock_clock_font_condensed_italic">System Condensed Italic</string>
   <string name="lock_clock_font_condensed_bold">System Condensed Bold</string>

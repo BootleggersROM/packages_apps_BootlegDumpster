@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="bootleg_dumpster_title">Wysypisko Podróbek</string>
   <!-- Categories -->
   <string name="button_title">Fizyczne przyciski</string>
   <string name="buttons_settings_summary">Zmień opcje fizycznych przycisków</string>
@@ -44,7 +42,7 @@
   <string name="bootleg_ab_title_whoami">Co to jest Bootleggers?</string>
   <string name="bootleg_ab_summary_whoami">Bootleggers to ROM pełen funkcji i aplikacji, które sprawią, że poczujesz się jak 家. Mamy nadzieję, że Ci się spodoba i będziesz się cieszył naszym doświadczeniem.</string>
   <string name="bootleg_ab_title_thankssec">Dziękujemy</string>
-  <string name="bootleg_ab_summary_thankssec">Dotknij tutaj, aby zobaczyć, kto stworzył i zainspirował ten projekt. Wielkie podziękowania należą się również %s za to, że doprowadził to do skutku %s.</string>
+  <string name="bootleg_ab_summary_thankssec">Dotknij tutaj, aby zobaczyć, kto stworzył i zainspirował ten projekt. Wielkie podziękowania należą się również %s za to, że doprowadził to wszystko do skutku dla urządzenia zwanym inaczej %s.</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
     DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
@@ -68,13 +66,13 @@
   <string name="bootleg_moarstuff_gplus_summary">Wysyłaj zrzuty ekranu, przesyłaj nam opinie, cokolwiek chcesz, ale z szacunkiem</string>
   <string name="bootleg_moarstuff_tg_title">Nasza społeczność Telegram</string>
   <string name="bootleg_moarstuff_tg_summary">Porozmawiaj z nami, poznaj przyszłe aktualizacje i dołącz do naszej wspaniałej społeczności</string>
-  <string name="bootleg_pref_moarstuff_wewsecret">Myślę, że to naprawdę nie było tak tajne miejsce, ale dobrze, jeśli tu jesteś, chcę ci tylko powiedzieć, że dziękuję za flashowanie tego ROMu i tak, jak mówiliśmy wiele razy wcześniej, mamy nadzieję, że ci się spodoba i dobrze się bawisz z tym ROMem.</string>
+  <string name="bootleg_pref_moarstuff_wewsecret">Myślę, że to naprawdę nie było tak tajne miejsce, ale dobrze, jeśli tu jesteś, chcę ci tylko powiedzieć, że dziękuję za wgranie tego ROMu i tak, jak mówiliśmy wiele razy wcześniej, mamy nadzieję, że ci się podoba i dobrze się bawisz tym ROMem.</string>
   <!-- Messages to send? -->
   <string name="share_chooser_title">Podziel się naszym ROMem przez..</string>
   <string name="bootleg_sharemsg1">Hej, używam tego ROMu o nazwie Bootleggers, On jest fajny szczerze. Więcej informacji na ten temat znajdziesz na https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg2">Zainstalowałem ROM Bootleggers i wygląda na to, że w tej chwili jest dobry, powinieneś sprawdzić więcej na https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg3">Więc przeszedłem na Bootleggers ROM i podoba mi się to na razie, jest to całkiem fajny ROM </string>
-  <string name="bootleg_sharemsg4">Hej, właśnie zflashowałem Bootleggers i jestem trochę zadowolony z ROM-u, polecam go </string>
+  <string name="bootleg_sharemsg4">Hej, właśnie wgrałem Bootleggers i jestem zadowolony z ROM-u, polecam go </string>
   <string name="bootleg_sharemsg5">Przeszedłem na ROM Bootleggers, wydaje się całkiem niezły, ma kilka różnych domyślnych czcionek i różnych funkcji </string>
   <string name="bootleg_sharemsg6">Spróbuj Bootleggers ROM teraz! https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg7">Um, testuję bootleggers i jest trochę dziwny, ale nie taki zły </string>
@@ -97,7 +95,7 @@
   <string name="cancel">Anuluj</string>
   <string name="save">Zapisz</string>
   <string name="obviousum01">Hmm, myślę, że to oczywiste</string>
-  <string name="obviousum02">A tytuł wyjaśnia wszystko</string>
+  <string name="obviousum02">Ten tytuł wyjaśnia wszystko</string>
   <string name="obviousum03">Cóż, nie powinienem tego wyjaśniać</string>
   <string name="bootleg_external_summary">Dostosuj go bardziej w tym podmenu</string>
   <!-- General Categories -->
@@ -680,7 +678,6 @@
   <string name="lock_clock_font_italic">Systemowa Kursywa</string>
   <string name="lock_clock_font_bold_italic">Pogrubiona kursywa</string>
   <string name="lock_clock_font_light_italic">Lekka kursywa</string>
-  <string name="lock_clock_font_thin_italic">Cienka kursywa</string>
   <string name="lock_clock_font_condensed_normal">Skondensowana</string>
   <string name="lock_clock_font_condensed_italic">Skondensowana kursywa</string>
   <string name="lock_clock_font_condensed_bold">Pogrubiona skondensowana</string>

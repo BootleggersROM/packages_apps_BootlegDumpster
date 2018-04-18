@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="bootleg_dumpster_title">Настройки Bootleg</string>
   <!-- Categories -->
   <string name="button_title">Аппаратные кнопки</string>
   <string name="buttons_settings_summary">Изменить назначение аппаратных кнопок</string>
@@ -680,7 +678,6 @@
   <string name="lock_clock_font_italic">Курсив</string>
   <string name="lock_clock_font_bold_italic">Полужирный курсив</string>
   <string name="lock_clock_font_light_italic">Лёгкий курсив</string>
-  <string name="lock_clock_font_thin_italic">Полужирный курсив</string>
   <string name="lock_clock_font_condensed_normal">Нормальный шрифт часов на экране блокировки</string>
   <string name="lock_clock_font_condensed_italic">Плотный курсив</string>
   <string name="lock_clock_font_condensed_bold">Жирный шрифт часов на экране блокировки</string>
