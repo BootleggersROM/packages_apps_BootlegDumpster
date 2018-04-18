@@ -15,7 +15,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/bootleg_dumpster_title" >
+    android:title="@string/bootlegdumpster_settings_activity" >
 
         <!-- Status Bar -->
         <Preference
