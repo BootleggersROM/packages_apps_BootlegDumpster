@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="bootleg_dumpster_title">Bootleg Dumpster</string>
   <!-- Categories -->
   <string name="button_title">Donanım tuşları</string>
   <string name="buttons_settings_summary">Donanım tuşlarının bazı şeylerini değiştirme</string>
@@ -23,7 +21,7 @@
   <string name="lockscreen_settings_summary">Kilit ekranında düzeni ve özellikleri değiştirme</string>
   <string name="misc_title">Çeşitli</string>
   <string name="misc_settings_summary">Diğer seçeneklerde olmayan bazi özelleştirmeler</string>
-  <string name="navbar_title">Gezinme çubuğu özellikleri</string>
+  <string name="navbar_title">Gezinme çubuğu</string>
   <string name="navbar_settings_summary">Gezinme tuşunuza bazı yeni numaralar öğretin</string>
   <string name="powermenu_title">Güç menüsü</string>
   <string name="powermenu_settings_summary">Bu kapatma menüsünü daha kullanışlı hale getirin</string>
@@ -103,7 +101,7 @@
   <!-- General Categories -->
   <string name="bootleg_advancedopt_title">Gelişmiş seçenekler</string>
   <string name="general_ui_tweaks_preference">Arayüz ve özelleştirmeler</string>
-  <string name="general_system_stuff_preference">Sistem davranış</string>
+  <string name="general_system_stuff_preference">Sistem davranışı</string>
   <string name="general_gesturesmaybe_preference">Hareketler</string>
   <!-- Specific categories -->
   <string name="lockscreen_ambient_preference">Ortam ekranı</string>
@@ -118,7 +116,7 @@
   <!-- Footer warnings -->
   <string name="carrier_label_warning_text">Özel operatör etiketini sadece durum çubuğunda kullanabilirsiniz. Ayrıca özel operatör etiket emoji\'si olarak kullanmak açık renkli arka planlarda bazı görünürlük sorunlarına neden olabilir.</string>
   <!-- Features Strings - Buttons -->
-  <string name="swap_volume_buttons">Tuşları değiştir</string>
+  <string name="swap_volume_buttons">Yeniden ata</string>
   <string name="swap_volume_buttons_summary">Ekran döndürüldüğünde ses tuşlarının yerlerini değiştir</string>
   <string name="volume_keys_control_media_stream_title">Medya kontrolü</string>
   <string name="volume_keys_control_media_stream_summary">Ses tuşları medya ses seviyesini kontrol eder</string>
@@ -144,12 +142,12 @@
   <string name="hardware_keys_category">Donanım tuşları</string>
   <string name="hardware_keys_disable_title">Donanım tuşlarını devre dışı bırak</string>
   <!-- Button brightness -->
-  <string name="button_backlight_options_category">Arka ışık</string>
+  <string name="button_backlight_options_category">Aydınlatma ışığı</string>
   <string name="button_backlight_enable_title">Tuş aydınlatılmasına izin ver</string>
   <string name="button_link_brightness">Ekran parlaklığına bağla</string>
   <string name="button_link_brightness_summary">Tuş arka aydınlatma parlaklığını ekran parlaklığı seviyesine göre ayarlar</string>
   <string name="button_manual_brightness">Parlaklık seviyesi</string>
-  <string name="button_timeout_title">Arka ışık zaman aşımı</string>
+  <string name="button_timeout_title">Aydınlatma zaman aşımı</string>
   <string name="button_backlight_on_touch_only_title">Dokunulduğunda aydınlat</string>
   <string name="button_backlight_on_touch_only_summary">Tuş aydınlatma ışığı yalnızca tuşlara basıldığında değil her zaman açık kalır. Zaman aşımı yine de bu özelliği etkiler.</string>
   <!-- Fingerprint authentication vibration -->
@@ -257,7 +255,7 @@
   <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
   <!-- MTP Dirty Hack -->
   <string name="enable_mtp_dirtyhack_title">Dosyaları aktar</string>
-  <string name="enable_mtp_dirtyhack_summary">PC\'ye bağlandığında Şarj olmak yerine MTP\'ye bağlan</string>
+  <string name="enable_mtp_dirtyhack_summary">Cihaz PC\'ye bağlandığında Şarj olmak yerine MTP\'ye bağlan</string>
   <!-- Suspend Actions -->
   <string name="screen_state_toggles_summary">\@null</string>
   <string name="screen_state_toggles_title">Eylemler</string>
@@ -285,7 +283,7 @@
   <string name="toast_icon_title">Bildirim simgesi</string>
   <string name="toast_icon_summary">Bildirim ile uyumlu uygulama simgesini göster</string>
   <!-- App Ops -->
-  <string name="app_ops_settings">Uygulama çalıştırma ayarları</string>
+  <string name="app_ops_settings">Uygulama çalışma ayarları</string>
   <string name="app_ops_summary">Uygulama izinlerinizi ayrıntılı bir şekilde kontrol edin</string>
   <!-- Features Strings - Power Menu -->
   <string name="power_menu_title">Güç menüsü</string>
@@ -356,7 +354,7 @@
   <string name="battery_light_settings">Pil şarj ışığı</string>
   <string name="battery_light_settings_summary">LED\'in nasıl çalışması gerektiğini etkinleştirin ve yapılandırın</string>
   <string name="battery_light_enable">Pil ışığı</string>
-  <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyin modunda ışığı yak söndür</string>
+  <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yak söndür</string>
   <string name="battery_light_low_blinking_title">Düşük pilde ışığı yak söndür</string>
   <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
   <string name="battery_light_low_color">Düşük pil</string>
@@ -396,7 +394,7 @@
   <string name="heads_up_snooze_20min">20 dakika</string>
   <!-- Statusbar ticker -->
   <string name="ticker_screen_title">Bildirim şeridi</string>
-  <string name="ticker_mode_title">Durum çubuğu bildirimler şeridi</string>
+  <string name="ticker_mode_title">Durum çubuğu bildirim şeridi</string>
   <string name="ticker_disabled">Devre dışı</string>
   <string name="ticker_enabled">Bildirim şeridi</string>
   <string name="ticker_media_enabled">Bildirim ve müzik şeridi</string>
@@ -466,8 +464,8 @@
   <string name="fling_short_swipe_left">Sola kısa kaydırma</string>
   <string name="fling_long_swipe_right">Sağa uzun kaydırma</string>
   <string name="fling_long_swipe_left">Sola uzun kaydırma</string>
-  <string name="fling_right_up_swipe">Sağ kenarı yukar kaydırma</string>
-  <string name="fling_left_up_swipe">Sol kenarı yukarı kaydırma</string>
+  <string name="fling_right_up_swipe">Sağ tarafı yukarı kaydırma</string>
+  <string name="fling_left_up_swipe">Sol tarafı yukarı kaydırma</string>
   <string name="fling_single_tap">Sağ tarafa tek dokunma</string>
   <string name="fling_double_tap">Sağ tarafa çift dokunma</string>
   <string name="fling_long_press">Sağ tarafa uzun dokunma</string>
@@ -617,7 +615,7 @@
   <string name="show_carrier_enabled">Etkin</string>
   <!-- dt2forget -->
   <string name="double_tap_sleep_lockscreen">Çift dokunuşla uyutma</string>
-  <string name="double_tap_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranın boş bir alanına çift dokunun</string>
+  <string name="double_tap_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranının boş bir alanına çift dokunun</string>
   <string name="double_tap_sleep_gesture_title">Çift dokunuşla uyutma</string>
   <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğuna çift dokunun</string>
   <!-- Brightness icon-->
@@ -679,8 +677,8 @@
   <string name="lock_clock_font_bold">Sistem kalın</string>
   <string name="lock_clock_font_italic">Sistem italik</string>
   <string name="lock_clock_font_bold_italic">Sistem kalın italik</string>
+  <string name="lock_clock_font_light">Sistem Işığı Normal</string>
   <string name="lock_clock_font_light_italic">Sistem ışık italik</string>
-  <string name="lock_clock_font_thin_italic">Sistem ince italik</string>
   <string name="lock_clock_font_condensed_normal">Sistem yoğun</string>
   <string name="lock_clock_font_condensed_italic">Sistem yoğun italik</string>
   <string name="lock_clock_font_condensed_bold">Sistem yoğun kalın</string>
@@ -701,5 +699,5 @@
   <string name="lock_screen_weather_condition_icon_summaryOff">Durum simgesi kilit ekranında gösterilmiyor</string>
   <!--3-Finger screenshot-->
   <string name="three_finger_gesture">Üç parmak hareketi</string>
-  <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekranda kaydırın</string>
+  <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
 </resources>

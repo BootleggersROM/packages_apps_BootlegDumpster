@@ -12,52 +12,139 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
   <!-- Categories -->
+  <string name="button_title">Tombol HW</string>
+  <string name="buttons_settings_summary">Merubah tombol HW</string>
+  <string name="gestures_title">Isyarat</string>
+  <string name="gestures_settings_summary">Mengatur beberapa isyarat untuk membuat hal-hal yang lebih mudah</string>
+  <string name="lockscreen_title">Kunci layar</string>
+  <string name="lockscreen_settings_summary">Mengubah tata letak dan fitur pada LS Anda</string>
+  <string name="misc_title">Lain-lain</string>
+  <string name="misc_settings_summary">Beberapa hal acak yang tidak pergi di pilihan lainnya</string>
+  <string name="navbar_title">Fitur Navbar</string>
+  <string name="navbar_settings_summary">Ajarkan NavBar beberapa cara baru</string>
+  <string name="powermenu_title">Menu daya</string>
+  <string name="powermenu_settings_summary">Buat menu shutdown lebih berguna</string>
+  <string name="quicksettings_title">Setelan Cepat</string>
+  <string name="quicksettings_settings_summary">Quat QS lebih nyaman</string>
+  <string name="recents_title">Aplikasi terakhir</string>
+  <string name="recents_settings_summary">Jelajahi cara baru untuk multitasking</string>
+  <string name="statusbar_title">Bilah status</string>
+  <string name="statusbar_settings_summary">Statusbar bagus tetapi bisa lebih baik lagi</string>
+  <string name="volume_title">Tombol volume</string>
+  <string name="volume_settings_summary">Gunakan Tombol Volume itu untuk melakukan sesuatu yang keren</string>
+  <string name="notifications_title">Notifikasi</string>
+  <string name="notifications_settings_summary">Mengubah cara Anda untuk melihat pemberitahuan</string>
+  <string name="about_bootleg_title">Tentang Bootleggers</string>
+  <string name="about_bootleg_summary">Beberapa informasi tentang kami, jika anda ingin mengetahuinya</string>
   <!-- DUMPSTER - About Section strings -->
+  <string name="bootleg_pref_title_about_us">Tentang kami</string>
+  <string name="bootleg_ab_title_whoami">Apa itu Bootleggers?</string>
+  <string name="bootleg_ab_summary_whoami">Bootleggers adalah sebuah ROM berisi fitur dan aplikasi dengan tujuan untuk membuat anda merasa seperti 家. Kami harap anda suka dan nikmati pengalaman dari kami.</string>
+  <string name="bootleg_ab_title_thankssec">Terima kasih</string>
+  <string name="bootleg_ab_summary_thankssec">Sentuh di sini untuk melihat yang membuat dan menginspirasi projek ini. Terima kasih banyak untuk %s yang membawanya kemari%s.</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
     DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+  <string name="bootleg_ab_summary_whoami_unknown">Seseorang yang tidak disebutkan namanya... </string>
+  <string name="bootleg_pref_title_romextras">Fitur ekstra dan addons</string>
+  <string name="bootleg_ex_title_featurelist">Daftar fitur</string>
+  <string name="bootleg_ex_summary_featurelist">Lihat fitur terbaru pada build ini</string>
+  <string name="bootleg_ex_title_addons">Tambahan dan Unduhan</string>
+  <string name="bootleg_ex_summary_addons">Rekomendasi tema dan modifikasi dari rekan kami (alias iklan)</string>
+  <string name="bootleg_ex_title_sharemsg">Bagikan tentang ROM kami</string>
+  <string name="bootleg_ex_summary_sharemsg">Buat semua orang tau tentang kami! Kami akan sangat menghargainya.</string>
   <!-- More about us strings -->
+  <string name="bootleg_pref_moarstuff_title">Lebih lanjut tentang kami?</string>
+  <string name="bootleg_pref_moarstuff_info_title">Info dan sumber</string>
+  <string name="bootleg_moarstuff_blog_title">Blog kami</string>
+  <string name="bootleg_moarstuff_blog_summary">Tempat kita memposting informasi dan berita</string>
+  <string name="bootleg_moarstuff_git_title">Github kami</string>
+  <string name="bootleg_moarstuff_git_summary">Sumber projec dan penempatannya</string>
+  <string name="bootleg_pref_moarstuff_social_title">Hubungi kami!</string>
+  <string name="bootleg_moarstuff_gplus_title">Komunitas Google+ kami</string>
+  <string name="bootleg_moarstuff_gplus_summary">Kirim tangkapan layar, beri umpan balik, apapun yang anda inginkan tapi dengan sopan</string>
+  <string name="bootleg_moarstuff_tg_title">Komunitas Telegram kami</string>
   <!-- Messages to send? -->
+  <string name="share_chooser_title">Bagikan ROM kami melalui..</string>
+  <string name="bootleg_sharemsg1">Hei, saya menggunakan ROM ini disebut Bootleggers, sangat bagus tbh. Anda harus memeriksa lebih tentang hal itu di https://bootleggersrom.github.io </string>
+  <string name="bootleg_sharemsg2">Saya telah menginstal ROM Bootleggers dan tampaknya menjadi baik pada saat ini, Anda harus memeriksa lebih pada https://bootleggersrom.github.io </string>
+  <string name="bootleg_sharemsg3">Jadi saya mencoba Bootleggers ROM dan saya mendapat pengalaman menarik, ROM yang bagus </string>
+  <string name="bootleg_sharemsg4">Hey, aku baru saja ngeflash Bootleggers dan saya sedang menikmatinya, saya sangat merekomendasikan </string>
+  <string name="bootleg_sharemsg6">Coba Bootleggers ROM sekarang! https://bootleggersrom.github.io </string>
+  <string name="bootleg_sharemsg7">Em, saya sedang mencoba Bootleggers dan terasa sedikit aneh tapi bukan ROM yang buruk </string>
   <!--
     DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+  <string name="bootleg_ri_title_buildtype">Tipe pembuatan</string>
+  <string name="bootleg_pref_title_rominfo">Informasi ROM</string>
+  <string name="bootleg_ri_title_ota">Update OTA</string>
   <!-- System theme -->
+  <string name="theme_accent_picker_default">Default</string>
   <!-- General strings -->
   <!-- General Categories -->
+  <string name="general_gesturesmaybe_preference">Isyarat</string>
   <!-- Specific categories -->
   <!-- Color Picker -->
+  <string name="color_default">Default</string>
   <!-- Footer warnings -->
   <!-- Features Strings - Buttons -->
   <!-- Volume rocker wake -->
   <!-- Hardware button navigation -->
   <!-- Button brightness -->
+  <string name="button_backlight_options_category">Opsi lampu latar</string>
+  <string name="button_backlight_enable_title">Izinkan tombol lampu latar</string>
+  <string name="button_link_brightness">Sesuaikan tingkat kecerahan layar</string>
+  <string name="button_link_brightness_summary">Kecerahan tombol lampu latar akan menyesuaikan berdasarkan pada tingkat kecerahan layar</string>
+  <string name="button_manual_brightness">Tingkat kecerahan</string>
+  <string name="button_timeout_title">Batas waktu backlight</string>
   <!-- Fingerprint authentication vibration -->
+  <string name="fprint_category">Sidik jari</string>
+  <string name="fprint_sucess_vib_title">Getaran autentikasi sidik jari</string>
+  <string name="fprint_sucess_vib_summary">Bergetar saat autentikasi sidik jari sukses</string>
   <!-- Fingerprint unlock keystore -->
+  <string name="fp_unlock_keystore_summary">Buka kunci perangkat dengan sidik jari setelah reboot tanpa PIN/Kata Sandi/Pola\nCatatan: atas risiko Anda sendiri!</string>
   <!-- Features Strings - Lockscreen -->
+  <string name="lockscreen_battery_info_title">Info baterai pada kunci layar</string>
+  <string name="lockscreen_tuner_title">Pintasan kunci layar</string>
   <!-- Ambient music -->
   <string name="force_ambient_for_media_off">Dinonaktifkan</string>
   <string name="force_ambient_for_media_on">Normal</string>
+  <string name="force_ambient_for_media_on_forced">Normal (paksa)</string>
+  <string name="force_ambient_for_media_on_forced_clean">Minimal (paksa)</string>
   <!-- lock screen visualizer -->
   <!-- Features Strings - QuickSettings -->
   <!-- Quick pull down-->
+  <string name="quick_pulldown_off">Matikan</string>
+  <string name="quick_pulldown_left">Kiri</string>
+  <string name="quick_pulldown_right">Kanan</string>
+  <string name="quick_pulldown_always">Selalu</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_off">Matikan</string>
+  <string name="smart_pulldown_none">tidak ada pemberitahuan</string>
   <!-- QS Rows and such -->
+  <string name="qs_rows_title">Baris</string>
+  <string name="qs_columns_title">Kolom</string>
+  <string name="qs_rowscol_portrait_title">Potret</string>
+  <string name="qs_rowscol_landscape_title">Lanskap</string>
   <!-- Small quick settings scroller -->
   <!-- QS Headers -->
   <string name="header_provider_disabled">Dinonaktifkan</string>
   <!-- Disable music track title in QS tile -->
   <!-- Features Strings - Miscellaneous -->
   <!-- Launch Music app on Headset connection -->
+  <string name="headset_connect_player_title">Buka aplikasi musik saat headset terhubung</string>
   <string name="headset_connect_player_disabled">Dinonaktifkan</string>
   <!-- Wake on plug -->
   <!-- Screen Off Animation-->
+  <string name="screen_off_animation_default">Default</string>
   <!-- MTP Dirty Hack -->
   <!-- Suspend Actions -->
   <!-- Incall vibrate options -->
   <!-- Toast Icon -->
   <!-- App Ops -->
   <!-- Features Strings - Power Menu -->
+  <string name="power_menu_title">Menu daya</string>
+  <string name="powermenu_screenshot">Tangkapan layar</string>
   <string name="powermenu_screenrecord">Rekam layar</string>
   <!-- Features Strings - StatusBar -->
   <!-- 4G icon -->
@@ -68,17 +155,24 @@
   <!-- Statusbar Clock options -->
   <string name="clock_date_style_normal">Normal</string>
   <!-- Features Strings - Notifications -->
+  <string name="headsup_screen_title">Notifikasi mengambang</string>
   <!-- Statusbar ticker -->
   <string name="ticker_disabled">Dinonaktifkan</string>
   <!-- Features Strings - Recents -->
   <!-- Features Strings - Navbar -->
   <!-- DUI -->
+  <string name="default_settings">Setelan bawaan</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
+  <string name="long_swipe_portrait_title">Potret</string>
+  <string name="long_swipe_landscape_title">Lanskap</string>
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <string name="smartbar_right">Kanan</string>
+  <string name="smartbar_left">Kiri</string>
+  <string name="smartbar_ime_action_none">Tidak Ada</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_none">Dinonaktifkan</string>
   <!-- Face unlock -->
@@ -87,6 +181,7 @@
   <!-- Brightness icon-->
   <!-- Quick Settings brightness slider -->
   <!-- Battery Styles -->
+  <string name="battery_style_port">Potret</string>
   <!-- SystemUI Restart -->
   <!-- AOSP Recents Style -->
   <!-- Hide Apps from Recents -->
@@ -97,5 +192,6 @@
   <!-- Weather - OmniJaws Settings -->
   <!-- Lock Clock Fonts -->
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Kunci layar</string>
   <!--3-Finger screenshot-->
 </resources>

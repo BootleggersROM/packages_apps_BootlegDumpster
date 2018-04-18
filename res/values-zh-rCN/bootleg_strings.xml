@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="bootleg_dumpster_title">Bootleg 设置</string>
   <!-- Categories -->
   <string name="button_title">实体按键</string>
   <string name="buttons_settings_summary">更改实体按键的内容</string>
@@ -87,6 +85,9 @@
   <string name="bootleg_ri_summary_ota">检查是否有新的版本</string>
   <string name="bootleg_ri_title_musicode">音乐代号</string>
   <!-- System theme -->
+  <string name="accent_picker_dialog_title">选择强调颜色</string>
+  <string name="theme_accent_picker_title">强调颜色</string>
+  <string name="theme_accent_picker_summary">选择系统主题强调色</string>
   <string name="theme_accent_picker_default">默认</string>
   <!-- General strings -->
   <string name="ok">确定</string>
@@ -183,13 +184,13 @@
   <string name="status_bar_quick_qs_pulldown_summary">从右侧下拉状态栏显示快速设置面板</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">快速下拉</string>
-  <string name="quick_pulldown_summary">从状态栏的％1 $ s的边缘拉下时直接开启快速设置面板</string>
+  <string name="quick_pulldown_summary">从状态栏的%1$s边缘拉下时开启快速设置面板</string>
   <string name="quick_pulldown_summary_always">从状态栏下拉总是显示快速设置</string>
   <string name="quick_pulldown_off">关闭</string>
   <string name="quick_pulldown_always">总是</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">智能下拉</string>
-  <string name="smart_pulldown_summary">当有％1 $ s条通知时打开快速设置</string>
+  <string name="smart_pulldown_summary">当有%1$s条通知时打开快速设置</string>
   <string name="smart_pulldown_none_summary">没有通知时打开快速设置面板</string>
   <string name="smart_pulldown_off">关闭</string>
   <string name="smart_pulldown_none">没有通知</string>
@@ -316,7 +317,7 @@
   <string name="statusbar_items_summary">设置哪些图标应该出现在状态栏上</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">时钟和日期</string>
-  <string name="status_bar_show_clock_title">在状态栏上启用时钟＆amp; 日期</string>
+  <string name="status_bar_show_clock_title">在状态栏上启用时钟和日期</string>
   <string name="status_bar_show_clock_summary">在状态栏上显示时间</string>
   <string name="status_bar_clock_advanced_title">高级选项</string>
   <string name="status_bar_clock_advanced_title_alt">高级时钟＆amp; 日期选项</string>
@@ -673,7 +674,6 @@
   <string name="lock_clock_font_italic">系统斜体</string>
   <string name="lock_clock_font_bold_italic">系统加粗斜体</string>
   <string name="lock_clock_font_light_italic">系统浅色斜体</string>
-  <string name="lock_clock_font_thin_italic">系统精简斜体</string>
   <string name="lock_clock_font_condensed_normal">系统简粗体</string>
   <string name="lock_clock_font_condensed_italic">系统简明斜体</string>
   <string name="lock_clock_font_condensed_bold">系统简粗体</string>
@@ -692,4 +692,6 @@
   <string name="lock_screen_weather_condition_icon_summaryOn">在锁屏界面显示状态图标</string>
   <string name="lock_screen_weather_condition_icon_summaryOff">已在锁屏隐藏状态图标</string>
   <!--3-Finger screenshot-->
+  <string name="three_finger_gesture">三指手势</string>
+  <string name="three_finger_gesture_summary">滑动三指截屏</string>
 </resources>

@@ -12,8 +12,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
-  <string name="bootleg_dumpster_title">Tomberon Bootleg</string>
   <!-- Categories -->
   <string name="button_title">Butoane fizice</string>
   <string name="buttons_settings_summary">Schimbă lucrurile butoanelor tale fizice</string>
