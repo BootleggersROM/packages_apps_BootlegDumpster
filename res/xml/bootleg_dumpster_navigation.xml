@@ -88,5 +88,8 @@
                 settings:units="%" />
 
     </PreferenceCategory>
-
-</PreferenceScreen>
+         <Preference
+         android:title="@string/carbon_gesture_preference_title"
+         android:key="gestures"
+         android:fragment="com.bootleggers.dumpster.fragments.CarbonGesturesSettings" />
+   </PreferenceScreen>
