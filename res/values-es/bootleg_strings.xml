@@ -18,7 +18,7 @@
   <string name="gestures_title">Gestos</string>
   <string name="gestures_settings_summary">Ajustar gestos para hacer las cosas mas faciles</string>
   <string name="lockscreen_title">Pantalla de bloqueo</string>
-  <string name="lockscreen_settings_summary">Apariencia y funciones Lockscreen</string>
+  <string name="lockscreen_settings_summary">Cambia la apariencia y funciones de la Pant. Bloqueo</string>
   <string name="misc_title">Otros ajustes</string>
   <string name="misc_settings_summary">Otras cosas que no van en las opciones anteriores</string>
   <string name="navbar_title">Barra de navegacion</string>
@@ -670,7 +670,7 @@
   <string name="weather_icon_pack_title">Paquete de iconos de estado</string>
   <string name="weather_icon_pack_note">Nota\u003a puede instalar nuevos paquetes de iconos desde play store buscando \"Chronus iconos\"</string>
   <!-- Lock Clock Fonts -->
-  <string name="lock_clock_font_title">Opciones de reloj</string>
+  <string name="lock_clock_font_title">Fuente de reloj de la pant. bloqueo</string>
   <string name="lock_clock_font_summary">Cambiar la fuente predeterminada del widget de reloj de la pantalla de bloqueo</string>
   <string name="lock_clock_font_dialog_title">Seleccione fuente del reloj de la pantalla de bloqueo</string>
   <string name="lock_clock_font_stock">Normal (pred.)</string>
