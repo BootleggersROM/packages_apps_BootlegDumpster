@@ -677,6 +677,7 @@
   <string name="lock_clock_font_bold">Grassetto</string>
   <string name="lock_clock_font_italic">Corsivo</string>
   <string name="lock_clock_font_bold_italic">Grassetto corsivo</string>
+  <string name="lock_clock_font_light">Luce di sistema normale</string>
   <string name="lock_clock_font_light_italic">Corsivo leggero</string>
   <string name="lock_clock_font_condensed_normal">Condensato</string>
   <string name="lock_clock_font_condensed_italic">Corsivo condensato</string>

@@ -20,7 +20,7 @@
   <string name="lockscreen_title">Kilit ekranı</string>
   <string name="lockscreen_settings_summary">Kilit ekranında düzeni ve özellikleri değiştirme</string>
   <string name="misc_title">Çeşitli</string>
-  <string name="misc_settings_summary">Diğer seçeneklerde olmayan bazi özelleştirmeler</string>
+  <string name="misc_settings_summary">Diğer seçeneklerde olmayan bazı özelleştirmeler</string>
   <string name="navbar_title">Gezinme çubuğu</string>
   <string name="navbar_settings_summary">Gezinme tuşunuza bazı yeni numaralar öğretin</string>
   <string name="powermenu_title">Güç menüsü</string>
@@ -40,16 +40,16 @@
   <!-- DUMPSTER - About Section strings -->
   <string name="bootleg_pref_title_about_us">Hakkımızda</string>
   <string name="bootleg_ab_title_whoami">Bootleggers nedir?</string>
-  <string name="bootleg_ab_summary_whoami">Bootleggersi hissettirmek amacıyla özellik ve uygulamalarla dolu bir ROM\'dur. Umarım beğenirsiniz ve deneyimlerimizin tadını çıkarın.</string>
+  <string name="bootleg_ab_summary_whoami">Bootleggers özelleştirme ve uygulamalarla dolu bir ROM\'dur. Umarım beğenirsiniz ve deneyimlerimizin tadını çıkarırsınız.</string>
   <string name="bootleg_ab_title_thankssec">Teşekkürler listesi</string>
   <string name="bootleg_ab_summary_thankssec">Bu projeyi kimin yaptığını ve ilham aldığını görmek için buraya dokunun. Ayrıca, %s için ve %s büyük teşekkürler.</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
     DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ab_summary_whoami_unknown">... kim olduğunu doğru olarak ilan etmemiş biri... </string>
-  <string name="bootleg_pref_title_romextras">Ekstraslar ve Eklentiler</string>
+  <string name="bootleg_pref_title_romextras">Ekstralar ve Eklentiler</string>
   <string name="bootleg_ex_title_featurelist">Özellik listesi</string>
-  <string name="bootleg_ex_summary_featurelist">Bu yapıdaki mevcut özellik listesini kontrol et</string>
+  <string name="bootleg_ex_summary_featurelist">Bu yapıdaki mevcut özellikler listesini kontrol et</string>
   <string name="bootleg_ex_title_addons">Eklentiler ve İndirmeler</string>
   <string name="bootleg_ex_summary_addons">Bizim bölümümüzden Temalar ve Modlar Önerilen listesi (a.k.a dürüst reklam)</string>
   <string name="bootleg_ex_title_sharemsg">ROM\'u paylaş</string>
@@ -100,11 +100,11 @@
   <string name="bootleg_external_summary">Bu alt menüde daha fazlasını özelleştirme</string>
   <!-- General Categories -->
   <string name="bootleg_advancedopt_title">Gelişmiş seçenekler</string>
-  <string name="general_ui_tweaks_preference">Arayüz ve özelleştirmeler</string>
-  <string name="general_system_stuff_preference">Sistem davranışı</string>
+  <string name="general_ui_tweaks_preference">Arayüz ve Özelleştirmeler</string>
+  <string name="general_system_stuff_preference">Sistem Davranışı</string>
   <string name="general_gesturesmaybe_preference">Hareketler</string>
   <!-- Specific categories -->
-  <string name="lockscreen_ambient_preference">Ortam ekranı</string>
+  <string name="lockscreen_ambient_preference">Ortam Ekranı</string>
   <string name="misc_app_related_preference">Uygulama ile ilgili</string>
   <string name="hardware_otherdevices">Donanım tuşları ve daha fazlası</string>
   <string name="statusbar_tweaks_ui_icons">Arayüz simgeleri</string>
@@ -126,8 +126,8 @@
   <string name="volume_rocker_wake_title">Ses tuşlarıyla uyandır</string>
   <string name="volume_rocker_wake_summary">Ses tuşlarına dokunulduğunda cihazı uyandır</string>
   <!-- Hardware button navigation -->
-  <string name="button_pref_title">Donanım tuşları</string>
-  <string name="hardware_keys_volume_keys_title">Ses tuşları</string>
+  <string name="button_pref_title">Donanım tuşu</string>
+  <string name="hardware_keys_volume_keys_title">Ses tuşu</string>
   <string name="hardware_keys_home_key_title">Ana ekran tuşu</string>
   <string name="hardware_keys_menu_key_title">Menü tuşu</string>
   <string name="hardware_keys_assist_key_title">Arama tuşu</string>
@@ -139,7 +139,7 @@
   <string name="hardware_keys_single_tap_title">Tek dokunma eylemi</string>
   <string name="hardware_keys_long_press_title">Uzun dokunma eylemi</string>
   <string name="hardware_keys_double_tap_title">Çift dokunma eylemi</string>
-  <string name="hardware_keys_category">Donanım tuşları</string>
+  <string name="hardware_keys_category">Donanım tuşu</string>
   <string name="hardware_keys_disable_title">Donanım tuşlarını devre dışı bırak</string>
   <!-- Button brightness -->
   <string name="button_backlight_options_category">Aydınlatma ışığı</string>
@@ -178,7 +178,7 @@
   <string name="lockscreen_visualizer_title">Müzik görselleştirici</string>
   <string name="lockscreen_visualizer_summary">Kilit ekranında müzik görselleştiricisini göster</string>
   <string name="ambient_visualizer_title">Ortam ekranında görselleştirici</string>
-  <string name="ambient_visualizer_summary">Müzik çalarken ortam ekranında görselleştiriciyi gösterir</string>
+  <string name="ambient_visualizer_summary">Müzik çalarken ortam ekranında görselleştiriciyi göster</string>
   <!-- Features Strings - QuickSettings -->
   <string name="status_bar_quick_qs_pulldown">Hızlı aşağı çekme</string>
   <string name="status_bar_quick_qs_pulldown_summary">Durum çubuğunun sağ kenarı hızlı ayarları aşağı çeker</string>
@@ -302,7 +302,7 @@
   <string name="powermenu_torch">El feneri</string>
   <!-- Features Strings - StatusBar -->
   <!-- 4G icon -->
-  <string name="show_fourg_icon_title">4G simgesini göster</string>
+  <string name="show_fourg_icon_title">4G simgesi</string>
   <string name="show_fourg_icon_summary">Durum çubuğunda LTE yerine 4G simgesini göster</string>
   <!-- Roaming indicator icon -->
   <string name="roaming_indicator_icon_title">Dolaşım göstergesi</string>
@@ -352,7 +352,7 @@
   <!-- Features Strings - Notifications -->
   <string name="light_category">Işıklar</string>
   <string name="battery_light_settings">Pil şarj ışığı</string>
-  <string name="battery_light_settings_summary">LED\'in nasıl çalışması gerektiğini etkinleştirin ve yapılandırın</string>
+  <string name="battery_light_settings_summary">Etkinleştir ve nasıl LED\'in çalışması gerektiğini ayarla</string>
   <string name="battery_light_enable">Pil ışığı</string>
   <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yak söndür</string>
   <string name="battery_light_low_blinking_title">Düşük pilde ışığı yak söndür</string>
@@ -422,7 +422,7 @@
   <string name="recents_clear_all_location_top_center">Orta üst</string>
   <string name="recents_clear_all_location_bottom_right">Sağ alt</string>
   <string name="recents_clear_all_location_bottom_left">Sol alt</string>
-  <string name="recents_clear_all_location_bottom_center">Alt orta</string>
+  <string name="recents_clear_all_location_bottom_center">Orta alt</string>
   <!-- Features Strings - Navbar -->
   <!-- DUI -->
   <string name="navbar_interface_title">Arayüz</string>
@@ -505,7 +505,7 @@
   <string name="fling_longpress_timeout_label_right">Daha çok gecikme</string>
   <string name="fling_longpress_title">Uzun dokunma gecikmesi</string>
   <string name="fling_longpress_summary">Uzun dokunma eylemini gerçekleştirmek için gereken süreyi arttırma veya azaltma</string>
-  <string name="fling_keyboard_cursors_title">Dinamik klavye imleçleri eylemi</string>
+  <string name="fling_keyboard_cursors_title">Dinamik klavye imleç eylemleri</string>
   <string name="fling_keyboard_cursors_summary">Klavye açıksa sola ve sağa iki kez dokunun, sol ve sağ klavye imleç hareketi işlemleri gerçekleşir</string>
   <string name="fling_logo_opacity_title">Fling logo saydamlığı</string>
   <!-- Pulse navigation bar music visualizer -->

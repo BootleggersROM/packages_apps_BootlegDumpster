@@ -149,8 +149,13 @@
   <string name="button_manual_brightness">चमक स्तर</string>
   <string name="button_timeout_title">बैकलाइट समय समाप्ति</string>
   <!-- Fingerprint authentication vibration -->
+  <string name="fprint_sucess_vib_summary">सफल फ़िंगरप्रिंट प्रमाणन पर कम्पन</string>
   <!-- Fingerprint unlock keystore -->
   <!-- Features Strings - Lockscreen -->
+  <string name="media_art_title">मीडिया आवरण कला दिखाएं</string>
+  <string name="media_art_summary">लॉकस्क्रीन पर मीडिया आवरण चित्र सक्षम करें</string>
+  <string name="lockscreen_battery_info_title">लोक्स्क्रीन पर बैटरी जानकारी</string>
+  <string name="lockscreen_tuner_title">लॉक्सक्रीन शॉर्टकट</string>
   <!-- Ambient music -->
   <string name="force_ambient_for_media_off">चालू नहीं है</string>
   <string name="force_ambient_for_media_on">समान्य</string>

@@ -677,6 +677,7 @@
   <string name="lock_clock_font_bold">Systémové Bold</string>
   <string name="lock_clock_font_italic">Systémové Italic</string>
   <string name="lock_clock_font_bold_italic">Systémové Bold Italic</string>
+  <string name="lock_clock_font_light">Světlý systémový</string>
   <string name="lock_clock_font_light_italic">Systémové Light Italic</string>
   <string name="lock_clock_font_condensed_normal">Systémové Condensed</string>
   <string name="lock_clock_font_condensed_italic">Systémové Condensed Italic</string>
