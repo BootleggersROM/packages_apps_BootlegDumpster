@@ -76,5 +76,9 @@ public abstract class HAFRAppChooserDialog extends Dialog {
         show();
     }
 
+   public void setLauncherFilter(boolean enabled) {
+
+      dAdapter.setLauncherFilter(enabled);
+}
     public abstract void onListViewItemClick(HAFRAppChooserAdapter.AppItem info, int id);
 }
