@@ -34,6 +34,12 @@
         android:summary="@string/pulse_accent_color_summary"
         android:dependency="eos_fling_show_pulse" />
 
+	<SwitchPreference
+        android:key="fling_smoothing_enabled"
+        android:title="@string/fling_smoothing_enabled_title"
+        android:summary="@string/fling_smoothing_enabled_summary"
+        android:dependency="eos_fling_show_pulse" />
+
     <SwitchPreference
         android:key="pulse_auto_color"
         android:title="@string/pulse_auto_color_title"
