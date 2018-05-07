@@ -604,6 +604,8 @@
     <string name="fling_lavalamp_color_to">Lava Lamp end color</string>
     <string name="pulse_colors_reset_title">Reset pulse colors</string>
     <string name="pulse_colors_reset_message">Are you sure you want to reset these colors to default?</string>
+	<string name="fling_smoothing_enabled_title">Turn on smoothing</string>
+	<string name="fling_smoothing_enabled_summary">Each bar is animated more smoothly</string>
 
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Bar width</string>
