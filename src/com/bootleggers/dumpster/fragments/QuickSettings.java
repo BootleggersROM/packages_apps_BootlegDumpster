@@ -26,6 +26,7 @@ import android.view.View;
 
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
+import com.bootleggers.dumpster.extra.Utils;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -59,6 +60,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mHeaderEnabled;
     private Preference mFileHeader;
     private String mFileHeaderProvider;
+    private SystemSettingSwitchPreference mTilesTitle;
+    private static final String QS_TITLE_TILES = "qs_tile_title_visibility";
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -124,6 +127,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         mFileHeader = findPreference(FILE_HEADER_SELECT);
         mFileHeader.setEnabled(providerName.equals(mFileHeaderProvider));
+
+        mTilesTitle = (SystemSettingSwitchPreference) findPreference(QS_TITLE_TILES);
     }
 
     private void updateHeaderProviderSummary(boolean headerEnabled) {
@@ -185,6 +190,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         } else if (preference == mHeaderEnabled) {
             Boolean headerEnabled = (Boolean) newValue;
             updateHeaderProviderSummary(headerEnabled);
+            return true;
+        } else if (preference == mTilesTitle) {
+            Utils.restartSystemUi(getContext());
             return true;
         }
         return false;

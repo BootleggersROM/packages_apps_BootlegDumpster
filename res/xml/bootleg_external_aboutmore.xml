@@ -40,6 +40,15 @@
                 android:data="https://github.com/BootleggersROM" />
         </Preference>
 
+        <Preference
+            android:key="bootleg_morefaq"
+            android:title="@string/bootleg_moarstuff_faq_title"
+            android:summary="@string/bootleg_moarstuff_faq_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://bootleggersrom.github.io/faq" />
+        </Preference>
+
     </PreferenceCategory>
 
 
@@ -63,6 +72,15 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://t.me/keepthebootleg" />
+        </Preference>
+
+        <Preference
+            android:key="bootleg_morecd"
+            android:title="@string/bootleg_moarstuff_cd_title"
+            android:summary="@string/bootleg_moarstuff_cd_back_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://crowdin.com/project/bootleggers-rom" />
         </Preference>
 
     </PreferenceCategory>
