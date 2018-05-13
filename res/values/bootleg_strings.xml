@@ -30,7 +30,7 @@
 
     <string name="navbar_title">Navbar features</string>
     <string name="navbar_settings_summary">Teach your navbar some newer tricks</string>
-    
+
     <string name="powermenu_title">Power menu</string>
     <string name="powermenu_settings_summary">Make that shutdown menu more useful</string>
 
@@ -45,7 +45,7 @@
 
     <string name="volume_title">Volume Keys</string>
     <string name="volume_settings_summary">Get those volume buttons to do magic stuff</string>
-    
+
     <string name="notifications_title">Notifications</string>
     <string name="notifications_settings_summary">Change how you can see those notifications</string>
 
@@ -59,9 +59,9 @@
     <string name="bootleg_ab_title_thankssec">Thank you list</string>
     <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project. Also, huge thanks to %s for bring it for %s.</string>
 
-<!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
+    <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
     <string name="bootleg_ab_summary_whoami_unknown">... somebody who didn\'t declared properly who it is... </string>
     <string name="bootleg_pref_title_romextras">Extras and Addons</string>
     <string name="bootleg_ex_title_featurelist">Feature List</string>
@@ -78,11 +78,18 @@
     <string name="bootleg_moarstuff_blog_summary">Where we will post about releases and news</string>
     <string name="bootleg_moarstuff_git_title">Our Github</string>
     <string name="bootleg_moarstuff_git_summary">Where our sources and reverts are placed</string>
+    <string name="bootleg_moarstuff_faq_title">Our FAQ</string>
+    <string name="bootleg_moarstuff_faq_summary">Where all the most asked questions and requested features got their answer.</string>
     <string name="bootleg_pref_moarstuff_social_title">Get in touch!</string>
     <string name="bootleg_moarstuff_gplus_title">Our Google+ Community</string>
     <string name="bootleg_moarstuff_gplus_summary">Send screenshots, give us feedback, whatever you want but in a respectful way</string>
     <string name="bootleg_moarstuff_tg_title">Our Telegram Community</string>
     <string name="bootleg_moarstuff_tg_summary">Talk with us, get hyped with future updates and join our great community</string>
+    <string name="bootleg_moarstuff_cd_title">Our Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">We don\'t speak your language? So come here and feel free to help us to translate our ROM to your native language!</string>
+    <string name="bootleg_moarstuff_cd_summary01" translatable="false">Nosotros não parlare váš jazyk?</string>
+    <string name="bootleg_moarstuff_cd_summary02">So come here and feel free to help us to translate our ROM to your native language!</string>
+    <string name="bootleg_moarstuff_cd_sumgen" translatable="false">%s %s</string>
     <string name="bootleg_pref_moarstuff_wewsecret">I think you found this really not so secret place but well, if you got here i just want to let you know that thank you for flashing this ROM and welp, as we said many times before, hope you enjoy it and have a good time with this ROM.</string>
 
     <!-- Messages to send? -->
@@ -94,9 +101,9 @@
     <string name="bootleg_sharemsg5">I went to Bootleggers ROM, it seems pretty nice, it got some different default fonts and various features </string>
     <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
     <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
-    
-<!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+
+    <!--
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
     <string name="bootleg_ri_title_buildtype">Build Type</string>
     <string name="bootleg_ri_summary_buildtype">Your build is %s... or %s.</string>
     <string name="bootleg_pref_title_rominfo">ROM Info</string>
@@ -175,7 +182,7 @@
     <string name="button_backlight_options_category">Backlight options</string>
     <string name="button_backlight_enable_title">Allow button backlight</string>
     <string name="button_link_brightness">Link to screen brightness</string>
-    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen's brightness level</string>
+    <string name="button_link_brightness_summary">Button backlight brightness will adjust based on the screen\'s brightness level</string>
     <string name="button_manual_brightness">Brightness level</string>
     <string name="button_timeout_title">Backlight timeout</string>
     <string name="button_backlight_on_touch_only_title">Button backlight touch</string>
@@ -187,7 +194,7 @@
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">FP unlock</string>
     <string name="fp_unlock_keystore_summary">Unlock with fingerprint even after a reboot without PIN/Password/Pattern\nNote: Use at your own risk!</string>
-    
+
     <!-- Features Strings - Lockscreen -->
     <string name="media_art_title">Show media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
@@ -323,7 +330,7 @@
     <!-- App Ops -->
     <string name="app_ops_settings">AppOps</string>
     <string name="app_ops_summary">Control your app permissions in a detailed way</string>
-    
+
     <!-- Features Strings - Power Menu -->
     <string name="power_menu_title">Power menu</string>
     <string name="powermenu_buttons_tile">Power menu options</string>
@@ -607,7 +614,7 @@
     <string name="smartbar_category">Smartbar</string>
     <string name="smartbar_settings_title">Smartbar settings</string>
     <string name="smartbar_settings_summary">Fully-customizable navigation bar</string>
-     <string name="smartbar_editor_title">Start edit mode</string>
+    <string name="smartbar_editor_title">Start edit mode</string>
     <string name="smartbar_editor_summary">Open smartbar buttons editor</string>
     <string name="smartbar_help_policy_notice_summary">When in editor mode, medium press and drag a button to change its position or long press a button to show the edit menu. Button position may be changed while menu is showing.\n\nSetting a double tap action will delay single tap a bit.</string>
     <string name="smartbar_context_menu_position_title">Context buttons layout position</string>
