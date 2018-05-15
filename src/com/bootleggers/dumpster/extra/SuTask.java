@@ -20,7 +20,7 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.widget.Toast;
 
-//import com.aicp.extras.R;
+import com.android.settings.R;
 
 public abstract class SuTask<Params> extends AsyncTask<Params, Void, Boolean> {
     private Context mContext;
