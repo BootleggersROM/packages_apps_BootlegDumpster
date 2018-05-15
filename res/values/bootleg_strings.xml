@@ -818,7 +818,8 @@
     <string name="dmesg_title">Dmesg</string>
     <string name="log_it_now_title">Let\'s go</string>
     <string name="log_it_dialog_title">Log making stuff</string>
-    <string name="logcat_warning">Everything is done now, so, it\'s your time to send the logs.</string>
+    <string name="logcat_warning">Everything is done now, so, it\'s your time to send the logs to us.</string>
+    <string name="logcat_warning_unofficial">Everything is done now, so, it\'s your time to send the logs to... Hey, you\'re running an unshishufied build, so, if you know who make this release, please take the logs to who made the build before send this logs to us.</string>
     <string name="share_title">Share</string>
     <string name="log_it_share_subject">Bootleggers logs</string>
     <string name="log_it_now_summary">Be patient for the logs to be created</string>
