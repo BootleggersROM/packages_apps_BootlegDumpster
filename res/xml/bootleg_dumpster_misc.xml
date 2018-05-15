@@ -24,6 +24,12 @@
         android:summary="@string/wakeup_when_plugged_unplugged_summary"
         android:defaultValue="true" />
 
+     <Preference
+         android:title="@string/log_it_title"
+         android:key="logit_section"
+         android:summary="@string/log_it_summary"
+         android:fragment="com.bootleggers.dumpster.external.LogIt" />
+
     <PreferenceCategory
         android:key="misc_settings_related"
         android:title="@string/misc_settings_cat_title">
