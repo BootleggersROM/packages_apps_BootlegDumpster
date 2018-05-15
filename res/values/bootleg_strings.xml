@@ -659,5 +659,28 @@
 
     <!-- SystemUI Restart -->
     <string name="systemui_restart_toast">This feature requires a SystemUI restart to be applied. We\'ll restart the SystemUI right now.</string>
+
+    <!-- Log it -->
+    <string name="log_it_title">Log it</string>
+    <string name="log_it_summary">Send a logcat, a dmesg or a kmesg for a better support. Just be sure to be rooted.</string>
+
+    <string name="logcat_title">Logcat</string>
+    <string name="kmesg_title">Kmesg</string>
+    <string name="dmesg_title">Dmesg</string>
+    <string name="log_it_now_title">Let\'s go</string>
+    <string name="log_it_dialog_title">Log making stuff done</string>
+    <string name="logcat_warning">Everything is done now, so, it\'s your time to send the logs.</string>
+    <string name="share_title">Share</string>
+    <string name="log_it_share_subject">Bootleggers logs</string>
+    <string name="log_it_now_summary">Be patient for the logs to be created</string>
+    <string name="log_it_logs_in_progress">Logs are being created&#8230;</string>
+    <string name="log_it_share_type_title">Share method</string>
+    <string name="log_it_share_type_zip">ZIP-File</string>
+    <string name="log_it_share_type_haste">Upload to Hastebin</string>
+    <string name="log_it_share_via">Share via</string>
+    <string name="cannot_get_su">Action failed because of missing superuser access</string>
+    <string name="log_it_alert_title">What\'s this?</string>
+    <string name="log_it_alert_faq">Maybe you\'re here and wondering \"What the hell is all this and what i have to send?\"\nWell, here\'s some info about the stuff you can send:\n\nLogcat: It\'s the way that Android outputs all system events, like errors, crashes, or even info about a process being run. Ideal for crashes and FCs.\n\nDmesg: It outputs some of the kernel messages, but filtering stuff that users may not care&#8230; if they do care\n\nKmesg: It\'s the same as Dmesg but without the filters, giving more info about all the kernel events. Ideal for random reboots.</string>
+
 </resources>
 
