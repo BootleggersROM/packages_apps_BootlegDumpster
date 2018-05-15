@@ -34,16 +34,29 @@ import android.content.res.Resources.NotFoundException;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraManager;
+import android.os.SystemProperties;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.os.UserManager;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v14.preference.PreferenceFragment;
+import android.text.TextUtils;
 import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.DisplayInfo;
 import android.view.Surface;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.List;
 import com.android.settings.R;
 
 public final class Utils {
@@ -223,6 +236,43 @@ public final class Utils {
         }
         return false;
     }
+
+    /**
+     * This can not reliably detect whether the user has root access,
+     * but it can detect some cases when the user hasn't.
+     */
+    public static boolean hasSu() {
+        Process p = null;
+        try {
+            p = Runtime.getRuntime().exec(new String[] { "which", "su" });
+            BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
+            return br.readLine() != null;
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            if (p != null) p.destroy();
+        }
+        return false;
+    }
+
+    public static void requireRoot(Preference preference) {
+        if (!hasSu()) {
+            preference.getParent().removePreference(preference);
+        }
+    }
+
+   public static String readStringFromFile(File inputFile) throws IOException {
+        FileReader fileReader = new FileReader(inputFile);
+        StringBuffer stringBuffer = new StringBuffer();
+        int numCharsRead;
+        char[] charArray = new char[1024];
+        while ((numCharsRead = fileReader.read(charArray)) > 0) {
+            stringBuffer.append(charArray, 0, numCharsRead);
+        }
+        fileReader.close();
+        return stringBuffer.toString();
+    }
+
     public static void restartSystemUi(Context context) {
         Toast.makeText(context, R.string.systemui_restart_toast, Toast.LENGTH_LONG).show();
         new RestartSystemUiTask(context).execute();
