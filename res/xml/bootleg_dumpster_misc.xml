@@ -105,4 +105,15 @@
 
     </PreferenceCategory>
 
-</PreferenceScreen>
+<Preference
+         android:title="@string/carbon_gesture_preference_title"
+         android:key="gestures"
+         android:fragment="com.bootleggers.dumpster.fragments.CarbonGesturesSettings" />
+
+<Preference
+            android:key="animations"
+            android:fragment="com.bootleggers.dumpster.extra.Animations"
+            android:title="@string/animations_title" />
+ 
+ </PreferenceScreen>
+ 
