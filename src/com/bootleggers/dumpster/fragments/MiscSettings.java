@@ -20,6 +20,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
@@ -29,6 +30,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
@@ -36,7 +38,7 @@ import com.bootleggers.dumpster.preferences.ScreenshotEditPackageListAdapter;
 import com.bootleggers.dumpster.preferences.ScreenshotEditPackageListAdapter.PackageItem;
 
 public class MiscSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener, OnPreferenceClickListener {
+        Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener {
 
     private static final String KEY_SCREEN_OFF_ANIMATION = "screen_off_animation";
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
