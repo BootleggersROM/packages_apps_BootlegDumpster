@@ -51,11 +51,13 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCKSCREEN_SECURITY_ALPHA = "lockscreen_security_alpha";
     private static final String LOCKSCREEN_ALPHA = "lockscreen_alpha";
+    private static final String LOCK_DATE_FONTS = "lock_date_fonts";
 
     private ListPreference mAmbientTicker;
     ListPreference mLockClockFonts;
     private CustomSeekBarPreference mLsAlpha;
     private CustomSeekBarPreference mLsSecurityAlpha;
+    ListPreference mLockDateFonts;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -90,6 +92,13 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                 Settings.System.LOCKSCREEN_ALPHA, 0.45f);
         mLsAlpha.setValue((int)(100 * alpha));
         mLsAlpha.setOnPreferenceChangeListener(this);
+
+        // Lockscren Date Fonts
+        mLockDateFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
+        mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 8)));
+        mLockDateFonts.setSummary(mLockDateFonts.getEntry());
+        mLockDateFonts.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -117,6 +126,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             int alpha = (Integer) newValue;
             Settings.System.putFloat(resolver,
                     Settings.System.LOCKSCREEN_ALPHA, alpha / 100.0f);
+            return true;
+        } else if (preference == mLockDateFonts) {
+            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_CLOCK_FONTS,
+                    Integer.valueOf((String) newValue));
+            mLockDateFonts.setValue(String.valueOf(newValue));
+            mLockDateFonts.setSummary(mLockDateFonts.getEntry());
             return true;
         }
         return false;
