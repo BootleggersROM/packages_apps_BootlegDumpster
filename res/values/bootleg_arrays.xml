@@ -489,11 +489,21 @@
         <item>@string/lock_clock_font_condensed_bold_italic</item>
         <item>@string/lock_clock_font_medium_normal</item>
         <item>@string/lock_clock_font_medium_italic</item>
+        <item>@string/lock_clock_font_alienleague</item>
+        <item>@string/lock_clock_font_bignoodleital</item>
+        <item>@string/lock_clock_font_biko</item>
+        <item>@string/lock_clock_font_blern</item>
+        <item>@string/lock_clock_font_ginorasans</item>
         <item>@string/lock_clock_font_gobold</item>
+        <item>@string/lock_clock_font_googlesans</item>
+        <item>@string/lock_clock_font_inkferno</item>
+        <item>@string/lock_clock_font_metro1920</item>
+        <item>@string/lock_clock_font_neonneon</item>
+        <item>@string/lock_clock_font_riviera</item>
         <item>@string/lock_clock_font_roadrage</item>
         <item>@string/lock_clock_font_snowstorm</item>
-        <item>@string/lock_clock_font_googlesans</item>
         <item>@string/lock_clock_font_themeable</item>
+        <item>@string/lock_clock_font_union</item>
     </string-array>
 
     <string-array name="lock_clock_fonts_values" translatable="false">
@@ -514,6 +524,16 @@
         <item>14</item>
         <item>15</item>
         <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
     </string-array>
 
     <!-- Carbon Gesture -->
@@ -626,6 +646,21 @@
         <item>@string/lock_clock_font_condensed_bold_italic</item>
         <item>@string/lock_clock_font_medium_normal</item>
         <item>@string/lock_clock_font_medium_italic</item>
+        <item>@string/lock_clock_font_adamcg</item>
+        <item>@string/lock_clock_font_alienleague</item>
+        <item>@string/lock_clock_font_bignoodle</item>
+        <item>@string/lock_clock_font_biko</item>
+        <item>@string/lock_clock_font_ginorasans</item>
+        <item>@string/lock_clock_font_googlesans</item>
+        <item>@string/lock_clock_font_inkferno</item>
+        <item>@string/lock_clock_font_instruction</item>
+        <item>@string/lock_clock_font_jacklane</item>
+        <item>@string/lock_clock_font_monad</item>
+        <item>@string/lock_clock_font_noir</item>
+        <item>@string/lock_clock_font_outrunfuture</item>
+        <item>@string/lock_clock_font_riviera</item>
+        <item>@string/lock_clock_font_theoutbox</item>
+        <item>@string/lock_dateown_font_themeable</item>
     </string-array>
 
     <string-array name="lock_date_fonts_values" translatable="false">
@@ -641,5 +676,88 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
     </string-array>
+
+    <!-- Lock Owner Fonts -->
+    <string-array name="lock_owner_fonts_entries">
+        <item>@string/lock_clock_font_stock</item>
+        <item>@string/lock_clock_font_bold</item>
+        <item>@string/lock_clock_font_italic</item>
+        <item>@string/lock_clock_font_bold_italic</item>
+        <item>@string/lock_clock_font_light</item>
+        <item>@string/lock_clock_font_light_italic</item>
+        <item>@string/lock_clock_font_condensed_normal</item>
+        <item>@string/lock_clock_font_condensed_italic</item>
+        <item>@string/lock_clock_font_condensed_bold</item>
+        <item>@string/lock_clock_font_condensed_bold_italic</item>
+        <item>@string/lock_clock_font_medium_normal</item>
+        <item>@string/lock_clock_font_medium_italic</item>
+        <item>@string/lock_clock_font_adamcg</item>
+        <item>@string/lock_clock_font_alexananeue</item>
+        <item>@string/lock_clock_font_alienleague</item>
+        <item>@string/lock_clock_font_azedo</item>
+        <item>@string/lock_clock_font_bignoodle</item>
+        <item>@string/lock_clock_font_biko</item>
+        <item>@string/lock_clock_font_cocobiker</item>
+        <item>@string/lock_clock_font_fester</item>
+        <item>@string/lock_clock_font_ginorasans</item>
+        <item>@string/lock_clock_font_googlesans</item>
+        <item>@string/lock_clock_font_jacklane</item>
+        <item>@string/lock_clock_font_monad</item>
+        <item>@string/lock_clock_font_noir</item>
+        <item>@string/lock_clock_font_north</item>
+        <item>@string/lock_clock_font_qontra</item>
+        <item>@string/lock_clock_font_theoutbox</item>
+        <item>@string/lock_dateown_font_themeable</item>
+        <item>@string/lock_clock_font_union</item>
+    </string-array>
+
+    <string-array name="lock_owner_fonts_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+    </string-array>
+
  </resources>
