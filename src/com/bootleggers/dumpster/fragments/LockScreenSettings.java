@@ -48,18 +48,7 @@ import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
-    private static final String LOCKSCREEN_SECURITY_ALPHA = "lockscreen_security_alpha";
-    private static final String LOCKSCREEN_ALPHA = "lockscreen_alpha";
-    private static final String LOCK_DATE_FONTS = "lock_date_fonts";
-    private static final String LOCK_OWNER_FONTS = "lock_owner_fonts";
-
     private ListPreference mAmbientTicker;
-    ListPreference mLockClockFonts;
-    private CustomSeekBarPreference mLsAlpha;
-    private CustomSeekBarPreference mLsSecurityAlpha;
-    ListPreference mLockDateFonts;
-    ListPreference mLockOwnerFonts;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -76,38 +65,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mAmbientTicker.setValue(Integer.toString(mode));
         mAmbientTicker.setSummary(mAmbientTicker.getEntry());
         mAmbientTicker.setOnPreferenceChangeListener(this);
-
-        mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
-        mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 4)));
-        mLockClockFonts.setSummary(mLockClockFonts.getEntry());
-        mLockClockFonts.setOnPreferenceChangeListener(this);
-
-        mLsSecurityAlpha = (CustomSeekBarPreference) findPreference(LOCKSCREEN_SECURITY_ALPHA);
-        float alpha2 = Settings.System.getFloat(resolver,
-                Settings.System.LOCKSCREEN_SECURITY_ALPHA, 0.75f);
-        mLsSecurityAlpha.setValue((int)(100 * alpha2));
-        mLsSecurityAlpha.setOnPreferenceChangeListener(this);
-
-        mLsAlpha = (CustomSeekBarPreference) findPreference(LOCKSCREEN_ALPHA);
-        float alpha = Settings.System.getFloat(resolver,
-                Settings.System.LOCKSCREEN_ALPHA, 0.45f);
-        mLsAlpha.setValue((int)(100 * alpha));
-        mLsAlpha.setOnPreferenceChangeListener(this);
-
-        // Lockscren Date Fonts
-        mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
-        mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.LOCK_DATE_FONTS, 8)));
-        mLockDateFonts.setSummary(mLockDateFonts.getEntry());
-        mLockDateFonts.setOnPreferenceChangeListener(this);
-
-        // Lockscren Date Fonts
-        mLockOwnerFonts = (ListPreference) findPreference(LOCK_OWNER_FONTS);
-        mLockOwnerFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.LOCK_OWNER_FONTS, 8)));
-        mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
-        mLockOwnerFonts.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -119,34 +76,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                     mAmbientTicker.getEntries()[index]);
             Settings.System.putIntForUser(resolver, Settings.System.FORCE_AMBIENT_FOR_MEDIA,
                     mode, UserHandle.USER_CURRENT);
-            return true;
-        } else if (preference == mLockClockFonts) {
-            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_CLOCK_FONTS,
-                    Integer.valueOf((String) newValue));
-            mLockClockFonts.setValue(String.valueOf(newValue));
-            mLockClockFonts.setSummary(mLockClockFonts.getEntry());
-            return true;
-        } else if (preference == mLsSecurityAlpha) {
-            int alpha2 = (Integer) newValue;
-            Settings.System.putFloat(resolver,
-                    Settings.System.LOCKSCREEN_SECURITY_ALPHA, alpha2 / 100.0f);
-            return true;
-        } else if (preference == mLsAlpha) {
-            int alpha = (Integer) newValue;
-            Settings.System.putFloat(resolver,
-                    Settings.System.LOCKSCREEN_ALPHA, alpha / 100.0f);
-            return true;
-        } else if (preference == mLockDateFonts) {
-            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_DATE_FONTS,
-                    Integer.valueOf((String) newValue));
-            mLockDateFonts.setValue(String.valueOf(newValue));
-            mLockDateFonts.setSummary(mLockDateFonts.getEntry());
-            return true;
-        } else if (preference == mLockOwnerFonts) {
-            Settings.System.putInt(getContentResolver(), Settings.System.LOCK_OWNER_FONTS,
-                    Integer.valueOf((String) newValue));
-            mLockOwnerFonts.setValue(String.valueOf(newValue));
-            mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
             return true;
         }
         return false;
