@@ -912,6 +912,7 @@
     <!-- Lock UI thing -->
     <string name="lockscreen_moreui_title">More lockscreen UI</string>
     <string name="lockscreen_moreui_summary">Pick fonts for the clock and date and opacity of the lockscreen background</string>
+    <string name="lock_fonts_warning_unsupported">Note: Some of this fonts may miss some text characters so, be careful about your choice!</string>
 
     <!-- Lock UI thing -->
     <string name="lockui_fonts">UI Fonts</string>
