@@ -242,7 +242,7 @@ public class LogIt extends SettingsPreferenceFragment
     public void logItDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(R.string.log_it_dialog_title);
-        if (bootlegBuildtype == "Shishufied") {
+        if (String.valueOf(bootlegBuildtype) == "Shishufied") {
             builder.setMessage(R.string.logcat_warning);
         } else {
             builder.setMessage(R.string.logcat_warning_unofficial);
@@ -266,7 +266,7 @@ public class LogIt extends SettingsPreferenceFragment
     public void logZipDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(R.string.log_it_dialog_title);
-        if (bootlegBuildtype == "Shishufied") {
+        if (String.valueOf(bootlegBuildtype) == "Shishufied") {
             builder.setMessage(R.string.logcat_warning);
         } else {
             builder.setMessage(R.string.logcat_warning_unofficial);
@@ -332,7 +332,7 @@ public class LogIt extends SettingsPreferenceFragment
     }
 
     public void makeDevinfo() throws SuShell.SuDeniedException, IOException {
-        String command = "echo 'Device: ' $(getprop ro.bootleg.device) > " + DEVINFO_FILE + " && echo 'Release: ' $(getprop ro.bootleg.version) >> " + DEVINFO_FILE + " && echo 'Build type: ' $(getprop ro.bootleg.buildtype) >> " + DEVINFO_FILE + " && echo '' >> " + DEVINFO_FILE + " && echo 'Maintainer: ' $(getprop ro.bootleg.maintainer) >> " + DEVINFO_FILE + " && echo 'Build user: ' $(getprop ro.build.user) >> " + DEVINFO_FILE + " && echo 'Build host: ' $(getprop ro.build.host) >> " + DEVINFO_FILE;
+        String command = "echo -e Info:\n\nDevice: " + String.valueOf(bootlegBuilddevice) + "\nRelease: " + String.valueOf(bootlegBuildrelease) + "\nBuild type: " + String.valueOf(bootlegBuildtype) + "\n\nMaintainer: " + String.valueOf(bootlegBuildmaintainer) + "\nBuild user: " + String.valueOf(bootlegBuilduser) + "\nBuild host: " + String.valueOf(bootlegBuildhost);
         if (!shareHaste) {
             command += " > " + DEVINFO_FILE;
         }
