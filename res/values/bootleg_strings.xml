@@ -818,8 +818,8 @@
     <string name="carbon_gesture_launch">Launch</string>
 
     <!-- Keyguardalpha -->
-    <string name="lockscreen_alpha">Lockscreen alpha</string>
-    <string name="lockscreen_security_alpha">Lockscreen bouncer alpha</string>
+    <string name="lockscreen_alpha">On normal screen</string>
+    <string name="lockscreen_security_alpha">On lock password enter screen</string>
 
     <!-- Log it -->
     <string name="log_it_title">Log it</string>
@@ -881,5 +881,13 @@
     <!-- Running Services -->
     <string name="qs_running_services_title">Running Services Icon</string>
     <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
+
+    <!-- Lock UI thing -->
+    <string name="lockscreen_moreui_title">More lockscreen UI</string>
+    <string name="lockscreen_moreui_summary">Pick fonts for the clock and date and opacity of the lockscreen background</string>
+
+    <!-- Lock UI thing -->
+    <string name="lockui_fonts">UI Fonts</string>
+    <string name="lockui_opacity">Dark lockscreen overlay opacity</string>
 
 </resources>
