@@ -54,6 +54,8 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 
+        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.lock_fonts_warning_unsupported);
+
         mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
         mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
                 getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 4)));
