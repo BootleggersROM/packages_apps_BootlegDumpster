@@ -44,6 +44,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     private static final String SUBMENU_HWKEYS = "button_settings";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -54,6 +55,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     public static final int KEY_MASK_APP_SWITCH = 0x10;
 
     private ListPreference mTorchPowerButton;
+    private ListPreference mVolumeKeyCursorControl;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -63,6 +65,15 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
+        // volume key cursor control
+        mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
+        if (mVolumeKeyCursorControl != null) {
+            mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
+            int volumeRockerCursorControl = Settings.System.getInt(getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
+            mVolumeKeyCursorControl.setValue(Integer.toString(volumeRockerCursorControl));
+           mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
+        }
 
         if (!GzospUtils.deviceHasFlashlight(getContext())) {
             Preference toRemove = prefScreen.findPreference(TORCH_POWER_BUTTON_GESTURE);
@@ -115,6 +126,17 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
                         1);
             }
+            return true;
+        }
+        if (preference == mVolumeKeyCursorControl) {
+            String volumeKeyCursorControl = (String) newValue;
+            int volumeKeyCursorControlValue = Integer.parseInt(volumeKeyCursorControl);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, volumeKeyCursorControlValue);
+            int volumeKeyCursorControlIndex = mVolumeKeyCursorControl
+                    .findIndexOfValue(volumeKeyCursorControl);
+            mVolumeKeyCursorControl
+                    .setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
             return true;
         }
         return false;
