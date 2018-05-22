@@ -56,7 +56,7 @@ public class GestureAnywhereSettings extends SettingsPreferenceFragment implemen
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.gesture_anywhere);
+        addPreferencesFromResource(R.xml.bootleg_external_gesture_anywhere);
 
         mEnabledPref = (SwitchPreference) findPreference(KEY_ENABLED);
         mEnabledPref.setChecked((Settings.System.getInt(getContentResolver(),

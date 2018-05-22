@@ -784,6 +784,7 @@
 
     <!-- Gesture Anywhere -->
     <string name="gesture_anywhere_title">Gesture Anywhere</string>
+    <string name="gesture_anywhere_summary">Launch activities by drawing gestures on the screen</string>
     <string name="gesture_anywhere_enabled_title">Gesture Anywhere</string>
     <string name="gesture_anywhere_enabled_summary">Enable the Gesture Anywhere feature</string>
     <string name="gesture_anywhere_position_title">Location</string>
