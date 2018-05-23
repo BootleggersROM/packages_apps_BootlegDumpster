@@ -411,7 +411,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
                              new ArrayList<SearchIndexableResource>();
  
                      SearchIndexableResource sir = new SearchIndexableResource(context);
-                    sir.xmlResId = R.xml.pulse_settings;
+                    sir.xmlResId = R.xml.bootleg_external_dui_pulse_settings;
                      result.add(sir);
  
                      return result;
