@@ -53,8 +53,12 @@ public class SecureSettingListPreference extends ListPreference {
     }
 
     @Override
-    protected boolean isPersisted() {
-        return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
+    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
+        // This is what default ListPreference implementation is doing without respecting
+        // real default value:
+        //setValue(restoreValue ? getPersistedString(mValue) : (String) defaultValue);
+        // Instead, we better do
+        setValue(restoreValue ? getPersistedString((String) defaultValue) : (String) defaultValue);
     }
 
     public int getIntValue(int defValue) {
