@@ -125,7 +125,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             Utils.restartSystemUi(getContext());
         return true;
         } else if (preference == mSlimToggle) {
-            boolean value = (Boolean) newValue;
+            boolean value = (Boolean) objValue;
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.USE_SLIM_RECENTS, value ? 1 : 0,
                     UserHandle.USER_CURRENT);
