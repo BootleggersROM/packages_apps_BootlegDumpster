@@ -19,6 +19,30 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
+        android:title="@string/lockui_hideitems"
+        android:key="lockscreen_hide_cat">
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="hide_lockscreen_clock"
+        android:title="@string/hide_lockscreen_clock_title"
+        android:summary="@string/hide_lockscreen_clock_summary"
+        android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="hide_lockscreen_date"
+        android:title="@string/hide_lockscreen_date_title"
+        android:summary="@string/hide_lockscreen_date_summary"
+        android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="hide_lockscreen_alarm"
+        android:title="@string/hide_lockscreen_alarm_title"
+        android:summary="@string/hide_lockscreen_alarm_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/lockui_fonts"
         android:key="lockscreen_fonts_cat">
 

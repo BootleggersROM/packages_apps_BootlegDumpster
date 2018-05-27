@@ -1068,4 +1068,13 @@
     <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
     <string name="slim_recents_hints_footer">To clear all apps, pinch-in with two fingers on the panel. To block an app from being cleared, long press on its icon to star it.\n\nFor additional recents features such as multiwindow or to kill an app, long press or drag an app card in the panel.</string>
 
+    <!-- Hide Lockscreen clock, date, & alarm -->
+    <string name="lockui_hideitems">Hide Lockscreen Items</string>
+    <string name="hide_lockscreen_clock_title">Clock widget</string>
+    <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
+    <string name="hide_lockscreen_date_title">Date widget</string>
+    <string name="hide_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
+    <string name="hide_lockscreen_alarm_title">Alarm text</string>
+    <string name="hide_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
+
 </resources>
