@@ -1099,4 +1099,11 @@
     <string name="system_default_animation_title">Android P animation style</string>
     <string name="system_default_animation_summary">Enable Android P \"Default\" animations</string>
 
+    <!-- Wallpaper tint -->
+    <string name="wallpaper_tint_power_menu">Power menu background tint</string>
+    <string name="wallpaper_tint_recents">Recents background tint</string>
+    <string name="wallpaper_tint_keyguard">Lockscreen background tint</string>
+    <string name="wallpaper_tint_notification_shade">Notification shade tint</string>
+    <string name="wallpaper_tint_summary">Apply a tint to the background based on the homescreen wallpaper</string>
+
 </resources>

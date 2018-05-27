@@ -50,6 +50,12 @@
          android:summary="@string/recents_show_membar_summary"
          android:defaultValue="false" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="wallpaper_recents_tint"
+        android:title="@string/wallpaper_tint_recents"
+        android:summary="@string/wallpaper_tint_summary"
+        android:defaultValue="true" />
+
      <PreferenceScreen
         android:key="hide_app_from_recents"
         android:title="@string/hide_apps_from_recents_title"
