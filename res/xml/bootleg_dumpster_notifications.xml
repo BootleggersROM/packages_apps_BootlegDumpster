@@ -92,4 +92,10 @@
 
     </PreferenceCategory>
 
+     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="wallpaper_notification_shade_wallpaper_tint"
+            android:title="@string/wallpaper_tint_notification_shade"
+            android:summary="@string/wallpaper_tint_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
