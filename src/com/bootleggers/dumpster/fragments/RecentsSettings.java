@@ -98,6 +98,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         mRecentsType.setOnPreferenceChangeListener(this);
 
         mSlimToggle = (SwitchPreference) findPreference("use_slim_recents");
+        mStockIconPacks = (Preference) findPreference("recents_icon_pack");
         boolean enabled = Settings.System.getIntForUser(
                 resolver, Settings.System.USE_SLIM_RECENTS, 0,
                 UserHandle.USER_CURRENT) == 1;
