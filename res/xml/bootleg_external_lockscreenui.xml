@@ -43,6 +43,28 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/lockui_hideitems"
+        android:key="lockscreen_hide_cat">
+
+    <ListPreference
+        android:key="lockscreen_clock_selection"
+        android:title="@string/lockscreen_clock_selection_title"
+        android:entries="@array/lockscreen_clock_selection_entries"
+        android:entryValues="@array/lockscreen_clock_selection_values"
+        android:defaultValue="0"
+        android:dependency="hide_lockscreen_clock" />
+
+    <ListPreference
+        android:key="lockscreen_date_selection"
+        android:title="@string/lockscreen_date_selection_title"
+        android:entries="@array/lockscreen_date_selection_entries"
+        android:entryValues="@array/lockscreen_date_selection_values"
+        android:defaultValue="0"
+        android:dependency="hide_lockscreen_date" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/lockui_fonts"
         android:key="lockscreen_fonts_cat">
 

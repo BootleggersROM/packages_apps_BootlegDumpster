@@ -38,12 +38,16 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
     private static final String LOCKSCREEN_ALPHA = "lockscreen_alpha";
     private static final String LOCK_DATE_FONTS = "lock_date_fonts";
     private static final String LOCK_OWNER_FONTS = "lock_owner_fonts";
+    private static final String KEY_LOCKSCREEN_CLOCK_SELECTION = "lockscreen_clock_selection";
+    private static final String KEY_LOCKSCREEN_DATE_SELECTION = "lockscreen_date_selection";
 
     ListPreference mLockClockFonts;
     private CustomSeekBarPreference mLsAlpha;
     private CustomSeekBarPreference mLsSecurityAlpha;
     ListPreference mLockDateFonts;
     ListPreference mLockOwnerFonts;
+    private ListPreference mLockscreenClockSelection;
+    private ListPreference mLockscreenDateSelection;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -88,6 +92,20 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
         mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
         mLockOwnerFonts.setOnPreferenceChangeListener(this);
 
+        mLockscreenClockSelection = (ListPreference) findPreference(KEY_LOCKSCREEN_CLOCK_SELECTION);
+        int clockSelection = Settings.System.getIntForUser(resolver,
+                Settings.System.LOCKSCREEN_CLOCK_SELECTION, 0, UserHandle.USER_CURRENT);
+        mLockscreenClockSelection.setValue(String.valueOf(clockSelection));
+        mLockscreenClockSelection.setSummary(mLockscreenClockSelection.getEntry());
+        mLockscreenClockSelection.setOnPreferenceChangeListener(this);
+
+        mLockscreenDateSelection = (ListPreference) findPreference(KEY_LOCKSCREEN_DATE_SELECTION);
+        int dateSelection = Settings.System.getIntForUser(resolver,
+                Settings.System.LOCKSCREEN_DATE_SELECTION, 0, UserHandle.USER_CURRENT);
+        mLockscreenDateSelection.setValue(String.valueOf(dateSelection));
+        mLockscreenDateSelection.setSummary(mLockscreenDateSelection.getEntry());
+        mLockscreenDateSelection.setOnPreferenceChangeListener(this);
+
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -119,6 +137,20 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
                     Integer.valueOf((String) newValue));
             mLockOwnerFonts.setValue(String.valueOf(newValue));
             mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
+            return true;
+        } else if (preference == mLockscreenClockSelection) {
+            int clockSelection = Integer.valueOf((String) newValue);
+            int index = mLockscreenClockSelection.findIndexOfValue((String) newValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.LOCKSCREEN_CLOCK_SELECTION, clockSelection, UserHandle.USER_CURRENT);
+            mLockscreenClockSelection.setSummary(mLockscreenClockSelection.getEntries()[index]);
+            return true;
+        } else if (preference == mLockscreenDateSelection) {
+            int dateSelection = Integer.valueOf((String) newValue);
+            int index = mLockscreenDateSelection.findIndexOfValue((String) newValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.LOCKSCREEN_DATE_SELECTION, dateSelection, UserHandle.USER_CURRENT);
+            mLockscreenDateSelection.setSummary(mLockscreenDateSelection.getEntries()[index]);
             return true;
         }
         return false;
