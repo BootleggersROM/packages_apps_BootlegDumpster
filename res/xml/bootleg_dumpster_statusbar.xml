@@ -51,6 +51,12 @@
         android:title="@string/network_traffic_title"
         android:fragment="com.bootleggers.dumpster.external.Traffic" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_notif_count"
+        android:title="@string/status_bar_notif_count_title"
+        android:summary="@string/status_bar_notif_count_summary"
+        android:defaultValue="false" />
+
     <Preference
             android:title="@string/statusbar_tuner_title"
             android:summary="@string/statusbar_tuner_summary">
