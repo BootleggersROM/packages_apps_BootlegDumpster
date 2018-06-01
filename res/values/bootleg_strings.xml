@@ -1091,4 +1091,8 @@
     <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
     <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
 
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
 </resources>

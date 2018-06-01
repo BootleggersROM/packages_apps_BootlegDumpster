@@ -46,6 +46,12 @@
         android:summary="@string/bootleg_external_summary"
         android:fragment="com.bootleggers.dumpster.external.NetworkTraffic" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_notif_count"
+        android:title="@string/status_bar_notif_count_title"
+        android:summary="@string/status_bar_notif_count_summary"
+        android:defaultValue="false" />
+
     <Preference
             android:title="@string/statusbar_items_title"
             android:summary="@string/statusbar_items_summary" >
