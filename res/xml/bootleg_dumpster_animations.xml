@@ -50,6 +50,12 @@
         android:title="@string/animations_ui_misc"
         android:key="anim_misc_stuff">
 
+    <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+        android:key="system_default_animation"
+        android:title="@string/system_default_animation_title"
+        android:summary="@string/system_default_animation_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
