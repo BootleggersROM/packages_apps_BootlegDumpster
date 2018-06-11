@@ -73,6 +73,14 @@
             android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gestures"/>
 
+        <!-- Animations -->
+        <Preference
+            android:key="animations__category"
+            android:title="@string/animations_title" 
+            android:summary="@string/animations_settings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.AnimationSettings"
+            android:icon="@drawable/ic_settings_animations"/>
+
         <!-- Recents -->
         <Preference
             android:key="recents_category"
