@@ -13,6 +13,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
     <!-- Categories -->
+    <string name="animations_title">Animations</string>
+    <string name="animations_settings_summary">Make your system transitions more awesome or horrible.</string>
+
     <string name="button_title">HW Buttons</string>
     <string name="buttons_settings_summary">Change things of your HW buttons</string>
 
@@ -775,4 +778,6 @@
     <string name="three_finger_gesture">Three finger gesture</string>
     <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
 
+    <!-- Animations warning-->
+    <string name="animations_transparent_alert">Some (or maybe all) of this animations may not work if your device got a transparent theme!</string>
 </resources>
