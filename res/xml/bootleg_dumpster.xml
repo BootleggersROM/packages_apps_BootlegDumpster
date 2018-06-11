@@ -65,6 +65,14 @@
             android:fragment="com.bootleggers.dumpster.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
+        <!-- Gestures -->
+        <Preference
+            android:key="gestures__category"
+            android:title="@string/gestures_title" 
+            android:summary="@string/gestures_settings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
+
         <!-- Recents -->
         <Preference
             android:key="recents_category"
