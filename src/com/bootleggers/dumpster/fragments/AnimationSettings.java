@@ -25,8 +25,10 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
@@ -82,6 +84,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
     
     private ListPreference mScrollingCachePref;
     private Context mContext;
+    protected ContentResolver mContentRes;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -90,6 +93,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
         addPreferencesFromResource(R.xml.bootleg_dumpster_animations);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.animations_transparent_alert);
         final PreferenceScreen prefSet = getPreferenceScreen();
+        mContentRes = getActivity().getContentResolver();
         mContext = (Context) getActivity();
 
         mScreenOffAnimation = (ListPreference) findPreference(KEY_SCREEN_OFF_ANIMATION);
@@ -100,20 +104,21 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
         mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
         mScreenOffAnimation.setOnPreferenceChangeListener(this);
 
-        //Listview Animations
-        mListViewAnimation = (ListPreference) prefSet.findPreference(KEY_LISTVIEW_ANIMATION);
-        int listviewanimation = Settings.System.getInt(getContentResolver(),
-                Settings.System.LISTVIEW_ANIMATION, 0);
-        mListViewAnimation.setValue(String.valueOf(listviewanimation));
-        mListViewAnimation.setSummary(mListViewAnimation.getEntry());
-        mListViewAnimation.setOnPreferenceChangeListener(this);
-         mListViewInterpolator = (ListPreference) prefSet.findPreference(KEY_LISTVIEW_INTERPOLATOR);
-        int listviewinterpolator = Settings.System.getInt(getContentResolver(),
-                Settings.System.LISTVIEW_INTERPOLATOR, 0);
-        mListViewInterpolator.setValue(String.valueOf(listviewinterpolator));
-        mListViewInterpolator.setSummary(mListViewInterpolator.getEntry());
-        mListViewInterpolator.setOnPreferenceChangeListener(this);
-        mListViewInterpolator.setEnabled(listviewanimation > 0);
+    //Listview Animations
+    mListViewAnimation = (ListPreference) findPreference(KEY_LISTVIEW_ANIMATION);
+    int listviewanimation = Settings.System.getInt(getContentResolver(),
+            Settings.System.LISTVIEW_ANIMATION, 0);
+    mListViewAnimation.setValue(String.valueOf(listviewanimation));
+    mListViewAnimation.setSummary(mListViewAnimation.getEntry());
+    mListViewAnimation.setOnPreferenceChangeListener(this);
+
+    mListViewInterpolator = (ListPreference) findPreference(KEY_LISTVIEW_INTERPOLATOR);
+    int listviewinterpolator = Settings.System.getInt(getContentResolver(),
+            Settings.System.LISTVIEW_INTERPOLATOR, 0);
+    mListViewInterpolator.setValue(String.valueOf(listviewinterpolator));
+    mListViewInterpolator.setSummary(mListViewInterpolator.getEntry());
+    mListViewInterpolator.setOnPreferenceChangeListener(this);
+    mListViewInterpolator.setEnabled(listviewanimation > 0);  
 
     // Toast Animations
     mToastAnimation = (ListPreference) findPreference(KEY_TOAST_ANIMATION);
