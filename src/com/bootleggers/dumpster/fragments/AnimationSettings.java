@@ -52,6 +52,9 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     private static final String WALLPAPER_INTRA_CLOSE = "wallpaper_intra_close";
     private static final String TASK_OPEN_BEHIND = "task_open_behind";
 
+    private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
+    private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
+    private static final String SCROLLINGCACHE_DEFAULT = "1";
 
     private ListPreference mListViewAnimation;
     private ListPreference mListViewInterpolator;
@@ -72,6 +75,9 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     private int[] mAnimations;
     private String[] mAnimationsStrings;
     private String[] mAnimationsNum;
+    
+    private ListPreference mScrollingCachePref;
+    private Context mContext;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -183,6 +189,12 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     mTaskOpenBehind.setEntries(mAnimationsStrings);
     mTaskOpenBehind.setEntryValues(mAnimationsNum);
 
+    // Scrolling cache
+    mScrollingCachePref = (ListPreference) prefSet.findPreference(SCROLLINGCACHE_PREF);
+    mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
+            SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
+    mScrollingCachePref.setOnPreferenceChangeListener(this);
+
 }
 
     @Override
@@ -254,10 +266,18 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
             result = Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ACTIVITY_ANIMATION_CONTROLS[9], val);
         } else if (preference == mTaskOpenBehind) {
-            int val = Integer.parseInt((String) objValue);
+            int val = Integer.parseInt((String) newValue);
             result = Settings.System.putInt(mContentRes,
                     Settings.System.ACTIVITY_ANIMATION_CONTROLS[10], val);
+        } else if (preference == mScrollingCachePref) {
+            if (newValue != null) {
+                SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String)newValue);
+            return true;
+            }
+        return false;
         }
+
+
     // Come here, for the System Animations
     preference.setSummary(getProperSummary(preference));
     return result;
