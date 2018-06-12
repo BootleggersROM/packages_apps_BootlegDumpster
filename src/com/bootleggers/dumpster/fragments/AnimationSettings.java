@@ -54,6 +54,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     private static final String WALLPAPER_CLOSE = "wallpaper_close";
     private static final String WALLPAPER_INTRA_OPEN = "wallpaper_intra_open";
     private static final String WALLPAPER_INTRA_CLOSE = "wallpaper_intra_close";
+    private static final String TASK_OPEN_BEHIND = "task_open_behind";
 
 
     private ListPreference mListViewAnimation;
@@ -70,6 +71,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     ListPreference mWallpaperClose;
     ListPreference mWallpaperIntraOpen;
     ListPreference mWallpaperIntraClose;
+    ListPreference mTaskOpenBehind;
     /*
     SwitchPreference mAnimNoOverride;
     */
@@ -186,6 +188,12 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     mWallpaperIntraClose.setEntries(mAnimationsStrings);
     mWallpaperIntraClose.setEntryValues(mAnimationsNum);
 
+    mTaskOpenBehind = (ListPreference) findPreference(TASK_OPEN_BEHIND);
+    mTaskOpenBehind.setOnPreferenceChangeListener(this);
+    mTaskOpenBehind.setSummary(getProperSummary(mTaskOpenBehind));
+    mTaskOpenBehind.setEntries(mAnimationsStrings);
+    mTaskOpenBehind.setEntryValues(mAnimationsNum);
+
 }
 
     @Override
@@ -256,6 +264,10 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
             int val = Integer.parseInt((String) newValue);
             result = Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ACTIVITY_ANIMATION_CONTROLS[9], val);
+        } else if (preference == mTaskOpenBehind) {
+            int val = Integer.parseInt((String) objValue);
+            result = Settings.System.putInt(mContentRes,
+                    Settings.System.ACTIVITY_ANIMATION_CONTROLS[10], val);
         }
     // Come here, for the System Animations
     preference.setSummary(getProperSummary(preference));
@@ -284,12 +296,8 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
             mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[8];
         } else if (preference == mWallpaperIntraClose) {
             mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[9];
-        } else if (preference == mListViewAnimation) {
+        } else if (preference == mTaskOpenBehind) {
             mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[10];
-        } else if (preference == mListViewInterpolator) {
-            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[11];
-        } else if (preference == mToastAnimation) {
-            mString = Settings.System.ACTIVITY_ANIMATION_CONTROLS[12];
         }
 
         int mNum = Settings.System.getInt(getActivity().getContentResolver(), mString, 0);

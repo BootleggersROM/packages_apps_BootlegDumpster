@@ -62,6 +62,10 @@
             android:key="task_move_to_back"
             android:title="@string/task_move_to_back_title" />
 
+        <ListPreference
+            android:key="task_open_behind"
+            android:title="@string/task_open_behind_title" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
