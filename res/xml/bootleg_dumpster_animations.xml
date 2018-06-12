@@ -101,6 +101,12 @@
         android:title="@string/animations_ui_misc"
         android:key="anim_misc_stuff">
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="disable_transition_animations"
+        android:title="@string/disable_animations"
+        android:summary="@string/disable_animations_summary"
+        android:defaultValue="false" />
+
     <ListPreference
         android:key="pref_scrollingcache"
         android:dialogTitle="@string/pref_scrollingcache_title"
