@@ -49,10 +49,6 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
     private static final String TASK_MOVE_TO_FRONT = "task_move_to_front";
     private static final String TASK_MOVE_TO_BACK = "task_move_to_back";
     private static final String ANIMATION_DURATION = "animation_duration";
-    /* not supported - method Boolean in Settings.System is undefined
-     * for us
-    private static final String ANIMATION_NO_OVERRIDE = "animation_no_override";
-    */
     private static final String WALLPAPER_OPEN = "wallpaper_open";
     private static final String WALLPAPER_CLOSE = "wallpaper_close";
     private static final String WALLPAPER_INTRA_OPEN = "wallpaper_intra_open";
@@ -75,9 +71,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
     ListPreference mWallpaperIntraOpen;
     ListPreference mWallpaperIntraClose;
     ListPreference mTaskOpenBehind;
-    /*
-    SwitchPreference mAnimNoOverride;
-    */
+
     private int[] mAnimations;
     private String[] mAnimationsStrings;
     private String[] mAnimationsNum;
@@ -133,11 +127,6 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
         mAnimationsNum[i] = String.valueOf(mAnimations[i]);
     }
 
-    /*
-    mAnimNoOverride = (SwitchPreference) findPreference(ANIMATION_NO_OVERRIDE);
-    mAnimNoOverride.setChecked(Settings.System.getBoolean(getActivity().getContentResolver(),
-            Settings.System.ANIMATION_CONTROLS_NO_OVERRIDE, false));
-     */
     mActivityOpenPref = (ListPreference) findPreference(ACTIVITY_OPEN);
     mActivityOpenPref.setOnPreferenceChangeListener(this);
     mActivityOpenPref.setSummary(getProperSummary(mActivityOpenPref));
