@@ -849,4 +849,11 @@
     <string name="qs_header_lightgrey">Light Grey</string>
     <string name="qs_header_accent">Accent Based</string>
     <string name="qs_header_transparent">Transparent</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_category">Settings Dashboard</string>
+    <string name="dashboard_conditions_title">Condition cards</string>
+    <string name="dashboard_conditions_summary">Show condition cards on the dashboard</string>
+    <string name="dashboard_suggestions_title">Suggestion cards</string>
+    <string name="dashboard_suggestions_summary">Show suggestion cards on the dashboard</string>
 </resources>

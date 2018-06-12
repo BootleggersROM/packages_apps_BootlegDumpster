@@ -50,6 +50,23 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="dashboard_category"
+        android:title="@string/dashboard_category">
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="settings_show_conditions"
+            android:title="@string/dashboard_conditions_title"
+            android:summary="@string/dashboard_conditions_summary"
+            android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="settings_show_suggestions"
+            android:title="@string/dashboard_suggestions_title"
+            android:summary="@string/dashboard_suggestions_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
             android:key="aggressive_battery"
             android:title="@string/aggressive_battery_title">
 
