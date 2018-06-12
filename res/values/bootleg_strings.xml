@@ -138,6 +138,10 @@
     <string name="misc_app_related_preference">Apps Related</string>
     <string name="hardware_otherdevices">Hardware Keys and more</string>
     <string name="statusbar_tweaks_ui_icons">UI Icons</string>
+    <!-- Animations categories -->
+    <string name="animations_ui_general">UI and General Animations</string>
+    <string name="animations_ui_system">System Related Animations</string>
+    <string name="animations_ui_misc">Other Animations</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>

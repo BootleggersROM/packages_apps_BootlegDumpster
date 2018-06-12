@@ -18,6 +18,10 @@
     android:title="@string/animations_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:title="@string/animations_ui_general"
+        android:key="anim_ui_stuff">
+
     <ListPreference
         android:key="listview_animation"
         android:dialogTitle="@string/listview_animation_title"
@@ -33,5 +37,19 @@
         android:entries="@array/listview_interpolator_entries"
         android:entryValues="@array/listview_interpolator_values"
         android:defaultValue="0" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/animations_ui_system"
+        android:key="anim_system_stuff">
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/animations_ui_misc"
+        android:key="anim_misc_stuff">
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
