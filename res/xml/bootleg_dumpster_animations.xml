@@ -101,11 +101,6 @@
         android:title="@string/animations_ui_misc"
         android:key="anim_misc_stuff">
 
-        <SwitchPreference
-            android:key="animation_no_override"
-            android:title="@string/title_animation_no_override"
-            android:summary="@string/summary_animation_no_override" />
-
     <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
         android:key="system_default_animation"
         android:title="@string/system_default_animation_title"
