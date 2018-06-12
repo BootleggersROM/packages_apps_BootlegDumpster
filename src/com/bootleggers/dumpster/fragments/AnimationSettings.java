@@ -25,8 +25,10 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
@@ -78,6 +80,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     
     private ListPreference mScrollingCachePref;
     private Context mContext;
+    protected ContentResolver mContentRes;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -86,17 +89,18 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.bootleg_dumpster_animations);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.animations_transparent_alert);
         final PreferenceScreen prefSet = getPreferenceScreen();
+        mContentRes = getActivity().getContentResolver();
         mContext = (Context) getActivity();
 
     //Listview Animations
-    mListViewAnimation = (ListPreference) prefSet.findPreference(KEY_LISTVIEW_ANIMATION);
+    mListViewAnimation = (ListPreference) findPreference(KEY_LISTVIEW_ANIMATION);
     int listviewanimation = Settings.System.getInt(getContentResolver(),
             Settings.System.LISTVIEW_ANIMATION, 0);
     mListViewAnimation.setValue(String.valueOf(listviewanimation));
     mListViewAnimation.setSummary(mListViewAnimation.getEntry());
     mListViewAnimation.setOnPreferenceChangeListener(this);
 
-    mListViewInterpolator = (ListPreference) prefSet.findPreference(KEY_LISTVIEW_INTERPOLATOR);
+    mListViewInterpolator = (ListPreference) findPreference(KEY_LISTVIEW_INTERPOLATOR);
     int listviewinterpolator = Settings.System.getInt(getContentResolver(),
             Settings.System.LISTVIEW_INTERPOLATOR, 0);
     mListViewInterpolator.setValue(String.valueOf(listviewinterpolator));
