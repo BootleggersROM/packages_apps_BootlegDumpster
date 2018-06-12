@@ -35,7 +35,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-public class AnimationSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener, OnPreferenceClickListener {
+public class AnimationSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String KEY_SCREEN_OFF_ANIMATION = "screen_off_animation";
     private static final String KEY_LISTVIEW_ANIMATION = "listview_animation";
@@ -51,6 +51,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
 
         addPreferencesFromResource(R.xml.bootleg_dumpster_animations);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.animations_transparent_alert);
+        final PreferenceScreen prefSet = getPreferenceScreen();
 
         mScreenOffAnimation = (ListPreference) findPreference(KEY_SCREEN_OFF_ANIMATION);
         int screenOffAnimation = Settings.Global.getInt(getContentResolver(),
