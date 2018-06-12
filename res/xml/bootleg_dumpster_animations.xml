@@ -107,6 +107,14 @@
         android:key="anim_misc"
         android:title="@string/misc_title" >
 
+    <ListPreference
+        android:key="pref_scrollingcache"
+        android:dialogTitle="@string/pref_scrollingcache_title"
+        android:title="@string/pref_scrollingcache_title"
+        android:summary="@string/pref_scrollingcache_summary"
+        android:entries="@array/entries_scrollingcache"
+        android:entryValues="@array/values_scrollingcache" />
+
     <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
         android:key="system_default_animation"
         android:title="@string/system_default_animation_title"
