@@ -33,7 +33,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 public class AnimationSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener, OnPreferenceClickListener {
+        OnPreferenceChangeListener {
 
     private static final String KEY_LISTVIEW_ANIMATION = "listview_animation";
     private static final String KEY_LISTVIEW_INTERPOLATOR = "listview_interpolator";
@@ -47,6 +47,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.bootleg_dumpster_animations);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.animations_transparent_alert);
+        final PreferenceScreen prefSet = getPreferenceScreen();
 
     //Listview Animations
     mListViewAnimation = (ListPreference) prefSet.findPreference(KEY_LISTVIEW_ANIMATION);
