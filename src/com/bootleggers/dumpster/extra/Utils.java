@@ -36,6 +36,7 @@ import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraManager;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
+import android.os.SystemProperties;
 import android.os.UserManager;
 import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
@@ -109,6 +110,16 @@ public final class Utils {
 
     public static boolean isTablet(Context context) {
         return getScreenType(context) == DEVICE_TABLET;
+    }
+
+    public static boolean isAndroidGoFlagEnabled() {
+        String isGoFlag = SystemProperties.get("ro.config.low_ram","false");
+        if (isGoFlag.equalsIgnoreCase("true")) {
+            return true;
+        } else {
+            return false;
+        }
+        
     }
 
     /**
@@ -213,6 +224,7 @@ public final class Utils {
         }
         return false;
     }
+
     public static void restartSystemUi(Context context) {
         Toast.makeText(context, R.string.systemui_restart_toast, Toast.LENGTH_LONG).show();
         new RestartSystemUiTask(context).execute();
