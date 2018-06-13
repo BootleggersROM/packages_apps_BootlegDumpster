@@ -138,6 +138,11 @@
     <!-- Footer alerts -->
     <string name="animations_transparent_alert">Some (or maybe all) of this animations may not work if your device got a transparent theme!</string>
 
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">This feature is unavailable because you don\'t have a secured lockscreen. </string>
+    <string name="no_no_summary_go">This feature is unavailable because you have Android Go enabled.</string>
+    <string name="no_no_summary_owner">This feature is unavailable because you don\'t have an owner info message</string>
+
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
@@ -188,6 +193,8 @@
     <string name="aosp_recents_category">AOSP recents</string>
     <string name="show_clear_all_recents_button_title">Clear all button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="show_clear_all_recents_button_title_alt">Show a Clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_alt">Instead of square text button</string>
     <string name="recents_clear_all_location_title">Clear all location</string>
     <string name="recents_clear_all_location_top_right">Top right</string>
     <string name="recents_clear_all_location_top_left">Top left</string>

@@ -32,6 +32,7 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import com.bootleggers.dumpster.extra.Utils;
+import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
 
 import com.android.settings.R;
 
@@ -59,6 +60,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     private ListPreference mTorchPowerButton;
     private ListPreference mVolumeKeyCursorControl;
+    private SystemSettingSwitchPreference mFingerprintSuccess;
+    private SystemSettingSwitchPreference mFingerprintUnlock;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -72,6 +75,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         // configuration
         mButtonFlashLightCategory = (PreferenceCategory) findPreference("power_button");
         mHardwareExtra = (PreferenceCategory) findPreference("hw_fpandmore");
+        mFingerprintSuccess = (SystemSettingSwitchPreference) findPreference("fingerprint_success_vib");
+        mFingerprintUnlock = (SystemSettingSwitchPreference) findPreference("fp_unlock_keystore");
         final Preference hwKeysSubmenu = (Preference) prefScreen
                 .findPreference(SUBMENU_HWKEYS);
 
@@ -113,6 +118,15 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         // remove this feature on non-hw phones
         if (!hasBackKey && !hasHomeKey && !hasAppSwitchKey && !hasMenuKey && !hasAssistKey) {
             mHardwareExtra.removePreference(hwKeysSubmenu);
+        }
+
+        if (!Utils.isDeviceWithFP(getActivity())) {
+            mHardwareExtra.removePreference(mFingerprintSuccess);
+            mHardwareExtra.removePreference(mFingerprintUnlock);
+        }
+        
+        if (!hasBackKey && !hasHomeKey && !hasAppSwitchKey && !hasMenuKey && !hasAssistKey && !Utils.isDeviceWithFP(getActivity())) {
+            prefScreen.removePreference(mHardwareExtra);
         }
 
     }

@@ -36,6 +36,7 @@ import android.view.View;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.util.bootleggers.AwesomeAnimationHelper;
+import com.bootleggers.dumpster.extra.Utils;
 import com.android.internal.logging.nano.MetricsProto;
 
 public class AnimationSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
@@ -97,12 +98,18 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
         mContext = (Context) getActivity();
 
         mScreenOffAnimation = (ListPreference) findPreference(KEY_SCREEN_OFF_ANIMATION);
+        if (!Utils.isAndroidGoFlagEnabled()) {
         int screenOffAnimation = Settings.Global.getInt(getContentResolver(),
                 Settings.Global.SCREEN_OFF_ANIMATION, 0);
 
         mScreenOffAnimation.setValue(Integer.toString(screenOffAnimation));
         mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
         mScreenOffAnimation.setOnPreferenceChangeListener(this);
+        } else {
+            mScreenOffAnimation.setSummary(R.string.no_no_summary_go);
+            mScreenOffAnimation.setEnabled(false);
+        }
+
 
     //Listview Animations
     mListViewAnimation = (ListPreference) findPreference(KEY_LISTVIEW_ANIMATION);
@@ -210,7 +217,6 @@ public class AnimationSettings extends SettingsPreferenceFragment implements OnP
     mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
             SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
     mScrollingCachePref.setOnPreferenceChangeListener(this);
-
 }
 
     @Override
