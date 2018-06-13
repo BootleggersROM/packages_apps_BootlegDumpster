@@ -30,4 +30,16 @@
         android:summary="@string/gesture_anywhere_summary"
         android:fragment="com.bootleggers.dumpster.gestureanywhere.GestureAnywhereSettings" />
 
+    <PreferenceCategory
+        android:key="gest_misc"
+        android:title="@string/misc_title">
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="three_finger_gesture"
+        android:title="@string/three_finger_gesture"
+        android:summary="@string/three_finger_gesture_summary"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
