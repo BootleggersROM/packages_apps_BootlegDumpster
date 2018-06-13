@@ -33,6 +33,7 @@ import java.util.List;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.bootleggers.dumpster.extra.Utils;
 import com.android.internal.util.gzosp.AwesomeAnimationHelper;
 
 public class AnimationSettings extends SettingsPreferenceFragment implements
@@ -201,13 +202,17 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
             SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
     mScrollingCachePref.setOnPreferenceChangeListener(this);
 
-        mScreenOffAnimation = (ListPreference) findPreference(KEY_SCREEN_OFF_ANIMATION);
-        int screenOffAnimation = Settings.Global.getInt(getContentResolver(),
-                Settings.Global.SCREEN_OFF_ANIMATION, 0);
-
-        mScreenOffAnimation.setValue(Integer.toString(screenOffAnimation));
-        mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
-        mScreenOffAnimation.setOnPreferenceChangeListener(this);
+        if (!Utils.isAndroidGoFlagEnabled()) {
+            int screenOffAnimation = Settings.Global.getInt(getContentResolver(),
+                    Settings.Global.SCREEN_OFF_ANIMATION, 0);
+    
+            mScreenOffAnimation.setValue(Integer.toString(screenOffAnimation));
+            mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
+            mScreenOffAnimation.setOnPreferenceChangeListener(this);
+        } else {
+            mScreenOffAnimation.setSummary(R.string.no_no_summary_go);
+            mScreenOffAnimation.setEnabled(false);
+        }
 
 }
 

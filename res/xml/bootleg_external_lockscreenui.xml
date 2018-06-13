@@ -75,6 +75,7 @@
         android:entries="@array/lock_clock_fonts_entries"
         android:entryValues="@array/lock_clock_fonts_values"
         android:summary="@string/lock_clock_font_summary"
+        android:dependency="hide_lockscreen_clock"
         android:persistent="false" />
 
     <ListPreference
@@ -84,6 +85,7 @@
         android:entries="@array/lock_date_fonts_entries"
         android:entryValues="@array/lock_date_fonts_values"
         android:summary="@string/lock_date_font_summary"
+        android:dependency="hide_lockscreen_date"
         android:persistent="false" />
 
     <ListPreference

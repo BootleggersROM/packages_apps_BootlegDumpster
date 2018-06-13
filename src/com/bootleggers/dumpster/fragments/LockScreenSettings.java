@@ -43,12 +43,15 @@ import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.bootleggers.dumpster.extra.Utils;
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
+import com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference;
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private ListPreference mAmbientTicker;
+    private SecureSettingSwitchPreference mDisableQS;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -65,6 +68,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mAmbientTicker.setValue(Integer.toString(mode));
         mAmbientTicker.setSummary(mAmbientTicker.getEntry());
         mAmbientTicker.setOnPreferenceChangeListener(this);
+
+        if (!Utils.isLockSecured(getActivity())) {
+            mDisableQS = (SecureSettingSwitchPreference) findPreference("lockscreen_qs_disabled");
+            mDisableQS.setSummary(R.string.no_no_summary_locked);
+            mDisableQS.setEnabled(false);
+        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
