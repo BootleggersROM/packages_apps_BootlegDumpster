@@ -38,8 +38,9 @@ import android.os.SystemProperties;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.os.UserManager;
+import android.os.UserHandle;
 import android.support.v7.preference.ListPreference;
-import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference; 
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v14.preference.PreferenceFragment;
 import android.text.TextUtils;
@@ -57,6 +58,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
+import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
 
 public final class Utils {
@@ -69,6 +71,9 @@ public final class Utils {
 
     // Device type reference
     private static int sDeviceType = -1;
+
+    // Returns the User ID of the account that's being used
+    private static final int MY_USER_ID = UserHandle.myUserId();
 
     /**
      * Returns whether the device is voice-capable (meaning, it is also a phone).
@@ -271,6 +276,15 @@ public final class Utils {
             return false;
         }
         
+    }
+
+    public static boolean isLockSecured(Activity activity) {
+        final LockPatternUtils lockPatternUtils = new LockPatternUtils(activity);
+        if (lockPatternUtils.isSecure(MY_USER_ID)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static void restartSystemUi(Context context) {
