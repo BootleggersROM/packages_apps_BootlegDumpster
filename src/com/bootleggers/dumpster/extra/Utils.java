@@ -34,6 +34,7 @@ import android.content.res.Resources.NotFoundException;
 import android.hardware.camera2.CameraAccessException;
 import android.hardware.camera2.CameraCharacteristics;
 import android.hardware.camera2.CameraManager;
+import android.hardware.fingerprint.FingerprintManager;
 import android.os.SystemProperties;
 import android.net.ConnectivityManager;
 import android.os.AsyncTask;
@@ -74,6 +75,9 @@ public final class Utils {
 
     // Returns the User ID of the account that's being used
     private static final int MY_USER_ID = UserHandle.myUserId();
+
+    // Used for making the Fingerprint check
+    private static FingerprintManager mFingerprintManager;
 
     /**
      * Returns whether the device is voice-capable (meaning, it is also a phone).
@@ -295,6 +299,16 @@ public final class Utils {
         } else {
             return false;
         }
+    }
+
+    public static boolean isDeviceWithFP(Activity activity) {
+        mFingerprintManager = (FingerprintManager) activity.getSystemService(Context.FINGERPRINT_SERVICE);
+        if (mFingerprintManager != null && mFingerprintManager.isHardwareDetected()) {
+            return true;
+        } else {
+            return false;
+        }
+        
     }
 
     public static void restartSystemUi(Context context) {
