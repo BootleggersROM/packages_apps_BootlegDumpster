@@ -32,6 +32,7 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.internal.util.gzosp.GzospUtils;
+import com.bootleggers.dumpster.extra.Utils;
 
 import com.android.settings.R;
 
@@ -56,6 +57,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     private ListPreference mTorchPowerButton;
     private ListPreference mVolumeKeyCursorControl;
+    private PreferenceCategory mButtonFlashLightCategory;
+    private PreferenceCategory mHardwareExtra;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -64,6 +67,13 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+
+        // load categories and init/remove preferences based on device
+        // configuration
+        mButtonFlashLightCategory = (PreferenceCategory) findPreference("power_button");
+        mHardwareExtra = (PreferenceCategory) findPreference("hw_fpandmore");
+        final Preference hwKeysSubmenu = (Preference) prefScreen
+                .findPreference(SUBMENU_HWKEYS);
 
         // volume key cursor control
         mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
@@ -75,8 +85,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
            mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
         }
 
-        if (!GzospUtils.deviceHasFlashlight(getContext())) {
-            Preference toRemove = prefScreen.findPreference(TORCH_POWER_BUTTON_GESTURE);
+        if (!Utils.deviceSupportsFlashLight(getContext())) {
+            PreferenceCategory toRemove = mButtonFlashLightCategory;
             if (toRemove != null) {
                 prefScreen.removePreference(toRemove);
             }
@@ -100,14 +110,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         final boolean hasAssistKey = (deviceKeys & KEY_MASK_ASSIST) != 0;
         final boolean hasAppSwitchKey = (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
 
-        // load categories and init/remove preferences based on device
-        // configuration
-        final Preference hwKeysSubmenu = (Preference) prefScreen
-                .findPreference(SUBMENU_HWKEYS);
-
         // remove this feature on non-hw phones
         if (!hasBackKey && !hasHomeKey && !hasAppSwitchKey && !hasMenuKey && !hasAssistKey) {
-            prefScreen.removePreference(hwKeysSubmenu);
+            mHardwareExtra.removePreference(hwKeysSubmenu);
         }
 
     }
