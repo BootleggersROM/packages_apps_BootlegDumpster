@@ -18,6 +18,10 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="gest_main"
+        android:title="@string/gestures_main_category">
+
      <Preference
          android:title="@string/carbon_gesture_preference_title"
          android:summary="@string/carbon_gesture_preference_summary"
@@ -29,6 +33,8 @@
         android:title="@string/gesture_anywhere_title"
         android:summary="@string/gesture_anywhere_summary"
         android:fragment="com.bootleggers.dumpster.gestureanywhere.GestureAnywhereSettings" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="gest_misc"

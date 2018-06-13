@@ -142,6 +142,8 @@
     <string name="animations_ui_general">UI and General Animations</string>
     <string name="animations_ui_system">System Related Animations</string>
     <string name="animations_ui_misc">Other Animations</string>
+    <!-- Gesture stuff -->
+    <string name="gestures_main_category">System Gestures</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
