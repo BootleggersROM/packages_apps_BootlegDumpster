@@ -40,11 +40,9 @@ import com.bootleggers.dumpster.preferences.ScreenshotEditPackageListAdapter.Pac
 public class MiscSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener {
 
-    private static final String KEY_SCREEN_OFF_ANIMATION = "screen_off_animation";
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     private static final int DIALOG_SCREENSHOT_EDIT_APP = 1;
 
-    private ListPreference mScreenOffAnimation;
     private Preference mScreenshotEditAppPref;
     private ScreenshotEditPackageListAdapter mPackageAdapter;
 
@@ -55,14 +53,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.bootleg_dumpster_misc);
 
         final PreferenceScreen prefSet = getPreferenceScreen();
-        
-        mScreenOffAnimation = (ListPreference) findPreference(KEY_SCREEN_OFF_ANIMATION);
-        int screenOffAnimation = Settings.Global.getInt(getContentResolver(),
-                Settings.Global.SCREEN_OFF_ANIMATION, 0);
-
-        mScreenOffAnimation.setValue(Integer.toString(screenOffAnimation));
-        mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
-        mScreenOffAnimation.setOnPreferenceChangeListener(this);
 
         PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
         if (!Utils.isVoiceCapable(getActivity())) {
@@ -112,13 +102,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mScreenOffAnimation) {
-            int value = Integer.valueOf((String) newValue);
-            int index = mScreenOffAnimation.findIndexOfValue((String) newValue);
-            mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntries()[index]);
-            Settings.Global.putInt(getContentResolver(), Settings.Global.SCREEN_OFF_ANIMATION, value);
-            return true;
-        }
         return false;
     }
 

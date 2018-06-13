@@ -57,6 +57,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
     private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
     private static final String SCROLLINGCACHE_DEFAULT = "1";
+    private static final String KEY_SCREEN_OFF_ANIMATION = "screen_off_animation";
 
     private ListPreference mListViewAnimation;
     private ListPreference mListViewInterpolator;
@@ -81,6 +82,7 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
     private ListPreference mScrollingCachePref;
     private Context mContext;
     protected ContentResolver mContentRes;
+    private ListPreference mScreenOffAnimation;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -199,6 +201,14 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
             SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
     mScrollingCachePref.setOnPreferenceChangeListener(this);
 
+        mScreenOffAnimation = (ListPreference) findPreference(KEY_SCREEN_OFF_ANIMATION);
+        int screenOffAnimation = Settings.Global.getInt(getContentResolver(),
+                Settings.Global.SCREEN_OFF_ANIMATION, 0);
+
+        mScreenOffAnimation.setValue(Integer.toString(screenOffAnimation));
+        mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntry());
+        mScreenOffAnimation.setOnPreferenceChangeListener(this);
+
 }
 
     @Override
@@ -279,8 +289,13 @@ public class AnimationSettings extends SettingsPreferenceFragment implements
             return true;
             }
         return false;
+        } else if (preference == mScreenOffAnimation) {
+            int value = Integer.valueOf((String) newValue);
+            int index = mScreenOffAnimation.findIndexOfValue((String) newValue);
+            mScreenOffAnimation.setSummary(mScreenOffAnimation.getEntries()[index]);
+            Settings.Global.putInt(getContentResolver(), Settings.Global.SCREEN_OFF_ANIMATION, value);
+            return true;
         }
-
 
     // Come here, for the System Animations
     preference.setSummary(getProperSummary(preference));
