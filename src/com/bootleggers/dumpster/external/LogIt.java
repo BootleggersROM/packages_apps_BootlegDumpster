@@ -31,6 +31,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.StrictMode;
+import android.os.SystemProperties;
 import android.support.v7.preference.CheckBoxPreference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.ListPreference;
@@ -76,6 +77,9 @@ public class LogIt extends SettingsPreferenceFragment
         .getExternalStorageDirectory(), "bootleg_kmsg.txt").getAbsolutePath();
     private static final String DMESG_FILE = new File(Environment
         .getExternalStorageDirectory(), "bootleg_dmesg.txt").getAbsolutePath();
+    private static final String DEVINFO_FILE = new File(Environment
+        .getExternalStorageDirectory(), "bootleg_devinfo.txt").getAbsolutePath();
+
 
     private static final String HASTE_LOGCAT_KEY = new File(Environment
             .getExternalStorageDirectory(), "bootleg_haste_logcat_key").getAbsolutePath();
@@ -84,7 +88,7 @@ public class LogIt extends SettingsPreferenceFragment
     private static final String HASTE_DMESG_KEY = new File(Environment
             .getExternalStorageDirectory(), "bootleg_haste_dmesg_key").getAbsolutePath();
 
-    private static final String NORMAL_HASTE = "http://hastebin.com/documents";
+    private static final String NORMAL_HASTE = "https://hastebin.com/documents";
     private static final File sdCardDirectory = Environment.getExternalStorageDirectory();
     private static final File logcatFile = new File(sdCardDirectory, "bootleg_logcat.txt");
     private static final File logcatHasteKey = new File(sdCardDirectory, "bootleg_haste_logcat_key");
@@ -92,6 +96,7 @@ public class LogIt extends SettingsPreferenceFragment
     private static final File dmesgHasteKey = new File(sdCardDirectory, "bootleg_haste_dmesg_key");
     private static final File kmsgFile = new File(sdCardDirectory, "bootleg_kmsg.txt");
     private static final File kmsgHasteKey = new File(sdCardDirectory, "bootleg_haste_kmsg_key");
+    private static final File devinfoFile = new File(sdCardDirectory, "bootleg_devinfo.txt");
     private static final File shareZipFile = new File(sdCardDirectory, "bootleg_logs.zip");
     private static final int MENU_HELP  = 0;
 
@@ -107,6 +112,13 @@ public class LogIt extends SettingsPreferenceFragment
 
     private boolean shareHaste = false;
     private boolean shareZip = true;
+
+    String bootlegBuildtype = SystemProperties.get("ro.bootleg.buildtype","Unshishufied");
+    String bootlegBuilddevice = SystemProperties.get("ro.bootleg.device","unkownorbroken");
+    String bootlegBuildrelease = SystemProperties.get("ro.bootleg.version","unkownorbroken");
+    String bootlegBuildmaintainer = SystemProperties.get("ro.bootleg.maintainer","NotDeclaredLMAO");
+    String bootlegBuilduser = SystemProperties.get("ro.build.user","unkownorbroken");
+    String bootlegBuildhost = SystemProperties.get("ro.build.host","unkownorbroken");
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -230,7 +242,7 @@ public class LogIt extends SettingsPreferenceFragment
     public void logItDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(R.string.log_it_dialog_title);
-        if (String.valueOf(bootlegBuildtype) == "Shishufied") {
+        if (bootlegBuildtype.equalsIgnoreCase("Shishufied")) {
             builder.setMessage(R.string.logcat_warning);
         } else {
             builder.setMessage(R.string.logcat_warning_unofficial);
@@ -254,7 +266,7 @@ public class LogIt extends SettingsPreferenceFragment
     public void logZipDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         builder.setTitle(R.string.log_it_dialog_title);
-        if (String.valueOf(bootlegBuildtype) == "Shishufied") {
+        if (bootlegBuildtype.equalsIgnoreCase("Shishufied")) {
             builder.setMessage(R.string.logcat_warning);
         } else {
             builder.setMessage(R.string.logcat_warning_unofficial);
@@ -285,7 +297,7 @@ public class LogIt extends SettingsPreferenceFragment
         if (shareHaste) {
             command += " | tail -c " + HASTE_MAX_LOG_SIZE + " > " + LOGCAT_FILE
                     + "&& curl -s -X POST -T " + LOGCAT_FILE + " " + NORMAL_HASTE
-                    + " | cut -d'\"' -f4 | echo \"http://hastebin.com/$(cat -)\" > "
+                    + " | cut -d'\"' -f4 | echo \"https://hastebin.com/$(cat -)\" > "
                             + HASTE_LOGCAT_KEY;
         } else {
             command += " > " + LOGCAT_FILE;
@@ -298,7 +310,7 @@ public class LogIt extends SettingsPreferenceFragment
         if (shareHaste) {
             command += " | tail -c " + HASTE_MAX_LOG_SIZE + " > " + KMSG_FILE
                     + " && curl -s -X POST -T " + KMSG_FILE + " " + NORMAL_HASTE
-                    + " | cut -d'\"' -f4 | echo \"http://hastebin.com/$(cat -)\" > "
+                    + " | cut -d'\"' -f4 | echo \"https://hastebin.com/$(cat -)\" > "
                             + HASTE_KMSG_KEY;
         } else {
             command += " > " + KMSG_FILE;
@@ -311,7 +323,7 @@ public class LogIt extends SettingsPreferenceFragment
         if (shareHaste) {
             command += " | tail -c " + HASTE_MAX_LOG_SIZE + " > " + DMESG_FILE
                     + "&& curl -s -X POST -T " + DMESG_FILE + " " + NORMAL_HASTE
-                    + " | cut -d'\"' -f4 | echo \"http://hastebin.com/$(cat -)\" > "
+                    + " | cut -d'\"' -f4 | echo \"https://hastebin.com/$(cat -)\" > "
                             + HASTE_DMESG_KEY;
         } else {
             command += " > " + DMESG_FILE;
@@ -320,7 +332,7 @@ public class LogIt extends SettingsPreferenceFragment
     }
 
     public void makeDevinfo() throws SuShell.SuDeniedException, IOException {
-        String command = "echo -e Info:\n\nDevice: " + String.valueOf(bootlegBuilddevice) + "\nRelease: " + String.valueOf(bootlegBuildrelease) + "\nBuild type: " + String.valueOf(bootlegBuildtype) + "\n\nMaintainer: " + String.valueOf(bootlegBuildmaintainer) + "\nBuild user: " + String.valueOf(bootlegBuilduser) + "\nBuild host: " + String.valueOf(bootlegBuildhost);
+        String command = "printf Info:\n\nDevice: " + String.valueOf(bootlegBuilddevice) + "\nRelease: " + String.valueOf(bootlegBuildrelease) + "\nBuild type: " + String.valueOf(bootlegBuildtype) + "\n\nMaintainer: " + String.valueOf(bootlegBuildmaintainer) + "\nBuild user: " + String.valueOf(bootlegBuilduser) + "\nBuild host: " + String.valueOf(bootlegBuildhost);
         if (!shareHaste) {
             command += " > " + DEVINFO_FILE;
         }
@@ -330,6 +342,7 @@ public class LogIt extends SettingsPreferenceFragment
     private void createShareZip(boolean logcat, boolean kmsg, boolean dmesg) throws IOException {
 
         ZipOutputStream out = null;
+            
         try {
             out = new ZipOutputStream(new BufferedOutputStream(
                     new FileOutputStream(shareZipFile.getAbsolutePath())));
@@ -342,6 +355,7 @@ public class LogIt extends SettingsPreferenceFragment
             if (dmesg) {
                 writeToZip(dmesgFile, out);
             }
+            writeToZip(devinfoFile, out);
         } finally {
             if (out != null) out.close();
         }
@@ -383,11 +397,13 @@ public class LogIt extends SettingsPreferenceFragment
                 Log.e(TAG, "CreateLogTask: invalid argument count");
                 return sharingIntentString;
             }
+            sharingIntentString += " Here is some log i made\nInfo:\n\nDevice: " + String.valueOf(bootlegBuilddevice) + "\nRelease: " + String.valueOf(bootlegBuildrelease) + "\nBuild type: " + String.valueOf(bootlegBuildtype) + "\n\nMaintainer: " + String.valueOf(bootlegBuildmaintainer) + "\nBuild user: " + String.valueOf(bootlegBuilduser) + "\nBuild host: " + String.valueOf(bootlegBuildhost);
+            
             try {
                 if (params[0]) {
                     makeLogcat();
                     if (shareHaste) {
-                        sharingIntentString += "\nLogcat: " +
+                        sharingIntentString += "\n\nLogcat: " +
                                 Utils.readStringFromFile(logcatHasteKey);
                     }
                 }
@@ -406,6 +422,7 @@ public class LogIt extends SettingsPreferenceFragment
                     }
                 }
                 if (shareZip) {
+                    makeDevinfo();
                     createShareZip(params[0], params[1], params[2]);
                 }
             } catch (SuShell.SuDeniedException e) {
