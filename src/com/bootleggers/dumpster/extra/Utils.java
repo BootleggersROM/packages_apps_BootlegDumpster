@@ -263,6 +263,16 @@ public final class Utils {
         return stringBuffer.toString();
     }
 
+    public static boolean isAndroidGoFlagEnabled() {
+        String isGoFlag = SystemProperties.get("ro.config.low_ram","false");
+        if (isGoFlag.equalsIgnoreCase("true")) {
+            return true;
+        } else {
+            return false;
+        }
+        
+    }
+
     public static void restartSystemUi(Context context) {
         Toast.makeText(context, R.string.systemui_restart_toast, Toast.LENGTH_LONG).show();
         new RestartSystemUiTask(context).execute();
