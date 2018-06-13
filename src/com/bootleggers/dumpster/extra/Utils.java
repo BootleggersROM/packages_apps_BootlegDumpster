@@ -38,6 +38,7 @@ import android.net.ConnectivityManager;
 import android.os.AsyncTask;
 import android.os.SystemProperties;
 import android.os.UserManager;
+import android.os.UserHandle;
 import android.telephony.TelephonyManager;
 import android.util.DisplayMetrics;
 import android.view.DisplayInfo;
@@ -45,6 +46,7 @@ import android.view.Surface;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
 
 public final class Utils {
@@ -57,6 +59,9 @@ public final class Utils {
 
     // Device type reference
     private static int sDeviceType = -1;
+
+    // Returns the User ID of the account that's being used
+    private static final int MY_USER_ID = UserHandle.myUserId();
 
     /**
      * Returns whether the device is voice-capable (meaning, it is also a phone).
@@ -120,6 +125,15 @@ public final class Utils {
             return false;
         }
         
+    }
+
+    public static boolean isLockSecured(Activity activity) {
+        final LockPatternUtils lockPatternUtils = new LockPatternUtils(activity);
+        if (lockPatternUtils.isSecure(MY_USER_ID)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     /**
