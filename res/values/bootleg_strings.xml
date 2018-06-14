@@ -476,6 +476,8 @@
     <string name="aosp_recents_category">AOSP recents</string>
     <string name="show_clear_all_recents_button_title">Clear all button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button</string>
+    <string name="show_clear_all_recents_button_title_alt">Show a Clear all FAB</string>
+    <string name="show_clear_all_recents_button_summary_alt">Instead of square text button</string>
     <string name="recents_clear_all_location_title">Clear all location</string>
     <string name="recents_clear_all_location_top_right">Top right</string>
     <string name="recents_clear_all_location_top_left">Top left</string>

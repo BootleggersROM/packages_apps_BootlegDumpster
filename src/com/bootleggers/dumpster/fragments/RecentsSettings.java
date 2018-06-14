@@ -67,6 +67,9 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private ListPreference mRecentsClearAllLocation;
     private SwitchPreference mRecentsClearAll;
     private ListPreference mRecentsType;
+    private SwitchPreference mMemoryBar; 
+    private SwitchPreference mRecentsTint; 
+    private PreferenceScreen mHiddenApps;
     private static final String RECENTS_TYPE = "recents_layout_style";
 
     private SwitchPreference mSlimToggle;
@@ -81,8 +84,16 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefSet = getPreferenceScreen();
 
-        // clear all recents
+        //Declaring all the recents options
+        mRecentsType = (ListPreference) findPreference(RECENTS_TYPE);
+        mRecentsClearAll = (SwitchPreference) findPreference("show_clear_all_recents");
         mRecentsClearAllLocation = (ListPreference) findPreference(RECENTS_CLEAR_ALL_LOCATION);
+        mMemoryBar = (SwitchPreference) findPreference("systemui_recents_mem_display");
+        mRecentsTint = (SwitchPreference) findPreference("wallpaper_recents_tint");
+        mHiddenApps = (PreferenceScreen) findPreference("hide_app_from_recents");
+        mStockIconPacks = (Preference) findPreference("recents_icon_pack");
+
+        // clear all recents
         int location = Settings.System.getIntForUser(resolver,
                 Settings.System.RECENTS_CLEAR_ALL_LOCATION, 5, UserHandle.USER_CURRENT);
         mRecentsClearAllLocation.setValue(String.valueOf(location));
@@ -90,19 +101,35 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
 
         // recents type
-        mRecentsType = (ListPreference) findPreference(RECENTS_TYPE);
-        int style = Settings.System.getIntForUser(resolver,
-                Settings.System.RECENTS_LAYOUT_STYLE, 0, UserHandle.USER_CURRENT);
-        mRecentsType.setValue(String.valueOf(style));
-        mRecentsType.setSummary(mRecentsType.getEntry());
-        mRecentsType.setOnPreferenceChangeListener(this);
+        if (!Utils.isAndroidGoFlagEnabled()) {
+            int style = Settings.System.getIntForUser(resolver,
+                    Settings.System.RECENTS_LAYOUT_STYLE, 0, UserHandle.USER_CURRENT);
+            mRecentsType.setValue(String.valueOf(style));
+            mRecentsType.setSummary(mRecentsType.getEntry());
+            mRecentsType.setOnPreferenceChangeListener(this);
+        } else {
+            mRecentsType.setSummary(R.string.no_no_summary_go);
+            mRecentsType.setEnabled(false);
+        }
+
+        if (Utils.isAndroidGoFlagEnabled()) {
+            mRecentsClearAll.setTitle(R.string.show_clear_all_recents_button_title_alt);
+            mRecentsClearAll.setSummary(R.string.show_clear_all_recents_button_summary_alt);
+        }
 
         mSlimToggle = (SwitchPreference) findPreference("use_slim_recents");
-        mStockIconPacks = (Preference) findPreference("recents_icon_pack");
         boolean enabled = Settings.System.getIntForUser(
                 resolver, Settings.System.USE_SLIM_RECENTS, 0,
                 UserHandle.USER_CURRENT) == 1;
         mSlimToggle.setChecked(enabled);
+        if (!Utils.isAndroidGoFlagEnabled()) {
+        mRecentsType.setEnabled(!enabled);
+        }
+        mRecentsClearAll.setEnabled(!enabled);
+        mRecentsClearAllLocation.setEnabled(!enabled);
+        mMemoryBar.setEnabled(!enabled);
+        mRecentsTint.setEnabled(!enabled);
+        mHiddenApps.setEnabled(!enabled);
         mStockIconPacks.setEnabled(!enabled);
         mSlimToggle.setOnPreferenceChangeListener(this);
 
@@ -131,6 +158,14 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
                     Settings.System.USE_SLIM_RECENTS, value ? 1 : 0,
                     UserHandle.USER_CURRENT);
             mSlimToggle.setChecked(value);
+            if (!Utils.isAndroidGoFlagEnabled()) {
+            mRecentsType.setEnabled(!value);
+            }
+            mRecentsClearAll.setEnabled(!value);
+            mRecentsClearAllLocation.setEnabled(!value);
+            mMemoryBar.setEnabled(!value);
+            mRecentsTint.setEnabled(!value);
+            mHiddenApps.setEnabled(!value);
             mStockIconPacks.setEnabled(!value);
             return true;
         }
