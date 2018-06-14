@@ -57,31 +57,6 @@
             android:fragment="com.bootleggers.dumpster.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
-        <!-- Power Menu -->
-        <Preference
-            android:key="powermenu__category"
-            android:title="@string/powermenu_title" 
-            android:summary="@string/powermenu_settings_summary"
-            android:fragment="com.bootleggers.dumpster.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
-
-        <!-- Gestures -->
-        <Preference
-            android:key="gestures_category"
-            android:title="@string/gestures_title"
-            android:summary="@string/gestures_settings_summary"
-            android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"
-            android:visibility="gone"/>
-
-        <!-- Animations -->
-        <Preference
-            android:key="animations__category"
-            android:title="@string/animations_title" 
-            android:summary="@string/animations_settings_summary"
-            android:fragment="com.bootleggers.dumpster.fragments.AnimationSettings"
-            android:icon="@drawable/ic_settings_animations"/>
-
         <!-- Recents -->
         <Preference
             android:key="recents_category"
@@ -97,6 +72,30 @@
             android:summary="@string/notifications_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
+
+        <!-- Power Menu -->
+        <Preference
+            android:key="powermenu__category"
+            android:title="@string/powermenu_title" 
+            android:summary="@string/powermenu_settings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.PowerMenuSettings"
+            android:icon="@drawable/ic_settings_powermenu"/>
+
+        <!-- Animations -->
+        <Preference
+            android:key="animations__category"
+            android:title="@string/animations_title" 
+            android:summary="@string/animations_settings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.AnimationSettings"
+            android:icon="@drawable/ic_settings_animations"/>
+
+        <!-- Gestures -->
+        <Preference
+            android:key="gestures__category"
+            android:title="@string/gestures_title" 
+            android:summary="@string/gestures_settings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Misc -->
         <Preference
