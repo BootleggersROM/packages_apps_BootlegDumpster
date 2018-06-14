@@ -116,12 +116,6 @@
         android:key="locksect_misc"
         android:title="@string/misc_title">
 
-    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-        android:key="powermenu_lockscreen"
-        android:title="@string/powermenu_lockscreen_title"
-        android:summary="@string/powermenu_lockscreen_summary"
-        android:defaultValue="true" />
-
     <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
         android:key="lockscreen_qs_disabled"
         android:title="@string/lockscreen_qs_disabled_title"
