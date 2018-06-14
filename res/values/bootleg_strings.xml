@@ -865,7 +865,7 @@
 
     <!-- Keyguardalpha -->
     <string name="lockscreen_alpha">On normal screen</string>
-    <string name="lockscreen_security_alpha">On lock password enter screen</string>
+    <string name="lockscreen_security_alpha">On secured screen bouncer</string>
 
     <!-- Log it -->
     <string name="log_it_title">Log it</string>

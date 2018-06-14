@@ -43,8 +43,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/lockui_hideitems"
-        android:key="lockscreen_hide_cat">
+        android:title="@string/lockui_lockstyles"
+        android:key="lockscreen_styles_cat">
 
     <ListPreference
         android:key="lockscreen_clock_selection"
