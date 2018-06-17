@@ -850,6 +850,10 @@
         <item>@string/lockscreen_clock_selection_analog_deadpool</item>
         <item>@string/lockscreen_clock_selection_sammy</item>
         <item>@string/lockscreen_clock_selection_sammy_bold</item>
+        <item>@string/lockscreen_clock_selection_sammy_accent</item>
+        <item>@string/lockscreen_clock_selection_sammy_accent_alt</item>
+        <item>@string/lockscreen_clock_selection_shishu</item>
+        <item>@string/lockscreen_clock_selection_shishu_inmensity</item>
     </string-array>
 
     <string-array name="lockscreen_clock_selection_values" translatable="false">
@@ -859,6 +863,10 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
     </string-array>
 
     <!-- Lockscreen date styles -->
@@ -866,12 +874,20 @@
         <item>@string/lockscreen_date_selection_default</item>
         <item>@string/lockscreen_date_selection_str_box</item>
         <item>@string/lockscreen_date_selection_str_round</item>
+        <item>@string/lockscreen_date_selection_str_accent</item>
+        <item>@string/lockscreen_date_selection_str_accent_day</item>
+        <item>@string/lockscreen_date_selection_str_accent_transparent</item>
+        <item>@string/lockscreen_date_selection_str_accent_transparent_day</item>
     </string-array>
 
     <string-array name="lockscreen_date_selection_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 
     <!-- Toast Animation -->
