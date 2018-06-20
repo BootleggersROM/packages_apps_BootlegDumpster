@@ -41,6 +41,7 @@ import android.os.SystemProperties;
 import android.os.UserManager;
 import android.os.UserHandle;
 import android.telephony.TelephonyManager;
+import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.view.DisplayInfo;
 import android.view.Surface;
@@ -143,6 +144,15 @@ public final class Utils {
     public static boolean isDeviceWithFP(Activity activity) {
         mFingerprintManager = (FingerprintManager) activity.getSystemService(Context.FINGERPRINT_SERVICE);
         if (mFingerprintManager != null && mFingerprintManager.isHardwareDetected()) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public static boolean isLockOwnerInfo(Activity activity) {
+        final LockPatternUtils lockPatternUtils2 = new LockPatternUtils(activity);
+        if (!TextUtils.isEmpty(lockPatternUtils2.getOwnerInfo(MY_USER_ID))) {
             return true;
         } else {
             return false;
