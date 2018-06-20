@@ -840,7 +840,7 @@
     <string name="animations_transparent_alert">Some (or maybe all) of this animations may not work if your device got a transparent theme!</string>
 
     <!-- CarbonGestures -->
-    <string name="carbon_gesture_preference_title">Gestures</string>
+    <string name="carbon_gesture_preference_title" translatable="false">Carbon Gestures</string>
     <string name="carbon_gesture_preference_summary">Add some gestures with two or more fingers</string>
     <string name="carbon_gestures_summary">Configure custom global gestures</string>
     <string name="carbon_gestures_fingers_title">Fingers used for gesture</string>
