@@ -36,7 +36,7 @@ public class AboutMore extends SettingsPreferenceFragment {
         Resources res = getResources();
         prefCrowd = (Preference) findPreference("bootleg_morecd");
 
-        bootlegCrowdinString = res.getString(R.string.bootleg_moarstuff_cd_sumgen, R.string.bootleg_moarstuff_cd_summary01, R.string.bootleg_moarstuff_cd_summary02);
+        bootlegCrowdinString = res.getString(R.string.bootleg_moarstuff_cd_sumgen, res.getString(R.string.bootleg_moarstuff_cd_summary01), res.getString(R.string.bootleg_moarstuff_cd_summary02));
 
         prefCrowd.setSummary(String.valueOf(bootlegCrowdinString));
 
