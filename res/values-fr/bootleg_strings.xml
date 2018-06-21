@@ -13,19 +13,45 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Categories -->
+  <string name="lockscreen_title">Ecran de vérouillage</string>
+  <string name="misc_title">Divers</string>
+  <string name="navbar_title">Fonctionnalités de la barre de navigation</string>
+  <string name="powermenu_title">Menu marche/arrêt</string>
+  <string name="recents_title">Applications récentes</string>
+  <string name="statusbar_title">Barre d\'État</string>
+  <string name="volume_title">Touches de volume</string>
   <!-- DUMPSTER - About Section strings -->
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <!-- More about us strings -->
+  <string name="bootleg_moarstuff_blog_title">Notre blog</string>
+  <string name="bootleg_moarstuff_blog_summary">Là où nous posterons à propos des sorties et des nouvelles</string>
+  <string name="bootleg_moarstuff_git_title">Notre Github</string>
+  <string name="bootleg_pref_moarstuff_social_title">Contactez-nous !</string>
+  <string name="bootleg_moarstuff_gplus_title">Communauté Google +</string>
   <!-- Messages to send? -->
   <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+  <string name="bootleg_ri_title_buildtype">Type de compilation</string>
+  <string name="bootleg_pref_title_rominfo">Information sur la Rom</string>
+  <string name="bootleg_ri_title_ota">Mises à jour OTA</string>
+  <string name="bootleg_ri_summary_ota">Vérifier les mises à jour</string>
   <!-- System theme -->
+  <string name="theme_accent_picker_title">Couleur d\'accentuation</string>
+  <string name="theme_accent_picker_summary">Choisir la couleur d\'accentuation du thème système</string>
   <string name="theme_accent_picker_default">Par défaut</string>
   <!-- General strings -->
+  <string name="ok">Ok</string>
+  <string name="reset">Réinitialiser</string>
+  <string name="cancel">Annuler</string>
+  <string name="save">Sauvegarder</string>
   <!-- General Categories -->
+  <string name="bootleg_advancedopt_title">Options avancées</string>
   <!-- Specific categories -->
+  <!-- Animations categories -->
+  <!-- Gesture stuff -->
+  <!-- The no-no list, messages explaining why some features are disabled -->
   <!-- Color Picker -->
   <string name="color_default">Par défaut</string>
   <!-- Footer warnings -->
@@ -33,15 +59,23 @@
   <!-- Volume rocker wake -->
   <!-- Hardware button navigation -->
   <!-- Button brightness -->
+  <string name="button_manual_brightness">Niveau de luminosité</string>
   <!-- Fingerprint authentication vibration -->
+  <string name="fprint_category">Empreinte</string>
   <!-- Fingerprint unlock keystore -->
   <!-- Features Strings - Lockscreen -->
   <!-- Ambient music -->
   <string name="force_ambient_for_media_off">Désactiver</string>
+  <string name="force_ambient_for_media_on">Normal</string>
   <!-- lock screen visualizer -->
   <!-- Features Strings - QuickSettings -->
   <!-- Quick pull down-->
+  <string name="quick_pulldown_off">Désactivé</string>
+  <string name="quick_pulldown_left">À gauche</string>
+  <string name="quick_pulldown_right">À droite</string>
+  <string name="quick_pulldown_always">Toujours</string>
   <!-- Smart pulldown-->
+  <string name="smart_pulldown_off">Désactivé</string>
   <!-- QS Rows and such -->
   <!-- Small quick settings scroller -->
   <!-- QS Headers -->
@@ -59,6 +93,7 @@
   <!-- Toast Icon -->
   <!-- App Ops -->
   <!-- Features Strings - Power Menu -->
+  <string name="power_menu_title">Menu marche/arrêt</string>
   <string name="powermenu_screenshot">Captures d\'écran</string>
   <string name="powermenu_screenrecord">Capture Vidéo d\'écran</string>
   <!-- Features Strings - StatusBar -->
@@ -68,6 +103,9 @@
   <!-- Network traffic -->
   <!-- Status Bar icons-->
   <!-- Statusbar Clock options -->
+  <string name="status_bar_clock_advanced_title">Options avancées</string>
+  <string name="clock_date_style_normal">Normal</string>
+  <string name="menu_cancel">Annuler</string>
   <!-- Features Strings - Notifications -->
   <string name="headsup_screen_title">Notifications flottantes</string>
   <!-- Statusbar ticker -->
@@ -78,10 +116,13 @@
   <string name="default_settings">Paramètres d\'origine</string>
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <!-- Fling -->
+  <string name="long_swipe_reset">Réinitialiser</string>
   <!-- Pulse navigation bar music visualizer -->
   <!-- Pulse config -->
   <!-- Navbar height -->
   <!-- SmartBar -->
+  <string name="smartbar_right">À droite</string>
+  <string name="smartbar_left">À gauche</string>
   <string name="smartbar_ime_action_none">Aucun</string>
   <!-- Torch Power button gestures -->
   <string name="torch_power_button_gesture_none">Désactiver</string>
@@ -90,16 +131,75 @@
   <!-- dt2forget -->
   <!-- Brightness icon-->
   <!-- Quick Settings brightness slider -->
+  <!-- Screenshot editor -->
   <!-- Battery Styles -->
   <!-- SystemUI Restart -->
   <!-- AOSP Recents Style -->
   <!-- Hide Apps from Recents -->
   <!-- Show power menu on lockscreen -->
   <!-- Disable QS on secure Lockscreen -->
-  <!-- System default animation -->
   <!-- QS footer warnings -->
   <!-- Weather - OmniJaws Settings -->
   <!-- Lock Clock Fonts -->
+  <!-- Custom fonts -->
   <!-- Lockscreen Weather -->
+  <string name="lock_screen_weather_category_title">Ecran de vérouillage</string>
   <!--3-Finger screenshot-->
+  <!-- Animations warning-->
+  <!-- CarbonGestures -->
+  <string name="carbon_gesture_disabled">Désactiver</string>
+  <string name="carbon_gesture_screenshot">Captures d\'écran</string>
+  <!-- Keyguardalpha -->
+  <!-- Log it -->
+  <!-- ListView animation -->
+  <string name="listview_off">Par défaut</string>
+  <!-- ListView interpolator -->
+  <!-- Lock date fonts -->
+  <!-- Lock owner test -->
+  <!-- Running Services -->
+  <!-- Lock UI thing -->
+  <!-- Lock UI thing -->
+  <!-- Gesture Anywhere -->
+  <!-- Label, button used to add a gesture -->
+  <!-- Label, button used to reload all gestures -->
+  <!-- Label, button used to cancel the operation of adding a gesture -->
+  <!-- Label, button used to save a gesture newly created -->
+  <!-- Label, prompt asking the user to enter the name of the gesture -->
+  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+  <!-- success message, tells the user where the gesture was saved -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_rename_action">Ok</string>
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_cancel_action">Annuler</string>
+  <!-- Message displayed when the user opens the gestures settings screen -->
+  <!-- Message displayed when the user has no gestures -->
+  <!-- Title of the screen used to view/manage gestures -->
+  <!-- Noun, menu item used to edit a gesture -->
+  <!-- Noun, menu item used to remove a gesture -->
+  <!-- Message displayed when a gesture is successfully deleted -->
+  <!-- Title of dialog box -->
+  <!-- Label of gesture name field in Rename gesture dialog box -->
+  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+  <!-- Volume key cursor control -->
+  <string name="volume_key_cursor_control_off">Désactiver</string>
+  <!-- Smart Pixels -->
+  <!-- Slim Recents panel -->
+  <!-- ATTENTION: RTL languages need to replace left with right -->
+  <!-- Hide Lockscreen clock, date, & alarm -->
+  <!-- Lockscreen styles -->
+  <string name="lockscreen_clock_selection_digital">Par défaut</string>
+  <string name="lockscreen_date_selection_default">Par défaut</string>
+  <!-- Notification count -->
+  <!-- P animations -->
+  <!-- Wallpaper tint -->
+  <!-- Notification guts kill app button -->
+  <!-- Toast Animation -->
+  <string name="toast_none_animation">Aucun</string>
+  <string name="toast_default_animation">Par défaut</string>
+  <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">Par défaut</string>
+  <!-- Scrolling Cache -->
+  <!-- Disable animations -->
+  <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_duration_default">Par défaut</string>
 </resources>

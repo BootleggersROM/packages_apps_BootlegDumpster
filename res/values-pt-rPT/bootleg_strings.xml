@@ -46,7 +46,7 @@
 Um grande obrigado a %s por trazer isto ao %s.</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ab_summary_whoami_unknown">... Alguém que não disse lá muito bem quem era... </string>
   <string name="bootleg_pref_title_romextras">Extras e Adições</string>
   <string name="bootleg_ex_title_featurelist">Lista de funcionalidades</string>
@@ -74,13 +74,16 @@ Um grande obrigado a %s por trazer isto ao %s.</string>
   <string name="bootleg_sharemsg2">Eu instalei a Bootleggers ROM e parece ser boa até ao momento, deverias verificar mais no https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg3">Então eu fui para a Bootleggers ROM e estou a gostar da experiência, por enquanto, é uma ROM muito boa </string>
   <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <!-- System theme -->
   <string name="theme_accent_picker_default">Predefinição </string>
   <!-- General strings -->
   <!-- General Categories -->
   <string name="general_gesturesmaybe_preference">Gestos</string>
   <!-- Specific categories -->
+  <!-- Animations categories -->
+  <!-- Gesture stuff -->
+  <!-- The no-no list, messages explaining why some features are disabled -->
   <!-- Color Picker -->
   <string name="color_default">Predefinição </string>
   <!-- Footer warnings -->
@@ -179,17 +182,75 @@ Um grande obrigado a %s por trazer isto ao %s.</string>
   <!-- dt2forget -->
   <!-- Brightness icon-->
   <!-- Quick Settings brightness slider -->
+  <!-- Screenshot editor -->
   <!-- Battery Styles -->
   <!-- SystemUI Restart -->
   <!-- AOSP Recents Style -->
   <!-- Hide Apps from Recents -->
   <!-- Show power menu on lockscreen -->
   <!-- Disable QS on secure Lockscreen -->
-  <!-- System default animation -->
   <!-- QS footer warnings -->
   <!-- Weather - OmniJaws Settings -->
   <!-- Lock Clock Fonts -->
+  <!-- Custom fonts -->
   <!-- Lockscreen Weather -->
   <string name="lock_screen_weather_category_title">Tela de bloqueio</string>
   <!--3-Finger screenshot-->
+  <!-- Animations warning-->
+  <!-- CarbonGestures -->
+  <string name="carbon_gesture_disabled">Desactivado</string>
+  <string name="carbon_gesture_screenshot">Captura de Ecrã</string>
+  <!-- Keyguardalpha -->
+  <!-- Log it -->
+  <!-- ListView animation -->
+  <string name="listview_off">Predefinição </string>
+  <!-- ListView interpolator -->
+  <!-- Lock date fonts -->
+  <!-- Lock owner test -->
+  <!-- Running Services -->
+  <!-- Lock UI thing -->
+  <!-- Lock UI thing -->
+  <!-- Gesture Anywhere -->
+  <string name="gesture_anywhere_gestures_title">Gestos</string>
+  <!-- Label, button used to add a gesture -->
+  <!-- Label, button used to reload all gestures -->
+  <!-- Label, button used to cancel the operation of adding a gesture -->
+  <!-- Label, button used to save a gesture newly created -->
+  <!-- Label, prompt asking the user to enter the name of the gesture -->
+  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+  <!-- success message, tells the user where the gesture was saved -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <!-- Message displayed when the user opens the gestures settings screen -->
+  <!-- Message displayed when the user has no gestures -->
+  <!-- Title of the screen used to view/manage gestures -->
+  <string name="ga_gestures_activity">Gestos</string>
+  <!-- Noun, menu item used to edit a gesture -->
+  <!-- Noun, menu item used to remove a gesture -->
+  <!-- Message displayed when a gesture is successfully deleted -->
+  <!-- Title of dialog box -->
+  <!-- Label of gesture name field in Rename gesture dialog box -->
+  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+  <!-- Volume key cursor control -->
+  <string name="volume_key_cursor_control_off">Desactivado</string>
+  <!-- Smart Pixels -->
+  <!-- Slim Recents panel -->
+  <!-- ATTENTION: RTL languages need to replace left with right -->
+  <!-- Hide Lockscreen clock, date, & alarm -->
+  <!-- Lockscreen styles -->
+  <string name="lockscreen_clock_selection_digital">Predefinição </string>
+  <string name="lockscreen_date_selection_default">Predefinição </string>
+  <!-- Notification count -->
+  <!-- P animations -->
+  <!-- Wallpaper tint -->
+  <!-- Notification guts kill app button -->
+  <!-- Toast Animation -->
+  <string name="toast_none_animation">Nenhum</string>
+  <string name="toast_default_animation">Predefinição </string>
+  <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">Predefinição </string>
+  <!-- Scrolling Cache -->
+  <!-- Disable animations -->
+  <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_duration_default">Predefinição </string>
 </resources>

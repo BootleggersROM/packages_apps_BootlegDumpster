@@ -13,6 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Categories -->
+  <string name="animations_title">Animace</string>
   <string name="button_title">Hardwarová tlačítka</string>
   <string name="buttons_settings_summary">Změna nastavení HW tlačítek</string>
   <string name="gestures_title">Gesta</string>
@@ -45,7 +46,7 @@
   <string name="bootleg_ab_summary_thankssec">Dotkněte se zde, abyste zjistili, kdo tento projekt vytvořil. Také velké díky %s za přínos pro %s.</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ab_summary_whoami_unknown">... někdo, kdo nesprávně deklaroval, kdo to je... </string>
   <string name="bootleg_pref_title_romextras">Doplňky a extra</string>
   <string name="bootleg_ex_title_featurelist">Seznam funkcí</string>
@@ -77,7 +78,7 @@
   <string name="bootleg_sharemsg6">Vyzkoušejte Bootleggers ROM! https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg7">Hmm, zkouším Bootleggers a je to trochu divné, ale není to špatná ROM </string>
   <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ri_title_buildtype">Typ sestavení</string>
   <string name="bootleg_ri_summary_buildtype">Vaše sestavení je %s... nebo %s.</string>
   <string name="bootleg_pref_title_rominfo">Info o ROM</string>
@@ -108,6 +109,10 @@
   <string name="misc_app_related_preference">Připojené aplikace</string>
   <string name="hardware_otherdevices">Hardwarová tlačítka a další</string>
   <string name="statusbar_tweaks_ui_icons">Ikony UI</string>
+  <!-- Animations categories -->
+  <!-- Gesture stuff -->
+  <string name="gestures_main_category">Systémová gesta</string>
+  <!-- The no-no list, messages explaining why some features are disabled -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">Výběr barvy</string>
   <string name="press_color_to_apply">Klikněte na barvu pro její výběr</string>
@@ -127,7 +132,7 @@
   <string name="volume_rocker_wake_summary">Stisknutím tlačítka hlasitosti se probudí vaše zařízení</string>
   <!-- Hardware button navigation -->
   <string name="button_pref_title">Hardwarová tlačítka</string>
-  <string name="hardware_keys_volume_keys_title">Probudit tlačítky</string>
+  <string name="hardware_keys_volume_keys_title">Tlačítka hlasitosti</string>
   <string name="hardware_keys_home_key_title">Tlačítko Domů</string>
   <string name="hardware_keys_menu_key_title">Tlačítko Menu</string>
   <string name="hardware_keys_assist_key_title">Tlačítko Hledat</string>
@@ -534,6 +539,12 @@
   <string name="pulse_custom_buttons_opacity_title">Průhlednost tlačítek lišty SmartBar při pulsování</string>
   <string name="pulse_auto_color_title">Automatická barva Pulse</string>
   <string name="pulse_auto_color_summary">Synchronizuje barvu s obalem alba. Odstraní lávovou lampu a průhlednost čar.</string>
+  <string name="fling_lavalamp_color_from">Počáteční barva Lávové lampy</string>
+  <string name="fling_lavalamp_color_to">Konečná barva Lávové lampy</string>
+  <string name="pulse_colors_reset_title">Obnovit pulsující barvy</string>
+  <string name="pulse_colors_reset_message">Jste si jisti, že chcete obnovit tyto barvy na výchozí hodnoty?</string>
+  <string name="fling_smoothing_enabled_title">Zapmout vyhlazování</string>
+  <string name="fling_smoothing_enabled_summary">Animace pruhů je mnohem hladší</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Šířka pruhu</string>
   <string name="pulse_custom_div">Mezera pruhu</string>
@@ -624,6 +635,10 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Posuvník jasu</string>
   <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu rychlého nastavení</string>
+  <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">Editor snímků obrazovky</string>
+  <string name="screenshot_edit_app_summary">Vyberte, který editor obrázků chcete použít pro úpravu snímků obrazovky</string>
+  <string name="screenshot_edit_app_no_editor">Není k dispozici žádný editor obrázků</string>
   <!-- Battery Styles -->
   <string name="battery_style_category_title">Styl baterie</string>
   <string name="battery_style_title">Styl ikony baterie</string>
@@ -655,9 +670,6 @@
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Nezobrazovat rychlé nastavení při zabezpečení</string>
   <string name="lockscreen_qs_disabled_summary">Zakázat dlaždice rychlého nastavení na zabezpečené zamykací obrazovce</string>
-  <!-- System default animation -->
-  <string name="system_default_animation_title">Styl animace Android P</string>
-  <string name="system_default_animation_summary">Povolit \"Výchozí\" animace Android P</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Výstrahy ve spodní části panelu rychlého nastavení</string>
   <string name="qs_footer_warnings_summary">Zobrazit varování ve spodní části panelu rychlého nastavení při monitorování sítě externími aplikacemi nebo VPN</string>
@@ -685,6 +697,7 @@
   <string name="lock_clock_font_condensed_bold_italic">Systémové Condensed Bold Italic</string>
   <string name="lock_clock_font_medium_normal">Systémové Medium</string>
   <string name="lock_clock_font_medium_italic">Systémové Medium Italic</string>
+  <!-- Custom fonts -->
   <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
   <!-- Lockscreen Weather -->
   <string name="lock_screen_weather_category_title">Zamykací obrazovka</string>
@@ -700,4 +713,89 @@
   <!--3-Finger screenshot-->
   <string name="three_finger_gesture">Gesto třemi prsty</string>
   <string name="three_finger_gesture_summary">Snímek obrazovky přejetím tří prstů</string>
+  <!-- Animations warning-->
+  <!-- CarbonGestures -->
+  <string name="carbon_gestures_summary">Nastavit vlastní obecné gesta</string>
+  <string name="carbon_gestures_fingers_title">Prsty používané pro gesto</string>
+  <string name="carbon_gestures_right_title">Gesto vpravo</string>
+  <string name="carbon_gestures_left_title">Gesto vlevo</string>
+  <string name="carbon_gestures_up_title">Gesto nahoru</string>
+  <string name="carbon_gestures_down_title">Gesto dolů</string>
+  <string name="carbon_gesture_disabled">Zakázáno</string>
+  <string name="carbon_gesture_back">Zpět</string>
+  <string name="carbon_gesture_home">Domů</string>
+  <string name="carbon_gesture_recents">Nedávné</string>
+  <string name="carbon_gesture_power">Napájení</string>
+  <string name="carbon_gesture_volume_down">Hlasitost dolů</string>
+  <string name="carbon_gesture_volume_up">Hlasitost nahoru</string>
+  <string name="carbon_gesture_volume_mute">Ztišit hlasitost</string>
+  <string name="carbon_gesture_screenshot">Snímek obrazovky</string>
+  <!-- Keyguardalpha -->
+  <!-- Log it -->
+  <!-- ListView animation -->
+  <string name="listview_off">Výchozí</string>
+  <string name="listview_scale">Stupnice</string>
+  <!-- ListView interpolator -->
+  <!-- Lock date fonts -->
+  <!-- Lock owner test -->
+  <!-- Running Services -->
+  <!-- Lock UI thing -->
+  <!-- Lock UI thing -->
+  <!-- Gesture Anywhere -->
+  <string name="gesture_anywhere_position_title">Poloha</string>
+  <string name="gesture_anywhere_gestures_title">Gesta</string>
+  <!-- Label, button used to add a gesture -->
+  <!-- Label, button used to reload all gestures -->
+  <!-- Label, button used to cancel the operation of adding a gesture -->
+  <!-- Label, button used to save a gesture newly created -->
+  <string name="ga_button_done">Hotovo</string>
+  <!-- Label, prompt asking the user to enter the name of the gesture -->
+  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+  <!-- success message, tells the user where the gesture was saved -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_rename_action">OK</string>
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_cancel_action">Zrušit</string>
+  <!-- Message displayed when the user opens the gestures settings screen -->
+  <!-- Message displayed when the user has no gestures -->
+  <!-- Title of the screen used to view/manage gestures -->
+  <string name="ga_gestures_activity">Gesta</string>
+  <!-- Noun, menu item used to edit a gesture -->
+  <!-- Noun, menu item used to remove a gesture -->
+  <string name="ga_gestures_delete">Smazat</string>
+  <!-- Message displayed when a gesture is successfully deleted -->
+  <!-- Title of dialog box -->
+  <!-- Label of gesture name field in Rename gesture dialog box -->
+  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+  <!-- Volume key cursor control -->
+  <string name="volume_key_cursor_control_off">Zakázáno</string>
+  <!-- Smart Pixels -->
+  <string name="lockscreen_items_other">Ostatní</string>
+  <!-- Slim Recents panel -->
+  <string name="slim_icon_pack_title">Balíček ikon</string>
+  <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="slim_blacklist_apps_cat_title">Blacklist</string>
+  <string name="slim_blacklist_add_apps_title">Přidat aplikaci</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
+  <!-- Lockscreen styles -->
+  <string name="lockscreen_clock_selection_digital">Výchozí</string>
+  <string name="lockscreen_date_selection_title">Styl data</string>
+  <string name="lockscreen_date_selection_default">Výchozí</string>
+  <!-- Notification count -->
+  <!-- P animations -->
+  <string name="system_default_animation_title">Styl animace Android P</string>
+  <string name="system_default_animation_summary">Povolit \"Výchozí\" animace Android P</string>
+  <!-- Wallpaper tint -->
+  <!-- Notification guts kill app button -->
+  <!-- Toast Animation -->
+  <string name="toast_none_animation">Nic</string>
+  <string name="toast_default_animation">Výchozí</string>
+  <string name="toast_fade_animation">Slábnutí</string>
+  <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">Výchozí</string>
+  <!-- Scrolling Cache -->
+  <!-- Disable animations -->
+  <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_style_flip">Překlopení</string>
+  <string name="qs_tile_animation_duration_default">Výchozí</string>
 </resources>

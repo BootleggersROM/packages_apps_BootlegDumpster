@@ -16,15 +16,18 @@
   <!-- DUMPSTER - About Section strings -->
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <!-- More about us strings -->
   <!-- Messages to send? -->
   <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <!-- System theme -->
   <!-- General strings -->
   <!-- General Categories -->
   <!-- Specific categories -->
+  <!-- Animations categories -->
+  <!-- Gesture stuff -->
+  <!-- The no-no list, messages explaining why some features are disabled -->
   <!-- Color Picker -->
   <!-- Footer warnings -->
   <!-- Features Strings - Buttons -->
@@ -77,16 +80,62 @@
   <!-- dt2forget -->
   <!-- Brightness icon-->
   <!-- Quick Settings brightness slider -->
+  <!-- Screenshot editor -->
   <!-- Battery Styles -->
   <!-- SystemUI Restart -->
   <!-- AOSP Recents Style -->
   <!-- Hide Apps from Recents -->
   <!-- Show power menu on lockscreen -->
   <!-- Disable QS on secure Lockscreen -->
-  <!-- System default animation -->
   <!-- QS footer warnings -->
   <!-- Weather - OmniJaws Settings -->
   <!-- Lock Clock Fonts -->
+  <!-- Custom fonts -->
   <!-- Lockscreen Weather -->
   <!--3-Finger screenshot-->
+  <!-- Animations warning-->
+  <!-- CarbonGestures -->
+  <!-- Keyguardalpha -->
+  <!-- Log it -->
+  <!-- ListView animation -->
+  <!-- ListView interpolator -->
+  <!-- Lock date fonts -->
+  <!-- Lock owner test -->
+  <!-- Running Services -->
+  <!-- Lock UI thing -->
+  <!-- Lock UI thing -->
+  <!-- Gesture Anywhere -->
+  <!-- Label, button used to add a gesture -->
+  <!-- Label, button used to reload all gestures -->
+  <!-- Label, button used to cancel the operation of adding a gesture -->
+  <!-- Label, button used to save a gesture newly created -->
+  <!-- Label, prompt asking the user to enter the name of the gesture -->
+  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+  <!-- success message, tells the user where the gesture was saved -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <!-- Message displayed when the user opens the gestures settings screen -->
+  <!-- Message displayed when the user has no gestures -->
+  <!-- Title of the screen used to view/manage gestures -->
+  <!-- Noun, menu item used to edit a gesture -->
+  <!-- Noun, menu item used to remove a gesture -->
+  <!-- Message displayed when a gesture is successfully deleted -->
+  <!-- Title of dialog box -->
+  <!-- Label of gesture name field in Rename gesture dialog box -->
+  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+  <!-- Volume key cursor control -->
+  <!-- Smart Pixels -->
+  <!-- Slim Recents panel -->
+  <!-- ATTENTION: RTL languages need to replace left with right -->
+  <!-- Hide Lockscreen clock, date, & alarm -->
+  <!-- Lockscreen styles -->
+  <!-- Notification count -->
+  <!-- P animations -->
+  <!-- Wallpaper tint -->
+  <!-- Notification guts kill app button -->
+  <!-- Toast Animation -->
+  <!-- AOKP custom system animations -->
+  <!-- Scrolling Cache -->
+  <!-- Disable animations -->
+  <!-- Tiles animation/interpolator style  -->
 </resources>

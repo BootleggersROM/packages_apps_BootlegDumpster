@@ -41,12 +41,12 @@
   <string name="bootleg_pref_title_about_us">О нас</string>
   <string name="bootleg_ab_title_whoami">Что такое Bootleggers?</string>
   <string name="bootleg_ab_summary_whoami">Bootleggers - это ROM, в котором есть функции и приложения с целью заставить вас чувствовать себя 家. Надеюсь, вам понравится и вы насладитесь нашим опытом.</string>
-  <string name="bootleg_ab_title_thankssec">Спасибо</string>
+  <string name="bootleg_ab_title_thankssec">Список благодарностей</string>
   <string name="bootleg_ab_summary_thankssec">Нажмите здесь, чтобы узнать, кто создал и поддерживает этот проект. Кроме того огромное спасибо %s за портирование для %s.</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
-  <string name="bootleg_ab_summary_whoami_unknown">... кто-то, кто не заявил, кто это... </string>
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+  <string name="bootleg_ab_summary_whoami_unknown">... кто-то, кто не заявил, кто он... </string>
   <string name="bootleg_pref_title_romextras">Дополнительно</string>
   <string name="bootleg_ex_title_featurelist">Список функций</string>
   <string name="bootleg_ex_summary_featurelist">Посмотреть текущий список функций в данной версии</string>
@@ -66,7 +66,7 @@
   <string name="bootleg_moarstuff_gplus_summary">Отправляйте скриншоты для обратной связи или что хотите, но вежливо</string>
   <string name="bootleg_moarstuff_tg_title">Мы в Telegram</string>
   <string name="bootleg_moarstuff_tg_summary">Поговорите с нами, получите информацию о будущих обновлениях и просто общайтесь</string>
-  <string name="bootleg_pref_moarstuff_wewsecret">Я думаю, вы обнаружили, что это действительно не столь секретное место, но хорошо, если вы здесь, я просто хочу сообщить вам, что спасибо за то, что вы приняли этот ROM и приветствовали, как мы говорили много раз раньше, надеемся, вам понравится и вы хорошо проведёте время.</string>
+  <string name="bootleg_pref_moarstuff_wewsecret">Я думаю, вы обнаружили, что это действительно не столь секретное место, но хорошо, если вы здесь, я просто хочу сообщить вам, что спасибо за то, что вы приняли этот ROM и как мы говорили много раз раньше, надеемся, вам понравится и вы хорошо проведёте время на нём.</string>
   <!-- Messages to send? -->
   <string name="share_chooser_title">Поделись нашей работой..</string>
   <string name="bootleg_sharemsg1">Привет, я использую прошивку под названием Bootleggers. Это отличный ROM. Ты можешь прочитать о нём больше на https://bootleggersrom.github.io </string>
@@ -77,7 +77,7 @@
   <string name="bootleg_sharemsg6">Попробуй Bootleggers ROM сейчас! https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg7">Хм, я тестировал Bootleggers и это немного странный, но неплохой ROM </string>
   <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ri_title_buildtype">Тип сборки ОС</string>
   <string name="bootleg_ri_summary_buildtype">Ваша сборка — %s... или %s.</string>
   <string name="bootleg_pref_title_rominfo">Информация о ROM</string>
@@ -95,7 +95,7 @@
   <string name="cancel">Отмена</string>
   <string name="save">Сохранить</string>
   <string name="obviousum01">Хм, я думаю что это очевидно</string>
-  <string name="obviousum02">И название объясняет это</string>
+  <string name="obviousum02">Из названия всё ясно</string>
   <string name="obviousum03">Я не должен это объяснять</string>
   <string name="bootleg_external_summary">Больше настроек в подменю</string>
   <!-- General Categories -->
@@ -108,8 +108,11 @@
   <string name="misc_app_related_preference">Связанные приложения</string>
   <string name="hardware_otherdevices">Аппаратные кнопки и другое</string>
   <string name="statusbar_tweaks_ui_icons">Иконки пользовательского интерфейса</string>
+  <!-- Animations categories -->
+  <!-- Gesture stuff -->
+  <!-- The no-no list, messages explaining why some features are disabled -->
   <!-- Color Picker -->
-  <string name="dialog_color_picker">Палитра цветов</string>
+  <string name="dialog_color_picker">Выбор цвета</string>
   <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
   <string name="set">Установить</string>
   <string name="color_default">По умолчанию</string>
@@ -319,16 +322,16 @@
   <string name="statusbar_items_summary">Включение значков в строке состояния</string>
   <!-- Statusbar Clock options -->
   <string name="status_bar_clock_title">Время и дата</string>
-  <string name="status_bar_show_clock_title">Включить часы; Дата в статусбаре</string>
+  <string name="status_bar_show_clock_title">Показывать время и дату в строке состояния</string>
   <string name="status_bar_show_clock_summary">Показывать время в статус баре</string>
   <string name="status_bar_clock_advanced_title">Расширенные настройки</string>
-  <string name="status_bar_clock_advanced_title_alt">Расширенные параметры часов; Настройка даты</string>
+  <string name="status_bar_clock_advanced_title_alt">Расширенные параметры часов и даты</string>
   <string name="status_bar_clock_advanced_summary">Настроить часы для вашего удовольствия</string>
-  <string name="clock_title_enable">Заголовок_часов_включить</string>
+  <string name="clock_title_enable">Положение часов</string>
   <string name="right_clock">Часы справа</string>
   <string name="center_clock">Часы по центру</string>
   <string name="left_clock">Часы слева</string>
-  <string name="status_bar_clock_seconds_title">Стрелка секунд в часах</string>
+  <string name="status_bar_clock_seconds_title">Показывать секунды</string>
   <string name="status_bar_clock_seconds_summary">Отображать секунды рядом с часами в строке состояния</string>
   <string name="status_bar_am_pm_title">12-часовой формат времени</string>
   <string name="status_bar_am_pm_info">24-часовой формат активирован</string>
@@ -346,14 +349,14 @@
   <string name="clock_date_display_normal">Стандартный размер шрифта</string>
   <string name="clock_date_style_normal">По умолчанию</string>
   <string name="clock_date_style_lowercase">Строчные</string>
-  <string name="clock_date_style_uppercase">Прописной</string>
+  <string name="clock_date_style_uppercase">Прописные</string>
   <string name="clock_date_format_custom">Пользовательский Java-формат</string>
   <string name="menu_cancel">Отмена</string>
   <!-- Features Strings - Notifications -->
   <string name="light_category">Индикация</string>
   <string name="battery_light_settings">Индикация зарядки батареи</string>
   <string name="battery_light_settings_summary">Включите и настройте как индикатор должен работать</string>
-  <string name="battery_light_enable">Световой индикатор батареи</string>
+  <string name="battery_light_enable">Индикация батареи</string>
   <string name="battery_light_allow_on_dnd_title">Индикатор батареи в режиме \"Не беспокоить\"</string>
   <string name="battery_light_low_blinking_title">Мигающий свет при низком заряде батареи</string>
   <string name="battery_light_cat">Светлый цвет батареи при зарядке</string>
@@ -396,7 +399,7 @@
   <string name="ticker_screen_title">Бегущая строка</string>
   <string name="ticker_mode_title">Бегущий текст уведомления в строке состояния</string>
   <string name="ticker_disabled">Выключено</string>
-  <string name="ticker_enabled">Текст уведомлений</string>
+  <string name="ticker_enabled">Бегущая строка</string>
   <string name="ticker_media_enabled">Бегущая строка для уведомлений и музыки</string>
   <string name="ticker_animation_mode_title">Стиль анимации бегущей строки</string>
   <string name="ticker_animation_mode_alpha_fade">Затухание</string>
@@ -624,6 +627,7 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Регулятор яркости</string>
   <string name="qs_brightness_slider_summary">Показывать регулятор яркости в панели быстрых настроек</string>
+  <!-- Screenshot editor -->
   <!-- Battery Styles -->
   <string name="battery_style_category_title">Стиль значка батареи</string>
   <string name="battery_style_title">Стиль батареи</string>
@@ -651,13 +655,10 @@
   <string name="hide_apps_from_recents_summary">Выберите приложения, которые будут исключены из меню недавних приложений</string>
   <!-- Show power menu on lockscreen -->
   <string name="powermenu_lockscreen_title">Показать Расширенное Меню Загрузки на Меню Блокировки</string>
-  <string name="powermenu_lockscreen_summary">Включите, чтобы отображать меню питания на экране блокировки</string>
+  <string name="powermenu_lockscreen_summary">Включить возможность отображения  меню питания на экране блокировки</string>
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки на экране блокировки</string>
   <string name="lockscreen_qs_disabled_summary">Отключить панель быстрых настроек на защищённом экране блокировки</string>
-  <!-- System default animation -->
-  <string name="system_default_animation_title">Стиль анимации Android P</string>
-  <string name="system_default_animation_summary">Включить анимацию «По умолчанию» из Android P</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Предупреждение в нижней части быстрых настроек</string>
   <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней панели быстрых настроек, когда сеть контролируется посторонними приложениями или VPN</string>
@@ -677,6 +678,7 @@
   <string name="lock_clock_font_bold">Полужирный</string>
   <string name="lock_clock_font_italic">Курсив</string>
   <string name="lock_clock_font_bold_italic">Полужирный курсив</string>
+  <string name="lock_clock_font_light">Яркость системного шрифта</string>
   <string name="lock_clock_font_light_italic">Лёгкий курсив</string>
   <string name="lock_clock_font_condensed_normal">Нормальный шрифт часов на экране блокировки</string>
   <string name="lock_clock_font_condensed_italic">Плотный курсив</string>
@@ -684,6 +686,7 @@
   <string name="lock_clock_font_condensed_bold_italic">Жирный-наклонный шрифт часов на экране блокировки</string>
   <string name="lock_clock_font_medium_normal">Средний</string>
   <string name="lock_clock_font_medium_italic">Средний курсив</string>
+  <!-- Custom fonts -->
   <string name="lock_clock_font_themeable">Настройка шрифта часов на экране блокировки</string>
   <!-- Lockscreen Weather -->
   <string name="lock_screen_weather_category_title">Экран блокировки</string>
@@ -699,4 +702,78 @@
   <!--3-Finger screenshot-->
   <string name="three_finger_gesture">Жест тремя пальцами</string>
   <string name="three_finger_gesture_summary">Проведите по экрану тремя пальцами вниз для создания скриншота</string>
+  <!-- Animations warning-->
+  <!-- CarbonGestures -->
+  <string name="carbon_gesture_disabled">Выключено</string>
+  <string name="carbon_gesture_recents">Меню недавних приложений</string>
+  <string name="carbon_gesture_power">Питание</string>
+  <string name="carbon_gesture_screenshot">Скриншот</string>
+  <!-- Keyguardalpha -->
+  <!-- Log it -->
+  <!-- ListView animation -->
+  <string name="listview_off">По умолчанию</string>
+  <string name="listview_scale">Маштабирование</string>
+  <!-- ListView interpolator -->
+  <!-- Lock date fonts -->
+  <!-- Lock owner test -->
+  <!-- Running Services -->
+  <!-- Lock UI thing -->
+  <!-- Lock UI thing -->
+  <!-- Gesture Anywhere -->
+  <string name="gesture_anywhere_position_title">Местоположение</string>
+  <string name="gesture_anywhere_gestures_title">Жесты</string>
+  <!-- Label, button used to add a gesture -->
+  <!-- Label, button used to reload all gestures -->
+  <!-- Label, button used to cancel the operation of adding a gesture -->
+  <!-- Label, button used to save a gesture newly created -->
+  <string name="ga_button_done">Готово</string>
+  <!-- Label, prompt asking the user to enter the name of the gesture -->
+  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+  <!-- success message, tells the user where the gesture was saved -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_rename_action">Хорошо</string>
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_cancel_action">Отмена</string>
+  <!-- Message displayed when the user opens the gestures settings screen -->
+  <!-- Message displayed when the user has no gestures -->
+  <!-- Title of the screen used to view/manage gestures -->
+  <string name="ga_gestures_activity">Жесты</string>
+  <!-- Noun, menu item used to edit a gesture -->
+  <!-- Noun, menu item used to remove a gesture -->
+  <string name="ga_gestures_delete">Удалить</string>
+  <!-- Message displayed when a gesture is successfully deleted -->
+  <!-- Title of dialog box -->
+  <!-- Label of gesture name field in Rename gesture dialog box -->
+  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+  <!-- Volume key cursor control -->
+  <string name="volume_key_cursor_control_off">Выключено</string>
+  <!-- Smart Pixels -->
+  <string name="lockscreen_items_other">Другое</string>
+  <!-- Slim Recents panel -->
+  <string name="slim_icon_pack_title">Пакет значков</string>
+  <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="slim_blacklist_apps_cat_title">Чёрный список</string>
+  <string name="slim_blacklist_add_apps_title">Добавить приложение</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
+  <!-- Lockscreen styles -->
+  <string name="lockscreen_clock_selection_digital">По умолчанию</string>
+  <string name="lockscreen_date_selection_title">Стиль даты</string>
+  <string name="lockscreen_date_selection_default">По умолчанию</string>
+  <!-- Notification count -->
+  <!-- P animations -->
+  <string name="system_default_animation_title">Стиль анимации Android P</string>
+  <string name="system_default_animation_summary">Включить анимацию «По умолчанию» из Android P</string>
+  <!-- Wallpaper tint -->
+  <!-- Notification guts kill app button -->
+  <!-- Toast Animation -->
+  <string name="toast_none_animation">Ничего</string>
+  <string name="toast_default_animation">По умолчанию</string>
+  <string name="toast_fade_animation">Затухание</string>
+  <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">По умолчанию</string>
+  <!-- Scrolling Cache -->
+  <!-- Disable animations -->
+  <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_style_flip">Переворот</string>
+  <string name="qs_tile_animation_duration_default">По умолчанию</string>
 </resources>

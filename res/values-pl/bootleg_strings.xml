@@ -13,43 +13,45 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Categories -->
+  <string name="animations_title">Animacje</string>
+  <string name="animations_settings_summary">Możesz ustawić animacje systemu jako bardziej niesamowite albo straszne.</string>
   <string name="button_title">Fizyczne przyciski</string>
   <string name="buttons_settings_summary">Zmień opcje fizycznych przycisków</string>
   <string name="gestures_title">Gesty</string>
-  <string name="gestures_settings_summary">Ustaw trochę gestów żeby było ci łatwiej</string>
+  <string name="gestures_settings_summary">Ustaw trochę gestów, żeby było ci łatwiej</string>
   <string name="lockscreen_title">Ekran Blokady</string>
-  <string name="lockscreen_settings_summary">Zmień wygląd i opcje na ekranie blokady</string>
+  <string name="lockscreen_settings_summary">Zmień wygląd i opcje ekranu blokady</string>
   <string name="misc_title">Inne</string>
-  <string name="misc_settings_summary">Kilka różnych rzeczy nie może isć w inne opcje</string>
+  <string name="misc_settings_summary">Różne rzeczy, które nie mieszczą się w innych opcjach</string>
   <string name="navbar_title">Opcje paska nawigacji</string>
   <string name="navbar_settings_summary">Naucz twój pasek nawigacji nowych sztuczek</string>
   <string name="powermenu_title">Menu zasilania</string>
-  <string name="powermenu_settings_summary">Spraw, aby zamknięcie menu było bardziej przydatne</string>
+  <string name="powermenu_settings_summary">Spraw, aby menu wyłączania było bardziej przydatne</string>
   <string name="quicksettings_title">Szybkie ustawienia</string>
-  <string name="quicksettings_settings_summary">Zrób te kafelki komfortowe</string>
+  <string name="quicksettings_settings_summary">Uczyń swoje kafelki komfortowymi</string>
   <string name="recents_title">Ostatnie aplikacje</string>
   <string name="recents_settings_summary">Poznaj więcej sposobów na wielozadaniowość</string>
   <string name="statusbar_title">Pasek statusu</string>
-  <string name="statusbar_settings_summary">Pasek stanu jest ładny ale mogłoby być lepiej</string>
+  <string name="statusbar_settings_summary">Pasek stanu jest ładny, ale może być lepszy</string>
   <string name="volume_title">Klawisze głośności</string>
-  <string name="volume_settings_summary">Zdobądź te przyciski głośności, by robić magiczne rzeczy</string>
+  <string name="volume_settings_summary">Ustaw przyciski głośności, aby robić magiczne rzeczy</string>
   <string name="notifications_title">Powiadomienia</string>
-  <string name="notifications_settings_summary">Zmień sposób wyświetlania tych powiadomień</string>
+  <string name="notifications_settings_summary">Zmień sposób wyświetlania powiadomień</string>
   <string name="about_bootleg_title">O Bootleggers</string>
-  <string name="about_bootleg_summary">Kilka informacji o nas, na wypadek gdybyś był tym ciekawy</string>
+  <string name="about_bootleg_summary">Kilka informacji o nas na wypadek, gdybyś był tym zaciekawiony</string>
   <!-- DUMPSTER - About Section strings -->
   <string name="bootleg_pref_title_about_us">O nas</string>
   <string name="bootleg_ab_title_whoami">Co to jest Bootleggers?</string>
   <string name="bootleg_ab_summary_whoami">Bootleggers to ROM pełen funkcji i aplikacji, które sprawią, że poczujesz się jak 家. Mamy nadzieję, że Ci się spodoba i będziesz się cieszył naszym doświadczeniem.</string>
   <string name="bootleg_ab_title_thankssec">Dziękujemy</string>
-  <string name="bootleg_ab_summary_thankssec">Dotknij tutaj, aby zobaczyć, kto stworzył i zainspirował ten projekt. Wielkie podziękowania należą się również %s za to, że doprowadził to wszystko do skutku dla urządzenia zwanym inaczej %s.</string>
+  <string name="bootleg_ab_summary_thankssec">Dotknij tutaj, aby zobaczyć, kto stworzył i zainspirował ten projekt. Wielkie podziękowania należą się również %s za to, że doprowadził to wszystko do skutku dla urządzenia zwanego inaczej %s.</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
-  <string name="bootleg_ab_summary_whoami_unknown">... ktoś, kto nie zadeklarował poprawnie, kim jest... </string>
-  <string name="bootleg_pref_title_romextras">Dodatki i Zawartosć</string>
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+  <string name="bootleg_ab_summary_whoami_unknown">... kogoś, kto nie zadeklarował poprawnie, kim jest... </string>
+  <string name="bootleg_pref_title_romextras">Dodatki i zawartosć</string>
   <string name="bootleg_ex_title_featurelist">Lista funkcji</string>
-  <string name="bootleg_ex_summary_featurelist">Sprawdź bieżącą listę funkcji na tej kompilacji</string>
+  <string name="bootleg_ex_summary_featurelist">Sprawdź bieżącą listę funkcji w tej kompilacji</string>
   <string name="bootleg_ex_title_addons">Zawartość i pliki do pobrania</string>
   <string name="bootleg_ex_summary_addons">Zalecana lista tematów i modów z naszej części (a.k.a uczciwa reklama)</string>
   <string name="bootleg_ex_title_sharemsg">Podziel się naszym ROMem</string>
@@ -57,32 +59,37 @@
   <!-- More about us strings -->
   <string name="bootleg_pref_moarstuff_title">Więcej o nas?</string>
   <string name="bootleg_pref_moarstuff_info_title">Informacje i źródła</string>
-  <string name="bootleg_moarstuff_blog_title">Nasz Blog</string>
-  <string name="bootleg_moarstuff_blog_summary">Gdzie będziemy pisać o wydaniach i nowościach</string>
+  <string name="bootleg_moarstuff_blog_title">Nasz blog</string>
+  <string name="bootleg_moarstuff_blog_summary">Miejsce, gdzie będziemy pisać o wydaniach i nowościach</string>
   <string name="bootleg_moarstuff_git_title">Nasz Github</string>
-  <string name="bootleg_moarstuff_git_summary">Gdzie nasze źródła i zmiany są umieszczone</string>
+  <string name="bootleg_moarstuff_git_summary">Miejsce, gdzie umieszczone są nasze źródła i zmiany</string>
+  <string name="bootleg_moarstuff_faq_title">Nasze często zadawane pytania</string>
+  <string name="bootleg_moarstuff_faq_summary">Gdzie wszystkie najczęściej zadawane pytania i żądane funkcje dostały już odpowiedzi.</string>
   <string name="bootleg_pref_moarstuff_social_title">Bądźmy w kontakcie!</string>
-  <string name="bootleg_moarstuff_gplus_title">Dołącz do społeczności Google +</string>
+  <string name="bootleg_moarstuff_gplus_title">Dołącz do społeczności Google+</string>
   <string name="bootleg_moarstuff_gplus_summary">Wysyłaj zrzuty ekranu, przesyłaj nam opinie, cokolwiek chcesz, ale z szacunkiem</string>
   <string name="bootleg_moarstuff_tg_title">Nasza społeczność Telegram</string>
   <string name="bootleg_moarstuff_tg_summary">Porozmawiaj z nami, poznaj przyszłe aktualizacje i dołącz do naszej wspaniałej społeczności</string>
-  <string name="bootleg_pref_moarstuff_wewsecret">Myślę, że to naprawdę nie było tak tajne miejsce, ale dobrze, jeśli tu jesteś, chcę ci tylko powiedzieć, że dziękuję za wgranie tego ROMu i tak, jak mówiliśmy wiele razy wcześniej, mamy nadzieję, że ci się podoba i dobrze się bawisz tym ROMem.</string>
+  <string name="bootleg_moarstuff_cd_title">Nasz Crowdin</string>
+  <string name="bootleg_moarstuff_cd_back_summary">Nie ma tu Twojego języka? Wejdź tu i czuj się swobodnie w pomaganiu nam w tłumaczeniu naszego ROMu na Twój język!</string>
+  <string name="bootleg_moarstuff_cd_summary02">Wejdź tu i czuj się swobodnie w pomaganiu nam w tłumaczeniu naszego ROMu na Twój język!</string>
+  <string name="bootleg_pref_moarstuff_wewsecret">Myślę, że w sumie nie było to tak tajne miejsce, ale dobrze. Jeśli tu jesteś, to chcę ci tylko powiedzieć, że dziękuję za wgranie tego ROMu i tak, jak mówiliśmy wiele razy wcześniej, mam nadzieję, że ci się podoba i dobrze się nim bawisz.</string>
   <!-- Messages to send? -->
   <string name="share_chooser_title">Podziel się naszym ROMem przez..</string>
-  <string name="bootleg_sharemsg1">Hej, używam tego ROMu o nazwie Bootleggers, On jest fajny szczerze. Więcej informacji na ten temat znajdziesz na https://bootleggersrom.github.io </string>
+  <string name="bootleg_sharemsg1">Hej, używam ROMu o nazwie Bootleggers, On jest, szczerze, bardzo fajny. Więcej informacji na jego temat znajdziesz na https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg2">Zainstalowałem ROM Bootleggers i wygląda na to, że w tej chwili jest dobry, powinieneś sprawdzić więcej na https://bootleggersrom.github.io </string>
-  <string name="bootleg_sharemsg3">Więc przeszedłem na Bootleggers ROM i podoba mi się to na razie, jest to całkiem fajny ROM </string>
+  <string name="bootleg_sharemsg3">Więc przeszedłem na ROM Bootleggers i na razie podoba mi się, jest to całkiem fajny ROM </string>
   <string name="bootleg_sharemsg4">Hej, właśnie wgrałem Bootleggers i jestem zadowolony z ROM-u, polecam go </string>
   <string name="bootleg_sharemsg5">Przeszedłem na ROM Bootleggers, wydaje się całkiem niezły, ma kilka różnych domyślnych czcionek i różnych funkcji </string>
   <string name="bootleg_sharemsg6">Spróbuj Bootleggers ROM teraz! https://bootleggersrom.github.io </string>
-  <string name="bootleg_sharemsg7">Um, testuję bootleggers i jest trochę dziwny, ale nie taki zły </string>
+  <string name="bootleg_sharemsg7">Um, testuję Bootleggers i jest trochę dziwny, ale nie taki zły </string>
   <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ri_title_buildtype">Typ kompilacji</string>
   <string name="bootleg_ri_summary_buildtype">Twoja kompilacja jest %s... lub %s.</string>
   <string name="bootleg_pref_title_rominfo">Informacje o wersji</string>
   <string name="bootleg_ri_title_ota">Aktualizacje OTA</string>
-  <string name="bootleg_ri_summary_ota">Sprawdź czy jest nowa kompilacja</string>
+  <string name="bootleg_ri_summary_ota">Sprawdź, czy jest nowa kompilacja</string>
   <string name="bootleg_ri_title_musicode">Muzyczna nazwa kodowa</string>
   <!-- System theme -->
   <string name="accent_picker_dialog_title">Wybierz kolor akcentu</string>
@@ -100,7 +107,7 @@
   <string name="bootleg_external_summary">Dostosuj go bardziej w tym podmenu</string>
   <!-- General Categories -->
   <string name="bootleg_advancedopt_title">Opcje zaawansowane</string>
-  <string name="general_ui_tweaks_preference">Interfejs i Narzędzia</string>
+  <string name="general_ui_tweaks_preference">Interfejs i narzędzia</string>
   <string name="general_system_stuff_preference">Zachowanie systemu</string>
   <string name="general_gesturesmaybe_preference">Gesty</string>
   <!-- Specific categories -->
@@ -108,9 +115,19 @@
   <string name="misc_app_related_preference">Aplikacje powiązane</string>
   <string name="hardware_otherdevices">Klawisze sprzętowe i więcej</string>
   <string name="statusbar_tweaks_ui_icons">Ikony interfejsu</string>
+  <!-- Animations categories -->
+  <string name="animations_ui_general">Interfejs użytkownika i ogólne animacje</string>
+  <string name="animations_ui_system">System powiązanych animacji</string>
+  <string name="animations_ui_misc">Inne animacje</string>
+  <!-- Gesture stuff -->
+  <string name="gestures_main_category">Gesty systemowe</string>
+  <!-- The no-no list, messages explaining why some features are disabled -->
+  <string name="no_no_summary_locked">Ta opcja jest niedostępna, ponieważ nie masz chronionego ekranu blokady. </string>
+  <string name="no_no_summary_go">Ta opcja nie jest dostępna, ponieważ masz włączony Android Go.</string>
+  <string name="no_no_summary_owner">Ta opcja jest niedostępna, ponieważ nie masz informacji o właścicielu</string>
   <!-- Color Picker -->
   <string name="dialog_color_picker">Wybór kolorów</string>
-  <string name="press_color_to_apply">Naciśnij na kolor poniżej aby zastosować</string>
+  <string name="press_color_to_apply">Naciśnij na kolor poniżej, aby zastosować</string>
   <string name="set">Ustaw</string>
   <string name="color_default">Domyślny</string>
   <!-- Footer warnings -->
@@ -156,7 +173,7 @@
   <string name="fprint_sucess_vib_summary">Wibruj po udanym uwierzytelnieniu odcisku palca</string>
   <!-- Fingerprint unlock keystore -->
   <string name="fp_unlock_keystore_title">Odblokowywanie odciskiem palca</string>
-  <string name="fp_unlock_keystore_summary">Odblokuj urządzenie za pomocą odcisku palca po ponownym uruchomieniu, bez podawania kodu PIN/hasła/wzoru\nNote: na własne ryzyko!</string>
+  <string name="fp_unlock_keystore_summary">Odblokuj urządzenie za pomocą odcisku palca po ponownym uruchomieniu, bez podawania kodu PIN/hasła/wzoru\nUwaga: na własne ryzyko!</string>
   <!-- Features Strings - Lockscreen -->
   <string name="media_art_title">Pokaż okładkę albumu</string>
   <string name="media_art_summary">Włącz okładkę albumu na ekranie blokady</string>
@@ -254,8 +271,8 @@
   <string name="screen_off_animation_scale">Skala</string>
   <string name="screen_off_animation_title">Animacja wyłączenia ekranu</string>
   <!-- MTP Dirty Hack -->
-  <string name="enable_mtp_dirtyhack_title">Transferuj pliki zamiast ładowania</string>
-  <string name="enable_mtp_dirtyhack_summary">Domyślnie MTP zamiast Ładowania po podłączeniu do komputera</string>
+  <string name="enable_mtp_dirtyhack_title">Przesyłaj pliki zamiast ładowania</string>
+  <string name="enable_mtp_dirtyhack_summary">Domyślnie MTP zamiast ładowania po podłączeniu do komputera</string>
   <!-- Suspend Actions -->
   <string name="screen_state_toggles_summary">\@null</string>
   <string name="screen_state_toggles_title">Akcje po uśpieniu</string>
@@ -412,10 +429,12 @@
   <string name="dialog_pick_iconpack_title">Wybierz pakiet ikon</string>
   <string name="default_iconpack_title">Ikony domyślne</string>
   <string name="recents_show_membar_title">Pasek pamięci</string>
-  <string name="recents_show_membar_summary">Pokaz pasek z dostępną pamięcią Ram</string>
+  <string name="recents_show_membar_summary">Pokaz pasek z dostępną pamięcią RAM</string>
   <string name="aosp_recents_category">Ostatnio uruchomione AOSP</string>
   <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystkie\"</string>
   <string name="show_clear_all_recents_button_summary">Pokaż przycisk \"Wyczyść wszystko\"</string>
+  <string name="show_clear_all_recents_button_title_alt">Pokaż przycisk \"Wyczyść wszystkie\"</string>
+  <string name="show_clear_all_recents_button_summary_alt">Zamiast tekstu przez kwadratowy przycisk</string>
   <string name="recents_clear_all_location_title">Pozycja przycisku \"Wyczyść wszystkie\"</string>
   <string name="recents_clear_all_location_top_right">Prawy górny</string>
   <string name="recents_clear_all_location_top_left">Lewy górny</string>
@@ -509,7 +528,7 @@
   <string name="fling_keyboard_cursors_summary">Akcje dwukrotnego dotknięcia lewej i prawej strony stają się lewymi i prawymi klawiszami kursora, jeśli klawiatura jest otwarta</string>
   <string name="fling_logo_opacity_title">Przezroczystość loga Fling</string>
   <!-- Pulse navigation bar music visualizer -->
-  <string name="pulse_help_policy_notice_summary">Pulse nie działa z niektórymi źródłami dźwięku kiedy głośnik urządenia jest w użyciu</string>
+  <string name="pulse_help_policy_notice_summary">Pulse nie działa z niektórymi źródłami dźwięku, kiedy głośnik urządzenia jest w użyciu</string>
   <string name="pulse_settings">Pulse</string>
   <string name="pulse_settings_summary">Popraw i dostosuj ten fantazyjny wizualizator paska nawigacji</string>
   <string name="fling_show_pulse_title">Pozwól Pulse</string>
@@ -534,6 +553,12 @@
   <string name="pulse_custom_buttons_opacity_title">Przezroczystość Smartbar, gdy jest włączony Pulse</string>
   <string name="pulse_auto_color_title">Automatyczny kolor dla Pulse</string>
   <string name="pulse_auto_color_summary">Synchronizuj kolory z okładkami albumów. Zastępuje lampę lawową i przezroczystość linii.</string>
+  <string name="fling_lavalamp_color_from">Kolor początkowy lampy z lawą</string>
+  <string name="fling_lavalamp_color_to">Kolor końcowy lampy z lawą</string>
+  <string name="pulse_colors_reset_title">Przywróć domyślne kolory</string>
+  <string name="pulse_colors_reset_message">Czy na pewno chcesz zresetować wszystkie kolory do domyślnych?</string>
+  <string name="fling_smoothing_enabled_title">Włącz wygładzanie</string>
+  <string name="fling_smoothing_enabled_summary">Każdy pasek jest animowany bardziej płynnie</string>
   <!-- Pulse config -->
   <string name="pulse_custom_dimen">Szerokość paska</string>
   <string name="pulse_custom_div">Odstęp paska</string>
@@ -624,6 +649,10 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">Suwak jasności</string>
   <string name="qs_brightness_slider_summary">Pokaż suwak jasności w panelu szybkich ustawień</string>
+  <!-- Screenshot editor -->
+  <string name="screenshot_edit_app">Edytor zrzutów ekranu</string>
+  <string name="screenshot_edit_app_summary">Wybierz edytor, który ma być używany do edycji zrzutów ekranu</string>
+  <string name="screenshot_edit_app_no_editor">Brak dostępnych aplikacji do edycji zdjęć</string>
   <!-- Battery Styles -->
   <string name="battery_style_category_title">Styl paska baterii</string>
   <string name="battery_style_title">Wygląd ikony baterii</string>
@@ -655,9 +684,6 @@
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Brak szybkich ustawień na zabezpieczonym ekranie blokady</string>
   <string name="lockscreen_qs_disabled_summary">Wyłącz szybkie ustawienia na zabezpieczonym ekranie blokady</string>
-  <!-- System default animation -->
-  <string name="system_default_animation_title">Styl animacji z Androida P</string>
-  <string name="system_default_animation_summary">Włącz domyślne animacje z Androida P</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">Ostrzeżenia stopki QS</string>
   <string name="qs_footer_warnings_summary">Wyświetlaj ostrzeżenie na dole panelu Szybkich skrótów, gdy sieć jest monitorowana przez zewnętrzne aplikacje lub VPN</string>
@@ -677,6 +703,7 @@
   <string name="lock_clock_font_bold">Pogrubiony</string>
   <string name="lock_clock_font_italic">Systemowa Kursywa</string>
   <string name="lock_clock_font_bold_italic">Pogrubiona kursywa</string>
+  <string name="lock_clock_font_light">Systemowa Cieńka Normalna</string>
   <string name="lock_clock_font_light_italic">Lekka kursywa</string>
   <string name="lock_clock_font_condensed_normal">Skondensowana</string>
   <string name="lock_clock_font_condensed_italic">Skondensowana kursywa</string>
@@ -684,7 +711,9 @@
   <string name="lock_clock_font_condensed_bold_italic">Pogrubiona kursywa skondensowana</string>
   <string name="lock_clock_font_medium_normal">Średnia</string>
   <string name="lock_clock_font_medium_italic">Cienka kursywa</string>
+  <!-- Custom fonts -->
   <string name="lock_clock_font_themeable">Motywowalny (lub VCR OSD Mono)</string>
+  <string name="lock_dateown_font_themeable">Motywowalny (albo Lis i Kot)</string>
   <!-- Lockscreen Weather -->
   <string name="lock_screen_weather_category_title">Ekran Blokady</string>
   <string name="lock_screen_show_weather_title">Wyświetlanie pogody</string>
@@ -699,4 +728,297 @@
   <!--3-Finger screenshot-->
   <string name="three_finger_gesture">Gest trójpalcowy</string>
   <string name="three_finger_gesture_summary">Przeciągnij trzema palcami w dół, aby wykonać zrzut ekranu</string>
+  <!-- Animations warning-->
+  <string name="animations_transparent_alert">Niektóre (lub być może wszystkie) z tych animacji mogą nie działać, jeśli urządzenie ma przezroczysty motyw!</string>
+  <!-- CarbonGestures -->
+  <string name="carbon_gesture_preference_summary">Dodaj niektóre gesty z dwoma lub więcej palcami</string>
+  <string name="carbon_gestures_summary">Konfiguruj dodatkowe gesty</string>
+  <string name="carbon_gestures_fingers_title">Palce użyte do gestów</string>
+  <string name="carbon_gestures_right_title">Gest w prawo</string>
+  <string name="carbon_gestures_left_title">Gest w lewo</string>
+  <string name="carbon_gestures_up_title">Gest w górę</string>
+  <string name="carbon_gestures_down_title">Gest w dół</string>
+  <string name="carbon_gesture_disabled">Wyłączony</string>
+  <string name="carbon_gesture_back">Wstecz</string>
+  <string name="carbon_gesture_home">Strona główna</string>
+  <string name="carbon_gesture_recents">Ostatnio używane</string>
+  <string name="carbon_gesture_power">Przycisk zasilania</string>
+  <string name="carbon_gesture_volume_down">Zmniejsz głośność</string>
+  <string name="carbon_gesture_volume_up">Zwiększ głośność</string>
+  <string name="carbon_gesture_volume_mute">Głośność (wyciszona)</string>
+  <string name="carbon_gesture_screenshot">Zrzut ekranu</string>
+  <string name="carbon_gesture_media_play_pause">Odtwórz/Zatrzymaj muzykę</string>
+  <string name="carbon_gesture_media_skip">Pomiń utwór</string>
+  <string name="carbon_gesture_media_previous">Poprzedni utwór</string>
+  <string name="carbon_gesture_customapp">Otwórz aplikację</string>
+  <string name="carbon_gesture_launch">Uruchom</string>
+  <!-- Keyguardalpha -->
+  <string name="lockscreen_alpha">Na normalnym ekranie</string>
+  <string name="lockscreen_security_alpha">Na zabezpieczonym ekranie kłamstwo</string>
+  <!-- Log it -->
+  <string name="log_it_title">Zaloguj się</string>
+  <string name="log_it_summary">Wyślij logcat, dmesg lub kmesg dla lepszego wsparcia. Upewnij się tylko, że masz roota.</string>
+  <string name="logcat_title">Logcat</string>
+  <string name="kmesg_title">Kmesg</string>
+  <string name="dmesg_title">Dmesg</string>
+  <string name="log_it_now_title">Do przodu</string>
+  <string name="log_it_dialog_title">Tworzenie logu zakończone</string>
+  <string name="logcat_warning">Wszystko zrobione, więc nadszedł czas, aby wysłać logi do nas.</string>
+  <string name="logcat_warning_unofficial">Wszystko zrobione, więc nadszedł czas, aby wysłać logi do... Hej, używasz nieoficjalnej kompilacji, więc jeśli wiesz, kto ją zrobił, przekaż logi do twórcy przed wysłaniem ich do nas.</string>
+  <string name="share_title">Udostępnij</string>
+  <string name="log_it_share_subject">Dziennik Bootleggers</string>
+  <string name="log_it_now_summary">Trochę cierpliwości, logi się tworzą</string>
+  <string name="log_it_logs_in_progress">Logi zostały utworzone</string>
+  <string name="log_it_share_type_title">Metoda udostępnienia</string>
+  <string name="log_it_share_type_zip">Plik ZIP</string>
+  <string name="log_it_share_type_haste">Wyślij do Hastebin</string>
+  <string name="log_it_share_via">Udostępnij przez</string>
+  <string name="cannot_get_su">Akcja nie powiodła się z powodu braku roota</string>
+  <string name="log_it_alert_title">Co to jest?</string>
+  <string name="log_it_alert_faq">Być może jesteś tutaj i zastanawiasz się: \"Co to jest, do diabła, i co mam wysłać?\"\nDobrze, oto kilka informacji na temat rzeczy, które możesz wysłać: \n\nLogcat: Jest to sposób, w jaki Android wyprowadza wszystkie zdarzenia systemowe, takie jak błędy, awarie, a nawet informacje o uruchomionym procesie. Idealny dla awarii i FC. \n\nDmesg: Wydaje niektóre wiadomości jądra, ale filtruje rzeczy, o które użytkownicy mogą nie dbać&#8230; jeśli się tym przejmują\n\nKmesg: Taki sam jak Dmesg, ale bez filtrów, dający więcej informacji o wszystkich zdarzeniach jądra. Idealny dla losowych restartów urządzenia.</string>
+  <!-- ListView animation -->
+  <string name="listview_animation_title">Animacja widoku listy</string>
+  <string name="listview_off">Domyślny</string>
+  <string name="listview_wave_left">Fala (lewo)</string>
+  <string name="listview_wave_right">Fala (prawo)</string>
+  <string name="listview_alpha">Alpha</string>
+  <string name="listview_scale">Skala</string>
+  <string name="listview_stack_top">Stos (z góry)</string>
+  <string name="listview_stack_bottom">Stos (z dołu)</string>
+  <string name="listview_unfold">Rozwiń</string>
+  <string name="listview_fold">Zwiń</string>
+  <string name="listview_translate_left">Przełóż (lewo)</string>
+  <string name="listview_translate_right">Przełóż (prawo)</string>
+  <!-- ListView interpolator -->
+  <string name="listview_interpolator_title">Przyśpieszenie listy</string>
+  <string name="listview_accelerate_interpolator">Przyspieszanie</string>
+  <string name="listview_decelerate_interpolator">Spowolnienie</string>
+  <string name="listview_accelerate_decelerate_interpolator">Przyspiesz i zwolnij</string>
+  <string name="listview_anticipate_interpolator">Przewiduj</string>
+  <string name="listview_overshoot_interpolator">Przekraczaj</string>
+  <string name="listview_anticipate_overshoot_interpolator">Przewiduj i przekraczaj</string>
+  <string name="listview_bounce_interpolator">Odbicia</string>
+  <!-- Lock date fonts -->
+  <string name="lock_date_font_title">Opcje czcionki zegara</string>
+  <string name="lock_date_font_summary">Zmień czcionkę widżetu zegara na ekranie blokady</string>
+  <string name="lock_date_font_dialog_title">Wybierz czcionkę zegara blokady ekranu</string>
+  <!-- Lock owner test -->
+  <string name="lock_owner_font_title">Opcje czcionki zegara</string>
+  <string name="lock_owner_font_summary">Zmień czcionkę widżetu zegara na ekranie blokady</string>
+  <string name="lock_owner_font_dialog_title">Wybierz czcionkę zegara blokady ekranu</string>
+  <!-- Running Services -->
+  <string name="qs_running_services_title">Ikona uruchomionych usług</string>
+  <string name="qs_running_services_summary">Wyłącz ikonę uruchomionych usług w stopce</string>
+  <!-- Lock UI thing -->
+  <string name="lockscreen_moreui_title">Więcej UI ekranu blokady</string>
+  <string name="lockscreen_moreui_summary">Wybierz czcionki dla zegara i daty oraz krycie tła ekranu blokady</string>
+  <string name="lock_fonts_warning_unsupported">Uwaga: w niektórych z tych czcionek może brakować niektórych znaków tekstowych, więc uważaj na swój wybór!</string>
+  <!-- Lock UI thing -->
+  <string name="lockui_fonts">Czcionki interfejsu użytkownika</string>
+  <string name="lockui_opacity">Nieprzezroczystość ciemnej nakładki blokady ekranu</string>
+  <!-- Gesture Anywhere -->
+  <string name="gesture_anywhere_title">Gesty wszędzie</string>
+  <string name="gesture_anywhere_summary">Uruchom czynności, rysując gesty na ekranie</string>
+  <string name="gesture_anywhere_enabled_title">Gesty wszędzie</string>
+  <string name="gesture_anywhere_enabled_summary">Włącz funkcję sterowania gestami wszędzie</string>
+  <string name="gesture_anywhere_position_title">Lokalizacja</string>
+  <string name="gesture_anywhere_position_left">Lewa krawędź</string>
+  <string name="gesture_anywhere_position_right">Prawa krawędź</string>
+  <string name="gesture_anywhere_gestures_title">Gesty</string>
+  <string name="gesture_anywhere_gestures_summary">Dodaj, usuń i edytuj gesty</string>
+  <!-- Label, button used to add a gesture -->
+  <string name="ga_button_add">Dodaj gest</string>
+  <!-- Label, button used to reload all gestures -->
+  <string name="ga_button_reload">Odśwież</string>
+  <!-- Label, button used to cancel the operation of adding a gesture -->
+  <string name="ga_button_discard">Anuluj</string>
+  <!-- Label, button used to save a gesture newly created -->
+  <string name="ga_button_done">Gotowe</string>
+  <!-- Label, prompt asking the user to enter the name of the gesture -->
+  <string name="ga_prompt_gesture_name">Nazwa</string>
+  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+  <string name="ga_error_missing_name">Należy wprowadzić nazwę</string>
+  <!-- success message, tells the user where the gesture was saved -->
+  <string name="ga_save_success">Gest zapisany w %s</string>
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_rename_action">OK</string>
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_cancel_action">Anuluj</string>
+  <!-- Message displayed when the user opens the gestures settings screen -->
+  <string name="ga_gestures_loading">Wczytywanie gestów...</string>
+  <!-- Message displayed when the user has no gestures -->
+  <string name="ga_gestures_empty">Brak gestów</string>
+  <!-- Title of the screen used to view/manage gestures -->
+  <string name="ga_gestures_activity">Gesty</string>
+  <!-- Noun, menu item used to edit a gesture -->
+  <string name="ga_gestures_edit">Edytuj</string>
+  <!-- Noun, menu item used to remove a gesture -->
+  <string name="ga_gestures_delete">Usuń</string>
+  <!-- Message displayed when a gesture is successfully deleted -->
+  <string name="ga_gestures_delete_success">Gest usunięty</string>
+  <!-- Title of dialog box -->
+  <string name="ga_gestures_rename_title">Zmień nazwę gestu</string>
+  <!-- Label of gesture name field in Rename gesture dialog box -->
+  <string name="ga_gestures_rename_label">Nazwa gestu</string>
+  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+  <string name="ga_gestures_error_loading">Nie udało się wczytać %s. Upewnij się, że masz wolną pamięć.</string>
+  <string name="trigger_category">Zakres wyzwalacza</string>
+  <string name="trigger_width_title">Szerokość wyzwalacza</string>
+  <string name="trigger_width_summary">Dopasuj szerokość pola aktywacji</string>
+  <string name="trigger_top_title">Pozycja wyzwalacza</string>
+  <string name="trigger_top_summary">Dostosuj pionową pozycję strefy wyzwalacza</string>
+  <string name="trigger_bottom_title">Wysokość wyzwalacza</string>
+  <string name="trigger_bottom_summary">Dostosuj wysokość strefy wyzwalacza</string>
+  <!-- Volume key cursor control -->
+  <string name="cursor_section_header">Kursor</string>
+  <string name="volume_key_cursor_control_title">Kontrola kursora za pomocą klawiszy głośności</string>
+  <string name="volume_key_cursor_control_off">Wyłączony</string>
+  <string name="volume_key_cursor_control_on">Głośność w górę/w dół porusza się kursorem w lewo/prawo</string>
+  <string name="volume_key_cursor_control_on_reverse">Przyciski głośności w górę/dół poruszają kursorem w prawo/lewo</string>
+  <!-- Smart Pixels -->
+  <string name="smart_pixels_title">Smart piksele</string>
+  <string name="smart_pixels_summary">Oszczędzaj baterię poprzez wyłączanie dodatkowych pikseli</string>
+  <string name="smart_pixels_enable_title">Włącz Smart Piksele</string>
+  <string name="smart_pixels_enable_summary">Wyłącz piksele w celu redukcji zużycia energii</string>
+  <string name="smart_pixels_on_power_save_title">Automatyczne włączanie oszczędzania baterii</string>
+  <string name="smart_pixels_on_power_save_summary">Włącz Smart Pixele, gdy oszczędzanie baterii jest włączone</string>
+  <string name="smart_pixels_percent">Procent pikseli do wyłączenia</string>
+  <string name="smart_pixels_shift_title">Ochrona przed wypaleniem ekranu</string>
+  <string name="smart_pixels_shift_summary">Zapobiega wypalaniu na urządzeniach OLED przez częstsze przesuwanie pikseli</string>
+  <string name="lockscreen_items_other">Inne</string>
+  <string name="smart_pixels_warning_text">Smart piksele to funkcja oszczędzania energii. W zależności od tego, ile pikseli zdecydujesz się wyłączyć, możesz zauważyć znaczną poprawę żywotności baterii. Dla wygody użytkowania zalecamy ustawienie liczby wyłączonych pikseli na 75 procent.</string>
+  <!-- Slim Recents panel -->
+  <string name="slim_recents_title">Panel ostatnich aplikacji w stylu Slim</string>
+  <string name="use_slim_recents_title">Użyj alternatywnej opcji panelu ostatnich aplikacji</string>
+  <string name="use_slim_recents_summary">Użyj wąskiego paska ostatnio uruchamianych zamiast domyślnego widoku</string>
+  <string name="slim_recents_settings_title">Ustawienia wąskiego paska ostatnio uruchamianych</string>
+  <string name="slim_recents_settings_summary">Pokaż ustawienia wąskiego paska ostatnio uruchamianych</string>
+  <string name="recents_max_apps_title">Maksymalna liczba dozwolonych aplikacji</string>
+  <string name="recent_panel_scale_title">Rozmiar</string>
+  <string name="recent_panel_expanded_mode_title">Wyświetla podgląd trybu rozszerzonego</string>
+  <string name="recent_panel_expanded_mode_summary">Tryb rozszerzonego podglądu panelu ostatnich aplikacji</string>
+  <string name="recent_panel_expanded_mode_auto">Auto (domyślnie)</string>
+  <string name="recent_panel_expanded_mode_always">Wszystkie podglądy</string>
+  <string name="recent_panel_expanded_mode_never">Wyłączony (tryb szybkiego silnika)</string>
+  <string name="recent_panel_bg_color_title">Kolor tła panelu</string>
+  <string name="recent_card_bg_color_title">Kolor tła karty</string>
+  <string name="recent_reset_title">Przywróć kolor domyślny</string>
+  <string name="recent_reset_confirm">Czy na pewno chcesz przywrócić domyślny kolor ostatnio używanych Slim?</string>
+  <string name="default_auto_string">Domyślne (według aplikacji)</string>
+  <string name="slim_icon_pack_title">Pakiet ikon</string>
+  <string name="slim_icon_pack_summary">Zastosuj niestandardową paczkę ikon dla aplikacji w panelu</string>
+  <string name="slim_recents_corner_radius_title">Użyj zaokrąglonych rogów dla kart</string>
+  <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="recent_panel_lefty_mode_title">Pokaż na lewej krawędzi ekranu</string>
+  <string name="recent_panel_lefty_mode_summary">Wyświetlaj panel ostatnich aplikacji z lewej strony</string>
+  <string name="slim_blacklist_apps_cat_title">Czarna lista</string>
+  <string name="slim_blacklist_apps_title">Czarna lista aplikacji</string>
+  <string name="slim_blacklist_apps_summary">Aplikacje nie wyświetlające się w panelu</string>
+  <string name="slim_blacklist_add_apps_title">Dodaj aplikację</string>
+  <string name="slim_blacklist_add_apps_summary">Stuknij tutaj, aby dodać, stuknij w dodaną aplikację, aby ją usunąć</string>
+  <string name="slim_recents_hints_footer">Aby wyczyścić wszystkie aplikacje, uszczypnij dwoma palcami na ekranie. Aby zablokować aplikację w pamięci naciśnij i przytrzymaj jej ikonę.\n\nAby ustawić więcej funkcji, naciśnij i przytrzymaj lub przeciągnij kartę aplikacji.</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
+  <string name="lockui_hideitems">Elementy ekranu blokady</string>
+  <string name="hide_lockscreen_clock_title">Widżet zegara</string>
+  <string name="hide_lockscreen_clock_summary">Zmień widoczność widgetu zegarka</string>
+  <string name="hide_lockscreen_date_title">Widżet daty</string>
+  <string name="hide_lockscreen_date_summary">Zmień widoczność daty poniżej widgetu zegarka</string>
+  <string name="hide_lockscreen_alarm_title">Tekst alarmu</string>
+  <string name="hide_lockscreen_alarm_summary">Zmień widoczność notatki alarmu poniżej widgetu zegarka</string>
+  <!-- Lockscreen styles -->
+  <string name="lockui_lockstyles">Styl zegara i daty</string>
+  <string name="lockscreen_clock_selection_title">Styl zegara</string>
+  <string name="lockscreen_clock_selection_digital">Domyślny</string>
+  <string name="lockscreen_clock_selection_digital_bold">Cyfrowy (pogrubiony)</string>
+  <string name="lockscreen_clock_selection_analog">Analogowy</string>
+  <string name="lockscreen_clock_selection_analog_deadpool">Analogowy (deadpool)</string>
+  <string name="lockscreen_clock_selection_sammy">Sammy</string>
+  <string name="lockscreen_clock_selection_sammy_bold">Sammy (pogrubiony)</string>
+  <string name="lockscreen_clock_selection_sammy_accent">Sammy (podkreślony)</string>
+  <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (podkreślony)</string>
+  <string name="lockscreen_date_selection_title">Styl daty</string>
+  <string name="lockscreen_date_selection_default">Domyślny</string>
+  <string name="lockscreen_date_selection_str_box">Półprzezroczysty</string>
+  <string name="lockscreen_date_selection_str_round">Półprzezroczysty (zaokrąglony)</string>
+  <string name="lockscreen_date_selection_str_accent">Zaokrąglony, prosty z podkreśleniem</string>
+  <string name="lockscreen_date_selection_str_accent_day">Zaokrąglony, prosty z podkreśleniem</string>
+  <string name="lockscreen_date_selection_str_accent_transparent">Zaokrąglony, przezroczysty z podkreśleniem</string>
+  <string name="lockscreen_date_selection_str_accent_transparent_day">Zaokrąglony, przezroczysty z podkreśleniem</string>
+  <!-- Notification count -->
+  <string name="status_bar_notif_count_title">Pokaż licznik powiadomień</string>
+  <string name="status_bar_notif_count_summary">Wyświetla licznik oczekujących powiadomień</string>
+  <!-- P animations -->
+  <string name="system_default_animation_title">Styl animacji z Androida P</string>
+  <string name="system_default_animation_summary">Włącz domyślne animacje z Androida P</string>
+  <!-- Wallpaper tint -->
+  <string name="wallpaper_tint_power_menu">Przyciemnienie tła menu zasilania</string>
+  <string name="wallpaper_tint_recents">Przyciemnienie tła panelu ostatnich aplikacji</string>
+  <string name="wallpaper_tint_keyguard">Przyciemnienie tła ekranu blokady</string>
+  <string name="wallpaper_tint_notification_shade">Wygląd obszaru powiadomień</string>
+  <string name="wallpaper_tint_summary">Zastosuj motyw bazujący na tapecie</string>
+  <!-- Notification guts kill app button -->
+  <string name="notification_guts_kill_app_button_title">Przycisk zamykania aplikacji</string>
+  <string name="notification_guts_kill_app_button_summary">Pokaż przycisk wyłączania aplikacji po długim przytrzymaniu w menu powiadomień</string>
+  <!-- Toast Animation -->
+  <string name="toast_title">Dymek</string>
+  <string name="toast_animation_title">Animacje dymka z komunikatami</string>
+  <string name="toast_none_animation">Brak</string>
+  <string name="toast_default_animation">Domyślny</string>
+  <string name="toast_fade_animation">Zanikanie</string>
+  <string name="toast_SlideRight_animation">Przesuń w prawo</string>
+  <string name="toast_SlideLeft_animation">Przesuń w lewo</string>
+  <string name="toast_FastFade_animation">Szybkie zanikanie</string>
+  <string name="toast_GrowFade_animation">Rosnące zanikanie</string>
+  <string name="toast_GrowFadeCenter_animation">Rosnące zanikanie do środka</string>
+  <string name="toast_GrowFadeBottom_animation">Rosnące zanikanie ku dołowi</string>
+  <string name="toast_Translucent_animation">Przezroczyste</string>
+  <string name="toast_SlideLeftRight_animation">Slajd z lewej do prawej</string>
+  <string name="toast_SlideRightLeft_animation">Slajd z prawej do lewej</string>
+  <!-- AOKP custom system animations -->
+  <string name="system_animation_title">Animacje systemu</string>
+  <string name="activity_open_title">Animacja otwierania aktywności</string>
+  <string name="activity_close_title">Animacja zamykania aktywności</string>
+  <string name="task_open_title">Animacja otwierania zadania</string>
+  <string name="task_close_title">Animacja zamknięcia zadania</string>
+  <string name="task_move_to_front_title">Przesunięcie do przodu</string>
+  <string name="task_move_to_back_title">Animacja odsunięcia</string>
+  <string name="wallpaper_open_title">Animacja otwarcia tapety</string>
+  <string name="wallpaper_close_title">Animacja zamknięcia tapety</string>
+  <string name="wallpaper_intra_open_title">Animacja wewnętrznego otwarcia tapety</string>
+  <string name="wallpaper_intra_close_title">Animacja wewnętrznego zamknięcia tapety</string>
+  <string name="task_open_behind_title">Zadanie otwarte z tyłu</string>
+  <string name="animation_duration_title">Czas trwania animacji</string>
+  <string name="animation_duration_default">Domyślny</string>
+  <!-- Scrolling Cache -->
+  <string name="pref_scrollingcache_title">Pamięć podręczna przewijania</string>
+  <string name="pref_scrollingcache_summary">Pamięć podręczna przewijania może poprawić wydajność przewijania za cenę pamięci</string>
+  <string name="pref_scrollingcache_force_enable">Wymuszone włączenie</string>
+  <string name="pref_scrollingcache_default_enable">Domyślnie włączone</string>
+  <string name="pref_scrollingcache_default_disable">Domyślnie wyłączone</string>
+  <string name="pref_scrollingcache_force_disable">Wymuszone wyłączenie</string>
+  <!-- Disable animations -->
+  <string name="disable_animations">Wyłącz animacje</string>
+  <string name="disable_animations_summary">Wyłącza animacje przejścia, na przykład podczas uruchamiania aplikacji</string>
+  <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_category">Kafelek animacji QS</string>
+  <string name="qs_tile_animation_style_title">Styl animacji kafelków</string>
+  <string name="qs_tile_animation_duration_title">Długość animacji kafelków QS</string>
+  <string name="qs_tile_animation_interpolator_title">Szybkość animacji kafelków</string>
+  <string name="qs_tile_animation_style_off">Brak animacji</string>
+  <string name="qs_tile_animation_style_flip">Obrót</string>
+  <string name="qs_tile_animation_style_rotate">Odwrócenie</string>
+  <string name="qs_tile_animation_duration_low">Nisko</string>
+  <string name="qs_tile_animation_duration_default">Domyślny</string>
+  <string name="qs_tile_animation_duration_fast">Szybko</string>
+  <string name="qs_tile_animation_interpolator_linearInterpolator">Liniowo</string>
+  <string name="qs_tile_animation_interpolator_accelerateInterpolator">Przyspieszanie</string>
+  <string name="qs_tile_animation_interpolator_decelerateInterpolator">Spowolnienie</string>
+  <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Przyspiesz / Zwolnij</string>
+  <string name="qs_tile_animation_interpolator_bounceInterpolator">Odbicia</string>
+  <string name="qs_tile_animation_interpolator_overshootInterpolator">Przekraczaj</string>
+  <string name="qs_tile_animation_interpolator_anticipateInterpolator">Przewiduj</string>
+  <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Oczekiwanie / Przestrzelenie</string>
+  <string name="qs_set_animation_style">%1$s</string>
+  <string name="qs_set_animation_duration">%1$s</string>
+  <string name="qs_set_animation_interpolator">%1$s</string>
 </resources>

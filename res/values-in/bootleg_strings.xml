@@ -45,7 +45,7 @@
   <string name="bootleg_ab_summary_thankssec">Sentuh di sini untuk melihat yang membuat dan menginspirasi projek ini. Terima kasih banyak untuk %s yang membawanya kemari%s.</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ab_summary_whoami_unknown">Seseorang yang tidak disebutkan namanya... </string>
   <string name="bootleg_pref_title_romextras">Fitur ekstra dan addons</string>
   <string name="bootleg_ex_title_featurelist">Daftar fitur</string>
@@ -74,18 +74,21 @@
   <string name="bootleg_sharemsg6">Coba Bootleggers ROM sekarang! https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg7">Em, saya sedang mencoba Bootleggers dan terasa sedikit aneh tapi bukan ROM yang buruk </string>
   <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ri_title_buildtype">Tipe pembuatan</string>
   <string name="bootleg_pref_title_rominfo">Informasi ROM</string>
   <string name="bootleg_ri_title_ota">Update OTA</string>
   <!-- System theme -->
-  <string name="theme_accent_picker_default">Default</string>
+  <string name="theme_accent_picker_default">Standar</string>
   <!-- General strings -->
   <!-- General Categories -->
   <string name="general_gesturesmaybe_preference">Isyarat</string>
   <!-- Specific categories -->
+  <!-- Animations categories -->
+  <!-- Gesture stuff -->
+  <!-- The no-no list, messages explaining why some features are disabled -->
   <!-- Color Picker -->
-  <string name="color_default">Default</string>
+  <string name="color_default">Standar</string>
   <!-- Footer warnings -->
   <!-- Features Strings - Buttons -->
   <!-- Volume rocker wake -->
@@ -136,7 +139,7 @@
   <string name="headset_connect_player_disabled">Dinonaktifkan</string>
   <!-- Wake on plug -->
   <!-- Screen Off Animation-->
-  <string name="screen_off_animation_default">Default</string>
+  <string name="screen_off_animation_default">Standar</string>
   <!-- MTP Dirty Hack -->
   <!-- Suspend Actions -->
   <!-- Incall vibrate options -->
@@ -180,6 +183,7 @@
   <!-- dt2forget -->
   <!-- Brightness icon-->
   <!-- Quick Settings brightness slider -->
+  <!-- Screenshot editor -->
   <!-- Battery Styles -->
   <string name="battery_style_port">Potret</string>
   <!-- SystemUI Restart -->
@@ -187,11 +191,69 @@
   <!-- Hide Apps from Recents -->
   <!-- Show power menu on lockscreen -->
   <!-- Disable QS on secure Lockscreen -->
-  <!-- System default animation -->
   <!-- QS footer warnings -->
   <!-- Weather - OmniJaws Settings -->
   <!-- Lock Clock Fonts -->
+  <!-- Custom fonts -->
   <!-- Lockscreen Weather -->
   <string name="lock_screen_weather_category_title">Kunci layar</string>
   <!--3-Finger screenshot-->
+  <!-- Animations warning-->
+  <!-- CarbonGestures -->
+  <string name="carbon_gesture_disabled">Dinonaktifkan</string>
+  <string name="carbon_gesture_screenshot">Tangkapan layar</string>
+  <!-- Keyguardalpha -->
+  <!-- Log it -->
+  <!-- ListView animation -->
+  <string name="listview_off">Standar</string>
+  <!-- ListView interpolator -->
+  <!-- Lock date fonts -->
+  <!-- Lock owner test -->
+  <!-- Running Services -->
+  <!-- Lock UI thing -->
+  <!-- Lock UI thing -->
+  <!-- Gesture Anywhere -->
+  <string name="gesture_anywhere_gestures_title">Isyarat</string>
+  <!-- Label, button used to add a gesture -->
+  <!-- Label, button used to reload all gestures -->
+  <!-- Label, button used to cancel the operation of adding a gesture -->
+  <!-- Label, button used to save a gesture newly created -->
+  <!-- Label, prompt asking the user to enter the name of the gesture -->
+  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+  <!-- success message, tells the user where the gesture was saved -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <!-- Message displayed when the user opens the gestures settings screen -->
+  <!-- Message displayed when the user has no gestures -->
+  <!-- Title of the screen used to view/manage gestures -->
+  <string name="ga_gestures_activity">Isyarat</string>
+  <!-- Noun, menu item used to edit a gesture -->
+  <!-- Noun, menu item used to remove a gesture -->
+  <!-- Message displayed when a gesture is successfully deleted -->
+  <!-- Title of dialog box -->
+  <!-- Label of gesture name field in Rename gesture dialog box -->
+  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+  <!-- Volume key cursor control -->
+  <string name="volume_key_cursor_control_off">Dinonaktifkan</string>
+  <!-- Smart Pixels -->
+  <!-- Slim Recents panel -->
+  <!-- ATTENTION: RTL languages need to replace left with right -->
+  <!-- Hide Lockscreen clock, date, & alarm -->
+  <!-- Lockscreen styles -->
+  <string name="lockscreen_clock_selection_digital">Standar</string>
+  <string name="lockscreen_date_selection_default">Standar</string>
+  <!-- Notification count -->
+  <!-- P animations -->
+  <!-- Wallpaper tint -->
+  <!-- Notification guts kill app button -->
+  <!-- Toast Animation -->
+  <string name="toast_none_animation">Tidak Ada</string>
+  <string name="toast_default_animation">Standar</string>
+  <string name="toast_Translucent_animation">Tembus pandang</string>
+  <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">Standar</string>
+  <!-- Scrolling Cache -->
+  <!-- Disable animations -->
+  <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_duration_default">Standar</string>
 </resources>

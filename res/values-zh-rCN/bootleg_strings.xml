@@ -45,7 +45,7 @@
   <string name="bootleg_ab_summary_thankssec">点击此处查看创造和启发了这个项目的人。此外, 非常感谢 %s 为 %s 带来了这个 ROM。</string>
   <!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
 
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ab_summary_whoami_unknown">一个没有正确声明它是谁的人... </string>
   <string name="bootleg_pref_title_romextras">附加和插件</string>
   <string name="bootleg_ex_title_featurelist">功能列表</string>
@@ -77,9 +77,9 @@
   <string name="bootleg_sharemsg6">现在试试Bootleggers ROM！https://bootleggersrom.github.io </string>
   <string name="bootleg_sharemsg7">嗯，我正在测试盗版者，这有点奇怪，但不是坏的ROM </string>
   <!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+        DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
   <string name="bootleg_ri_title_buildtype">编译类型</string>
-  <string name="bootleg_ri_summary_buildtype">您的构建是 %s... 或 %s。</string>
+  <string name="bootleg_ri_summary_buildtype">你的构建是 %s... or %s.</string>
   <string name="bootleg_pref_title_rominfo">ROM 信息</string>
   <string name="bootleg_ri_title_ota">OTA 更新</string>
   <string name="bootleg_ri_summary_ota">检查是否有新的版本</string>
@@ -108,6 +108,9 @@
   <string name="misc_app_related_preference">相关应用程序</string>
   <string name="hardware_otherdevices">硬件密钥和更多</string>
   <string name="statusbar_tweaks_ui_icons">UI 图标</string>
+  <!-- Animations categories -->
+  <!-- Gesture stuff -->
+  <!-- The no-no list, messages explaining why some features are disabled -->
   <!-- Color Picker -->
   <string name="dialog_color_picker">颜色选择器</string>
   <string name="press_color_to_apply">点选以下颜色以应用</string>
@@ -124,7 +127,7 @@
   <string name="volume_rocker_music_controls_summary">屏幕关闭时，长按音量键将会搜寻音乐曲目</string>
   <!-- Volume rocker wake -->
   <string name="volume_rocker_wake_title">音量键唤醒</string>
-  <string name="volume_rocker_wake_summary">按压音量键将会唤醒设备</string>
+  <string name="volume_rocker_wake_summary">按下音量键将会唤醒设备</string>
   <!-- Hardware button navigation -->
   <string name="button_pref_title">实体按键</string>
   <string name="hardware_keys_volume_keys_title">音量键</string>
@@ -168,7 +171,7 @@
   <string name="ambient_display_category">主动显示选项</string>
   <string name="force_ambient_for_media_pref_title">环境音乐</string>
   <string name="force_ambient_for_media_pref_summary">配置环境音乐通知</string>
-  <string name="ambient_ticker_footer">此功能允许在启用或未启用环境显示的情况下在锁屏显示当前音乐曲目信息。\ n \ n您有两个布局可供选择，分别是“正常”和“最小”。虽然此功能利用了环境显示，但它并不依赖于环境显示。它可以通过使用“强制”选项从而在未启用环境显示的情况下触发。\ n \ n正常视图包括锁屏时钟，日期和环境音乐通知。\ n \ n最小视图只包含屏幕中间的环境音乐通知。</string>
+  <string name="ambient_ticker_footer">此功能允许在启用或未启用环境显示的情况下在锁屏显示当前音乐曲目信息。\n\n您有两个布局可供选择，分别是“正常”和“最小”。虽然此功能利用了环境显示，但它并不依赖于环境显示。它可以通过使用“强制”选项从而在未启用环境显示的情况下触发。\n\n正常视图包括锁屏时钟，日期和环境音乐通知。\n\n最小视图只包含屏幕中间的环境音乐通知。</string>
   <string name="force_ambient_for_media_title">环境显示器上的媒体信息</string>
   <string name="force_ambient_for_media_off">禁用</string>
   <string name="force_ambient_for_media_on">正常</string>
@@ -187,6 +190,8 @@
   <string name="quick_pulldown_summary">从状态栏的%1$s边缘拉下时开启快速设置面板</string>
   <string name="quick_pulldown_summary_always">从状态栏下拉总是显示快速设置</string>
   <string name="quick_pulldown_off">关闭</string>
+  <string name="quick_pulldown_left">左</string>
+  <string name="quick_pulldown_right">右</string>
   <string name="quick_pulldown_always">总是</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">智能下拉</string>
@@ -320,7 +325,7 @@
   <string name="status_bar_show_clock_title">在状态栏上启用时钟和日期</string>
   <string name="status_bar_show_clock_summary">在状态栏上显示时间</string>
   <string name="status_bar_clock_advanced_title">高级选项</string>
-  <string name="status_bar_clock_advanced_title_alt">高级时钟＆amp; 日期选项</string>
+  <string name="status_bar_clock_advanced_title_alt">高级时钟 &amp; 日期选项</string>
   <string name="status_bar_clock_advanced_summary">调整时钟以满足您的需求</string>
   <string name="clock_title_enable">对齐</string>
   <string name="right_clock">时钟居右</string>
@@ -415,8 +420,8 @@
   <string name="show_clear_all_recents_button_title">一键清理按钮</string>
   <string name="show_clear_all_recents_button_summary">显示“一键清理”按钮</string>
   <string name="recents_clear_all_location_title">“一键清除”按钮位置</string>
-  <string name="recents_clear_all_location_top_right">右上角</string>
-  <string name="recents_clear_all_location_top_left">屏幕左上方</string>
+  <string name="recents_clear_all_location_top_right">顶部右侧</string>
+  <string name="recents_clear_all_location_top_left">顶部左侧</string>
   <string name="recents_clear_all_location_top_center">顶部居中</string>
   <string name="recents_clear_all_location_bottom_right">底部右侧</string>
   <string name="recents_clear_all_location_bottom_left">底部左侧</string>
@@ -476,7 +481,7 @@
   <string name="portrait_left_swipe_title">纵向左滑</string>
   <string name="landscape_right_swipe_title">横向右滑</string>
   <string name="landscape_left_swipe_title">横向左滑</string>
-  <string name="vertical_up_swipe_title">垂直向上滑动</string>
+  <string name="vertical_up_swipe_title">垂直上滑</string>
   <string name="vertical_down_swipe_title">垂直下滑</string>
   <string name="up_swipe_title">上滑</string>
   <string name="down_swipe_title">下滑</string>
@@ -552,6 +557,8 @@
   <string name="smartbar_help_policy_notice_summary">在编辑模式时，按住拖动一个按键改变它的位置或者长按一个按键弹出编辑菜单。当菜单弹出来时按键的位置可能会改变。\ n \ n设置一个双击动作会使得单击有些延迟</string>
   <string name="smartbar_context_menu_position_title">上下文按钮布局位置</string>
   <string name="smartbar_context_menu_position_summary">设置上下文按钮的位置，例如菜单和输入法选择键</string>
+  <string name="smartbar_right">右</string>
+  <string name="smartbar_left">左</string>
   <string name="smartbar_button_animation_title">按键触摸动画</string>
   <string name="smartbar_button_animation_summary">设置按下按钮时的动画样式</string>
   <string name="smartbar_button_animation_ripple">波纹</string>
@@ -620,6 +627,7 @@
   <!-- Quick Settings brightness slider -->
   <string name="qs_brightness_slider_title">亮度滑块</string>
   <string name="qs_brightness_slider_summary">在快速设置面板中显示亮度滑块</string>
+  <!-- Screenshot editor -->
   <!-- Battery Styles -->
   <string name="battery_style_category_title">电池样式</string>
   <string name="battery_style_title">电池图标样式</string>
@@ -651,9 +659,6 @@
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">安全锁屏时无快速设置</string>
   <string name="lockscreen_qs_disabled_summary">在安全锁屏界面禁用快速设置</string>
-  <!-- System default animation -->
-  <string name="system_default_animation_title">Android P 动画风格</string>
-  <string name="system_default_animation_summary">使用Android P“默认\"动画</string>
   <!-- QS footer warnings -->
   <string name="qs_footer_warnings_title">快速设置页脚警告</string>
   <string name="qs_footer_warnings_summary">当网络被 VPN 或者应用程序监测时，在快速设置底部显示一个警告。</string>
@@ -673,6 +678,7 @@
   <string name="lock_clock_font_bold">系统粗体</string>
   <string name="lock_clock_font_italic">系统斜体</string>
   <string name="lock_clock_font_bold_italic">系统加粗斜体</string>
+  <string name="lock_clock_font_light">系统指示灯正常</string>
   <string name="lock_clock_font_light_italic">系统浅色斜体</string>
   <string name="lock_clock_font_condensed_normal">系统简粗体</string>
   <string name="lock_clock_font_condensed_italic">系统简明斜体</string>
@@ -680,6 +686,8 @@
   <string name="lock_clock_font_condensed_bold_italic">系统简明粗斜体</string>
   <string name="lock_clock_font_medium_normal">系统介质</string>
   <string name="lock_clock_font_medium_italic">系统介质斜体</string>
+  <!-- Custom fonts -->
+  <string name="lock_clock_font_themeable">Themeable (或 VCR OSD 单声道)</string>
   <!-- Lockscreen Weather -->
   <string name="lock_screen_weather_category_title">锁屏</string>
   <string name="lock_screen_show_weather_title">显示天气</string>
@@ -694,4 +702,78 @@
   <!--3-Finger screenshot-->
   <string name="three_finger_gesture">三指手势</string>
   <string name="three_finger_gesture_summary">滑动三指截屏</string>
+  <!-- Animations warning-->
+  <!-- CarbonGestures -->
+  <string name="carbon_gesture_disabled">禁用</string>
+  <string name="carbon_gesture_recents">近期</string>
+  <string name="carbon_gesture_power">关机</string>
+  <string name="carbon_gesture_screenshot">屏幕截图</string>
+  <!-- Keyguardalpha -->
+  <!-- Log it -->
+  <!-- ListView animation -->
+  <string name="listview_off">默认</string>
+  <string name="listview_scale">规模</string>
+  <!-- ListView interpolator -->
+  <!-- Lock date fonts -->
+  <!-- Lock owner test -->
+  <!-- Running Services -->
+  <!-- Lock UI thing -->
+  <!-- Lock UI thing -->
+  <!-- Gesture Anywhere -->
+  <string name="gesture_anywhere_position_title">位置</string>
+  <string name="gesture_anywhere_gestures_title">手势</string>
+  <!-- Label, button used to add a gesture -->
+  <!-- Label, button used to reload all gestures -->
+  <!-- Label, button used to cancel the operation of adding a gesture -->
+  <!-- Label, button used to save a gesture newly created -->
+  <string name="ga_button_done">完成</string>
+  <!-- Label, prompt asking the user to enter the name of the gesture -->
+  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+  <!-- success message, tells the user where the gesture was saved -->
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_rename_action">确定</string>
+  <!-- Buttons in Rename gesture dialog box -->
+  <string name="ga_cancel_action">取消</string>
+  <!-- Message displayed when the user opens the gestures settings screen -->
+  <!-- Message displayed when the user has no gestures -->
+  <!-- Title of the screen used to view/manage gestures -->
+  <string name="ga_gestures_activity">手势</string>
+  <!-- Noun, menu item used to edit a gesture -->
+  <!-- Noun, menu item used to remove a gesture -->
+  <string name="ga_gestures_delete">删除</string>
+  <!-- Message displayed when a gesture is successfully deleted -->
+  <!-- Title of dialog box -->
+  <!-- Label of gesture name field in Rename gesture dialog box -->
+  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+  <!-- Volume key cursor control -->
+  <string name="volume_key_cursor_control_off">禁用</string>
+  <!-- Smart Pixels -->
+  <string name="lockscreen_items_other">其它</string>
+  <!-- Slim Recents panel -->
+  <string name="slim_icon_pack_title">图标包</string>
+  <!-- ATTENTION: RTL languages need to replace left with right -->
+  <string name="slim_blacklist_apps_cat_title">黑名单</string>
+  <string name="slim_blacklist_add_apps_title">添加应用程序</string>
+  <!-- Hide Lockscreen clock, date, & alarm -->
+  <!-- Lockscreen styles -->
+  <string name="lockscreen_clock_selection_digital">默认</string>
+  <string name="lockscreen_date_selection_title">日期样式</string>
+  <string name="lockscreen_date_selection_default">默认</string>
+  <!-- Notification count -->
+  <!-- P animations -->
+  <string name="system_default_animation_title">Android P 动画风格</string>
+  <string name="system_default_animation_summary">使用Android P“默认\"动画</string>
+  <!-- Wallpaper tint -->
+  <!-- Notification guts kill app button -->
+  <!-- Toast Animation -->
+  <string name="toast_none_animation">无</string>
+  <string name="toast_default_animation">默认</string>
+  <string name="toast_fade_animation">淡出</string>
+  <!-- AOKP custom system animations -->
+  <string name="animation_duration_default">默认</string>
+  <!-- Scrolling Cache -->
+  <!-- Disable animations -->
+  <!-- Tiles animation/interpolator style  -->
+  <string name="qs_tile_animation_style_flip">翻转</string>
+  <string name="qs_tile_animation_duration_default">默认</string>
 </resources>
