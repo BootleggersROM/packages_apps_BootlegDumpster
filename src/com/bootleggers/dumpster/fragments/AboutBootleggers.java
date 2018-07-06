@@ -67,7 +67,7 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.bootleg_dumpster_about);
 
-        /** Commented out due to not working **/
+        /** All main stuff we'll declare to check on build.prop **/
 
         String bootlegMaintainer = SystemProperties.get("ro.bootleg.maintainer","Aidonnou");
         String bootlegCodename = SystemProperties.get("ro.bootleg.device","generic");

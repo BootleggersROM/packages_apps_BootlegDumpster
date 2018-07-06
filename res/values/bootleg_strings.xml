@@ -57,10 +57,6 @@
     <string name="bootleg_ab_summary_whoami">Bootleggers is a ROM packed with features and apps with the purpose of make your feel like 家. Hope you like it and enjoy our experience.</string>
     <string name="bootleg_ab_title_thankssec">Thank you list</string>
     <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project. Also, huge thanks to %s for bring it for %s.</string>
-
-<!--    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project.</string>
-
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
     <string name="bootleg_ab_summary_whoami_unknown">... somebody who didn\'t declared properly who it is... </string>
     <string name="bootleg_pref_title_romextras">Extras and Addons</string>
     <string name="bootleg_ex_title_featurelist">Feature List</string>
@@ -83,6 +79,14 @@
     <string name="bootleg_moarstuff_tg_title">Our Telegram Community</string>
     <string name="bootleg_moarstuff_tg_summary">Talk with us, get hyped with future updates and join our great community</string>
     <string name="bootleg_pref_moarstuff_wewsecret">I think you found this really not so secret place but well, if you got here i just want to let you know that thank you for flashing this ROM and welp, as we said many times before, hope you enjoy it and have a good time with this ROM.</string>
+    <string name="bootleg_moarstuff_faq_title">Our FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">Our Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">We don\'t speak your language? So come here and feel free to help us to translate our ROM to your native language!</string>
+    <string name="bootleg_moarstuff_cd_summary01" translatable="false">Nosotros não parlare váš jazyk?</string>
+    <string name="bootleg_moarstuff_cd_summary02">So come here and feel free to help us to translate our ROM to your native language!</string>
+    <string name="bootleg_moarstuff_cd_sumgen" translatable="false">%s %s</string>
+    <string name="bootleg_moarstuff_faq_summary">Where all the most asked questions and requested features got their answer.</string>
+
 
     <!-- Messages to send? -->
     <string name="share_chooser_title">Share our ROM via..</string>
@@ -94,8 +98,7 @@
     <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
     <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
     
-<!--
-    DUMPED DUE TO I CAN'T CHECK BUILD.PROP CORRECTLY. -->
+    <!-- Build type info -->
     <string name="bootleg_ri_title_buildtype">Build Type</string>
     <string name="bootleg_ri_summary_buildtype">Your build is %s... or %s.</string>
     <string name="bootleg_pref_title_rominfo">ROM Info</string>
