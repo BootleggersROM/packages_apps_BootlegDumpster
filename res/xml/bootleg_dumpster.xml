@@ -49,14 +49,6 @@
             android:fragment="com.bootleggers.dumpster.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
-        <!-- Gestures -->
-        <Preference
-            android:key="gestures_category"
-            android:title="@string/gestures_title"
-            android:summary="@string/gestures_settings_summary"
-            android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
-
         <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"
@@ -72,6 +64,14 @@
             android:summary="@string/powermenu_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
+
+        <!-- Gestures -->
+        <Preference
+            android:key="gestures_category"
+            android:title="@string/gestures_title"
+            android:summary="@string/gestures_settings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Recents -->
         <Preference
