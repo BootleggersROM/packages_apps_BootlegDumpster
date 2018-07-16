@@ -153,4 +153,8 @@
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
 
+    <!-- Swap volume buttons -->
+    <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
+    <string name="swap_volume_buttons_summary">Change the order of volume buttons according of screen rotation</string>
+
 </resources>
