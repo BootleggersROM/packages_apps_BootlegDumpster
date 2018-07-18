@@ -43,14 +43,6 @@ public class NotificationSettings extends SettingsPreferenceFragment
 
         mLedsCategory = (PreferenceCategory) findPreference("light_category");
         mChargingLeds = (Preference) findPreference("battery_charging_light");
-        if (mChargingLeds != null
-                && !getResources().getBoolean(
-                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
-            mLedsCategory.removePreference(mChargingLeds);
-        }
-          if (mChargingLeds == null) {
-            prefSet.removePreference(mLedsCategory);
-        }
         mLowBatteryBlinking = (SystemSettingSwitchPreference)prefSet.findPreference("battery_light_low_blinking");
         if (getResources().getBoolean(
                         com.android.internal.R.bool.config_ledCanPulse)) {
@@ -59,6 +51,15 @@ public class NotificationSettings extends SettingsPreferenceFragment
             mLowBatteryBlinking.setOnPreferenceChangeListener(this);
         } else {
             mLedsCategory.removePreference(mLowBatteryBlinking);
+        }
+
+        if (mChargingLeds != null
+                && !getResources().getBoolean(
+                        com.android.internal.R.bool.config_intrusiveBatteryLed)) {
+            mLedsCategory.removePreference(mChargingLeds);
+        }
+          if (mChargingLeds == null) {
+            prefSet.removePreference(mLedsCategory);
         }
 
     }
