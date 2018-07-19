@@ -305,4 +305,8 @@
     <string name="ticker_enabled">Notification ticker</string>
     <string name="ticker_media_enabled">Notification and music ticker</string>
 
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon on Statusbar</string>
+    <string name="show_fourg_icon_summary">On signal icon, show 4G instead of LTE</string>
+
 </resources>
