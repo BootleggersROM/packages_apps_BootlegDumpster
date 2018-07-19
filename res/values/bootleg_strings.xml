@@ -287,4 +287,7 @@
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
 
+    <!-- Lockscreen charging info -->
+    <string name="lockscreen_battery_info_title">Lockscreen battery info</string>
+    <string name="lockscreen_battery_info_summary">Display negotiated charger max current-voltage and battery temperature on lockscreen while charging</string>
 </resources>
