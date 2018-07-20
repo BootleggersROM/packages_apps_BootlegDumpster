@@ -125,6 +125,7 @@
     <!-- Specific categories -->
     <string name="lockscreen_ambient_preference">Ambient Display</string>
     <string name="misc_app_related_preference">Apps Related</string>
+    <string name="anim_system_category">System Related</string>
 
     <!-- Footer alerts -->
     <string name="animations_transparent_alert">Some (or maybe all) of this animations may not work if your device got a transparent theme!</string>
@@ -548,5 +549,11 @@
     <!-- ambient visualizer -->
     <string name="ambient_visualizer_title">Ambient display visualizer</string>
     <string name="ambient_visualizer_summary">Show the lockscreen visualizer but also in ambient display</string>
+
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_title">Screen off animation</string>
+    <string name="screen_off_animation_default">Default</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scale</string>
 
 </resources>
