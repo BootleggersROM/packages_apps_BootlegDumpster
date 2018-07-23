@@ -37,6 +37,12 @@ import java.util.Collections;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private static final String PREF_STATUS_BAR_CLOCK = "status_bar_show_clock";
+    private static final String PREF_CLOCK_SHOW_SECONDS = "status_bar_clock_seconds";
+
+    private SwitchPreference mStatusBarClock;
+    private SwitchPreference mShowSeconds;
+
     private ListPreference mLogoStyle;
 
     @Override
@@ -55,6 +61,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mLogoStyle.setValue(String.valueOf(logoStyle));
         mLogoStyle.setSummary(mLogoStyle.getEntry());
 
+        mStatusBarClock = (SwitchPreference) findPreference(PREF_STATUS_BAR_CLOCK);
+        mStatusBarClock.setChecked((Settings.System.getInt(
+                getActivity().getApplicationContext().getContentResolver(),
+                Settings.System.STATUS_BAR_CLOCK, 1) == 1));
+        mStatusBarClock.setOnPreferenceChangeListener(this);
+
+        mShowSeconds = (SwitchPreference) findPreference(PREF_CLOCK_SHOW_SECONDS);
+        mShowSeconds.setChecked((Settings.System.getInt(
+            getActivity().getApplicationContext().getContentResolver(),
+                Settings.System.STATUS_BAR_CLOCK_SECONDS, 0) == 1));
+        mShowSeconds.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -66,6 +84,16 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             int index = mLogoStyle.findIndexOfValue((String) newValue);
             mLogoStyle.setSummary(
                     mLogoStyle.getEntries()[index]);
+            return true;
+        } else if (preference == mStatusBarClock) {
+            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
+                    Settings.System.STATUS_BAR_CLOCK,
+                    (Boolean) newValue ? 1 : 0);
+            return true;
+        } else if (preference == mShowSeconds) {
+            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
+                    Settings.System.STATUS_BAR_CLOCK_SECONDS,
+                    (Boolean) newValue ? 1 : 0);
             return true;
         }
         return false;
