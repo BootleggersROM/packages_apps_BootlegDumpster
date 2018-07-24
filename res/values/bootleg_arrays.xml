@@ -341,12 +341,14 @@
 
     <string-array name="clock_date_position_entries" translatable="false">
         <item>@string/clock_date_left</item>
+        <item>@string/center_clock</item>
         <item>@string/clock_date_right</item>
     </string-array>
 
     <string-array name="clock_date_position_values" translatable="false">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
     </string-array>
 
 </resources>
