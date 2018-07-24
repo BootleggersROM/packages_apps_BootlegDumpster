@@ -31,6 +31,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
+import com.bootleggers.dumpster.extra.Utils;
 
 import com.android.settings.R;
 
@@ -41,12 +42,49 @@ import com.android.internal.logging.nano.MetricsProto;
 public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener{
 
+    private static final String SUBMENU_HWKEYS = "button_settings";
+
+    private PreferenceCategory mButtonFlashLightCategory;
+    private PreferenceCategory mHardwareExtra;
+
+    // Masks for checking presence of hardware keys.
+    // Must match values in frameworks/base/core/res/res/values/config.xml
+    public static final int KEY_MASK_HOME = 0x01;
+    public static final int KEY_MASK_BACK = 0x02;
+    public static final int KEY_MASK_MENU = 0x04;
+    public static final int KEY_MASK_ASSIST = 0x08;
+    public static final int KEY_MASK_APP_SWITCH = 0x10;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.bootleg_dumpster_button);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        // load categories and init/remove preferences based on device
+        // configuration
+        mHardwareExtra = (PreferenceCategory) findPreference("hw_fpandmore");
+        final Preference hwKeysSubmenu = (Preference) prefScreen
+                .findPreference(SUBMENU_HWKEYS);
+
+        // bits for hardware keys present on device
+        final int deviceKeys = getResources().getInteger(
+                com.android.internal.R.integer.config_deviceHardwareKeys);
+
+        // read bits for present hardware keys
+        final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
+        final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
+        final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
+        final boolean hasAssistKey = (deviceKeys & KEY_MASK_ASSIST) != 0;
+        final boolean hasAppSwitchKey = (deviceKeys & KEY_MASK_APP_SWITCH) != 0;
+
+        // remove this feature on non-hw phones
+        if (!hasBackKey && !hasHomeKey && !hasAppSwitchKey && !hasMenuKey && !hasAssistKey) {
+            mHardwareExtra.removePreference(hwKeysSubmenu);
+        }
+
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
