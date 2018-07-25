@@ -39,9 +39,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     private static final String PREF_STATUS_BAR_CLOCK = "status_bar_show_clock";
     private static final String PREF_CLOCK_SHOW_SECONDS = "status_bar_clock_seconds";
+    private static final String BATTERY_STYLE = "battery_style";
 
     private SwitchPreference mStatusBarClock;
     private SwitchPreference mShowSeconds;
+    private ListPreference mBatteryIconStyle;
 
     private ListPreference mLogoStyle;
 
@@ -52,6 +54,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.bootleg_dumpster_statusbar);
 
         PreferenceScreen prefSet = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
 
         mLogoStyle = (ListPreference) findPreference("status_bar_logo_style");
         mLogoStyle.setOnPreferenceChangeListener(this);
@@ -73,6 +76,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_CLOCK_SECONDS, 0) == 1));
         mShowSeconds.setOnPreferenceChangeListener(this);
 
+        mBatteryIconStyle = (ListPreference) findPreference(BATTERY_STYLE);
+        mBatteryIconStyle.setValue(Integer.toString(Settings.Secure.getInt(resolver,
+                Settings.Secure.STATUS_BAR_BATTERY_STYLE, 0)));
+        mBatteryIconStyle.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -94,6 +101,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.STATUS_BAR_CLOCK_SECONDS,
                     (Boolean) newValue ? 1 : 0);
+            return true;
+        } else  if (preference == mBatteryIconStyle) {
+            int value = Integer.valueOf((String) newValue);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.STATUS_BAR_BATTERY_STYLE, value);
             return true;
         }
         return false;
