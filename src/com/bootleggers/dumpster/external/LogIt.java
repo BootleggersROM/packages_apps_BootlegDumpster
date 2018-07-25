@@ -113,10 +113,10 @@ public class LogIt extends SettingsPreferenceFragment
     private boolean shareHaste = false;
     private boolean shareZip = true;
 
-    String bootlegBuildtype = SystemProperties.get("ro.bootleg.buildtype","Unshishufied");
-    String bootlegBuilddevice = SystemProperties.get("ro.bootleg.device","unkownorbroken");
-    String bootlegBuildrelease = SystemProperties.get("ro.bootleg.version","unkownorbroken");
-    String bootlegBuildmaintainer = SystemProperties.get("ro.bootleg.maintainer","NotDeclaredLMAO");
+    String bootlegBuildtype = SystemProperties.get("ro.bootleggers.releasetype","Unshishufied");
+    String bootlegBuilddevice = SystemProperties.get("ro.bootleggers.device","unkownorbroken");
+    String bootlegBuildrelease = SystemProperties.get("ro.bootleggers.version","unkownorbroken");
+    String bootlegBuildmaintainer = SystemProperties.get("ro.bootleggers.maintainer","NotDeclaredLMAO");
     String bootlegBuilduser = SystemProperties.get("ro.build.user","unkownorbroken");
     String bootlegBuildhost = SystemProperties.get("ro.build.host","unkownorbroken");
 
