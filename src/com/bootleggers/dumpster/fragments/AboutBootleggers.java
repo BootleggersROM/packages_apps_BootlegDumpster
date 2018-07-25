@@ -69,10 +69,10 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
 
         /** All main stuff we'll declare to check on build.prop **/
 
-        String bootlegMaintainer = SystemProperties.get("ro.bootleg.maintainer","Aidonnou");
-        String bootlegCodename = SystemProperties.get("ro.bootleg.device","generic");
-        String bootlegBuildtype = SystemProperties.get("ro.bootleg.buildtype","Unshishufied");
-        String bootlegMusicode = SystemProperties.get("ro.bootleg.songcodename","Sample");
+        String bootlegMaintainer = SystemProperties.get("ro.bootleggers.maintainer","Aidonnou");
+        String bootlegCodename = SystemProperties.get("ro.bootleggers.device","generic");
+        String bootlegBuildtype = SystemProperties.get("ro.bootleggers.releasetype","Unshishufied");
+        String bootlegMusicode = SystemProperties.get("ro.bootleggers.songcodename","Sample");
         String bootlegBuildMeaning = "Aidonnou";
         String bootlegFMaintainer;
         String bootlegNoMaintainer = res.getString(R.string.bootleg_ab_summary_whoami_unknown);
@@ -126,7 +126,7 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
     public boolean onPreferenceTreeClick(Preference preference) {
         
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        String bootlegMusicodeURL = SystemProperties.get("ro.bootleg.songcodeurl","https://google.com");
+        String bootlegMusicodeURL = SystemProperties.get("ro.bootleggers.songcodeurl","https://google.com");
         prefMusicode = (Preference) findPreference("bootleg_aboutmusicode");
 
 
