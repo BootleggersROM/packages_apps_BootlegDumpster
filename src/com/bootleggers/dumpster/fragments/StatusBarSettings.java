@@ -116,7 +116,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             int value = Integer.valueOf((String) newValue);
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.STATUS_BAR_BATTERY_STYLE, value);
-            boolean hideForcePercentage = value == 6 || value == 7;/*text or hidden style*/
+            boolean hideForcePercentage = value == 7 || value == 8;/*text or hidden style*/
             mBatteryPercentage.setEnabled(!hideForcePercentage);
             return true;
         } else  if (preference == mBatteryPercentage) {
