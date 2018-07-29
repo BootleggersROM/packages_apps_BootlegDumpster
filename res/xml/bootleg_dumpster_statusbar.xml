@@ -79,11 +79,11 @@
         android:entries="@array/battery_style_entries"
         android:entryValues="@array/battery_style_values" />
 
-    <SwitchPreference
+    <ListPreference
         android:key="show_battery_percent"
         android:title="@string/show_battery_percent_title"
-        android:summary="@string/show_battery_percent_summary"
-        android:defaultValue="true" />
+        android:entries="@array/battery_percent_entries"
+        android:entryValues="@array/battery_percent_values" />
 
     </PreferenceCategory>
 
