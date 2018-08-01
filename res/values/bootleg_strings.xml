@@ -733,4 +733,8 @@
     <string name="battery_percent_inside">Inside the icon</string>
     <string name="battery_style_category_title">Battery level</string>
 
+    <!-- Data Disabled Icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross next to statusbar when data is disabled</string>
+
 </resources>
