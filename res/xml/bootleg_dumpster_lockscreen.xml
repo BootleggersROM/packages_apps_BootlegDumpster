@@ -48,6 +48,12 @@
         android:summary="@string/lockscreen_battery_info_summary" 
         android:defaultValue="true" />
 
+     <Preference
+        android:key="lockscreen_moreui"
+        android:fragment="com.bootleggers.dumpster.external.LockscreenUI"
+        android:title="@string/lockscreen_moreui_title"
+        android:summary="@string/lockscreen_moreui_summary" />
+
     </PreferenceCategory>
 
     <!-- Lockscreen weather -->
