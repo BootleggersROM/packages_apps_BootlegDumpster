@@ -287,4 +287,12 @@
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
 
+    <!-- Lock UI thing -->
+    <string name="lockscreen_moreui_title">More lockscreen UI</string>
+    <string name="lockscreen_moreui_title_alt">Lockscreen UI</string>
+    <string name="lockscreen_moreui_summary">Pick fonts for the clock and date and opacity of the lockscreen background</string>
+     <!-- Lock UI thing -->
+    <string name="lockui_fonts">UI Fonts</string>
+    <string name="lockui_opacity">Dark overlay opacity</string>
+
 </resources>
