@@ -835,4 +835,8 @@
     <string name="three_finger_gesture">Three finger gesture</string>
     <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
 
+    <!-- Keyguardalpha -->
+    <string name="lockscreen_alpha">On normal screen</string>
+    <string name="lockscreen_security_alpha">On secured screen bouncer</string>
+
 </resources>
