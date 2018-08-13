@@ -1195,4 +1195,8 @@
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
 
+    <!-- QS Tile Theme/Tinting -->
+    <string name="qs_tile_theme_title">QS Tile Accents</string>
+    <string name="qs_tile_theme_summary">It will enable Device Accent on QS Tiles</string>
+
 </resources>

@@ -26,6 +26,7 @@ import android.view.View;
 
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
+import com.bootleggers.dumpster.extra.Utils;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -46,6 +47,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
     private static final String CUSTOM_HEADER_ENABLED = "status_bar_custom_header";
     private static final String FILE_HEADER_SELECT = "file_header_select";
+    private static final String QS_TILE_TINTING = "qs_tile_tinting_enable";
 
     private static final int REQUEST_PICK_IMAGE = 0;
 
@@ -59,6 +61,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mHeaderEnabled;
     private Preference mFileHeader;
     private String mFileHeaderProvider;
+    private SystemSettingSwitchPreference mEnableQsTileTinting;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -124,6 +127,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         mFileHeader = findPreference(FILE_HEADER_SELECT);
         mFileHeader.setEnabled(providerName.equals(mFileHeaderProvider));
+
+        //QS Tile Theme
+        mEnableQsTileTinting = (SystemSettingSwitchPreference) findPreference(QS_TILE_TINTING);
+        mEnableQsTileTinting.setChecked(Settings.System.getInt(resolver,
+                Settings.System.QS_TILE_TINTING_ENABLE, 0) == 1);
+        mEnableQsTileTinting.setOnPreferenceChangeListener(this);
+
     }
 
     private void updateHeaderProviderSummary(boolean headerEnabled) {
@@ -186,6 +196,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             Boolean headerEnabled = (Boolean) newValue;
             updateHeaderProviderSummary(headerEnabled);
             return true;
+        } else if (preference == mEnableQsTileTinting) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_TILE_TINTING_ENABLE, value ? 1 : 0);
+             Utils.restartSystemUi(getContext());
+             return true;
         }
         return false;
     }

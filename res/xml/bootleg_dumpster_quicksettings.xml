@@ -47,6 +47,12 @@
         android:defaultValue="true" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="qs_tile_tinting_enable"
+        android:title="@string/qs_tile_theme_title"
+        android:summary="@string/qs_tile_theme_summary"
+        android:defaultValue="false" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="qs_running_services_toggle"
         android:title="@string/qs_running_services_title"
         android:summary="@string/qs_running_services_summary"
