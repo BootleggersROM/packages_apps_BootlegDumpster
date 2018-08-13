@@ -1210,4 +1210,7 @@
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
 
+    <!-- Brightness bar position -->
+    <string name="qs_brightness_position_title">Show brightness slider on bottom</string>
+
 </resources>

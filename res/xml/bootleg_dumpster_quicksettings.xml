@@ -35,6 +35,12 @@
         android:dependency="qs_show_brightness"
         android:defaultValue="true"/>
 
+	<com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+		android:key="qs_brightness_position_bottom"
+		android:title="@string/qs_brightness_position_title"
+		android:dependency="qs_show_brightness"
+		android:defaultValue="true" />
+
     <Preference
             android:key="qs_rows_columns"
             android:fragment="com.bootleggers.dumpster.external.QsRowsColumns"
