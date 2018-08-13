@@ -1199,4 +1199,8 @@
     <string name="qs_tile_theme_title">QS Tile Accents</string>
     <string name="qs_tile_theme_summary">It will enable Device Accent on QS Tiles</string>
 
+    <!-- Dialer HeadsUp -->
+    <string name="always_headsup_dialer_title">Force heads up for dialer</string>
+    <string name="always_headsup_dialer_summary">Show heads up for dialer even if heads up is off to avoid fullscreen dialer on incoming calls</string>
+
 </resources>
