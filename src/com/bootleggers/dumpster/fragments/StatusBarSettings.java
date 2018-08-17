@@ -46,6 +46,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String BATTERY_PERCENT = "show_battery_percent";
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
+    private static final String PREF_STATUS_BAR_WEATHER = "status_bar_show_weather_temp";
 
     private SwitchPreference mStatusBarClock;
     private SwitchPreference mShowSeconds;
@@ -57,6 +58,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private Context mContext;
+
+    private ListPreference mStatusBarWeather;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -128,10 +131,23 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mContentPadding.setValue(contentPadding / 1);
         mContentPadding.setOnPreferenceChangeListener(this);
 
+        // Status bar weather
+        mStatusBarWeather = (ListPreference) findPreference(PREF_STATUS_BAR_WEATHER);
+        int temperatureShow = Settings.System.getIntForUser(resolver,
+                Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP, 0,
+                UserHandle.USER_CURRENT);
+        mStatusBarWeather.setValue(String.valueOf(temperatureShow));
+        if (temperatureShow == 0) {
+            mStatusBarWeather.setSummary(R.string.statusbar_weather_summary);
+        } else {
+            mStatusBarWeather.setSummary(mStatusBarWeather.getEntry());
+        }
+        mStatusBarWeather.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
         if (preference.equals(mLogoStyle)) {
             int logoStyle = Integer.parseInt(((String) newValue).toString());
             Settings.System.putIntForUser(getContentResolver(),
@@ -174,6 +190,18 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.Secure.putInt(mContext.getContentResolver(),
                 Settings.Secure.SYSUI_ROUNDED_CONTENT_PADDING, value * 1);
             return true;
+        } else if (preference == mStatusBarWeather) {
+            int temperatureShow = Integer.valueOf((String) newValue);
+            int index = mStatusBarWeather.findIndexOfValue((String) newValue);
+            Settings.System.putIntForUser(resolver,
+                   Settings.System.STATUS_BAR_SHOW_WEATHER_TEMP,
+                   temperatureShow, UserHandle.USER_CURRENT);
+            if (temperatureShow == 0) {
+                mStatusBarWeather.setSummary(R.string.statusbar_weather_summary);
+            } else {
+                mStatusBarWeather.setSummary(
+                mStatusBarWeather.getEntries()[index]);
+            }
         }
         return false;
     }
