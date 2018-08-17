@@ -43,6 +43,7 @@
     <Preference
         android:key="network_traffic"
         android:title="@string/network_traffic_title"
+        android:summary="@string/bootleg_external_summary"
         android:fragment="com.bootleggers.dumpster.external.NetworkTraffic" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
@@ -80,37 +81,6 @@
         android:dependency="status_bar_logo"/>
 
     </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="corners_category"
-        android:title="@string/corners_category" >
-
-         <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
-                android:key="sysui_rounded_fwvals"
-                android:title="@string/corner_fwvals"
-                android:summary="@string/corner_fwvals_summary"
-                android:defaultValue="true"
-                android:disableDependentsState="true" />
-
-         <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
-	        android:key="sysui_rounded_size"
-	        android:title="@string/corner_radius"
-	        android:max="25"
-	        settings:min="0"
-	        settings:units=""
-	        android:persistent="false" 
-                android:dependency="sysui_rounded_fwvals" />
-
-         <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
-	        android:key="sysui_rounded_content_padding"
-	        android:title="@string/content_padding"
-	        android:max="10"
-	        settings:min="0"
-	        settings:units=""
-                android:persistent="false"
-                android:dependency="sysui_rounded_fwvals" />
-
-     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="battery_style_category"
@@ -153,6 +123,49 @@
             android:dependency="status_bar_show_clock"
             android:fragment="com.bootleggers.dumpster.external.ClockDateSettings" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="corners_category"
+        android:title="@string/corners_category" >
+
+         <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+                android:key="sysui_rounded_fwvals"
+                android:title="@string/corner_fwvals"
+                android:summary="@string/corner_fwvals_summary"
+                android:defaultValue="true"
+                android:disableDependentsState="true" />
+
+         <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
+	        android:key="sysui_rounded_size"
+	        android:title="@string/corner_radius"
+	        android:max="25"
+	        settings:min="0"
+	        settings:units=""
+	        android:persistent="false" 
+                android:dependency="sysui_rounded_fwvals" />
+
+         <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
+	        android:key="sysui_rounded_content_padding"
+	        android:title="@string/content_padding"
+	        android:max="10"
+	        settings:min="0"
+	        settings:units=""
+                android:persistent="false"
+                android:dependency="sysui_rounded_fwvals" />
+
+     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="statusbar_custom_misc"
+        android:title="@string/misc_title">
+
+    <Preference
+        android:key="carrier_label"
+        android:fragment="com.bootleggers.dumpster.external.CarrierLabel"
+        android:title="@string/carrierlabel_title"
+        android:summary="@string/carrierlabel_summary" />
+
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_sleep_gesture_title"
@@ -163,12 +176,6 @@
         android:title="@string/status_bar_toggle_brightness"
         android:summary="@string/status_bar_toggle_brightness_summary"
         android:defaultValue="false" />
-
-    <Preference
-        android:key="carrier_label"
-        android:fragment="com.bootleggers.dumpster.external.CarrierLabel"
-        android:title="@string/carrierlabel_title"
-        android:summary="@string/carrierlabel_summary" />
 
      <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
             android:key="wallpaper_notification_shade_wallpaper_tint"

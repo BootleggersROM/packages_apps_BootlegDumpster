@@ -51,6 +51,25 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="notifications_headsup"
+        android:title="@string/heads_up_notifications">
+
+    <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+            android:key="heads_up_notifications_enabled"
+            android:title="@string/heads_up_enable_title"
+            android:summaryOn="@string/summary_heads_up_enabled"
+            android:summaryOff="@string/summary_heads_up_disabled"
+            android:defaultValue="true" />
+
+    <Preference
+        android:key="heads_up_notifications"
+        android:title="@string/heads_up_advanced_title"
+        android:dependency="heads_up_notifications_enabled"
+        android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="ticker_notifications_category"
         android:title="@string/ticker_screen_title">
 
@@ -70,23 +89,16 @@
 
     </PreferenceCategory>
 
-    <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
-            android:key="heads_up_notifications_enabled"
-            android:title="@string/heads_up_notifications"
-            android:summaryOn="@string/summary_heads_up_enabled"
-            android:summaryOff="@string/summary_heads_up_disabled"
-            android:defaultValue="true" />
+    <PreferenceCategory
+        android:key="notif_custom_misc"
+        android:title="@string/misc_title">
 
    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="always_headsup_dialer"
         android:title="@string/always_headsup_dialer_title"
         android:summary="@string/always_headsup_dialer_summary"
         android:defaultValue="false" />
-
-    <Preference
-        android:key="heads_up_notifications"
-        android:title="@string/heads_up_notifications"
-        android:dependency="heads_up_notifications_enabled"
-        android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings" />
+    
+    </PreferenceCategory>
 
 </PreferenceScreen>

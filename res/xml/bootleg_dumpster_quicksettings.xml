@@ -38,6 +38,7 @@
 	<com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
 		android:key="qs_brightness_position_bottom"
 		android:title="@string/qs_brightness_position_title"
+		android:summary="@string/qs_brightness_slider_summary"
 		android:dependency="qs_show_brightness"
 		android:defaultValue="true" />
 
@@ -50,6 +51,7 @@
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="qs_tile_title_visibility"
         android:title="@string/qs_tile_title_visibility_title"
+        android:summary="@string/qs_tile_title_visibility_summary"
         android:defaultValue="true" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference

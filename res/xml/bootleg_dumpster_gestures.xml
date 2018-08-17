@@ -19,6 +19,18 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
+        android:key="gestures_system_cat"
+        android:title="@string/misc_title">
+
+    <Preference
+        android:key="gesture_anywhere"
+        android:title="@string/gesture_anywhere_title"
+        android:summary="@string/gesture_anywhere_summary"
+        android:fragment="com.bootleggers.dumpster.gestureanywhere.GestureAnywhereSettings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="quickset_random_misc"
         android:title="@string/misc_title">
 
@@ -29,11 +41,5 @@
         android:defaultValue="false" />
 
     </PreferenceCategory>
-
-    <Preference
-        android:key="gesture_anywhere"
-        android:title="@string/gesture_anywhere_title"
-        android:summary="@string/gesture_anywhere_summary"
-        android:fragment="com.bootleggers.dumpster.gestureanywhere.GestureAnywhereSettings" />
 
 </PreferenceScreen>
