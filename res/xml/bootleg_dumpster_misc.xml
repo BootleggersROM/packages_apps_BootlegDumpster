@@ -89,6 +89,12 @@
             android:entries="@array/flashlight_on_call_entries"
             android:entryValues="@array/flashlight_on_call_values" />
 
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="incall_notifications_vibrate"
+            android:title="@string/incall_notifications_vibrate"
+            android:summary="@string/incall_notifications_vibrate_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
     
     <PreferenceCategory
