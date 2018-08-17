@@ -202,6 +202,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                 mStatusBarWeather.setSummary(
                 mStatusBarWeather.getEntries()[index]);
             }
+            return true;
         }
         return false;
     }
