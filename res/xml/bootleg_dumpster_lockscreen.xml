@@ -129,6 +129,12 @@
         android:defaultValue="false" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/pocket_judge_title"
+        android:summary="@string/pocket_judge_summary"
+        android:defaultValue="false" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_lockscreen"
         android:title="@string/double_tap_sleep_lockscreen"
         android:defaultValue="true" />
