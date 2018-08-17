@@ -1274,4 +1274,31 @@
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Battery fully charged</string>
+    <string name="battery_fully_charged_notif_summary">Show a notification when the battery is fully charged</string>
+
+     <!-- Disabling FC notifications -->
+    <string name="disable_fc_notifications_title">Diable FC notifications</string>
+    <string name="disable_fc_notifications_summary">This will hide all force close notificaitons. Use with caution</string>
+
+     <!-- In call beep -->
+    <string name="incall_notifications_vibrate">Less annoying in-call notifications</string>
+    <string name="incall_notifications_vibrate_summary">Vibrate instead of playing a sound for in-call notifications</string>
+
+     <!-- Pocket judge -->
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+
+     <!-- StatusBar weather settings -->
+    <string name="statusbar_weather_title">Status bar weather</string>
+    <string name="statusbar_weather_summary">Configure from QS settings/Weather</string>
+    <string name="statusbar_weather_dialog_title">Status bar weather style</string>
+    <string name="status_bar_weather_hidden">Hide weather</string>
+    <string name="status_bar_temperature_image_show_scale">Show temp with scale and image</string>
+    <string name="status_bar_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="status_bar_temperature_show_scale_hide_image">Show temp with scale</string>
+    <string name="status_bar_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="status_bar_show_image">Show image</string>
+
 </resources>
