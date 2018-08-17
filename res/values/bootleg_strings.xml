@@ -1263,4 +1263,8 @@
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Battery fully charged</string>
+    <string name="battery_fully_charged_notif_summary">Show a notification when the battery is fully charged</string>
+
 </resources>

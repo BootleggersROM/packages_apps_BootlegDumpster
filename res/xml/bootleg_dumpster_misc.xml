@@ -40,6 +40,12 @@
         android:summary="@string/wake_when_plugged_or_unplugged_summary"
         android:defaultValue="false" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="battery_fully_charged_notif"
+        android:title="@string/battery_fully_charged_notif_title"
+        android:summary="@string/battery_fully_charged_notif_summary"
+        android:defaultValue="false" />
+
      <Preference
          android:title="@string/log_it_title"
          android:key="logit_section"
