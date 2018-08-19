@@ -40,7 +40,7 @@
 		android:title="@string/qs_brightness_position_title"
 		android:summary="@string/qs_brightness_slider_summary"
 		android:dependency="qs_show_brightness"
-		android:defaultValue="true" />
+		android:defaultValue="false" />
 
     <Preference
             android:key="qs_rows_columns"
