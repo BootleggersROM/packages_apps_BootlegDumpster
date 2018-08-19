@@ -855,6 +855,7 @@
     <string name="lock_clock_font_autour" translatable="false">Autour One</string>
     <string name="lock_clock_font_azedo" translatable="false">Azedo Light</string>
     <string name="lock_clock_font_badscript" translatable="false">Bad Script</string>
+    <string name="lock_clock_font_bariol" translatable="false">Bariol</string>
     <string name="lock_clock_font_bignoodleital" translatable="false">Big Noodle Tilting Italic</string>
     <string name="lock_clock_font_bignoodle" translatable="false">Big Noodle Tilting</string>
     <string name="lock_clock_font_biko" translatable="false">Biko</string>

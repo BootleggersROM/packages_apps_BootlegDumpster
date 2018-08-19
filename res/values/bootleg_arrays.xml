@@ -466,6 +466,7 @@
         <item>@string/lock_clock_font_abelreg</item>
         <item>@string/lock_clock_font_adventpro</item>
         <item>@string/lock_clock_font_alienleague</item>
+        <item>@string/lock_clock_font_bariol</item>
         <item>@string/lock_clock_font_bignoodleital</item>
         <item>@string/lock_clock_font_biko</item>
         <item>@string/lock_clock_font_blern</item>
@@ -507,6 +508,7 @@
         <item>12</item>
         <item>13</item>
         <item>14</item>
+        <item>38</item>
         <item>15</item>
         <item>16</item>
         <item>17</item>
@@ -602,6 +604,7 @@
         <item>@string/lock_clock_font_archivo</item>
         <item>@string/lock_clock_font_autour</item>
         <item>@string/lock_clock_font_badscript</item>
+        <item>@string/lock_clock_font_bariol</item>
         <item>@string/lock_clock_font_bignoodle</item>
         <item>@string/lock_clock_font_biko</item>
         <item>@string/lock_clock_font_cherryswash</item>
@@ -643,6 +646,7 @@
         <item>16</item>
         <item>17</item>
         <item>18</item>
+        <item>39</item>
         <item>19</item>
         <item>20</item>
         <item>21</item>
@@ -688,6 +692,7 @@
         <item>@string/lock_clock_font_autour</item>
         <item>@string/lock_clock_font_azedo</item>
         <item>@string/lock_clock_font_badscript</item>
+        <item>@string/lock_clock_font_bariol</item>
         <item>@string/lock_clock_font_bignoodle</item>
         <item>@string/lock_clock_font_biko</item>
         <item>@string/lock_clock_font_cocobiker</item>
@@ -731,6 +736,7 @@
         <item>18</item>
         <item>19</item>
         <item>20</item>
+        <item>41</item>
         <item>21</item>
         <item>22</item>
         <item>23</item>
