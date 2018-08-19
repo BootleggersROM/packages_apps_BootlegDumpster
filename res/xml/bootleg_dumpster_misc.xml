@@ -26,12 +26,13 @@
         android:key="headset_connect_player"
         android:title="@string/headset_connect_player_title"
         android:summary="@string/headset_connect_player_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <Preference
         android:key="headset_options"
         android:title="@string/headset_title"
         android:summary="@string/bootleg_external_summary"
+        android:dependency="headset_connect_player"
         android:fragment="com.bootleggers.dumpster.external.Headset" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference

@@ -50,7 +50,7 @@ public class NotificationSettings extends SettingsPreferenceFragment
         if (getResources().getBoolean(
                         com.android.internal.R.bool.config_ledCanPulse)) {
             mLowBatteryBlinking.setChecked(Settings.System.getIntForUser(getContentResolver(),
-                            Settings.System.BATTERY_LIGHT_LOW_BLINKING, 0, UserHandle.USER_CURRENT) == 1);
+                            Settings.System.BATTERY_LIGHT_LOW_BLINKING, 1, UserHandle.USER_CURRENT) == 1);
             mLowBatteryBlinking.setOnPreferenceChangeListener(this);
         } else {
             mLedsCategory.removePreference(mLowBatteryBlinking);
@@ -80,6 +80,8 @@ public class NotificationSettings extends SettingsPreferenceFragment
                 1, UserHandle.USER_CURRENT);
         mTickerAnimation.setValue(String.valueOf(tickerAnimationMode));
         mTickerAnimation.setSummary(mTickerAnimation.getEntry());
+        boolean tickerIsDisabled = tickerMode == 0;
+        mTickerAnimation.setEnabled(!tickerIsDisabled);
     }
 
     @Override

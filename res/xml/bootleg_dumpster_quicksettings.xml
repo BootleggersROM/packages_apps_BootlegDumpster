@@ -91,7 +91,7 @@
         android:key="qs_quickbar_scroll_enabled"
         android:title="@string/qqs_scroll_title"
         android:summary="@string/qqs_scroll_summary"
-        android:defaultValue="false"/>
+        android:defaultValue="true"/>
 
     </PreferenceCategory>
 

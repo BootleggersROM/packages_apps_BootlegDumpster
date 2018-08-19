@@ -104,14 +104,6 @@
         android:title="@string/lockui_opacity"
         android:key="lockscreen_opacity_cat">
 
-    <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
-        android:key="lockscreen_security_alpha"
-        android:title="@string/lockscreen_security_alpha"
-        android:max="100"
-        settings:min="0"
-        settings:interval="1"
-        settings:units=""
-        android:persistent="false" />
      <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
         android:key="lockscreen_alpha"
         android:title="@string/lockscreen_alpha"
@@ -120,6 +112,20 @@
         settings:interval="1"
         settings:units="%"
         android:persistent="false" />
+    <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
+        android:key="lockscreen_security_alpha"
+        android:title="@string/lockscreen_security_alpha"
+        android:max="100"
+        settings:min="0"
+        settings:interval="1"
+        settings:units=""
+        android:persistent="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="lockui_custom_misc"
+        android:title="@string/misc_title">
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="wallpaper_keyguard_wallpaper_tint"

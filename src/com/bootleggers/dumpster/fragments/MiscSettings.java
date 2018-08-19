@@ -72,7 +72,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
         mFlashlightOnCall.setOnPreferenceChangeListener(this);
          if (!Utils.deviceSupportsFlashLight(getActivity())) {
-            prefSet.removePreference(FlashOnCall);
+            incallVibCategory.removePreference(FlashOnCall);
         }
 
     }

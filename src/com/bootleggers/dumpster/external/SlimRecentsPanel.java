@@ -252,7 +252,7 @@ public class SlimRecentsPanel extends SettingsPreferenceFragment implements
                 UserHandle.USER_CURRENT));
 
         final int recentScale = Settings.System.getInt(getContext().getContentResolver(),
-                Settings.System.RECENT_PANEL_SCALE_FACTOR, 115);
+                Settings.System.RECENT_PANEL_SCALE_FACTOR, 90);
         mRecentPanelScale.setValue(recentScale);
 
         final int recentExpandedMode = Settings.System.getInt(getContext().getContentResolver(),

@@ -32,13 +32,13 @@
         android:key="volume_keys_control_media_stream"
         android:title="@string/volume_keys_control_media_stream_title"
         android:summary="@string/volume_keys_control_media_stream_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
         android:title="@string/volume_rocker_music_controls_title"
         android:summary="@string/volume_rocker_music_controls_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"

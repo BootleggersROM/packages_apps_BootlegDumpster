@@ -98,7 +98,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         mBatteryPercentage = (ListPreference) findPreference(BATTERY_PERCENT);
         int showPercent = Settings.System.getInt(resolver,
-                Settings.System.SHOW_BATTERY_PERCENT, 1);
+                Settings.System.SHOW_BATTERY_PERCENT, 0);
         mBatteryPercentage.setValue(Integer.toString(showPercent));
         int valueIndex = mBatteryPercentage.findIndexOfValue(String.valueOf(showPercent));
         mBatteryPercentage.setSummary(mBatteryPercentage.getEntries()[valueIndex]);

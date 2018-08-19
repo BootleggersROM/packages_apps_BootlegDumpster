@@ -53,7 +53,7 @@ public class Headset extends SettingsPreferenceFragment implements
 
         mLaunchPlayerHeadsetConnection = (ListPreference) findPreference(HEADSET_CONNECT_PLAYER);
         int mLaunchPlayerHeadsetConnectionValue = Settings.System.getIntForUser(resolver,
-                Settings.System.HEADSET_CONNECT_PLAYER, 4, UserHandle.USER_CURRENT);
+                Settings.System.HEADSET_CONNECT_PLAYER, 0, UserHandle.USER_CURRENT);
         mLaunchPlayerHeadsetConnection.setValue(Integer.toString(mLaunchPlayerHeadsetConnectionValue));
         mLaunchPlayerHeadsetConnection.setSummary(mLaunchPlayerHeadsetConnection.getEntry());
         mLaunchPlayerHeadsetConnection.setOnPreferenceChangeListener(this);

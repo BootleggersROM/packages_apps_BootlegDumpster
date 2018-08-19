@@ -63,20 +63,20 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
 
         mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
         mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 0)));
+                getContentResolver(), Settings.System.LOCK_CLOCK_FONTS, 21)));
         mLockClockFonts.setSummary(mLockClockFonts.getEntry());
         mLockClockFonts.setOnPreferenceChangeListener(this);
 
         mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
         mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.LOCK_DATE_FONTS, 8)));
+                getContentResolver(), Settings.System.LOCK_DATE_FONTS, 4)));
         mLockDateFonts.setSummary(mLockDateFonts.getEntry());
         mLockDateFonts.setOnPreferenceChangeListener(this);
 
         mLockOwnerFonts = (ListPreference) findPreference(LOCK_OWNER_FONTS);
         if (Utils.isLockOwnerInfo(getActivity())) {
             mLockOwnerFonts.setValue(String.valueOf(Settings.System.getInt(
-                    getContentResolver(), Settings.System.LOCK_OWNER_FONTS, 8)));
+                    getContentResolver(), Settings.System.LOCK_OWNER_FONTS, 4)));
             mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
             mLockOwnerFonts.setOnPreferenceChangeListener(this);
         } else {
