@@ -46,11 +46,17 @@
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >
 
+        <SwitchPreference
+            android:key="button_brightness_sw"
+            android:title="@string/button_brightness_sw_title"
+            android:persistent="false" />
+
         <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
             android:key="button_brightness"
             android:title="@string/button_brightness_title"
             android:max="255"
             settings:min="0"
+            android:dependency="button_brightness_sw"
             settings:units=""
             android:persistent="false" />
 
@@ -59,6 +65,7 @@
             android:entries="@array/backlight_timeout_entries"
             android:entryValues="@array/backlight_timeout_values"
             android:key="backlight_timeout"
+            android:dependency="button_brightness_sw"
             android:persistent="false"
             android:title="@string/backlight_timeout_title" />
 
