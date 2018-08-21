@@ -41,13 +41,13 @@
             android:fragment="com.bootleggers.dumpster.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
-        <!-- Navigation Bar
+        <!-- Navigation Bar -->
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
             android:summary="@string/navbar_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/> -->
+            android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Lock Screen -->
         <Preference

@@ -718,4 +718,10 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Navigation bar configs</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>
