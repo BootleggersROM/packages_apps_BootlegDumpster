@@ -1,4 +1,4 @@
-package com.nitrogen.settings.fragments;
+package com.bootleggers.dumpster.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -13,11 +13,11 @@ public class NotificationSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.nitrogen_settings_notifications);
+        addPreferencesFromResource(R.xml.bootleg_dumpster_notifications);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
+        return MetricsProto.MetricsEvent.BOOTLEG;
     }
 }

@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.nitrogen.settings.preferences;
+package com.bootleggers.dumpster.preferences;
 
 import android.app.Activity;
 import android.content.Context;
@@ -39,7 +39,7 @@ import android.view.Surface;
 import android.view.WindowManager;
 
 public final class Utils {
-    private static final String TAG = "NitrogenSettingsUtils";
+    private static final String TAG = "BootlegDumpsterUtils";
 
     // Device types
     private static final int DEVICE_PHONE = 0;
