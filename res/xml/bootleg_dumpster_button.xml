@@ -30,4 +30,28 @@
     
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="vol_misc_category"
+        android:title="@string/misc_title">
+
+         <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="sysui_volume_down_silent"
+            android:title="@string/volbtn_down_zen_title"
+            android:summary="@string/volbtn_down_zen_summary"
+            android:defaultValue="true"/>
+
+         <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="sysui_volume_up_silent"
+            android:title="@string/volbtn_up_zen_title"
+            android:summary="@string/volbtn_up_zen_summary"
+            android:defaultValue="true" />
+
+         <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="sysui_show_full_zen"
+            android:title="@string/vol_zen_title"
+            android:summary="@string/vol_zen_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
