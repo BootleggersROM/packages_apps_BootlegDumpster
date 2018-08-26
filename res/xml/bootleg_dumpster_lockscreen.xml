@@ -18,4 +18,16 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="lockscreen_ui_stuff"
+        android:title="@string/cat_general_ui">
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_charging_current"
+        android:title="@string/lockscreen_charging_current_title"
+        android:summary="@string/lockscreen_charging_current_summary"
+        android:defaultValue="false" />
+
+     </PreferenceCategory>
+
 </PreferenceScreen>
