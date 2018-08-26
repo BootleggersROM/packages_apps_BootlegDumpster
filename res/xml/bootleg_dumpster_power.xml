@@ -78,6 +78,12 @@
         android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="true" />
 
+    <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+        android:key="lockscreen_enable_power_menu"
+        android:title="@string/lockscreen_enable_power_menu_title"
+        android:summary="@string/lockscreen_enable_power_menu_summary"
+        android:defaultValue="true" />
+
      </PreferenceCategory>
 
 </PreferenceScreen>
