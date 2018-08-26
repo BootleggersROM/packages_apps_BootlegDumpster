@@ -124,4 +124,8 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
+    <!-- Preferences Categories -->
+    <string name="cat_general_ui">UI tweaks</string>
+    <string name="cat_general_system">System related tweaks</string>
+
 </resources>
