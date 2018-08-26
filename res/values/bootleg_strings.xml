@@ -128,6 +128,7 @@
     <string name="cat_general_ui">UI tweaks</string>
     <string name="cat_general_system">System related tweaks</string>
     <string name="cat_powermenu_items">Power menu items</string>
+    <string name="cat_volume_keys">Volume keys</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
@@ -152,5 +153,9 @@
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Charging info</string>
     <string name="lockscreen_charging_current_summary">Display negociated charger max current and voltage on lockscreen</string>
+
+    <!-- Volume swap buttons -->	
+    <string name="swap_volume_buttons_title">Reorient volume keys</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
 
 </resources>
