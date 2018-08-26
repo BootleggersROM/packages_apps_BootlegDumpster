@@ -73,13 +73,13 @@
             android:fragment="com.bootleggers.dumpster.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
-        <!-- Power Menu 
+        <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title" 
             android:summary="@string/powermenu_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>-->
+            android:icon="@drawable/ic_settings_powermenu"/>
 
         <!-- Animations -->
         <Preference
