@@ -18,4 +18,16 @@
 	android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="misc_app_stuff"
+        android:title="@string/misc_title">
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="toast_icon"
+        android:title="@string/toast_icon_title"
+        android:summary="@string/toast_icon_summary"
+        android:defaultValue="false" />
+
+     </PreferenceCategory>
+
 </PreferenceScreen>

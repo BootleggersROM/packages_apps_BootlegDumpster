@@ -129,6 +129,7 @@
     <string name="cat_general_system">System related tweaks</string>
     <string name="cat_powermenu_items">Power menu items</string>
     <string name="cat_volume_keys">Volume keys</string>
+    <string name="cat_misc_app">App related</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
@@ -172,5 +173,9 @@
     <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
     <string name="vol_zen_title">Do not disturb switch</string>
     <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>
+
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Toast app icon</string>
+    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
 
 </resources>
