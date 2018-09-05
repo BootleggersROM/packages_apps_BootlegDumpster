@@ -388,4 +388,8 @@
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
 
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+
 </resources>
