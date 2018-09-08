@@ -23,6 +23,19 @@
         android:title="@string/cat_general_ui">
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_weather_enabled"
+        android:title="@string/lockscreen_weather_title"
+        android:summary="@string/lockscreen_weather_summary"
+        android:defaultValue="true" />
+
+    <Preference
+        android:key="omnijaws_settings"
+        android:title="@string/weather_title"
+        android:summary="@string/weather_summary"
+        android:dependency="lockscreen_weather_enabled"
+        android:fragment="com.bootleggers.dumpster.external.OmniJawsSettings" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="lock_screen_custom_notif"
         android:title="@string/lock_screen_custom_notif_title"
         android:summary="@string/lock_screen_custom_notif_summary"
