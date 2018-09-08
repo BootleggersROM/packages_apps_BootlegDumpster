@@ -18,4 +18,15 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/statusbar_title">
 
+    <PreferenceCategory
+        android:key="statusbar_clock_cat"
+        android:title="@string/status_bar_items_category_title">
+
+        <Preference
+            android:title="@string/status_bar_clock_date_title"
+            android:summary="@string/status_bar_clock_date_summary"
+            android:fragment="com.bootleggers.dumpster.external.StatusbarClockDateSettings" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
