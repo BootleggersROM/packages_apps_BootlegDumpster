@@ -207,6 +207,19 @@ public final class Utils {
         return isPackageInstalled(context, pkg, true);
     }
 
+    public static boolean isPackageAvailable(Context context, String packageName) {
+        Context mContext = context;
+        final PackageManager pm = mContext.getPackageManager();
+        try {
+            pm.getPackageInfo(packageName, PackageManager.GET_ACTIVITIES);
+            int enabled = pm.getApplicationEnabledSetting(packageName);
+            return enabled != PackageManager.COMPONENT_ENABLED_STATE_DISABLED &&
+                enabled != PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER;
+        } catch (NameNotFoundException e) {
+            return false;
+        }
+    }
+
     /**
      * Locks the activity orientation to the current device orientation
      * @param activity
