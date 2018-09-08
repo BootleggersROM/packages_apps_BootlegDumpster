@@ -326,4 +326,18 @@
     <string name="lockscreen_shortcut_qr">QR code scanner</string>
     <string name="lockscreen_shortcut_camera">Camera</string>
     <string name="lockscreen_shortcut_none">None</string>
+
+    <!-- Omni Jaws -->
+    <string name="category_weather_title">Weather</string>
+    <string name="weather_title">Weather settings</string>
+    <string name="weather_summary">OmniJaws weather configs</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="header_weather_title">Header view weather</string>
+    <string name="header_weather_summary">Enable notification panel header weather display</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Condition icon pack is used in lock screen</string>
+    <string name="lockscreen_weather_title">Show weather condition</string>
+    <string name="lockscreen_weather_summary">Show current weather condition and temperature</string>
 </resources>

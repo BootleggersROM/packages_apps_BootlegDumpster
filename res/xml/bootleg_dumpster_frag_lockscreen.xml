@@ -37,6 +37,25 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="lockscreen_weather_cat"
+        android:title="@string/category_weather_title">
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_enabled"
+            android:title="@string/lockscreen_weather_title"
+            android:summary="@string/lockscreen_weather_summary"
+            android:defaultValue="true" />
+    
+        <Preference
+            android:key="omnijaws_settings"
+            android:title="@string/weather_title"
+            android:summary="@string/weather_summary"
+            android:dependency="lockscreen_weather_enabled"
+            android:fragment="com.bootleggers.dumpster.external.OmniJawsSettings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="lock_misc_cat"
         android:title="@string/category_misc_title">
 
