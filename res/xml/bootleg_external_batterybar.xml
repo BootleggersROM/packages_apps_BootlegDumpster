@@ -21,18 +21,21 @@
         <ListPreference
             android:key="battery_bar_list"
             android:title="@string/battery_bar_location"
+            android:summary="%s"
             android:entries="@array/battery_bar_entries"
             android:entryValues="@array/battery_bar_values" />
 
         <ListPreference
             android:key="battery_bar_style"
             android:title="@string/battery_bar_style_title"
+            android:summary="%s"
             android:entries="@array/battery_bar_style_entries"
             android:entryValues="@array/battery_bar_style_values" />
 
         <ListPreference
             android:key="battery_bar_thickness"
             android:title="@string/battery_bar_thickness_title"
+            android:summary="%s"
             android:entries="@array/battery_bar_thickness_entries"
             android:entryValues="@array/battery_bar_thickness_values" />
 
@@ -49,7 +52,7 @@
             android:dialogTitle="@string/battery_bar_color" />
 
         <com.bootleggers.support.colorpicker.ColorPickerPreference
-            android:key="battery_bar_battery_low_color"
+            android:key="battery_bar_battery_low_color_warning"
             android:title="@string/battery_bar_battery_low_color"
             android:defaultValue="0xFFFF6600"
             android:dialogTitle="@string/battery_bar_color" />
@@ -58,5 +61,23 @@
             android:key="battery_bar_animate"
             android:title="@string/battery_bar_animate_title"
             android:summary="@string/battery_bar_animate_summary" />
+
+
+        <SwitchPreference
+            android:key="battery_bar_use_gradient_color"
+            android:title="@string/battery_bar_use_gradient_color"
+            android:summary="@string/battery_bar_gradient_color_summary" />
+
+        <com.bootleggers.support.colorpicker.ColorPickerPreference
+            android:key="battery_bar_low_color"
+            android:title="@string/battery_bar_low_color"
+            android:defaultValue="0xffff0000"
+            android:dialogTitle="@string/battery_bar_color" />
+
+        <com.bootleggers.support.colorpicker.ColorPickerPreference
+            android:key="battery_bar_high_color"
+            android:title="@string/battery_bar_high_color"
+            android:defaultValue="0xff00ff00"
+            android:dialogTitle="@string/battery_bar_color" />
 
 </PreferenceScreen>
