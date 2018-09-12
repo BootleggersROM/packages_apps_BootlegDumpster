@@ -29,4 +29,15 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/statusbar_battery_category_title">
+
+        <Preference
+            android:key="batterybar_settings"
+            android:title="@string/battery_bar_title"
+            android:summary="@string/battery_bar_summary"
+            android:fragment="com.bootleggers.dumpster.external.BatterybarSettings" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
