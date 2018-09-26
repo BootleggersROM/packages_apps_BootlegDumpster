@@ -79,6 +79,12 @@
         android:key="misc_app_stuff"
         android:title="@string/misc_title">
 
+    <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+        android:key="allow_signature_fake"
+        android:title="@string/allow_signature_fake"
+        android:summary="@string/allow_signature_fake_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="display_cutout_force_fullscreen_settings"
         android:title="@string/display_cutout_force_fullscreen_title"
