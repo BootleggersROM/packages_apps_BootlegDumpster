@@ -28,6 +28,13 @@
         android:key="misc_settings_related"
         android:title="@string/misc_settings_cat_title">
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="enable_conditions"
+        android:title="@string/dashboard_conditions_title"
+        android:summaryOn="@string/summary_dashboard_conditions_enabled"
+        android:summaryOff="@string/summary_dashboard_conditions_disabled"
+        android:defaultValue="true" />
+
      </PreferenceCategory>
 
     <PreferenceCategory
