@@ -25,6 +25,12 @@
         android:defaultValue="true" />
 
     <PreferenceCategory
+        android:key="misc_settings_related"
+        android:title="@string/misc_settings_cat_title">
+
+     </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="misc_app_stuff"
         android:title="@string/misc_title">
 

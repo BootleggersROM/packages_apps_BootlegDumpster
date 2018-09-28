@@ -141,6 +141,7 @@
     <string name="cat_misc_app">App related</string>
     <string name="anim_general_category">Overall Animations</string>
     <string name="anim_system_category">System related</string>
+    <string name="misc_settings_cat_title">Settings app related</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
