@@ -66,6 +66,7 @@
     <string name="bootleg_ex_summary_addons">Recommended list of Themes and Mods from our part (a.k.a honest advertisement)</string>
     <string name="bootleg_ex_title_sharemsg">Share our ROM</string>
     <string name="bootleg_ex_summary_sharemsg">Make people know about us and our work! We\'ll really appreciate it.</string>
+    <string name="bootleg_ab_madstinky_test">It seems that you\'re running a Mad Stinky build, that means that you\'re using a totally experimental build, and obviously bugs and issues are expected. If the bugs you\'re facing aren\'t listed on our post about this kind of builds, please report it to our Telegram group or, in case that\'s a device-related issue, report it who did the build.</string>
 
     <!-- More about us strings -->
     <string name="bootleg_pref_moarstuff_title">More about us?</string>

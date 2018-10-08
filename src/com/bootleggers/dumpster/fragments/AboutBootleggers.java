@@ -83,6 +83,11 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
 
         // Add the new preference summary
         prefThanks.setSummary(String.valueOf(bootlegFMaintainer));
+
+        /*Add a nice footer message about Mad Stinky builds*/
+        if (bootlegVersion.contains("MadStinky")) {
+            mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.bootleg_ab_madstinky_test);
+        }
     }
 
 
