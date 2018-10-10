@@ -19,11 +19,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <ListPreference
-        android:key="recents_component"
+        android:key="recents_layout_style"
         android:title="@string/recents_component_type_title"
         android:dialogTitle="@string/recents_component_type_title"
-        android:entries="@array/recents_component_type_title_entries"
+        android:entries="@array/recents_type_title_entries"
         android:defaultValue="0"
-        android:entryValues="@array/recents_component_type_title_values"/>
+        android:entryValues="@array/recents_type_title_values"/>
 
 </PreferenceScreen>
