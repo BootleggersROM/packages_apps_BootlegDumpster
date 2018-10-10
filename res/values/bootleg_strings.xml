@@ -580,4 +580,9 @@
     <string name="log_it_alert_title">What\'s this?</string>
     <string name="log_it_alert_faq">Maybe you\'re here and wondering \"What the hell is all this and what i have to send?\"\nWell, here\'s some info about the stuff you can send:\n\nLogcat: It\'s the way that Android outputs all system events, like errors, crashes, or even info about a process being run. Ideal for crashes and FCs.\n\nDmesg: It outputs some of the kernel messages, but filtering stuff that users may not care&#8230; if they do care\n\nKmesg: It\'s the same as Dmesg but without the filters, giving more info about all the kernel events. Ideal for random reboots.</string>
 
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Recents Style</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+
 </resources>
