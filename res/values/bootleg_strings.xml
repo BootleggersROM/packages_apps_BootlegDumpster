@@ -58,7 +58,7 @@
     <string name="bootleg_ab_summary_whoami">Bootleggers is a ROM packed with features and apps with the purpose of make your feel like 家. Hope you like it and enjoy our experience.</string>
     <string name="bootleg_ab_title_thankssec">Thank you list</string>
     <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project. Also, huge thanks to %s for bring it for %s.</string>
-    <string name="bootleg_ab_summary_whoami_unknown">... somebody who didn\'t declared properly who it is... </string>
+    <string name="bootleg_ab_summary_thanksclean">Touch here to see who made and inspired this project.</string>
     <string name="bootleg_pref_title_romextras">Extras and Addons</string>
     <string name="bootleg_ex_title_featurelist">Feature List</string>
     <string name="bootleg_ex_summary_featurelist">Check the current list of features on this build</string>

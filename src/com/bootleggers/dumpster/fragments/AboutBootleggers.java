@@ -51,13 +51,9 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener{
     
     private static final String BTLG_ROM_SHARE = "bootleg_sharemsg";
-    private static final String BTLG_ROM_MUSICODE = "bootleg_aboutmusicode";
     private static final String TAG = "AboutBootleggers";
     private Preference prefThanks;
-    private Preference prefBuild;
-    private Preference prefMusicode;
     private PreferenceCategory prefBootlegInfo;
-    private Preference prefBootlegOTA;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -70,48 +66,23 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
         /** All main stuff we'll declare to check on build.prop **/
 
         String bootlegMaintainer = SystemProperties.get("ro.bootleggers.maintainer","Aidonnou");
-        String bootlegCodename = SystemProperties.get("ro.bootleggers.device","generic");
-        String bootlegBuildtype = SystemProperties.get("ro.bootleggers.releasetype","Unshishufied");
-        String bootlegMusicode = SystemProperties.get("ro.bootleggers.songcodename","Sample");
-        String bootlegBuildMeaning = "Aidonnou";
+        String bootlegCodename = SystemProperties.get("ro.bootleggers.device","dedvice");
+        String bootlegVersion = SystemProperties.get("ro.bootleggers.version_numer","DeadAndGone");
         String bootlegFMaintainer;
         String bootlegNoMaintainer = res.getString(R.string.bootleg_ab_summary_whoami_unknown);
 
         /** preference listing **/
         prefThanks = (Preference) findPreference("bootleg_thanku");
-        prefBuild = (Preference) findPreference("bootleg_aboutbuild");
-        prefMusicode = (Preference) findPreference("bootleg_aboutmusicode");
-        prefBootlegInfo = (PreferenceCategory) findPreference("pref_bootleg_romstuff");
-        prefBootlegOTA = (Preference) findPreference("update_settings");
-        
-        /*This will check about the build info stuff*/
-        
-        if (bootlegBuildtype.equalsIgnoreCase("Unshishufied")) {
-            bootlegBuildMeaning = "Unofficial";
-            prefBootlegInfo.removePreference(prefBootlegOTA);
-        } else if (bootlegBuildtype.equalsIgnoreCase("Shishufied")) {
-            bootlegBuildMeaning = "Official";
-        } else if (bootlegBuildtype.equalsIgnoreCase("Shishu")) {
-            bootlegBuildMeaning = "Full of trash";
-        } else {
-            prefBootlegInfo.removePreference(prefBootlegOTA);
-            bootlegBuildMeaning = "Aidonnou";
-        }
 
         // Check if maintainer name isn't aidonnou, then it will show it
         if (bootlegMaintainer.equalsIgnoreCase("Aidonnou") || bootlegMaintainer.equalsIgnoreCase(null)) {
             bootlegFMaintainer = res.getString(R.string.bootleg_ab_summary_thankssec, bootlegNoMaintainer, bootlegCodename);
         } else {
-            bootlegFMaintainer = res.getString(R.string.bootleg_ab_summary_thankssec, bootlegMaintainer, bootlegCodename);
+            bootlegFMaintainer = res.getString(R.string.bootleg_ab_summary_thanksclean);
         }
-
-        String bootlegFBuildtype = res.getString(R.string.bootleg_ri_summary_buildtype, bootlegBuildtype, bootlegBuildMeaning);
-        String bootlegFMusical = res.getString(R.string.bootleg_ri_summary_musicode, bootlegMusicode);
 
         // Add the new preference summary
         prefThanks.setSummary(String.valueOf(bootlegFMaintainer));
-        prefBuild.setSummary(String.valueOf(bootlegFBuildtype));
-        prefMusicode.setSummary(String.valueOf(bootlegFMusical));
     }
 
 
@@ -126,8 +97,6 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
     public boolean onPreferenceTreeClick(Preference preference) {
         
         final PreferenceScreen prefScreen = getPreferenceScreen();
-        String bootlegMusicodeURL = SystemProperties.get("ro.bootleggers.songcodeurl","https://google.com");
-        prefMusicode = (Preference) findPreference("bootleg_aboutmusicode");
 
 
         if (preference.getKey().equals(BTLG_ROM_SHARE)) {
@@ -165,11 +134,6 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
             }
 
             startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
-            } else if (preference.getKey().equals(BTLG_ROM_MUSICODE)) {
-                if (String.valueOf(bootlegMusicodeURL) != null) {
-                    Intent intentSongReference = new Intent(Intent.ACTION_VIEW, Uri.parse(String.valueOf(bootlegMusicodeURL)));
-                    startActivity(intentSongReference);
-                }
             } else {
                 // If not handled, let preferences handle it.
                 return super.onPreferenceTreeClick(preference);
