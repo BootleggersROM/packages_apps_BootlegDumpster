@@ -69,34 +69,4 @@
             android:summary="@string/bootleg_ex_summary_sharemsg">
         </Preference>
     </PreferenceCategory>
-
-
-    <PreferenceCategory
-        android:title="@string/bootleg_pref_title_rominfo"
-        android:key="pref_bootleg_romstuff">
-
-        <!-- Updater -->
-    <Preference
-            android:key="update_settings"
-            android:title="@string/bootleg_ri_title_ota"
-            android:summary="@string/bootleg_ri_summary_ota">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.bootleggers.ota"
-                    android:targetClass="com.bootleggers.ota.MainActivity" />
-    </Preference>
-
-<!--    DUMPED BECAUSE OF THE POINTLESS OF I CAN'T SHOW STUFF FROM BUILD.PROP-->
-        <Preference
-            android:key="bootleg_aboutbuild"
-            android:title="@string/bootleg_ri_title_buildtype"
-            android:summary="@string/bootleg_ri_summary_buildtype">
-        </Preference> 
-
-    <Preference
-        android:key="bootleg_aboutmusicode"
-        android:title="@string/bootleg_ri_title_musicode"
-        android:summary="@string/bootleg_ri_summary_musicode">
-    </Preference>
-
-    </PreferenceCategory>
 </PreferenceScreen>
