@@ -67,18 +67,17 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
 
         String bootlegMaintainer = SystemProperties.get("ro.bootleggers.maintainer","Aidonnou");
         String bootlegCodename = SystemProperties.get("ro.bootleggers.device","dedvice");
-        String bootlegVersion = SystemProperties.get("ro.bootleggers.version_numer","DeadAndGone");
+        String bootlegVersion = SystemProperties.get("ro.bootleggers.version_number","DeadAndGone");
         String bootlegFMaintainer;
-        String bootlegNoMaintainer = res.getString(R.string.bootleg_ab_summary_whoami_unknown);
 
         /** preference listing **/
         prefThanks = (Preference) findPreference("bootleg_thanku");
 
         // Check if maintainer name isn't aidonnou, then it will show it
         if (bootlegMaintainer.equalsIgnoreCase("Aidonnou") || bootlegMaintainer.equalsIgnoreCase(null)) {
-            bootlegFMaintainer = res.getString(R.string.bootleg_ab_summary_thankssec, bootlegNoMaintainer, bootlegCodename);
-        } else {
             bootlegFMaintainer = res.getString(R.string.bootleg_ab_summary_thanksclean);
+        } else {
+            bootlegFMaintainer = res.getString(R.string.bootleg_ab_summary_thankssec, bootlegMaintainer, bootlegCodename);
         }
 
         // Add the new preference summary
