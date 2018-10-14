@@ -403,4 +403,10 @@
     <string name="lockscreen_weather_title">Show weather condition</string>
     <string name="lockscreen_weather_summary">Show current weather condition and temperature</string>
 
+    <!-- LockWeather Switches -->
+    <string name="lockscreen_weather_show_city_title">Show city name</string>
+    <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
+    <string name="lockscreen_weather_show_temp_title">Show temperature</string>
+    <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+
 </resources>

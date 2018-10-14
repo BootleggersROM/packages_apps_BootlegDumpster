@@ -36,6 +36,7 @@
             android:icon="@drawable/ic_info_outline_24dp"
             android:persistent="false"
             android:summary="@string/weather_icon_pack_info_title" />
+
 </PreferenceScreen>
 
 
