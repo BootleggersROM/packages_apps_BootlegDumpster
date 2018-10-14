@@ -28,6 +28,20 @@
         android:summary="@string/lockscreen_weather_summary"
         android:defaultValue="true" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_weather_show_city"
+        android:title="@string/lockscreen_weather_show_city_title"
+        android:summary="@string/lockscreen_weather_show_city_summary"
+        android:dependency="lockscreen_weather_enabled"
+        android:defaultValue="false" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_weather_show_temp"
+        android:title="@string/lockscreen_weather_show_temp_title"
+        android:summary="@string/lockscreen_weather_show_temp_summary"
+        android:dependency="lockscreen_weather_enabled"
+        android:defaultValue="true" />
+
     <Preference
         android:key="omnijaws_settings"
         android:title="@string/weather_title"
