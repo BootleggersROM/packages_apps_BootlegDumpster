@@ -22,6 +22,12 @@
         android:key="quickset_uiandstuff"
         android:title="@string/cat_general_ui">
 
+        <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="qs_brightness_position_bottom"
+            android:title="@string/qs_brightness_position_bottom_title"
+            android:summary="@string/qs_brightness_position_bottom_summary"
+            android:defaultValue="false" />
+
     <ListPreference
         android:key="qs_tile_style"
         android:title="@string/qs_tile_style_title"
