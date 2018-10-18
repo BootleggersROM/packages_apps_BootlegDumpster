@@ -95,4 +95,16 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="lock_misc_cat"
+        android:title="@string/misc_title">
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_lockscreen"
+        android:title="@string/double_tap_to_sleep_lockscreen_title"
+        android:summary="@string/double_tap_to_sleep_lockscreen_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
