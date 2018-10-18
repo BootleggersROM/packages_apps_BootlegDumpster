@@ -634,4 +634,26 @@
         <item>3</item>
     </string-array>
 
+    <!-- QS tile styles -->
+    <string-array name="qs_selector_entries" translatable="false">
+        <item>@string/qstile_default</item>
+        <item>@string/qstile_justicons</item>
+        <item>@string/qstile_inkdrop</item>
+        <item>@string/qstile_shishu_nights</item>
+        <item>@string/qstile_circle_gradient</item>
+        <item>@string/qstile_wavey</item>
+        <item>@string/qstile_circle_dualtone</item>
+        <item>@string/qstile_memedo_square</item>
+    </string-array>
+     <string-array name="qs_selector_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
 </resources>

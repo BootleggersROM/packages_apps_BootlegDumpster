@@ -587,4 +587,15 @@
     <string name="recents_grid">Grid</string>
     <string name="recents_go">Android Go</string>
 
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qstile_default">Circle (default)</string>
+    <string name="qstile_justicons">Icons without circle</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_shishu_nights">Shishu Nights</string>
+    <string name="qstile_circle_gradient">Circle with Gradient</string>
+    <string name="qstile_wavey">Wavey</string>
+    <string name="qstile_circle_dualtone">Circle with Dual Tone</string>
+    <string name="qstile_memedo_square">The Memedo Square</string>
+
 </resources>

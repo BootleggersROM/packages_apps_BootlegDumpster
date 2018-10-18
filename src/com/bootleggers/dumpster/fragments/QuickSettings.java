@@ -27,6 +27,9 @@ import java.util.ArrayList;
 public class QuickSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private ListPreference mQSTileStyle;
+    private static final String QS_TILE_STYLE = "qs_tile_style";
+
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -37,11 +40,25 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
 
+        // set qs tile style
+        mQSTileStyle = (ListPreference) findPreference(QS_TILE_STYLE);
+        int style = Settings.System.getInt(resolver,
+                Settings.System.QS_TILE_STYLE, 0);
+        mQSTileStyle.setValue(String.valueOf(style));
+        mQSTileStyle.setSummary(mQSTileStyle.getEntry());
+        mQSTileStyle.setOnPreferenceChangeListener(this);
         }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-
+        if (preference == mQSTileStyle) {
+            int style = Integer.valueOf((String) newValue);
+            int index = mQSTileStyle.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.QS_TILE_STYLE, style);
+            mQSTileStyle.setSummary(mQSTileStyle.getEntries()[index]);
+            return true;
+        }
         return false;
     }
 
