@@ -25,7 +25,8 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.Utils;
+import com.bootleggers.dumpster.extra.Utils;
+import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
 import android.util.Log;
 
 import java.util.List;
@@ -41,6 +42,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String PREF_CLOCK_SHOW_SECONDS = "status_bar_clock_seconds";
     private static final String SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
+    private static final String USE_OLD_MOBILETYPE = "use_old_mobiletype";
     private static final int STATUS_BAR_BATTERY_STYLE_TEXT = 3;
     private static final int STATUS_BAR_BATTERY_STYLE_HIDDEN = 4;
 
@@ -48,6 +50,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mShowSeconds;
     private ListPreference mStatusBarBatteryShowPercent;
     private ListPreference mStatusBarBattery;
+    private SystemSettingSwitchPreference mOldMobiletype;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -57,6 +60,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         PreferenceScreen prefSet = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+
+        mOldMobiletype = (SystemSettingSwitchPreference) findPreference(USE_OLD_MOBILETYPE);
 
         mStatusBarClock = (SwitchPreference) findPreference(PREF_STATUS_BAR_CLOCK);
         mStatusBarClock.setChecked((Settings.System.getInt(
@@ -127,6 +132,15 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         } else {
             mStatusBarBatteryShowPercent.setEnabled(true);
         }
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mOldMobiletype) {
+            Utils.restartSystemUi(getContext());
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override
