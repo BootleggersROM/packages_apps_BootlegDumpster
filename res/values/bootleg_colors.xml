@@ -16,9 +16,9 @@
  -->
 
 <resources>
-    <dimen name="picker_circle_preview_size">26dp</dimen>
-    <dimen name="alert_dialog_padding_material">20dp</dimen>
-    <!-- Shortcut picker -->
-    <dimen name="shortcut_picker_left_padding">70dip</dimen>
-    <dimen name="qs_styles_layout_opacity" format="float">0.30</dimen>
+    <!-- QS tile styles -->
+    <color name="qs_tile_background_active">@*android:color/accent_device_default_light</color>
+    <color name="qs_tile_background_inactive">#FFDCDCDC</color>
+    <color name="qs_tile_icon_active">#FFFFFFFF</color>
+    <color name="qs_tile_icon_inactive">#FF656565</color>
 </resources>
