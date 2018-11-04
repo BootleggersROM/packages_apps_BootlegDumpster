@@ -600,6 +600,11 @@
     <string name="qstile_wavey">Wavey</string>
     <string name="qstile_circle_dualtone">Circle with Dual Tone</string>
     <string name="qstile_memedo_square">The Memedo Square</string>
+    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qstile_ninja">Ninja</string>
+    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_shishuink">Shishu Ink</string>
+    <string name="qstile_attemptmountain">An attempt of a mountain</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_position_bottom_title">Brightness slider on bottom</string>
