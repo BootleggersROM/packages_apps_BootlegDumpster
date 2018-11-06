@@ -36,10 +36,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCK_DATE_FONTS = "lock_date_fonts";
     private static final String LOCK_OWNER_FONTS = "lock_owner_fonts";
+    private static final String WEATHER_UNIT = "weather_lockscreen_unit";
 
     ListPreference mLockClockFonts;
     ListPreference mLockDateFonts;
     ListPreference mLockOwnerFonts;
+    ListPreference mWeatherUnit;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,6 +69,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
                 getContentResolver(), Settings.System.LOCK_OWNER_FONTS, 8)));
         mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
         mLockOwnerFonts.setOnPreferenceChangeListener(this);
+
+        mWeatherUnit = (ListPreference) findPreference(WEATHER_UNIT);
+        mWeatherUnit.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.WEATHER_LOCKSCREEN_UNIT, 0)));
+        mWeatherUnit.setSummary(mWeatherUnit.getEntry());
+        mWeatherUnit.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -88,6 +96,12 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
                     Integer.valueOf((String) newValue));
             mLockOwnerFonts.setValue(String.valueOf(newValue));
             mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
+            return true;
+        } else if (preference == mWeatherUnit) {
+            Settings.System.putInt(getContentResolver(), Settings.System.WEATHER_LOCKSCREEN_UNIT,
+                    Integer.valueOf((String) newValue));
+            mWeatherUnit.setValue(String.valueOf(newValue));
+            mWeatherUnit.setSummary(mWeatherUnit.getEntry());
             return true;
         }
         return false;
