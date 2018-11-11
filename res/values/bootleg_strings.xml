@@ -828,4 +828,11 @@
     <string name="force_ambient_for_media_title">Show music ticker</string>
     <string name="force_ambient_for_media_summary">Shows the music you\'re playing on your device on Ambient Display</string>
 
+    <!-- Recents icon pack -->
+    <string name="recents_icon_pack_title">Icon Pack</string>
+    <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string>
+    <string name="no_iconpacks_summary">No icon packs installed</string>
+    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
+    <string name="default_iconpack_title">Default icons</string>
+
 </resources>
