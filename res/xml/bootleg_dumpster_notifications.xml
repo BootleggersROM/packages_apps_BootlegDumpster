@@ -73,6 +73,12 @@
         android:dependency="heads_up_notifications_enabled"
         android:fragment="com.bootleggers.dumpster.external.HeadsUpSettings" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
