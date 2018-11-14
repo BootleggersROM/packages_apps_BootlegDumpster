@@ -80,17 +80,47 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
     }
 
     private void initView() {
-        LinearLayout square = mView.findViewById(R.id.QsTileStyleSquare);
-        setLayout("1", square);
-
-        LinearLayout roundedsquare = mView.findViewById(R.id.QsTileStyleRoundedSquare);
-        setLayout("2", roundedsquare);
-
         LinearLayout squircle = mView.findViewById(R.id.QsTileStyleSquircle);
-        setLayout("3", squircle);
+        setLayout("1", squircle);
 
         LinearLayout teardrop = mView.findViewById(R.id.QsTileStyleTearDrop);
-        setLayout("4", teardrop);
+        setLayout("2", teardrop);
+
+        LinearLayout deletround = mView.findViewById(R.id.QsTileStyleJustIcons);
+        setLayout("3", deletround);
+
+        LinearLayout inktober = mView.findViewById(R.id.QsTileStyleInkDrop);
+        setLayout("4", inktober);
+
+        LinearLayout shishunights = mView.findViewById(R.id.QsTileStyleShishuNights);
+        setLayout("5", shishunights);
+
+        LinearLayout circlegradient = mView.findViewById(R.id.QsTileStyleCircleGradient);
+        setLayout("6", circlegradient);
+
+        LinearLayout wavey = mView.findViewById(R.id.QsTileStyleWavey);
+        setLayout("7", wavey);
+
+        LinearLayout circledualtone = mView.findViewById(R.id.QsTileStyleCircleDualTone);
+        setLayout("8", circledualtone);
+
+        LinearLayout memedosquare = mView.findViewById(R.id.QsTileStyleMemedoSquare);
+        setLayout("9", memedosquare);
+
+        LinearLayout pokesign = mView.findViewById(R.id.QsTileStylePokesign);
+        setLayout("10", pokesign);
+
+        LinearLayout ninja = mView.findViewById(R.id.QsTileStyleNinja);
+        setLayout("11", ninja);
+
+        LinearLayout dottedcircle = mView.findViewById(R.id.QsTileStyleDottedCircle);
+        setLayout("12", dottedcircle);
+
+        LinearLayout shishuink = mView.findViewById(R.id.QsTileStyleShishuInk);
+        setLayout("13", shishuink);
+
+        LinearLayout attemptmountain = mView.findViewById(R.id.QsTileStyleAttemptMountain);
+        setLayout("14", attemptmountain);
     }
 
     @Override
@@ -135,40 +165,250 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
     }
 
     private void setAlpha(Resources res) {
-        LinearLayout square = mView.findViewById(R.id.QsTileStyleSquare);
-        LinearLayout roundedsquare = mView.findViewById(R.id.QsTileStyleRoundedSquare);
         LinearLayout squircle = mView.findViewById(R.id.QsTileStyleSquircle);
         LinearLayout teardrop = mView.findViewById(R.id.QsTileStyleTearDrop);
+        LinearLayout deletround = mView.findViewById(R.id.QsTileStyleJustIcons);
+        LinearLayout inktober = mView.findViewById(R.id.QsTileStyleInkDrop);
+        LinearLayout shishunights = mView.findViewById(R.id.QsTileStyleShishuNights);
+        LinearLayout circlegradient = mView.findViewById(R.id.QsTileStyleCircleGradient);
+        LinearLayout wavey = mView.findViewById(R.id.QsTileStyleWavey);
+        LinearLayout circledualtone = mView.findViewById(R.id.QsTileStyleCircleDualTone);
+        LinearLayout memedosquare = mView.findViewById(R.id.QsTileStyleMemedoSquare);
+        LinearLayout pokesign = mView.findViewById(R.id.QsTileStylePokesign);
+        LinearLayout ninja = mView.findViewById(R.id.QsTileStyleNinja);
+        LinearLayout dottedcircle = mView.findViewById(R.id.QsTileStyleDottedCircle);
+        LinearLayout shishuink = mView.findViewById(R.id.QsTileStyleShishuInk);
+        LinearLayout attemptmountain = mView.findViewById(R.id.QsTileStyleAttemptMountain);
 
         TypedValue typedValue = new TypedValue();
         res.getValue(R.dimen.qs_styles_layout_opacity, typedValue, true);
         float mLayoutOpacity = typedValue.getFloat();
 
         if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 1 )) {
-            square.setAlpha((float) 1.0);
-            roundedsquare.setAlpha(mLayoutOpacity);
-            squircle.setAlpha(mLayoutOpacity);
+            squircle.setAlpha((float) 1.0);
             teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 2 )) {
-            square.setAlpha(mLayoutOpacity);
-            roundedsquare.setAlpha((float) 1.0);
             squircle.setAlpha(mLayoutOpacity);
-            teardrop.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha((float) 1.0);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 3 )) {
-            square.setAlpha(mLayoutOpacity);
-            roundedsquare.setAlpha(mLayoutOpacity);
-            squircle.setAlpha((float) 1.0);
-            teardrop.setAlpha(mLayoutOpacity);
-        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 4 )) {
-            square.setAlpha(mLayoutOpacity);
-            roundedsquare.setAlpha(mLayoutOpacity);
             squircle.setAlpha(mLayoutOpacity);
-            teardrop.setAlpha((float) 1.0);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha((float) 1.0);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 4 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha((float) 1.0);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 5 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha((float) 1.0);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 6 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha((float) 1.0);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 7 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha((float) 1.0);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 8 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha((float) 1.0);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 9 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha((float) 1.0);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 10 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha((float) 1.0);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 11 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha((float) 1.0);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 12 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha((float) 1.0);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 13 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha((float) 1.0);
+            attemptmountain.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 14 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha((float) 1.0);
         } else {
-            square.setAlpha((float) 1.0);
-            roundedsquare.setAlpha((float) 1.0);
             squircle.setAlpha((float) 1.0);
             teardrop.setAlpha((float) 1.0);
+            deletround.setAlpha((float) 1.0);
+            inktober.setAlpha((float) 1.0);
+            shishunights.setAlpha((float) 1.0);
+            circlegradient.setAlpha((float) 1.0);
+            wavey.setAlpha((float) 1.0);
+            circledualtone.setAlpha((float) 1.0);
+            memedosquare.setAlpha((float) 1.0);
+            pokesign.setAlpha((float) 1.0);
+            ninja.setAlpha((float) 1.0);
+            dottedcircle.setAlpha((float) 1.0);
+            shishuink.setAlpha((float) 1.0);
+            attemptmountain.setAlpha((float) 1.0);
         }
     }
 }

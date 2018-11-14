@@ -22,10 +22,10 @@
     <LinearLayout
         android:id="@+id/LinearLayout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="450dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_gravity="center"
+        android:layout_gravity="top|center_horizontal"
         android:orientation="vertical">
 
         <HorizontalScrollView
@@ -40,10 +40,20 @@
                 android:columnCount="1"
                 android:columnOrderPreserved="true">
 
-                <include layout="@layout/qs_styles_square" />
-                <include layout="@layout/qs_styles_roundedsquare" />
                 <include layout="@layout/qs_styles_squircle" />
                 <include layout="@layout/qs_styles_teardrop" />
+                <include layout="@layout/qs_styles_deletround" />
+                <include layout="@layout/qs_styles_inktober" />
+                <include layout="@layout/qs_styles_shishunights" />
+                <include layout="@layout/qs_styles_circlegradient" />
+                <include layout="@layout/qs_styles_wavey" />
+                <include layout="@layout/qs_styles_circledualtone" />
+                <include layout="@layout/qs_styles_memedosquare" />
+                <include layout="@layout/qs_styles_pokesign" />
+                <include layout="@layout/qs_styles_ninja" />
+                <include layout="@layout/qs_styles_dottedcircle" />
+                <include layout="@layout/qs_styles_shishuink" />
+                <include layout="@layout/qs_styles_attemptmountain" />
 
             </GridLayout>
         </HorizontalScrollView>

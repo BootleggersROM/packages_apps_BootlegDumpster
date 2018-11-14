@@ -22,8 +22,8 @@
     <dimen name="shortcut_picker_left_padding">70dip</dimen>
 
     <!-- QS Tile Styles -->
-    <dimen name="qs_styles_layout_opacity" format="float">0.30</dimen>
-    <dimen name="qs_styles_layout_background_size">70dp</dimen>
-    <dimen name="qs_styles_layout_foreground_size">30dp</dimen>
+    <dimen name="qs_styles_layout_opacity" format="float">0.36</dimen>
+    <dimen name="qs_styles_layout_background_size">72dp</dimen>
+    <dimen name="qs_styles_layout_foreground_size">24dp</dimen>
     <dimen name="qs_styles_tile_preview_spacing">15dp</dimen>
 </resources>
