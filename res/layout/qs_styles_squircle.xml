@@ -26,16 +26,16 @@
         android:layout_gravity="center">
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:padding="10dp"
+            android:layout_width="@dimen/qs_styles_layout_background_size"
+            android:layout_height="@dimen/qs_styles_layout_background_size"
+            android:padding="@dimen/qs_styles_tile_preview_spacing"
             android:src="@drawable/qs_styles_shape_squircle"
             android:tint="@color/qs_tile_background_active"
             tools:ignore="ContentDescription" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/qs_styles_layout_foreground_size"
+            android:layout_height="@dimen/qs_styles_layout_foreground_size"
             android:layout_centerInParent="true"
             android:src="@drawable/qs_styles_wifi"
             android:tint="@color/qs_tile_icon_active"
@@ -48,16 +48,16 @@
         android:layout_gravity="center">
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:padding="10dp"
+            android:layout_width="@dimen/qs_styles_layout_background_size"
+            android:layout_height="@dimen/qs_styles_layout_background_size"
+            android:padding="@dimen/qs_styles_tile_preview_spacing"
             android:src="@drawable/qs_styles_shape_squircle"
             android:tint="@color/qs_tile_background_inactive"
             tools:ignore="ContentDescription" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/qs_styles_layout_foreground_size"
+            android:layout_height="@dimen/qs_styles_layout_foreground_size"
             android:layout_centerInParent="true"
             android:src="@drawable/qs_styles_bt"
             android:tint="@color/qs_tile_icon_inactive"
@@ -70,16 +70,16 @@
         android:layout_gravity="center">
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:padding="10dp"
+            android:layout_width="@dimen/qs_styles_layout_background_size"
+            android:layout_height="@dimen/qs_styles_layout_background_size"
+            android:padding="@dimen/qs_styles_tile_preview_spacing"
             android:src="@drawable/qs_styles_shape_squircle"
             android:tint="@color/qs_tile_background_active"
             tools:ignore="ContentDescription" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/qs_styles_layout_foreground_size"
+            android:layout_height="@dimen/qs_styles_layout_foreground_size"
             android:layout_centerInParent="true"
             android:src="@drawable/qs_styles_dnd"
             android:tint="@color/qs_tile_icon_active"
@@ -92,41 +92,19 @@
         android:layout_gravity="center">
 
         <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:padding="10dp"
+            android:layout_width="@dimen/qs_styles_layout_background_size"
+            android:layout_height="@dimen/qs_styles_layout_background_size"
+            android:padding="@dimen/qs_styles_tile_preview_spacing"
             android:src="@drawable/qs_styles_shape_squircle"
             android:tint="@color/qs_tile_background_inactive"
             tools:ignore="ContentDescription" />
 
         <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="@dimen/qs_styles_layout_foreground_size"
+            android:layout_height="@dimen/qs_styles_layout_foreground_size"
             android:layout_centerInParent="true"
             android:src="@drawable/qs_styles_flashlight"
             android:tint="@color/qs_tile_icon_inactive"
-            tools:ignore="ContentDescription" />
-    </RelativeLayout>
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center">
-
-        <ImageView
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:padding="10dp"
-            android:src="@drawable/qs_styles_shape_squircle"
-            android:tint="@color/qs_tile_background_active"
-            tools:ignore="ContentDescription" />
-
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_centerInParent="true"
-            android:src="@drawable/qs_styles_rotate"
-            android:tint="@color/qs_tile_icon_active"
             tools:ignore="ContentDescription" />
     </RelativeLayout>
 
