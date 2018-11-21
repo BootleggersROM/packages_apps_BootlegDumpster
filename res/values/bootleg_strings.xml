@@ -731,4 +731,8 @@
     <!-- AppOps -->
     <string name="app_ops_settings">AppOps</string>
 
+   <!-- Device extras -->
+   <string name="device_extras_title">Device extras</string>
+   <string name="device_extras_summary">Device specific tweaks</string>
+
 </resources>

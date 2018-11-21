@@ -30,6 +30,15 @@
          android:summary="@string/log_it_summary"
          android:fragment="com.bootleggers.dumpster.external.LogIt" />
 
+     <Preference
+        android:key="device_extras_category"
+        android:title="@string/device_extras_title"
+        android:summary="@string/device_extras_summary" >
+        <intent android:action="com.android.settings.action.EXTRA_SETTINGS"
+            android:targetPackage="com.dirtyunicorns.settings.device"
+            android:targetClass="com.dirtyunicorns.settings.device.TouchscreenGestureSettings" />
+     </Preference>
+
       <Preference
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 
