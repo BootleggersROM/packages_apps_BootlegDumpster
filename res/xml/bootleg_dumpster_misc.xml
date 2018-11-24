@@ -39,6 +39,15 @@
             android:targetClass="com.dirtyunicorns.settings.device.TouchscreenGestureSettings" />
      </Preference>
 
+     <Preference
+        android:key="device_extras_omni_category"
+        android:title="@string/device_extras_title"
+        android:summary="@string/device_extras_summary" >
+         <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="org.omnirom.device"
+            android:targetClass="org.omnirom.device.DeviceSettingsActivity" />
+     </Preference>
+
       <Preference
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 

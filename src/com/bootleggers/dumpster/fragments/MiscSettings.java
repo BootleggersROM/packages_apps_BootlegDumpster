@@ -20,6 +20,7 @@ import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
 import android.provider.Settings;
 import com.android.settings.R;
+import com.bootleggers.dumpster.extra.Utils;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -30,6 +31,8 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String DEVICE_CATEGORY = "device_extras_category";
+    private static final String DEVICE_OMNI_CATEGORY = "device_extras_omni_category";
+    private static final String DEVICE_OMNI_PACKAGE = "org.omnirom.device";
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -40,6 +43,10 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         Preference DeviceExtras = findPreference(DEVICE_CATEGORY);
         if (!getResources().getBoolean(R.bool.has_device_extras)) {
             getPreferenceScreen().removePreference(DeviceExtras);
+        }
+
+        if (!Utils.isPackageInstalled(getActivity(), DEVICE_OMNI_PACKAGE)) {
+            getPreferenceScreen().removePreference(findPreference(DEVICE_OMNI_CATEGORY));
         }
 
     }
