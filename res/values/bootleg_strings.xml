@@ -735,4 +735,8 @@
    <string name="device_extras_title">Device extras</string>
    <string name="device_extras_summary">Device specific tweaks</string>
 
+    <!-- AOSP Gestures -->
+    <string name="aosp_gesture_preference">AOSP Gestures</string>
+    <string name="aosp_gesture_summary">Gestures Settings of AOSP</string>
+
 </resources>
