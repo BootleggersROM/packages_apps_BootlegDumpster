@@ -25,4 +25,10 @@
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
+    <Preference 
+        android:key="edge_gestures" 
+        android:title="@string/edge_gestures_title" 
+        android:summary="@string/edge_gestures_summary" 
+        android:fragment="com.bootleggers.dumpster.external.EdgeGesturesSettings"/>
+
 </PreferenceScreen>
