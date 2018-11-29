@@ -46,7 +46,7 @@
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
             android:summary="@string/navbar_settings_summary"
-            android:fragment="com.bootleggers.dumpster.fragments.NavbarSettings"
+            android:fragment="com.android.settings.smartnav.NavigationBarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Lock Screen -->
