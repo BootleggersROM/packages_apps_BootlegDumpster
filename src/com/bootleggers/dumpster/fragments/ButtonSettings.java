@@ -35,11 +35,11 @@ import android.provider.Settings;
 import com.android.settings.R;
 
 import com.android.internal.logging.nano.MetricsProto;
-import com.android.internal.util.hwkeys.ActionConstants;
-import com.android.internal.util.hwkeys.ActionUtils;
+import com.android.internal.utils.ActionConstants;
+import com.android.internal.utils.ActionUtils;
 
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
-import com.bootleggers.dumpster.external.dui.ActionFragment;
+import com.android.settings.smartnav.ActionFragment;
 
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 

@@ -38,7 +38,7 @@ import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 
-import com.android.internal.util.hwkeys.ActionUtils;
+import com.android.internal.utils.ActionUtils;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
