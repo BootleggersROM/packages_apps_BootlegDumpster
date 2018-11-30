@@ -14,7 +14,7 @@
 
     <!-- Categories -->
     <string name="animations_title">Animations</string>
-    <string name="animations_settings_summary">Make your system transitions more awesome or horrible.</string>
+    <string name="animations_settings_summary">Make your system transitions more awesome or horrible</string>
 
     <string name="button_title">HW Buttons</string>
     <string name="buttons_settings_summary">Change things of your HW buttons</string>
@@ -55,9 +55,9 @@
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">About us</string>
     <string name="bootleg_ab_title_whoami">What\'s Bootleggers?</string>
-    <string name="bootleg_ab_summary_whoami">Bootleggers is a ROM packed with features and apps with the purpose of make your feel like 家. Hope you like it and enjoy our experience.</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers is a ROM packed with features and apps with the purpose of making you feel like 家. Hope you like it and enjoy our experience.</string>
     <string name="bootleg_ab_title_thankssec">Thank you list</string>
-    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project. Also, huge thanks to %s for bring it for %s.</string>
+    <string name="bootleg_ab_summary_thankssec">Touch here to see who made and inspired this project. Also, huge thanks to %s for bringing it to %s.</string>
     <string name="bootleg_ab_summary_thanksclean">Touch here to see who made and inspired this project.</string>
     <string name="bootleg_pref_title_romextras">Extras and Addons</string>
     <string name="bootleg_ex_title_featurelist">Feature List</string>
@@ -122,7 +122,7 @@
     <string name="save">Save</string>
 
     <!-- Footer alerts -->
-    <string name="animations_transparent_alert">Some (or maybe all) of this animations may not work if your device got a transparent theme!</string>
+    <string name="animations_transparent_alert">Some (or maybe all) of these animations may not work if you are using a transparent theme!</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -185,7 +185,7 @@
     <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
     <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
     <string name="vol_zen_title">Do not disturb switch</string>
-    <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>
+    <string name="vol_zen_summary">Show do not disturb switch on volume panel</string>
 
     <!-- Toast app icon -->
     <string name="toast_icon_title">Toast app icon</string>
@@ -545,7 +545,7 @@
 
     <!-- Old mobile icon -->
     <string name="use_old_mobiletype_title">Use old mobile type style</string>
-    <string name="use_old_mobiletype_summary">Show the old signal icons, used before Pie. A SystemUI reboot is required.</string>
+    <string name="use_old_mobiletype_summary">Show the old signal icons, used before Pie. Requires a SystemUI reboot to take effect.</string>
 
     <!-- Dashboard Categories and suggestions -->
     <string name="dashboard_conditions_title">Dashboard conditions</string>
@@ -568,7 +568,7 @@
 
     <!-- Log it -->
     <string name="log_it_title">Log it</string>
-    <string name="log_it_summary">Send a logcat, a dmesg or a kmesg for a better support. Just be sure to be rooted.</string>
+    <string name="log_it_summary">Send a logcat, a dmesg or a kmesg for a better support. Requires root access.</string>
 
     <string name="logcat_title">Logcat</string>
     <string name="kmesg_title">Kmesg</string>
@@ -676,7 +676,7 @@
 
     <!-- Running Services -->
     <string name="qs_running_services_title">Running Services Icon</string>
-    <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
+    <string name="qs_running_services_summary">Enable the running services icon in the QS footer</string>
 
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS footer warnings</string>
@@ -726,7 +726,7 @@
 
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_summary">Display VoLTE icon. Requires a SystemUI reboot to take effect.</string>
 
     <!-- AppOps -->
     <string name="app_ops_settings">AppOps</string>
