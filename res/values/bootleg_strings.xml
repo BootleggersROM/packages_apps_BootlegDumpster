@@ -783,4 +783,10 @@
     <string name="volume_keys_control_ring_tone_title">Control ring volume</string>
     <string name="volume_keys_control_ring_tone_summary">Keys control media slider by default. Enable to switch to ring tone slider.</string>
 
+    <!-- Bootleg logo -->
+    <string name="statusbar_logo_category">Status bar logo</string>
+    <string name="bootleg_logo_title">Show our logo on Statusbar</string>
+    <string name="bootleg_logo_summary">Add our custom logo on your statusbar to brag about what ROM are you on</string>
+
+
 </resources>
