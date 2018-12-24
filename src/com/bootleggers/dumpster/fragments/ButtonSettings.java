@@ -39,6 +39,7 @@ import com.android.internal.utils.ActionConstants;
 import com.android.internal.utils.ActionUtils;
 
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
+import com.bootleggers.dumpster.extra.Utils;
 import com.android.settings.smartnav.ActionFragment;
 
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
@@ -48,6 +49,8 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private static final String KEY_BUTTON_BRIGHTNESS_SW = "button_brightness_sw";
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String HWKEY_DISABLE = "hardware_keys_disable";
+    private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT =
+            "torch_long_press_power_timeout";
 
     // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
@@ -56,6 +59,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_ASSIST = "assist_key";
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
+    private static final String CATEGORY_POWERMENU = "vol_power_category";
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -73,6 +77,8 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
     private SwitchPreference mHwKeyDisable;
+    private ListPreference mTorchLongPressPowerTimeout;
+
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -189,6 +195,23 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
 
         // load preferences first
         setActionPreferencesEnabled(keysDisabled == 0);
+
+        mTorchLongPressPowerTimeout =
+                    (ListPreference) findPreference(KEY_TORCH_LONG_PRESS_POWER_TIMEOUT);
+        final PreferenceCategory mPowerMenuButtonsCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_POWERMENU);
+
+        if (Utils.deviceSupportsFlashLight(getActivity())) {
+            mTorchLongPressPowerTimeout.setOnPreferenceChangeListener(this);
+            int TorchTimeout = Settings.System.getInt(getContentResolver(),
+                            Settings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, 0);
+            mTorchLongPressPowerTimeout.setValue(Integer.toString(TorchTimeout));
+            mTorchLongPressPowerTimeout.setSummary(mTorchLongPressPowerTimeout.getEntry());
+        } else {
+            // Let's do this temporally because we don't have enough power menu key configs
+            prefScreen.removePreference(mPowerMenuButtonsCategory);
+        }
+
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -218,6 +241,16 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
+            return true;
+        } else if (preference == mTorchLongPressPowerTimeout) {
+            String TorchTimeout = (String) newValue;
+            int TorchTimeoutValue = Integer.parseInt(TorchTimeout);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, TorchTimeoutValue);
+            int TorchTimeoutIndex = mTorchLongPressPowerTimeout
+                    .findIndexOfValue(TorchTimeout);
+            mTorchLongPressPowerTimeout
+                    .setSummary(mTorchLongPressPowerTimeout.getEntries()[TorchTimeoutIndex]);
             return true;
         }
         return false;
