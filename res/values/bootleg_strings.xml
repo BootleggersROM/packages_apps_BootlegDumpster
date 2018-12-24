@@ -787,6 +787,7 @@
     <string name="statusbar_logo_category">Status bar logo</string>
     <string name="bootleg_logo_title">Show our logo on Statusbar</string>
     <string name="bootleg_logo_summary">Add our custom logo on your statusbar to brag about what ROM are you on</string>
+    <string name="status_bar_logo_style_title">Custom bootleg logo style</string>
 
 
 </resources>
