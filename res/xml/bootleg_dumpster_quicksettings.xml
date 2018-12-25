@@ -22,12 +22,6 @@
         android:key="quickset_uiandstuff"
         android:title="@string/cat_general_ui">
 
-        <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
-            android:key="qs_brightness_position_bottom"
-            android:title="@string/qs_brightness_position_bottom_title"
-            android:summary="@string/qs_brightness_position_bottom_summary"
-            android:defaultValue="false" />
-
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="qs_running_services_toggle"
         android:title="@string/qs_running_services_title"
@@ -47,6 +41,40 @@
         android:defaultValue="true" />
 
      </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="qs_brightness_category"
+        android:title="@string/qs_brightness_category">
+
+        <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_brightness_slider_title"
+            android:summary="@string/qs_brightness_slider_summary"
+            android:defaultValue="true"/>
+
+        <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="qs_brightness_position_bottom"
+            android:title="@string/qs_brightness_slider_position_title"
+            android:summaryOn="@string/qs_brightness_slider_position_summary_on"
+            android:summaryOff="@string/qs_brightness_slider_position_summary_off"
+            android:defaultValue="false"
+            android:dependency="qs_show_brightness" />
+
+        <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_auto_brightness_button"
+            android:title="@string/brightness_icon_title"
+            android:summary="@string/brightness_icon_summary"
+            android:defaultValue="false"
+            android:dependency="qs_show_brightness"/>
+
+        <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_brightness_side_buttons"
+            android:title="@string/brightness_side_buttons_title"
+            android:summary="@string/brightness_side_buttons_summary"
+            android:defaultValue="false"
+            android:dependency="qs_show_brightness"/>
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="quickset_random_misc"

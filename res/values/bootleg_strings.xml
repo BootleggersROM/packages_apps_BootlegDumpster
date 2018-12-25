@@ -613,10 +613,6 @@
     <string name="qstile_shishuink">Shishu Ink</string>
     <string name="qstile_attemptmountain">An attempt of a mountain</string>
 
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_position_bottom_title">Brightness slider on bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
-
     <!-- Battery light -->
     <string name="light_category">Battery LED</string>
     <string name="battery_light_settings">Battery charging light</string>
@@ -789,5 +785,16 @@
     <string name="bootleg_logo_summary">Add our custom logo on your statusbar to brag about what ROM are you on</string>
     <string name="status_bar_logo_style_title">Custom bootleg logo style</string>
 
+    <!-- QuickSettings brightness -->
+    <string name="qs_brightness_category">Brightness slider</string>
+    <string name="qs_brightness_slider_title">Show brightness slider</string>
+    <string name="qs_brightness_slider_summary">Set visibility of QS brightness slider</string>
+    <string name="qs_brightness_slider_position_title">Brightness slider position</string>
+    <string name="qs_brightness_slider_position_summary_on">Show QS brightness slider at bottom</string>
+    <string name="qs_brightness_slider_position_summary_off">Show QS brightness slider at top</string>
+    <string name="brightness_icon_title">Adaptive brightness button</string>
+    <string name="brightness_icon_summary">Show adaptive brightness button</string>
+    <string name="brightness_side_buttons_title">Increase/decrease brightness buttons</string>
+    <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
 
 </resources>
