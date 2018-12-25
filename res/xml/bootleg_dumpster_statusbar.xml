@@ -74,6 +74,36 @@
      </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="corners_category"
+        android:title="@string/corners_category" >
+
+        <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+            android:key="sysui_rounded_fwvals"
+            android:title="@string/corner_fwvals"
+            android:summary="@string/corner_fwvals_summary"
+            android:defaultValue="true"
+            android:disableDependentsState="true" />
+
+        <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
+            android:key="sysui_rounded_size"
+            android:title="@string/corner_radius"
+            android:max="60"
+            settings:min="0"
+            settings:units=""
+            android:persistent="false"
+            android:dependency="sysui_rounded_fwvals" />
+
+        <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
+            android:key="sysui_rounded_content_padding"
+            android:title="@string/content_padding"
+            android:max="10"
+            settings:min="0"
+            settings:units=""
+            android:persistent="false"
+            android:dependency="sysui_rounded_fwvals" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="statusbar_battery_icon"
         android:title="@string/battery_style_category_title">
 
