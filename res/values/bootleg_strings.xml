@@ -823,4 +823,9 @@
     <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
 
+    <!-- Ambient Display Ticker -->
+    <string name="lockscreen_ambient_display_category">Ambient Display</string>
+    <string name="force_ambient_for_media_title">Show music ticker</string>
+    <string name="force_ambient_for_media_summary">Shows the music you\'re playing on your device on Ambient Display</string>
+
 </resources>

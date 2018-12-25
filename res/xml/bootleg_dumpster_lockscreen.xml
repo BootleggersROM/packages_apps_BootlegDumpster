@@ -57,6 +57,19 @@
 
      </PreferenceCategory>
 
+
+    <PreferenceCategory
+        android:key="lock_ambient_cat"
+        android:title="@string/lockscreen_ambient_display_category">
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="force_ambient_for_media"
+        android:title="@string/force_ambient_for_media_title"
+        android:summary="@string/force_ambient_for_media_summary"
+        android:defaultValue="true" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="lock_misc_cat"
         android:title="@string/misc_title">
