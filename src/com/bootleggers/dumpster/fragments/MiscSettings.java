@@ -44,9 +44,11 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     private static final String KEY_ASPECT_RATIO_APPS_LIST = "aspect_ratio_apps_list";
     private static final String KEY_ASPECT_RATIO_CATEGORY = "aspect_ratio_category";
     private static final String KEY_ASPECT_RATIO_APPS_LIST_SCROLLER = "aspect_ratio_apps_list_scroller";
+    private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
 
     private AppMultiSelectListPreference mAspectRatioAppsSelect;
     private ScrollAppsViewPreference mAspectRatioApps;
+    private ListPreference mFlashlightOnCall;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -85,6 +87,17 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         mAspectRatioAppsSelect.setOnPreferenceChangeListener(this);
         }
 
+        mFlashlightOnCall = (ListPreference) findPreference(FLASHLIGHT_ON_CALL);
+        Preference FlashOnCall = findPreference("flashlight_on_call");
+        if (!Utils.deviceSupportsFlashLight(getActivity())) {
+            prefScreen.removePreference(FlashOnCall);
+        } else {
+        int flashlightValue = Settings.System.getInt(getContentResolver(),
+                Settings.System.FLASHLIGHT_ON_CALL, 1);
+        mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
+        mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
+        mFlashlightOnCall.setOnPreferenceChangeListener(this);
+        }
     }
 
     @Override
@@ -100,6 +113,13 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             } else {
                 Settings.System.putString(getContentResolver(), Settings.System.OMNI_ASPECT_RATIO_APPS_LIST, "");
             }
+            return true;
+        } else if (preference == mFlashlightOnCall) {
+            int flashlightValue = Integer.parseInt(((String) objValue).toString());
+            Settings.System.putInt(resolver,
+                    Settings.System.FLASHLIGHT_ON_CALL, flashlightValue);
+            mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
+            mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
             return true;
         }
         return false;
