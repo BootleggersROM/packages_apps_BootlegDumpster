@@ -45,6 +45,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     private static final String KEY_ASPECT_RATIO_CATEGORY = "aspect_ratio_category";
     private static final String KEY_ASPECT_RATIO_APPS_LIST_SCROLLER = "aspect_ratio_apps_list_scroller";
     private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
+    private static final String CALL_SETTINGS_OPTIONS = "call_features";
 
     private AppMultiSelectListPreference mAspectRatioAppsSelect;
     private ScrollAppsViewPreference mAspectRatioApps;
@@ -87,6 +88,12 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         mAspectRatioAppsSelect.setOnPreferenceChangeListener(this);
         }
 
+        PreferenceScreen prefScreen = getPreferenceScreen();
+        PreferenceCategory callSettings = (PreferenceCategory) findPreference(CALL_SETTINGS_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(callSettings);
+        }
+
         mFlashlightOnCall = (ListPreference) findPreference(FLASHLIGHT_ON_CALL);
         Preference FlashOnCall = findPreference("flashlight_on_call");
         if (!Utils.deviceSupportsFlashLight(getActivity())) {
@@ -116,7 +123,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             return true;
         } else if (preference == mFlashlightOnCall) {
             int flashlightValue = Integer.parseInt(((String) objValue).toString());
-            Settings.System.putInt(resolver,
+            Settings.System.putInt(getContentResolver(),
                     Settings.System.FLASHLIGHT_ON_CALL, flashlightValue);
             mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
             mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());

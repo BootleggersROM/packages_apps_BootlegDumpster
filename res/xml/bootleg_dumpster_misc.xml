@@ -54,8 +54,23 @@
         android:fragment="com.bootleggers.dumpster.external.ScreenStateToggles" />
 
     <PreferenceCategory
-         android:key="incall_vib_options"
-         android:title="@string/incall_vibration_category" >
+         android:key="call_features"
+         android:title="@string/call_notifications_cat" >
+
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_connect"
+            android:title="@string/incall_vibrate_connect_title"
+            android:defaultValue="true" />
+
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_callwaiting"
+            android:title="@string/incall_vibrate_call_wait_title"
+            android:defaultValue="true" />
+
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="vibrate_on_disconnect"
+            android:title="@string/incall_vibrate_disconnect_title"
+            android:defaultValue="true" />
 
         <!-- Flashlight on incoming calls -->
         <ListPreference
