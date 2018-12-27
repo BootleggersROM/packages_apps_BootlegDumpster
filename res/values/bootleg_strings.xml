@@ -714,4 +714,8 @@
     <string name="battery_bar_gradient_color_summary">Use gradient color as a scale for the battery level</string>
     <string name="battery_bar_high_color">High level color"</string>
     <string name="battery_bar_low_color">Low level color"</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 </resources>
