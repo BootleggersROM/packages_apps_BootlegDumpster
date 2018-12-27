@@ -153,6 +153,12 @@
         android:summary="@string/double_tap_to_sleep_summary"
         android:defaultValue="true" />
 
+     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_brightness_control"
+        android:title="@string/status_bar_toggle_brightness"
+        android:summary="@string/status_bar_toggle_brightness_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="battery_bar_settings"
         android:title="@string/battery_bar_title"

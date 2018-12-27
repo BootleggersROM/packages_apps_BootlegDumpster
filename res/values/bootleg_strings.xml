@@ -1156,4 +1156,8 @@
     <string name="gesture_anywhere_64" translatable="false">64px</string>
     <string name="gesture_anywhere_68" translatable="false">68px</string>
 
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
 </resources>
