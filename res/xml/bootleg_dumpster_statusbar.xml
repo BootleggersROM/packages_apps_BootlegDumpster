@@ -64,6 +64,12 @@
         android:defaultValue="false" />
 
     <Preference
+        android:key="cutout_settings"
+        android:title="@string/cutout_main"
+        android:summary="@string/cutout_main_summary"
+        android:fragment="com.bootleggers.dumpster.external.CutoutFragment" />
+
+    <Preference
             android:title="@string/statusbar_tuner_title"
             android:summary="@string/statusbar_tuner_summary">
         <intent android:action="android.intent.action.MAIN"

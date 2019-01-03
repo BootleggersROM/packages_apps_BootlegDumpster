@@ -51,6 +51,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
+    private static final String PREF_KEY_CUTOUT = "cutout_settings";
 
     private ListPreference mStatusBarBatteryShowPercent;
     private ListPreference mStatusBarBattery;
@@ -70,6 +71,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         Resources res = null;
         Context mContext = getContext();
+        final PreferenceCategory StatusBarUI = (PreferenceCategory) getPreferenceScreen().findPreference("statusbar_ui_stuff");
 
         mOldMobiletype = (SystemSettingSwitchPreference) findPreference(USE_OLD_MOBILETYPE);
 
@@ -105,7 +107,17 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         float displayDensity = getResources().getDisplayMetrics().density;
 
+        Preference mCutoutPref = (Preference) findPreference(PREF_KEY_CUTOUT);
+        if (!hasPhysicalDisplayCutout(getContext())) {
+            StatusBarUI.removePreference(mCutoutPref);
+        }
+
         setupCornerPrefs();
+    }
+
+    private static boolean hasPhysicalDisplayCutout(Context context) {
+        return context.getResources().getBoolean(
+                com.android.internal.R.bool.config_physicalDisplayCutout);
     }
 
     @Override
