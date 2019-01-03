@@ -68,6 +68,13 @@
         android:summary="@string/force_ambient_for_media_summary"
         android:defaultValue="true" />
 
+    <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+        android:key="ambient_visualizer"
+        android:title="@string/ambient_visualizer_title"
+        android:summary="@string/ambient_visualizer_summary"
+        android:dependency="lockscreen_visualizer"
+        android:defaultValue="false"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
