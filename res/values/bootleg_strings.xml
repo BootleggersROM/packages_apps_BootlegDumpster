@@ -1168,6 +1168,10 @@
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
 
 
+     <!-- Volume Panel on Left -->
+    <string name="volume_panel_on_left_title">Volume Panel on Left</string>
+    <string name="volume_panel_on_left_summary">Change volume panel from right side to left side</string>
+
 
     <!-- ambient visualizer -->
     <string name="ambient_visualizer_title">Show LS Visualizer on Ambient Display</string>

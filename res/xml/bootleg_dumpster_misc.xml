@@ -71,6 +71,12 @@
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="true" />
+       
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="volume_panel_on_left"
+        android:title="@string/volume_panel_on_left_title"
+        android:summary="@string/volume_panel_on_left_summary"
+        android:defaultValue="false" />
 
         <!-- Flashlight on incoming calls -->
         <ListPreference
