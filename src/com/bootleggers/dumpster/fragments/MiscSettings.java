@@ -100,7 +100,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             prefScreen.removePreference(FlashOnCall);
         } else {
         int flashlightValue = Settings.System.getInt(getContentResolver(),
-                Settings.System.FLASHLIGHT_ON_CALL, 1);
+                Settings.System.FLASHLIGHT_ON_CALL, 0);
         mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
         mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
         mFlashlightOnCall.setOnPreferenceChangeListener(this);
