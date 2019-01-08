@@ -52,9 +52,13 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private ListPreference mRecentsLayoutStylePref;
     private SwitchPreference mSlimToggle;
     private Preference mSlimSettings;
+    private ListPreference mRecentsComponentType;
+    private ListPreference mRecentsClearAllLocation;
+    private SwitchPreference mRecentsClearAll;
     private static final String RECENTS_LAYOUT_STYLE_PREF = "recents_layout_style";
     private static final String PREF_SLIM_RECENTS_SETTINGS = "slim_recents_settings";
     private static final String PREF_SLIM_RECENTS = "use_slim_recents";
+    private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
     private final static String[] sSupportedActions = new String[] {
         "org.adw.launcher.THEMES",
@@ -85,6 +89,14 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         mRecentsLayoutStylePref.setValue(String.valueOf(type));
         mRecentsLayoutStylePref.setSummary(mRecentsLayoutStylePref.getEntry());
         mRecentsLayoutStylePref.setOnPreferenceChangeListener(this);
+
+        // clear all recents
+        mRecentsClearAllLocation = (ListPreference) findPreference(RECENTS_CLEAR_ALL_LOCATION);
+        int location = Settings.System.getIntForUser(resolver,
+                Settings.System.RECENTS_CLEAR_ALL_LOCATION, 5, UserHandle.USER_CURRENT);
+        mRecentsClearAllLocation.setValue(String.valueOf(location));
+        mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
+        mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
 
         // Slim Recents
         mSlimSettings = (Preference) findPreference(PREF_SLIM_RECENTS_SETTINGS);
@@ -121,6 +133,13 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
                     Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
             }
             Utils.restartSystemUi(getContext());
+        return true;
+        } else if (preference == mRecentsClearAllLocation) {
+            int location = Integer.valueOf((String) objValue);
+            int index = mRecentsClearAllLocation.findIndexOfValue((String) objValue);
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
+            mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
         return true;
         } else if (preference == mSlimToggle) {
             boolean value = (Boolean) objValue;
