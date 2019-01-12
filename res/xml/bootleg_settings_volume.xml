@@ -17,39 +17,95 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
-         android:title="@string/audio_panel_view">
+    <!-- Safe Headset Volume Switch -->
+    <SwitchPreference
+        android:key="safe_headset_volume"
+        android:title="@string/safe_headset_volume_title"
+        android:summary="@string/safe_headset_volume_summary"
+        android:persistent="false"
+        android:defaultValue="true" />
 
-         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-             android:key="audio_panel_view_media"
-             android:title="@string/audio_panel_view_media_title"
-             android:defaultValue="true"
-             android:enabled="false"/>
+    <!-- Volume keys control media stream -->
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="volume_keys_control_ring_tone"
+        android:title="@string/volume_keys_control_ring_tone_title"
+        android:summary="@string/volume_keys_control_ring_tone_summary"
+        android:defaultValue="false" />
 
-         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-             android:key="audio_panel_view_ringer"
-             android:title="@string/audio_panel_view_ringer_title"
-             android:defaultValue="false"/>
+    <com.bootleggers.dumpster.preferences.SystemSettingSeekBarPreference
+        android:key="volume_dialog_timeout"
+        android:title="@string/volume_dialog_timeout_title"
+        android:min="500"
+        android:max="10000"
+        android:defaultValue="3000"
+        settings:interval="100"
+        settings:unitsLeft=""
+        settings:unitsRight="ms" />
 
-         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-             android:key="audio_panel_view_notification"
-             android:title="@string/audio_panel_view_notification_title"
-             android:defaultValue="false"/>
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="call_volume_answer"
+        android:title="@string/volume_answer_call_title"
+        android:summary="@string/volume_answer_call_summary"
+        android:defaultValue="false" />
 
-         <com.bootleggers.dumpster.preferences..SystemSettingSwitchPreference
-             android:key="audio_panel_view_alarm"
-             android:title="@string/audio_panel_view_alarm_title"
-             android:defaultValue="false"/>
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="volume_rocker_wake"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
 
-         <com.bootleggers.dumpster.preferences..SystemSettingSwitchPreference
-             android:key="audio_panel_view_voice"
-             android:title="@string/audio_panel_view_voice_title"
-             android:defaultValue="false"/>
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:defaultValue="false" />
 
-         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-             android:key="audio_panel_view_bt_sco"
-             android:title="@string/audio_panel_view_bt_sco_title"
-             android:defaultValue="false"/>
-     </PreferenceCategory>
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false" />
+
+    <ListPreference
+        android:dialogTitle="@string/volume_key_cursor_control_title"
+        android:entries="@array/volume_key_cursor_control_entries"
+        android:entryValues="@array/volume_key_cursor_control_values"
+        android:key="volume_key_cursor_control"
+        android:title="@string/volume_key_cursor_control_title" />
+
+   <PreferenceCategory
+        android:title="@string/audio_panel_view">
+        
+        <com.bootleggers.dumpster.preferences.preferences.SystemSettingSwitchPreference
+            android:key="audio_panel_view_media"
+            android:title="@string/audio_panel_view_media_title"
+            android:defaultValue="true"
+            android:enabled="false"/>
+
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="audio_panel_view_ringer"
+            android:title="@string/audio_panel_view_ringer_title"
+            android:defaultValue="false"/>
+
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="audio_panel_view_notification"
+            android:title="@string/audio_panel_view_notification_title"
+            android:defaultValue="false"/>
+        
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="audio_panel_view_alarm"
+            android:title="@string/audio_panel_view_alarm_title"
+            android:defaultValue="false"/>
+
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="audio_panel_view_voice"
+            android:title="@string/audio_panel_view_voice_title"
+            android:defaultValue="false"/>
+
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="audio_panel_view_bt_sco"
+            android:title="@string/audio_panel_view_bt_sco_title"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
 
 </PreferenceScreen>
