@@ -75,7 +75,7 @@
         android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="true" />
 
-    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+    <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
         android:key="lockscreen_power_menu_disabled"
         android:title="@string/lockscreen_power_menu_disabled_title"
         android:summary="@string/lockscreen_power_menu_disabled_summary"
