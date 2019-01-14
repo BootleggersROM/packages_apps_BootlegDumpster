@@ -30,7 +30,7 @@
 
     <string name="navbar_title">Navbar features</string>
     <string name="navbar_settings_summary">Teach your navbar some newer tricks</string>
-    
+
     <string name="powermenu_title">Power menu</string>
     <string name="powermenu_settings_summary">Make that shutdown menu more useful</string>
 
@@ -45,7 +45,7 @@
 
     <string name="volume_title">Volume Keys</string>
     <string name="volume_settings_summary">Get those volume buttons to do magic stuff</string>
-    
+
     <string name="notifications_title">Notifications</string>
     <string name="notifications_settings_summary">Change how you can see those notifications</string>
 
@@ -99,7 +99,7 @@
     <string name="bootleg_sharemsg5">I went to Bootleggers ROM, it seems pretty nice, it got some different default fonts and various features </string>
     <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
     <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
-    
+
     <!-- Build type info -->
     <string name="bootleg_ri_title_buildtype">Build Type</string>
     <string name="bootleg_ri_summary_buildtype">Your build is %s... or %s.</string>
@@ -168,7 +168,7 @@
     <string name="lockscreen_charging_current_title">Charging info</string>
     <string name="lockscreen_charging_current_summary">Display negociated charger max current and voltage on lockscreen</string>
 
-    <!-- Volume swap buttons -->	
+    <!-- Volume swap buttons -->
     <string name="swap_volume_buttons_title">Reorient volume keys</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons when the screen is rotated</string>
 
@@ -196,7 +196,7 @@
     <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
 
     <!-- AOKP custom system animations -->
-    <string name="animation_title">Animations</string>  
+    <string name="animation_title">Animations</string>
     <string name="system_animation_title">System animations</string>
     <string name="activity_open_title">Activity open animation</string>
     <string name="activity_close_title">Activity close animation</string>
@@ -273,7 +273,7 @@
     <string name="screen_off_animation_title">Screen off animation</string>
 
     <!-- Tiles animation style  -->
-    <string name="qs_tile_animation_title">Animations</string>  
+    <string name="qs_tile_animation_title">Animations</string>
     <string name="qs_tile_animation_style_title">Animation style</string>
     <string name="qs_tile_animation_duration_title">Animation duration</string>
     <string name="qs_tile_animation_interpolator_title">Tiles animation interpolator</string>
@@ -1167,7 +1167,13 @@
     <string name="corner_fwvals">Use framework values</string>
     <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
 
+    <!-- ScreenRecord Shortcut -->
+    <string name="screen_record_shortcut">Screenrecord Shortcut</string>
+    <string name="screen_record_shortcut_summary">Power + Volume Up triggers Screenrecord when enabled</string>
 
+    <!-- ScreenShot Shortcut -->
+    <string name="screen_shot_shortcut">Screenshot Shortcut</string>
+    <string name="screen_shot_shortcut_summary">Power + Volume Down triggers screenshot when enabled</string>
 
     <!-- ambient visualizer -->
     <string name="ambient_visualizer_title">Show LS Visualizer on Ambient Display</string>

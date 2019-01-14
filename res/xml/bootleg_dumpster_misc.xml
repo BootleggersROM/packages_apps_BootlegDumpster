@@ -50,7 +50,7 @@
 
       <Preference
         android:key="screenstate_category"
-        android:title="@string/screen_state_toggles_title" 
+        android:title="@string/screen_state_toggles_title"
         android:fragment="com.bootleggers.dumpster.external.ScreenStateToggles" />
 
     <PreferenceCategory
@@ -124,7 +124,7 @@
             android:dependency="aspect_ratio_apps_enabled"
             android:persistent="false"
             android:summary="@string/aspect_ratio_apps_info" />
-			
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -150,6 +150,24 @@
             android:targetPackage="com.android.settings"
             android:targetClass="com.android.settings.applications.appops.AppOpsSummary" />
     </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="misc_screenshot"
+        android:title="@string/misc_screenshot">
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+            android:key="screen_record_shortcut"
+            android:title="@string/screen_record_shortcut"
+            android:summary="@string/screen_record_shortcut_summary"
+            android:defaultValue="true" />
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+            android:key="screen_shot_shortcut"
+            android:title="@string/screen_shot_shortcut"
+            android:summary="@string/screen_shot_shortcut_summary"
+            android:defaultValue="true" />
 
     </PreferenceCategory>
 
