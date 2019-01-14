@@ -37,6 +37,20 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/lockscreen_clock_styles_category"
+        android:key="lockscreen_style_cat">
+
+    <com.bootleggers.dumpster.preferences.SystemSettingListPreference
+        android:key="lockscreen_clock_selection"
+        android:title="@string/lockscreen_clock_selection_title"
+        android:entries="@array/lockscreen_clock_selection_entries"
+        android:entryValues="@array/lockscreen_clock_selection_values"
+        android:dependency="lockscreen_clock"
+        android:defaultValue="0" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/lockui_fonts"
         android:key="lockscreen_fonts_cat">
 
