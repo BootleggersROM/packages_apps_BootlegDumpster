@@ -1179,6 +1179,7 @@
     <string name="lockscreen_info_summary">Show the date, weather, alarms and zen on the lockscreen</string>
 
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_styles_category">Lockscreen styles</string>
     <string name="lockscreen_clock_selection_title">Clock style</string>
     <string name="lockscreen_clock_selection_digital">Default</string>
     <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
@@ -1189,5 +1190,6 @@
     <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy with accent (alt)</string>
     <string name="lockscreen_clock_selection_shishu_dreams" translatable="false">@string/system_theme_style_shishu</string>
     <string name="lockscreen_clock_selection_shishu_immensity" translatable="false">@string/system_theme_style_shishuimmensity</string>
+    <string name="lockscreen_clock_selection_shishu_nerves">Shishu Nerves</string>
 
 </resources>
