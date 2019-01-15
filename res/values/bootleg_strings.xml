@@ -1191,5 +1191,9 @@
     <string name="lockscreen_clock_selection_shishu_dreams" translatable="false">@string/system_theme_style_shishu</string>
     <string name="lockscreen_clock_selection_shishu_immensity" translatable="false">@string/system_theme_style_shishuimmensity</string>
     <string name="lockscreen_clock_selection_shishu_nerves">Shishu Nerves</string>
+    <string name="lockscreen_clock_selection_gradient_normal">Gradient clock</string>
+    <string name="lockscreen_clock_selection_gradient_shishu">Gradient clock (with shishu logo)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Full gradient clock</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradient clock</string>
 
 </resources>
