@@ -12,145 +12,164 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Categories -->
-  <!-- DUMPSTER - About Section strings -->
-  <!-- More about us strings -->
-  <!-- Messages to send? -->
-  <!-- Build type info -->
-  <!-- System theme -->
-  <!-- General strings -->
-  <!-- General Categories -->
-  <!-- Specific categories -->
-  <!-- Footer alerts -->
-  <!-- The no-no list, messages explaining why some features are disabled -->
-  <!-- Color Picker -->
-  <!--FEATURES ALERT -->
-  <!-- Wake on Plug -->
-  <!-- Brightness icon-->
-  <!-- Quick Settings brightness slider -->
-  <!-- Swap volume buttons -->
-  <!-- Battery LEDs -->
-  <!-- Network Traffic icon -->
-  <!-- Recents Clear all -->
-  <!-- Hide Apps from Recents -->
-  <!-- SystemUITuner -->
-  <!-- App icon on Toast -->
-  <!-- Power Menu -->
-  <!-- Show power menu on lockscreen -->
-  <!-- Recents membar -->
-  <!-- Quick Pulldown -->
-  <!-- Smart pulldown-->
-  <!-- QS Rows and such -->
-  <!-- Volume keys control media -->
-  <!-- Volume rocker wake -->
-  <!-- Media art on Lockscreen -->
-  <!-- Launch music on headphones connected -->
-  <!-- Ringtone audio focus -->
-  <!-- Led on apps string -->
-  <!-- Heads ups -->
-  <!-- Lockscreen charging info -->
-  <!-- Recents Icon Packs -->
-  <!-- Statusbar ticker -->
-  <!-- 4G icon -->
-  <!-- Small quick settings scroller -->
-  <!-- Features Strings - Navbar -->
-  <!-- DUI -->
-  <!-- Actions dialog and default task values set in ActionPreference xml-->
-  <!-- Fling -->
-  <!-- Pulse navigation bar music visualizer -->
-  <!-- Pulse config -->
-  <!-- Navbar height -->
-  <!-- SmartBar -->
-  <!-- QS Headers -->
-  <!-- Show QS tile title -->
-  <!-- Disable music track title in QS tile -->
-  <!-- QS footer warnings -->
-  <!-- Ambient music -->
-  <!-- lock screen visualizer -->
-  <!-- ambient visualizer -->
-  <!-- Screen Off animation -->
-  <!-- Status bar clock options -->
-  <!-- Hardware Keys -->
-  <!-- Button brightness -->
-  <!-- AppOps -->
-  <!-- Face unlock -->
-  <!-- Smartbar dt2s -->
-  <!-- Roaming indicator icon -->
-  <!-- Carrier Label -->
-  <!-- SystemUI Restart -->
-  <!-- Log it -->
-  <!-- Torch Power button gestures -->
-  <!-- DT2S Strings -->
-  <!-- Screen state service -->
-  <!-- Screenshot editor -->
-  <!-- Battery Styles -->
-  <!-- Data Disabled Icon -->
-  <!-- Incall vibrate options -->
-  <!-- Fingerprint authentication vibration -->
-  <!-- Fingerprint unlock keystore -->
-  <!-- Disable QS on secure Lockscreen -->
-  <!-- Weather - OmniJaws Settings -->
-  <!-- Lock UI thing -->
-  <!-- Lock UI thing -->
-  <!-- Lockscreen fonts - Common strings -->
-  <!-- Lockscreen fonts - other fonts, unstranslatable by default -->
-  <!-- Custom fonts -->
-  <!-- Lock Clock Fonts -->
-  <!-- Lockscreen Weather -->
-  <!--3-Finger screenshot-->
-  <!-- Keyguardalpha -->
-  <!-- ListView animation -->
-  <!-- ListView interpolator -->
-  <!-- Lock date fonts -->
-  <!-- Lock owner test -->
-  <!-- Running Services -->
-  <!-- Gesture Anywhere -->
-  <!-- Label, button used to add a gesture -->
-  <!-- Label, button used to reload all gestures -->
-  <!-- Label, button used to cancel the operation of adding a gesture -->
-  <!-- Label, button used to save a gesture newly created -->
-  <!-- Label, prompt asking the user to enter the name of the gesture -->
-  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
-  <!-- success message, tells the user where the gesture was saved -->
-  <!-- Buttons in Rename gesture dialog box -->
-  <!-- Buttons in Rename gesture dialog box -->
-  <!-- Message displayed when the user opens the gestures settings screen -->
-  <!-- Message displayed when the user has no gestures -->
-  <!-- Title of the screen used to view/manage gestures -->
-  <!-- Noun, menu item used to edit a gesture -->
-  <!-- Noun, menu item used to remove a gesture -->
-  <!-- Message displayed when a gesture is successfully deleted -->
-  <!-- Title of dialog box -->
-  <!-- Label of gesture name field in Rename gesture dialog box -->
-  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
-  <!-- Volume key cursor control -->
-  <!-- Smart Pixels -->
-  <!-- AOSP Recents Style -->
-  <!-- Slim Recents panel -->
-  <!-- ATTENTION: RTL languages need to replace left with right -->
-  <!-- Hide Lockscreen clock, date, & alarm -->
-  <!-- Lockscreen styles -->
-  <!-- Notification count -->
-  <!-- P animations -->
-  <!-- Wallpaper tint -->
-  <!-- Notification guts kill app button -->
-  <!-- Toast Animation -->
-  <string name="toast_Translucent_animation">Translucent</string>
-  <!-- AOKP custom system animations -->
-  <!-- Scrolling Cache -->
-  <!-- Disable animations -->
-  <!-- Tiles animation/interpolator style  -->
-  <!-- QS Tile Theme/Tinting -->
-  <!-- Dialer HeadsUp -->
-  <!-- Rounded corners and padding -->
-  <!-- Brightness bar position -->
-  <!-- Blink flashlight for incoming calls -->
-  <!-- Wakelock blocker -->
-  <!-- Alarm blocker -->
-  <!-- Brightness control -->
-  <!-- Battery fully charged -->
-  <!-- Disabling FC notifications -->
-  <!-- In call beep -->
-  <!-- Pocket judge -->
-  <!-- StatusBar weather settings -->
+    <!-- Categories -->
+    <!-- DUMPSTER - About Section strings -->
+    <!-- More about us strings -->
+    <!-- Messages to send? -->
+    <!-- Build type info -->
+    <!-- System theme -->
+    <string name="theme_accent_picker_default">Default</string>
+    <!-- General strings -->
+    <!-- General Categories -->
+    <!-- Specific categories -->
+    <!-- Footer alerts -->
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <!-- Color Picker -->
+    <string name="color_default">Default</string>
+    <!--FEATURES ALERT -->
+    <!-- Wake on Plug -->
+    <!-- Brightness icon-->
+    <!-- Quick Settings brightness slider -->
+    <!-- Swap volume buttons -->
+    <!-- Battery LEDs -->
+    <!-- Network Traffic icon -->
+    <!-- Recents Clear all -->
+    <!-- Hide Apps from Recents -->
+    <!-- SystemUITuner -->
+    <string name="statusbar_items_title">Status bar icons</string>
+    <!-- App icon on Toast -->
+    <!-- Power Menu -->
+    <string name="powermenu_screenshot">Screenshot</string>
+    <string name="powermenu_screenrecord">Screen record</string>
+    <!-- Show power menu on lockscreen -->
+    <!-- Recents membar -->
+    <!-- Quick Pulldown -->
+    <!-- Smart pulldown-->
+    <!-- QS Rows and such -->
+    <!-- Volume keys control media -->
+    <!-- Volume rocker wake -->
+    <!-- Media art on Lockscreen -->
+    <!-- Launch music on headphones connected -->
+    <!-- Ringtone audio focus -->
+    <!-- Led on apps string -->
+    <!-- Heads ups -->
+    <string name="heads_up_notifications">Heads up</string>
+    <!-- Lockscreen charging info -->
+    <!-- Recents Icon Packs -->
+    <!-- Statusbar ticker -->
+    <!-- 4G icon -->
+    <!-- Small quick settings scroller -->
+    <!-- Features Strings - Navbar -->
+    <!-- DUI -->
+    <string name="default_settings">Stock settings</string>
+    <!-- Actions dialog and default task values set in ActionPreference xml-->
+    <!-- Fling -->
+    <!-- Pulse navigation bar music visualizer -->
+    <!-- Pulse config -->
+    <!-- Navbar height -->
+    <!-- SmartBar -->
+    <string name="smartbar_ime_action_none">None</string>
+    <!-- QS Headers -->
+    <!-- Show QS tile title -->
+    <!-- Disable music track title in QS tile -->
+    <!-- QS footer warnings -->
+    <!-- Ambient music -->
+    <string name="force_ambient_for_media_on">Normal</string>
+    <!-- lock screen visualizer -->
+    <!-- ambient visualizer -->
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_default">Default</string>
+    <!-- Status bar clock options -->
+    <string name="clock_date_style_normal">Normal</string>
+    <!-- Hardware Keys -->
+    <!-- Button brightness -->
+    <!-- AppOps -->
+    <!-- Face unlock -->
+    <!-- Smartbar dt2s -->
+    <!-- Roaming indicator icon -->
+    <!-- Carrier Label -->
+    <!-- SystemUI Restart -->
+    <!-- Log it -->
+    <!-- Torch Power button gestures -->
+    <!-- DT2S Strings -->
+    <!-- Screen state service -->
+    <!-- Screenshot editor -->
+    <!-- Battery Styles -->
+    <!-- Data Disabled Icon -->
+    <!-- Incall vibrate options -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Fingerprint unlock keystore -->
+    <!-- Disable QS on secure Lockscreen -->
+    <!-- Weather - OmniJaws Settings -->
+    <!-- Lock UI thing -->
+    <!-- Lock UI thing -->
+    <!-- Lockscreen fonts - Common strings -->
+    <!-- Lockscreen fonts - other fonts, unstranslatable by default -->
+    <!-- Custom fonts -->
+    <!-- Lock Clock Fonts -->
+    <!-- Lockscreen Weather -->
+    <!--3-Finger screenshot-->
+    <!-- Keyguardalpha -->
+    <!-- ListView animation -->
+    <string name="listview_off">Default</string>
+    <!-- ListView interpolator -->
+    <!-- Lock date fonts -->
+    <!-- Lock owner test -->
+    <!-- Running Services -->
+    <!-- Gesture Anywhere -->
+    <!-- Label, button used to add a gesture -->
+    <!-- Label, button used to reload all gestures -->
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <!-- Label, button used to save a gesture newly created -->
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <!-- success message, tells the user where the gesture was saved -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <!-- Message displayed when the user has no gestures -->
+    <!-- Title of the screen used to view/manage gestures -->
+    <!-- Noun, menu item used to edit a gesture -->
+    <!-- Noun, menu item used to remove a gesture -->
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <!-- Title of dialog box -->
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+    <!-- Volume key cursor control -->
+    <!-- Smart Pixels -->
+    <!-- AOSP Recents Style -->
+    <!-- Slim Recents panel -->
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Hide Lockscreen clock, date, & alarm -->
+    <!-- Lockscreen styles -->
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_date_selection_default">Default</string>
+    <!-- Notification count -->
+    <!-- P animations -->
+    <!-- Wallpaper tint -->
+    <!-- Notification guts kill app button -->
+    <!-- Toast Animation -->
+    <string name="toast_none_animation">None</string>
+    <string name="toast_default_animation">Default</string>
+    <string name="toast_Translucent_animation">Translucent</string>
+    <!-- AOKP custom system animations -->
+    <string name="animation_duration_default">Default</string>
+    <!-- Scrolling Cache -->
+    <!-- Disable animations -->
+    <!-- Tiles animation/interpolator style  -->
+    <string name="qs_tile_animation_duration_default">Default</string>
+    <!-- QS Tile Theme/Tinting -->
+    <!-- Dialer HeadsUp -->
+    <!-- Rounded corners and padding -->
+    <!-- Brightness bar position -->
+    <!-- Blink flashlight for incoming calls -->
+    <!-- Wakelock blocker -->
+    <!-- Alarm blocker -->
+    <!-- Brightness control -->
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Battery fully charged</string>
+    <!-- Disabling FC notifications -->
+    <!-- In call beep -->
+    <!-- Pocket judge -->
+    <!-- StatusBar weather settings -->
 </resources>

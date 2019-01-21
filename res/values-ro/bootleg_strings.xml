@@ -12,221 +12,252 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Categories -->
-  <string name="button_title">Butoane fizice</string>
-  <string name="buttons_settings_summary">Schimbă lucrurile butoanelor tale fizice</string>
-  <string name="gestures_title">Gesturi</string>
-  <string name="gestures_settings_summary">Setați câteva gesturi pentru a face lucrurile mai ușoare</string>
-  <string name="lockscreen_title">Ecran de blocare</string>
-  <string name="lockscreen_settings_summary">Modificare aspect şi caracteristici a ecranului dumneavoastă de blocare</string>
-  <string name="misc_title">Diverse</string>
-  <string name="misc_settings_summary">Unele chestii aleatorii care nu merg în alte opţiuni</string>
-  <string name="navbar_title">Caracteristici a barei de navigație</string>
-  <string name="navbar_settings_summary">Invață-ți bara de navigație niște trucuri noi</string>
-  <string name="powermenu_title">Meniul power</string>
-  <string name="powermenu_settings_summary">Face-ți mai util meniul de oprire</string>
-  <string name="quicksettings_title">Setări rapide</string>
-  <string name="quicksettings_settings_summary">Face-ți setările mai rapide mult mai confortabile</string>
-  <string name="recents_title">Aplicații recente</string>
-  <string name="recents_settings_summary">Explorați mai multe moduri de a face multi-task</string>
-  <string name="statusbar_title">Bară de stare</string>
-  <string name="statusbar_settings_summary">Bara de stare este frumoasa dar ar putea fi mai bine</string>
-  <string name="volume_title">Taste de volum</string>
-  <string name="volume_settings_summary">Face-ți ca tastele de volum sa facă chestii magice</string>
-  <string name="notifications_title">Notificări</string>
-  <string name="notifications_settings_summary">Schimbă cum poți vedea acele notificări</string>
-  <string name="about_bootleg_title">Despre Bootleggers</string>
-  <string name="about_bootleg_summary">Câteva informații despre noi, in caz că esti curios</string>
-  <!-- DUMPSTER - About Section strings -->
-  <string name="bootleg_pref_title_about_us">Despre noi</string>
-  <string name="bootleg_ab_title_whoami">Ce este Bootleggers?</string>
-  <string name="bootleg_ab_summary_whoami">Bootleggers este un ROM plin cu caracteristici si aplicații care au rolul de a te face să te simți ca 家. Sper că îți place si bucurați-vă de experiența noastră.</string>
-  <string name="bootleg_ab_title_thankssec">Lista de mulțumiri</string>
-  <string name="bootleg_ab_summary_thankssec">Atinge aici pentru a vedea cine a făcut şi a inspirat acest proiect. De asemenea, mari mulţumiri %s pentru că l-a adus la %s.</string>
-  <string name="bootleg_ab_summary_whoami_unknown">... cineva care nu a declarat corect cine este... </string>
-  <string name="bootleg_pref_title_romextras">Extras și Addon-uri</string>
-  <string name="bootleg_ex_title_featurelist">Listă de caracteristici</string>
-  <string name="bootleg_ex_summary_featurelist">Verifică lista curentă de caracteristici pe această versiune</string>
-  <string name="bootleg_ex_title_addons">Addon-uri şi descărcări</string>
-  <string name="bootleg_ex_summary_addons">O listă recomandată de Teme și Moduri din partea noastră (a.k.a reclama sincera)</string>
-  <string name="bootleg_ex_title_sharemsg">Împărtășește ROM-ul nostru</string>
-  <string name="bootleg_ex_summary_sharemsg">Fă-i pe oameni să știe de noi și de munca noastră! Noi vom aprecia asta pe bune.</string>
-  <!-- More about us strings -->
-  <string name="bootleg_pref_moarstuff_title">Mai multe despre noi?</string>
-  <string name="bootleg_pref_moarstuff_info_title">Informaţii şi surse</string>
-  <string name="bootleg_moarstuff_blog_title">Blog-ul nostru</string>
-  <string name="bootleg_moarstuff_blog_summary">Unde vom posta despre update-uri si știri</string>
-  <string name="bootleg_moarstuff_git_title">Github-ul nostru</string>
-  <string name="bootleg_moarstuff_git_summary">Unde sunt sursele si revenirile noastre amplasate</string>
-  <string name="bootleg_pref_moarstuff_social_title">Intră în contact!</string>
-  <string name="bootleg_moarstuff_gplus_title">Comunitatea noastră Google+</string>
-  <!-- Messages to send? -->
-  <!-- Build type info -->
-  <!-- System theme -->
-  <string name="theme_accent_picker_default">Implicit</string>
-  <!-- General strings -->
-  <!-- General Categories -->
-  <string name="general_gesturesmaybe_preference">Gesturi</string>
-  <!-- Specific categories -->
-  <!-- Footer alerts -->
-  <!-- The no-no list, messages explaining why some features are disabled -->
-  <!-- Color Picker -->
-  <string name="color_default">Implicit</string>
-  <!--FEATURES ALERT -->
-  <!-- Wake on Plug -->
-  <!-- Brightness icon-->
-  <!-- Quick Settings brightness slider -->
-  <!-- Swap volume buttons -->
-  <!-- Battery LEDs -->
-  <!-- Network Traffic icon -->
-  <!-- Recents Clear all -->
-  <!-- Hide Apps from Recents -->
-  <!-- SystemUITuner -->
-  <string name="statusbar_items_title">Icoane din bara de stare</string>
-  <!-- App icon on Toast -->
-  <!-- Power Menu -->
-  <string name="power_menu_title">Meniul power</string>
-  <string name="powermenu_screenshot">Captură ecran</string>
-  <string name="powermenu_screenrecord">Înregistrare ecran</string>
-  <!-- Show power menu on lockscreen -->
-  <!-- Recents membar -->
-  <!-- Quick Pulldown -->
-  <!-- Smart pulldown-->
-  <!-- QS Rows and such -->
-  <!-- Volume keys control media -->
-  <!-- Volume rocker wake -->
-  <!-- Media art on Lockscreen -->
-  <!-- Launch music on headphones connected -->
-  <string name="headset_connect_player_disabled">Dezactivat</string>
-  <!-- Ringtone audio focus -->
-  <!-- Led on apps string -->
-  <!-- Heads ups -->
-  <string name="heads_up_notifications">Atenționare</string>
-  <!-- Lockscreen charging info -->
-  <!-- Recents Icon Packs -->
-  <!-- Statusbar ticker -->
-  <string name="ticker_disabled">Dezactivat</string>
-  <!-- 4G icon -->
-  <!-- Small quick settings scroller -->
-  <!-- Features Strings - Navbar -->
-  <!-- DUI -->
-  <string name="default_settings">Setări implicite</string>
-  <!-- Actions dialog and default task values set in ActionPreference xml-->
-  <!-- Fling -->
-  <!-- Pulse navigation bar music visualizer -->
-  <!-- Pulse config -->
-  <!-- Navbar height -->
-  <!-- SmartBar -->
-  <string name="smartbar_ime_action_none">Nimic</string>
-  <!-- QS Headers -->
-  <string name="header_provider_disabled">Dezactivat</string>
-  <!-- Show QS tile title -->
-  <!-- Disable music track title in QS tile -->
-  <!-- QS footer warnings -->
-  <!-- Ambient music -->
-  <string name="force_ambient_for_media_off">Dezactivat</string>
-  <!-- lock screen visualizer -->
-  <!-- ambient visualizer -->
-  <!-- Screen Off animation -->
-  <string name="screen_off_animation_default">Implicit</string>
-  <!-- Status bar clock options -->
-  <string name="clock_disabled">Dezactivat</string>
-  <!-- Hardware Keys -->
-  <!-- Button brightness -->
-  <!-- AppOps -->
-  <!-- Face unlock -->
-  <!-- Smartbar dt2s -->
-  <!-- Roaming indicator icon -->
-  <!-- Carrier Label -->
-  <string name="show_carrier_disabled">Dezactivat</string>
-  <string name="show_carrier_keyguard">Ecran de blocare</string>
-  <string name="show_carrier_statusbar">Bară de stare</string>
-  <!-- SystemUI Restart -->
-  <!-- Log it -->
-  <!-- Torch Power button gestures -->
-  <string name="torch_power_button_gesture_none">Dezactivat</string>
-  <!-- DT2S Strings -->
-  <!-- Screen state service -->
-  <!-- Screenshot editor -->
-  <!-- Battery Styles -->
-  <!-- Data Disabled Icon -->
-  <!-- Incall vibrate options -->
-  <!-- Fingerprint authentication vibration -->
-  <!-- Fingerprint unlock keystore -->
-  <!-- Disable QS on secure Lockscreen -->
-  <!-- Weather - OmniJaws Settings -->
-  <!-- Lock UI thing -->
-  <!-- Lock UI thing -->
-  <!-- Lockscreen fonts - Common strings -->
-  <!-- Lockscreen fonts - other fonts, unstranslatable by default -->
-  <!-- Custom fonts -->
-  <!-- Lock Clock Fonts -->
-  <!-- Lockscreen Weather -->
-  <string name="lock_screen_weather_category_title">Ecran de blocare</string>
-  <!--3-Finger screenshot-->
-  <!-- Keyguardalpha -->
-  <!-- ListView animation -->
-  <string name="listview_off">Implicit</string>
-  <!-- ListView interpolator -->
-  <!-- Lock date fonts -->
-  <!-- Lock owner test -->
-  <!-- Running Services -->
-  <!-- Gesture Anywhere -->
-  <string name="gesture_anywhere_gestures_title">Gesturi</string>
-  <!-- Label, button used to add a gesture -->
-  <!-- Label, button used to reload all gestures -->
-  <!-- Label, button used to cancel the operation of adding a gesture -->
-  <!-- Label, button used to save a gesture newly created -->
-  <!-- Label, prompt asking the user to enter the name of the gesture -->
-  <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
-  <!-- success message, tells the user where the gesture was saved -->
-  <!-- Buttons in Rename gesture dialog box -->
-  <!-- Buttons in Rename gesture dialog box -->
-  <!-- Message displayed when the user opens the gestures settings screen -->
-  <!-- Message displayed when the user has no gestures -->
-  <!-- Title of the screen used to view/manage gestures -->
-  <string name="ga_gestures_activity">Gesturi</string>
-  <!-- Noun, menu item used to edit a gesture -->
-  <!-- Noun, menu item used to remove a gesture -->
-  <!-- Message displayed when a gesture is successfully deleted -->
-  <!-- Title of dialog box -->
-  <!-- Label of gesture name field in Rename gesture dialog box -->
-  <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
-  <!-- Volume key cursor control -->
-  <string name="volume_key_cursor_control_off">Dezactivat</string>
-  <!-- Smart Pixels -->
-  <!-- AOSP Recents Style -->
-  <!-- Slim Recents panel -->
-  <!-- ATTENTION: RTL languages need to replace left with right -->
-  <!-- Hide Lockscreen clock, date, & alarm -->
-  <!-- Lockscreen styles -->
-  <string name="lockscreen_clock_selection_digital">Implicit</string>
-  <string name="lockscreen_date_selection_default">Implicit</string>
-  <!-- Notification count -->
-  <!-- P animations -->
-  <!-- Wallpaper tint -->
-  <!-- Notification guts kill app button -->
-  <!-- Toast Animation -->
-  <string name="toast_none_animation">Nimic</string>
-  <string name="toast_default_animation">Implicit</string>
-  <!-- AOKP custom system animations -->
-  <string name="animation_duration_default">Implicit</string>
-  <!-- Scrolling Cache -->
-  <!-- Disable animations -->
-  <!-- Tiles animation/interpolator style  -->
-  <string name="qs_tile_animation_duration_default">Implicit</string>
-  <!-- QS Tile Theme/Tinting -->
-  <!-- Dialer HeadsUp -->
-  <!-- Rounded corners and padding -->
-  <!-- Brightness bar position -->
-  <!-- Blink flashlight for incoming calls -->
-  <string name="flashlight_on_call_disabled">Dezactivat</string>
-  <!-- Wakelock blocker -->
-  <!-- Alarm blocker -->
-  <!-- Brightness control -->
-  <!-- Battery fully charged -->
-  <!-- Disabling FC notifications -->
-  <!-- In call beep -->
-  <!-- Pocket judge -->
-  <!-- StatusBar weather settings -->
+    <!-- Categories -->
+    <string name="animations_title">Animații</string>
+    <string name="animations_settings_summary">Schimbă animațiile de tranziție în ceva uluitor sau oribil.</string>
+    <string name="button_title">Butoane fizice</string>
+    <string name="buttons_settings_summary">Schimbă lucrurile butoanelor tale fizice</string>
+    <string name="gestures_title">Gesturi</string>
+    <string name="gestures_settings_summary">Setați câteva gesturi pentru a face lucrurile mai ușoare</string>
+    <string name="lockscreen_title">Ecran de blocare</string>
+    <string name="lockscreen_settings_summary">Modificare aspect şi caracteristici a ecranului dumneavoastă de blocare</string>
+    <string name="misc_title">Diverse</string>
+    <string name="misc_settings_summary">Unele chestii aleatorii care nu merg în alte opţiuni</string>
+    <string name="navbar_title">Caracteristici a barei de navigație</string>
+    <string name="navbar_settings_summary">Invață-ți bara de navigație niște trucuri noi</string>
+    <string name="powermenu_title">Meniul power</string>
+    <string name="powermenu_settings_summary">Face-ți mai util meniul de oprire</string>
+    <string name="quicksettings_title">Setări rapide</string>
+    <string name="quicksettings_settings_summary">Face-ți setările mai rapide mult mai confortabile</string>
+    <string name="recents_title">Aplicații recente</string>
+    <string name="recents_settings_summary">Explorați mai multe moduri de a face multi-task</string>
+    <string name="statusbar_title">Bară de stare</string>
+    <string name="statusbar_settings_summary">Bara de stare este frumoasa dar ar putea fi mai bine</string>
+    <string name="volume_title">Taste de volum</string>
+    <string name="volume_settings_summary">Face-ți ca tastele de volum sa facă chestii magice</string>
+    <string name="notifications_title">Notificări</string>
+    <string name="notifications_settings_summary">Schimbă cum poți vedea acele notificări</string>
+    <string name="about_bootleg_title">Despre Bootleggers</string>
+    <string name="about_bootleg_summary">Câteva informații despre noi, in caz că esti curios</string>
+    <!-- DUMPSTER - About Section strings -->
+    <string name="bootleg_pref_title_about_us">Despre noi</string>
+    <string name="bootleg_ab_title_whoami">Ce este Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers este un ROM plin cu caracteristici si aplicații care au rolul de a te face să te simți ca 家. Sper că îți place si bucurați-vă de experiența noastră.</string>
+    <string name="bootleg_ab_title_thankssec">Lista de mulțumiri</string>
+    <string name="bootleg_ab_summary_thankssec">Atinge aici pentru a vedea cine a făcut şi a inspirat acest proiect. De asemenea, mari mulţumiri %s pentru că l-a adus la %s.</string>
+    <string name="bootleg_ab_summary_whoami_unknown">... cineva care nu a declarat corect cine este... </string>
+    <string name="bootleg_pref_title_romextras">Extras și Addon-uri</string>
+    <string name="bootleg_ex_title_featurelist">Listă de caracteristici</string>
+    <string name="bootleg_ex_summary_featurelist">Verifică lista curentă de caracteristici pe această versiune</string>
+    <string name="bootleg_ex_title_addons">Addon-uri şi descărcări</string>
+    <string name="bootleg_ex_summary_addons">O listă recomandată de Teme și Moduri din partea noastră (a.k.a reclama sincera)</string>
+    <string name="bootleg_ex_title_sharemsg">Împărtășește ROM-ul nostru</string>
+    <string name="bootleg_ex_summary_sharemsg">Fă-i pe oameni să știe de noi și de munca noastră! Noi vom aprecia asta pe bune.</string>
+    <!-- More about us strings -->
+    <string name="bootleg_pref_moarstuff_title">Mai multe despre noi?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Informaţii şi surse</string>
+    <string name="bootleg_moarstuff_blog_title">Blog-ul nostru</string>
+    <string name="bootleg_moarstuff_blog_summary">Unde vom posta despre update-uri si știri</string>
+    <string name="bootleg_moarstuff_git_title">Github-ul nostru</string>
+    <string name="bootleg_moarstuff_git_summary">Unde sunt sursele si revenirile noastre amplasate</string>
+    <string name="bootleg_pref_moarstuff_social_title">Intră în contact!</string>
+    <string name="bootleg_moarstuff_gplus_title">Comunitatea noastră Google+</string>
+    <string name="bootleg_moarstuff_gplus_summary">Trimite capturi de ecran, scrie-ne sau orice vrei dar într-un mod respectuos</string>
+    <string name="bootleg_moarstuff_tg_title">Comunitatea noastră Telegram</string>
+    <string name="bootleg_moarstuff_tg_summary">Vorbește cu noi, fii pe fază cu noi actualizări și alătură-te comunității noastre</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">Văd că ai găsit locul acesta \"secret\", așa că dacă tot ești aici am vrut să-ți mulțumim că ai instalat acest ROM și după cum am tot zis, sper să îți placă și să te distrezi cu acest ROM.</string>
+    <string name="bootleg_moarstuff_faq_title">Întrebări frecvente</string>
+    <string name="bootleg_moarstuff_cd_title">Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">Nu avem limba ta? Vino aici și ajută-ne să traducem ROM-ul în limba ta nativă!</string>
+    <string name="bootleg_moarstuff_cd_summary02">Vino aici și ajută-ne să traducem ROM-ul în limba ta nativă!</string>
+    <string name="bootleg_moarstuff_faq_summary">Unde multe din întrebările frecvente și caracteristici cerute și-au găsit răspunsul.</string>
+    <!-- Messages to send? -->
+    <string name="share_chooser_title">Partajează ROM-ul nostru prin..</string>
+    <string name="bootleg_sharemsg1">Hey, folosesc acest ROM numit Bootleggers, e foarte fain. Intră pe https://bootleggersrom.github.io să afli mai multe </string>
+    <string name="bootleg_sharemsg2">Mi-am instalat ROM-ul Bootleggers și pare bun momentan, intră pe https://bootleggersrom.github.io să afli mai multe </string>
+    <string name="bootleg_sharemsg3">Mi-am pus ROM-ul Bootleggers și îmi place experiența, e destul de interesant </string>
+    <string name="bootleg_sharemsg4">Hey, mi-am instalat Bootleggers și îmi cam place, l-aș recomanda </string>
+    <string name="bootleg_sharemsg5">Mi-am instalat ROM-ul Bootleggers, pare interesant, are o grămadă de chestii și fonturi diferite </string>
+    <string name="bootleg_sharemsg6">Încearcă acum ROM-ul Bootleggers! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Testez ROM-ul Bootleggers și e puțin ciudat, dar nu e rău </string>
+    <!-- Build type info -->
+    <string name="bootleg_ri_title_buildtype">Tipul ROM-ului</string>
+    <string name="bootleg_ri_summary_buildtype">Tipul ROM-ului e %s... sau %s.</string>
+    <string name="bootleg_pref_title_rominfo">Informații despre ROM</string>
+    <string name="bootleg_ri_title_ota">Actualizări OTA</string>
+    <string name="bootleg_ri_summary_ota">Verifică pentru actualizări noi</string>
+    <string name="bootleg_ri_title_musicode">Nume de cod muzical</string>
+    <!-- System theme -->
+    <string name="accent_picker_dialog_title">Selectează o culoare de accent</string>
+    <string name="theme_accent_picker_title">Culoare accent</string>
+    <string name="theme_accent_picker_default">Implicit</string>
+    <!-- General strings -->
+    <!-- General Categories -->
+    <string name="general_gesturesmaybe_preference">Gesturi</string>
+    <!-- Specific categories -->
+    <!-- Footer alerts -->
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <!-- Color Picker -->
+    <string name="color_default">Implicit</string>
+    <!--FEATURES ALERT -->
+    <!-- Wake on Plug -->
+    <!-- Brightness icon-->
+    <!-- Quick Settings brightness slider -->
+    <!-- Swap volume buttons -->
+    <!-- Battery LEDs -->
+    <!-- Network Traffic icon -->
+    <!-- Recents Clear all -->
+    <!-- Hide Apps from Recents -->
+    <!-- SystemUITuner -->
+    <string name="statusbar_items_title">Icoane din bara de stare</string>
+    <!-- App icon on Toast -->
+    <!-- Power Menu -->
+    <string name="power_menu_title">Meniul power</string>
+    <string name="powermenu_screenshot">Captură ecran</string>
+    <string name="powermenu_screenrecord">Înregistrare ecran</string>
+    <!-- Show power menu on lockscreen -->
+    <!-- Recents membar -->
+    <!-- Quick Pulldown -->
+    <!-- Smart pulldown-->
+    <!-- QS Rows and such -->
+    <!-- Volume keys control media -->
+    <!-- Volume rocker wake -->
+    <!-- Media art on Lockscreen -->
+    <!-- Launch music on headphones connected -->
+    <string name="headset_connect_player_disabled">Dezactivat</string>
+    <!-- Ringtone audio focus -->
+    <!-- Led on apps string -->
+    <!-- Heads ups -->
+    <string name="heads_up_notifications">Atenționare</string>
+    <!-- Lockscreen charging info -->
+    <!-- Recents Icon Packs -->
+    <!-- Statusbar ticker -->
+    <string name="ticker_disabled">Dezactivat</string>
+    <!-- 4G icon -->
+    <!-- Small quick settings scroller -->
+    <!-- Features Strings - Navbar -->
+    <!-- DUI -->
+    <string name="default_settings">Setări implicite</string>
+    <!-- Actions dialog and default task values set in ActionPreference xml-->
+    <!-- Fling -->
+    <!-- Pulse navigation bar music visualizer -->
+    <!-- Pulse config -->
+    <!-- Navbar height -->
+    <!-- SmartBar -->
+    <string name="smartbar_ime_action_none">Nimic</string>
+    <!-- QS Headers -->
+    <string name="header_provider_disabled">Dezactivat</string>
+    <!-- Show QS tile title -->
+    <!-- Disable music track title in QS tile -->
+    <!-- QS footer warnings -->
+    <!-- Ambient music -->
+    <string name="force_ambient_for_media_off">Dezactivat</string>
+    <string name="force_ambient_for_media_on">Normal</string>
+    <!-- lock screen visualizer -->
+    <!-- ambient visualizer -->
+    <!-- Screen Off animation -->
+    <string name="screen_off_animation_default">Implicit</string>
+    <!-- Status bar clock options -->
+    <string name="clock_disabled">Dezactivat</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <!-- Hardware Keys -->
+    <!-- Button brightness -->
+    <!-- AppOps -->
+    <!-- Face unlock -->
+    <!-- Smartbar dt2s -->
+    <!-- Roaming indicator icon -->
+    <!-- Carrier Label -->
+    <string name="show_carrier_disabled">Dezactivat</string>
+    <string name="show_carrier_keyguard">Ecran de blocare</string>
+    <string name="show_carrier_statusbar">Bară de stare</string>
+    <!-- SystemUI Restart -->
+    <!-- Log it -->
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_none">Dezactivat</string>
+    <!-- DT2S Strings -->
+    <!-- Screen state service -->
+    <!-- Screenshot editor -->
+    <!-- Battery Styles -->
+    <!-- Data Disabled Icon -->
+    <!-- Incall vibrate options -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Fingerprint unlock keystore -->
+    <!-- Disable QS on secure Lockscreen -->
+    <!-- Weather - OmniJaws Settings -->
+    <!-- Lock UI thing -->
+    <!-- Lock UI thing -->
+    <!-- Lockscreen fonts - Common strings -->
+    <!-- Lockscreen fonts - other fonts, unstranslatable by default -->
+    <!-- Custom fonts -->
+    <!-- Lock Clock Fonts -->
+    <!-- Lockscreen Weather -->
+    <string name="lock_screen_weather_category_title">Ecran de blocare</string>
+    <!--3-Finger screenshot-->
+    <!-- Keyguardalpha -->
+    <!-- ListView animation -->
+    <string name="listview_off">Implicit</string>
+    <!-- ListView interpolator -->
+    <!-- Lock date fonts -->
+    <!-- Lock owner test -->
+    <!-- Running Services -->
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_gestures_title">Gesturi</string>
+    <!-- Label, button used to add a gesture -->
+    <!-- Label, button used to reload all gestures -->
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <!-- Label, button used to save a gesture newly created -->
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <!-- success message, tells the user where the gesture was saved -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <!-- Message displayed when the user has no gestures -->
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="ga_gestures_activity">Gesturi</string>
+    <!-- Noun, menu item used to edit a gesture -->
+    <!-- Noun, menu item used to remove a gesture -->
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <!-- Title of dialog box -->
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR IMIT=80 -->
+    <!-- Volume key cursor control -->
+    <string name="volume_key_cursor_control_off">Dezactivat</string>
+    <!-- Smart Pixels -->
+    <!-- AOSP Recents Style -->
+    <!-- Slim Recents panel -->
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Hide Lockscreen clock, date, & alarm -->
+    <!-- Lockscreen styles -->
+    <string name="lockscreen_clock_selection_digital">Implicit</string>
+    <string name="lockscreen_date_selection_default">Implicit</string>
+    <!-- Notification count -->
+    <!-- P animations -->
+    <!-- Wallpaper tint -->
+    <!-- Notification guts kill app button -->
+    <!-- Toast Animation -->
+    <string name="toast_none_animation">Nimic</string>
+    <string name="toast_default_animation">Implicit</string>
+    <string name="toast_Translucent_animation">Transparent</string>
+    <!-- AOKP custom system animations -->
+    <string name="animation_duration_default">Implicit</string>
+    <!-- Scrolling Cache -->
+    <!-- Disable animations -->
+    <!-- Tiles animation/interpolator style  -->
+    <string name="qs_tile_animation_duration_default">Implicit</string>
+    <!-- QS Tile Theme/Tinting -->
+    <!-- Dialer HeadsUp -->
+    <!-- Rounded corners and padding -->
+    <!-- Brightness bar position -->
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_disabled">Dezactivat</string>
+    <!-- Wakelock blocker -->
+    <!-- Alarm blocker -->
+    <!-- Brightness control -->
+    <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Baterie complet încărcată</string>
+    <!-- Disabling FC notifications -->
+    <!-- In call beep -->
+    <!-- Pocket judge -->
+    <!-- StatusBar weather settings -->
 </resources>
