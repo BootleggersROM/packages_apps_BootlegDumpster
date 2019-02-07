@@ -18,6 +18,7 @@ package com.bootleggers.dumpster.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.provider.Settings;
 import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
 import android.view.View;
@@ -114,15 +115,32 @@ public class MasterSwitchPreference extends TwoTargetPreference {
     }
 
     @Override
-    protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        setChecked(restoreValue ? getPersistedBoolean((Boolean) defaultValue)
-                : (Boolean) defaultValue);
+    protected boolean persistBoolean(boolean value) {
+        if (shouldPersist()) {
+            if (value == getPersistedBoolean(!value)) {
+                // It's already there, so the same as persisting
+                return true;
+            }
+
+            Settings.System.putInt(getContext().getContentResolver(), getKey(), value ? 1 : 0);
+            return true;
+        }
+        return false;
     }
 
-    /**
-     * Call from outside when value might have changed.
-     */
-    public void reloadValue() {
-        setChecked(getPersistedBoolean(mChecked));
+    @Override
+    protected boolean getPersistedBoolean(boolean defaultReturnValue) {
+        if (!shouldPersist()) {
+            return defaultReturnValue;
+        }
+
+        return Settings.System.getInt(getContext().getContentResolver(),
+                getKey(), defaultReturnValue ? 1 : 0) != 0;
+    }
+
+    protected boolean isPersisted() {
+        // Using getString instead of getInt so we can simply check for null
+        // instead of catching an exception. (All values are stored as strings.)
+        return Settings.System.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
