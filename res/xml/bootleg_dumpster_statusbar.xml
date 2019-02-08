@@ -144,6 +144,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="statusbar_clock_cat"
+        android:title="@string/status_bar_clock_title">
+
+    <Preference
+        android:key="clock_adv_settings"
+        android:title="@string/status_bar_clock_adv_title"
+        android:summary="@string/status_bar_clock_adv_summary"
+        android:fragment="com.bootleggers.dumpster.external.ClockOptions" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="statusbar_misc_cat"
         android:title="@string/misc_title">
 
