@@ -1221,4 +1221,9 @@
     <string name="file_header_provider_title">Custom image</string>
     <string name="file_header_provider" translatable="false">file</string>
 
+    <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">Volume panel</string>
+    <string name="volume_panel_on_left_title">Volume Panel on Left</string>
+    <string name="volume_panel_on_left_summary">Change volume panel from right side to left side</string>
+
 </resources>
