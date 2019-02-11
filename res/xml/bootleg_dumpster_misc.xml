@@ -18,6 +18,10 @@
 	android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+         android:key="misc_overall_cat"
+         android:title="@string/general_system_stuff_preference" >
+
     <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"
         android:title="@string/wakeup_when_plugged_unplugged_title"
@@ -58,6 +62,8 @@
         android:title="@string/smart_pixels_title"
         android:summary="@string/smart_pixels_summary"
         android:fragment="com.bootleggers.dumpster.external.SmartPixels" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
          android:key="call_features"

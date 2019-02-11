@@ -143,6 +143,7 @@
     <string name="anim_general_category">Overall Animations</string>
     <string name="anim_system_category">System related</string>
     <string name="misc_settings_cat_title">Settings app related</string>
+    <string name="general_system_stuff_preference">System Behaviour</string>
 
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
