@@ -145,12 +145,21 @@
 
     <PreferenceCategory
         android:key="statusbar_clock_cat"
-        android:title="@string/status_bar_clock_title">
+        android:title="@string/date_and_time">
+
+    <!-- Clock hide/show -->
+    <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+        android:key="status_bar_clock"
+        android:title="@string/status_bar_show_clock_title"
+        android:summaryOn="@string/status_bar_clock_summary_on"
+        android:summaryOff="@string/status_bar_clock_summary_off"
+        android:defaultValue="true" />
 
     <Preference
         android:key="clock_adv_settings"
         android:title="@string/status_bar_clock_adv_title"
         android:summary="@string/status_bar_clock_adv_summary"
+        android:dependency="status_bar_clock"
         android:fragment="com.bootleggers.dumpster.external.ClockOptions" />
 
     </PreferenceCategory>

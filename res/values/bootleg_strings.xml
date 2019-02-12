@@ -1208,11 +1208,18 @@
     <string name="smart_pixels_warning_text">Smart Pixels is a power saving feature. Depending on how many pixels you decide to turn off, you could see a significant improvement in battery life. For a good user experience, we recommend setting the amount of disabled pixels to 75 percent while shifting every 10 minutes.</string>
 
     <!-- Statusbar Clock options -->
-    <string name="status_bar_clock_title">Clock</string>
+    <string name="status_bar_clock_title">Status bar clock</string>
+    <string name="status_bar_clock_summary_on">Showing status bar clock</string>
+    <string name="status_bar_clock_summary_off">Hiding status bar clock</string>
     <string name="status_bar_clock_adv_title">Advanced clock and date options</string>
     <string name="status_bar_clock_adv_summary">Tweak the clock according to your tastes</string>
+    <string name="status_bar_time_cat">Time</string>
     <string name="status_bar_show_clock_title">Show clock &amp; date</string>
     <string name="clock_title_enable">Alignment</string>
+    <string name="clock_position">Clock position</string>
+    <string name="clock_position_right">Right clock</string>
+    <string name="clock_position_center">Center clock</string>
+    <string name="clock_position_left">Left clock</string>
     <string name="status_bar_clock_seconds_title">Clock seconds</string>
     <string name="status_bar_clock_seconds_summary">Display seconds next to clock in status bar</string>
     <string name="status_bar_am_pm_title">AM/PM</string>

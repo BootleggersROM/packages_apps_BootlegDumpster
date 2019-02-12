@@ -16,46 +16,65 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/clock_options_title" >
+    android:title="@string/status_bar_clock_title" >
 
-    <!-- Clock AM/PM -->
-    <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
-        android:key="statusbar_clock_am_pm_style"
-        android:entries="@array/entries_status_bar_am_pm"
-        android:entryValues="@array/values_status_bar_am_pm"
-        android:defaultValue="2"
-        android:title="@string/status_bar_am_pm_title" />
+    <PreferenceCategory
+        android:title="@string/status_bar_time_cat">
 
-    <!-- Date before clock style -->
-    <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
-        android:key="statusbar_clock_date_display"
-        android:entries="@array/clock_date_display_entries"
-        android:entryValues="@array/clock_date_display_values"
-        android:defaultValue="0"
-        android:title="@string/clock_date_display" />
+        <!-- Clock position -->
+        <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
+            android:key="status_bar_clock_position"
+            android:entries="@array/clock_position_entries"
+            android:entryValues="@array/clock_position_values"
+            android:defaultValue="2"
+            android:title="@string/clock_position" />
 
-    <!-- Date before date style -->
-    <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
-        android:key="statusbar_clock_date_style"
-        android:entries="@array/clock_date_style_entries"
-        android:entryValues="@array/clock_date_style_values"
-        android:defaultValue="0"
-        android:title="@string/clock_date_style" />
+        <!-- Clock AM/PM -->
+        <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
+            android:key="statusbar_clock_am_pm_style"
+            android:entries="@array/entries_status_bar_am_pm"
+            android:entryValues="@array/values_status_bar_am_pm"
+            android:defaultValue="2"
+            android:title="@string/status_bar_am_pm_title" />
 
-    <!-- Date before date position -->
-    <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
-        android:key="statusbar_clock_date_position"
-        android:entries="@array/clock_date_position_entries"
-        android:entryValues="@array/clock_date_position_values"
-        android:defaultValue="0"
-        android:title="@string/clock_date_position" />
+    </PreferenceCategory>
 
-    <!-- Date before date style -->
-    <com.bootleggers.dumpster.preferences.SecureSettingListPreference
-        android:key="statusbar_clock_date_format"
-        android:entries="@array/clock_date_format_entries_values"
-        android:entryValues="@array/clock_date_format_entries_values"
-        android:defaultValue="EEE"
-        android:title="@string/clock_date_format_custom" />
+    <PreferenceCategory
+        android:title="@string/clock_date_display">
+
+        <!-- Date before clock style -->
+        <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
+            android:key="statusbar_clock_date_display"
+            android:entries="@array/clock_date_display_entries"
+            android:entryValues="@array/clock_date_display_values"
+            android:defaultValue="0"
+            android:title="@string/clock_date_display" />
+
+        <!-- Date before date style -->
+        <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
+            android:key="statusbar_clock_date_style"
+            android:entries="@array/clock_date_style_entries"
+            android:entryValues="@array/clock_date_style_values"
+            android:defaultValue="0"
+            android:title="@string/clock_date_style" />
+
+        <!-- Date before date position -->
+        <com.bootleggers.dumpster.preferences.SecureSettingIntListPreference
+            android:key="statusbar_clock_date_position"
+            android:entries="@array/clock_date_position_entries"
+            android:entryValues="@array/clock_date_position_values"
+            android:defaultValue="0"
+            android:title="@string/clock_date_position" />
+
+        <!-- Date before date style -->
+        <com.bootleggers.dumpster.preferences.SecureSettingListPreference
+            android:key="statusbar_clock_date_format"
+            android:entries="@array/clock_date_format_entries_values"
+            android:entryValues="@array/clock_date_format_entries_values"
+            android:defaultValue="EEE"
+            android:title="@string/clock_date_format_custom" />
+
+
+     </PreferenceCategory>
 
 </PreferenceScreen>
