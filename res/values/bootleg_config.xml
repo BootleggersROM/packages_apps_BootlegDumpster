@@ -19,4 +19,7 @@
     <!-- Whether to display device extras -->
     <bool name="has_device_extras">false</bool>
 
+    <!-- Whether to display active edge category -->
+    <bool name="has_active_edge">false</bool>
+
 </resources>
