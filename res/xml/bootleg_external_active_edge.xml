@@ -24,12 +24,9 @@
         app:animation="@raw/assist_gesture_settings_animation"
         app:preview="@drawable/gesture_assist" />
 
-    <ListPreference
-        android:key="squeeze_selection"
-        android:title="@string/active_edge_actions_title"
-        android:entries="@array/active_edge_actions_entries"
-        android:entryValues="@array/active_edge_actions_values"
-        android:defaultValue="0" />
+    <com.android.settings.smartnav.ActionPreference
+        android:key="squeeze_selection_smart_action"
+        android:title="@string/active_edge_actions_title"/>
 
     <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
         android:key="gesture_assist_sensitivity"
