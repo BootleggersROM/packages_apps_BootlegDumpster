@@ -137,6 +137,21 @@ public class ActiveEdge extends SimpleActionFragment
     }
 
     @Override
+    protected ArrayList<String> getActionBlackListForPreference(String key) {
+        if (key.equals(KEY_SQUEEZE_SMART_ACTION)) {
+            ArrayList<String> blacklist = new ArrayList();
+            blacklist.add(ActionHandler.SYSTEMUI_TASK_BACK);
+            blacklist.add(ActionHandler.SYSTEMUI_TASK_KILL_PROCESS);
+            blacklist.add(ActionHandler.SYSTEMUI_TASK_EDITING_SMARTBAR);
+            blacklist.add(ActionHandler.SYSTEMUI_TASK_WIFIAP);
+            blacklist.add(ActionHandler.SYSTEMUI_TASK_MENU);
+            blacklist.add(ActionHandler.SYSTEMUI_TASK_APP_SEARCH);
+            return blacklist;
+        }
+        return null;
+    }
+
+    @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.BOOTLEG;
     }
