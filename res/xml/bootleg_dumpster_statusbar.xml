@@ -77,6 +77,12 @@
          android:summary="@string/battery_mode_summary"
          android:fragment="com.bootleggers.dumpster.fragments.BatteryMode" />
 
+    <Preference
+        android:key="battery_bar_settings"
+        android:title="@string/battery_bar_title"
+        android:summary="@string/battery_bar_summary"
+        android:fragment="com.bootleggers.dumpster.external.BatteryBar" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
