@@ -43,8 +43,6 @@ import java.util.Collections;
 public class StatusBarSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String PREF_STATUS_BAR_CLOCK = "status_bar_show_clock";
-    private static final String PREF_CLOCK_SHOW_SECONDS = "status_bar_clock_seconds";
     private static final String SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String USE_OLD_MOBILETYPE = "use_old_mobiletype";
@@ -54,8 +52,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
 
-    private SwitchPreference mStatusBarClock;
-    private SwitchPreference mShowSeconds;
     private ListPreference mStatusBarBatteryShowPercent;
     private ListPreference mStatusBarBattery;
     private SystemSettingSwitchPreference mOldMobiletype;
@@ -76,18 +72,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         Context mContext = getContext();
 
         mOldMobiletype = (SystemSettingSwitchPreference) findPreference(USE_OLD_MOBILETYPE);
-
-        mStatusBarClock = (SwitchPreference) findPreference(PREF_STATUS_BAR_CLOCK);
-        mStatusBarClock.setChecked((Settings.System.getInt(
-                getActivity().getApplicationContext().getContentResolver(),
-                Settings.System.STATUS_BAR_CLOCK, 1) == 1));
-        mStatusBarClock.setOnPreferenceChangeListener(this);
-
-        mShowSeconds = (SwitchPreference) findPreference(PREF_CLOCK_SHOW_SECONDS);
-        mShowSeconds.setChecked((Settings.System.getInt(
-            getActivity().getApplicationContext().getContentResolver(),
-                Settings.System.STATUS_BAR_CLOCK_SECONDS, 0) == 1));
-        mShowSeconds.setOnPreferenceChangeListener(this);
 
         mStatusBarBatteryShowPercent =
                 (ListPreference) findPreference(SHOW_BATTERY_PERCENT);
@@ -127,17 +111,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mStatusBarClock) {
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
-                    Settings.System.STATUS_BAR_CLOCK,
-                    (Boolean) newValue ? 1 : 0);
-            return true;
-        } else if (preference == mShowSeconds) {
-            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
-                    Settings.System.STATUS_BAR_CLOCK_SECONDS,
-                    (Boolean) newValue ? 1 : 0);
-            return true;
-        } else if (preference == mStatusBarBatteryShowPercent) {
+        if (preference == mStatusBarBatteryShowPercent) {
             int batteryShowPercent = Integer.valueOf((String) newValue);
             int index = mStatusBarBatteryShowPercent.findIndexOfValue((String) newValue);
             Settings.System.putInt(
