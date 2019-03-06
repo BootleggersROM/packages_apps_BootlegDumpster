@@ -1211,6 +1211,8 @@
     <string name="status_bar_clock_title">Status bar clock</string>
     <string name="status_bar_clock_summary_on">Showing status bar clock</string>
     <string name="status_bar_clock_summary_off">Hiding status bar clock</string>
+    <string name="status_bar_clock_seconds_summary_on">Showing clock with seconds</string>
+    <string name="status_bar_clock_seconds_summary_off">Showing clock normally</string>
     <string name="status_bar_clock_adv_title">Advanced clock and date options</string>
     <string name="status_bar_clock_adv_summary">Tweak the clock according to your tastes</string>
     <string name="status_bar_time_cat">Time</string>
@@ -1220,8 +1222,7 @@
     <string name="clock_position_right">Right clock</string>
     <string name="clock_position_center">Center clock</string>
     <string name="clock_position_left">Left clock</string>
-    <string name="status_bar_clock_seconds_title">Clock seconds</string>
-    <string name="status_bar_clock_seconds_summary">Display seconds next to clock in status bar</string>
+    <string name="status_bar_clock_seconds_title">Show clock seconds</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
     <string name="am_pm_clock_normal">Normal font size</string>

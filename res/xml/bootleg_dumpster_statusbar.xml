@@ -155,6 +155,15 @@
         android:summaryOff="@string/status_bar_clock_summary_off"
         android:defaultValue="true" />
 
+    <!-- Clock seconds hide/show -->
+    <com.bootleggers.dumpster.preferences.SecureSettingSwitchPreference
+        android:key="status_bar_clock_seconds"
+        android:title="@string/status_bar_clock_seconds_title"
+        android:summaryOn="@string/status_bar_clock_seconds_summary_on"
+        android:summaryOff="@string/status_bar_clock_seconds_summary_off"
+        android:dependency="status_bar_clock"
+        android:defaultValue="true" />
+
     <Preference
         android:key="clock_adv_settings"
         android:title="@string/status_bar_clock_adv_title"
