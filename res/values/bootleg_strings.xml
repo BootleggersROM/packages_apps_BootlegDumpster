@@ -554,7 +554,7 @@
     <string name="recents_component_type_title">Recents Style</string>
     <string name="recents_quickstep">Quickstep (if avaliable)</string>
     <string name="recents_stock">Stock</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Grid</string>
     <string name="recents_go">Android Go</string>
 
     <!-- QS tile styles -->
