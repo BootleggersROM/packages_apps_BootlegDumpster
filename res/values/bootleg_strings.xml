@@ -178,7 +178,7 @@
     <string name="statusbar_tuner_summary">Battery options and statusbar icons to disable</string>
     <string name="navbar_tuner_title">Edit navigation bar</string>
     <string name="navbar_tuner_summary">Edit the navigation bar layout and buttons</string>
-    <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts_title">Bottom Lockscreen shortcuts</string>
     <string name="lockscreen_shortcuts_summary">Manage lockscreen bottom shortcuts</string>
     <string name="vol_dnd_category_title">Do not disturb mode</string>
     <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
@@ -835,7 +835,7 @@
     <string name="shortcut_picker_icon_type_custom_title">Gallery</string>
 
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">Mid-screen shortcuts</string>
+    <string name="ls_shortcuts_title">Shortcuts</string>
     <string name="lockscreen_mdshortcuts_title">Mid-screen Shortcuts</string>
     <string name="lockscreen_mdshortcuts_summary">View or change custom lock screen mid-screen shortcuts</string>
     <string name="lockscreen_shorcuts_launch_type_title">Shortcut click type</string>
