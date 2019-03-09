@@ -38,7 +38,7 @@
         android:fragment="com.bootleggers.dumpster.gestureanywhere.GestureAnywhereSettings" />
 
     <Preference
-        android:key="active_edge_category"
+        android:key="active_edge"
         android:title="@string/active_edge_title"
         android:summary="@string/active_edge_summary"
         android:fragment="com.bootleggers.dumpster.external.ActiveEdge" />

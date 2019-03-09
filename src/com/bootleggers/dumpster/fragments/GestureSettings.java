@@ -10,7 +10,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class GestureSettings extends SettingsPreferenceFragment {
 
-    private static final String ACTIVE_EDGE_CATEGORY = "active_edge_category";
+    private static final String ACTIVE_EDGE = "active_edge";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -18,8 +18,8 @@ public class GestureSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.bootleg_dumpster_gestures);
 
-        Preference ActiveEdge = findPreference(ACTIVE_EDGE_CATEGORY);
-        if (!getResources().getBoolean(R.bool.has_active_edge)) {
+        Preference ActiveEdge = findPreference(ACTIVE_EDGE);
+        if (!getResources().getBoolean(com.android.internal.R.bool.config_hasActiveEdge)) {
             getPreferenceScreen().removePreference(ActiveEdge);
         } else {
             if (!getContext().getPackageManager().hasSystemFeature(
