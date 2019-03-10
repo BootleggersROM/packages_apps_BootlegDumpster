@@ -28,6 +28,10 @@
         android:key="squeeze_selection_smart_action"
         android:title="@string/active_edge_actions_title"/>
 
+    <com.android.settings.smartnav.ActionPreference
+        android:key="long_squeeze_selection_smart_action"
+        android:title="@string/active_edge_long_squeeze_actions_title"/>
+
     <com.bootleggers.dumpster.preferences.CustomSeekBarPreference
         android:key="gesture_assist_sensitivity"
         android:title="@string/active_edge_sensitivity_title"

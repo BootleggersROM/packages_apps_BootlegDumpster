@@ -50,6 +50,7 @@ public class ActiveEdge extends SimpleActionFragment
     private static final String KEY_SQUEEZE_VIDEO = "squeeze_video";
     private static final String KEY_VIDEO_PAUSED = "key_video_paused";
     private static final String KEY_SQUEEZE_SMART_ACTION = "squeeze_selection_smart_action";
+    private static final String KEY_LONG_SQUEEZE_SMART_ACTION = "long_squeeze_selection_smart_action";
 
     private boolean mVideoPaused;
 
@@ -132,13 +133,18 @@ public class ActiveEdge extends SimpleActionFragment
                     ActionPreferenceInfo.TYPE_SECURE,
                     ActionHandler.SYSTEMUI_TASK_NO_ACTION,
                     Settings.Secure.SQUEEZE_SELECTION_SMART_ACTIONS);
+        } else if (key.equals(KEY_LONG_SQUEEZE_SMART_ACTION)) {
+            return new ActionPreferenceInfo(getActivity(),
+                    ActionPreferenceInfo.TYPE_SECURE,
+                    ActionHandler.SYSTEMUI_TASK_NO_ACTION,
+                    Settings.Secure.LONG_SQUEEZE_SELECTION_SMART_ACTIONS);
         }
         return null;
     }
 
     @Override
     protected ArrayList<String> getActionBlackListForPreference(String key) {
-        if (key.equals(KEY_SQUEEZE_SMART_ACTION)) {
+        if (key.equals(KEY_SQUEEZE_SMART_ACTION) || key.equals(KEY_LONG_SQUEEZE_SMART_ACTION)) {
             ArrayList<String> blacklist = new ArrayList();
             blacklist.add(ActionHandler.SYSTEMUI_TASK_BACK);
             blacklist.add(ActionHandler.SYSTEMUI_TASK_KILL_PROCESS);
