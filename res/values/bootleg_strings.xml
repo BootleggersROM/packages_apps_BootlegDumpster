@@ -1274,4 +1274,10 @@
     <string name="action_screenshot">Screenshot</string>
     <string name="action_qs_panel">QS panel</string>
 
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Lockscreen album art filter</string>
+    <string name="lockscreen_cover_filter_none">None</string>
+    <string name="lockscreen_cover_filter_grayscale">Grayscale</string>
+    <string name="lockscreen_cover_filter_blur">Blur</string>
+
 </resources>
