@@ -149,4 +149,9 @@
     <string name="seekbar_default_value_set">Value set to default of <xliff:g id="number">%d</xliff:g></string>
     <string name="seekbar_default_value_already_set">Default value is already set</string>
     <string name="seekbar_default_string">Default</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
 </resources>
