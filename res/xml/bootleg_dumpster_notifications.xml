@@ -75,4 +75,16 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="notifs_random_misc"
+        android:title="@string/misc_title">
+
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="notification_guts_kill_app_button"
+            android:title="@string/notification_guts_kill_app_button_title"
+            android:summary="@string/notification_guts_kill_app_button_summary"
+            android:defaultValue="false" />
+
+     </PreferenceCategory>
+
 </PreferenceScreen>
