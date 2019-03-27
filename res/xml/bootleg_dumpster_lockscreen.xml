@@ -99,6 +99,12 @@
         android:summary="@string/fp_unlock_keystore_summary"
         android:defaultValue="false" />
 
+	<com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="fingerprint_success_vib"
+        android:title="@string/fprint_sucess_vib_title"
+        android:summary="@string/fprint_sucess_vib_summary"
+        android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
