@@ -37,6 +37,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.widget.FooterPreference;
+import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -53,12 +54,17 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mSlimToggle;
     private Preference mSlimSettings;
     private ListPreference mRecentsComponentType;
-    private ListPreference mRecentsClearAllLocation;
+    private Preference mRecentsIconPack;
     private SwitchPreference mRecentsClearAll;
+    private ListPreference mRecentsClearAllLocation;
+    private SwitchPreference mRecentsMemBar;
     private static final String RECENTS_LAYOUT_STYLE_PREF = "recents_layout_style";
+    private static final String RECENTS_ICON_PACK_PREF = "recents_icon_pack";
+    private static final String RECENTS_CLEAR_ALL_PREF = "show_clear_all_recents";
+    private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
+    private static final String RECENTS_MEMBAR_PREF = "systemui_recents_mem_display";
     private static final String PREF_SLIM_RECENTS_SETTINGS = "slim_recents_settings";
     private static final String PREF_SLIM_RECENTS = "use_slim_recents";
-    private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
     private final static String[] sSupportedActions = new String[] {
         "org.adw.launcher.THEMES",
@@ -81,6 +87,9 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.bootleg_dumpster_recents);
 
         ContentResolver resolver = getActivity().getContentResolver();
+        mRecentsIconPack = (Preference) findPreference(RECENTS_ICON_PACK_PREF);
+        mRecentsClearAll = (SwitchPreference) findPreference(RECENTS_CLEAR_ALL_PREF);
+        mRecentsMemBar = (SwitchPreference) findPreference(RECENTS_MEMBAR_PREF);
 
         // recents layout style
         mRecentsLayoutStylePref = (ListPreference) findPreference(RECENTS_LAYOUT_STYLE_PREF);
@@ -110,9 +119,26 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         boolean slimEnabled = Settings.System.getIntForUser(
                 getActivity().getContentResolver(), Settings.System.USE_SLIM_RECENTS, 0,
                 UserHandle.USER_CURRENT) == 1;
+        boolean quickstepRecents = Settings.System.getIntForUser(
+                getActivity().getContentResolver(), Settings.System.RECENTS_LAYOUT_STYLE, 0,
+                UserHandle.USER_CURRENT) == 0;
+        
         // Either Stock or Slim Recents can be active at a time
-        // mRecentsComponentType.setEnabled(!slimEnabled);
-        mSlimToggle.setChecked(slimEnabled);
+        if (quickstepRecents) {
+            mRecentsComponentType.setEnabled(quickstepRecents);
+            mRecentsIconPack.setEnabled(!quickstepRecents);
+            mRecentsClearAll.setEnabled(!quickstepRecents);
+            mRecentsClearAllLocation.setEnabled(!quickstepRecents);
+            mRecentsMemBar.setEnabled(!quickstepRecents);
+            mSlimToggle.setChecked(!quickstepRecents);
+        } else {
+            mRecentsComponentType.setEnabled(!slimEnabled);
+            mRecentsIconPack.setEnabled(!slimEnabled);
+            mRecentsClearAll.setEnabled(!slimEnabled);
+            mRecentsClearAllLocation.setEnabled(!slimEnabled);
+            mRecentsMemBar.setEnabled(!slimEnabled);
+            mSlimToggle.setChecked(slimEnabled);
+        }
     }
 
     @Override
@@ -132,6 +158,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
                Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
             }
+            updateRecentsPreferences();
             Utils.restartSystemUi(getContext());
         return true;
         } else if (preference == mRecentsClearAllLocation) {
