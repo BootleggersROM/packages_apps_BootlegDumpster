@@ -37,18 +37,33 @@ import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
+import com.bootleggers.dumpster.extra.Utils;
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private SystemSettingSwitchPreference mFingerprintSuccess;
+    private SystemSettingSwitchPreference mFingerprintUnlock;
+    private PreferenceCategory mLsMisc;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.bootleg_dumpster_lockscreen);
+        mLsMisc = (PreferenceCategory) findPreference("lock_misc_cat");
+        mFingerprintSuccess = (SystemSettingSwitchPreference) findPreference("fingerprint_success_vib");
+        mFingerprintUnlock = (SystemSettingSwitchPreference) findPreference("fp_unlock_keystore");
 
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
+
+        if (!Utils.isDeviceWithFP(getActivity())) {
+            mLsMisc.removePreference(mFingerprintSuccess);
+            mLsMisc.removePreference(mFingerprintUnlock);
+        }
+
 
     }
 

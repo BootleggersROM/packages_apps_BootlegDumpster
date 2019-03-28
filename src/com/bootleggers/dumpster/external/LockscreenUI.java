@@ -24,6 +24,7 @@ import android.support.v7.preference.PreferenceScreen;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.bootleggers.dumpster.extra.Utils;
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 
 import com.android.settings.SettingsPreferenceFragment;
@@ -65,10 +66,15 @@ public class LockscreenUI extends SettingsPreferenceFragment implements
         mLockDateFonts.setOnPreferenceChangeListener(this);
 
         mLockOwnerFonts = (ListPreference) findPreference(LOCK_OWNER_FONTS);
-        mLockOwnerFonts.setValue(String.valueOf(Settings.System.getInt(
-                getContentResolver(), Settings.System.LOCK_OWNER_FONTS, 8)));
-        mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
-        mLockOwnerFonts.setOnPreferenceChangeListener(this);
+        if (Utils.isLockOwnerInfo(getActivity())) {
+            mLockOwnerFonts.setValue(String.valueOf(Settings.System.getInt(
+                    getContentResolver(), Settings.System.LOCK_OWNER_FONTS, 8)));
+            mLockOwnerFonts.setSummary(mLockOwnerFonts.getEntry());
+            mLockOwnerFonts.setOnPreferenceChangeListener(this);
+        } else {
+            mLockOwnerFonts.setSummary(R.string.no_no_summary_owner);
+            mLockOwnerFonts.setEnabled(false);
+        }
 
         mWeatherUnit = (ListPreference) findPreference(WEATHER_UNIT);
         mWeatherUnit.setValue(String.valueOf(Settings.System.getInt(
