@@ -1,106 +1,123 @@
-package com.bootleggers.dumpster.fragments;
+/*
+ * Copyright (C) 2018 The Pixel Dust Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+
+package com.bootleggers.dumpster.external;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
-import android.database.ContentObserver;
-import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.os.UserHandle;
-import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
-import android.support.v7.preference.PreferenceCategory;
-import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 import android.provider.Settings;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
+import android.widget.BaseAdapter;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.ListView;
 
-import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
+import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settingslib.widget.FooterPreference;
+
+import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.List;
-import com.bootleggers.dumpster.extra.Utils;
 
-public class RecentsSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener, DialogInterface.OnDismissListener {
+public class SlimRecents extends SettingsPreferenceFragment
+        implements Preference.OnPreferenceChangeListener, DialogInterface.OnDismissListener {
 
-    private ListPreference mRecentsLayoutStylePref;
-    private SwitchPreference mSlimToggle;
-    private Preference mSlimSettings;
-    private static final String RECENTS_LAYOUT_STYLE_PREF = "recents_layout_style";
-    private static final String PREF_SLIM_RECENTS_SETTINGS = "slim_recents_settings";
-    private static final String PREF_SLIM_RECENTS = "use_slim_recents";
+    private static final String RECENT_PANEL_LEFTY_MODE = "recent_panel_lefty_mode";
 
+    private static final String RECENT_ICON_PACK = "slim_icon_pack";
+
+    private SwitchPreference mRecentPanelLeftyMode;
+    private Preference mIconPack;
+
+    // Icon pack
     private final static String[] sSupportedActions = new String[] {
         "org.adw.launcher.THEMES",
         "com.gau.go.launcherex.theme"
     };
-
     private static final String[] sSupportedCategories = new String[] {
         "com.fede.launcher.THEME_ICONPACK",
         "com.anddoes.launcher.THEME",
         "com.teslacoilsw.launcher.THEME"
     };
-
     private AlertDialog mDialog;
     private ListView mListView;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.bootleg_dumpster_recents);
+        addPreferencesFromResource(R.xml.bootleg_external_slimrecents);
 
-        ContentResolver resolver = getActivity().getContentResolver();
-
-        // recents layout style
-        mRecentsLayoutStylePref = (ListPreference) findPreference(RECENTS_LAYOUT_STYLE_PREF);
-        int type = Settings.System.getInt(resolver,
-                Settings.System.RECENTS_LAYOUT_STYLE, 0);
-        mRecentsLayoutStylePref.setValue(String.valueOf(type));
-        mRecentsLayoutStylePref.setSummary(mRecentsLayoutStylePref.getEntry());
-        mRecentsLayoutStylePref.setOnPreferenceChangeListener(this);
-
-        // Slim Recents
-        mSlimSettings = (Preference) findPreference(PREF_SLIM_RECENTS_SETTINGS);
-        mSlimToggle = (SwitchPreference) findPreference(PREF_SLIM_RECENTS);
-        mSlimToggle.setOnPreferenceChangeListener(this);
-
-        updateRecentsPreferences();
+        mRecentPanelLeftyMode = (SwitchPreference) findPreference(RECENT_PANEL_LEFTY_MODE);
+        mRecentPanelLeftyMode.setOnPreferenceChangeListener(this);
+        mIconPack = findPreference(RECENT_ICON_PACK);
     }
 
-    private void updateRecentsPreferences() {
-        boolean slimEnabled = Settings.System.getIntForUser(
-                getActivity().getContentResolver(), Settings.System.USE_SLIM_RECENTS, 0,
-                UserHandle.USER_CURRENT) == 1;
-        // Either Stock or Slim Recents can be active at a time
-        // mRecentsComponentType.setEnabled(!slimEnabled);
-        mSlimToggle.setChecked(slimEnabled);
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        boolean recentLeftyMode = Settings.System.getInt(getContext().getContentResolver(),
+                Settings.System.RECENT_PANEL_GRAVITY, Gravity.END) == Gravity.START;
+        mRecentPanelLeftyMode.setChecked(recentLeftyMode);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mRecentPanelLeftyMode) {
+            Settings.System.putInt(getContext().getContentResolver(),
+                    Settings.System.RECENT_PANEL_GRAVITY,
+                    ((Boolean) newValue) ? Gravity.START : Gravity.END);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if (preference == mIconPack) {
+            pickIconPack(getContext());
+            return true;
+        } else {
+            return super.onPreferenceTreeClick(preference);
+        }
     }
 
     @Override
@@ -108,49 +125,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.BOOTLEG;
     }
 
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mRecentsLayoutStylePref) {
-            int type = Integer.valueOf((String) objValue);
-            int index = mRecentsLayoutStylePref.findIndexOfValue((String) objValue);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.RECENTS_LAYOUT_STYLE, type);
-            mRecentsLayoutStylePref.setSummary(mRecentsLayoutStylePref.getEntries()[index]);
-            if (type != 0) { // Disable swipe up gesture, if oreo type selected
-               Settings.Secure.putInt(getActivity().getContentResolver(),
-                    Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
-            }
-            Utils.restartSystemUi(getContext());
-        return true;
-        } else if (preference == mSlimToggle) {
-            boolean value = (Boolean) objValue;
-            int type = Settings.System.getInt(
-                getActivity().getContentResolver(), Settings.System.RECENTS_LAYOUT_STYLE, 0);
-            if (value && (type == 0)) { // change recents type to oreo when we are about to switch to slimrecents
-               Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.RECENTS_LAYOUT_STYLE, 1);
-                Utils.restartSystemUi(getContext());
-            }
-            Settings.System.putIntForUser(getActivity().getContentResolver(),
-                    Settings.System.USE_SLIM_RECENTS, value ? 1 : 0,
-                    UserHandle.USER_CURRENT);
-            updateRecentsPreferences();
-            return true;
-        }
-
-    return false;
-    }
-
-    @Override
-    public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference == findPreference("recents_icon_pack")) {
-            pickIconPack(getContext());
-            return true;
-        }
-        return super.onPreferenceTreeClick(preference);
-    }
-
-    /** Recents Icon Pack Dialog **/
+     /** Slim Recents Icon Pack Dialog **/
     private void pickIconPack(final Context context) {
         if (mDialog != null) {
             return;
@@ -176,7 +151,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
 
         mListView = (ListView) view.findViewById(R.id.iconpack_list);
         mListView.setAdapter(adapter);
-        mListView.setOnItemClickListener(new OnItemClickListener() {
+        mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                         int position, long id) {
@@ -185,7 +160,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
                 }
                 String selectedPackage = adapter.getItem(position);
                 Settings.System.putString(getContext().getContentResolver(),
-                        Settings.System.RECENTS_ICON_PACK, selectedPackage);
+                        Settings.System.SLIM_RECENTS_ICON_PACK, selectedPackage);
                 mDialog.dismiss();
             }
         });
@@ -221,7 +196,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             Drawable icon = res.getDrawable(android.R.drawable.sym_def_app_icon);
             mSupportedPackages.add(0, new IconPackInfo(defaultLabel, icon, ""));
             mCurrentIconPack = Settings.System.getString(ctx.getContentResolver(),
-                Settings.System.RECENTS_ICON_PACK);
+                Settings.System.SLIM_RECENTS_ICON_PACK);
         }
 
         @Override
@@ -286,7 +261,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         return packages;
     }
 
-    static class IconPackInfo {
+    private static class IconPackInfo {
         String packageName;
         CharSequence label;
         Drawable icon;
