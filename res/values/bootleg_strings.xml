@@ -1289,8 +1289,8 @@
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 
     <!-- Recents categories-->
-    <string name="stock_recents_category">Stock recents</string>
-    <string name="alternative_recents_category">Alternative recents</string>
+    <string name="aosp_recents_category">AOSP recents</string>
+    <string name="slim_recents_category">Slim recents</string>
     <string name="alternative_recents_swipe_up_enabled_warning_summary">When using swipe up home navigation to open recents, only stock recents are supported</string>
 
     <!-- Slim recents -->
