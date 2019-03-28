@@ -1362,4 +1362,9 @@
     <string name="stock_statusbar_in_hide">Stock statusbar height</string>
     <string name="stock_statusbar_in_hide_summary">Use default statusbar height in Hide</string>
 
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">This feature is unavailable because you don\'t have a secured lockscreen. </string>
+    <string name="no_no_summary_go">This feature is unavailable because you have Android Go enabled.</string>
+    <string name="no_no_summary_owner">This feature is unavailable because you don\'t have an owner info message</string>
+
 </resources>

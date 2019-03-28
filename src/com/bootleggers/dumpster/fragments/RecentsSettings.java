@@ -53,7 +53,6 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private ListPreference mRecentsLayoutStylePref;
     private SwitchPreference mSlimToggle;
     private Preference mSlimSettings;
-    private ListPreference mRecentsComponentType;
     private Preference mRecentsIconPack;
     private SwitchPreference mRecentsClearAll;
     private ListPreference mRecentsClearAllLocation;
@@ -122,17 +121,20 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         boolean quickstepRecents = Settings.System.getIntForUser(
                 getActivity().getContentResolver(), Settings.System.RECENTS_LAYOUT_STYLE, 0,
                 UserHandle.USER_CURRENT) == 0;
+        boolean goRecents = Settings.System.getIntForUser(
+                getActivity().getContentResolver(), Settings.System.RECENTS_LAYOUT_STYLE, 0,
+                UserHandle.USER_CURRENT) == 3;
         
         // Either Stock or Slim Recents can be active at a time
-        if (quickstepRecents) {
-            mRecentsComponentType.setEnabled(quickstepRecents);
-            mRecentsIconPack.setEnabled(!quickstepRecents);
-            mRecentsClearAll.setEnabled(!quickstepRecents);
-            mRecentsClearAllLocation.setEnabled(!quickstepRecents);
-            mRecentsMemBar.setEnabled(!quickstepRecents);
-            mSlimToggle.setChecked(!quickstepRecents);
+        if (quickstepRecents || goRecents) {
+            mRecentsLayoutStylePref.setEnabled(true);
+            mRecentsIconPack.setEnabled(true);
+            mRecentsClearAll.setEnabled(false);
+            mRecentsClearAllLocation.setEnabled(false);
+            mRecentsMemBar.setEnabled(false);
+            mSlimToggle.setChecked(false);
         } else {
-            mRecentsComponentType.setEnabled(!slimEnabled);
+            mRecentsLayoutStylePref.setEnabled(!slimEnabled);
             mRecentsIconPack.setEnabled(!slimEnabled);
             mRecentsClearAll.setEnabled(!slimEnabled);
             mRecentsClearAllLocation.setEnabled(!slimEnabled);

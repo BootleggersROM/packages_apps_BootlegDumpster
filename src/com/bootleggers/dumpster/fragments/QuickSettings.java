@@ -25,6 +25,7 @@ import android.text.TextUtils;
 import android.view.View;
 
 import com.bootleggers.dumpster.external.QsTileStyles;
+import com.bootleggers.dumpster.extra.Utils;
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
 
@@ -62,6 +63,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private String mFileHeaderProvider;
     private ListPreference mQuickPulldown;
     ListPreference mSmartPulldown;
+    private SystemSettingSwitchPreference mDisableQS;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -130,6 +132,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_SMART_PULLDOWN, 0);
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
+
+        if (!Utils.isLockSecured(getActivity())) {
+            mDisableQS = (SystemSettingSwitchPreference) findPreference("lockscreen_qs_disabled");
+            mDisableQS.setSummary(R.string.no_no_summary_locked);
+            mDisableQS.setEnabled(false);
+        }
     }
 
     private void updateHeaderProviderSummary(boolean headerEnabled) {
