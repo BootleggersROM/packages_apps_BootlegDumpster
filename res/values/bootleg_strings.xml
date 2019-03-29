@@ -1367,4 +1367,7 @@
     <string name="no_no_summary_go">This feature is unavailable because you have Android Go enabled.</string>
     <string name="no_no_summary_owner">This feature is unavailable because you don\'t have an owner info message</string>
 
+    <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">See the changelog</string>
+    <string name="bootleg_changelog_summary">See the latest changes added on this build</string>
 </resources>
