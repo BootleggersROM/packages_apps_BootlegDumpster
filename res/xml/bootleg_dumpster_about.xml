@@ -46,6 +46,12 @@
         android:key="pref_bootleg_extras">
 
         <Preference
+            android:key="bootleg_changelog"
+            android:title="@string/bootleg_changelog_title"
+            android:summary="@string/bootleg_changelog_summary"
+            android:fragment="com.android.settings.deviceinfo.Changelog"/>
+
+        <Preference
             android:key="bootleg_listfeatures"
             android:title="@string/bootleg_ex_title_featurelist"
             android:summary="@string/bootleg_ex_summary_featurelist">
