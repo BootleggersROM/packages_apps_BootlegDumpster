@@ -1370,4 +1370,7 @@
     <!-- Bootleg changelog -->
     <string name="bootleg_changelog_title">See the changelog</string>
     <string name="bootleg_changelog_summary">See the latest changes added on this build</string>
+
+    <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">Swipe up to switch apps</string>
 </resources>
