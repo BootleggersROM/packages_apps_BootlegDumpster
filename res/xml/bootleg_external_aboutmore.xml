@@ -55,15 +55,6 @@
     <PreferenceCategory
         android:title="@string/bootleg_pref_moarstuff_social_title"
         android:key="pref_bootleg_moresocial">
-
-        <Preference
-            android:key="bootleg_moregplus"
-            android:title="@string/bootleg_moarstuff_gplus_title"
-            android:summary="@string/bootleg_moarstuff_gplus_summary">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/u/0/communities/117332529104028864472" />
-        </Preference>
         
         <Preference
             android:key="bootleg_moretg"
