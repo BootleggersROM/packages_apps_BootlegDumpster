@@ -38,6 +38,7 @@
     <string name="notifications_settings_summary">Thay đổi cách bạn xem thông báo</string>
     <string name="about_bootleg_title">Giới thiệu về Bootleggers</string>
     <string name="about_bootleg_summary">Một vài thông tin về chúng tôi, hữu ích khi bạn đang tò mò về nó</string>
+    <string name="about_bootleg_small_title">Về chúng tôi</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Về chúng tôi</string>
     <string name="bootleg_ab_title_whoami">Bootleggers là gì?</string>
@@ -57,8 +58,6 @@
     <string name="bootleg_moarstuff_git_title">GitHub của chúng tôi</string>
     <string name="bootleg_moarstuff_git_summary">Nơi chứa mã nguồn và một vài thứ khác của ROM</string>
     <string name="bootleg_pref_moarstuff_social_title">Giữ liên lạc với chúng tôi!</string>
-    <string name="bootleg_moarstuff_gplus_title">Cộng đồng Google+ của chúng tôi</string>
-    <string name="bootleg_moarstuff_gplus_summary">Gửi ảnh chụp màn hình, phản hồi cho chúng tôi hoặc bất cứ thứ gì bạn muốn một cách tôn trọng</string>
     <string name="bootleg_moarstuff_tg_title">Cộng đồng Telegram của chúng tôi</string>
     <string name="bootleg_moarstuff_tg_summary">Nói chuyện với chúng tôi, nhận tin tức về các bản cập nhật trong tương lai sớm nhất và tham gia vào cộng đồng tuyệt vời của chúng tôi</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Tôi nghĩ bạn tìm thấy nơi này thực sự không phải là bí mật nhưng tốt, nếu bạn có ở đây tôi chỉ muốn cho bạn biết rằng cảm ơn bạn đã nhấp nháy ROM này và welp, như chúng tôi đã nói nhiều lần trước đây, hy vọng bạn thích nó và có một thời gian với ROM này.</string>
@@ -118,7 +117,6 @@
     <!-- Lockscreen charging current indicator  -->
     <!-- Volume swap buttons -->
     <!--SystemUI Tuner -->
-    <string name="lockscreen_shortcuts_title">Lối tắt Màn hình khoá</string>
     <!-- Toast app icon -->
     <!-- Power menu on lockscreen -->
     <!-- AOKP custom system animations -->
@@ -210,24 +208,6 @@
     <string name="dialog_delete_title">Xóa</string>
     <string name="dialog_delete_message">Xóa mục đã chọn?</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock_advanced_title">Tùy chọn nâng cao</string>
-    <string name="dont_show">Không hiển thị</string>
-    <string name="clock_date_string_edittext_title">Phải thuộc định dạng ngày, ví dụ MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Nhập chuỗi</string>
-    <string name="am_pm_clock_normal">Cỡ chữ bình thường</string>
-    <string name="am_pm_clock_small">Cỡ chữ nhỏ</string>
-    <string name="am_pm_clock_none">Không hiển thị</string>
-    <string name="clock_date_display_none">Không hiển thị</string>
-    <string name="clock_date_display_small">Cỡ chữ nhỏ</string>
-    <string name="clock_date_display_normal">Cỡ chữ bình thường</string>
-    <string name="clock_date_style_normal">Bình thường</string>
-    <string name="clock_date_style_lowercase">Chữ thường</string>
-    <string name="clock_date_style_uppercase">CHỮ HOA</string>
-    <string name="clock_date_format_custom">Định dạng java tùy chỉnh</string>
-    <string name="clock_date_right">Bên phải thời gian</string>
-    <string name="clock_date_left">Bên trái thời gian</string>
-    <string name="clock_date_position">Vị trí ngày</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Biểu tượng 4G trên thanh trạng thái</string>
     <string name="show_fourg_icon_summary">Hiển thị biểu tượng 4G thay cho LTE</string>
@@ -288,7 +268,7 @@
     <!-- Log it -->
     <!-- AOSP Recents component Style -->
     <string name="recents_stock">Gốc</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Dạng Lưới</string>
     <string name="recents_go">Android Go</string>
     <!-- QS tile styles -->
     <!-- Battery light -->
@@ -452,4 +432,88 @@
     <string name="smart_pixels_on_power_save_title">Tự động bật khi trình tiết kiệm pin</string>
     <string name="smart_pixels_on_power_save_summary">Tự động bật Điểm ảnh thông minh khi trình tiết kiệm pin được bật</string>
     <string name="smart_pixels_percent">Phần trăm điểm ảnh bị tắt</string>
+    <!-- Statusbar Clock options -->
+    <string name="am_pm_clock_normal">Cỡ chữ bình thường</string>
+    <string name="am_pm_clock_small">Cỡ chữ nhỏ</string>
+    <string name="am_pm_clock_none">Không hiển thị</string>
+    <string name="clock_date_position">Vị trí ngày</string>
+    <string name="clock_date_string_edittext_title">Phải thuộc định dạng ngày, ví dụ MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Nhập chuỗi</string>
+    <string name="clock_date_right">Bên phải thời gian</string>
+    <string name="clock_date_left">Bên trái thời gian</string>
+    <string name="clock_date_display_none">Không hiển thị</string>
+    <string name="clock_date_display_small">Cỡ chữ nhỏ</string>
+    <string name="clock_date_display_normal">Cỡ chữ bình thường</string>
+    <string name="clock_date_style_normal">Bình thường</string>
+    <string name="clock_date_style_lowercase">Chữ thường</string>
+    <string name="clock_date_style_uppercase">CHỮ HOA</string>
+    <string name="clock_date_format_custom">Định dạng java tùy chỉnh</string>
+    <string name="menu_cancel">Hủy</string>
+    <string name="menu_save">Lưu</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Không có</string>
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Rung xác thực dấu vân tay</string>
+    <string name="fprint_sucess_vib_summary">Rung khi xác thực vân tay thành công</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">Giao diện đa nhiệm AOSP</string>
+    <string name="slim_recents_category">Màn hình gần đây thẻ</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Màn hình gần đây thẻ</string>
+    <string name="slim_recents_settings_title">Cài đặt thanh ứng dụng gần đây kiểu thon gọn</string>
+    <string name="recents_max_apps_title">Số ứng dụng cho phép tối đa</string>
+    <string name="recent_panel_scale_title">Kích thước</string>
+    <string name="recent_panel_expanded_mode_summary">Chế độ xem trước các tác vụ gần đây mở rộng</string>
+    <string name="recent_panel_expanded_mode_auto">Tự động (mặc định)</string>
+    <string name="recent_panel_expanded_mode_always">Luôn luôn</string>
+    <string name="recent_panel_expanded_mode_never">Không bao giờ</string>
+    <string name="recent_panel_bg_color_title">Màu nền bảng điều khiển</string>
+    <string name="recent_card_bg_color_title">Màu nền thẻ</string>
+    <string name="slim_icon_pack_title">Gói biểu tượng</string>
+    <string name="slim_icon_pack_summary">Áp dụng một gói biểu tượng tuỳ chỉnh cho các ứng dụng trong bảng điều khiển</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="slim_blacklist_apps_cat_title">Danh sách đen</string>
+    <string name="slim_blacklist_add_apps_title">Thêm ứng dụng</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Thanh trạng thái bộ nhớ</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Nút xoá tất cả</string>
+    <string name="show_clear_all_recents_button_summary">Hiển thị nút xoá tất cả</string>
+    <string name="recents_clear_all_location_title">Vị trí nút xoá tất cả</string>
+    <string name="recents_clear_all_location_top_right">Phía trên bên phải</string>
+    <string name="recents_clear_all_location_top_left">Phía trên bên trái</string>
+    <string name="recents_clear_all_location_top_center">Chính giữa phía trên</string>
+    <string name="recents_clear_all_location_bottom_right">Phía dưới bên phải</string>
+    <string name="recents_clear_all_location_bottom_left">Phía dưới bên trái</string>
+    <string name="recents_clear_all_location_bottom_center">Chính giữa phía dưới</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">Thanh trạng thái bộ nhớ</string>
+    <string name="recents_show_membar_summary">Hiển thị thanh trạng thái bộ nhớ của thiết bị</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Kích hoạt nhanh</string>
+    <string name="quick_pulldown_summary">Kéo từ %1$s cạnh của thanh trạng thái để mở Cài đặt nhanh</string>
+    <string name="quick_pulldown_summary_always">Luôn hiển thị Cài đặt nhanh khi kéo xuống thanh trạng thái</string>
+    <string name="quick_pulldown_off">Tắt</string>
+    <string name="quick_pulldown_left">Bên trái</string>
+    <string name="quick_pulldown_right">Bên phải</string>
+    <string name="quick_pulldown_always">Luôn luôn</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Kéo xuống thông minh</string>
+    <string name="smart_pulldown_summary">Mở cài đặt nhanh khi có %1$s thông báo</string>
+    <string name="smart_pulldown_none_summary">Mở cài đặt nhanh khi không có thông báo</string>
+    <string name="smart_pulldown_off">Tắt</string>
+    <string name="smart_pulldown_none">không có thông báo</string>
+    <string name="smart_pulldown_dismissable">không thể loại bỏ</string>
+    <string name="smart_pulldown_ongoing">không liên tục</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Bình thường</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Tính năng này là không sẵn dùng vì bạn không có một bảo đảm lockscreen. </string>
+    <string name="no_no_summary_go">Tính năng này là không sẵn dùng vì bạn có đi Android được kích hoạt.</string>
+    <string name="no_no_summary_owner">Tính năng này là không sẵn dùng vì bạn không có một thông báo thông tin chủ sở hữu</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

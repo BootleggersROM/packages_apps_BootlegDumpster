@@ -39,6 +39,7 @@
     <string name="notifications_settings_summary">Bu bildirimleri nasıl görebileceğinizi değiştirin</string>
     <string name="about_bootleg_title">Bootleggers hakkında</string>
     <string name="about_bootleg_summary">Bizim hakkımızda bazı bilgiler edinin</string>
+    <string name="about_bootleg_small_title">Hakkımızda</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Hakkımızda</string>
     <string name="bootleg_ab_title_whoami">Bootleggers nedir?</string>
@@ -62,8 +63,6 @@
     <string name="bootleg_moarstuff_git_title">Github</string>
     <string name="bootleg_moarstuff_git_summary">Kaynaklarımızın ve geri dönüşlerin yerleştirildiği yerler</string>
     <string name="bootleg_pref_moarstuff_social_title">Bağlantı kurun!</string>
-    <string name="bootleg_moarstuff_gplus_title">Google+ topluluğumuz</string>
-    <string name="bootleg_moarstuff_gplus_summary">Ekran görüntüleri gönderin, bize geri bildirimde bulunun, ne istersen ama saygılı bir şekilde</string>
     <string name="bootleg_moarstuff_tg_title">Telegram topluluğumuz</string>
     <string name="bootleg_moarstuff_tg_summary">Bizimle konuşun, gelecekteki güncellemelerden haberdar olun ve harika topluluğumuza katılın</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Gerçekten bu kadar gizli bir yer bulamadığını düşünüyorum ama, eğer buraya geldiyseniz, sadece bu romu kurduğunuz için teşekkür ederim, daha önce de söylediğimiz gibi zevk aldığınızı ve iyi zaman geçireceğinizi umuyoruz bu rom ile.</string>
@@ -149,7 +148,6 @@
     <string name="statusbar_tuner_summary">Pil seçenekleri ve devre dışı bırakılacak durum çubuğu simgeleri</string>
     <string name="navbar_tuner_title">Gezinme çubuğunu düzenle</string>
     <string name="navbar_tuner_summary">Gezinme çubuğu düzenini ve tuşları düzenle</string>
-    <string name="lockscreen_shortcuts_title">Kilit ekran kısayolları</string>
     <string name="lockscreen_shortcuts_summary">Kilit ekranı alt kısayollarını yönetin</string>
     <string name="vol_dnd_category_title">Rahatsız etmeyin modu</string>
     <string name="volbtn_down_zen_title">Rahatsız etmeyinde ses seviyesi</string>
@@ -314,45 +312,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Takıp çıkarmada uyan</string>
     <string name="wakeup_when_plugged_unplugged_summary">Cihaz şarja takıldığında veya çıkartıldığında uyandır.</string>
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">Saat ve tarih</string>
-    <string name="status_bar_clock_summary">Durum çubuğunda saati ve tarih görünümünü yapılandırın</string>
-    <string name="status_bar_clock_advanced_title">Gelişmiş seçenekler</string>
-    <string name="status_bar_clock_advanced_title_alt">Gelişmiş saat ve tarih seçenekleri</string>
-    <string name="status_bar_clock_advanced_summary">Diğer saat ve tarih seçenekleri</string>
-    <string name="clock_title_enable">Konum</string>
-    <string name="clock_enabled">Etkin</string>
-    <string name="clock_disabled">Devre dışı</string>
-    <string name="status_bar_clock_style_reset">Renkleri sıfırla</string>
-    <string name="status_bar_show_clock_title">Saati ve tarihi göster</string>
-    <string name="status_bar_clock_seconds_title">Saniye göster</string>
-    <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
-    <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
-    <string name="enable_clock_weekday">Haftanın günü</string>
-    <string name="enable_clock_weekday_summary">Saatten önce kısaltılmış günü göster</string>
-    <string name="right_clock">Saat sağda</string>
-    <string name="left_clock">Saat solda</string>
-    <string name="center_clock">Saat ortada</string>
-    <string name="dont_show">Gösterme</string>
-    <string name="clock_date_display">Tarih</string>
-    <string name="clock_date_display_summary">Saatten önce özel tarihi görüntüle</string>
-    <string name="clock_date_style">Tarih stili</string>
-    <string name="clock_date_format">Tarih biçimi</string>
-    <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
-    <string name="clock_date_string_edittext_summary">Yazı girin</string>
-    <string name="am_pm_clock_normal">Normal yazı boyutu</string>
-    <string name="am_pm_clock_small">Küçük yazı boyutu</string>
-    <string name="am_pm_clock_none">Gösterme</string>
-    <string name="clock_date_display_none">Gösterme</string>
-    <string name="clock_date_display_small">Küçük yazı boyutu</string>
-    <string name="clock_date_display_normal">Normal yazı boyutu</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Küçük harf</string>
-    <string name="clock_date_style_uppercase">Büyük harf</string>
-    <string name="clock_date_format_custom">Özel java biçimi</string>
-    <string name="clock_date_right">Saatin sağında</string>
-    <string name="clock_date_left">Saatin solunda</string>
-    <string name="clock_date_position">Tarih konumu</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G simgesi</string>
     <string name="show_fourg_icon_summary">Durum çubuğunda LTE yerine 4G simgesini göster</string>
@@ -472,7 +431,7 @@
     <string name="recents_component_type_title">Son uygulamalar stili</string>
     <string name="recents_quickstep">Quickstep (varsa)</string>
     <string name="recents_stock">Varsayılan</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Izgara</string>
     <string name="recents_go">Android P</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Hızlı ayarlar kare stili</string>
@@ -717,7 +676,7 @@
     <string name="shortcut_picker_select_system_icon_title">Sistem simgesi seçin:</string>
     <string name="shortcut_picker_icon_type_custom_title">Galeri</string>
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">Orta ekran kısayolları</string>
+    <string name="ls_shortcuts_title">Kısayollar</string>
     <string name="lockscreen_mdshortcuts_title">Orta ekran kısayolları</string>
     <string name="lockscreen_mdshortcuts_summary">Özel orta kilit ekranı kısayollarını görüntüleyin ve değiştirin</string>
     <string name="lockscreen_shorcuts_launch_type_title">Kısayol dokunma tipi</string>
@@ -988,6 +947,7 @@
     <string name="lockscreen_clock_selection_sammy_accent">Sammy ile vurgu rengi</string>
     <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy ile vurgu rengi (alt)</string>
     <string name="lockscreen_clock_selection_shishu_nerves">Shishu nerves</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">Gradyan saat (bootleg logolu)</string>
     <string name="lockscreen_clock_selection_gradient_shishu">Gradyan saat (shishu logolu)</string>
     <string name="lockscreen_clock_selection_gradient_full">Tam gradyan saat</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Tek renkli gradyan saat</string>
@@ -1013,10 +973,16 @@
     <string name="file_header_select_summary">Özel görüntü seçin</string>
     <string name="file_header_provider_title">Özel görüntü</string>
     <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">Ses paneli</string>
+    <string name="volume_panel_on_left_title">Sol ses paneli</string>
+    <string name="volume_panel_on_left_summary">Ses panelini sağ taraftan sol tarafa doğru değiştirin</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view">Ses paneli görünümü</string>
     <string name="audio_panel_view_media_title">Medya</string>
     <string name="audio_panel_view_ringer_title">Zil sesi</string>
+    <string name="audio_panel_view_notification_title">Bildirimler</string>
     <string name="audio_panel_view_alarm_title">Alarm</string>
+    <string name="audio_panel_view_voice_title">Ses</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Akıllı pikseller</string>
@@ -1026,4 +992,110 @@
     <string name="smart_pixels_on_power_save_title">Pil tasarrufu için otomatik etkinleştir</string>
     <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinleştirildiğinde akıllı pikselleri etkinleştir</string>
     <string name="smart_pixels_percent">Devre dışı bırakılan piksel yüzdesi</string>
+    <string name="smart_pixels_shift">Yanmaları önler ve sık sık pikselleri kaydırır</string>
+    <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe önemli bir iyileşme görebilirsiniz. İyi bir kullanıcı deneyimi için devre dışı bırakılmış piksel miktarını yüzde 75 olarak ayarlamanızı öneririz.</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">Saati ve tarihi göster</string>
+    <string name="clock_title_enable">Konum</string>
+    <string name="clock_position_right">Saat sağda</string>
+    <string name="clock_position_center">Saat ortada</string>
+    <string name="clock_position_left">Saat solda</string>
+    <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
+    <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
+    <string name="am_pm_clock_normal">Normal yazı boyutu</string>
+    <string name="am_pm_clock_small">Küçük yazı boyutu</string>
+    <string name="am_pm_clock_none">Gösterme</string>
+    <string name="clock_date_display">Tarih</string>
+    <string name="clock_date_display_summary">Saatten önce özel tarihi görüntüle</string>
+    <string name="clock_date_style">Tarih stili</string>
+    <string name="clock_date_position">Tarih konumu</string>
+    <string name="clock_date_format">Tarih biçimi</string>
+    <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
+    <string name="clock_date_string_edittext_summary">Yazı girin</string>
+    <string name="clock_date_right">Saatin sağında</string>
+    <string name="clock_date_left">Saatin solunda</string>
+    <string name="clock_date_display_none">Gösterme</string>
+    <string name="clock_date_display_small">Küçük yazı boyutu</string>
+    <string name="clock_date_display_normal">Normal yazı boyutu</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Küçük harf</string>
+    <string name="clock_date_style_uppercase">Büyük harf</string>
+    <string name="clock_date_format_custom">Özel java biçimi</string>
+    <string name="menu_cancel">İptal</string>
+    <string name="menu_save">Kaydet</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Yok</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Uygulama sonlandırma tuşu</string>
+    <string name="notification_guts_kill_app_button_summary">Bildirimlere uzun basma menüsünde uygulama sonlandırma tuşunu göster</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
+    <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titre</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">Aosp son uygulamalar</string>
+    <string name="slim_recents_category">Slim son uygulamalar</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim son uygulamalar</string>
+    <string name="slim_recents_settings_title">Slim ayarları</string>
+    <string name="recents_max_apps_title">Maksimum izin verilen uygulama</string>
+    <string name="recent_panel_scale_title">Boyut</string>
+    <string name="recent_panel_expanded_mode_summary">Son uygulamalar önizleme modunu genişletir</string>
+    <string name="recent_panel_expanded_mode_auto">Otomatik (varsayılan)</string>
+    <string name="recent_panel_expanded_mode_always">Her zaman</string>
+    <string name="recent_panel_expanded_mode_never">Asla</string>
+    <string name="recent_panel_expanded_mode_disabled">Devre dışı</string>
+    <string name="recent_panel_bg_color_title">Panel arkaplan rengi</string>
+    <string name="recent_card_bg_color_title">Kart arkaplan rengi</string>
+    <string name="slim_icon_pack_title">Simge paketi</string>
+    <string name="slim_icon_pack_summary">Paneldeki uygulamalar için özel bir simge paketi uygulayın</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Sol kenarda göster</string>
+    <string name="recent_panel_lefty_mode_summary">Sol kenarda son uygulamalar panelini göster</string>
+    <string name="slim_blacklist_apps_cat_title">Kara liste</string>
+    <string name="slim_blacklist_apps_title">Uygulama kara listesi</string>
+    <string name="slim_blacklist_apps_summary">Panelde gösterilmemesi gereken uygulamalar</string>
+    <string name="slim_blacklist_add_apps_title">Uygulama ekle</string>
+    <string name="slim_blacklist_add_apps_summary">Eklemek için buraya dokunun, kaldırmak için eklenen uygulamaya dokunun</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Bellek çubuğu</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Tümünü temizle tuşu</string>
+    <string name="show_clear_all_recents_button_summary">Tümünü temizleme tuşunu göster</string>
+    <string name="recents_clear_all_location_title">Tuş konumu</string>
+    <string name="recents_clear_all_location_top_right">Sağ üst</string>
+    <string name="recents_clear_all_location_top_left">Sol üst</string>
+    <string name="recents_clear_all_location_top_center">Üst orta</string>
+    <string name="recents_clear_all_location_bottom_right">Sağ alt</string>
+    <string name="recents_clear_all_location_bottom_left">Sol alt</string>
+    <string name="recents_clear_all_location_bottom_center">Alt orta</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">Bellek çubuğu</string>
+    <string name="recents_show_membar_summary">Son uygulamalar ekranında bellek çubuğunu göster</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Hızlı aşağı çekme</string>
+    <string name="quick_pulldown_summary">Durum çubuğunu %1$s dan aşağı çekmek hızlı ayarları açar</string>
+    <string name="quick_pulldown_summary_always">Her zaman durum çubuğunu aşağı çekince hızlı ayarları göster</string>
+    <string name="quick_pulldown_off">Kapalı</string>
+    <string name="quick_pulldown_left">Sol</string>
+    <string name="quick_pulldown_right">Sağ</string>
+    <string name="quick_pulldown_always">Her zaman</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Akıllı aşağı çekme</string>
+    <string name="smart_pulldown_summary">Mevcut %1$s bildirimler olduğunda hızlı ayarları açar</string>
+    <string name="smart_pulldown_none_summary">Bildirim olmadığında hızlı ayarları aç</string>
+    <string name="smart_pulldown_off">Kapalı</string>
+    <string name="smart_pulldown_none">bildirimler yoksa</string>
+    <string name="smart_pulldown_dismissable">kapatılabilir yoksa</string>
+    <string name="smart_pulldown_ongoing">devam eden yoksa</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_hide">Gizle</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Güvenli kilit ekranı olmadığı için bu özellik kullanılamıyor. </string>
+    <string name="no_no_summary_go">Android Go etkin olduğundan bu özellik kullanılamıyor.</string>
+    <string name="no_no_summary_owner">Sahip bilgi mesajı olmadığından bu özellik kullanılamıyor</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

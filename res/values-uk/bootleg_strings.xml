@@ -38,10 +38,28 @@
     <string name="notifications_settings_summary">Змініть відображення сповіщень</string>
     <string name="about_bootleg_title">Про Bootleggers</string>
     <string name="about_bootleg_summary">Деяка інформацію про нас, тільки у випадку, якщо вам це цікаво</string>
+    <string name="about_bootleg_small_title">Про нас</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Про нас</string>
     <string name="bootleg_ab_title_whoami">Що таке Bootleggers?</string>
+    <string name="bootleg_ab_title_thankssec">Список подяк</string>
+    <string name="bootleg_pref_title_romextras">Додаткові можливості</string>
+    <string name="bootleg_ex_title_featurelist">Список функцій</string>
+    <string name="bootleg_ex_summary_featurelist">Переглянути поточний список функцій в даній версії</string>
+    <string name="bootleg_ex_title_addons">Доповнення та завантаження</string>
+    <string name="bootleg_ex_summary_addons">Рекомендовані нами список тем й модифікацій (на правах реклами)</string>
+    <string name="bootleg_ex_title_sharemsg">Розповсюдити</string>
+    <string name="bootleg_ex_summary_sharemsg">Розкажіть про наш ROM! Ми будемо вельми вдячними.</string>
     <!-- More about us strings -->
+    <string name="bootleg_pref_moarstuff_title">Детальніше про нас?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Інформація та джерела</string>
+    <string name="bootleg_moarstuff_blog_title">Наш блоґ</string>
+    <string name="bootleg_moarstuff_blog_summary">В ньому ми розміщуємо новини й релізи</string>
+    <string name="bootleg_moarstuff_git_title">Ми на GitHub</string>
+    <string name="bootleg_moarstuff_git_summary">В ньому увесь наш вихідний матеріал та джерела</string>
+    <string name="bootleg_pref_moarstuff_social_title">Наші контакти.</string>
+    <string name="bootleg_moarstuff_tg_title">Спільнота у Telegram</string>
+    <string name="bootleg_moarstuff_tg_summary">Спілкуйтеся з нами, дізнавайтеся інформацію про майбутні оновлення та багато іншого</string>
     <!-- Messages to send? -->
     <!-- Build type info -->
     <!-- System theme -->
@@ -84,8 +102,6 @@
     <!-- Heads up -->
     <string name="heads_up_cat_title">Спливаючі сповіщення</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="clock_date_style_normal">Звичайний</string>
     <!-- 4G icon -->
     <!-- lock screen visualizer -->
     <!-- Lock date fonts -->
@@ -108,7 +124,6 @@
     <!-- SystemUI Restart -->
     <!-- Log it -->
     <!-- AOSP Recents component Style -->
-    <!-- <string name="recents_grid">Grid</string> -->
     <!-- QS tile styles -->
     <!-- Battery light -->
     <!-- Double Tap Lockscreen to Sleep -->
@@ -187,4 +202,25 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_ringer_title">Дзвінок</string>
     <!-- Smart Pixels -->
+    <!-- Statusbar Clock options -->
+    <string name="clock_date_style_normal">Звичайний</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Нічого</string>
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Recents categories-->
+    <!-- Slim recents -->
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Slim recents membar -->
+    <!-- Recents panel settings -->
+    <!-- Recents membar -->
+    <!-- Quick pull down-->
+    <!-- Smart pulldown-->
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Звичайний</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

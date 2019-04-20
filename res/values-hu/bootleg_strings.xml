@@ -39,6 +39,7 @@
     <string name="notifications_settings_summary">Módosítsa, hogyan láthatja ezeket az értesítéseket</string>
     <string name="about_bootleg_title">A Bootleggers-ről</string>
     <string name="about_bootleg_summary">Néhány információ rólunk, de csak ha Ön kíváncsi ránk</string>
+    <string name="about_bootleg_small_title">A ROM készítőiről</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">A ROM készítőiről</string>
     <string name="bootleg_ab_title_whoami">Mi az a Bootleggers?</string>
@@ -62,8 +63,6 @@
     <string name="bootleg_moarstuff_git_title">A Github elérhetőségünk</string>
     <string name="bootleg_moarstuff_git_summary">Hol találhatók forrásaink és korábbi munkáink</string>
     <string name="bootleg_pref_moarstuff_social_title">Vegye fel a kapcsolatot!</string>
-    <string name="bootleg_moarstuff_gplus_title">Google+ közösségünk</string>
-    <string name="bootleg_moarstuff_gplus_summary">Küldjön képernyőmentést, visszajelzést bármiről, amiről akar, de tisztelettudó módon</string>
     <string name="bootleg_moarstuff_tg_title">Telegram közösségünk</string>
     <string name="bootleg_moarstuff_tg_summary">Beszéljen velünk, legyen tájékozott a jövőbeli frissítésekről, és csatlakozzon nagy közösségünkhöz</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Úgy gondolom, ezt jól megtalálta ezen a nem annyira titkos helyen. S ha már itt megszerezte, csak azt szeretném, hogy tudja, hálás vagyok, hogy telepítette ezt a ROM-ot, és komolyan, ahogy sokszor mondtuk, reméljük, élvezni fogja, és jól érezheti magát ezen a ROM-on.</string>
@@ -144,7 +143,6 @@
     <string name="statusbar_tuner_summary">Akkumulátoropciók és állapotsorikonok letiltása</string>
     <string name="navbar_tuner_title">A navigációs sáv szerkesztése</string>
     <string name="navbar_tuner_summary">Szerkesztheti a navigációs sáv elrendezését és gombjait</string>
-    <string name="lockscreen_shortcuts_title">Parancsikonok a záróképernyőn</string>
     <string name="lockscreen_shortcuts_summary">Kezelheti a Záróképernyő alsó parancsikonjait</string>
     <string name="vol_dnd_category_title">Ne zavarjanak (DND) mód</string>
     <string name="volbtn_down_zen_title">Ne zavarjanak (DND) mód halkítással</string>
@@ -309,45 +307,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Felébredés töltő csatlakoztatásakor</string>
     <string name="wakeup_when_plugged_unplugged_summary">A képernyő bekapcsolása a töltő csatlakoztatása/eltávolítása után.</string>
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">Óra és Dátum</string>
-    <string name="status_bar_clock_summary">Az állapotsori óra és dátum megjelenésének beállításai</string>
-    <string name="status_bar_clock_advanced_title">Speciális beállítások</string>
-    <string name="status_bar_clock_advanced_title_alt">Speciális Óra és Dátum beállítások</string>
-    <string name="status_bar_clock_advanced_summary">Óratrükkök az Ön megelégedésére</string>
-    <string name="clock_title_enable">Igazítás</string>
-    <string name="clock_enabled">Engedélyezve</string>
-    <string name="clock_disabled">Letiltva</string>
-    <string name="status_bar_clock_style_reset">Szín visszaállítása</string>
-    <string name="status_bar_show_clock_title">Az óra és a dátum megjelenítése</string>
-    <string name="status_bar_clock_seconds_title">Másodpercek megjelenítése</string>
-    <string name="status_bar_am_pm_title">DE/DU</string>
-    <string name="status_bar_am_pm_info">24-órás formátum engedélyezve</string>
-    <string name="enable_clock_weekday">A hét napja</string>
-    <string name="enable_clock_weekday_summary">A hét napjának rövidített megjelenítése az óra előtt</string>
-    <string name="right_clock">Az Óra a jobb oldalon</string>
-    <string name="left_clock">Az Óra a bal oldalon</string>
-    <string name="center_clock">Az Óra középen</string>
-    <string name="dont_show">Ne jelenjenítse meg</string>
-    <string name="clock_date_display">Dátum</string>
-    <string name="clock_date_display_summary">Egyéni dátum megjelenítése az óra előtt</string>
-    <string name="clock_date_style">A Dátum stílusa</string>
-    <string name="clock_date_format">A Dátum formátuma</string>
-    <string name="clock_date_string_edittext_title">A dátumformátum pl. MM/dd/yy kell legyen</string>
-    <string name="clock_date_string_edittext_summary">Formátum megadása</string>
-    <string name="am_pm_clock_normal">Normál betűméret</string>
-    <string name="am_pm_clock_small">Kis betűméret</string>
-    <string name="am_pm_clock_none">Ne jelenjenítse meg</string>
-    <string name="clock_date_display_none">Ne jelenjenítse meg</string>
-    <string name="clock_date_display_small">Kis betűméret</string>
-    <string name="clock_date_display_normal">Normál betűméret</string>
-    <string name="clock_date_style_normal">Normális</string>
-    <string name="clock_date_style_lowercase">Kisbetűs</string>
-    <string name="clock_date_style_uppercase">Nagybetűs</string>
-    <string name="clock_date_format_custom">Egyéni Java-formátum</string>
-    <string name="clock_date_right">Az órától jobbra</string>
-    <string name="clock_date_left">Az órától balra</string>
-    <string name="clock_date_position">A Dátum pozíciója</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G ikon az állapotsoron</string>
     <string name="show_fourg_icon_summary">Az LTE helyett 4G kijelzése a térerő ikon mellett</string>
@@ -467,7 +426,7 @@
     <string name="recents_component_type_title">Az Előzmények stílusa</string>
     <string name="recents_quickstep">Quickstep (ha elérhető)</string>
     <string name="recents_stock">Gyári</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Rács</string>
     <string name="recents_go">Android Go</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">A Gyorsbeállítás-csempék stílusa</string>
@@ -711,7 +670,7 @@
     <string name="shortcut_picker_select_system_icon_title">Válasszon rendszerikont:</string>
     <string name="shortcut_picker_icon_type_custom_title">Galéria</string>
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">Képernyőközép hivatkozások</string>
+    <string name="ls_shortcuts_title">Parancsikonok</string>
     <string name="lockscreen_mdshortcuts_title">Képernyőközép hivatkozások</string>
     <string name="lockscreen_mdshortcuts_summary">Tekintse meg vagy módosítsa a zárképernyő egyéni parancsikonjait</string>
     <string name="lockscreen_shorcuts_launch_type_title">A parancsikon megérintésének módja</string>
@@ -1019,4 +978,108 @@
     <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban</string>
     <string name="smart_pixels_on_power_save_summary">Engedélyezze az Intelligens pixelek funkciót, ha az akkumulátorkímélő-üzemmód be van kapcsolva</string>
     <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">Az óra és a dátum megjelenítése</string>
+    <string name="clock_title_enable">Igazítás</string>
+    <string name="clock_position_right">Az Óra a jobb oldalon</string>
+    <string name="clock_position_center">Az Óra középen</string>
+    <string name="clock_position_left">Az Óra a bal oldalon</string>
+    <string name="status_bar_am_pm_title">DE/DU</string>
+    <string name="status_bar_am_pm_info">24-órás formátum engedélyezve</string>
+    <string name="am_pm_clock_normal">Normál betűméret</string>
+    <string name="am_pm_clock_small">Kis betűméret</string>
+    <string name="am_pm_clock_none">Ne jelenjenítse meg</string>
+    <string name="clock_date_display">Dátum</string>
+    <string name="clock_date_display_summary">Egyéni dátum megjelenítése az óra előtt</string>
+    <string name="clock_date_style">A Dátum stílusa</string>
+    <string name="clock_date_position">A Dátum pozíciója</string>
+    <string name="clock_date_format">A Dátum formátuma</string>
+    <string name="clock_date_string_edittext_title">A dátumformátum pl. MM/dd/yy kell legyen</string>
+    <string name="clock_date_string_edittext_summary">Formátum megadása</string>
+    <string name="clock_date_right">Az órától jobbra</string>
+    <string name="clock_date_left">Az órától balra</string>
+    <string name="clock_date_display_none">Ne jelenjenítse meg</string>
+    <string name="clock_date_display_small">Kis betűméret</string>
+    <string name="clock_date_display_normal">Normál betűméret</string>
+    <string name="clock_date_style_normal">Normális</string>
+    <string name="clock_date_style_lowercase">Kisbetűs</string>
+    <string name="clock_date_style_uppercase">Nagybetűs</string>
+    <string name="clock_date_format_custom">Egyéni Java-formátum</string>
+    <string name="menu_cancel">Mégse</string>
+    <string name="menu_save">Mentés</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Nincs</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Alkalmazás leállítása gomb</string>
+    <string name="notification_guts_kill_app_button_summary">Az értesítés hosszan nyomási menüjében az \'Alkalmazás leállítása\' gomb megjelenítése</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Ujjlenyomat-hitelesítési rezgés</string>
+    <string name="fprint_sucess_vib_summary">Rezegjen sikeres ujjlenyomat-hitelesítéskor</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">AOSP előzmények</string>
+    <string name="slim_recents_category">Slim előzmények</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim előzmények</string>
+    <string name="slim_recents_settings_title">Slim előzmények beállításai</string>
+    <string name="recents_max_apps_title">Maximálisan engedélyezett alkalmazás</string>
+    <string name="recent_panel_scale_title">Méret</string>
+    <string name="recent_panel_expanded_mode_summary">Legutóbbi feladatok kiterjesztett előnézeti módja</string>
+    <string name="recent_panel_expanded_mode_auto">Automatikus (alapértelmezett)</string>
+    <string name="recent_panel_expanded_mode_always">Mindig</string>
+    <string name="recent_panel_expanded_mode_never">Soha</string>
+    <string name="recent_panel_expanded_mode_disabled">Letiltva</string>
+    <string name="recent_panel_bg_color_title">A panel háttérszíne</string>
+    <string name="recent_card_bg_color_title">A kártya háttérszíne</string>
+    <string name="slim_icon_pack_title">Ikoncsomag</string>
+    <string name="slim_icon_pack_summary">Egyéni ikoncsomag használata a panelen megjelenő alkalmazásokhoz</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Bal oldalon jelenítse meg</string>
+    <string name="recent_panel_lefty_mode_summary">Az előzmények panelt a bal szélen jelenítse meg</string>
+    <string name="slim_blacklist_apps_cat_title">Tiltottak listája</string>
+    <string name="slim_blacklist_apps_title">Alkalmazás tiltólista</string>
+    <string name="slim_blacklist_apps_summary">Alkalmazások, amelyek ne jelenjenek meg a panelen</string>
+    <string name="slim_blacklist_add_apps_title">Alkalmazás hozzáadása</string>
+    <string name="slim_blacklist_add_apps_summary">Koppintson ide az alkalmazás hozzáadásához, vagy érintse meg az eltávolításához</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Memóriasáv</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Az Összes törlése gomb</string>
+    <string name="show_clear_all_recents_button_summary">Az Összes törlése gomb megjelenítése</string>
+    <string name="recents_clear_all_location_title">A Összes törlése gomb helye</string>
+    <string name="recents_clear_all_location_top_right">Fent a jobb oldalon</string>
+    <string name="recents_clear_all_location_top_left">Fent a bal oldalon</string>
+    <string name="recents_clear_all_location_top_center">Fent középen</string>
+    <string name="recents_clear_all_location_bottom_right">Lent a jobb oldalon</string>
+    <string name="recents_clear_all_location_bottom_left">Lent a bal oldalon</string>
+    <string name="recents_clear_all_location_bottom_center">Lent középen</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">Memóriasáv</string>
+    <string name="recents_show_membar_summary">Megjeleníti a rendelkezésre álló memóriát egy sávon</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Gyors legördítés</string>
+    <string name="quick_pulldown_summary">Gyorsbeállítások megjelenítése az állapotsor %1$s oldalán történő lehúzásakor</string>
+    <string name="quick_pulldown_summary_always">Mindig jelenítse meg a Gyorsbeállításokat az állapotsor lehúzásakor</string>
+    <string name="quick_pulldown_off">Kikapcsolás</string>
+    <string name="quick_pulldown_left">Bal</string>
+    <string name="quick_pulldown_right">Jobb</string>
+    <string name="quick_pulldown_always">Mindig</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Intelligens legördítés</string>
+    <string name="smart_pulldown_summary">Gyorsbeállítások megnyitása, ha %1$s értesítés található</string>
+    <string name="smart_pulldown_none_summary">Gyorsbeállítások megnyitása, ha nincs értesítés</string>
+    <string name="smart_pulldown_off">Kikapcsolás</string>
+    <string name="smart_pulldown_none">nincsenek értesítések</string>
+    <string name="smart_pulldown_dismissable">nincsenek törölhető értesítések</string>
+    <string name="smart_pulldown_ongoing">nincsenek folyamatban lévő értesítések</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normális</string>
+    <string name="display_cutout_style_hide">Elrejtés</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Ez a szolgáltatás nem érhető el, mert Ön nem rendelkezik biztonságos záróképernyővel. </string>
+    <string name="no_no_summary_go">Ez a szolgáltatás nem érhető el, mert Ön engedélyezte az Android Go-t.</string>
+    <string name="no_no_summary_owner">Ez a szolgáltatás nem érhető el, mert Önnél nincs beállítva a tulajdonosi információs üzenet</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

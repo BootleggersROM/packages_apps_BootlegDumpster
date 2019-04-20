@@ -39,6 +39,7 @@
     <string name="notifications_settings_summary">更改查看通知的方式</string>
     <string name="about_bootleg_title">关于 Bootleggers</string>
     <string name="about_bootleg_summary">一些关于我们的信息，防止你对此很好奇</string>
+    <string name="about_bootleg_small_title">关于我们</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">关于我们</string>
     <string name="bootleg_ab_title_whoami">什么是 Bootleggers？</string>
@@ -62,8 +63,6 @@
     <string name="bootleg_moarstuff_git_title">我们的 Github</string>
     <string name="bootleg_moarstuff_git_summary">我们的来源和回复放置在哪里</string>
     <string name="bootleg_pref_moarstuff_social_title">现在就联系我们！</string>
-    <string name="bootleg_moarstuff_gplus_title">我们的 Google + 社区</string>
-    <string name="bootleg_moarstuff_gplus_summary">发送截图给我们反馈，无论你想干什么，但请以尊重的方式</string>
     <string name="bootleg_moarstuff_tg_title">我们的 Telegram 群组</string>
     <string name="bootleg_moarstuff_tg_summary">与我们交谈, 得到未来的更新和加入我们的伟大社区的工作</string>
     <string name="bootleg_pref_moarstuff_wewsecret">我想你发现这真的不是那么隐秘的地方, 但是, 如果你来到这里, 我只想让你知道, 感谢你闪烁这 rom 和 welp, 正如我们之前说过很多次, 希望你喜欢它, 并有一个愉快的时间与此 rom。</string>
@@ -149,7 +148,6 @@
     <string name="statusbar_tuner_summary">禁用电池选项和状态栏图标</string>
     <string name="navbar_tuner_title">编辑导航栏</string>
     <string name="navbar_tuner_summary">编辑导航栏布局和按钮</string>
-    <string name="lockscreen_shortcuts_title">锁屏快捷键</string>
     <string name="lockscreen_shortcuts_summary">管理锁定屏幕底部的快捷方式</string>
     <string name="vol_dnd_category_title">勿扰模式</string>
     <string name="volbtn_down_zen_title">音量减键勿扰</string>
@@ -314,45 +312,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">充电时唤醒</string>
     <string name="wakeup_when_plugged_unplugged_summary">当连接或移除充电器时唤醒设备</string>
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">时钟和日期</string>
-    <string name="status_bar_clock_summary">配置状态栏时钟和日期外观</string>
-    <string name="status_bar_clock_advanced_title">高级选项</string>
-    <string name="status_bar_clock_advanced_title_alt">高级时钟 &amp; 日期选项</string>
-    <string name="status_bar_clock_advanced_summary">调整时钟以满足您的需求</string>
-    <string name="clock_title_enable">对齐</string>
-    <string name="clock_enabled">启用</string>
-    <string name="clock_disabled">禁用</string>
-    <string name="status_bar_clock_style_reset">重置颜色</string>
-    <string name="status_bar_show_clock_title">显示时钟和日期</string>
-    <string name="status_bar_clock_seconds_title">显示秒数</string>
-    <string name="status_bar_am_pm_title">上午/下午</string>
-    <string name="status_bar_am_pm_info">启用24小时制</string>
-    <string name="enable_clock_weekday">一周中的一天</string>
-    <string name="enable_clock_weekday_summary">在时间前显示简写的星期</string>
-    <string name="right_clock">时钟居右</string>
-    <string name="left_clock">时钟居左</string>
-    <string name="center_clock">时钟居中</string>
-    <string name="dont_show">不显示</string>
-    <string name="clock_date_display">日期</string>
-    <string name="clock_date_display_summary">在时钟前显示自定义日期</string>
-    <string name="clock_date_style">日期样式</string>
-    <string name="clock_date_format">日期格式</string>
-    <string name="clock_date_string_edittext_title">日期格式 例如: MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">输入字符串</string>
-    <string name="am_pm_clock_normal">正常字体大小</string>
-    <string name="am_pm_clock_small">较小字体大小</string>
-    <string name="am_pm_clock_none">不显示</string>
-    <string name="clock_date_display_none">不显示</string>
-    <string name="clock_date_display_small">较小字体大小</string>
-    <string name="clock_date_display_normal">正常字体大小</string>
-    <string name="clock_date_style_normal">正常</string>
-    <string name="clock_date_style_lowercase">小写</string>
-    <string name="clock_date_style_uppercase">大写</string>
-    <string name="clock_date_format_custom">自定义 java 时间格式</string>
-    <string name="clock_date_right">位于时间右侧</string>
-    <string name="clock_date_left">位于时间左侧</string>
-    <string name="clock_date_position">日期位置</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G状态栏图标</string>
     <string name="show_fourg_icon_summary">在信号图标上，显示4G而不是LTE</string>
@@ -472,7 +431,7 @@
     <string name="recents_component_type_title">最近任务样式</string>
     <string name="recents_quickstep">Quickstep（如果设备上有此启动器）</string>
     <string name="recents_stock">Stock</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">网格</string>
     <string name="recents_go">安卓 Go</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">快速设置磁铁风格</string>
@@ -716,7 +675,7 @@
     <string name="shortcut_picker_select_system_icon_title">选择系统图标：</string>
     <string name="shortcut_picker_icon_type_custom_title">图库</string>
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">锁屏底部快捷键</string>
+    <string name="ls_shortcuts_title">快捷键</string>
     <string name="lockscreen_mdshortcuts_title">锁屏底部快捷键</string>
     <string name="lockscreen_mdshortcuts_summary">查看或自定义锁屏界面的快捷方式</string>
     <string name="lockscreen_shorcuts_launch_type_title">快捷键点击方式</string>
@@ -987,6 +946,7 @@
     <string name="lockscreen_clock_selection_sammy_accent">三星样式 主题色</string>
     <string name="lockscreen_clock_selection_sammy_accent_alt">三星样式 主题色（其它）</string>
     <string name="lockscreen_clock_selection_shishu_nerves">Shishu Nerves</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">渐变时钟 (带战利品标志)</string>
     <string name="lockscreen_clock_selection_gradient_shishu">渐变时钟(与shishu 标志)</string>
     <string name="lockscreen_clock_selection_gradient_full">完整渐变时钟</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">单色梯度时钟</string>
@@ -1012,10 +972,16 @@
     <string name="file_header_select_summary">选择自定义图像</string>
     <string name="file_header_provider_title">自定义图片</string>
     <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">音量面板</string>
+    <string name="volume_panel_on_left_title">音量面板居左</string>
+    <string name="volume_panel_on_left_summary">将音量面板从右侧更改为左侧</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view">音量面板视图</string>
     <string name="audio_panel_view_media_title">媒体</string>
     <string name="audio_panel_view_ringer_title">响铃</string>
+    <string name="audio_panel_view_notification_title">通知</string>
     <string name="audio_panel_view_alarm_title">闹钟</string>
+    <string name="audio_panel_view_voice_title">语音</string>
     <string name="audio_panel_view_bt_sco_title">蓝牙</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">智能像素</string>
@@ -1025,4 +991,110 @@
     <string name="smart_pixels_on_power_save_title">省电模式时自动启用</string>
     <string name="smart_pixels_on_power_save_summary">开启省电模式时自动启用智能像素</string>
     <string name="smart_pixels_percent">禁用的像素数量</string>
+    <string name="smart_pixels_shift">通过每像素移动防止燃烧</string>
+    <string name="smart_pixels_warning_text">智能像素是一个节能功能。取决于您决定关闭多少像素，您可以看到电池寿命的重大改进。对于一个良好的用户体验，我们建议设置残疾的像素，每 10 分钟改变。</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">显示时钟和日期</string>
+    <string name="clock_title_enable">对齐</string>
+    <string name="clock_position_right">时钟居右</string>
+    <string name="clock_position_center">时钟居中</string>
+    <string name="clock_position_left">时钟居左</string>
+    <string name="status_bar_am_pm_title">上午/下午</string>
+    <string name="status_bar_am_pm_info">启用24小时制</string>
+    <string name="am_pm_clock_normal">正常字体大小</string>
+    <string name="am_pm_clock_small">较小字体大小</string>
+    <string name="am_pm_clock_none">不显示</string>
+    <string name="clock_date_display">日期</string>
+    <string name="clock_date_display_summary">在时钟前显示自定义日期</string>
+    <string name="clock_date_style">日期样式</string>
+    <string name="clock_date_position">日期位置</string>
+    <string name="clock_date_format">日期格式</string>
+    <string name="clock_date_string_edittext_title">日期格式 例如: MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">输入字符串</string>
+    <string name="clock_date_right">位于时间右侧</string>
+    <string name="clock_date_left">位于时间左侧</string>
+    <string name="clock_date_display_none">不显示</string>
+    <string name="clock_date_display_small">较小字体大小</string>
+    <string name="clock_date_display_normal">正常字体大小</string>
+    <string name="clock_date_style_normal">正常</string>
+    <string name="clock_date_style_lowercase">小写</string>
+    <string name="clock_date_style_uppercase">大写</string>
+    <string name="clock_date_format_custom">自定义 java 时间格式</string>
+    <string name="menu_cancel">取消</string>
+    <string name="menu_save">保存</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">无</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">强制关闭应用按钮</string>
+    <string name="notification_guts_kill_app_button_summary">在通知的长按菜单中显示清除后台按钮</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">指纹识别振动</string>
+    <string name="fprint_sucess_vib_summary">当指纹识别成功后设备振动</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">AOSP最近任务</string>
+    <string name="slim_recents_category">Slim 最近任务</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim 最近任务</string>
+    <string name="slim_recents_settings_title">Slim 最近任务设置</string>
+    <string name="recents_max_apps_title">最大允许应用数量</string>
+    <string name="recent_panel_scale_title">大小</string>
+    <string name="recent_panel_expanded_mode_summary">在最近任务中启用预览模式</string>
+    <string name="recent_panel_expanded_mode_auto">自动（默认）</string>
+    <string name="recent_panel_expanded_mode_always">总是</string>
+    <string name="recent_panel_expanded_mode_never">从未</string>
+    <string name="recent_panel_expanded_mode_disabled">禁用</string>
+    <string name="recent_panel_bg_color_title">面板背景颜色</string>
+    <string name="recent_card_bg_color_title">卡片背景颜色</string>
+    <string name="slim_icon_pack_title">图标包</string>
+    <string name="slim_icon_pack_summary">为面板中的应用程序应用自定义图标包</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">显示在左侧边缘</string>
+    <string name="recent_panel_lefty_mode_summary">在屏幕左侧显示最近任务列表</string>
+    <string name="slim_blacklist_apps_cat_title">黑名单</string>
+    <string name="slim_blacklist_apps_title">应用程序黑名单</string>
+    <string name="slim_blacklist_apps_summary">黑名单中的应用程序将不会显示在最近任务中</string>
+    <string name="slim_blacklist_add_apps_title">添加应用程序</string>
+    <string name="slim_blacklist_add_apps_summary">点击此处添加应用, 点击已添加的应用程序来删除</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">内存栏</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">一键清理按钮</string>
+    <string name="show_clear_all_recents_button_summary">显示“一键清理”按钮</string>
+    <string name="recents_clear_all_location_title">“一键清除”按钮位置</string>
+    <string name="recents_clear_all_location_top_right">顶部右侧</string>
+    <string name="recents_clear_all_location_top_left">顶部左侧</string>
+    <string name="recents_clear_all_location_top_center">顶部居中</string>
+    <string name="recents_clear_all_location_bottom_right">底部右侧</string>
+    <string name="recents_clear_all_location_bottom_left">底部左侧</string>
+    <string name="recents_clear_all_location_bottom_center">底部居中</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">内存栏</string>
+    <string name="recents_show_membar_summary">显示设备的可用运存</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">快速下拉</string>
+    <string name="quick_pulldown_summary">从状态栏的%1$s边缘拉下时开启快速设置面板</string>
+    <string name="quick_pulldown_summary_always">从状态栏下拉总是显示快速设置</string>
+    <string name="quick_pulldown_off">关闭</string>
+    <string name="quick_pulldown_left">左</string>
+    <string name="quick_pulldown_right">右</string>
+    <string name="quick_pulldown_always">总是</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">智能下拉</string>
+    <string name="smart_pulldown_summary">当有%1$s条通知时打开快速设置</string>
+    <string name="smart_pulldown_none_summary">没有通知时打开快速设置面板</string>
+    <string name="smart_pulldown_off">关闭</string>
+    <string name="smart_pulldown_none">没有通知</string>
+    <string name="smart_pulldown_dismissable">没有清除</string>
+    <string name="smart_pulldown_ongoing">没有持续</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">正常</string>
+    <string name="display_cutout_style_hide">隐藏</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">此功能不可用, 因为您没有安全的锁屏界面。 </string>
+    <string name="no_no_summary_go">此功能不可用, 因为您已启用 Android。</string>
+    <string name="no_no_summary_owner">此功能不可用，因为您没有所有者信息</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

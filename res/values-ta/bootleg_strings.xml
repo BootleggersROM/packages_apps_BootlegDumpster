@@ -54,9 +54,6 @@
     <!-- Heads up -->
     <string name="heads_up_cat_title">ஹெட்ஸ் அப்</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="clock_disabled">முடக்கப்பட்டது</string>
-    <string name="clock_date_style_normal">இயல்பான</string>
     <!-- 4G icon -->
     <!-- lock screen visualizer -->
     <!-- Lock date fonts -->
@@ -79,7 +76,6 @@
     <!-- SystemUI Restart -->
     <!-- Log it -->
     <!-- AOSP Recents component Style -->
-    <!-- <string name="recents_grid">Grid</string> -->
     <!-- QS tile styles -->
     <!-- Battery light -->
     <!-- Double Tap Lockscreen to Sleep -->
@@ -154,4 +150,26 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_ringer_title">ரிங்</string>
     <!-- Smart Pixels -->
+    <!-- Statusbar Clock options -->
+    <string name="clock_date_style_normal">இயல்பான</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">எதுவுமில்லை</string>
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Recents categories-->
+    <!-- Slim recents -->
+    <string name="recent_panel_expanded_mode_disabled">முடக்கப்பட்டது</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Slim recents membar -->
+    <!-- Recents panel settings -->
+    <!-- Recents membar -->
+    <!-- Quick pull down-->
+    <!-- Smart pulldown-->
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">இயல்பான</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

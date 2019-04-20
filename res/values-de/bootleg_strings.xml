@@ -38,6 +38,7 @@
     <string name="notifications_settings_summary">Änderungen wie diese Benachrichtigungen aussehen werden</string>
     <string name="about_bootleg_title">Über Bootleggers</string>
     <string name="about_bootleg_summary">Einige Informationen über uns, nur für den Fall, dass du neugierig bist</string>
+    <string name="about_bootleg_small_title">Über uns</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Über uns</string>
     <string name="bootleg_ab_title_whoami">Was ist Bootleggers?</string>
@@ -57,8 +58,6 @@
     <string name="bootleg_moarstuff_git_title">Unser Github</string>
     <string name="bootleg_moarstuff_git_summary">Wo sich unsere Quellen und Reverts befinden</string>
     <string name="bootleg_pref_moarstuff_social_title">Kontaktieren Sie uns!</string>
-    <string name="bootleg_moarstuff_gplus_title">Unsere Google+ Community</string>
-    <string name="bootleg_moarstuff_gplus_summary">Bildschirmfoto senden, Feedback geben, was auch immer, aber respektvoll</string>
     <string name="bootleg_moarstuff_tg_title">Unsere Telegram Community</string>
     <string name="bootleg_moarstuff_tg_summary">Sprich mit uns, erhalte zukünftige Updates und trete unserer großartigen Gemeinschaft bei</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Ich glaube, du hast diesen nicht wirklich geheimen Ort gefunden, aber gut, da du nun hier bist, möchte ich dir nur sagen, vielen Dank für das Flashen dieser ROM und ja, wie wir schon einige Male gesagt haben, hoffen wir, es gefällt dir und du hast eine gute Zeit mit dieser ROM.</string>
@@ -123,7 +122,6 @@
     <!-- Lockscreen charging current indicator  -->
     <!-- Volume swap buttons -->
     <!--SystemUI Tuner -->
-    <string name="lockscreen_shortcuts_title">Sperrbildschirm-Verknüpfungen</string>
     <!-- Toast app icon -->
     <!-- Power menu on lockscreen -->
     <!-- AOKP custom system animations -->
@@ -202,45 +200,6 @@
     <string name="dialog_delete_title">Löschen</string>
     <string name="dialog_delete_message">Entferne ausgewähltes Element?</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">Uhr &amp; Datum</string>
-    <string name="status_bar_clock_summary">Uhrzeit und Datum der Statusleiste anpassen</string>
-    <string name="status_bar_clock_advanced_title">Erweiterte Optionen</string>
-    <string name="status_bar_clock_advanced_title_alt">Erweiterte Uhr &amp; Datumsoptionen</string>
-    <string name="status_bar_clock_advanced_summary">Optimiere die Uhr zu deiner Zufriedenheit</string>
-    <string name="clock_title_enable">Ausrichtung</string>
-    <string name="clock_enabled">Aktiviert</string>
-    <string name="clock_disabled">Deaktiviert</string>
-    <string name="status_bar_clock_style_reset">Farbe zurücksetzen</string>
-    <string name="status_bar_show_clock_title">Zeige Uhr &amp; Datum</string>
-    <string name="status_bar_clock_seconds_title">Sekunden anzeigen</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24-Stunden-Format ist aktiviert</string>
-    <string name="enable_clock_weekday">Wochentag</string>
-    <string name="enable_clock_weekday_summary">Abgekürzter Wochentag vor der Zeit</string>
-    <string name="right_clock">Uhr rechts</string>
-    <string name="left_clock">Uhr links</string>
-    <string name="center_clock">Uhr mittig</string>
-    <string name="dont_show">Nicht anzeigen</string>
-    <string name="clock_date_display">Datum</string>
-    <string name="clock_date_display_summary">Benutzerdefiniertes Datum vor der Uhr anzeigen</string>
-    <string name="clock_date_style">Datumsstil</string>
-    <string name="clock_date_format">Datumsformat</string>
-    <string name="clock_date_string_edittext_title">Muss in einem Datumsformat sein, z.B. dd.MM.yy</string>
-    <string name="clock_date_string_edittext_summary">Format eingeben</string>
-    <string name="am_pm_clock_normal">Normale Schriftgröße</string>
-    <string name="am_pm_clock_small">Kleine Schriftgröße</string>
-    <string name="am_pm_clock_none">Nicht anzeigen</string>
-    <string name="clock_date_display_none">Nicht anzeigen</string>
-    <string name="clock_date_display_small">Kleine Schriftgröße</string>
-    <string name="clock_date_display_normal">Normale Schriftgröße</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
-    <string name="clock_date_style_uppercase">Großbuchstaben</string>
-    <string name="clock_date_format_custom">Benutzerdefiniertes Java-Format</string>
-    <string name="clock_date_right">Rechts neben der Uhr</string>
-    <string name="clock_date_left">Links neben der Uhr</string>
-    <string name="clock_date_position">Position des Datums</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G-Symbol auf der Statusleiste</string>
     <string name="show_fourg_icon_summary">Zeige 4G anstatt LTE</string>
@@ -324,7 +283,7 @@
     <string name="log_it_alert_faq">Vielleicht sind Sie hier und fragen sich: \"Was zum Teufel ist das alles und was muss ich senden?\" \nNun, hier sind ein paar Informationen zu den Dingen, die Sie senden können:\n\nLogcat: Auf diese Weise gibt Android alle Systemereignisse aus. wie Fehler, Abstürze oder sogar Informationen über einen laufenden Prozess. Ideal für Abstürze und erzwungen beendete Programme/Apps.n\nDmesg: Es werden einige der Kernel-Meldungen ausgegeben, aber Dinge ausgefiltert, die den Benutzern möglicherweise egal sind&#8230;falls nicht\n\nKmesg: Ist dasselbe wie Dmesg, jedoch ohne die Filter, gibt mehr Informationen über alle Kernel-Events. Ideal für zufällige Neustarts.</string>
     <!-- AOSP Recents component Style -->
     <string name="recents_stock">Stock</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Raster</string>
     <string name="recents_go">Android Go</string>
     <!-- QS tile styles -->
     <!-- Battery light -->
@@ -426,6 +385,7 @@
     <string name="shortcut_picker_activities_title">Aktionen</string>
     <string name="shortcut_picker_icon_type_default_title">Standard</string>
     <!-- Lockscreen Shortcuts -->
+    <string name="ls_shortcuts_title">Verknüpfungen</string>
     <string name="shortcuts_applications">Anwendungen</string>
     <string name="shortcuts_icon_default">Standard</string>
     <string name="shortcuts_icon_picker_google_small">Google</string>
@@ -528,4 +488,105 @@
     <string name="smart_pixels_on_power_save_title">Bei Energiesparmodus automatisch aktivieren</string>
     <string name="smart_pixels_on_power_save_summary">Smart Pixels automatisch mit dem Energiesparmodus einschalten</string>
     <string name="smart_pixels_percent">Prozentsatz der abzuschaltenden Pixel</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">Zeige Uhr &amp; Datum</string>
+    <string name="clock_title_enable">Ausrichtung</string>
+    <string name="clock_position_right">Uhr rechts</string>
+    <string name="clock_position_center">Uhr mittig</string>
+    <string name="clock_position_left">Uhr links</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-Stunden-Format ist aktiviert</string>
+    <string name="am_pm_clock_normal">Normale Schriftgröße</string>
+    <string name="am_pm_clock_small">Kleine Schriftgröße</string>
+    <string name="am_pm_clock_none">Nicht anzeigen</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Benutzerdefiniertes Datum vor der Uhr anzeigen</string>
+    <string name="clock_date_style">Datumsstil</string>
+    <string name="clock_date_position">Position des Datums</string>
+    <string name="clock_date_format">Datumsformat</string>
+    <string name="clock_date_string_edittext_title">Muss in einem Datumsformat sein, z.B. dd.MM.yy</string>
+    <string name="clock_date_string_edittext_summary">Format eingeben</string>
+    <string name="clock_date_right">Rechts neben der Uhr</string>
+    <string name="clock_date_left">Links neben der Uhr</string>
+    <string name="clock_date_display_none">Nicht anzeigen</string>
+    <string name="clock_date_display_small">Kleine Schriftgröße</string>
+    <string name="clock_date_display_normal">Normale Schriftgröße</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
+    <string name="clock_date_style_uppercase">Großbuchstaben</string>
+    <string name="clock_date_format_custom">Benutzerdefiniertes Java-Format</string>
+    <string name="menu_cancel">Abbrechen</string>
+    <string name="menu_save">Speichern</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Kein</string>
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibration bei Fingerabdruck-Authentifizierung</string>
+    <string name="fprint_sucess_vib_summary">Vibration bei erfolgreicher Fingerabdruck-Authentifizierung</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">AOSP-Anwendungsverlauf</string>
+    <string name="slim_recents_category">Slim Anwendungsverlauf</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim Anwendungsverlauf</string>
+    <string name="slim_recents_settings_title">Slim Anwendungsverlauf Einstellungen</string>
+    <string name="recents_max_apps_title">max. zulässige App-Anzahl</string>
+    <string name="recent_panel_scale_title">Größe</string>
+    <string name="recent_panel_expanded_mode_summary">Erweiterte Vorschau im Anwendungsverlauf</string>
+    <string name="recent_panel_expanded_mode_auto">Automatisch (Standard)</string>
+    <string name="recent_panel_expanded_mode_always">Immer</string>
+    <string name="recent_panel_expanded_mode_never">Nie</string>
+    <string name="recent_panel_expanded_mode_disabled">Deaktiviert</string>
+    <string name="recent_panel_bg_color_title">Hintergrundfarbe der Schaltfläche</string>
+    <string name="recent_card_bg_color_title">Hintergrundfarbe der Karten</string>
+    <string name="slim_icon_pack_title">Symbolpaket</string>
+    <string name="slim_icon_pack_summary">Eigenes Symbol-Paket den Apps in der Leiste zuweisen</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Am linken Rand anzeigen</string>
+    <string name="recent_panel_lefty_mode_summary">Anwendungsverlauf am linken Rand anzeigen</string>
+    <string name="slim_blacklist_apps_cat_title">Blacklist</string>
+    <string name="slim_blacklist_apps_title">Blockierte Apps</string>
+    <string name="slim_blacklist_apps_summary">Nicht angezeigte/blockierte Apps</string>
+    <string name="slim_blacklist_add_apps_title">App hinzufügen</string>
+    <string name="slim_blacklist_add_apps_summary">Hier zum Hinzufügen tippen, zum Entfernen auf eine vorhandene App tippen</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">RAM-Leiste</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Alle-Schließen Taste</string>
+    <string name="show_clear_all_recents_button_summary">Alle-Schließen Taste anzeigen</string>
+    <string name="recents_clear_all_location_title">Platzierung der Taste</string>
+    <string name="recents_clear_all_location_top_right">Oben rechts</string>
+    <string name="recents_clear_all_location_top_left">Oben links</string>
+    <string name="recents_clear_all_location_top_center">Oben mittig</string>
+    <string name="recents_clear_all_location_bottom_right">Unten rechts</string>
+    <string name="recents_clear_all_location_bottom_left">Unten links</string>
+    <string name="recents_clear_all_location_bottom_center">Unten mittig</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">RAM-Leiste</string>
+    <string name="recents_show_membar_summary">Anzeige des verfügbaren Arbeitsspeichers als Leiste</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Schnelles Herunterziehen</string>
+    <string name="quick_pulldown_summary">%1$s Rand der Statusleiste zieht die Schnelleinstellungen auf</string>
+    <string name="quick_pulldown_summary_always">Immer die Schnelleinstellungen beim Herunterziehen der Statusleiste anzeigen</string>
+    <string name="quick_pulldown_off">Aus</string>
+    <string name="quick_pulldown_left">Links</string>
+    <string name="quick_pulldown_right">Rechts</string>
+    <string name="quick_pulldown_always">Immer</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Intelligentes Herunterziehen</string>
+    <string name="smart_pulldown_summary">Schnelleinstellungen öffnen, wenn es %1$s Benachrichtigungen gibt</string>
+    <string name="smart_pulldown_none_summary">Schnelleinstellungen öffnen, wenn es keine Benachrichtigungen gibt</string>
+    <string name="smart_pulldown_off">Aus</string>
+    <string name="smart_pulldown_none">keine Benachrichtigungen</string>
+    <string name="smart_pulldown_dismissable">keine verwerfbaren</string>
+    <string name="smart_pulldown_ongoing">keine laufenden</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normal</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Dieses Feature ist nicht verfügbar, weil du keinen gesicherten Lockscreen hast. </string>
+    <string name="no_no_summary_go">Dieses Feature ist nicht verfügbar, da du Android Go aktiviert hast.</string>
+    <string name="no_no_summary_owner">Dieses Feature ist nicht verfügbar, weil du keine Sperrbildschirmnachricht hast</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>
