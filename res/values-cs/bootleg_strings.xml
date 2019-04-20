@@ -39,6 +39,7 @@
     <string name="notifications_settings_summary">Změňte způsob zobrazení těchto upozornění</string>
     <string name="about_bootleg_title">O Bootleggers</string>
     <string name="about_bootleg_summary">Některé informace o nás jen v případě, že jste zvědaví</string>
+    <string name="about_bootleg_small_title">O nás</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">O nás</string>
     <string name="bootleg_ab_title_whoami">Co je Bootleggers?</string>
@@ -62,8 +63,6 @@
     <string name="bootleg_moarstuff_git_title">Náš Github</string>
     <string name="bootleg_moarstuff_git_summary">Kde jsou uloženy naše zdroje</string>
     <string name="bootleg_pref_moarstuff_social_title">Buďte v kontaktu!</string>
-    <string name="bootleg_moarstuff_gplus_title">Naše komunita Google+</string>
-    <string name="bootleg_moarstuff_gplus_summary">Pošlete snímky obrazovky, zanechte zpětnou vazbu, cokoli chcete, ale s úctou</string>
     <string name="bootleg_moarstuff_tg_title">Naše komunita Telegram</string>
     <string name="bootleg_moarstuff_tg_summary">Promluvte si s námi, připravte se na budoucí aktualizace a připojte se k naší skvělé komunitě</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Myslím, že jste zjistili, že toto není opravdu tajné místo, ale v pořádku, protože teď jste tady. Chci vám jen říct - děkuji vám, že jste nainstalovali ROM a ano, jak jsem již několikrát řekl, doufám, že se vám to líbí a máte dobrý pocit s této ROM.</string>
@@ -149,7 +148,6 @@
     <string name="statusbar_tuner_summary">Možnosti baterie a ikon stavové lišty k zakázání</string>
     <string name="navbar_tuner_title">Upravit navigační panel</string>
     <string name="navbar_tuner_summary">Upravit rozložení navigačního panelu a tlačítek</string>
-    <string name="lockscreen_shortcuts_title">Zkratky na zamykací obrazovce</string>
     <string name="lockscreen_shortcuts_summary">Nastavit dolní zkratky zamykací obrazovky</string>
     <string name="vol_dnd_category_title">Režim \"Nerušit\"</string>
     <string name="volbtn_down_zen_title">Hlasitost- pro režim \"Nerušit\"</string>
@@ -314,45 +312,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Probudit při nabíjení</string>
     <string name="wakeup_when_plugged_unplugged_summary">Probudit v případě připojení/odpojení nabíječky.</string>
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">Hodiny &amp; datum</string>
-    <string name="status_bar_clock_summary">Konfigurace zobrazení hodin a data ve stavové liště</string>
-    <string name="status_bar_clock_advanced_title">Rozšířené možnosti</string>
-    <string name="status_bar_clock_advanced_title_alt">Rozčířené možnosti hodin &amp; data</string>
-    <string name="status_bar_clock_advanced_summary">Nastavte hodiny k vaší spokojenosti</string>
-    <string name="clock_title_enable">Zarovnání</string>
-    <string name="clock_enabled">Povoleno</string>
-    <string name="clock_disabled">Zakázáno</string>
-    <string name="status_bar_clock_style_reset">Obnovit barvu</string>
-    <string name="status_bar_show_clock_title">Zobrazit hodiny &amp; datum</string>
-    <string name="status_bar_clock_seconds_title">Zobrazit sekundy</string>
-    <string name="status_bar_am_pm_title">dop./odp.</string>
-    <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
-    <string name="enable_clock_weekday">Den v týdnu</string>
-    <string name="enable_clock_weekday_summary">Zobrazit zkratku dne v týdnu před hodinami</string>
-    <string name="right_clock">Hodiny vpravo</string>
-    <string name="left_clock">Hodiny vlevo</string>
-    <string name="center_clock">Hodiny uprostřed</string>
-    <string name="dont_show">Nezobrazovat</string>
-    <string name="clock_date_display">Datum</string>
-    <string name="clock_date_display_summary">Zobrazit vlastní datum před hodinami</string>
-    <string name="clock_date_style">Styl data</string>
-    <string name="clock_date_format">Formát data</string>
-    <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Zadejte řetězec</string>
-    <string name="am_pm_clock_normal">Normální velikost písma</string>
-    <string name="am_pm_clock_small">Malá velikost písma</string>
-    <string name="am_pm_clock_none">Nezobrazovat</string>
-    <string name="clock_date_display_none">Nezobrazovat</string>
-    <string name="clock_date_display_small">Malá velikost písma</string>
-    <string name="clock_date_display_normal">Normální velikost písma</string>
-    <string name="clock_date_style_normal">Normální</string>
-    <string name="clock_date_style_lowercase">Malá písmena</string>
-    <string name="clock_date_style_uppercase">Velká písmena</string>
-    <string name="clock_date_format_custom">Vlastní formát Java</string>
-    <string name="clock_date_right">Vpravo od času</string>
-    <string name="clock_date_left">Vlevo od času</string>
-    <string name="clock_date_position">Pozice data</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ikona 4G ve stavové liště</string>
     <string name="show_fourg_icon_summary">Na ikoně signálu zobrazit 4G namísto LTE</string>
@@ -472,7 +431,7 @@
     <string name="recents_component_type_title">Styl nedávných aplikací</string>
     <string name="recents_quickstep">Quickstep (je-li k dispozici)</string>
     <string name="recents_stock">Stock</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Mřížka</string>
     <string name="recents_go">Android Go</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Styl QS dlaždic</string>
@@ -716,7 +675,7 @@
     <string name="shortcut_picker_select_system_icon_title">Vybrat ikony systému:</string>
     <string name="shortcut_picker_icon_type_custom_title">Galerie</string>
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">Zkratky uprostřed obrazovky</string>
+    <string name="ls_shortcuts_title">Zkratky</string>
     <string name="lockscreen_mdshortcuts_title">Zkratky uprostřed obrazovky</string>
     <string name="lockscreen_mdshortcuts_summary">Zobrazit nebo změnit vlastní zkratky uprostřed zamykací obrazovky</string>
     <string name="lockscreen_shorcuts_launch_type_title">Klepněte na typ zkratky</string>
@@ -987,6 +946,7 @@
     <string name="lockscreen_clock_selection_sammy_accent">Sammy s odstínem</string>
     <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy s odstínem (alt)</string>
     <string name="lockscreen_clock_selection_shishu_nerves">Shishu Nerves</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">Gradientní hodiny (s logem bootleg)</string>
     <string name="lockscreen_clock_selection_gradient_shishu">Gradientní hodiny (s logem shishu)</string>
     <string name="lockscreen_clock_selection_gradient_full">Hodiny s plným gradientem</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochromatické gradientní hodiny</string>
@@ -1012,10 +972,16 @@
     <string name="file_header_select_summary">Vybrat vlastní obrázek</string>
     <string name="file_header_provider_title">Vlastní obrázek</string>
     <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">Panel hlasitosti</string>
+    <string name="volume_panel_on_left_title">Panel hlasitosti na levé straně</string>
+    <string name="volume_panel_on_left_summary">Změna panelu hlasitosti z pravé strany na levou stranu</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view">Zobrazení panelu hlasitosti</string>
     <string name="audio_panel_view_media_title">Média</string>
     <string name="audio_panel_view_ringer_title">Vyzvánění</string>
+    <string name="audio_panel_view_notification_title">Oznámení</string>
     <string name="audio_panel_view_alarm_title">Budík</string>
+    <string name="audio_panel_view_voice_title">Hlas</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Smart Pixels</string>
@@ -1025,4 +991,110 @@
     <string name="smart_pixels_on_power_save_title">Automatické zapnutí při spořiči baterie</string>
     <string name="smart_pixels_on_power_save_summary">Povolit Smart Pixels, pokud je aktivován spořič baterie</string>
     <string name="smart_pixels_percent">Procenta pixelů k vypnutí</string>
+    <string name="smart_pixels_shift">Zabraňuje vypalování častým přepínáním pixelů</string>
+    <string name="smart_pixels_warning_text">Smart Pixels je funkce pro úsporu energie. V závislosti na počtu pixelů, které se rozhodnete vypnout, by mohlo dojít k výraznému zlepšení životnosti baterie. Pro dobrý uživatelský zážitek doporučujeme nastavit množství vypnutých pixelů na 75 procent při přesunu každých 10 minut.</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">Zobrazit hodiny &amp; datum</string>
+    <string name="clock_title_enable">Zarovnání</string>
+    <string name="clock_position_right">Hodiny vpravo</string>
+    <string name="clock_position_center">Hodiny uprostřed</string>
+    <string name="clock_position_left">Hodiny vlevo</string>
+    <string name="status_bar_am_pm_title">dop./odp.</string>
+    <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
+    <string name="am_pm_clock_normal">Normální velikost písma</string>
+    <string name="am_pm_clock_small">Malá velikost písma</string>
+    <string name="am_pm_clock_none">Nezobrazovat</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Zobrazit vlastní datum před hodinami</string>
+    <string name="clock_date_style">Styl data</string>
+    <string name="clock_date_position">Pozice data</string>
+    <string name="clock_date_format">Formát data</string>
+    <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Zadejte řetězec</string>
+    <string name="clock_date_right">Vpravo od času</string>
+    <string name="clock_date_left">Vlevo od času</string>
+    <string name="clock_date_display_none">Nezobrazovat</string>
+    <string name="clock_date_display_small">Malá velikost písma</string>
+    <string name="clock_date_display_normal">Normální velikost písma</string>
+    <string name="clock_date_style_normal">Normální</string>
+    <string name="clock_date_style_lowercase">Malá písmena</string>
+    <string name="clock_date_style_uppercase">Velká písmena</string>
+    <string name="clock_date_format_custom">Vlastní formát Java</string>
+    <string name="menu_cancel">Zrušit</string>
+    <string name="menu_save">Uložit</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Nic</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Tlačítko \"Ukončit aplikaci\"</string>
+    <string name="notification_guts_kill_app_button_summary">Zobrazit tlačítko \"Ukončit aplikaci\" při dlouhém stisku v nabídce oznámení</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibrovat při ověření otisků prstů</string>
+    <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném ověření otisku prstu</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">AOSP nedávné</string>
+    <string name="slim_recents_category">Slim přepínač aplikací</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim přepínač aplikací</string>
+    <string name="slim_recents_settings_title">Nastavení Slim nedávných aplikací</string>
+    <string name="recents_max_apps_title">Maximální počet povolených aplikací</string>
+    <string name="recent_panel_scale_title">Velikost</string>
+    <string name="recent_panel_expanded_mode_summary">Režim rozšířeného náhledu nedávných úloh</string>
+    <string name="recent_panel_expanded_mode_auto">Automaticky (výchozí)</string>
+    <string name="recent_panel_expanded_mode_always">Vždy</string>
+    <string name="recent_panel_expanded_mode_never">Nikdy</string>
+    <string name="recent_panel_expanded_mode_disabled">Zakázáno</string>
+    <string name="recent_panel_bg_color_title">Barva pozadí panelu</string>
+    <string name="recent_card_bg_color_title">Barva pozadí karty</string>
+    <string name="slim_icon_pack_title">Balíček ikon</string>
+    <string name="slim_icon_pack_summary">Použít vlastní balíček ikon pro aplikace v panelu</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Zobrazit na levém okraji</string>
+    <string name="recent_panel_lefty_mode_summary">Zobrazit panel nedávných aplikací na levém okraji</string>
+    <string name="slim_blacklist_apps_cat_title">Černá listina</string>
+    <string name="slim_blacklist_apps_title">Černá listina aplikací</string>
+    <string name="slim_blacklist_apps_summary">Aplikace se nezobrazí v panelu</string>
+    <string name="slim_blacklist_add_apps_title">Přidat aplikaci</string>
+    <string name="slim_blacklist_add_apps_summary">Klepnutím sem přidáte, klepnutím na přidanou aplikaci odstraníte</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Ukazatel paměti</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
+    <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko \"Vyčistit vše\"</string>
+    <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
+    <string name="recents_clear_all_location_top_right">Vpravo nahoře</string>
+    <string name="recents_clear_all_location_top_left">Vlevo nahoře</string>
+    <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
+    <string name="recents_clear_all_location_bottom_right">Vpravo dole</string>
+    <string name="recents_clear_all_location_bottom_left">Vlevo dole</string>
+    <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">Ukazatel paměti</string>
+    <string name="recents_show_membar_summary">Zobrazovat lištu s dostupnou paměťí zařízení</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Rychlé stažení nabídky</string>
+    <string name="quick_pulldown_summary">%1$s okraj stavové lišty umožňuje rychlé stažení nabídky nastavení</string>
+    <string name="quick_pulldown_summary_always">Vždy zobrazovat rychlé nastavení na stavové liště</string>
+    <string name="quick_pulldown_off">Vypnuto</string>
+    <string name="quick_pulldown_left">Vlevo</string>
+    <string name="quick_pulldown_right">Vpravo</string>
+    <string name="quick_pulldown_always">Vždy</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Chytré rozbalení lišty</string>
+    <string name="smart_pulldown_summary">Otevře nabídku rychlého nastavení, kde je přítomno %1$s oznámení</string>
+    <string name="smart_pulldown_none_summary">Otevře nabídku rychlého nastavení, kde není přítomno oznámení</string>
+    <string name="smart_pulldown_off">Vypnuto</string>
+    <string name="smart_pulldown_none">žádná oznámení</string>
+    <string name="smart_pulldown_dismissable">žádné zrušitelné</string>
+    <string name="smart_pulldown_ongoing">žádné probíhající</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normální</string>
+    <string name="display_cutout_style_hide">Skrýt</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Tato funkce je nedostupná, protože nemáte zabezpečenou zamykací obrazovku. </string>
+    <string name="no_no_summary_go">Tato funkce je nedostupná, protože máte aktivovanou službu Android Go.</string>
+    <string name="no_no_summary_owner">Tato funkce je nedostupná, protože nemáte zprávu s informacemi o vlastníkovi.</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

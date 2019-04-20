@@ -38,6 +38,7 @@
     <string name="notifications_settings_summary">నోటిఫికేషన్లు మీకు కావలసిన విధంగా మార్చుకోండి</string>
     <string name="about_bootleg_title">Bootleggers గురించి</string>
     <string name="about_bootleg_summary">మీకు ఆసక్తి ఉంటే, మా గురించి కొన్ని విషయాలు</string>
+    <string name="about_bootleg_small_title">మా గురించి</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">మా గురించి</string>
     <string name="bootleg_ab_title_whoami">Bootleggers అంటే ఏమిటి?</string>
@@ -57,8 +58,6 @@
     <string name="bootleg_moarstuff_git_title">మా GitHub</string>
     <string name="bootleg_moarstuff_git_summary">మా మూలాలు మరియు వెనుదిరిగిన అంశాల స్థలం</string>
     <string name="bootleg_pref_moarstuff_social_title">అందుబాటులో ఉండండి!</string>
-    <string name="bootleg_moarstuff_gplus_title">మా గూగుల్+ సంఘం</string>
-    <string name="bootleg_moarstuff_gplus_summary">మాకు మర్యాదపూర్వకంగా స్క్రీన్ షాట్ లు పంపండి, మీకు నచ్చిన సలహాలు ఇవ్వండి</string>
     <string name="bootleg_moarstuff_tg_title">మా టెలిగ్రామ్ సంఘం</string>
     <string name="bootleg_moarstuff_tg_summary">మాతో మాట్లాడండి, భవిష్యత్ అప్డేట్ ల సమాచారం పొందండి మరియు మా యొక్క గొప్ప సంఘం లో చేరండి</string>
     <string name="bootleg_pref_moarstuff_wewsecret">మీరు రహస్యం గా లేని ఈ ప్రదేశం ని కనుక్కున్నారు, మా యొక్క ROM ని ఫ్లాష్ చేసినందుకు మీకు ధన్యవాదమలు, ముందుగా చెప్పినట్టు మా యొక్క ROM ని ఆస్వాదిస్తారు అని కోరుకుంటున్నాము.</string>
@@ -109,8 +108,6 @@
     <!-- Heads up -->
     <string name="heads_up_cat_title">హెచ్చరిక</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="clock_date_style_normal">సాధారణం</string>
     <!-- 4G icon -->
     <!-- lock screen visualizer -->
     <!-- Lock date fonts -->
@@ -133,7 +130,6 @@
     <!-- SystemUI Restart -->
     <!-- Log it -->
     <!-- AOSP Recents component Style -->
-    <!-- <string name="recents_grid">Grid</string> -->
     <!-- QS tile styles -->
     <!-- Battery light -->
     <!-- Double Tap Lockscreen to Sleep -->
@@ -212,4 +208,25 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_ringer_title">రింగ్</string>
     <!-- Smart Pixels -->
+    <!-- Statusbar Clock options -->
+    <string name="clock_date_style_normal">సాధారణం</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">ఏదీ కాదు</string>
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Recents categories-->
+    <!-- Slim recents -->
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Slim recents membar -->
+    <!-- Recents panel settings -->
+    <!-- Recents membar -->
+    <!-- Quick pull down-->
+    <!-- Smart pulldown-->
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">సాధారణం</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

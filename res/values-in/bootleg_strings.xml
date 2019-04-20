@@ -14,6 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Categories -->
     <string name="animations_title">Animasi</string>
+    <string name="animations_settings_summary">Membuat transisi sistem Anda lebih mengagumkan atau mengerikan</string>
     <string name="button_title">Tombol HW</string>
     <string name="buttons_settings_summary">Merubah tombol HW</string>
     <string name="gestures_title">Isyarat</string>
@@ -38,10 +39,13 @@
     <string name="notifications_settings_summary">Mengubah cara Anda untuk melihat pemberitahuan</string>
     <string name="about_bootleg_title">Tentang Bootleggers</string>
     <string name="about_bootleg_summary">Beberapa informasi tentang kami, jika anda ingin mengetahuinya</string>
+    <string name="about_bootleg_small_title">Tentang kami</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Tentang kami</string>
     <string name="bootleg_ab_title_whoami">Apa itu Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers adalah sebuah ROM berisi fitur dan aplikasi dengan tujuan untuk membuat anda merasa seperti 家. Kami harap anda suka dan nikmati pengalaman dari kami.</string>
     <string name="bootleg_ab_title_thankssec">Terima kasih</string>
+    <string name="bootleg_ab_summary_thankssec">Sentuh ini untuk melihat siapa yang membuat dan yang menginspirasi proyek ini. Tak lupa, terimakasih banyak kepada %s untuk membawa ini ke %s.</string>
     <string name="bootleg_pref_title_romextras">Fitur ekstra dan addons</string>
     <string name="bootleg_ex_title_featurelist">Daftar fitur</string>
     <string name="bootleg_ex_summary_featurelist">Lihat fitur terbaru pada build ini</string>
@@ -57,8 +61,6 @@
     <string name="bootleg_moarstuff_git_title">Github kami</string>
     <string name="bootleg_moarstuff_git_summary">Sumber projec dan penempatannya</string>
     <string name="bootleg_pref_moarstuff_social_title">Hubungi kami!</string>
-    <string name="bootleg_moarstuff_gplus_title">Komunitas Google+ kami</string>
-    <string name="bootleg_moarstuff_gplus_summary">Kirim tangkapan layar, beri umpan balik, apapun yang anda inginkan tapi dengan sopan</string>
     <string name="bootleg_moarstuff_tg_title">Komunitas Telegram kami</string>
     <string name="bootleg_moarstuff_tg_summary">Bicara dengan kami, dapatkan update terbaru dan gabung dengan komunitas kami</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Gua rasa lo nemuin ini bukan tempat yang rahasia banget. tapi kalo lo sampe sini gue cuma mau kasih tau. Makasih udah flashing ROM ini n welp kayak yang udah-udah. mudah-mudahan lo enjoy dan suka sama ROM ini.</string>
@@ -94,12 +96,15 @@
     <string name="cancel">Batal</string>
     <string name="save">Simpan</string>
     <!-- Footer alerts -->
+    <string name="animations_transparent_alert">Beberapa (mungkin semua) dari semua animasi mungkin tidak berjalan bila kamu pakai tema transparan!</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Pilihan Warna</string>
     <string name="press_color_to_apply">Tekan pada warna di bawah untuk menerapkan</string>
     <string name="set">Setel</string>
     <string name="color_default">Standar</string>
     <!-- Preferences Categories -->
+    <string name="cat_general_ui">Oprek UI</string>
+    <string name="cat_misc_app">Aplikasi terkait</string>
     <string name="anim_general_category">Keseluruhan animasi</string>
     <string name="general_system_stuff_preference">Perilaku sistem</string>
     <!-- QuickSettings haptic feedback -->
@@ -118,7 +123,6 @@
     <!-- Lockscreen charging current indicator  -->
     <!-- Volume swap buttons -->
     <!--SystemUI Tuner -->
-    <string name="lockscreen_shortcuts_title">Pintasan kunci layar</string>
     <!-- Toast app icon -->
     <!-- Power menu on lockscreen -->
     <!-- AOKP custom system animations -->
@@ -246,45 +250,6 @@
     <string name="dialog_delete_title">Hapus</string>
     <string name="dialog_delete_message">Hapus item yang dipilih?</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">Jam &amp; Tanggal</string>
-    <string name="status_bar_clock_summary">Mengkonfigurasi statusbar penampilan jam dan tanggal</string>
-    <string name="status_bar_clock_advanced_title">Opsi lanjutan</string>
-    <string name="status_bar_clock_advanced_title_alt">Opsi lanjutan jam &amp; tanggal</string>
-    <string name="status_bar_clock_advanced_summary">Men-tweak jam untuk kepuasan Anda</string>
-    <string name="clock_title_enable">Penjajaran</string>
-    <string name="clock_enabled">Telah Diaktifkan</string>
-    <string name="clock_disabled">Dinonaktifkan</string>
-    <string name="status_bar_clock_style_reset">Setel ulang warna</string>
-    <string name="status_bar_show_clock_title">Tampilan jam &amp; tanggal</string>
-    <string name="status_bar_clock_seconds_title">Tampilkan detik</string>
-    <string name="status_bar_am_pm_title">AM / PM</string>
-    <string name="status_bar_am_pm_info">24-jam diaktifkan</string>
-    <string name="enable_clock_weekday">Hari dalam seminggu</string>
-    <string name="enable_clock_weekday_summary">Waktu disingkat sebelum hari minggu</string>
-    <string name="right_clock">Jam di kanan</string>
-    <string name="left_clock">Jam di kiri</string>
-    <string name="center_clock">Jam di tengah</string>
-    <string name="dont_show">Jangan Tampilkan</string>
-    <string name="clock_date_display">Tanggal</string>
-    <string name="clock_date_display_summary">Tampilkan tanggal khusus sebelum jam</string>
-    <string name="clock_date_style">Bentuk tanggal</string>
-    <string name="clock_date_format">Format tanggal</string>
-    <string name="clock_date_string_edittext_title">Harus dalam format tanggal misalnya. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Masukkan string</string>
-    <string name="am_pm_clock_normal">Ukuran huruf normal</string>
-    <string name="am_pm_clock_small">Ukuran huruf kecil</string>
-    <string name="am_pm_clock_none">Jangan Tampilkan</string>
-    <string name="clock_date_display_none">Jangan Tampilkan</string>
-    <string name="clock_date_display_small">Ukuran huruf kecil</string>
-    <string name="clock_date_display_normal">Ukuran huruf normal</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Huruf kecil</string>
-    <string name="clock_date_style_uppercase">Huruf besar</string>
-    <string name="clock_date_format_custom">Kustom java format</string>
-    <string name="clock_date_right">Kanan dari jam</string>
-    <string name="clock_date_left">Kiri dari jam</string>
-    <string name="clock_date_position">Posisi Tanggal</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ikon 4G di Statusbar</string>
     <string name="show_fourg_icon_summary">Pada ikon sinyal, tampilkan 4G daripada LTE</string>
@@ -374,7 +339,7 @@
     <string name="log_it_alert_faq">Mungkin ditempat lo bergumam \"Apaan sih semua ini dan kenapa gw harus ngirim ini?\"\nYaa, ini beberapa info tentang apa aja yang lo bisa kirim:\n\nLogcat: Ini cara Android mencatat semua kejadian seperti error, kegagalan atau juga proses apa aja yang berjalan. Ideal buat crash sama FCs.\n\nDmesg: isinya tentang pesan kernel tapi memilih hal-hal yang pengguna gak peduli&#8230; kalo mereka pedul\n\nKmesg: ini sama dengan Dmesg tapi gak pakai filter, isinya info lanjutan tentang semua kejadian kernel. ideal buat yang biasa random reboots.</string>
     <!-- AOSP Recents component Style -->
     <string name="recents_stock">Stock</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Grid</string>
     <string name="recents_go">Android Go</string>
     <!-- QS tile styles -->
     <!-- Battery light -->
@@ -479,6 +444,7 @@
     <string name="shortcut_picker_activities_title">Aktivitas-aktivitas</string>
     <string name="shortcut_picker_icon_type_default_title">Standar</string>
     <!-- Lockscreen Shortcuts -->
+    <string name="ls_shortcuts_title">Pintasan</string>
     <string name="shortcuts_applications">Aplikasi</string>
     <string name="shortcuts_icon_default">Standar</string>
     <string name="shortcuts_icon_picker_google_small">Google</string>
@@ -488,6 +454,7 @@
     <string name="shortcuts_icon_picker_search">Cari</string>
     <string name="shortcuts_icon_picker_sms">Pesan</string>
     <string name="shortcut_action_power_menu">Menu daya</string>
+    <string name="shortcut_action_recent">Recents</string>
     <string name="weather">Cuaca</string>
     <string name="pulse">Pulse</string>
     <string name="google">Google</string>
@@ -604,4 +571,107 @@
     <string name="smart_pixels_on_power_save_title">Hidupkan-otomatis pada penghemat baterai</string>
     <string name="smart_pixels_on_power_save_summary">Hidupkan Smart Pixels ketika penghemat baterai dihidupkan</string>
     <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">Tampilan jam &amp; tanggal</string>
+    <string name="clock_title_enable">Penjajaran</string>
+    <string name="clock_position_right">Jam di kanan</string>
+    <string name="clock_position_center">Jam di tengah</string>
+    <string name="clock_position_left">Jam di kiri</string>
+    <string name="status_bar_am_pm_title">AM / PM</string>
+    <string name="status_bar_am_pm_info">24-jam diaktifkan</string>
+    <string name="am_pm_clock_normal">Ukuran huruf normal</string>
+    <string name="am_pm_clock_small">Ukuran huruf kecil</string>
+    <string name="am_pm_clock_none">Jangan Tampilkan</string>
+    <string name="clock_date_display">Tanggal</string>
+    <string name="clock_date_display_summary">Tampilkan tanggal khusus sebelum jam</string>
+    <string name="clock_date_style">Bentuk tanggal</string>
+    <string name="clock_date_position">Posisi Tanggal</string>
+    <string name="clock_date_format">Format tanggal</string>
+    <string name="clock_date_string_edittext_title">Harus dalam format tanggal misalnya. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Masukkan string</string>
+    <string name="clock_date_right">Kanan dari jam</string>
+    <string name="clock_date_left">Kiri dari jam</string>
+    <string name="clock_date_display_none">Jangan Tampilkan</string>
+    <string name="clock_date_display_small">Ukuran huruf kecil</string>
+    <string name="clock_date_display_normal">Ukuran huruf normal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Huruf kecil</string>
+    <string name="clock_date_style_uppercase">Huruf besar</string>
+    <string name="clock_date_format_custom">Kustom java format</string>
+    <string name="menu_cancel">Batal</string>
+    <string name="menu_save">Simpan</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Tidak Ada</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Tombol menutup tugas</string>
+    <string name="notification_guts_kill_app_button_summary">Tampilkan tombol penutup tugas dimenu tekan lama notifikasi</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Getaran autentikasi sidik jari</string>
+    <string name="fprint_sucess_vib_summary">Bergetar saat autentikasi sidik jari sukses</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">Tampilan Terkini AOSP</string>
+    <string name="slim_recents_category">Slim recent</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim recent</string>
+    <string name="slim_recents_settings_title">Pengaturan Slim Recent</string>
+    <string name="recents_max_apps_title">Maksimal aplikasi diperbolehkan</string>
+    <string name="recent_panel_scale_title">Ukuran</string>
+    <string name="recent_panel_expanded_mode_summary">Terakhir memperluas tampilan mode</string>
+    <string name="recent_panel_expanded_mode_auto">Otomatis (default)</string>
+    <string name="recent_panel_expanded_mode_always">Selalu</string>
+    <string name="recent_panel_expanded_mode_never">Tidak pernah</string>
+    <string name="recent_panel_expanded_mode_disabled">Dinonaktifkan</string>
+    <string name="recent_panel_bg_color_title">Warna latar belakang panel</string>
+    <string name="recent_card_bg_color_title">Warna latar belakang kartu</string>
+    <string name="slim_icon_pack_title">Icon Pack</string>
+    <string name="slim_icon_pack_summary">Terapkan sebuah paket ikon kustom untuk aplikasi di panel</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Tampilkan di tepi sebelah kiri</string>
+    <string name="recent_panel_lefty_mode_summary">Tampilkan panel aplikasi terkini di tepi kiri</string>
+    <string name="slim_blacklist_apps_cat_title">Daftar cekal</string>
+    <string name="slim_blacklist_apps_title">List aplikasi yang dicekal</string>
+    <string name="slim_blacklist_apps_summary">Aplikasi yang tidak ditampilakan di panel</string>
+    <string name="slim_blacklist_add_apps_title">Tambah aplikasi</string>
+    <string name="slim_blacklist_add_apps_summary">Ketuk disini untuk menambahkan, tekan pada aplikasi yang telah ditambahkan untuk menghapusnya</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Memori Bar</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Bersihkan semua</string>
+    <string name="show_clear_all_recents_button_summary">Tampilkan tombol bersihkan semua</string>
+    <string name="recents_clear_all_location_title">Hapus semua lokasi</string>
+    <string name="recents_clear_all_location_top_right">Kanan atas</string>
+    <string name="recents_clear_all_location_top_left">Kiri Atas</string>
+    <string name="recents_clear_all_location_top_center">Tengah Atas</string>
+    <string name="recents_clear_all_location_bottom_right">Kanan Bawah</string>
+    <string name="recents_clear_all_location_bottom_left">Kiri Bawah</string>
+    <string name="recents_clear_all_location_bottom_center">Tengah Bawah</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">Memori Bar</string>
+    <string name="recents_show_membar_summary">Tampilan bilah dengan memori perangkat yang tersedia</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Pull-down cepat</string>
+    <string name="quick_pulldown_summary">%1$s tepi status bar menarik ke bawah Pengaturan Cepat</string>
+    <string name="quick_pulldown_summary_always">Selalu tampilkan Pengaturan Qs pada Status bar pulldown</string>
+    <string name="quick_pulldown_off">Matikan</string>
+    <string name="quick_pulldown_left">Kiri</string>
+    <string name="quick_pulldown_right">Kanan</string>
+    <string name="quick_pulldown_always">Selalu</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Pulldown pintar</string>
+    <string name="smart_pulldown_summary">Buka Pengaturan Qs ketika ada %1$s pemberitahuan</string>
+    <string name="smart_pulldown_none_summary">Buka Pengaturan Qs ketika tidak ada pemberitahuan</string>
+    <string name="smart_pulldown_off">Matikan</string>
+    <string name="smart_pulldown_none">tidak ada pemberitahuan</string>
+    <string name="smart_pulldown_dismissable">tidak dapat diberhentikan</string>
+    <string name="smart_pulldown_ongoing">tidak sedang berlangsung</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normal</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Fitur ini tidak ada karena kamu tidak punya lockscreen yang aman. </string>
+    <string name="no_no_summary_go">Fitur ini tidak ada karena kamu mengaktifkan Android Go.</string>
+    <string name="no_no_summary_owner">Fitur ini tidak tersedia karena Anda tidak memiliki pesan info pemilik</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

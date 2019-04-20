@@ -38,6 +38,7 @@
     <string name="notifications_settings_summary">Schimbă cum poți vedea acele notificări</string>
     <string name="about_bootleg_title">Despre Bootleggers</string>
     <string name="about_bootleg_summary">Câteva informații despre noi, in caz că esti curios</string>
+    <string name="about_bootleg_small_title">Despre noi</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Despre noi</string>
     <string name="bootleg_ab_title_whoami">Ce este Bootleggers?</string>
@@ -57,8 +58,6 @@
     <string name="bootleg_moarstuff_git_title">Github-ul nostru</string>
     <string name="bootleg_moarstuff_git_summary">Unde sunt sursele si revenirile noastre amplasate</string>
     <string name="bootleg_pref_moarstuff_social_title">Intră în contact!</string>
-    <string name="bootleg_moarstuff_gplus_title">Comunitatea noastră Google+</string>
-    <string name="bootleg_moarstuff_gplus_summary">Trimite capturi de ecran, scrie-ne sau orice vrei dar într-un mod respectuos</string>
     <string name="bootleg_moarstuff_tg_title">Comunitatea noastră Telegram</string>
     <string name="bootleg_moarstuff_tg_summary">Vorbește cu noi, fii pe fază cu noi actualizări și alătură-te comunității noastre</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Văd că ai găsit locul acesta \"secret\", așa că dacă tot ești aici am vrut să-ți mulțumim că ai instalat acest ROM și după cum am tot zis, sper să îți placă și să te distrezi cu acest ROM.</string>
@@ -126,9 +125,6 @@
     <!-- Heads up -->
     <string name="heads_up_cat_title">Atenționare</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="clock_disabled">Dezactivat</string>
-    <string name="clock_date_style_normal">Normal</string>
     <!-- 4G icon -->
     <!-- lock screen visualizer -->
     <!-- Lock date fonts -->
@@ -151,7 +147,6 @@
     <!-- SystemUI Restart -->
     <!-- Log it -->
     <!-- AOSP Recents component Style -->
-    <!-- <string name="recents_grid">Grid</string> -->
     <!-- QS tile styles -->
     <!-- Battery light -->
     <!-- Double Tap Lockscreen to Sleep -->
@@ -233,4 +228,26 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_ringer_title">Sonerie</string>
     <!-- Smart Pixels -->
+    <!-- Statusbar Clock options -->
+    <string name="clock_date_style_normal">Normal</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Nimic</string>
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Recents categories-->
+    <!-- Slim recents -->
+    <string name="recent_panel_expanded_mode_disabled">Dezactivat</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Slim recents membar -->
+    <!-- Recents panel settings -->
+    <!-- Recents membar -->
+    <!-- Quick pull down-->
+    <!-- Smart pulldown-->
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normal</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

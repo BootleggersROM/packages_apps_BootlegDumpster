@@ -44,7 +44,6 @@
     <!-- Lock Clock Fonts -->
     <!-- Heads up -->
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
     <!-- 4G icon -->
     <!-- lock screen visualizer -->
     <!-- Lock date fonts -->
@@ -67,7 +66,6 @@
     <!-- SystemUI Restart -->
     <!-- Log it -->
     <!-- AOSP Recents component Style -->
-    <!-- <string name="recents_grid">Grid</string> -->
     <!-- QS tile styles -->
     <!-- Battery light -->
     <!-- Double Tap Lockscreen to Sleep -->
@@ -130,4 +128,22 @@
     <!-- Volume Panel on Left -->
     <!-- Audio Panel view  -->
     <!-- Smart Pixels -->
+    <!-- Statusbar Clock options -->
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Recents categories-->
+    <!-- Slim recents -->
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Slim recents membar -->
+    <!-- Recents panel settings -->
+    <!-- Recents membar -->
+    <!-- Quick pull down-->
+    <!-- Smart pulldown-->
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

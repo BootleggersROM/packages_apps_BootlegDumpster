@@ -25,6 +25,7 @@
     <string name="statusbar_title">Statusna traka</string>
     <string name="volume_title">Tipke za glasnoću</string>
     <string name="about_bootleg_title">O Bootleggers sustavu</string>
+    <string name="about_bootleg_small_title">O nama</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">O nama</string>
     <string name="bootleg_ab_title_whoami">Što je Bootleggers?</string>
@@ -57,7 +58,6 @@
     <!-- Lockscreen charging current indicator  -->
     <!-- Volume swap buttons -->
     <!--SystemUI Tuner -->
-    <string name="lockscreen_shortcuts_title">Prečaci zaključanog zaslona</string>
     <!-- Toast app icon -->
     <!-- Power menu on lockscreen -->
     <!-- AOKP custom system animations -->
@@ -85,8 +85,6 @@
     <!-- Heads up -->
     <string name="heads_up_cat_title">Plutajuće obavijesti</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="clock_date_style_normal">Normalno</string>
     <!-- 4G icon -->
     <!-- lock screen visualizer -->
     <!-- Lock date fonts -->
@@ -109,7 +107,6 @@
     <!-- SystemUI Restart -->
     <!-- Log it -->
     <!-- AOSP Recents component Style -->
-    <!-- <string name="recents_grid">Grid</string> -->
     <!-- QS tile styles -->
     <!-- Battery light -->
     <!-- Double Tap Lockscreen to Sleep -->
@@ -199,4 +196,34 @@
     <string name="audio_panel_view_media_title">Medij</string>
     <string name="audio_panel_view_ringer_title">Zvono</string>
     <!-- Smart Pixels -->
+    <!-- Statusbar Clock options -->
+    <string name="clock_date_style_normal">Normalno</string>
+    <string name="menu_cancel">Odustani</string>
+    <string name="menu_save">Spremi</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Nijedan</string>
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Recents categories-->
+    <!-- Slim recents -->
+    <string name="recent_panel_expanded_mode_never">Nikad</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Slim recents membar -->
+    <!-- Recents panel settings -->
+    <string name="recents_clear_all_location_top_right">Gore desno</string>
+    <string name="recents_clear_all_location_top_left">Gore lijevo</string>
+    <string name="recents_clear_all_location_top_center">Gore u sredini</string>
+    <string name="recents_clear_all_location_bottom_right">Dolje desno</string>
+    <string name="recents_clear_all_location_bottom_left">Dolje lijevo</string>
+    <string name="recents_clear_all_location_bottom_center">Dolje u sredini</string>
+    <!-- Recents membar -->
+    <!-- Quick pull down-->
+    <!-- Smart pulldown-->
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normalno</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

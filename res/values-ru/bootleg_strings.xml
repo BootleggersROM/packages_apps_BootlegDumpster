@@ -39,6 +39,7 @@
     <string name="notifications_settings_summary">Посмотрите, как вы можете настроить уведомления</string>
     <string name="about_bootleg_title">О Bootleggers</string>
     <string name="about_bootleg_summary">Немного информации о нас, если вам интересно</string>
+    <string name="about_bootleg_small_title">О нас</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">О нас</string>
     <string name="bootleg_ab_title_whoami">Что такое Bootleggers?</string>
@@ -62,8 +63,6 @@
     <string name="bootleg_moarstuff_git_title">Мы на Github</string>
     <string name="bootleg_moarstuff_git_summary">Здесь весь исходный материал</string>
     <string name="bootleg_pref_moarstuff_social_title">Свяжитесь с нами!</string>
-    <string name="bootleg_moarstuff_gplus_title">Мы в Google+</string>
-    <string name="bootleg_moarstuff_gplus_summary">Отправляйте скриншоты для обратной связи или что хотите, но вежливо</string>
     <string name="bootleg_moarstuff_tg_title">Мы в Telegram</string>
     <string name="bootleg_moarstuff_tg_summary">Поговорите с нами, получите информацию о будущих обновлениях и просто общайтесь</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Я думаю, вы обнаружили, что это действительно не столь секретное место, но хорошо, если вы здесь, я просто хочу сообщить вам, что спасибо за то, что вы приняли этот ROM и как мы говорили много раз раньше, надеемся, вам понравится и вы хорошо проведёте время на нём.</string>
@@ -149,7 +148,6 @@
     <string name="statusbar_tuner_summary">Параметры значка батареи и значков в строке состояния</string>
     <string name="navbar_tuner_title">Изменить панель навигации</string>
     <string name="navbar_tuner_summary">Изменить панели навигации и настроить кнопки</string>
-    <string name="lockscreen_shortcuts_title">Ярлыки в нижних углах</string>
     <string name="lockscreen_shortcuts_summary">Настроить шорткаты в нижних углах экрана блокировки</string>
     <string name="vol_dnd_category_title">Режим «Не беспокоить»</string>
     <string name="volbtn_down_zen_title">Включение режима \"Не беспокоить\" снижением громкости</string>
@@ -254,7 +252,7 @@
     <string name="qs_set_animation_duration">%1$s</string>
     <string name="qs_set_animation_interpolator">%1$s</string>
     <!-- Lock UI thing -->
-    <string name="lockscreen_moreui_title">Больше UI для экрана блокировки</string>
+    <string name="lockscreen_moreui_title">UI экрана блокировки</string>
     <string name="lockscreen_moreui_title_alt">Интерфейс экрана блокировки</string>
     <string name="lockscreen_moreui_summary">Выберите шрифты для часов и даты и непрозрачность фона</string>
     <!-- Lock UI thing -->
@@ -314,45 +312,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Пробуждать экран при подключении зарядки</string>
     <string name="wakeup_when_plugged_unplugged_summary">Подключение/отключение зарядного устройства пробуждает телефон.</string>
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">Время и дата</string>
-    <string name="status_bar_clock_summary">Настройка отображения даты и времени</string>
-    <string name="status_bar_clock_advanced_title">Расширенные настройки</string>
-    <string name="status_bar_clock_advanced_title_alt">Расширенные параметры часов и даты</string>
-    <string name="status_bar_clock_advanced_summary">Настроить часы для вашего удовольствия</string>
-    <string name="clock_title_enable">Положение часов</string>
-    <string name="clock_enabled">Включено</string>
-    <string name="clock_disabled">Отключено</string>
-    <string name="status_bar_clock_style_reset">Сбросить цвета</string>
-    <string name="status_bar_show_clock_title">Показывать часы и дату</string>
-    <string name="status_bar_clock_seconds_title">Показывать секунды</string>
-    <string name="status_bar_am_pm_title">12-часовой формат времени</string>
-    <string name="status_bar_am_pm_info">24-часовой формат активирован</string>
-    <string name="enable_clock_weekday">День недели</string>
-    <string name="enable_clock_weekday_summary">Аббревиатура дня недели перед часами</string>
-    <string name="right_clock">Часы справа</string>
-    <string name="left_clock">Часы слева</string>
-    <string name="center_clock">Часы по центру</string>
-    <string name="dont_show">Не отображать</string>
-    <string name="clock_date_display">Дата</string>
-    <string name="clock_date_display_summary">Отображать дату перед часами</string>
-    <string name="clock_date_style">Стиль даты</string>
-    <string name="clock_date_format">Формат даты</string>
-    <string name="clock_date_string_edittext_title">Введённое значение должно соответствовать формату даты, например: ММ/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Введите строку</string>
-    <string name="am_pm_clock_normal">Стандартный размер шрифта</string>
-    <string name="am_pm_clock_small">Маленький размер шрифта</string>
-    <string name="am_pm_clock_none">Не отображать</string>
-    <string name="clock_date_display_none">Не отображать</string>
-    <string name="clock_date_display_small">Маленький размер шрифта</string>
-    <string name="clock_date_display_normal">Стандартный размер шрифта</string>
-    <string name="clock_date_style_normal">По умолчанию</string>
-    <string name="clock_date_style_lowercase">Строчные</string>
-    <string name="clock_date_style_uppercase">Прописные</string>
-    <string name="clock_date_format_custom">Пользовательский Java-формат</string>
-    <string name="clock_date_right">Справа от часов</string>
-    <string name="clock_date_left">Слева от часов</string>
-    <string name="clock_date_position">Расположение даты</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G иконка в строке состояния</string>
     <string name="show_fourg_icon_summary">Показывать 4G вместо LTE</string>
@@ -472,7 +431,7 @@
     <string name="recents_component_type_title">Стиль меню недавних приложений</string>
     <string name="recents_quickstep">Quickstep (если доступно)</string>
     <string name="recents_stock">Сток</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Сетка</string>
     <string name="recents_go">Android Go</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>
@@ -716,7 +675,7 @@
     <string name="shortcut_picker_select_system_icon_title">Выберите системную иконку:</string>
     <string name="shortcut_picker_icon_type_custom_title">Галерея</string>
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">Ярлыки в центре экрана</string>
+    <string name="ls_shortcuts_title">Горячие клавиши</string>
     <string name="lockscreen_mdshortcuts_title">Ярлыки в центре экрана</string>
     <string name="lockscreen_mdshortcuts_summary">Просмотреть или изменить ярлыки на экране блокировки</string>
     <string name="lockscreen_shorcuts_launch_type_title">Тип нажатия на ярлык</string>
@@ -962,10 +921,10 @@
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
     <!-- Rounded corners -->
-    <string name="corners_category">Угловые</string>
+    <string name="corners_category">Закругления</string>
     <string name="corner_radius">Радиус скругления углов</string>
     <string name="content_padding">Отступ углов</string>
-    <string name="corner_fwvals">Использовать значения каркаса</string>
+    <string name="corner_fwvals">Использовать значения framework\'а</string>
     <string name="corner_fwvals_summary">Полезно, если устройство не имеет скруглённых углов</string>
     <!-- ambient visualizer -->
     <string name="ambient_visualizer_title">Визуализация на Ambient Display</string>
@@ -987,6 +946,7 @@
     <string name="lockscreen_clock_selection_sammy_accent">Sammy с акцентом</string>
     <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy с акцентом (альтернативный)</string>
     <string name="lockscreen_clock_selection_shishu_nerves">Shishu Nerves</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">Градиентные часы (с логотипом bootleg)</string>
     <string name="lockscreen_clock_selection_gradient_shishu">Часы с градиентом и Shishu лого</string>
     <string name="lockscreen_clock_selection_gradient_full">Часы с полным градиентом</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Часы с монохромным градиентом</string>
@@ -1012,10 +972,16 @@
     <string name="file_header_select_summary">Выберите пользовательское изображение</string>
     <string name="file_header_provider_title">Пользовательское изображение</string>
     <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">Панель громкости</string>
+    <string name="volume_panel_on_left_title">Панель громкости слева</string>
+    <string name="volume_panel_on_left_summary">Переместить панель громкости с правой стороны на левую</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view">Вид панели громкости</string>
     <string name="audio_panel_view_media_title">Медиа</string>
     <string name="audio_panel_view_ringer_title">Звонок</string>
+    <string name="audio_panel_view_notification_title">Уведомление</string>
     <string name="audio_panel_view_alarm_title">Будильник</string>
+    <string name="audio_panel_view_voice_title">Голос</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Умные пиксели</string>
@@ -1025,4 +991,110 @@
     <string name="smart_pixels_on_power_save_title">Включать автоматически в режиме экономии заряда</string>
     <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим экономии заряда</string>
     <string name="smart_pixels_percent">Процент выключаемых пикселей</string>
+    <string name="smart_pixels_shift">Предотвратить выгорание, сдвигая пиксели каждые</string>
+    <string name="smart_pixels_warning_text">Smart Pixels - это функция энергосбережения. В зависимости от того, сколько пикселей вы хотите отключить, вы можете увидеть значительное улучшение времени автономной работы. Для хорошего пользовательского интерфейса мы рекомендуем установить количество отключенных пикселей до 75 процентов при переключении каждые 10 минут.</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">Показывать часы и дату</string>
+    <string name="clock_title_enable">Положение часов</string>
+    <string name="clock_position_right">Часы справа</string>
+    <string name="clock_position_center">Часы по центру</string>
+    <string name="clock_position_left">Часы слева</string>
+    <string name="status_bar_am_pm_title">12-часовой формат времени</string>
+    <string name="status_bar_am_pm_info">24-часовой формат активирован</string>
+    <string name="am_pm_clock_normal">Стандартный размер шрифта</string>
+    <string name="am_pm_clock_small">Маленький размер шрифта</string>
+    <string name="am_pm_clock_none">Не отображать</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображать дату перед часами</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_position">Расположение даты</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Введённое значение должно соответствовать формату даты, например: ММ/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Введите строку</string>
+    <string name="clock_date_right">Справа от часов</string>
+    <string name="clock_date_left">Слева от часов</string>
+    <string name="clock_date_display_none">Не отображать</string>
+    <string name="clock_date_display_small">Маленький размер шрифта</string>
+    <string name="clock_date_display_normal">Стандартный размер шрифта</string>
+    <string name="clock_date_style_normal">По умолчанию</string>
+    <string name="clock_date_style_lowercase">Строчные</string>
+    <string name="clock_date_style_uppercase">Прописные</string>
+    <string name="clock_date_format_custom">Пользовательский Java-формат</string>
+    <string name="menu_cancel">Отмена</string>
+    <string name="menu_save">Сохранить</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Ничего</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Кнопка закрытия приложения</string>
+    <string name="notification_guts_kill_app_button_summary">Показывать кнопку закрытия приложения при долгом нажатии на уведомление</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Вибрация при распознавании отпечатка пальцев</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распозновании отпечатка пальца</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">Панель недавних приложений AOSP</string>
+    <string name="slim_recents_category">Панель недавних приложений Slim</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Панель недавних приложений Slim</string>
+    <string name="slim_recents_settings_title">Настройки меню недавних приложений от Slim</string>
+    <string name="recents_max_apps_title">Максимально допустимое количество приложений</string>
+    <string name="recent_panel_scale_title">Размер</string>
+    <string name="recent_panel_expanded_mode_summary">Расширенный режим просмотра недавних приложений</string>
+    <string name="recent_panel_expanded_mode_auto">Автоматически (по умолчанию)</string>
+    <string name="recent_panel_expanded_mode_always">Всегда</string>
+    <string name="recent_panel_expanded_mode_never">Никогда</string>
+    <string name="recent_panel_expanded_mode_disabled">Отключено</string>
+    <string name="recent_panel_bg_color_title">Цвет фона панели</string>
+    <string name="recent_card_bg_color_title">Цвет фона панели</string>
+    <string name="slim_icon_pack_title">Пакет иконок</string>
+    <string name="slim_icon_pack_summary">Применить пользовательский набор значков для приложений в панели</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Показывать у левого края</string>
+    <string name="recent_panel_lefty_mode_summary">Отображать панель недавних приложений с левой стороны экрана</string>
+    <string name="slim_blacklist_apps_cat_title">Чёрный список</string>
+    <string name="slim_blacklist_apps_title">Черный список приложений</string>
+    <string name="slim_blacklist_apps_summary">Скрытые приложения</string>
+    <string name="slim_blacklist_add_apps_title">Добавить приложение</string>
+    <string name="slim_blacklist_add_apps_summary">Нажмите здесь, чтобы добавить новое приложение; нажмите на добавленное приложение, чтобы удалить его</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Шкала использования ОЗУ</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Кнопка «Очистить всё»</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку «Очистить всё»</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки «Очистить всё»</string>
+    <string name="recents_clear_all_location_top_right">Вверху справа</string>
+    <string name="recents_clear_all_location_top_left">Вверху слева</string>
+    <string name="recents_clear_all_location_top_center">Вверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Внизу по центру</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">Шкала использования ОЗУ</string>
+    <string name="recents_show_membar_summary">Показывать строку использования ОЗУ в недавних приложениях</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Быстрый доступ</string>
+    <string name="quick_pulldown_summary">%1$s край строки состояния вытягивает быстрые настройки</string>
+    <string name="quick_pulldown_summary_always">Всегда показывать быстрые настройки при вытягивании строки состояния</string>
+    <string name="quick_pulldown_off">Отключить</string>
+    <string name="quick_pulldown_left">Слева</string>
+    <string name="quick_pulldown_right">Право</string>
+    <string name="quick_pulldown_always">Всегда</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">\"Умная\" панель уведомлений</string>
+    <string name="smart_pulldown_summary">Открыть панель быстрых настроек, когда там присутствует %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открывать панель быстрых настроек когда уведомления отсутствуют</string>
+    <string name="smart_pulldown_off">Отключить</string>
+    <string name="smart_pulldown_none">Уведомления отсутствуют</string>
+    <string name="smart_pulldown_dismissable">Нет удаляемых</string>
+    <string name="smart_pulldown_ongoing">Нет постоянных</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">По умолчанию</string>
+    <string name="display_cutout_style_hide">Скрыть</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Эта функция недоступна, потому что у вас не настроена защита на экране блокировки. </string>
+    <string name="no_no_summary_go">Эта функция недоступна, потому что вы используете Android Go вид недавних приложений.</string>
+    <string name="no_no_summary_owner">Эта функция недоступна, потому что у вас не установлено сообщение о владельце</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

@@ -15,39 +15,40 @@
     <!-- Categories -->
     <string name="animations_title">Animações</string>
     <string name="animations_settings_summary">Faça as transições do seu sistema mais impressionantes ou horríveis</string>
-    <string name="button_title">Botões físicos</string>
-    <string name="buttons_settings_summary">Mude algumas coisas dos seus botões físicos</string>
+    <string name="button_title">Botões Físicos</string>
+    <string name="buttons_settings_summary">Modifique seus botões físicos</string>
     <string name="gestures_title">Gestos</string>
     <string name="gestures_settings_summary">Definir alguns gestos para facilitar as coisas</string>
     <string name="lockscreen_title">Tela de bloqueio</string>
-    <string name="lockscreen_settings_summary">Mude o layout e algumas funcionalidades da sua tela de bloqueio</string>
+    <string name="lockscreen_settings_summary">Modifique a interface e as funções da sua tela de bloqueio</string>
     <string name="misc_title">Diversos</string>
-    <string name="misc_settings_summary">Algumas coisas aleatórias que não entram em outras opções</string>
-    <string name="navbar_title">Configurações da barra de navegação</string>
-    <string name="navbar_settings_summary">Ensine à sua barra de navegação alguns truques novos</string>
+    <string name="misc_settings_summary">Outras opções que não cabem em nenhuma categoria</string>
+    <string name="navbar_title">Recursos da barra de navegação</string>
+    <string name="navbar_settings_summary">Faça coisas novas com sua barra de navegação</string>
     <string name="powermenu_title">Menu de energia</string>
-    <string name="powermenu_settings_summary">Tornar esse menu de energia mais útil</string>
+    <string name="powermenu_settings_summary">Tornar o menu de energia mais útil</string>
     <string name="quicksettings_title">Configurações Rápidas</string>
-    <string name="quicksettings_settings_summary">Fazer aquelas configurações rápidas mais confortáveis</string>
+    <string name="quicksettings_settings_summary">Tornar as configurações rápidas mais confortáveis</string>
     <string name="recents_title">Aplicativos recentes</string>
-    <string name="recents_settings_summary">Explorar mais maneiras para multitarefa</string>
+    <string name="recents_settings_summary">Novas formas de multitarefa</string>
     <string name="statusbar_title">Barra de status</string>
     <string name="statusbar_settings_summary">A barra de status é boa, mas poderia ser melhor</string>
     <string name="volume_title">Teclas de volume</string>
-    <string name="volume_settings_summary">Faça os botões de volume fazerem alguma mágica</string>
+    <string name="volume_settings_summary">Torne os botões de volume mágicos</string>
     <string name="notifications_title">Notificações</string>
-    <string name="notifications_settings_summary">Mude como você vê essas notificações</string>
+    <string name="notifications_settings_summary">Mude como você vê as notificações</string>
     <string name="about_bootleg_title">Sobre a Bootleggers</string>
-    <string name="about_bootleg_summary">Algumas informações sobre nós, caso você esteja curioso sobre isso</string>
+    <string name="about_bootleg_summary">Algumas informações sobre nós, caso você esteja curioso</string>
+    <string name="about_bootleg_small_title">Sobre nós</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Sobre nós</string>
-    <string name="bootleg_ab_title_whoami">O que é Bootleggers?</string>
+    <string name="bootleg_ab_title_whoami">O que é a Bootleggers?</string>
     <string name="bootleg_ab_summary_whoami">Bootleggers é uma ROM repleta de recursos e aplicativos com o objetivo de fazer você se sentir 家. Espero que gostem e aproveitem a nossa experiência.</string>
     <string name="bootleg_ab_title_thankssec">Lista de agradecimentos</string>
     <string name="bootleg_ab_summary_thankssec">Toque aqui para ver quem criou e inspirou este projeto. Também, muito obrigado %s por trazer para o %s.</string>
     <string name="bootleg_ab_summary_thanksclean">Toque aqui para ver quem criou e inspirou este projeto.</string>
     <string name="bootleg_pref_title_romextras">Extras e Complementos</string>
-    <string name="bootleg_ex_title_featurelist">Lista de recursos</string>
+    <string name="bootleg_ex_title_featurelist">Lista de Recursos</string>
     <string name="bootleg_ex_summary_featurelist">Verifique a lista atual de recursos nesta compilação</string>
     <string name="bootleg_ex_title_addons">Complementos e Downloads</string>
     <string name="bootleg_ex_summary_addons">Lista recomendada de temas e Mods de nossa parte (uma propaganda honesta)</string>
@@ -62,8 +63,6 @@
     <string name="bootleg_moarstuff_git_title">Nosso github</string>
     <string name="bootleg_moarstuff_git_summary">Onde nossas fontes e reverteres são colocadas</string>
     <string name="bootleg_pref_moarstuff_social_title">Entrar em contato!</string>
-    <string name="bootleg_moarstuff_gplus_title">Nossa Comunidade do Google+</string>
-    <string name="bootleg_moarstuff_gplus_summary">Envie screenshots, nos dê feedback, o que você quiser, mas de uma forma respeitosa</string>
     <string name="bootleg_moarstuff_tg_title">Nossa comunidade do telegram</string>
     <string name="bootleg_moarstuff_tg_summary">Fale conosco, receba novidades com atualizações futuras e junte-se à nossa grande comunidade</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Eu acho que você achou esse lugar não muito secreto, mas bem, se você chegou até aqui eu só queria que você soubesse que agradeço por instalar essa ROM, como dissemos várias vezes antes, espero que você goste e se divirta com esta ROM.</string>
@@ -102,7 +101,7 @@
     <!-- Footer alerts -->
     <string name="animations_transparent_alert">Algumas (ou talvez todas) dessas animações podem não funcionar se você estiver usando um tema transparente!</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Selecionar cores</string>
+    <string name="dialog_color_picker">Selecionador de Cores</string>
     <string name="press_color_to_apply">Toque na cor abaixo para aplicar</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -111,15 +110,15 @@
     <string name="set">Aplicar</string>
     <string name="color_default">Padrão</string>
     <!-- Preferences Categories -->
-    <string name="cat_general_ui">UI tweaks</string>
-    <string name="cat_general_system">Sistema relacionado a tweaks</string>
+    <string name="cat_general_ui">Ajustes de Interface</string>
+    <string name="cat_general_system">Ajustes relacionados ao sistema</string>
     <string name="cat_powermenu_items">Itens do menu de energia</string>
     <string name="cat_volume_keys">Teclas de volume</string>
-    <string name="cat_misc_app">Aplicativos relacionados</string>
+    <string name="cat_misc_app">Relacionado a aplicativos</string>
     <string name="anim_general_category">Animações Gerais </string>
-    <string name="anim_system_category">Relacionado ao Sistema</string>
-    <string name="misc_settings_cat_title">Configurações de aplicativo relacionada</string>
-    <string name="general_system_stuff_preference">Comportamento do sistema</string>
+    <string name="anim_system_category">Relacionado ao sistema</string>
+    <string name="misc_settings_cat_title">Relacionado ao aplicativo de configurações</string>
+    <string name="general_system_stuff_preference">Comportamento do Sistema</string>
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
     <string name="quick_settings_vibrate_summary">Vibrar ao tocar as configurações rápidas</string>
@@ -134,9 +133,9 @@
     <string name="global_actions_soundpanel">Painel de som</string>
     <string name="global_actions_users">Usuários</string>
     <string name="global_actions_screenshot">Captura de Tela</string>
-    <string name="global_actions_screenrecord">Gravação de tela</string>
+    <string name="global_actions_screenrecord">Gravar Tela</string>
     <string name="global_actions_flashlight">Lanterna</string>
-    <string name="global_actions_advanced_reboot_title">Habilitar o rinicio avançada</string>
+    <string name="global_actions_advanced_reboot_title">Habilitar o reinício avançado</string>
     <string name="global_actions_advanced_reboot_summary">Ao reiniciar também mostra opções para recuperação e bootloader</string>
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Informação de carregamento</string>
@@ -149,15 +148,14 @@
     <string name="statusbar_tuner_summary">Opções de bateria e ícones da barra de status desativados</string>
     <string name="navbar_tuner_title">Editar a barra de navegação</string>
     <string name="navbar_tuner_summary">Editar o layout e os botões da barra de navegação</string>
-    <string name="lockscreen_shortcuts_title">Atalhos na tela de Bloqueio</string>
     <string name="lockscreen_shortcuts_summary">Atalho inferior da tela de bloqueio</string>
     <string name="vol_dnd_category_title">Não perturbe</string>
-    <string name="volbtn_down_zen_title">Diminuir volume para o modo Não perturbar</string>
-    <string name="volbtn_down_zen_summary">permitir que o botão de diminuir volume entre em modo Não perturbe</string>
-    <string name="volbtn_up_zen_title">Aumentar volume no Modo não perturbar</string>
-    <string name="volbtn_up_zen_summary">permitir que o botão de aumentar volume saia do modo Não perturbe</string>
-    <string name="vol_zen_title">Função \"Não perturbe\"</string>
-    <string name="vol_zen_summary">Mostrar a função \"Não perturbe\" no painel de volume</string>
+    <string name="volbtn_down_zen_title">Diminuir volume no modo Não Perturbe</string>
+    <string name="volbtn_down_zen_summary">permitir que o botão de diminuir volume entre no modo Não Perturbe</string>
+    <string name="volbtn_up_zen_title">Aumentar volume no modo Não Perturbe</string>
+    <string name="volbtn_up_zen_summary">permitir que o botão de aumentar volume saia do modo Não Perturbe</string>
+    <string name="vol_zen_title">Interruptor do \"Não Perturbe\"</string>
+    <string name="vol_zen_summary">Mostrar a função \"Não Perturbe\" no painel de volume</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Ícone do Toast</string>
     <string name="toast_icon_summary">Exibir o ícone do aplicativo correspondente na mensagem Toast</string>
@@ -314,45 +312,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Acordar ao carregar</string>
     <string name="wakeup_when_plugged_unplugged_summary">Acorda o dispositivo se o carregador for conectado/desconectado.</string>
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">Relógio &amp; Data</string>
-    <string name="status_bar_clock_summary">Configurar o relógio da barra de status e a aparência da data</string>
-    <string name="status_bar_clock_advanced_title">Opções avançadas</string>
-    <string name="status_bar_clock_advanced_title_alt">Relógio Avançado &amp; Opções de data</string>
-    <string name="status_bar_clock_advanced_summary">Ajustar o relógio ao seu gosto</string>
-    <string name="clock_title_enable">Alinhamento</string>
-    <string name="clock_enabled">Ativado</string>
-    <string name="clock_disabled">Desativado</string>
-    <string name="status_bar_clock_style_reset">Redefinir cor</string>
-    <string name="status_bar_show_clock_title">Mostrar o relógio e data</string>
-    <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">Ativar formato 24-horas</string>
-    <string name="enable_clock_weekday">Dia da semana</string>
-    <string name="enable_clock_weekday_summary">Abreviar dia da semana antes do relógio</string>
-    <string name="right_clock">Relógio a direita</string>
-    <string name="left_clock">Relógio a esquerda</string>
-    <string name="center_clock">Relógio no centro</string>
-    <string name="dont_show">Não mostrar</string>
-    <string name="clock_date_display">Data</string>
-    <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
-    <string name="clock_date_style">Estilo da data</string>
-    <string name="clock_date_format">Formato da data</string>
-    <string name="clock_date_string_edittext_title">Exibir no formato MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Digite a sequência</string>
-    <string name="am_pm_clock_normal">Tamanho normal da fonte</string>
-    <string name="am_pm_clock_small">Fonte pequena</string>
-    <string name="am_pm_clock_none">Não mostrar</string>
-    <string name="clock_date_display_none">Não mostrar</string>
-    <string name="clock_date_display_small">Fonte pequena</string>
-    <string name="clock_date_display_normal">Tamanho normal da fonte</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Minúsculas</string>
-    <string name="clock_date_style_uppercase">Maiúsculas</string>
-    <string name="clock_date_format_custom">Formato java personalizado</string>
-    <string name="clock_date_right">À direita do relógio</string>
-    <string name="clock_date_left">À esquerda do relógio</string>
-    <string name="clock_date_position">Posição da data</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ícone 4G na barra de status</string>
     <string name="show_fourg_icon_summary">No ícone de sinal, mostrar 4G em vez de LTE</string>
@@ -472,7 +431,7 @@
     <string name="recents_component_type_title">Estilo da aba recentes</string>
     <string name="recents_quickstep">Quickstep (se disponível)</string>
     <string name="recents_stock">Padrão</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">Grade</string>
     <string name="recents_go">Android-Go</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Estilo das Configurações Rápidas</string>
@@ -500,7 +459,7 @@
     <string name="battery_light_low_color">Bateria fraca</string>
     <string name="battery_light_medium_color">Bateria média</string>
     <string name="battery_light_full_color">Bateria quase cheia</string>
-    <string name="battery_light_reallyfull_color">Bateria carregada (100%)</string>
+    <string name="battery_light_reallyfull_color">Bateria totalmente carregada</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Toque duas vezes na tela de bloqueio para desligar</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Toque duas vezes na área superior ou inferior da tela de bloqueio para desligar a tela</string>
@@ -716,7 +675,7 @@
     <string name="shortcut_picker_select_system_icon_title">Selecione o ícone do sistema:</string>
     <string name="shortcut_picker_icon_type_custom_title">Galeria</string>
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">Atalhos do meio da tela</string>
+    <string name="ls_shortcuts_title">Atalhos</string>
     <string name="lockscreen_mdshortcuts_title">Atalhos do meio da tela</string>
     <string name="lockscreen_mdshortcuts_summary">Exibir ou alterar os atalhos da tela de bloqueio personalizado</string>
     <string name="lockscreen_shorcuts_launch_type_title">Tipo de ativação do atalho</string>
@@ -987,6 +946,7 @@
     <string name="lockscreen_clock_selection_sammy_accent">Sammy com acento</string>
     <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy co acento (alto)</string>
     <string name="lockscreen_clock_selection_shishu_nerves">Shishu Nerves</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">Relógio em Gradiente (com o logo da Bootleg)</string>
     <string name="lockscreen_clock_selection_gradient_shishu">Relógio gradiente (com shishu logo)</string>
     <string name="lockscreen_clock_selection_gradient_full">relógio gradiente completo</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradiente relógio</string>
@@ -1012,10 +972,16 @@
     <string name="file_header_select_summary">Selecione uma imagem personalizada</string>
     <string name="file_header_provider_title">Imagem personalizada</string>
     <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">Painel de Volume</string>
+    <string name="volume_panel_on_left_title">Painel de Volume à Esquerda</string>
+    <string name="volume_panel_on_left_summary">Alternar o Painel de Volume da esquerda para a direita</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view">Visão do Painel de Volume</string>
     <string name="audio_panel_view_media_title">Mídia</string>
-    <string name="audio_panel_view_ringer_title">Toque</string>
+    <string name="audio_panel_view_ringer_title">Tocar</string>
+    <string name="audio_panel_view_notification_title">Notificação</string>
     <string name="audio_panel_view_alarm_title">Alarme</string>
+    <string name="audio_panel_view_voice_title">Voz</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Pixels Inteligentes</string>
@@ -1025,4 +991,110 @@
     <string name="smart_pixels_on_power_save_title">Ativar automaticamente na economia de bateria</string>
     <string name="smart_pixels_on_power_save_summary">Ativar os Pixels Inteligentes quando a economia de bateria estiver ativa</string>
     <string name="smart_pixels_percent">Porcentagem de pixels a desativar</string>
+    <string name="smart_pixels_shift">Prevenir o burn-in alternando os pixels a cada</string>
+    <string name="smart_pixels_warning_text">O Smart Pixels é um recurso de economia de energia. Dependendo de quantos pixels você decidir desligar, haverá uma economia significativa de bateria. Para uma boa experiência de uso recomendamos definir a quantia de pixels para 75 por cento com alternância a cada 10 minutos.</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">Mostrar o relógio e data</string>
+    <string name="clock_title_enable">Alinhamento</string>
+    <string name="clock_position_right">Relógio a direita</string>
+    <string name="clock_position_center">Relógio no centro</string>
+    <string name="clock_position_left">Relógio a esquerda</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">Ativar formato 24-horas</string>
+    <string name="am_pm_clock_normal">Tamanho normal da fonte</string>
+    <string name="am_pm_clock_small">Fonte pequena</string>
+    <string name="am_pm_clock_none">Não mostrar</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Exibir data personalizada antes do relógio</string>
+    <string name="clock_date_style">Estilo da data</string>
+    <string name="clock_date_position">Posição da data</string>
+    <string name="clock_date_format">Formato da data</string>
+    <string name="clock_date_string_edittext_title">Exibir no formato MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Digite a sequência</string>
+    <string name="clock_date_right">À direita do relógio</string>
+    <string name="clock_date_left">À esquerda do relógio</string>
+    <string name="clock_date_display_none">Não mostrar</string>
+    <string name="clock_date_display_small">Fonte pequena</string>
+    <string name="clock_date_display_normal">Tamanho normal da fonte</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minúsculas</string>
+    <string name="clock_date_style_uppercase">Maiúsculas</string>
+    <string name="clock_date_format_custom">Formato java personalizado</string>
+    <string name="menu_cancel">Cancelar</string>
+    <string name="menu_save">Salvar</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Nenhum</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Botão de encerrar aplicativo</string>
+    <string name="notification_guts_kill_app_button_summary">Mostrar um botão para finalizar o aplicativo ao tocar e segurar em uma notificação</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibrar após impressão digital</string>
+    <string name="fprint_sucess_vib_summary">Vibrar na autenticação bem sucedida da impressão digital</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">AOSP Recents</string>
+    <string name="slim_recents_category">Slim recentes</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim recentes</string>
+    <string name="slim_recents_settings_title">Configurações do Slim Recents</string>
+    <string name="recents_max_apps_title">Máximo de aplicativos permitidos</string>
+    <string name="recent_panel_scale_title">Tamanho</string>
+    <string name="recent_panel_expanded_mode_summary">Modo de visualização expandida de aplicativos recentes</string>
+    <string name="recent_panel_expanded_mode_auto">Automático (padrão)</string>
+    <string name="recent_panel_expanded_mode_always">Sempre</string>
+    <string name="recent_panel_expanded_mode_never">Nunca</string>
+    <string name="recent_panel_expanded_mode_disabled">Desativado</string>
+    <string name="recent_panel_bg_color_title">Cor de fundo do painel</string>
+    <string name="recent_card_bg_color_title">Cor de fundo do cartão</string>
+    <string name="slim_icon_pack_title">Pacote de ícones</string>
+    <string name="slim_icon_pack_summary">Aplicar um pacote de ícones personalizados para aplicativos no painel de recentes</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Mostrar no canto esquerdo</string>
+    <string name="recent_panel_lefty_mode_summary">Mostrar painel de aplicativos recentes no canto esquerdo</string>
+    <string name="slim_blacklist_apps_cat_title">Lista negra</string>
+    <string name="slim_blacklist_apps_title">Lista negra de aplicativos</string>
+    <string name="slim_blacklist_apps_summary">Aplicativos para não mostrar no painel</string>
+    <string name="slim_blacklist_add_apps_title">Adicionar aplicação</string>
+    <string name="slim_blacklist_add_apps_summary">Toque aqui para adicionar, toque no aplicativo adicionado para removê-lo</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Barra de memória</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Botão limpar tudo</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botão limpar tudo</string>
+    <string name="recents_clear_all_location_title">Localização do Botão \"Limpar Tudo\"</string>
+    <string name="recents_clear_all_location_top_right">Canto superior direito</string>
+    <string name="recents_clear_all_location_top_left">Canto superior esquerdo</string>
+    <string name="recents_clear_all_location_top_center">Centro superior</string>
+    <string name="recents_clear_all_location_bottom_right">Canto inferior direito</string>
+    <string name="recents_clear_all_location_bottom_left">Canto inferior esquerdo</string>
+    <string name="recents_clear_all_location_bottom_center">Centro inferior</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">Barra de memória</string>
+    <string name="recents_show_membar_summary">Mostrar uma barra com a memória disponível do dispositivo</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Puxar para baixo rápido</string>
+    <string name="quick_pulldown_summary">A borda %1$s da barra de status desativa as Configurações rápidas</string>
+    <string name="quick_pulldown_summary_always">Mostrar sempre as configurações rápidas no menu suspenso da barra de status</string>
+    <string name="quick_pulldown_off">Desligado</string>
+    <string name="quick_pulldown_left">Esquerda</string>
+    <string name="quick_pulldown_right">Direita</string>
+    <string name="quick_pulldown_always">Sempre</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Puxar para baixo inteligente</string>
+    <string name="smart_pulldown_summary">Abrir configurações rápidas quando houver notificações de %1$s</string>
+    <string name="smart_pulldown_none_summary">Abrir configurações rápidas quando não houver notificações</string>
+    <string name="smart_pulldown_off">Desligado</string>
+    <string name="smart_pulldown_none">nenhuma notificação</string>
+    <string name="smart_pulldown_dismissable">não descartável</string>
+    <string name="smart_pulldown_ongoing">nenhum curso</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_hide">Esconder</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Essa função não está disponível porque você não tem uma tela de bloqueio segura. </string>
+    <string name="no_no_summary_go">Essa função não está disponível porque você tem o Android Go ativado.</string>
+    <string name="no_no_summary_owner">Essa função não está disponível porque você não tem uma mensagem de informações sobre o dono</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

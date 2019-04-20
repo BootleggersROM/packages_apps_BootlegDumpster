@@ -38,6 +38,7 @@
     <string name="notifications_settings_summary">आप उन सूचनाओं को कैसे देख सकते है परिवर्तित करें</string>
     <string name="about_bootleg_title">Bootleggers के बारे में</string>
     <string name="about_bootleg_summary">हमारे बारे में कुछ जानकारी, बस मामले में आप इसके बारे में उत्सुक हो</string>
+    <string name="about_bootleg_small_title">हमारे बारे में</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">हमारे बारे में</string>
     <string name="bootleg_ab_title_whoami">Bootleggers क्या है?</string>
@@ -57,8 +58,6 @@
     <string name="bootleg_moarstuff_git_title">हमारे Github</string>
     <string name="bootleg_moarstuff_git_summary">जहां हमारे स्रोतों और वापस कर दिया जाता है</string>
     <string name="bootleg_pref_moarstuff_social_title">संपर्क में जाओ!</string>
-    <string name="bootleg_moarstuff_gplus_title">हमारे Google + समुदाय</string>
-    <string name="bootleg_moarstuff_gplus_summary">स्क्रीनशॉट भेजें, हमें फीडबैक दें, जो भी आप चाहते हैं, लेकिन सम्मानजनक तरीके से</string>
     <string name="bootleg_moarstuff_tg_title">हमारे टेलीग्राम समुदाय</string>
     <string name="bootleg_moarstuff_tg_summary">हमारे साथ बात करें, भावी अपडेटों के साथ hyped करें और हमारे महान समुदाय में शामिल हों</string>
     <string name="bootleg_pref_moarstuff_wewsecret">मुझे लगता है कि आपको लगता है कि यह वाकई बहुत ही गुप्त स्थान नहीं है, लेकिन ठीक है, अगर आप यहां आए तो मैं आपको यह बताना चाहता हूं कि इस रोम और वेलप को चमकाने के लिए धन्यवाद, जैसा कि हमने कई बार कहा था, आशा है कि आप इसे आनंद लेंगे और आपको अच्छा समय मिलेगा इस रॉम के साथ|</string>
@@ -118,7 +117,6 @@
     <!-- Lockscreen charging current indicator  -->
     <!-- Volume swap buttons -->
     <!--SystemUI Tuner -->
-    <string name="lockscreen_shortcuts_title">लॉक्सक्रीन शॉर्टकट</string>
     <!-- Toast app icon -->
     <!-- Power menu on lockscreen -->
     <!-- AOKP custom system animations -->
@@ -219,42 +217,6 @@
     <string name="dialog_delete_title">मिटाए</string>
     <string name="dialog_delete_message">चयनित आइटम निकालें?</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">घड़ी और दिनांक</string>
-    <string name="status_bar_clock_summary">घड़ी और दिनांक की दिखावट बदलें</string>
-    <string name="status_bar_clock_advanced_title">उन्नत विकल्प</string>
-    <string name="status_bar_clock_advanced_title_alt">उन्नत घड़ी &amp; तिथि विकल्प</string>
-    <string name="status_bar_clock_advanced_summary">घड़ी को अपनी संतुष्टि के लिए ट्विक करें</string>
-    <string name="clock_title_enable">अलाइनमेंट</string>
-    <string name="clock_enabled">चालू है</string>
-    <string name="clock_disabled">चालू नहीं है</string>
-    <string name="status_bar_clock_style_reset">रंग रीसेट करें</string>
-    <string name="status_bar_show_clock_title">घड़ी और दिनांक दिखाएँ</string>
-    <string name="status_bar_clock_seconds_title">सेकंड दिखाएँ</string>
-    <string name="status_bar_am_pm_info">24-घंटे की घडी चालु हैं।</string>
-    <string name="enable_clock_weekday">सप्ताह का दिन</string>
-    <string name="enable_clock_weekday_summary">समय से पहले सप्ताह का संक्षिप्त दिन</string>
-    <string name="right_clock">दाई ओर घड़ी</string>
-    <string name="left_clock">बायी ओर घड़ी</string>
-    <string name="center_clock">केंद्र में घड़ी</string>
-    <string name="dont_show">ना दिखाए</string>
-    <string name="clock_date_display">दिनांक</string>
-    <string name="clock_date_display_summary">घड़ी से पहले कस्टम दिनांक प्रदर्शित करें</string>
-    <string name="clock_date_style">दिनांक शैली</string>
-    <string name="clock_date_format">दिनांक का स्वरूप</string>
-    <string name="clock_date_string_edittext_title">दिनांक स्वरुप में ही होना चाहिए जैसे कि. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">स्ट्रिंग दर्ज करें</string>
-    <string name="am_pm_clock_normal">साधारण अक्षरों के कद</string>
-    <string name="am_pm_clock_none">ना दिखाए</string>
-    <string name="clock_date_display_none">ना दिखाए</string>
-    <string name="clock_date_display_normal">साधारण अक्षरों के कद</string>
-    <string name="clock_date_style_normal">समान्य</string>
-    <string name="clock_date_style_lowercase">छोटे अक्षरों में</string>
-    <string name="clock_date_style_uppercase">बड़े अक्षरों में</string>
-    <string name="clock_date_format_custom">इच्छित जावा स्वरूप</string>
-    <string name="clock_date_right">समय के दाएं ओर</string>
-    <string name="clock_date_left">समय के बाएं ओर</string>
-    <string name="clock_date_position">दिनांक स्थान</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">प्रस्थिति पर 4g आइकन</string>
     <string name="show_fourg_icon_summary">संकेत आइकन पर, 4g के बजाय LTE दिखाएं</string>
@@ -335,7 +297,6 @@
     <string name="log_it_alert_faq">शायद तुम यहां हो और सोच \"क्या नरक यह सब है और क्या मैं भेज दिया है?\" \n Well, यहां आप भेज सकते है सामान के बारे में कुछ जानकारी है: \n\n Logcat: यह तरीका है कि Android outputs सभी प्रणाली की घटनाओं, त्रुटियों की तरह है, दुर्घटनाओ, या एक प्रक्रिया के बारे में भी जानकारी चलाई जा रही है । क्रैश और FCs के लिए आदर्श. \n\n Dmesg: यह कर्नेल संदेशों में से कुछ outputs, लेकिन सामग्री है कि उपयोगकर्ताओं को परवाह नहीं कर सकते है फ़िल्टरिंग&#8230; यदि वे care\n\nKmesg: यह Dmesg के रूप में ही है लेकिन फिल्टर के बिना, सभी कर्नेल के बारे में अधिक जानकारी दे घटनाओं. यादृच्छिक रिबूट के लिए आदर्श ।</string>
     <!-- AOSP Recents component Style -->
     <string name="recents_stock">स्टॉक</string>
-    <!-- <string name="recents_grid">Grid</string> -->
     <!-- QS tile styles -->
     <!-- Battery light -->
     <string name="light_category">बैटरी एलईडी</string>
@@ -533,4 +494,87 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_ringer_title">घंटी</string>
     <!-- Smart Pixels -->
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">घड़ी और दिनांक दिखाएँ</string>
+    <string name="clock_title_enable">अलाइनमेंट</string>
+    <string name="clock_position_right">दाई ओर घड़ी</string>
+    <string name="clock_position_center">केंद्र में घड़ी</string>
+    <string name="clock_position_left">बायी ओर घड़ी</string>
+    <string name="status_bar_am_pm_info">24-घंटे की घडी चालु हैं।</string>
+    <string name="am_pm_clock_normal">साधारण अक्षरों के कद</string>
+    <string name="am_pm_clock_none">ना दिखाए</string>
+    <string name="clock_date_display">दिनांक</string>
+    <string name="clock_date_display_summary">घड़ी से पहले कस्टम दिनांक प्रदर्शित करें</string>
+    <string name="clock_date_style">दिनांक शैली</string>
+    <string name="clock_date_position">दिनांक स्थान</string>
+    <string name="clock_date_format">दिनांक का स्वरूप</string>
+    <string name="clock_date_string_edittext_title">दिनांक स्वरुप में ही होना चाहिए जैसे कि. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">स्ट्रिंग दर्ज करें</string>
+    <string name="clock_date_right">समय के दाएं ओर</string>
+    <string name="clock_date_left">समय के बाएं ओर</string>
+    <string name="clock_date_display_none">ना दिखाए</string>
+    <string name="clock_date_display_normal">साधारण अक्षरों के कद</string>
+    <string name="clock_date_style_normal">समान्य</string>
+    <string name="clock_date_style_lowercase">छोटे अक्षरों में</string>
+    <string name="clock_date_style_uppercase">बड़े अक्षरों में</string>
+    <string name="clock_date_format_custom">इच्छित जावा स्वरूप</string>
+    <string name="menu_cancel">कैंसिल</string>
+    <string name="menu_save">सेव</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">कुछ नहीं</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">ऐप के पीछे बटन को मृत करें</string>
+    <string name="notification_guts_kill_app_button_summary">अधिसूचना लंबे प्रेस मेनू में एक हत्या ऐप बटन दिखाएं</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_summary">सफल फ़िंगरप्रिंट प्रमाणन पर कम्पन</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">AOSP हाल ही में</string>
+    <!-- Slim recents -->
+    <string name="recent_panel_expanded_mode_always">हमेशा</string>
+    <string name="recent_panel_expanded_mode_disabled">चालू नहीं है</string>
+    <string name="slim_icon_pack_title">आइकन पैक</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="slim_blacklist_apps_cat_title">काली सूची</string>
+    <string name="slim_blacklist_add_apps_title">एप्लिकेशन जोड़ें</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">स्मृति पट्टी</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">सभी को साफ़ करें बटन</string>
+    <string name="show_clear_all_recents_button_summary">सभी को साफ़ करें बटन दिखाएँ</string>
+    <string name="recents_clear_all_location_title">सभी को साफ़ करें बटन</string>
+    <string name="recents_clear_all_location_top_right">ऊपर दाएं</string>
+    <string name="recents_clear_all_location_top_left">उपर बाए ओर</string>
+    <string name="recents_clear_all_location_top_center">ऊपर मध्य</string>
+    <string name="recents_clear_all_location_bottom_right">नीचे दाएं</string>
+    <string name="recents_clear_all_location_bottom_left">नीचे-बाएं</string>
+    <string name="recents_clear_all_location_bottom_center">नीचे मध्य</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">स्मृति पट्टी</string>
+    <string name="recents_show_membar_summary">डिवाइस की उपलब्ध स्मृति के साथ एक पट्टी दिखाएँ</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">त्वरित नीचे खींचिए</string>
+    <string name="quick_pulldown_summary">स्टेटस बार का %1$s किनारा क्विक सेटिंग्स को खींचता है</string>
+    <string name="quick_pulldown_summary_always">स्टेटस बार नीचे खींचने पर क्विक सेटिंग्स को हमेशा दिखाएं</string>
+    <string name="quick_pulldown_off">बंद</string>
+    <string name="quick_pulldown_left">बाएं</string>
+    <string name="quick_pulldown_right">दाएँ</string>
+    <string name="quick_pulldown_always">हमेशा</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">स्मार्ट नीचे खींचना</string>
+    <string name="smart_pulldown_summary">%1$s नोटिफिकेशन होने पर त्वरित सेटिंग्स खोलें</string>
+    <string name="smart_pulldown_none_summary">नोटिफिकेशन होने पर त्वरित सेटिंग्स खोलें</string>
+    <string name="smart_pulldown_off">बंद</string>
+    <string name="smart_pulldown_none">कोई नोटिफिकेशन नहीं</string>
+    <string name="smart_pulldown_dismissable">कोई खारिज करने योग्य नहीं</string>
+    <string name="smart_pulldown_ongoing">नहीं चल रहे</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">समान्य</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">यह सुविधा उपलब्ध नहीं है क्योंकि आपके पास एक सुरक्षित lockscreen नहीं है । </string>
+    <string name="no_no_summary_go">यह सुविधा उपलब्ध नहीं है क्योंकि आपके पास Android Go सक्षम है ।</string>
+    <string name="no_no_summary_owner">यह सुविधा अनुपलब्ध है क्योंकि आपके पास कोई स्वामी जानकारी संदेश नहीं है</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

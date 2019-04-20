@@ -39,6 +39,7 @@
     <string name="notifications_settings_summary">تغيير كيف يمكنك أن ترى تلك الإشعارات</string>
     <string name="about_bootleg_title">حول Bootleggers</string>
     <string name="about_bootleg_summary">بعض المعلومات عنا، فقط في حال كنت جاداً في ذلك</string>
+    <string name="about_bootleg_small_title">من نحن</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">من نحن</string>
     <string name="bootleg_ab_title_whoami">ماهو Bootleggers؟</string>
@@ -62,8 +63,6 @@
     <string name="bootleg_moarstuff_git_title">Github الخاص بنا</string>
     <string name="bootleg_moarstuff_git_summary">أين توضع المصادر و العوائد الخاصة بنا</string>
     <string name="bootleg_pref_moarstuff_social_title">ابقى على اتصال!</string>
-    <string name="bootleg_moarstuff_gplus_title">مجتمع Google+ الخاص بِنا</string>
-    <string name="bootleg_moarstuff_gplus_summary">إرسل لقطات شاشة ، أعطينا ردود فعل ، كل ما تريده ولكن بطريقة محترمة</string>
     <string name="bootleg_moarstuff_tg_title">مجتمع تليجرام الخاص بِنا</string>
     <string name="bootleg_moarstuff_tg_summary">التحدث معنا والحصول على وفقات مع التحديثات المستقبلية والانضمام إلى مجتمعنا الكبير</string>
     <string name="bootleg_pref_moarstuff_wewsecret">أعتقد أنك وجدت هذا المكان ليس سرياً للغاية ولكن حسنًا ، إذا كنت قد وصلت إلى هنا ، فأنا أريد فقط أن أشكرك على تثبيت هذا الروم ، كما قلنا مرات عديدة من قبل ، آمل أن تستمتع بهذا الروم.</string>
@@ -144,7 +143,6 @@
     <string name="statusbar_tuner_summary">خيارات البطارية ورموز شريط الحالة لتعطيلها</string>
     <string name="navbar_tuner_title">تعديل شريط التنقل</string>
     <string name="navbar_tuner_summary">تعديل تخطيط وأزرار شريط التنقل</string>
-    <string name="lockscreen_shortcuts_title">إختصارات شاشة القفل</string>
     <string name="lockscreen_shortcuts_summary">إدارة الإختصارات أسفل شاشة القفل</string>
     <string name="vol_dnd_category_title">وضع عدم الإزعاج</string>
     <string name="volbtn_down_zen_title">خفض مستوى الصـوت لعدم الازعاج</string>
@@ -309,45 +307,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">إيقاظ عند الشحن</string>
     <string name="wakeup_when_plugged_unplugged_summary">أيقاظ الجهاز إذا تم توصيل او فصل الشاحن.</string>
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">الساعة والتاريخ</string>
-    <string name="status_bar_clock_summary">تهيئة ساعة شريط الحالة ومظهر التاريخ</string>
-    <string name="status_bar_clock_advanced_title">خيارات متقدمة</string>
-    <string name="status_bar_clock_advanced_title_alt">خيارات الساعة والتاريخ المتقدمة</string>
-    <string name="status_bar_clock_advanced_summary">قم بتعديل الساعة على النحو الذي يرضيك</string>
-    <string name="clock_title_enable">المحاذاة</string>
-    <string name="clock_enabled">مفعل</string>
-    <string name="clock_disabled">معطل</string>
-    <string name="status_bar_clock_style_reset">أعد ضبط اللون</string>
-    <string name="status_bar_show_clock_title">إظهار الساعة والتاريخ</string>
-    <string name="status_bar_clock_seconds_title">إظهار الثواني</string>
-    <string name="status_bar_am_pm_title">صباحاً/مساءاً</string>
-    <string name="status_bar_am_pm_info">تم تمكين تنسيق 24 ساعة</string>
-    <string name="enable_clock_weekday">يوم الأسبوع</string>
-    <string name="enable_clock_weekday_summary">مختصر يوم الأسبوع قبل الساعة</string>
-    <string name="right_clock">الساعة على اليمين</string>
-    <string name="left_clock">الساعة على اليسار</string>
-    <string name="center_clock">الساعة بالوسط</string>
-    <string name="dont_show">عدم الإظهار</string>
-    <string name="clock_date_display">التاريخ</string>
-    <string name="clock_date_display_summary">عرض التاريخ المخصص قبل الساعة</string>
-    <string name="clock_date_style">شكل التاريخ</string>
-    <string name="clock_date_format">تنسيق التاريخ</string>
-    <string name="clock_date_string_edittext_title">يجب أن يكون بنسق التاريخ مثال. شهر/يوم/سنة</string>
-    <string name="clock_date_string_edittext_summary">أدخل السلسلة</string>
-    <string name="am_pm_clock_normal">حجم الخط الطبيعي</string>
-    <string name="am_pm_clock_small">حجم الخط الصغير</string>
-    <string name="am_pm_clock_none">عدم الإظهار</string>
-    <string name="clock_date_display_none">عدم الإظهار</string>
-    <string name="clock_date_display_small">حجم الخط الصغير</string>
-    <string name="clock_date_display_normal">حجم الخط الطبيعي</string>
-    <string name="clock_date_style_normal">مُتوسّطة</string>
-    <string name="clock_date_style_lowercase">أحرف صغيرة</string>
-    <string name="clock_date_style_uppercase">أحرف كبيرة</string>
-    <string name="clock_date_format_custom">نسق جاڤا مخصص</string>
-    <string name="clock_date_right">إلى يمين الساعة</string>
-    <string name="clock_date_left">إلى يسار الساعة</string>
-    <string name="clock_date_position">موقع التاريخ</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">رمز 4G على شريط الحالة</string>
     <string name="show_fourg_icon_summary">على رمز الشبكة ، أظهر 4G بدلاً من LTE</string>
@@ -467,7 +426,7 @@
     <string name="recents_component_type_title">نمط التطبيقات الحديثة</string>
     <string name="recents_quickstep">Quickstep (اذا كان متوفر)</string>
     <string name="recents_stock">الأصل</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">شبكة</string>
     <string name="recents_go">أندرويد Go</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">نمط مربعات الإعدادات السريعة</string>
@@ -711,7 +670,7 @@
     <string name="shortcut_picker_select_system_icon_title">إختر رمز النظام:</string>
     <string name="shortcut_picker_icon_type_custom_title">المعرض</string>
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">اختصارات منتصف الشاشة</string>
+    <string name="ls_shortcuts_title">الاختصارات</string>
     <string name="lockscreen_mdshortcuts_title">اختصارات منتصف الشاشة</string>
     <string name="lockscreen_mdshortcuts_summary">عرض أو تغيير اختصارات قفل الشاشة المخصصة في منتصف الشاشة</string>
     <string name="lockscreen_shorcuts_launch_type_title">نوع ضغطة الإختصار</string>
@@ -982,6 +941,7 @@
     <string name="lockscreen_clock_selection_sammy_accent">سامي مع لكنة</string>
     <string name="lockscreen_clock_selection_sammy_accent_alt">سامي مع لكنة (بديل)</string>
     <string name="lockscreen_clock_selection_shishu_nerves">اعصاب Shishu</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">ساعة متدرجة (مع شعار bootleg)</string>
     <string name="lockscreen_clock_selection_gradient_shishu">ساعة متدرجة (مع شعار shishu)</string>
     <string name="lockscreen_clock_selection_gradient_full">ساعة متدرجة كاملة</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">ساعة متدرجة أحادية اللون</string>
@@ -1006,10 +966,16 @@
     <string name="file_header_select_summary">حدد صورة مخصصة</string>
     <string name="file_header_provider_title">صورة مخصصة</string>
     <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">لوحة مستوى الصوت</string>
+    <string name="volume_panel_on_left_title">لوحة الصوت على اليسار</string>
+    <string name="volume_panel_on_left_summary">تغيير لوحة الصوت من الجانب الأيمن إلى الجانب الأيسر</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view">عرض لوحة مستوى الصوت</string>
     <string name="audio_panel_view_media_title">الوسائط</string>
     <string name="audio_panel_view_ringer_title">رنين</string>
+    <string name="audio_panel_view_notification_title">إشعار</string>
     <string name="audio_panel_view_alarm_title">المنبه</string>
+    <string name="audio_panel_view_voice_title">الصوت</string>
     <string name="audio_panel_view_bt_sco_title">البلوتوث</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">الدقة الذكية</string>
@@ -1019,4 +985,110 @@
     <string name="smart_pixels_on_power_save_title">تشغيل تلقائي في وضع توفير الطاقة</string>
     <string name="smart_pixels_on_power_save_summary">تمكين الدقة الذكية في وضع توفير الطاقة</string>
     <string name="smart_pixels_percent">نسبة البكسلات لإيقافها</string>
+    <string name="smart_pixels_shift">تجنب الحرق بتحويل كل بكسل</string>
+    <string name="smart_pixels_warning_text">الدقة الذكية هي ميزة حفظ الطاقة. اعتماداً على كم من البكسلات ترغب في إيقاف تشغيلها، يمكن أن ترى تحسناً كبيراً في عمر البطارية. لتجربة جيدة للمستخدم، نوصي بتعيين مقدار بكسل ذوي نسبة 75 في المائة.</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">إظهار الساعة والتاريخ</string>
+    <string name="clock_title_enable">المحاذاة</string>
+    <string name="clock_position_right">الساعة على اليمين</string>
+    <string name="clock_position_center">الساعة بالوسط</string>
+    <string name="clock_position_left">الساعة على اليسار</string>
+    <string name="status_bar_am_pm_title">صباحاً/مساءاً</string>
+    <string name="status_bar_am_pm_info">تم تمكين تنسيق 24 ساعة</string>
+    <string name="am_pm_clock_normal">حجم الخط الطبيعي</string>
+    <string name="am_pm_clock_small">حجم الخط الصغير</string>
+    <string name="am_pm_clock_none">عدم الإظهار</string>
+    <string name="clock_date_display">التاريخ</string>
+    <string name="clock_date_display_summary">عرض التاريخ المخصص قبل الساعة</string>
+    <string name="clock_date_style">شكل التاريخ</string>
+    <string name="clock_date_position">موقع التاريخ</string>
+    <string name="clock_date_format">تنسيق التاريخ</string>
+    <string name="clock_date_string_edittext_title">يجب أن يكون بنسق التاريخ مثال. شهر/يوم/سنة</string>
+    <string name="clock_date_string_edittext_summary">أدخل السلسلة</string>
+    <string name="clock_date_right">إلى يمين الساعة</string>
+    <string name="clock_date_left">إلى يسار الساعة</string>
+    <string name="clock_date_display_none">عدم الإظهار</string>
+    <string name="clock_date_display_small">حجم الخط الصغير</string>
+    <string name="clock_date_display_normal">حجم الخط الطبيعي</string>
+    <string name="clock_date_style_normal">مُتوسّطة</string>
+    <string name="clock_date_style_lowercase">أحرف صغيرة</string>
+    <string name="clock_date_style_uppercase">أحرف كبيرة</string>
+    <string name="clock_date_format_custom">نسق جاڤا مخصص</string>
+    <string name="menu_cancel">إلغاء</string>
+    <string name="menu_save">حفظ</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">لا شَيْء</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">زر قتل التطبيق</string>
+    <string name="notification_guts_kill_app_button_summary">أظهار زر قتل التطبيق في قائمة الضغط المطول على التنبيهات</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">إهتزاز تصريح البصمة</string>
+    <string name="fprint_sucess_vib_summary">اهتزاز عند نجاح المصادقة على بصمة الاصبع</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">شاشة التطبيقات الحديثة الخاصة بـ AOSP</string>
+    <string name="slim_recents_category">التطبيقات الأخيرة Slim</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">التطبيقات الأخيرة Slim</string>
+    <string name="slim_recents_settings_title">إعدادات التطبيقات الأخيرة Slim</string>
+    <string name="recents_max_apps_title">الحد الأقصى للتطبيقات المسموحة</string>
+    <string name="recent_panel_scale_title">الحجم</string>
+    <string name="recent_panel_expanded_mode_summary">نمط الإستعراض الموسع للمهام الحديثة</string>
+    <string name="recent_panel_expanded_mode_auto">تلقائي (إفتراضي)</string>
+    <string name="recent_panel_expanded_mode_always">دائماً</string>
+    <string name="recent_panel_expanded_mode_never">ابداً</string>
+    <string name="recent_panel_expanded_mode_disabled">معطل</string>
+    <string name="recent_panel_bg_color_title">لون خلفية اللوحة</string>
+    <string name="recent_card_bg_color_title">لون خلفية البطاقة</string>
+    <string name="slim_icon_pack_title">حزم الإيقونات</string>
+    <string name="slim_icon_pack_summary">طبّق حزمة رموز مخصصة للتطبيقات في اللوحة</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">إظهار على الحافة اليسرى</string>
+    <string name="recent_panel_lefty_mode_summary">أظهر لوحة التطبيقات الحديثة على الحافة اليسرى</string>
+    <string name="slim_blacklist_apps_cat_title">القائمة السوداء</string>
+    <string name="slim_blacklist_apps_title">القائمة السوداء للتطبيقات</string>
+    <string name="slim_blacklist_apps_summary">التطبيقات التي لا تريدها ان تظهر في اللوحة</string>
+    <string name="slim_blacklist_add_apps_title">إضافة تطبيق</string>
+    <string name="slim_blacklist_add_apps_summary">اضغط هنا للأضافة، اضغط على التطبيق المضاف لإزالته</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">شريط الذاكرة</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">زر \"مسح الكل\"</string>
+    <string name="show_clear_all_recents_button_summary">أظهر زر \"مسح الكل\"</string>
+    <string name="recents_clear_all_location_title">موقع \"مسح الكل\"</string>
+    <string name="recents_clear_all_location_top_right">أعلى اليمين</string>
+    <string name="recents_clear_all_location_top_left">أعلى اليسار</string>
+    <string name="recents_clear_all_location_top_center">أعلى الوسط</string>
+    <string name="recents_clear_all_location_bottom_right">أسفل اليمين</string>
+    <string name="recents_clear_all_location_bottom_left">أسفل اليسار</string>
+    <string name="recents_clear_all_location_bottom_center">أسفل الوسط</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">شريط الذاكرة</string>
+    <string name="recents_show_membar_summary">إظهار شريط مع الذاكرة المتوفرة للجهاز</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">القائمة المنسدلة السريعة</string>
+    <string name="quick_pulldown_summary">سحب الحافّة %1$s لشريط الحالة إلى أسفل يُظهر لوحة الإعدادات السّريعة</string>
+    <string name="quick_pulldown_summary_always">عرض الإعدادات السريعة دائماً على شريط الحالة المنسدلة</string>
+    <string name="quick_pulldown_off">إيقاف</string>
+    <string name="quick_pulldown_left">يسار</string>
+    <string name="quick_pulldown_right">يمين</string>
+    <string name="quick_pulldown_always">دائماً</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">السحب الذكي لأسفل</string>
+    <string name="smart_pulldown_summary">فتح الاعدادات السريعة عندما يكون هناك %1$s اشعارات</string>
+    <string name="smart_pulldown_none_summary">فتح الاعدادات السريعة عندما لا يكون هناك اشعارات</string>
+    <string name="smart_pulldown_off">إيقاف</string>
+    <string name="smart_pulldown_none">لا توجد إشعارات</string>
+    <string name="smart_pulldown_dismissable">لا توجد إشعارات يمكن استبعادها</string>
+    <string name="smart_pulldown_ongoing">لا توجد إشعارات مستمرة</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">مُتوسّطة</string>
+    <string name="display_cutout_style_hide">إخفاء</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">هذه الميزة غير متوفرة لان هاتفك غير مؤمن بكلمة مرور او نمط. </string>
+    <string name="no_no_summary_go">هذه المسزة غير متوفرة بسبب تفعيل اندرويد Go في قائمة التطبيقات الاخيرة.</string>
+    <string name="no_no_summary_owner">هذه الميزة غير متوفرة لأنه ليس لديك رسالة معلومات المالك</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

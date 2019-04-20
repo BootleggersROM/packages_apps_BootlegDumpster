@@ -37,6 +37,7 @@
     <string name="notifications_settings_summary">Mude como você vê essas notificações</string>
     <string name="about_bootleg_title">Sobre a Bootleggers</string>
     <string name="about_bootleg_summary">Algumas informações sobre nós, apenas caso você esteja curioso sobre isso</string>
+    <string name="about_bootleg_small_title">Sobre nós</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Sobre nós</string>
     <string name="bootleg_ab_title_whoami">O que é os Bootleggers?</string>
@@ -56,8 +57,6 @@
     <string name="bootleg_moarstuff_git_title">O nosso Github</string>
     <string name="bootleg_moarstuff_git_summary">Onde as nossas sources e reverts estão postas</string>
     <string name="bootleg_pref_moarstuff_social_title">Mantenha o contacto!</string>
-    <string name="bootleg_moarstuff_gplus_title">A nossa comunidade Google+</string>
-    <string name="bootleg_moarstuff_gplus_summary">Envie capturas de tela, dê nos as suas opiniões, tudo o que quiser mas de uma maneira respeitadora</string>
     <string name="bootleg_moarstuff_tg_title">A nossa comunidade Telegram</string>
     <string name="bootleg_moarstuff_tg_summary">Fale connosco, fique ansioso com as futuras actualizações e junte se à nossa maravilhosa comunidade</string>
     <string name="bootleg_pref_moarstuff_wewsecret">Eu acho que achou que este sítio não é assim tão secreto mas enfim, se chegou aqui eu só queria dizer obrigado por instalar o nosso sistema e como dizemos várias vezes espero que goste e que tenha um bom tempo com este sistema.</string>
@@ -89,7 +88,6 @@
     <!-- Lockscreen charging current indicator  -->
     <!-- Volume swap buttons -->
     <!--SystemUI Tuner -->
-    <string name="lockscreen_shortcuts_title">Atalhos do ecrã de bloqueio</string>
     <!-- Toast app icon -->
     <!-- Power menu on lockscreen -->
     <!-- AOKP custom system animations -->
@@ -114,10 +112,6 @@
     <!-- Heads up -->
     <string name="heads_up_cat_title">Notificações flutuantes</string>
     <!-- Wakeup options -->
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock_advanced_title">Opções avançadas</string>
-    <string name="clock_disabled">Desactivado</string>
-    <string name="clock_date_style_normal">Normal</string>
     <!-- 4G icon -->
     <!-- lock screen visualizer -->
     <!-- Lock date fonts -->
@@ -151,7 +145,6 @@
     <!-- SystemUI Restart -->
     <!-- Log it -->
     <!-- AOSP Recents component Style -->
-    <!-- <string name="recents_grid">Grid</string> -->
     <!-- QS tile styles -->
     <!-- Battery light -->
     <string name="light_category">LED da bateria</string>
@@ -252,4 +245,37 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_ringer_title">Toque</string>
     <!-- Smart Pixels -->
+    <!-- Statusbar Clock options -->
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="menu_cancel">Cancelar</string>
+    <string name="menu_save">Guardar</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">Nenhum</string>
+    <!-- Notification guts kill app button -->
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Vibração na autenticação da impressão digital</string>
+    <string name="fprint_sucess_vib_summary">Vibrar na autenticação bem sucedida da impressão digital</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">Recentes AOSP</string>
+    <!-- Slim recents -->
+    <string name="recent_panel_expanded_mode_disabled">Desactivado</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <!-- Slim recents membar -->
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Botão \"Limpar Tudo\"</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar o botão flutuante de Limpar tudo</string>
+    <string name="recents_clear_all_location_title">Localização do Botão \"Limpar Todo\"</string>
+    <!-- Recents membar -->
+    <!-- Quick pull down-->
+    <!-- Smart pulldown-->
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">Normal</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">Este recurso não está disponível porque não tem um bloqueio de ecrã seguro. </string>
+    <string name="no_no_summary_go">Esse recurso não está disponível porque você tem o Android Go ativo.</string>
+    <string name="no_no_summary_owner">Esse recurso não está disponível porque você não tem uma mensagem de informação do proprietário</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>

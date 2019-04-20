@@ -37,11 +37,12 @@
     <string name="volume_settings_summary">音量ボタンを魔法のアイテムにする</string>
     <string name="notifications_title">通知</string>
     <string name="notifications_settings_summary">通知の表示方法を変更する</string>
-    <string name="about_bootleg_title">Bootleggersについて</string>
+    <string name="about_bootleg_title">Bootleggers について</string>
     <string name="about_bootleg_summary">あなたが興味がある場合に備えての私たちに関するいくつかの情報</string>
+    <string name="about_bootleg_small_title">私たちについて</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">私たちについて</string>
-    <string name="bootleg_ab_title_whoami">Bootleggersって何?</string>
+    <string name="bootleg_ab_title_whoami">Bootleggers って何?</string>
     <string name="bootleg_ab_summary_whoami">Bootleggers は家のような気分を味わう目的の機能やアプリが満載の ROM です。この ROM を好きになって、私たちの体験を楽しんでほしいと思います。</string>
     <string name="bootleg_ab_title_thankssec">感謝リスト</string>
     <string name="bootleg_ab_summary_thankssec">ここをタップすると、このプロジェクトに誰が貢献したのかを知ることができます。 そして ％s さんに感謝します。</string>
@@ -51,7 +52,7 @@
     <string name="bootleg_ex_summary_featurelist">このビルドの現在の機能リストを確認する</string>
     <string name="bootleg_ex_title_addons">アドオンとダウンロード</string>
     <string name="bootleg_ex_summary_addons">私達のするテーマと Mod のリスト (つまりは広告)</string>
-    <string name="bootleg_ex_title_sharemsg">私たちのROMを共有する</string>
+    <string name="bootleg_ex_title_sharemsg">私たちの ROM を共有する</string>
     <string name="bootleg_ex_summary_sharemsg">人々に私達とその仕事について知らせて下さい! 本当に感謝します。</string>
     <string name="bootleg_ab_madstinky_test">Mad Stinky ビルドを実行しているようです。つまり完全に実験的なビルドを使用していることを意味しています。明らかにバグや問題が予想されます。あなたが直面しているバグがこのビルドについての投稿に載っていない場合は、Telegram グループに報告するか、端末関連の問題の場合はビルドした人に報告して下さい。</string>
     <!-- More about us strings -->
@@ -59,33 +60,31 @@
     <string name="bootleg_pref_moarstuff_info_title">情報とソース</string>
     <string name="bootleg_moarstuff_blog_title">私たちのブログ</string>
     <string name="bootleg_moarstuff_blog_summary">リリースとニュースについて投稿する場所</string>
-    <string name="bootleg_moarstuff_git_title">私たちのGithub</string>
-    <string name="bootleg_moarstuff_git_summary">私たちのソースとRevertがある場所</string>
+    <string name="bootleg_moarstuff_git_title">私たちの Github</string>
+    <string name="bootleg_moarstuff_git_summary">私たちのソースと Revert がある場所</string>
     <string name="bootleg_pref_moarstuff_social_title">連絡する!</string>
-    <string name="bootleg_moarstuff_gplus_title">私たちのGoogle+コミュニティ</string>
-    <string name="bootleg_moarstuff_gplus_summary">誠意を持って、スクリーンショットを送信し希望を何でもフィードバックして下さい。</string>
-    <string name="bootleg_moarstuff_tg_title">私たちのTelegramコミュニティ</string>
-    <string name="bootleg_moarstuff_tg_summary">私たちと話をして、将来のアップデートで大騒ぎをして、偉大なコミュニティに参加してく下さい。</string>
-    <string name="bootleg_pref_moarstuff_wewsecret">あなたがこれを本当に秘密の場所ではないと思っていたと私は思うが、今ここに起動しているので、このROMをインストールしてくれてありがとうと言いたいです。さて、私たちは何度か言ったように、 このROMで楽しみ良い時間を過ごして下さい。</string>
-    <string name="bootleg_moarstuff_faq_title">私たちのFAQ</string>
-    <string name="bootleg_moarstuff_cd_title">私たちのCrowdin</string>
+    <string name="bootleg_moarstuff_tg_title">私たちの Telegram コミュニティ</string>
+    <string name="bootleg_moarstuff_tg_summary">私たちと話をして、将来の更新で大騒ぎをして、偉大なコミュニティに参加してく下さい。</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">あなたがこれを本当に秘密の場所ではないと思っていたと私は思うが、今ここに起動しているので、この ROM をインストールしてくれてありがとうと言いたいです。さて、私たちは何度か言ったように、 この ROM で楽しみ良い時間を過ごして下さい。</string>
+    <string name="bootleg_moarstuff_faq_title">私たちの FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">私たちの Crowdin</string>
     <string name="bootleg_moarstuff_cd_back_summary">あなたの言語が使用されていませんか? ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝ってすべて!</string>
     <string name="bootleg_moarstuff_cd_summary02">ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝ってすべて!</string>
-    <string name="bootleg_moarstuff_faq_summary">FAQと回答された要求機能がある場所</string>
+    <string name="bootleg_moarstuff_faq_summary">FAQ と回答された要求機能がある場所</string>
     <!-- Messages to send? -->
-    <string name="share_chooser_title">私達のROMを共有する</string>
+    <string name="share_chooser_title">私達の ROM を共有する</string>
     <string name="bootleg_sharemsg1">やあ、私は Bootleggers と呼ばれる ROM を使用しています。 正直言ってこれは素晴らしい ROM です。 詳細については https://bootleggersrom.github.io をご覧すべて。</string>
     <string name="bootleg_sharemsg2">私は Bootleggers ROM をインストールしました。現時点では動作は良好なようですが、https://bootleggersrom.github.io で詳細を確認して下さい。</string>
-    <string name="bootleg_sharemsg3">だから私はBootleggers ROMに行きました。今のところ良い体験をしています。かなりクールなROMです。</string>
-    <string name="bootleg_sharemsg4">やあ、私はちょうどBootleggersをインストールして少しROMを楽しんでいます。ぜひお勧め使用と思います。</string>
-    <string name="bootleg_sharemsg5">私はBootleggers ROMにたどり着きました。かなり良好なようです。いくつかの異なる既定のフォントと様々な機能を持っています。</string>
+    <string name="bootleg_sharemsg3">だから私は Bootleggers ROM に行きました。今のところ良い体験をしています。かなりクールな ROM です。</string>
+    <string name="bootleg_sharemsg4">やあ、私はちょうど Bootleggers をインストールして少し ROM を楽しんでいます。ぜひお勧めしようと思います。</string>
+    <string name="bootleg_sharemsg5">私は Bootleggers ROM にたどり着きました。かなり良好なようです。いくつかの異なる既定のフォントと様々な機能を持っています。</string>
     <string name="bootleg_sharemsg6">今すぐ Bootleggers ROM を試して下さい! https://bootleggersrom.github.io</string>
-    <string name="bootleg_sharemsg7">えーと、私はBootleggersをテストしています。ちょっと変わっていますが、悪いROMではありません。</string>
+    <string name="bootleg_sharemsg7">えーと、私は Bootleggers をテストしています。ちょっと変わっていますが、悪い ROM ではありません。</string>
     <!-- Build type info -->
     <string name="bootleg_ri_title_buildtype">ビルドの種類</string>
     <string name="bootleg_ri_summary_buildtype">あなたのビルドは%s...または%sです</string>
-    <string name="bootleg_pref_title_rominfo">ROM情報</string>
-    <string name="bootleg_ri_title_ota">OTA アップデート</string>
+    <string name="bootleg_pref_title_rominfo">ROM 情報</string>
+    <string name="bootleg_ri_title_ota">OTA 更新</string>
     <string name="bootleg_ri_summary_ota">新しいリリースがあるかどうかを確認する</string>
     <string name="bootleg_ri_title_musicode">ミュージカルコードネーム</string>
     <!-- System theme -->
@@ -144,7 +143,6 @@
     <string name="statusbar_tuner_summary">ステータスバーに表示する項目の切り替え</string>
     <string name="navbar_tuner_title">ナビゲーションバーを編集</string>
     <string name="navbar_tuner_summary">ナビゲーションバーのレイアウトとボタンを編集する</string>
-    <string name="lockscreen_shortcuts_title">ロック画面のショートカット</string>
     <string name="lockscreen_shortcuts_summary">ロック画面下部のショートカットを編集する</string>
     <string name="vol_dnd_category_title">マナーモード</string>
     <string name="volbtn_down_zen_title">音量を下げてマナーモードにする</string>
@@ -309,45 +307,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">充電時にスリープ解除</string>
     <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時にスリープ解除する</string>
-    <!-- Status bar clock options -->
-    <string name="status_bar_clock">時計と日付</string>
-    <string name="status_bar_clock_summary">ステータスバーの時計と日付の外観を設定する</string>
-    <string name="status_bar_clock_advanced_title">高度な設定</string>
-    <string name="status_bar_clock_advanced_title_alt">高度な時計と日付のオプション</string>
-    <string name="status_bar_clock_advanced_summary">満足なように時計を調整する</string>
-    <string name="clock_title_enable">配置</string>
-    <string name="clock_enabled">有効</string>
-    <string name="clock_disabled">無効</string>
-    <string name="status_bar_clock_style_reset">色のリセット</string>
-    <string name="status_bar_show_clock_title">日付と時刻を表示</string>
-    <string name="status_bar_clock_seconds_title">秒を表示</string>
-    <string name="status_bar_am_pm_title">午前/午後</string>
-    <string name="status_bar_am_pm_info">24時間表示が有効です</string>
-    <string name="enable_clock_weekday">曜日</string>
-    <string name="enable_clock_weekday_summary">時刻の前の曜日を省略</string>
-    <string name="right_clock">右側に表示</string>
-    <string name="left_clock">左側に表示</string>
-    <string name="center_clock">中央に表示</string>
-    <string name="dont_show">表示しない</string>
-    <string name="clock_date_display">日付</string>
-    <string name="clock_date_display_summary">時計の前にカスタムの日付を表示</string>
-    <string name="clock_date_style">日付のスタイル</string>
-    <string name="clock_date_format">日付の形式</string>
-    <string name="clock_date_string_edittext_title">MM/dd/yyの形式でなければなりません</string>
-    <string name="clock_date_string_edittext_summary">文字列を入力</string>
-    <string name="am_pm_clock_normal">通常のフォントサイズ</string>
-    <string name="am_pm_clock_small">小さいフォントサイズ</string>
-    <string name="am_pm_clock_none">表示しない</string>
-    <string name="clock_date_display_none">表示しない</string>
-    <string name="clock_date_display_small">小さいフォントサイズ</string>
-    <string name="clock_date_display_normal">通常のフォントサイズ</string>
-    <string name="clock_date_style_normal">標準</string>
-    <string name="clock_date_style_lowercase">小文字</string>
-    <string name="clock_date_style_uppercase">大文字</string>
-    <string name="clock_date_format_custom">カスタムjava形式</string>
-    <string name="clock_date_right">時刻の右</string>
-    <string name="clock_date_left">時刻の左</string>
-    <string name="clock_date_position">日付の位置</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">ステータスバー上の4Gアイコン</string>
     <string name="show_fourg_icon_summary">LTE の代わりに 4G の電波アイコンを表示する</string>
@@ -453,21 +412,21 @@
     <string name="logcat_warning">全てが進行中ですので、ログを送信するのはあなたの仕事です。</string>
     <string name="logcat_warning_unofficial">全てが進行中ですので、ログを送信するのはあなたの作業です。あなたは非公式のビルドを実行しているので、誰がこのビルドを作成したのか分かっている場合は、誰がビルドを行ったのかをログに記録してから、私たちに送信して下さい。</string>
     <string name="share_title">共有</string>
-    <string name="log_it_share_subject">Bootleggersログ</string>
+    <string name="log_it_share_subject">Bootleggers ログ</string>
     <string name="log_it_now_summary">ログが作成されるまでお待ち下さい</string>
     <string name="log_it_logs_in_progress">ログを作成しました&#8230;</string>
     <string name="log_it_share_type_title">共有方法</string>
-    <string name="log_it_share_type_zip">ZIPファイル</string>
-    <string name="log_it_share_type_haste">Hastebinにアップロード</string>
+    <string name="log_it_share_type_zip">ZIP ファイル</string>
+    <string name="log_it_share_type_haste">Hastebin にアップロード</string>
     <string name="log_it_share_via">共有方法</string>
-    <string name="cannot_get_su">Superuserアクセスが不足しているためアクションに失敗しました</string>
+    <string name="cannot_get_su">Superuser アクセスが不足しているためアクションに失敗しました</string>
     <string name="log_it_alert_title">これは何ですか?</string>
     <string name="log_it_alert_faq">おそらくあなたはここで「これは何で、なぜ送る必要があるのだろうか?」と思っているかもしれません。\nそうですね、あなたが送信できるものに関するいくつかの情報があります：\n\nLogcat: これは Android の全てのエラー、クラッシュ、または実行中プロセス情報といったシステムイベントです。 クラッシュや FC に最適です。\n\nDmesg: カーネルメッセージの一部を出力しますが、ユーザーが気にかけていないものをフィルタリングします&#8230;もし提供されていれば。\n\nKmesg: Dmesg と同じですが、フィルタが無く全てのカーネルイベントを取得できます。 ランダムリブートに最適です。</string>
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">アプリ履歴のスタイル</string>
     <string name="recents_quickstep">クイックステップ (可能な場合)</string>
     <string name="recents_stock">標準</string>
-    <!-- <string name="recents_grid">Grid</string> -->
+    <string name="recents_grid">グリッド</string>
     <string name="recents_go">Android Go</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">クイック設定タイルのスタイル</string>
@@ -486,7 +445,7 @@
     <string name="qstile_shishuink">Shishu インク</string>
     <string name="qstile_attemptmountain">山の試み</string>
     <!-- Battery light -->
-    <string name="light_category">バッテリーのLED</string>
+    <string name="light_category">バッテリーの LED</string>
     <string name="battery_light_settings">バッテリー充電時のライト</string>
     <string name="battery_light_enable">バッテリーライト</string>
     <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
@@ -557,7 +516,7 @@
     <string name="qs_music_tile_track_optional_summary">音楽タイルに再生中のタイトルを表示する</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
-    <string name="screen_state_toggles_title">スリープ時アクション</string>
+    <string name="screen_state_toggles_title">アクションの中断</string>
     <string name="screen_state_toggles_enable_title">有効</string>
     <string name="screen_state_toggles_enable_summary">画面消灯時にアクションが実行されます。画面が点灯すると以前の状態に戻ります。</string>
     <string name="screen_state_toggles_mobile_title">モバイルネットワーク</string>
@@ -711,7 +670,7 @@
     <string name="shortcut_picker_select_system_icon_title">システムアイコンを選択:</string>
     <string name="shortcut_picker_icon_type_custom_title">ギャラリー</string>
     <!-- Lockscreen Shortcuts -->
-    <string name="ls_shortcuts_title">画面中央のショートカット</string>
+    <string name="ls_shortcuts_title">ショートカット</string>
     <string name="lockscreen_mdshortcuts_title">画面中央のショートカット</string>
     <string name="lockscreen_mdshortcuts_summary">ロック画面の中央のカスタムショートカットの表示や変更をする</string>
     <string name="lockscreen_shorcuts_launch_type_title">ショートカットクリックタイプ</string>
@@ -982,6 +941,7 @@
     <string name="lockscreen_clock_selection_sammy_accent">アクセント付きの Sammy</string>
     <string name="lockscreen_clock_selection_sammy_accent_alt">アクセント付きの Sammy (代替)</string>
     <string name="lockscreen_clock_selection_shishu_nerves">Shishu Nerves</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">グラデーション時計 (Bootleg ロゴ付き)</string>
     <string name="lockscreen_clock_selection_gradient_shishu">グラデーション時計 (shishu ロゴ付き)</string>
     <string name="lockscreen_clock_selection_gradient_full">フルグラデーション時計</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">モノクログラデーション時計</string>
@@ -1006,10 +966,16 @@
     <string name="file_header_select_summary">カスタム画像を選択</string>
     <string name="file_header_provider_title">カスタム画像</string>
     <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">音量パネル</string>
+    <string name="volume_panel_on_left_title">左の音量パネル</string>
+    <string name="volume_panel_on_left_summary">音量 パネルを右側から左側に変更する</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view">音量パネルのの表示</string>
     <string name="audio_panel_view_media_title">メディア</string>
     <string name="audio_panel_view_ringer_title">鳴動</string>
+    <string name="audio_panel_view_notification_title">通知</string>
     <string name="audio_panel_view_alarm_title">アラーム</string>
+    <string name="audio_panel_view_voice_title">音声</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">スマートピクセル</string>
@@ -1019,4 +985,110 @@
     <string name="smart_pixels_on_power_save_title">バッテリーセーバー時は自動的に有効</string>
     <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時はスマートピクセルを自動的に有効にする</string>
     <string name="smart_pixels_percent">無効にする画素の割合</string>
+    <string name="smart_pixels_shift">使う画素を移し替えて画面の焼付きを避ける</string>
+    <string name="smart_pixels_warning_text">スマートピクセルは省電力機能です。消灯するピクセル数に応じて、バッテリ寿命が大幅に改善されます。優れたユーザーエクスペリエンスを得るには、無効ピクセル数を75％に設定することをお勧めします。</string>
+    <!-- Statusbar Clock options -->
+    <string name="status_bar_show_clock_title">日付と時刻を表示</string>
+    <string name="clock_title_enable">配置</string>
+    <string name="clock_position_right">右側に表示</string>
+    <string name="clock_position_center">中央に表示</string>
+    <string name="clock_position_left">左側に表示</string>
+    <string name="status_bar_am_pm_title">午前/午後</string>
+    <string name="status_bar_am_pm_info">24時間表示が有効です</string>
+    <string name="am_pm_clock_normal">通常のフォントサイズ</string>
+    <string name="am_pm_clock_small">小さいフォントサイズ</string>
+    <string name="am_pm_clock_none">表示しない</string>
+    <string name="clock_date_display">日付</string>
+    <string name="clock_date_display_summary">時計の前にカスタムの日付を表示</string>
+    <string name="clock_date_style">日付のスタイル</string>
+    <string name="clock_date_position">日付の位置</string>
+    <string name="clock_date_format">日付の形式</string>
+    <string name="clock_date_string_edittext_title">MM/dd/yyの形式でなければなりません</string>
+    <string name="clock_date_string_edittext_summary">文字列を入力</string>
+    <string name="clock_date_right">時刻の右</string>
+    <string name="clock_date_left">時刻の左</string>
+    <string name="clock_date_display_none">表示しない</string>
+    <string name="clock_date_display_small">小さいフォントサイズ</string>
+    <string name="clock_date_display_normal">通常のフォントサイズ</string>
+    <string name="clock_date_style_normal">標準</string>
+    <string name="clock_date_style_lowercase">小文字</string>
+    <string name="clock_date_style_uppercase">大文字</string>
+    <string name="clock_date_format_custom">カスタム java 形式</string>
+    <string name="menu_cancel">キャンセル</string>
+    <string name="menu_save">保存</string>
+    <!-- Active edge -->
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_none">なし</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">アプリ終了ボタン</string>
+    <string name="notification_guts_kill_app_button_summary">通知の長押しメニューにアプリ終了ボタンを表示する</string>
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">指紋認証時の振動</string>
+    <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
+    <!-- Recents categories-->
+    <string name="aosp_recents_category">AOSP のアプリ履歴</string>
+    <string name="slim_recents_category">Slim アプリ履歴</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim アプリ履歴</string>
+    <string name="slim_recents_settings_title">Slim アプリ履歴の設定</string>
+    <string name="recents_max_apps_title">許可されたアプリの最大数</string>
+    <string name="recent_panel_scale_title">サイズ</string>
+    <string name="recent_panel_expanded_mode_summary">アプリ履歴を拡張プレビューモードで表示</string>
+    <string name="recent_panel_expanded_mode_auto">自動 (既定)</string>
+    <string name="recent_panel_expanded_mode_always">常時</string>
+    <string name="recent_panel_expanded_mode_never">なし</string>
+    <string name="recent_panel_expanded_mode_disabled">無効</string>
+    <string name="recent_panel_bg_color_title">パネルの背景色</string>
+    <string name="recent_card_bg_color_title">カードの背景色</string>
+    <string name="slim_icon_pack_title">アイコンパック</string>
+    <string name="slim_icon_pack_summary">パネルのアプリにカスタムアイコンパックを適用する</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">左端に表示</string>
+    <string name="recent_panel_lefty_mode_summary">画面左端にアプリ履歴パネルを表示</string>
+    <string name="slim_blacklist_apps_cat_title">ブラックリスト</string>
+    <string name="slim_blacklist_apps_title">アプリのブラックリスト</string>
+    <string name="slim_blacklist_apps_summary">パネルに表示しないアプリ</string>
+    <string name="slim_blacklist_add_apps_title">アプリを追加</string>
+    <string name="slim_blacklist_add_apps_summary">ここをタップして追加し追加済みアプリをタップして削除</string>
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">メモリ使用量バー</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
+    <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
+    <string name="recents_clear_all_location_title">全て終了ボタンの位置</string>
+    <string name="recents_clear_all_location_top_right">右上</string>
+    <string name="recents_clear_all_location_top_left">左上</string>
+    <string name="recents_clear_all_location_top_center">中央上</string>
+    <string name="recents_clear_all_location_bottom_right">右下</string>
+    <string name="recents_clear_all_location_bottom_left">左下</string>
+    <string name="recents_clear_all_location_bottom_center">中央下</string>
+    <!-- Recents membar -->
+    <string name="recents_show_membar_title">メモリ使用量バー</string>
+    <string name="recents_show_membar_summary">端末で使用可能なメモリを表示する</string>
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">クイックプルダウン</string>
+    <string name="quick_pulldown_summary">ステータスバーの%1$sでクイック設定パネルをプルダウンする</string>
+    <string name="quick_pulldown_summary_always">ステータスバーを引き下げたら常にクイック設定を開く</string>
+    <string name="quick_pulldown_off">OFF</string>
+    <string name="quick_pulldown_left">左</string>
+    <string name="quick_pulldown_right">右</string>
+    <string name="quick_pulldown_always">常時</string>
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">スマートプルダウン</string>
+    <string name="smart_pulldown_summary">%1$s直接クイック設定を開く</string>
+    <string name="smart_pulldown_none_summary">通知がない場合直接クイック設定を開く</string>
+    <string name="smart_pulldown_off">OFF</string>
+    <string name="smart_pulldown_none">通知が無い場合</string>
+    <string name="smart_pulldown_dismissable">消せる通知が無い場合</string>
+    <string name="smart_pulldown_ongoing">消せない通知が無い場合</string>
+    <!-- Allow to slide qs on lock -->
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">標準</string>
+    <string name="display_cutout_style_hide">非表示</string>
+    <!-- The no-no list, messages explaining why some features are disabled -->
+    <string name="no_no_summary_locked">ロック画面が保護されてないためこの機能は利用できません</string>
+    <string name="no_no_summary_go">Android Go が有効になっているためこの機能は利用できません</string>
+    <string name="no_no_summary_owner">所有者情報メッセージがないためこの機能は利用できません</string>
+    <!-- Bootleg changelog -->
+    <!-- Swipe up gesture -->
 </resources>
