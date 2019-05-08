@@ -40,6 +40,7 @@
     <string name="about_bootleg_title">Info su Bootleggers</string>
     <string name="about_bootleg_summary">Qualche informazione su di noi, giusto se sei curioso di sapere</string>
     <string name="about_bootleg_small_title">Su di noi</string>
+    <string name="about_bootleg_small_summary">Altre informazioni sul nostro progetto</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Su di noi</string>
     <string name="bootleg_ab_title_whoami">Cos\'è Bootleggers?</string>
@@ -111,7 +112,7 @@
     <string name="color_default">Predefinito</string>
     <!-- Preferences Categories -->
     <string name="cat_general_ui">Modifiche dell\'interfaccia utente</string>
-    <string name="cat_general_system">Modifiche relativi al sistema</string>
+    <string name="cat_general_system">Modifiche relative al sistema</string>
     <string name="cat_powermenu_items">Elementi menù alimentazione</string>
     <string name="cat_volume_keys">Tasti del volume</string>
     <string name="cat_misc_app">Relativo alle app</string>
@@ -136,7 +137,7 @@
     <string name="global_actions_screenrecord">Registra schermo</string>
     <string name="global_actions_flashlight">Torcia</string>
     <string name="global_actions_advanced_reboot_title">Abilita le opzioni di riavvio avanzate</string>
-    <string name="global_actions_advanced_reboot_summary">Quando scegli \"Riavvia\", visualizza anche le opzioni per il riavvio in Recovery e Bootloader</string>
+    <string name="global_actions_advanced_reboot_summary">Quando si riavvia visualizza anche le opzioni per recovery e bootloader</string>
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Informazioni di ricarica</string>
     <string name="lockscreen_charging_current_summary">Mostra un\'indicatore di livello massimo della carica corrente sulla schermata di blocco</string>
@@ -144,20 +145,21 @@
     <string name="swap_volume_buttons_title">Riorienta tasti volume</string>
     <string name="swap_volume_buttons_summary">Scambia i tasti del volume quando il telefono viene ruotato</string>
     <!--SystemUI Tuner -->
-    <string name="statusbar_tuner_title">Elementi visualizzati nella barra di stato</string>
+    <string name="statusbar_tuner_title">Elementi barra di stato</string>
     <string name="statusbar_tuner_summary">Opzioni batteria e icone della barra di stato da disabilitare</string>
     <string name="navbar_tuner_title">Configura la barra di navigazione</string>
     <string name="navbar_tuner_summary">Configura la disposizione dei pulsanti della barra di navigazione</string>
+    <string name="lockscreen_shortcuts_title">Scorciatoie in basso nella schermata di blocco</string>
     <string name="lockscreen_shortcuts_summary">Gestisci scorciatoie nella schermata di blocco</string>
     <string name="vol_dnd_category_title">Modalità non disturbare</string>
     <string name="volbtn_down_zen_title">Tieni premuto Vol - per attivare la modalità non disturbare</string>
-    <string name="volbtn_down_zen_summary">Abilita l\'attivazione della modalità non disturbare con la pressione di Vol -</string>
+    <string name="volbtn_down_zen_summary">permetti l\'attivazione della modalità non disturbare con la pressione di Vol -</string>
     <string name="volbtn_up_zen_title">Tieni premuto Vol + per attivare la modalità non disturbare</string>
-    <string name="volbtn_up_zen_summary">Abilita l\'disattivazione della modalità non disturbare con la pressione di Vol -</string>
+    <string name="volbtn_up_zen_summary">permetti di uscire dalla modalità non disturbare con il tasto Vol +</string>
     <string name="vol_zen_title">Interrutore modalità non disturbare</string>
-    <string name="vol_zen_summary">Mostra il pulsante della modalità non disturbare nel pannello volume</string>
+    <string name="vol_zen_summary">Mostra l\'interruttore non disturbare sul pannello volume</string>
     <!-- Toast app icon -->
-    <string name="toast_icon_title">Icona dell\'app nel Toast</string>
+    <string name="toast_icon_title">Icona app toast</string>
     <string name="toast_icon_summary">Visualizza l\'icona dell\'applicazione corrispondente al toast</string>
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Disattiva il menù di alimentazione sulla schermata di blocco</string>
@@ -269,10 +271,10 @@
     <string name="lock_fonts_bold_italic">Corsivo Grassetto</string>
     <string name="lock_fonts_light_italic">Corsivo Leggero</string>
     <string name="lock_fonts_light">Chiaro</string>
-    <string name="lock_fonts_condensed_normal">Compatto</string>
-    <string name="lock_fonts_condensed_italic">Corsivo Compatto</string>
-    <string name="lock_fonts_condensed_bold">Grassetto Compatto</string>
-    <string name="lock_fonts_condensed_bold_italic">Corsivo Grassetto Compatto</string>
+    <string name="lock_fonts_condensed_normal">Condensato</string>
+    <string name="lock_fonts_condensed_italic">Corsivo Condensato</string>
+    <string name="lock_fonts_condensed_bold">Condensato Grassetto</string>
+    <string name="lock_fonts_condensed_bold_italic">Corsivo Grassetto Condensato</string>
     <string name="lock_fonts_medium_normal">Medio</string>
     <string name="lock_fonts_medium_italic">Corsivo Medio</string>
     <!-- Lock Clock Fonts -->
@@ -310,7 +312,7 @@
     <string name="dialog_delete_title">Elimina</string>
     <string name="dialog_delete_message">Eliminare l\'elemento selezionato?</string>
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Attivo quando in carica</string>
+    <string name="wakeup_when_plugged_unplugged_title">Risveglia al collegamento</string>
     <string name="wakeup_when_plugged_unplugged_summary">Risveglia il dispositivo se viene connesso o disconnesso dal caricatore</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Icona 4G sulla barra di stato</string>
@@ -353,12 +355,12 @@
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Tempo retroilluminazione pulsanti</string>
     <string name="backlight_timeout_on">Sempre abilitato</string>
-    <string name="backlight_timeout_3s">3 sec</string>
-    <string name="backlight_timeout_default">5 sec (predefinito)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="backlight_timeout_3s">3 secondi</string>
+    <string name="backlight_timeout_default">5 secondi (predefinito)</string>
+    <string name="backlight_timeout_10s">10 secondi</string>
+    <string name="backlight_timeout_15s">15 secondi</string>
+    <string name="backlight_timeout_20s">20 secondi</string>
+    <string name="backlight_timeout_30s">30 secondi</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Retroilluminazione</string>
     <!-- Enable keys backlight-->
@@ -394,7 +396,7 @@
     <!-- Dashboard Categories and suggestions -->
     <string name="dashboard_conditions_title">Condizioni pannello impostazioni</string>
     <string name="summary_dashboard_conditions_enabled">Le condizioni del pannello impostazioni sono abilitate</string>
-    <string name="summary_dashboard_conditions_disabled">Le condizioni della dashboard sono disattivate</string>
+    <string name="summary_dashboard_conditions_disabled">Le condizioni pannello impostazioni sono disabilitati</string>
     <string name="dashboard_suggestions_title">Suggerimenti pannello impostazioni</string>
     <string name="summary_dashboard_suggestions_enabled">Suggerimenti abilitati nel pannello impostazioni</string>
     <string name="summary_dashboard_suggestions_disabled">Suggerimenti pannello impostazioni disabilitati</string>
@@ -512,8 +514,8 @@
     <string name="ticker_animation_mode_scroll">Scorrimento</string>
     <string name="ticker_tick_duration_title">Durata del ticker</string>
     <!-- SeekBar -->
-    <string name="seekbar_no_default_value">Nessun valore impostato di default</string>
-    <string name="seekbar_default_value_set">Valore settato di default a <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_no_default_value">Nessun valore predefinito impostato</string>
+    <string name="seekbar_default_value_set">Valore predefinito impostato <xliff:g id="number">%d</xliff:g></string>
     <string name="seekbar_default_value_already_set">Valore predefinito già impostato</string>
     <string name="seekbar_default_string">Predefinito</string>
     <!-- Disable music track title in QS tile -->
@@ -648,18 +650,18 @@
     <string name="shortcut_action_select_action_newaction">Scegli nuova azione:</string>
     <string name="shortcut_action_reset">Ripristino</string>
     <string name="shortcut_action_add">Aggiungi</string>
-    <string name="shortcut_action_reset_message">Reimpostare tutte le voci a default?</string>
+    <string name="shortcut_action_reset_message">Ripristinare tutti i valori a quelli predefiniti?</string>
     <string name="shortcut_action_max">Il numero massimo di voci è stato raggiunto</string>
     <string name="shortcut_action_warning">Attenzione</string>
     <string name="shortcut_action_warning_message">Non è possibile eliminare l\'ultima voce</string>
-    <string name="shortcut_action_disable_message">Disattivato\nAggiung una voce per attivare questa funzione</string>
+    <string name="shortcut_action_disable_message">Disabilitato\nAggiungi una voce per abilitare questa funzionalità</string>
     <string name="shortcut_image_not_valid">L\'applicazione selezionata non ha restituito un\'icona valida o non supporta ritagli immagine. Utilizza un\'altra applicazione.</string>
     <string name="shortcut_duplicate_entry">L\'azione scelta non può essere aggiunta due volte</string>
     <string name="shortcut_action_help_shortcut">scorciatoia</string>
     <string name="shortcut_action_help_button">pulsante</string>
     <string name="shortcut_action_help_icon">, mentre si seleziona l\'icona mostrerà le opzioni di personalizzazione</string>
     <string name="shortcut_action_help_main">Per aggiungere un %1$s, selezionare l\'icona Aggiungi.  Dopo che un %1$s è stato aggiunto, seleziona la riga per cambiare l\'obiettivo %2$s\n\nPer rimuovere un %1$s, trascina orizzontalmente la riga.  Riordina un %1$s nella lista trascinando verticalmente il punto di ancoraggio a sinistra.\n\nPer ripulire o resettare a default, seleziona l\'icona Reimposta.</string>
-    <string name="shortcut_action_help_delete_last_entry">Rimuovere ogni %1$s nella lista disattiverà completamente la fuzione.</string>
+    <string name="shortcut_action_help_delete_last_entry">Rimuovere ogni %1$s nella lista disattiverà completamente la funzione.</string>
     <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Rimuovendo ogni %1$s dalla lista disattiverà il secondo livello della Pie.</string>
     <string name="shortcut_picker_choose_longpress_action">Scegli l\'azione della pressione prolungata:</string>
     <string name="shortcut_picker_choose_new_action">Scegli nuova azione:</string>
@@ -679,7 +681,7 @@
     <string name="lockscreen_mdshortcuts_title">Scorciatoie a metà schermo</string>
     <string name="lockscreen_mdshortcuts_summary">Visualizza o cambia i collegamenti personalizzati nella schermata di sblocco</string>
     <string name="lockscreen_shorcuts_launch_type_title">Tipo di tocco sulla scorciatoia</string>
-    <string name="lockscreen_shortcuts_single_tap">Clicca</string>
+    <string name="lockscreen_shortcuts_single_tap">Tocco</string>
     <string name="lockscreen_shortcuts_double_tap">Doppio tocco</string>
     <string name="lockscreen_shortcuts_longpress">Pressione prolungata</string>
     <string name="shortcuts_applications">App</string>
@@ -927,8 +929,8 @@
     <string name="corner_fwvals">Usa i valori del framework</string>
     <string name="corner_fwvals_summary">Utile se lo schermo del dispositivo, in realtà, ha gli angoli arrotondati</string>
     <!-- ambient visualizer -->
-    <string name="ambient_visualizer_title">Mostra LS Visualizer su Ambient Display</string>
-    <string name="ambient_visualizer_summary">Mostra le barre di visualizzazione anche sulla visualizzazione ambient (ma meno opaca)</string>
+    <string name="ambient_visualizer_title">Mostra visualizzatore audio in Ambient Display</string>
+    <string name="ambient_visualizer_summary">Mostra le barre di visualizzazione anche sulla visualizzazione ambient (semitrasparente)</string>
     <!-- Lockscreen items -->
     <string name="lockscreen_hide_items_category">Nascondi elementi</string>
     <string name="lockscreen_clock_title">Widget Orologio</string>
@@ -994,11 +996,21 @@
     <string name="smart_pixels_shift">Previeni burn-in spostando i pixel</string>
     <string name="smart_pixels_warning_text">Smart Pixels è una funzione di risparmio energetico. A seconda del numero di pixel che decidi di disattivare, potresti vedere un miglioramento significativo della durata della batteria. Per una buona esperienza utente, raccomandiamo di impostare la quantità di pixel disabili al 75% durante lo spostamento ogni 10 minuti.</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">Orologio barra di stato</string>
+    <string name="status_bar_clock_summary_on">Visualizza orologio barra di stato</string>
+    <string name="status_bar_clock_summary_off">Nascondi orologio barra di stato</string>
+    <string name="status_bar_clock_seconds_summary_on">Visualizza orologio con secondi</string>
+    <string name="status_bar_clock_seconds_summary_off">Visualizza orologio normalmente</string>
+    <string name="status_bar_clock_adv_title">Opzioni avanzate ora e data</string>
+    <string name="status_bar_clock_adv_summary">Modifica l\'orologio secondo i tuoi gusti</string>
+    <string name="status_bar_time_cat">Orologio</string>
     <string name="status_bar_show_clock_title">Mostra l\'orologio &amp; la data</string>
     <string name="clock_title_enable">Allineamento</string>
+    <string name="clock_position">Posizione orologio</string>
     <string name="clock_position_right">Orologio a destra</string>
     <string name="clock_position_center">Orologio al centro</string>
     <string name="clock_position_left">Orologio a sinistra</string>
+    <string name="status_bar_clock_seconds_title">Mostra i secondi nell\'orologio</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
     <string name="am_pm_clock_normal">Dimensione carattere normale</string>
@@ -1023,8 +1035,21 @@
     <string name="menu_cancel">Annulla</string>
     <string name="menu_save">Salva</string>
     <!-- Active edge -->
+    <string name="active_edge_title">Bordo attivo</string>
+    <string name="active_edge_summary">Una versione avanzata della funzione sulla pressione come nei Pixel</string>
+    <string name="active_edge_actions_title">Azione pressione</string>
+    <string name="active_edge_long_squeeze_actions_title">Azione pressione prolungata</string>
+    <string name="active_edge_sensitivity_title">Sensibilità della pressione</string>
+    <string name="active_edge_wake_title">Consenti quando lo schermo è spento</string>
+    <string name="active_edge_wake_summary">Attiva qualsiasi azione anche quando lo schermo è spento</string>
+    <string name="active_edge_footer_info">Non tutte le azioni di pressione (bordo attivo) possono attivare lo schermo del dispositivo</string>
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Filtro copertina album su schermata blocco</string>
     <string name="lockscreen_cover_filter_none">Nessuno</string>
+    <string name="lockscreen_cover_filter_grayscale">Scala di grigi</string>
+    <string name="lockscreen_cover_filter_tint">Accento colorato</string>
+    <string name="lockscreen_cover_filter_blur">Sfocatura</string>
+    <string name="lockscreen_cover_filter_grayblur">Scala grigia e sfocatura</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Pulsante termina app</string>
     <string name="notification_guts_kill_app_button_summary">Mostra un pulsante per la chiusura forzata nel menù a pressione prolungata delle notifiche</string>
@@ -1034,11 +1059,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">Recenti AOSP</string>
     <string name="slim_recents_category">Recenti Slim</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">Se il gesto di scorrimento su home è stato impostato per visualizzare i recenti, questi possono essere visualizzati solo in formato standard</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Recenti Slim</string>
     <string name="slim_recents_settings_title">Impostazioni recenti slim</string>
     <string name="recents_max_apps_title">Applicazioni massime consentite</string>
     <string name="recent_panel_scale_title">Dimensioni</string>
+    <string name="recent_panel_expanded_mode_title">Modalità estesa</string>
     <string name="recent_panel_expanded_mode_summary">Modalità anteprima espansa per le applicazioni recenti</string>
     <string name="recent_panel_expanded_mode_auto">Auto (predefinita)</string>
     <string name="recent_panel_expanded_mode_always">Sempre</string>
@@ -1046,8 +1073,13 @@
     <string name="recent_panel_expanded_mode_disabled">Disabilitato</string>
     <string name="recent_panel_bg_color_title">Colore di sfondo del pannello</string>
     <string name="recent_card_bg_color_title">Colore di sfondo della scheda</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Pressione lunga sulla barra di memoria</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Cancella le attività recenti tenendo premuto a lungo sulla barra della memoria</string>
     <string name="slim_icon_pack_title">Pacchetto icone</string>
     <string name="slim_icon_pack_summary">Applica un pacchetto icone personalizzate per le applicazioni del pannello</string>
+    <string name="slim_recents_corner_radius_title">Raggio degli angoli</string>
+    <string name="slim_recents_aicp_empty_drawable_title">Recenti vuoti</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Immagine da visualizzare quando non ci sono app recenti</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Visualizza sul lato sinistro</string>
     <string name="recent_panel_lefty_mode_summary">Visualizza il pannello delle applicazioni recenti sul lato sinistro</string>
@@ -1058,6 +1090,11 @@
     <string name="slim_blacklist_add_apps_summary">Tocca qui per aggiungere, tocca l\'app aggiunta per rimuoverla</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">Barra della memoria</string>
+    <string name="slim_recents_mem_display_title">Mostra la barra di memoria</string>
+    <string name="slim_recents_mem_display_summaryOn">Barra di memoria abilitata</string>
+    <string name="slim_recents_mem_display_summaryOff">Barra di memoria disabilitata</string>
+    <string name="slim_recents_mem_display_color">Colore barra di memoria</string>
+    <string name="slim_recents_mem_display_text_color">Colore del testo della barra di memoria</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Pulsante cancella tutto</string>
     <string name="show_clear_all_recents_button_summary">Mostra pulsante cancella tutto</string>
@@ -1088,13 +1125,24 @@
     <string name="smart_pulldown_dismissable">nessuna rimovibile</string>
     <string name="smart_pulldown_ongoing">nessuna in corso</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">Disabilita impostazioni rapide quando bloccato</string>
+    <string name="lockscreen_qs_disabled_summary">Disabilita l\'impostazione rapida su schermo con blocco sicuro</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Mostra impostazioni di ritaglio</string>
+    <string name="cutout_main_summary">Hanno davvero tagliato gli angoli con questo</string>
+    <string name="display_cutout_style_title">Stile ritaglio</string>
     <string name="display_cutout_style_normal">Normale</string>
+    <string name="display_cutout_style_immerse">Immersivo</string>
     <string name="display_cutout_style_hide">Nascosta</string>
+    <string name="stock_statusbar_in_hide">Altezza della barra di stato predefinita</string>
+    <string name="stock_statusbar_in_hide_summary">Usa l\'altezza della barra di stato predefinita in \"nascondi\"</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
-    <string name="no_no_summary_locked">Questa funzionalità non è disponibile perché non hai una lockscreen protetta. </string>
+    <string name="no_no_summary_locked">Questa funzione non è disponibile perché non hai una schermata di blocco protetta. </string>
     <string name="no_no_summary_go">Questa funzionalità non è disponibile perché hai abilitato Android Go.</string>
     <string name="no_no_summary_owner">Questa funzionalità non è disponibile perché non hai un messaggio di informazioni del proprietario</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">Vedi il log delle modifiche</string>
+    <string name="bootleg_changelog_summary">Vedi le ultime modifiche aggiunte su questa build</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">Scorri verso l\'alto per cambiare app</string>
 </resources>

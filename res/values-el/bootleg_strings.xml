@@ -246,6 +246,7 @@
     <string name="shortcuts_icon_picker_play">Αναπαραγωγή</string>
     <string name="shortcuts_icon_picker_quicksettings">Γρήγορες Ρυθμίσεις</string>
     <string name="shortcuts_icon_picker_search">Αναζήτηση</string>
+    <string name="shortcuts_icon_picker_sms">Μηνύματα</string>
     <string name="shortcut_action_power_menu">Μενού ενέργειας</string>
     <string name="weather">Καιρός</string>
     <string name="google">Google</string>
@@ -285,6 +286,7 @@
     <!-- QS Headers -->
     <!-- Volume Panel on Left -->
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view_media_title">Πολυμέσα</string>
     <string name="audio_panel_view_ringer_title">Κουδούνισμα</string>
     <!-- Smart Pixels -->
     <!-- Statusbar Clock options -->

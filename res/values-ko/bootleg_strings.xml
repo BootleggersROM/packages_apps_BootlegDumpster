@@ -19,7 +19,7 @@
     <string name="gestures_title">제스쳐</string>
     <string name="gestures_settings_summary">보다 쉽게 만들기 위해 몇가지 제스처 설정</string>
     <string name="lockscreen_title">잠금화면</string>
-    <string name="lockscreen_settings_summary">LS에서 레이아웃 및 기능 변경</string>
+    <string name="lockscreen_settings_summary">잠금화면 레이아웃 및 기능 변경</string>
     <string name="misc_title">기타</string>
     <string name="misc_settings_summary">Some random stuff that doesn\'t go in other options</string>
     <string name="navbar_title">Navbar features</string>

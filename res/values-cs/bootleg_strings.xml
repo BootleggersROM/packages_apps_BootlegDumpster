@@ -40,6 +40,7 @@
     <string name="about_bootleg_title">O Bootleggers</string>
     <string name="about_bootleg_summary">Některé informace o nás jen v případě, že jste zvědaví</string>
     <string name="about_bootleg_small_title">O nás</string>
+    <string name="about_bootleg_small_summary">Další informace o našem projektu</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">O nás</string>
     <string name="bootleg_ab_title_whoami">Co je Bootleggers?</string>
@@ -148,6 +149,7 @@
     <string name="statusbar_tuner_summary">Možnosti baterie a ikon stavové lišty k zakázání</string>
     <string name="navbar_tuner_title">Upravit navigační panel</string>
     <string name="navbar_tuner_summary">Upravit rozložení navigačního panelu a tlačítek</string>
+    <string name="lockscreen_shortcuts_title">Dolní zkratky na zamykací obrazovce</string>
     <string name="lockscreen_shortcuts_summary">Nastavit dolní zkratky zamykací obrazovky</string>
     <string name="vol_dnd_category_title">Režim \"Nerušit\"</string>
     <string name="volbtn_down_zen_title">Hlasitost- pro režim \"Nerušit\"</string>
@@ -994,11 +996,21 @@
     <string name="smart_pixels_shift">Zabraňuje vypalování častým přepínáním pixelů</string>
     <string name="smart_pixels_warning_text">Smart Pixels je funkce pro úsporu energie. V závislosti na počtu pixelů, které se rozhodnete vypnout, by mohlo dojít k výraznému zlepšení životnosti baterie. Pro dobrý uživatelský zážitek doporučujeme nastavit množství vypnutých pixelů na 75 procent při přesunu každých 10 minut.</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">Hodiny na stavové liště</string>
+    <string name="status_bar_clock_summary_on">Zobrazení hodin stavové lišty</string>
+    <string name="status_bar_clock_summary_off">Skrytí hodiny stavové lišty</string>
+    <string name="status_bar_clock_seconds_summary_on">Zobrazení hodin se sekundami</string>
+    <string name="status_bar_clock_seconds_summary_off">Zobrazení hodin normálně</string>
+    <string name="status_bar_clock_adv_title">Rozšířené možnosti hodin a data</string>
+    <string name="status_bar_clock_adv_summary">Nastavte hodiny podle svého vkusu</string>
+    <string name="status_bar_time_cat">Čas</string>
     <string name="status_bar_show_clock_title">Zobrazit hodiny &amp; datum</string>
     <string name="clock_title_enable">Zarovnání</string>
+    <string name="clock_position">Pozice hodin</string>
     <string name="clock_position_right">Hodiny vpravo</string>
     <string name="clock_position_center">Hodiny uprostřed</string>
     <string name="clock_position_left">Hodiny vlevo</string>
+    <string name="status_bar_clock_seconds_title">Zobrazit sekundy hodin</string>
     <string name="status_bar_am_pm_title">dop./odp.</string>
     <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
     <string name="am_pm_clock_normal">Normální velikost písma</string>
@@ -1023,8 +1035,21 @@
     <string name="menu_cancel">Zrušit</string>
     <string name="menu_save">Uložit</string>
     <!-- Active edge -->
+    <string name="active_edge_title">Active Edge</string>
+    <string name="active_edge_summary">Pokročilá verze funkce zmáčknutím Pixel</string>
+    <string name="active_edge_actions_title">Akce při zmáčknutí</string>
+    <string name="active_edge_long_squeeze_actions_title">Akce při dlouhém zmáčknutí</string>
+    <string name="active_edge_sensitivity_title">Citlivost zmáčknutí</string>
+    <string name="active_edge_wake_title">Povolit při vypnuté obrazovce</string>
+    <string name="active_edge_wake_summary">Spuštění libovolné akce i při vypnuté obrazovce</string>
+    <string name="active_edge_footer_info">Ne všechny akce zmáčknutím v Active Edge mají schopnost aktivovat obrazovku</string>
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Filtr obalu alba na zamykací obrazovce</string>
     <string name="lockscreen_cover_filter_none">Nic</string>
+    <string name="lockscreen_cover_filter_grayscale">Odstíny šedi</string>
+    <string name="lockscreen_cover_filter_tint">Barva odstínu</string>
+    <string name="lockscreen_cover_filter_blur">Rozostření</string>
+    <string name="lockscreen_cover_filter_grayblur">Odstíny šedi a rozostření</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Tlačítko \"Ukončit aplikaci\"</string>
     <string name="notification_guts_kill_app_button_summary">Zobrazit tlačítko \"Ukončit aplikaci\" při dlouhém stisku v nabídce oznámení</string>
@@ -1034,11 +1059,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">AOSP nedávné</string>
     <string name="slim_recents_category">Slim přepínač aplikací</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">Pokud bylo gesto potáhnutím nastaveno tak, aby zobrazovalo nedávné, můžou být nedávné zobrazeny pouze ve standardním formátu</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Slim přepínač aplikací</string>
     <string name="slim_recents_settings_title">Nastavení Slim nedávných aplikací</string>
     <string name="recents_max_apps_title">Maximální počet povolených aplikací</string>
     <string name="recent_panel_scale_title">Velikost</string>
+    <string name="recent_panel_expanded_mode_title">Rozšířený režim</string>
     <string name="recent_panel_expanded_mode_summary">Režim rozšířeného náhledu nedávných úloh</string>
     <string name="recent_panel_expanded_mode_auto">Automaticky (výchozí)</string>
     <string name="recent_panel_expanded_mode_always">Vždy</string>
@@ -1046,8 +1073,13 @@
     <string name="recent_panel_expanded_mode_disabled">Zakázáno</string>
     <string name="recent_panel_bg_color_title">Barva pozadí panelu</string>
     <string name="recent_card_bg_color_title">Barva pozadí karty</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Dlouhý stisk pruhu baterie</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Vymazat nedávné aplikace dlouhým stiskem pruhu baterie</string>
     <string name="slim_icon_pack_title">Balíček ikon</string>
     <string name="slim_icon_pack_summary">Použít vlastní balíček ikon pro aplikace v panelu</string>
+    <string name="slim_recents_corner_radius_title">Poloměr rohů karty</string>
+    <string name="slim_recents_aicp_empty_drawable_title">Obrázek AICP prázdného panelu nedávných</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Obrázek, který se zobrazí v prázdném panelu nedávných</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Zobrazit na levém okraji</string>
     <string name="recent_panel_lefty_mode_summary">Zobrazit panel nedávných aplikací na levém okraji</string>
@@ -1058,6 +1090,11 @@
     <string name="slim_blacklist_add_apps_summary">Klepnutím sem přidáte, klepnutím na přidanou aplikaci odstraníte</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">Ukazatel paměti</string>
+    <string name="slim_recents_mem_display_title">Zobrazit ukazatel paměti</string>
+    <string name="slim_recents_mem_display_summaryOn">Ukazatel paměti je povolen</string>
+    <string name="slim_recents_mem_display_summaryOff">Ukazatel paměti je zakázán</string>
+    <string name="slim_recents_mem_display_color">Barva ukazatele paměti</string>
+    <string name="slim_recents_mem_display_text_color">Barva textu ukazatele paměti</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
     <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko \"Vyčistit vše\"</string>
@@ -1088,13 +1125,24 @@
     <string name="smart_pulldown_dismissable">žádné zrušitelné</string>
     <string name="smart_pulldown_ongoing">žádné probíhající</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">Zakázat rychlé nastavení při uzamčení</string>
+    <string name="lockscreen_qs_disabled_summary">Zakázat rozšíření rychlého nastavení na zabezpečené uzamčené obrazovce</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Nastavení zobrazení výřezu</string>
+    <string name="cutout_main_summary">S tímhle opravdu zmenšili rohy</string>
+    <string name="display_cutout_style_title">Styl výřezu</string>
     <string name="display_cutout_style_normal">Normální</string>
+    <string name="display_cutout_style_immerse">Vnořený</string>
     <string name="display_cutout_style_hide">Skrýt</string>
+    <string name="stock_statusbar_in_hide">Výchozí výška stavové lišty</string>
+    <string name="stock_statusbar_in_hide_summary">Použít výchozí výšku stavové lišty při skrytí</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">Tato funkce je nedostupná, protože nemáte zabezpečenou zamykací obrazovku. </string>
     <string name="no_no_summary_go">Tato funkce je nedostupná, protože máte aktivovanou službu Android Go.</string>
     <string name="no_no_summary_owner">Tato funkce je nedostupná, protože nemáte zprávu s informacemi o vlastníkovi.</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">Zobrazit seznam změn</string>
+    <string name="bootleg_changelog_summary">Podívejte se na nejnovější změny přidané do tohoto sestavení</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">Potáhnutím nahoru přepnete aplikace</string>
 </resources>

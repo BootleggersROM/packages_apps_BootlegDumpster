@@ -40,12 +40,14 @@
     <string name="about_bootleg_title">Tentang Bootleggers</string>
     <string name="about_bootleg_summary">Beberapa informasi tentang kami, jika anda ingin mengetahuinya</string>
     <string name="about_bootleg_small_title">Tentang kami</string>
+    <string name="about_bootleg_small_summary">Beberapa informasi tentang proyek kami</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Tentang kami</string>
     <string name="bootleg_ab_title_whoami">Apa itu Bootleggers?</string>
     <string name="bootleg_ab_summary_whoami">Bootleggers adalah sebuah ROM berisi fitur dan aplikasi dengan tujuan untuk membuat anda merasa seperti 家. Kami harap anda suka dan nikmati pengalaman dari kami.</string>
     <string name="bootleg_ab_title_thankssec">Terima kasih</string>
     <string name="bootleg_ab_summary_thankssec">Sentuh ini untuk melihat siapa yang membuat dan yang menginspirasi proyek ini. Tak lupa, terimakasih banyak kepada %s untuk membawa ini ke %s.</string>
+    <string name="bootleg_ab_summary_thanksclean">Sentuh di sini untuk melihat siapa yang membuat dan menginspirasi proyek ini.</string>
     <string name="bootleg_pref_title_romextras">Fitur ekstra dan addons</string>
     <string name="bootleg_ex_title_featurelist">Daftar fitur</string>
     <string name="bootleg_ex_summary_featurelist">Lihat fitur terbaru pada build ini</string>
@@ -120,9 +122,12 @@
     <string name="global_actions_screenshot">Tangkapan layar</string>
     <string name="global_actions_screenrecord">Rekam layar</string>
     <string name="global_actions_flashlight">Senter</string>
+    <string name="global_actions_advanced_reboot_summary">Saat memulai ulang juga menunjukkan opsi untuk pemulihan dan bootloader</string>
     <!-- Lockscreen charging current indicator  -->
+    <string name="lockscreen_charging_current_title">Informasi pengisian daya</string>
     <!-- Volume swap buttons -->
     <!--SystemUI Tuner -->
+    <string name="vol_zen_title">Tombol jangan ganggu</string>
     <!-- Toast app icon -->
     <!-- Power menu on lockscreen -->
     <!-- AOKP custom system animations -->

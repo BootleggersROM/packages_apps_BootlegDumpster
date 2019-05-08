@@ -40,6 +40,7 @@
     <string name="about_bootleg_title">关于 Bootleggers</string>
     <string name="about_bootleg_summary">一些关于我们的信息，防止你对此很好奇</string>
     <string name="about_bootleg_small_title">关于我们</string>
+    <string name="about_bootleg_small_summary">有关我们项目的更多信息</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">关于我们</string>
     <string name="bootleg_ab_title_whoami">什么是 Bootleggers？</string>
@@ -148,6 +149,7 @@
     <string name="statusbar_tuner_summary">禁用电池选项和状态栏图标</string>
     <string name="navbar_tuner_title">编辑导航栏</string>
     <string name="navbar_tuner_summary">编辑导航栏布局和按钮</string>
+    <string name="lockscreen_shortcuts_title">锁屏界面快捷方式</string>
     <string name="lockscreen_shortcuts_summary">管理锁定屏幕底部的快捷方式</string>
     <string name="vol_dnd_category_title">勿扰模式</string>
     <string name="volbtn_down_zen_title">音量减键勿扰</string>
@@ -994,11 +996,21 @@
     <string name="smart_pixels_shift">通过每像素移动防止燃烧</string>
     <string name="smart_pixels_warning_text">智能像素是一个节能功能。取决于您决定关闭多少像素，您可以看到电池寿命的重大改进。对于一个良好的用户体验，我们建议设置残疾的像素，每 10 分钟改变。</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">状态栏时钟</string>
+    <string name="status_bar_clock_summary_on">显示状态栏时钟</string>
+    <string name="status_bar_clock_summary_off">隐藏状态栏时钟</string>
+    <string name="status_bar_clock_seconds_summary_on">显示秒</string>
+    <string name="status_bar_clock_seconds_summary_off">正常显示时钟</string>
+    <string name="status_bar_clock_adv_title">高级时钟 日期选项</string>
+    <string name="status_bar_clock_adv_summary">根据您的喜好调整时钟</string>
+    <string name="status_bar_time_cat">时间</string>
     <string name="status_bar_show_clock_title">显示时钟和日期</string>
     <string name="clock_title_enable">对齐</string>
+    <string name="clock_position">时钟样式</string>
     <string name="clock_position_right">时钟居右</string>
     <string name="clock_position_center">时钟居中</string>
     <string name="clock_position_left">时钟居左</string>
+    <string name="status_bar_clock_seconds_title">显示时钟秒数</string>
     <string name="status_bar_am_pm_title">上午/下午</string>
     <string name="status_bar_am_pm_info">启用24小时制</string>
     <string name="am_pm_clock_normal">正常字体大小</string>
@@ -1023,6 +1035,13 @@
     <string name="menu_cancel">取消</string>
     <string name="menu_save">保存</string>
     <!-- Active edge -->
+    <string name="active_edge_title">边缘压感</string>
+    <string name="active_edge_summary">Pixel 压缩功能的高级版本</string>
+    <string name="active_edge_actions_title">挤压动作</string>
+    <string name="active_edge_long_squeeze_actions_title">长挤压动作</string>
+    <string name="active_edge_sensitivity_title">挤压灵敏度</string>
+    <string name="active_edge_wake_title">屏幕关闭时阻止</string>
+    <string name="active_edge_wake_summary">当屏幕关闭时触发操作</string>
     <!-- Lockscreen cover art filter -->
     <string name="lockscreen_cover_filter_none">无</string>
     <!-- Notification guts kill app button -->

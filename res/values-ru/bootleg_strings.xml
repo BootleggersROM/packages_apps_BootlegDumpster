@@ -40,6 +40,7 @@
     <string name="about_bootleg_title">О Bootleggers</string>
     <string name="about_bootleg_summary">Немного информации о нас, если вам интересно</string>
     <string name="about_bootleg_small_title">О нас</string>
+    <string name="about_bootleg_small_summary">Еще немного информации о нашем проекте</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">О нас</string>
     <string name="bootleg_ab_title_whoami">Что такое Bootleggers?</string>
@@ -148,6 +149,7 @@
     <string name="statusbar_tuner_summary">Параметры значка батареи и значков в строке состояния</string>
     <string name="navbar_tuner_title">Изменить панель навигации</string>
     <string name="navbar_tuner_summary">Изменить панели навигации и настроить кнопки</string>
+    <string name="lockscreen_shortcuts_title">Ярлыки в нижних углах</string>
     <string name="lockscreen_shortcuts_summary">Настроить шорткаты в нижних углах экрана блокировки</string>
     <string name="vol_dnd_category_title">Режим «Не беспокоить»</string>
     <string name="volbtn_down_zen_title">Включение режима \"Не беспокоить\" снижением громкости</string>
@@ -994,11 +996,21 @@
     <string name="smart_pixels_shift">Предотвратить выгорание, сдвигая пиксели каждые</string>
     <string name="smart_pixels_warning_text">Smart Pixels - это функция энергосбережения. В зависимости от того, сколько пикселей вы хотите отключить, вы можете увидеть значительное улучшение времени автономной работы. Для хорошего пользовательского интерфейса мы рекомендуем установить количество отключенных пикселей до 75 процентов при переключении каждые 10 минут.</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">Часы в строке состояния</string>
+    <string name="status_bar_clock_summary_on">Отображение часов в строке состояния</string>
+    <string name="status_bar_clock_summary_off">Скрыть часы в строке состояния</string>
+    <string name="status_bar_clock_seconds_summary_on">Отображение часов с секундами</string>
+    <string name="status_bar_clock_seconds_summary_off">Показывать часы обычно</string>
+    <string name="status_bar_clock_adv_title">Расширенные параметры часов и даты</string>
+    <string name="status_bar_clock_adv_summary">Настроить часы согласно вашим вкусам</string>
+    <string name="status_bar_time_cat">Время</string>
     <string name="status_bar_show_clock_title">Показывать часы и дату</string>
     <string name="clock_title_enable">Положение часов</string>
+    <string name="clock_position">Расположение часов</string>
     <string name="clock_position_right">Часы справа</string>
     <string name="clock_position_center">Часы по центру</string>
     <string name="clock_position_left">Часы слева</string>
+    <string name="status_bar_clock_seconds_title">Показывать секунды</string>
     <string name="status_bar_am_pm_title">12-часовой формат времени</string>
     <string name="status_bar_am_pm_info">24-часовой формат активирован</string>
     <string name="am_pm_clock_normal">Стандартный размер шрифта</string>
@@ -1023,8 +1035,21 @@
     <string name="menu_cancel">Отмена</string>
     <string name="menu_save">Сохранить</string>
     <!-- Active edge -->
+    <string name="active_edge_title">Активные Edge</string>
+    <string name="active_edge_summary">Продвинутая версия функции Pixel\'a \'Активные бока\'</string>
+    <string name="active_edge_actions_title">Действие после сжатия</string>
+    <string name="active_edge_long_squeeze_actions_title">Действие по долгому сжиманию</string>
+    <string name="active_edge_sensitivity_title">Чувствительность сжатия</string>
+    <string name="active_edge_wake_title">Разрешить, при выключенном экране</string>
+    <string name="active_edge_wake_summary">Запустить любое действие, даже если экран выключен</string>
+    <string name="active_edge_footer_info">Не все действия сжатия в Активных Edge имеют возможность активировать экран</string>
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Фильтр обложки альбома на заблокированном экране</string>
     <string name="lockscreen_cover_filter_none">Ничего</string>
+    <string name="lockscreen_cover_filter_grayscale">Оттенки серого</string>
+    <string name="lockscreen_cover_filter_tint">Тон акцента</string>
+    <string name="lockscreen_cover_filter_blur">Размытие</string>
+    <string name="lockscreen_cover_filter_grayblur">Оттенки серого и размытие</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Кнопка закрытия приложения</string>
     <string name="notification_guts_kill_app_button_summary">Показывать кнопку закрытия приложения при долгом нажатии на уведомление</string>
@@ -1034,11 +1059,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">Панель недавних приложений AOSP</string>
     <string name="slim_recents_category">Панель недавних приложений Slim</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">При использовании свайпа вверх по кнопке \"Домой\" для открытия недавних поддерживается только стоковое отображение недавних приложений</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Панель недавних приложений Slim</string>
     <string name="slim_recents_settings_title">Настройки меню недавних приложений от Slim</string>
     <string name="recents_max_apps_title">Максимально допустимое количество приложений</string>
     <string name="recent_panel_scale_title">Размер</string>
+    <string name="recent_panel_expanded_mode_title">Расширенный режим</string>
     <string name="recent_panel_expanded_mode_summary">Расширенный режим просмотра недавних приложений</string>
     <string name="recent_panel_expanded_mode_auto">Автоматически (по умолчанию)</string>
     <string name="recent_panel_expanded_mode_always">Всегда</string>
@@ -1046,8 +1073,13 @@
     <string name="recent_panel_expanded_mode_disabled">Отключено</string>
     <string name="recent_panel_bg_color_title">Цвет фона панели</string>
     <string name="recent_card_bg_color_title">Цвет фона панели</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Долгое нажатие на панель памяти</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Очищать недавние приложения при длительном нажатии на панель памяти</string>
     <string name="slim_icon_pack_title">Пакет иконок</string>
     <string name="slim_icon_pack_summary">Применить пользовательский набор значков для приложений в панели</string>
+    <string name="slim_recents_corner_radius_title">Радиус скругления углов панели</string>
+    <string name="slim_recents_aicp_empty_drawable_title">Картинка AICP для пустой панели недавних приложений</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Показываьт картинку AICP, когда список недавних приложений пуст</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Показывать у левого края</string>
     <string name="recent_panel_lefty_mode_summary">Отображать панель недавних приложений с левой стороны экрана</string>
@@ -1058,6 +1090,11 @@
     <string name="slim_blacklist_add_apps_summary">Нажмите здесь, чтобы добавить новое приложение; нажмите на добавленное приложение, чтобы удалить его</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">Шкала использования ОЗУ</string>
+    <string name="slim_recents_mem_display_title">Показывать шкалу использования ОЗУ</string>
+    <string name="slim_recents_mem_display_summaryOn">Включить отображение шкалы использования ОЗУ</string>
+    <string name="slim_recents_mem_display_summaryOff">Отключить отображение шкалы использования ОЗУ</string>
+    <string name="slim_recents_mem_display_color">Цвет шкалы использования ОЗУ</string>
+    <string name="slim_recents_mem_display_text_color">Цвет текста шкалы использования ОЗУ</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Кнопка «Очистить всё»</string>
     <string name="show_clear_all_recents_button_summary">Показывать кнопку «Очистить всё»</string>
@@ -1088,13 +1125,24 @@
     <string name="smart_pulldown_dismissable">Нет удаляемых</string>
     <string name="smart_pulldown_ongoing">Нет постоянных</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки на экране блокировки</string>
+    <string name="lockscreen_qs_disabled_summary">Запретить выдвигать панель на экране блокировки</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Настройки отображения выреза</string>
+    <string name="cutout_main_summary">Они действительно режут этим углы</string>
+    <string name="display_cutout_style_title">Стиль выреза</string>
     <string name="display_cutout_style_normal">По умолчанию</string>
+    <string name="display_cutout_style_immerse">Полноэкранный режим</string>
     <string name="display_cutout_style_hide">Скрыть</string>
+    <string name="stock_statusbar_in_hide">Стоковая высота строки состояния </string>
+    <string name="stock_statusbar_in_hide_summary">Использовать высоту строки состояния по умолчанию в скрытом режиме</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">Эта функция недоступна, потому что у вас не настроена защита на экране блокировки. </string>
     <string name="no_no_summary_go">Эта функция недоступна, потому что вы используете Android Go вид недавних приложений.</string>
     <string name="no_no_summary_owner">Эта функция недоступна, потому что у вас не установлено сообщение о владельце</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">Смотрите журнал изменений</string>
+    <string name="bootleg_changelog_summary">Посмотреть последние изменения, добавленные в эту сборку</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">Свайп вверх для переключения приложений</string>
 </resources>
