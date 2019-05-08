@@ -40,6 +40,7 @@
     <string name="about_bootleg_title">Bootleggers hakkında</string>
     <string name="about_bootleg_summary">Bizim hakkımızda bazı bilgiler edinin</string>
     <string name="about_bootleg_small_title">Hakkımızda</string>
+    <string name="about_bootleg_small_summary">Projemiz hakkında biraz daha bilgi</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Hakkımızda</string>
     <string name="bootleg_ab_title_whoami">Bootleggers nedir?</string>
@@ -148,6 +149,7 @@
     <string name="statusbar_tuner_summary">Pil seçenekleri ve devre dışı bırakılacak durum çubuğu simgeleri</string>
     <string name="navbar_tuner_title">Gezinme çubuğunu düzenle</string>
     <string name="navbar_tuner_summary">Gezinme çubuğu düzenini ve tuşları düzenle</string>
+    <string name="lockscreen_shortcuts_title">Alt kilit ekranı kısayolları</string>
     <string name="lockscreen_shortcuts_summary">Kilit ekranı alt kısayollarını yönetin</string>
     <string name="vol_dnd_category_title">Rahatsız etmeyin modu</string>
     <string name="volbtn_down_zen_title">Rahatsız etmeyinde ses seviyesi</string>
@@ -995,11 +997,21 @@
     <string name="smart_pixels_shift">Yanmaları önler ve sık sık pikselleri kaydırır</string>
     <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksele karar verdiğinize bağlı olarak pil ömründe önemli bir iyileşme görebilirsiniz. İyi bir kullanıcı deneyimi için devre dışı bırakılmış piksel miktarını yüzde 75 olarak ayarlamanızı öneririz.</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">Durum çubuğu saati</string>
+    <string name="status_bar_clock_summary_on">Durum çubuğunda saat gösteriliyor</string>
+    <string name="status_bar_clock_summary_off">Durum çubuğu saati gizleniyor</string>
+    <string name="status_bar_clock_seconds_summary_on">Saat saniye ile gösteriliyor</string>
+    <string name="status_bar_clock_seconds_summary_off">Saat normal olarak gösteriliyor</string>
+    <string name="status_bar_clock_adv_title">Gelişmiş saat ve tarih seçenekleri</string>
+    <string name="status_bar_clock_adv_summary">Zevkinize göre saati özelleştirin</string>
+    <string name="status_bar_time_cat">Zaman</string>
     <string name="status_bar_show_clock_title">Saati ve tarihi göster</string>
     <string name="clock_title_enable">Konum</string>
+    <string name="clock_position">Saat konumu</string>
     <string name="clock_position_right">Saat sağda</string>
     <string name="clock_position_center">Saat ortada</string>
     <string name="clock_position_left">Saat solda</string>
+    <string name="status_bar_clock_seconds_title">Saatte saniye göster</string>
     <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
     <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
     <string name="am_pm_clock_normal">Normal yazı boyutu</string>
@@ -1024,8 +1036,21 @@
     <string name="menu_cancel">İptal</string>
     <string name="menu_save">Kaydet</string>
     <!-- Active edge -->
+    <string name="active_edge_title">Aktif kenar</string>
+    <string name="active_edge_summary">Pixel sıkma özelliğinin gelişmiş bir sürümü</string>
+    <string name="active_edge_actions_title">Sıkma eylemi</string>
+    <string name="active_edge_long_squeeze_actions_title">Uzun sıkma hareketi</string>
+    <string name="active_edge_sensitivity_title">Sıkma hassasiyeti</string>
+    <string name="active_edge_wake_title">Ekran kapalıyken izin ver</string>
+    <string name="active_edge_wake_summary">Ekran kapalıyken bile herhangi bir işlemi başlat</string>
+    <string name="active_edge_footer_info">Aktif kenar içindeki sıkma işlemlerinin tümü ekranı etkinleştirme özelliğine sahip değildir</string>
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Kilit ekranı albüm kapağı filtresi</string>
     <string name="lockscreen_cover_filter_none">Yok</string>
+    <string name="lockscreen_cover_filter_grayscale">Gri tonlama</string>
+    <string name="lockscreen_cover_filter_tint">Vurgu renkli</string>
+    <string name="lockscreen_cover_filter_blur">Bulanık</string>
+    <string name="lockscreen_cover_filter_grayblur">Gri tonlamalı ve bulanık</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Uygulama sonlandırma tuşu</string>
     <string name="notification_guts_kill_app_button_summary">Bildirimlere uzun basma menüsünde uygulama sonlandırma tuşunu göster</string>
@@ -1035,11 +1060,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">Aosp son uygulamalar</string>
     <string name="slim_recents_category">Slim son uygulamalar</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">Son uygulamaları açmak için ana ekran tuşunu yukarı kaydır, sadece varsayılan son uygulamalar da desteklenir</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Slim son uygulamalar</string>
     <string name="slim_recents_settings_title">Slim ayarları</string>
     <string name="recents_max_apps_title">Maksimum izin verilen uygulama</string>
     <string name="recent_panel_scale_title">Boyut</string>
+    <string name="recent_panel_expanded_mode_title">Genişletilmiş mod</string>
     <string name="recent_panel_expanded_mode_summary">Son uygulamalar önizleme modunu genişletir</string>
     <string name="recent_panel_expanded_mode_auto">Otomatik (varsayılan)</string>
     <string name="recent_panel_expanded_mode_always">Her zaman</string>
@@ -1047,8 +1074,13 @@
     <string name="recent_panel_expanded_mode_disabled">Devre dışı</string>
     <string name="recent_panel_bg_color_title">Panel arkaplan rengi</string>
     <string name="recent_card_bg_color_title">Kart arkaplan rengi</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Bellek çubuğuna uzun basma</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Bellek çubuğuna uzun basarak son uygulamaları temizle</string>
     <string name="slim_icon_pack_title">Simge paketi</string>
     <string name="slim_icon_pack_summary">Paneldeki uygulamalar için özel bir simge paketi uygulayın</string>
+    <string name="slim_recents_corner_radius_title">Kart köşesi yarıçapı</string>
+    <string name="slim_recents_aicp_empty_drawable_title">Aicp son uygulamalar</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Son uygulamalar olmadığında gösterilecek görüntü</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Sol kenarda göster</string>
     <string name="recent_panel_lefty_mode_summary">Sol kenarda son uygulamalar panelini göster</string>
@@ -1059,6 +1091,11 @@
     <string name="slim_blacklist_add_apps_summary">Eklemek için buraya dokunun, kaldırmak için eklenen uygulamaya dokunun</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">Bellek çubuğu</string>
+    <string name="slim_recents_mem_display_title">Bellek çubuğunu göster</string>
+    <string name="slim_recents_mem_display_summaryOn">Bellek çubuğu etkin</string>
+    <string name="slim_recents_mem_display_summaryOff">Bellek çubuğu devre dışı</string>
+    <string name="slim_recents_mem_display_color">Bellek çubuğu rengi</string>
+    <string name="slim_recents_mem_display_text_color">Bellek çubuğu metin rengi</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Tümünü temizle tuşu</string>
     <string name="show_clear_all_recents_button_summary">Tümünü temizleme tuşunu göster</string>
@@ -1089,13 +1126,24 @@
     <string name="smart_pulldown_dismissable">kapatılabilir yoksa</string>
     <string name="smart_pulldown_ongoing">devam eden yoksa</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">Kilit ekranında hızlı ayarlar</string>
+    <string name="lockscreen_qs_disabled_summary">Güvenli kilit ekranında hızlı ayarlar genişletilmesini devre dışı bırak</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Görüntü kesme ayarları</string>
+    <string name="cutout_main_summary">Bununla köşeler gerçekten kesilir</string>
+    <string name="display_cutout_style_title">Kesme stili</string>
     <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Tam ekran</string>
     <string name="display_cutout_style_hide">Gizle</string>
+    <string name="stock_statusbar_in_hide">Varsayılan durum çubuğu yüksekliği</string>
+    <string name="stock_statusbar_in_hide_summary">Gizle de varsayılan durum çubuğu yüksekliğini kullan</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">Güvenli kilit ekranı olmadığı için bu özellik kullanılamıyor. </string>
     <string name="no_no_summary_go">Android Go etkin olduğundan bu özellik kullanılamıyor.</string>
     <string name="no_no_summary_owner">Sahip bilgi mesajı olmadığından bu özellik kullanılamıyor</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">Değişiklikler</string>
+    <string name="bootleg_changelog_summary">Bu yapıya eklenen son değişiklikleri görüntüle</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">Uygulamaları değiştirmek için yukarı kaydırın</string>
 </resources>

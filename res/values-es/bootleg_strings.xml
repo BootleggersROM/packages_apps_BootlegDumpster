@@ -148,6 +148,7 @@
     <string name="statusbar_tuner_summary">Ajustes de batería y de iconos de la barra de estado para desactivar</string>
     <string name="navbar_tuner_title">Editar la barra de navegación</string>
     <string name="navbar_tuner_summary">Editar forma de la barra de navegación y botones</string>
+    <string name="lockscreen_shortcuts_title">Atajos inferiores de la pantalla de bloqueo</string>
     <string name="lockscreen_shortcuts_summary">Personalizar botones inferiores en pantalla de bloqueo</string>
     <string name="vol_dnd_category_title">Modo No molestar</string>
     <string name="volbtn_down_zen_title">Modo No molestar con tecla de volumen bajo</string>
@@ -498,19 +499,27 @@
     <string name="face_auto_unlock_summary">Quita la pantalla de bloqueo tras desbloqueo facial</string>
     <!-- Running Services -->
     <string name="qs_running_services_title">Icono de servicios en ejecución</string>
+    <string name="qs_running_services_summary">Habilitar botón de servicios en ejecución en los ajustes rápidos</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Avisos en ajustes rápidos</string>
     <string name="qs_footer_warnings_summary">Muestra un aviso bajo el panel de ajustes rápidos cuando la red se monitoriza por una aplicación externa o una vpn</string>
     <!-- Statusbar ticker -->
+    <string name="statusbar_notifi_cat">Ticker de notificación</string>
     <string name="status_bar_ticker_title">Ticker de notificacion</string>
     <string name="status_bar_show_ticker_title">Ticker de notificacion</string>
+    <string name="status_bar_show_ticker_summary">Pre-Visualización de la Notificación en la Barra de Estado</string>
     <string name="ticker_animation_mode_title">Animación de Ticker</string>
     <string name="ticker_animation_mode_alpha_fade">Desvanecer</string>
     <string name="ticker_animation_mode_scroll">Desplazamiento</string>
+    <string name="ticker_tick_duration_title">Duración de ticker</string>
     <!-- SeekBar -->
+    <string name="seekbar_no_default_value">Sin valor predeterminado</string>
+    <string name="seekbar_default_value_set">Establecido valor por defecto de <xliff:g id="number">%d </xliff:g></string>
+    <string name="seekbar_default_value_already_set">Valor predeterminado ya establecido</string>
     <string name="seekbar_default_string">Por defecto</string>
     <!-- Disable music track title in QS tile -->
     <string name="qs_music_tile_track_optional_title">Titulo de la cancion en el ajuste de Música</string>
+    <string name="qs_music_tile_track_optional_summary">Muestra el título de la pista de audio en el nombre del ajuste rápido</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Acciones al apagar pantalla</string>
@@ -525,39 +534,105 @@
     <string name="screen_state_toggles_mobile_data">Desactivar los datos móviles</string>
     <string name="screen_state_toggles_mobile_data_summary">Los datos móviles se deshabilatarán al apagar la pantalla</string>
     <string name="screen_state_off_delay_title">Retraso de las acciones con la pantalla apagada</string>
+    <string name="screen_state_off_delay_summary">Número de segundos a esperar antes de realizar acciones después de apagar la pantalla</string>
     <string name="screen_state_on_delay_title">Retraso de las acciones con la pantalla encendida</string>
+    <string name="screen_state_on_delay_summary">Número de segundos a esperar antes de realizar acciones después de encender la pantalla</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Desbloqueo con huella digital</string>
     <string name="fp_unlock_keystore_summary">Desbloqueo con huella después de reiniciar sin PIN/contraseña/patrón\nNota: ¡Usar bajo su responsabilidad!</string>
     <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Icono de VoLTE</string>
+    <string name="volte_icon_summary">Mostrar VoLTE (es necesario reiniciar SystemUI).</string>
     <!-- AppOps -->
     <string name="app_ops_settings">AppOps</string>
     <!-- Device extras -->
+    <string name="device_extras_title">Extras del dispositivo</string>
+    <string name="device_extras_summary">Ajustes específicos del dispositivo</string>
     <!-- AOSP Gestures -->
+    <string name="aosp_gesture_preference">Gestos AOSP</string>
+    <string name="aosp_gesture_summary">Ajustes de Gestos de AOSP</string>
     <!-- Edge gestures -->
+    <string name="edge_gestures_title">Gestos de borde</string>
+    <string name="edge_gestures_feedback_duration_title">Duración de la vibración</string>
+    <string name="edge_gestures_long_press_delay_title">Demora hasta que comience la acción de presión prolongada</string>
+    <string name="edge_gestures_back_category_title">Gesto atrás</string>
+    <string name="edge_gestures_back_edges_title">Lanzar gesto atrás desde</string>
+    <string name="edge_gestures_landscape_back_edges_title">Lanzar gesto atrás en posición horizontal desde</string>
+    <string name="edge_gestures_back_screen_percent_title">El gesto atrás debe empezar por debajo de este porcentaje de la pantalla</string>
+    <string name="edge_gestures_back_screen_percent_summary">Lanzar debajo de cierto porcentaje de pantalla</string>
+    <string name="edge_gestures_summary">Navegar usando gestos \"Edge\"</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">Animación del gesto atrás</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">Mostrar animación en los bordes cuando se utiliza el gesto atrás</string>
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Gesto de tres dedos</string>
     <string name="three_finger_gesture_summary">Desliza tres dedos para captura de pantalla</string>
     <!-- Allow fake signature checkbox in developer settings -->
+    <string name="allow_signature_fake">Permitir redireccionamiento de firma</string>
+    <string name="allow_signature_fake_summary">Permitir que las aplicaciones eviten los sistemas de seguridad pretendiendo ser una aplicación diferente</string>
     <!-- Per App aspect Ratio -->
     <string name="action_save">Guardar</string>
+    <string name="aspect_ratio_apps_enabled_title">Activar escalado</string>
     <string name="aspect_ratio_apps_enabled_summary">Permitir que las aplicaciones heredadas usen pantalla completa</string>
     <string name="aspect_ratio_apps_list_title">Aplicaciones puedas utilizar la escala</string>
     <string name="aspect_ratio_category_title">Escalado de legado</string>
     <string name="aspect_ratio_apps_info">Las aplicaciones deben ser reiniciadas después de los cambios</string>
     <!-- Torch Power gestures -->
     <string name="torch_long_press_power_gesture_title">Activar la linterna con el boton de encendido</string>
+    <string name="torch_long_press_power_gesture_desc">Pulsación larga en el boton de encendido con la pantalla apagada encenderá la linterna</string>
+    <string name="torch_long_press_power_timeout_title">Apagar automáticamente la linterna</string>
     <string name="torch_long_press_power_timeout_never">Nunca</string>
     <string name="torch_long_press_power_timeout_1min">1 minuto</string>
+    <string name="torch_long_press_power_timeout_2min">2 minutos</string>
     <string name="torch_long_press_power_timeout_5min">5 minuto</string>
     <string name="torch_long_press_power_timeout_10min">10 minuto</string>
     <!-- Volume keys control rint tone stream -->
+    <string name="volume_keys_control_ring_tone_title">Control del volumen del tono de llamada</string>
+    <string name="volume_keys_control_ring_tone_summary">Los botones de volumen controlan el volumen multimedia de forma predeterminada. Activar para cambiar a control del tono de llamada.</string>
     <!-- Bootleg logo -->
+    <string name="statusbar_logo_category">Logo de barra de estado</string>
+    <string name="bootleg_logo_title">Mostrar nuestro logo en la barra de estado</string>
+    <string name="bootleg_logo_summary">Añadir nuestro logo personalizado en la barra de estado para presumir en qué ROM estás</string>
+    <string name="status_bar_logo_style_title">Estilo de logo de bootleg personalizado</string>
     <!-- QuickSettings brightness -->
     <string name="qs_brightness_category">Barra de brillo</string>
+    <string name="qs_brightness_slider_title">Mostrar la barra de brillo</string>
+    <string name="qs_brightness_slider_summary">Establecer visibilidad de la barra de brillo en el QS</string>
+    <string name="qs_brightness_slider_position_title">Posición de la barra de brillo</string>
+    <string name="qs_brightness_slider_position_summary_on">Mostrar la barra de brillo abajo</string>
+    <string name="qs_brightness_slider_position_summary_off">Mostrar la barra de brillo arriba</string>
+    <string name="brightness_icon_title">Botón de brillo adaptativo</string>
+    <string name="brightness_icon_summary">Mostar botón de brillo adaptativo</string>
+    <string name="brightness_side_buttons_title">Botones de aumentar/disminuir brillo</string>
+    <string name="brightness_side_buttons_summary">Mostrar botones para aumentar o disminuir el brillo</string>
     <!-- Battery Bar -->
+    <string name="battery_bar_title">Barra de batería</string>
+    <string name="battery_bar_summary">Mostrar y personalizar la barra de batería junto a la barra de estado o barra de navegación</string>
+    <string name="battery_bar">Ubicación de la barra de batería</string>
+    <string name="battery_bar_no_navbar">Ubicación de la barra de batería</string>
+    <string name="battery_bar_location_hide">Ocultar</string>
+    <string name="battery_bar_location_statusbar">Barra de estado</string>
+    <string name="battery_bar_location_top_navbar">Sobre la barra de navegación</string>
+    <string name="battery_bar_location_bottom_navbar">Abajo de la barra de navegación</string>
+    <string name="battery_bar_color">Color de la barra de batería</string>
+    <string name="battery_bar_charging_color">Color de barra de bateria mientras carga</string>
+    <string name="battery_bar_battery_low_color">Color de barra de bateria en bateria baja</string>
+    <string name="battery_bar_cat">Estilo de la barra de batería</string>
+    <string name="battery_bar_style_title">Alineación de la barra de batería</string>
+    <string name="battery_bar_thickness_title">Grosor de la barra de batería</string>
+    <string name="battery_bar_animate_title">Animación de carga</string>
+    <string name="battery_bar_style_regular">Normal</string>
+    <string name="battery_bar_style_center_mirrored">Reflejada en el medio</string>
+    <string name="battery_bar_style_reversed">Invertida</string>
+    <string name="battery_bar_use_charging_color">Color personalizado durante la carga</string>
+    <string name="battery_bar_blend_color_title">Mezclar colores</string>
+    <string name="battery_bar_blend_color_summary">Mezcla de colores lleno/vacío correspondiente al porcentaje de la batería</string>
+    <string name="battery_bar_blend_color_reverse_title">Invertir dirección de colores</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Lleno &#8594; vacio: rojo &#8592; verde &#8592; azul &#8592; rojo</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Lleno &#8594; vacio: rojo &#8594; verde &#8594; azul &#8594; rojo</string>
     <!-- Ambient Display Ticker -->
     <string name="lockscreen_ambient_display_category">Ambient Display</string>
+    <string name="force_ambient_for_media_title">Mostrar ticker de música</string>
+    <string name="force_ambient_for_media_summary">Muestra la música que estás reproduciendo en tu dispositivo en la pantalla ambiente</string>
     <!-- Recents icon pack -->
     <string name="recents_icon_pack_title">Pack de iconos</string>
     <string name="recents_icon_pack_summary">Aplicar un paquete de icono personalizado para el panel de recientes</string>
@@ -565,21 +640,57 @@
     <string name="dialog_pick_iconpack_title">Escoge el pack de iconos</string>
     <string name="default_iconpack_title">Iconos por defecto</string>
     <!-- Slim DSLV -->
+    <string name="help">Ayuda</string>
+    <string name="reset_message">Esto restablecerá la configuración en su valor por defecto</string>
     <string name="shortcut_action_none">Ninguno</string>
+    <string name="shortcut_action_longpress">Pulsación larga:</string>
+    <string name="shortcut_action_select_action_longpress">Elegir acción de pulsación larga:</string>
+    <string name="shortcut_action_select_action">Elegir acción:</string>
+    <string name="shortcut_action_select_action_newaction">Elegir nueva acción:</string>
     <string name="shortcut_action_reset">Reestablecer</string>
+    <string name="shortcut_action_add">Añadir</string>
+    <string name="shortcut_action_reset_message">¿Restablecer todas las entradas a su valor por defecto?</string>
+    <string name="shortcut_action_max">Número máximo de entradas alcanzado</string>
+    <string name="shortcut_action_warning">Advertencia</string>
+    <string name="shortcut_action_warning_message">No es posible eliminar la última entrada</string>
+    <string name="shortcut_action_disable_message">Deshabilatada\nAñadir una entrada para activar esta función</string>
+    <string name="shortcut_image_not_valid">La aplicación seleccionada no tiene un icono válido o no soporta el recorte de la imagen. Usa otra aplicación.</string>
+    <string name="shortcut_duplicate_entry">La acción elegida no puede añadirse dos veces</string>
+    <string name="shortcut_action_help_shortcut">acceso directo</string>
+    <string name="shortcut_action_help_button">botón</string>
+    <string name="shortcut_action_help_icon">, mientras mantenga presionado el icono se mostrará las opciones de personalización</string>
+    <string name="shortcut_action_help_main">Para agregar un %1$s, seleccione el icono Agregar. Una vez %1$s \" fue agregado, seleccionando la fila se cambiará el destino de %2$s.\n\nPara eliminar %1$s, deslice la fila horizontalmente a izquierda o derecha. Reordene %1$s en la lista arrastrando verticalmente el ancla a su izquierda.\n\nPara limpiar o restablecer los valores predeterminados, seleccione el icono Restablecer.</string>
+    <string name="shortcut_action_help_delete_last_entry">Borrando cada %1$s en la lista, se deshabilitará esta característica por completo.</string>
+    <string name="shortcut_action_help_pie_second_layer_delete_last_entry">Remover todos los %1$s en la lista deshabilitará enteramente la segunda capa de Pie.</string>
+    <string name="shortcut_picker_choose_longpress_action">Elegir acción de pulsación larga:</string>
+    <string name="shortcut_picker_choose_new_action">Elegir nueva acción:</string>
+    <string name="shortcut_picker_reassign_action">Reasignar la acción:</string>
+    <string name="shortcut_picker_choose_action">Elegir acción:</string>
     <string name="shortcut_picker_applications_title">Aplicaciones</string>
     <string name="shortcut_picker_activities_title">Actividades</string>
+    <string name="shortcut_picker_select_app_title">Seleccionar aplicación:</string>
+    <string name="shortcut_picker_select_activity_title">Seleccionar actividad:</string>
+    <string name="shortcut_picker_choose_icon_type_title">Elegir un estilo de icono:</string>
     <string name="shortcut_picker_icon_type_default_title">Por defecto</string>
+    <string name="shortcut_picker_icon_type_system_title">Iconos del sistema</string>
+    <string name="shortcut_picker_select_system_icon_title">Seleccione el icono del sistema:</string>
+    <string name="shortcut_picker_icon_type_custom_title">Galería</string>
     <!-- Lockscreen Shortcuts -->
     <string name="ls_shortcuts_title">Accesos directos</string>
+    <string name="lockscreen_mdshortcuts_title">Atajos en el centro de la pantalla de bloqueo</string>
     <string name="shortcuts_applications">Aplicaciones</string>
     <string name="shortcuts_icon_default">Por defecto</string>
+    <string name="shortcuts_icon_presets">Iconos del sistema</string>
+    <string name="shortcuts_icon_custom">Galería</string>
+    <string name="shortcuts_icon_picker_gallery">Galería</string>
     <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_help">Ayuda</string>
     <string name="shortcuts_icon_picker_music">Música</string>
     <string name="shortcuts_icon_picker_play">Repr.</string>
     <string name="shortcuts_icon_picker_quicksettings">Ajustes rápidos</string>
     <string name="shortcuts_icon_picker_search">Búsqueda</string>
     <string name="shortcuts_icon_picker_sms">Mensajería</string>
+    <string name="shortcuts_icon_picker_tv">TV</string>
     <string name="shortcut_action_power_menu">Menú de encendido</string>
     <string name="shortcut_action_recent">Recientes</string>
     <string name="weather">El tiempo</string>
@@ -796,6 +907,7 @@
     <!-- Allow to slide qs on lock -->
     <!-- Display cutout options -->
     <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_hide">Ocultar</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">Esta característica no está disponible porque no tienes la pantalla de bloqueo asegurada.</string>
     <string name="no_no_summary_go">Esta característica no está disponible porque tienes Android Go activado.</string>

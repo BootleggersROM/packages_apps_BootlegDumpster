@@ -40,6 +40,7 @@
     <string name="about_bootleg_title">Bootleggers について</string>
     <string name="about_bootleg_summary">あなたが興味がある場合に備えての私たちに関するいくつかの情報</string>
     <string name="about_bootleg_small_title">私たちについて</string>
+    <string name="about_bootleg_small_summary">私たちのプロジェクトに関する追加情報</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">私たちについて</string>
     <string name="bootleg_ab_title_whoami">Bootleggers って何?</string>
@@ -143,6 +144,7 @@
     <string name="statusbar_tuner_summary">ステータスバーに表示する項目の切り替え</string>
     <string name="navbar_tuner_title">ナビゲーションバーを編集</string>
     <string name="navbar_tuner_summary">ナビゲーションバーのレイアウトとボタンを編集する</string>
+    <string name="lockscreen_shortcuts_title">ロック画面下部のショートカット</string>
     <string name="lockscreen_shortcuts_summary">ロック画面下部のショートカットを編集する</string>
     <string name="vol_dnd_category_title">マナーモード</string>
     <string name="volbtn_down_zen_title">音量を下げてマナーモードにする</string>
@@ -249,10 +251,10 @@
     <!-- Lock UI thing -->
     <string name="lockscreen_moreui_title">追加のロック画面 UI</string>
     <string name="lockscreen_moreui_title_alt">ロック画面の UI</string>
-    <string name="lockscreen_moreui_summary">ロック画面の不透明度と背景の時計と日付のフォントを選択する</string>
+    <string name="lockscreen_moreui_summary">ロック画面の透明度と背景の時計と日付のフォントを選択する</string>
     <!-- Lock UI thing -->
     <string name="lockui_fonts">UI のフォント</string>
-    <string name="lockui_opacity">ダークオーバーレイの不透明度</string>
+    <string name="lockui_opacity">ダークオーバーレイの透明度</string>
     <!-- Lockscreen fonts - other fonts, unstranslatable by default -->
     <!-- Custom fonts -->
     <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
@@ -431,19 +433,19 @@
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">クイック設定タイルのスタイル</string>
     <string name="qs_styles_dialog_title">クイック設定タイルのスタイルを選択</string>
-    <string name="qstile_default">サークル (既定)</string>
-    <string name="qstile_justicons">サークルなしのアイコン</string>
-    <string name="qstile_inkdrop">インクドロップ</string>
+    <string name="qstile_default">円 (既定)</string>
+    <string name="qstile_justicons">円なしのアイコン</string>
+    <string name="qstile_inkdrop">インク</string>
     <string name="qstile_shishu_nights">Shishu Nights</string>
-    <string name="qstile_circle_gradient">グラデーション付きのサークル</string>
+    <string name="qstile_circle_gradient">グラデーション付きの円</string>
     <string name="qstile_wavey">波状</string>
     <string name="qstile_circle_dualtone">デュアルトーンの円</string>
-    <string name="qstile_memedo_square">Memedo Square</string>
-    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qstile_memedo_square">星型正八角形</string>
+    <string name="qstile_pokesign">モンスターボール</string>
     <string name="qstile_ninja">忍者</string>
     <string name="qstile_dottedcircle">点線の円</string>
     <string name="qstile_shishuink">Shishu インク</string>
-    <string name="qstile_attemptmountain">山の試み</string>
+    <string name="qstile_attemptmountain">山脈</string>
     <!-- Battery light -->
     <string name="light_category">バッテリーの LED</string>
     <string name="battery_light_settings">バッテリー充電時のライト</string>
@@ -468,7 +470,7 @@
     <string name="show_network_traffic_down">受信</string>
     <string name="show_network_traffic_all">送信と受信</string>
     <string name="network_traffic_state_title">ステータスバーに通信速度を表示する</string>
-    <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示にする通信速度しきい値 (KB/s)</string>
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">通知の数を表示</string>
     <string name="status_bar_notif_count_summary">保留中の通知の数を表示する</string>
@@ -533,7 +535,7 @@
     <string name="screen_state_on_delay_summary">画面点灯時のアクションを実行する前に待つ秒数</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">指紋アンロック</string>
-    <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にします。\n注意: 自己責任で使用して下さい!</string>
+    <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にする\n注意: 自己責任で使用して下さい!</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE アイコン</string>
     <string name="volte_icon_summary">VoLTE アイコンを表示 (有効にするにはシステム UI の再起動が必要)</string>
@@ -923,7 +925,7 @@
     <string name="corner_fwvals_summary">実際に端末が丸い角の場合に有用です</string>
     <!-- ambient visualizer -->
     <string name="ambient_visualizer_title">アンビエント表示のロック画面ビジュアライザーを表示</string>
-    <string name="ambient_visualizer_summary">視覚効果バーをアンビエント画面にも表示する (ただし不透明度は低下します)</string>
+    <string name="ambient_visualizer_summary">視覚効果バーをアンビエント画面にも表示する (ただし透明度は低下します)</string>
     <!-- Lockscreen items -->
     <string name="lockscreen_hide_items_category">アイテムを非表示</string>
     <string name="lockscreen_clock_title">時計ウィジェット</string>
@@ -988,11 +990,21 @@
     <string name="smart_pixels_shift">使う画素を移し替えて画面の焼付きを避ける</string>
     <string name="smart_pixels_warning_text">スマートピクセルは省電力機能です。消灯するピクセル数に応じて、バッテリ寿命が大幅に改善されます。優れたユーザーエクスペリエンスを得るには、無効ピクセル数を75％に設定することをお勧めします。</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">ステータスバーの時計</string>
+    <string name="status_bar_clock_summary_on">ステータスバーの時計を表示</string>
+    <string name="status_bar_clock_summary_off">ステータスバーの時計を非表示</string>
+    <string name="status_bar_clock_seconds_summary_on">時計に秒を表示</string>
+    <string name="status_bar_clock_seconds_summary_off">標準の時計を表示</string>
+    <string name="status_bar_clock_adv_title">高度な時計と日付のオプション</string>
+    <string name="status_bar_clock_adv_summary">好みに合わせて時計を微調整する</string>
+    <string name="status_bar_time_cat">時刻</string>
     <string name="status_bar_show_clock_title">日付と時刻を表示</string>
     <string name="clock_title_enable">配置</string>
+    <string name="clock_position">時計の位置</string>
     <string name="clock_position_right">右側に表示</string>
     <string name="clock_position_center">中央に表示</string>
     <string name="clock_position_left">左側に表示</string>
+    <string name="status_bar_clock_seconds_title">時計の秒を表示</string>
     <string name="status_bar_am_pm_title">午前/午後</string>
     <string name="status_bar_am_pm_info">24時間表示が有効です</string>
     <string name="am_pm_clock_normal">通常のフォントサイズ</string>
@@ -1017,8 +1029,21 @@
     <string name="menu_cancel">キャンセル</string>
     <string name="menu_save">保存</string>
     <!-- Active edge -->
+    <string name="active_edge_title">アクティブエッジ</string>
+    <string name="active_edge_summary">Pixel の握りアクションの高度なバージョン</string>
+    <string name="active_edge_actions_title">握りアクション</string>
+    <string name="active_edge_long_squeeze_actions_title">長い握りのアクション</string>
+    <string name="active_edge_sensitivity_title">握りの感度</string>
+    <string name="active_edge_wake_title">画面消灯中は許可</string>
+    <string name="active_edge_wake_summary">画面消灯中にアクションを起動する</string>
+    <string name="active_edge_footer_info">全てのアクティブエッジ内の握りアクションがディスプレイをアクティブにできる訳ではありません</string>
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">ロック画面のアルバムアートフィルタ</string>
     <string name="lockscreen_cover_filter_none">なし</string>
+    <string name="lockscreen_cover_filter_grayscale">グレースケール</string>
+    <string name="lockscreen_cover_filter_tint">アクセント色</string>
+    <string name="lockscreen_cover_filter_blur">ぼかし</string>
+    <string name="lockscreen_cover_filter_grayblur">グレースケールとぼかし</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">アプリ終了ボタン</string>
     <string name="notification_guts_kill_app_button_summary">通知の長押しメニューにアプリ終了ボタンを表示する</string>
@@ -1028,11 +1053,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">AOSP のアプリ履歴</string>
     <string name="slim_recents_category">Slim アプリ履歴</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">ホームナビゲーションを上スワイプでアプリ履歴を開きます。標準のアプリ履歴のみサポートされます。</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Slim アプリ履歴</string>
     <string name="slim_recents_settings_title">Slim アプリ履歴の設定</string>
     <string name="recents_max_apps_title">許可されたアプリの最大数</string>
     <string name="recent_panel_scale_title">サイズ</string>
+    <string name="recent_panel_expanded_mode_title">拡張モード</string>
     <string name="recent_panel_expanded_mode_summary">アプリ履歴を拡張プレビューモードで表示</string>
     <string name="recent_panel_expanded_mode_auto">自動 (既定)</string>
     <string name="recent_panel_expanded_mode_always">常時</string>
@@ -1040,8 +1067,13 @@
     <string name="recent_panel_expanded_mode_disabled">無効</string>
     <string name="recent_panel_bg_color_title">パネルの背景色</string>
     <string name="recent_card_bg_color_title">カードの背景色</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">メモリ使用量バーの長押し</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">メモリ使用量バーの長押しでアプリ履歴を消去する</string>
     <string name="slim_icon_pack_title">アイコンパック</string>
     <string name="slim_icon_pack_summary">パネルのアプリにカスタムアイコンパックを適用する</string>
+    <string name="slim_recents_corner_radius_title">角の丸みの半径</string>
+    <string name="slim_recents_aicp_empty_drawable_title">アプリ履歴が無いときの AICP 画像</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">アプリ履歴が無い時に AICP 画像を表示する</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">左端に表示</string>
     <string name="recent_panel_lefty_mode_summary">画面左端にアプリ履歴パネルを表示</string>
@@ -1052,6 +1084,11 @@
     <string name="slim_blacklist_add_apps_summary">ここをタップして追加し追加済みアプリをタップして削除</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">メモリ使用量バー</string>
+    <string name="slim_recents_mem_display_title">メモリ使用量バーの表示</string>
+    <string name="slim_recents_mem_display_summaryOn">メモリ使用量バーは有効です</string>
+    <string name="slim_recents_mem_display_summaryOff">メモリ使用量バーは無効です</string>
+    <string name="slim_recents_mem_display_color">メモリ使用量バーの色</string>
+    <string name="slim_recents_mem_display_text_color">メモリ使用量バーの文字色</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
     <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
@@ -1082,13 +1119,24 @@
     <string name="smart_pulldown_dismissable">消せる通知が無い場合</string>
     <string name="smart_pulldown_ongoing">消せない通知が無い場合</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">ロック画面上でのクイック設定の無効化</string>
+    <string name="lockscreen_qs_disabled_summary">保護されたロック画面上でのクイック設定の展開を無効にする</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">画面切り取りの設定</string>
+    <string name="cutout_main_summary">彼らは本当にこれでコーナーを切りました</string>
+    <string name="display_cutout_style_title">切り取りのスタイル</string>
     <string name="display_cutout_style_normal">標準</string>
+    <string name="display_cutout_style_immerse">没入</string>
     <string name="display_cutout_style_hide">非表示</string>
+    <string name="stock_statusbar_in_hide">標準のステータスバーの高さ</string>
+    <string name="stock_statusbar_in_hide_summary">非表示時は既定のステータスバーの高さを使う</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">ロック画面が保護されてないためこの機能は利用できません</string>
     <string name="no_no_summary_go">Android Go が有効になっているためこの機能は利用できません</string>
     <string name="no_no_summary_owner">所有者情報メッセージがないためこの機能は利用できません</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">変更履歴を見る</string>
+    <string name="bootleg_changelog_summary">このビルドに追加された最新の変更を見る</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">上スワイプでアプリ切り替え</string>
 </resources>
