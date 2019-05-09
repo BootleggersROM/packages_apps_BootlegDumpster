@@ -141,10 +141,27 @@
     <string name="swap_volume_buttons_summary">Schimbă butoanele de volum atunci când ecranul este rotit</string>
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">Elemente bară de stare</string>
+    <string name="statusbar_tuner_summary">Opţiuni baterie şi pictograme bară de stare ca să le dezactivezi</string>
+    <string name="navbar_tuner_title">Editaţi bara de navigare</string>
+    <string name="navbar_tuner_summary">Editaţi schema barei de navigare şi butoanele</string>
+    <string name="lockscreen_shortcuts_title">Scurtături joase pentru ecranul de blocare</string>
+    <string name="lockscreen_shortcuts_summary">Gestionează scurtăturile joase ale ecranului de blocare</string>
+    <string name="vol_dnd_category_title">Mod \'Nu deranja!\' </string>
+    <string name="volbtn_down_zen_title">Volum în jos pentru modul nu deranja</string>
+    <string name="volbtn_down_zen_summary">permite apăsarea tastei de volum în jos pentru modul nu deranjați</string>
+    <string name="volbtn_up_zen_title">Volum în sus pentru modul nu deranja</string>
+    <string name="volbtn_up_zen_summary">permite apăsarea tastei de volum în sus pentru ieșirea din modul nu deranjați</string>
+    <string name="vol_zen_title">Comutator Nu deranjaţi</string>
+    <string name="vol_zen_summary">Afișare comutator Nu deranjaţi în panoul de volum</string>
     <!-- Toast app icon -->
+    <string name="toast_icon_title">Pictogramă toast</string>
+    <string name="toast_icon_summary">Afişare pictogramă aplicație corespunzătoare mesajului plutitor</string>
     <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Dezactivare meniu de alimentare pe ecranul de blocare</string>
+    <string name="lockscreen_power_menu_disabled_summary">Această opţiune va dezactiva meniul de alimentare doar pe ecranele de blocare securizate</string>
     <!-- AOKP custom system animations -->
     <string name="animation_title">Animații</string>
+    <string name="system_animation_title">Animații de sistem</string>
     <string name="activity_open_title">Activitate deschidere animaţie</string>
     <string name="activity_close_title">Activitate închidere animaţie</string>
     <string name="task_open_title">Sarcină deschidere animaţie</string>
@@ -157,6 +174,8 @@
     <string name="wallpaper_intra_open_title">Animaţie intra-deschidere imagine de fundal</string>
     <string name="wallpaper_intra_close_title">Animaţie intra-închidere imagine de fundal</string>
     <string name="animation_duration_title">Durata Animaţiei</string>
+    <string name="title_animation_no_override">Preveniți suprascrierea aplicației</string>
+    <string name="summary_animation_no_override">Preveniți aplicațiile să suprascrie tranzițiile</string>
     <string name="animation_duration_default">Implicit</string>
     <!-- Toast Animation -->
     <string name="toast_animation_title">Animație toast</string>
@@ -202,6 +221,8 @@
     <string name="pref_scrollingcache_default_disable">Dezactivat în mod implicit</string>
     <string name="pref_scrollingcache_force_disable">Forțează dezactivarea</string>
     <!-- Screen off animation -->
+    <string name="screen_off_animation_fade">Scădere simplă</string>
+    <string name="screen_off_animation_color">Scădere culoare</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Scală</string>
     <string name="screen_off_animation_title">Animație închidere ecran</string>
@@ -257,7 +278,11 @@
     <string name="lock_clock_font_dialog_title">Selectează fontul ceasului pentru ecranul de blocare</string>
     <!-- Heads up -->
     <string name="heads_up_cat_title">Atenționare</string>
+    <string name="heads_up_cat_summary">Amânare, listă neagră timp expirat, etc</string>
     <string name="heads_up_title">Activează</string>
+    <string name="heads_up_summary_enabled">Notificările HeadsUp sunt activate</string>
+    <string name="heads_up_summary_disabled">Notificările tip atenționare sunt dezactivate</string>
+    <string name="heads_up_advanced_title">Opţiuni avansate de avertizare</string>
     <string name="heads_up_time_out_title">Timp expirat</string>
     <string name="heads_up_time_out_summary">Notificările de atenţionare vor apărea pentru <xliff:g id="number">%d</xliff:g> secunde</string>
     <string name="heads_up_time_out_2sec">2 secunde</string>
@@ -276,11 +301,14 @@
     <string name="heads_up_snooze_15min">15 minute</string>
     <string name="heads_up_snooze_20min">20 de minute</string>
     <string name="add_heads_up_package">Adaugă aplicație</string>
+    <string name="add_heads_up_blacklist_summary">Nu arăta atenţionări de la aceste aplicaţii</string>
     <string name="heads_up_blacklist_title">Lista neagră</string>
     <string name="profile_choose_app">Alege aplicația</string>
     <string name="dialog_delete_title">Șterge</string>
     <string name="dialog_delete_message">Ștergeți elementul selectat?</string>
     <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Trezire la alimentare</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Trezește dispozitivul dacă încărcătorul este conectat/deconectat.</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Pictogramă 4G în Bara de stare</string>
     <string name="show_fourg_icon_summary">Pe pictograma de semnal, arată 4g în loc de LTE</string>
@@ -296,16 +324,22 @@
     <string name="lock_owner_font_summary">Schimbă fontul implicit al informaţiei proprietarului de pe ecranul de blocare</string>
     <string name="lock_owner_font_dialog_title">Selectează fontul proprietar pentru ecranul de blocare</string>
     <!-- Media art -->
+    <string name="media_art_title">Copertă media</string>
     <string name="media_art_summary">Permite coperta media pe ecranul de blocare</string>
     <!--Volume keys -->
     <string name="volume_rocker_wake_title">Tastele de volum trezesc dispozitivul</string>
     <string name="volume_rocker_wake_summary">Prin apăsarea oricărui buton de volum dispozitivul se va trezi</string>
     <!-- Volume key music control -->
+    <string name="volume_rocker_music_controls_title">Control muzică</string>
+    <string name="volume_rocker_music_controls_summary">Apasă lung butoanele de volum ca să schimbi piesele cât timp ecranul este oprit</string>
     <!-- Battery percentage -->
     <string name="battery_style_category_title">Pictograma bateriei</string>
+    <string name="status_bar_battery_percentage_title">Procentaj baterie</string>
     <string name="status_bar_battery_percentage_default">Ascuns</string>
+    <string name="status_bar_battery_percentage_text_next">Lângă pictogramă</string>
     <string name="status_bar_battery_percentage_text_inside">În interiorul pictogramei</string>
     <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_title">Stil baterie</string>
     <string name="status_bar_battery_style_port">Portret</string>
     <string name="status_bar_battery_style_circle">Cerc</string>
     <string name="battery_style_dotted_circle">Cerc punctat</string>
@@ -314,6 +348,9 @@
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Butoane fizice</string>
     <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Timp de expirare al luminii de fundal la atingerea butoanelor</string>
+    <string name="backlight_timeout_on">Activată mereu</string>
+    <string name="backlight_timeout_3s">3 sec</string>
     <string name="backlight_timeout_default">5 sec (implicit)</string>
     <string name="backlight_timeout_10s">10 sec</string>
     <string name="backlight_timeout_15s">15 sec</string>
@@ -451,24 +488,34 @@
     <!-- Weather -->
     <string name="weather_title">Vreme</string>
     <string name="show_weather_on_ls_title">Arată vremea în ecranul de blocare</string>
+    <string name="show_weather_on_ls_summary">Adaugă informaţiile legate de vreme, aproape de data din ecranul tău de blocare</string>
+    <string name="weather_unit">Unitate temperatură</string>
     <!-- Face unlock -->
     <string name="face_auto_unlock_title">Deblocare facială automată</string>
     <string name="face_auto_unlock_summary">După deblocarea facială ecranul se va debloca</string>
     <!-- Running Services -->
     <string name="qs_running_services_title">Pictograma Servicii în execuție</string>
+    <string name="qs_running_services_summary">Activaţi serviciile care rulează lângă pictograma din subsol QS</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Avertismente de subsol QS</string>
     <string name="qs_footer_warnings_summary">Afișează un avertisment în josul panoului setări rapide când rețeaua este monitorizată de către aplicații externe sau vpn</string>
     <!-- Statusbar ticker -->
+    <string name="statusbar_notifi_cat">Panou Notificări</string>
     <string name="status_bar_ticker_title">Selector</string>
     <string name="status_bar_show_ticker_title">Selector</string>
+    <string name="status_bar_show_ticker_summary">Arată notificările în bara de stare</string>
     <string name="ticker_animation_mode_title">Stil animație selector</string>
     <string name="ticker_animation_mode_alpha_fade">Estompare</string>
     <string name="ticker_animation_mode_scroll">Derulare</string>
+    <string name="ticker_tick_duration_title">Durată ticker</string>
     <!-- SeekBar -->
+    <string name="seekbar_no_default_value">Nu este configurată nicio valoare prestabilită</string>
+    <string name="seekbar_default_value_set">Valoarea implicită este setată la <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">Valoarea implicită este deja setată</string>
     <string name="seekbar_default_string">Implicit</string>
     <!-- Disable music track title in QS tile -->
     <string name="qs_music_tile_track_optional_title">Pictogramă Muzică cu titlul piesei</string>
+    <string name="qs_music_tile_track_optional_summary">Arată titlul piesei ca nume al pictogramei în QS</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
     <string name="screen_state_toggles_title">Suspendarea acţiunilor</string>
@@ -483,32 +530,72 @@
     <string name="screen_state_toggles_mobile_data">Dezactivare date mobile</string>
     <string name="screen_state_toggles_mobile_data_summary">Datele mobile vor fi dezactivate când ecranul este oprit</string>
     <string name="screen_state_off_delay_title">Întârziere acţiuni când ecranul este oprit</string>
+    <string name="screen_state_off_delay_summary">Numărul de secunde de așteptat înainte de a efectua acțiuni după oprirea ecranului</string>
     <string name="screen_state_on_delay_title">Întârziere acţiuni când ecranul este pornit</string>
+    <string name="screen_state_on_delay_summary">Numărul de secunde de așteptat înainte de a efectua acțiuni după pornirea ecranului</string>
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Deblocare cu senzorul de amprentă</string>
     <string name="fp_unlock_keystore_summary">Deblocați dispozitivul cu amprentă după repornire fără PIN/parolă/model.\nFolosiți pe propria răspundere!</string>
     <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Pictograma VoLTE</string>
+    <string name="volte_icon_summary">Arată pictograma VoLTE. Necesită o repornire a interfaţei de utilizator ca setările să se aplice.</string>
     <!-- AppOps -->
     <string name="app_ops_settings">AppOps</string>
     <!-- Device extras -->
+    <string name="device_extras_title">Opţiuni extra ale dispozitivului</string>
+    <string name="device_extras_summary">Tweak-uri specifice dispozitivului</string>
     <!-- AOSP Gestures -->
+    <string name="aosp_gesture_preference">Gesturi AOSP</string>
+    <string name="aosp_gesture_summary">Setări Gestuale ale AOSP</string>
     <!-- Edge gestures -->
+    <string name="edge_gestures_title">Gesturi marginale</string>
+    <string name="edge_gestures_feedback_duration_title">Durată feedback Haptic</string>
+    <string name="edge_gestures_long_press_delay_title">Întârziere până la începerea acțiunii de apăsare lungă</string>
+    <string name="edge_gestures_back_category_title">Gestul înapoi</string>
+    <string name="edge_gestures_back_edges_title">Gest de întoarcere de la</string>
+    <string name="edge_gestures_landscape_back_edges_title">Gest de declanșare peisaj inapoi de la</string>
+    <string name="edge_gestures_back_screen_percent_title">Gestul înapoi trebuie să înceapă sub acest procentaj al ecranului</string>
+    <string name="edge_gestures_back_screen_percent_summary">Se declanșează sub % din ecran</string>
+    <string name="edge_gestures_summary">Navigați utilizând gesturi la margine</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">Animaţie gest înapoi</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">Arată feedback animat pe margini atunci când este utililizat gest înapoi</string>
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Gest trei degete</string>
     <string name="three_finger_gesture_summary">Glisați trei degete pentru a realiza o captură de ecran</string>
     <!-- Allow fake signature checkbox in developer settings -->
+    <string name="allow_signature_fake">Permite ascunderea semnăturii</string>
+    <string name="allow_signature_fake_summary">Permite aplicaţilor să treacă peste sistemele de securitate pretinzând ca fiind alte aplicaţii</string>
     <!-- Per App aspect Ratio -->
     <string name="action_save">Salvează</string>
+    <string name="aspect_ratio_apps_enabled_title">Activaţi scalarea</string>
+    <string name="aspect_ratio_apps_enabled_summary">Permite aplicaţilor vechi să folosească modul ecran complet</string>
+    <string name="aspect_ratio_apps_list_title">Aplicaţiile permise să folosească scalarea</string>
+    <string name="aspect_ratio_category_title">Scalare aplicaţie veche</string>
+    <string name="aspect_ratio_apps_info">Aplicaţiile necesită repornire după schimbări</string>
     <!-- Torch Power gestures -->
     <string name="torch_long_press_power_gesture_title">Lanternă din butonul de pornire cu ecranul închis</string>
+    <string name="torch_long_press_power_gesture_desc">Apăsare lungă a butonului de alimentare în timp ce ecranul este oprit pentru a porni lanterna</string>
+    <string name="torch_long_press_power_timeout_title">Oprire automată lanternă</string>
     <string name="torch_long_press_power_timeout_never">Niciodată</string>
     <string name="torch_long_press_power_timeout_1min">1 minut</string>
+    <string name="torch_long_press_power_timeout_2min">2 minute</string>
     <string name="torch_long_press_power_timeout_5min">5 minute</string>
     <string name="torch_long_press_power_timeout_10min">10 minute</string>
     <!-- Volume keys control rint tone stream -->
+    <string name="volume_keys_control_ring_tone_title">Controlează volumul alarmei</string>
+    <string name="volume_keys_control_ring_tone_summary">Cheile controlează glisarea media făcând-o implicită. Activează ca să schimbi către glisarea tonului.</string>
     <!-- Bootleg logo -->
+    <string name="statusbar_logo_category">Pictograme bară de stare</string>
+    <string name="bootleg_logo_title">Arată sigla noastră pentru bara de stare</string>
+    <string name="bootleg_logo_summary">Adaugă sigla noastră personalizată pe bara ta de stare pentru a arăta tuturor ce ROM foloseşti</string>
+    <string name="status_bar_logo_style_title">Stil siglă personalizată Bootleg</string>
     <!-- QuickSettings brightness -->
     <string name="qs_brightness_category">Glisorul Luminozitati</string>
+    <string name="qs_brightness_slider_title">Arată glisorul de luminozitate</string>
+    <string name="qs_brightness_slider_summary">Setează vizibilitatea Qs a glisării luminozităţii</string>
+    <string name="qs_brightness_slider_position_title">Comutator luminozitate</string>
+    <string name="qs_brightness_slider_position_summary_on">Arată cursorul de luminozitate QS jos</string>
+    <string name="qs_brightness_slider_position_summary_off">Arată cursorul de luminozitate QS sus</string>
     <string name="brightness_icon_title">Butonul de luminozitate adaptivă</string>
     <string name="brightness_icon_summary">Arată butonul de luminozitate adaptivă</string>
     <string name="brightness_side_buttons_title">Crește/Scade butoanele de luminozitate</string>
@@ -577,14 +664,67 @@
     <string name="shortcut_picker_choose_action">Alege acțiunea:</string>
     <string name="shortcut_picker_applications_title">Aplicaţii</string>
     <string name="shortcut_picker_activities_title">Activități</string>
+    <string name="shortcut_picker_select_app_title">Selectează aplicația:</string>
+    <string name="shortcut_picker_select_activity_title">Selectați activitatea:</string>
+    <string name="shortcut_picker_choose_icon_type_title">Selectaţi tipul de pictogramă:</string>
     <string name="shortcut_picker_icon_type_default_title">Implicit</string>
+    <string name="shortcut_picker_icon_type_system_title">Pictograme de sistem</string>
+    <string name="shortcut_picker_select_system_icon_title">Selectaţi pictograma de sistem:</string>
+    <string name="shortcut_picker_icon_type_custom_title">Galerie</string>
     <!-- Lockscreen Shortcuts -->
     <string name="ls_shortcuts_title">Scurtături</string>
+    <string name="lockscreen_mdshortcuts_title">Comenzi rapide ale ecranului de blocare</string>
+    <string name="lockscreen_mdshortcuts_summary">Vizualizează sau modifică scurtăturile personalizabile din ecranul de blocare</string>
+    <string name="lockscreen_shorcuts_launch_type_title">Tip scurtături</string>
+    <string name="lockscreen_shortcuts_single_tap">Clic</string>
+    <string name="lockscreen_shortcuts_double_tap">Apăsare dublă</string>
+    <string name="lockscreen_shortcuts_longpress">Apăsare lungă</string>
     <string name="shortcuts_applications">Aplicaţii</string>
+    <string name="shortcuts_select_custom_app_title">Selectează o aplicație personalizată</string>
+    <string name="shortcuts_icon_picker_type">Selectaţi tipul de pictogramă:</string>
     <string name="shortcuts_icon_default">Implicit</string>
+    <string name="shortcuts_icon_presets">Pictograme de sistem</string>
+    <string name="shortcuts_icon_custom">Galerie</string>
+    <string name="shortcuts_icon_picker_choose_icon_title">Selectaţi pictograma</string>
+    <string name="shortcuts_icon_picker_alarm">Alarmă</string>
+    <string name="shortcuts_icon_picker_andy">Andy</string>
+    <string name="shortcuts_icon_picker_battery">Baterie</string>
+    <string name="shortcuts_icon_picker_browser">Browser</string>
+    <string name="shortcuts_icon_picker_calendar">Calendar</string>
+    <string name="shortcuts_icon_picker_camera">Cameră</string>
+    <string name="shortcuts_icon_picker_cloud">Cloud</string>
+    <string name="shortcuts_icon_picker_contact">Contact</string>
+    <string name="shortcuts_icon_picker_directdial">Apel direct</string>
+    <string name="shortcuts_icon_picker_directmessage">Mesaj direct</string>
+    <string name="shortcuts_icon_picker_drive">Drive</string>
+    <string name="shortcuts_icon_picker_dropbox">Dropbox</string>
+    <string name="shortcuts_icon_picker_email">E-mail</string>
+    <string name="shortcuts_icon_picker_email2">E-mail alternativ</string>
+    <string name="shortcuts_icon_picker_evernote">Evernote</string>
+    <string name="shortcuts_icon_picker_facebook">Facebook</string>
+    <string name="shortcuts_icon_picker_favorite">Favorit</string>
+    <string name="shortcuts_icon_picker_file_browser">Browser fișiere</string>
+    <string name="shortcuts_icon_picker_file_browser2">Browser fișiere alternativ</string>
+    <string name="shortcuts_icon_picker_fitness">Fitness</string>
+    <string name="shortcuts_icon_picker_gallery">Galerie</string>
+    <string name="shortcuts_icon_picker_gears">Gears</string>
     <string name="shortcuts_icon_picker_google_small">Google</string>
+    <string name="shortcuts_icon_picker_gplus">Google Plus</string>
+    <string name="shortcuts_icon_picker_gtalk">Hangouts</string>
     <string name="shortcuts_icon_picker_help">Ajutor</string>
+    <string name="shortcuts_icon_picker_joystick">Joystick</string>
+    <string name="shortcuts_icon_picker_key">Chei/conturi</string>
+    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_notes">Note</string>
+    <string name="shortcuts_icon_picker_luggage">Călătorie</string>
+    <string name="shortcuts_icon_picker_maps">Hărţi</string>
+    <string name="shortcuts_icon_picker_market">Magazin</string>
+    <string name="shortcuts_icon_picker_movie">Filme</string>
     <string name="shortcuts_icon_picker_music">Muzică</string>
+    <string name="shortcuts_icon_picker_nav">Navigare</string>
+    <string name="shortcuts_icon_picker_phone">Telefon</string>
+    <string name="shortcuts_icon_picker_package">Pachet</string>
+    <string name="shortcuts_icon_picker_pinterest">Pinterest</string>
     <string name="shortcuts_icon_picker_play">Redare</string>
     <string name="shortcuts_icon_picker_pocket">Buzunar</string>
     <string name="shortcuts_icon_picker_quicksettings">Setări rapide</string>
@@ -610,6 +750,7 @@
     <string name="shortcut_action_ring_vib">Sunet/Vibrație</string>
     <string name="shortcut_action_ring_silent">Sunet/Silențios</string>
     <string name="shortcut_action_ring_vib_silent">Sunet/Vibrație/Silențios</string>
+    <string name="shortcut_action_camera">Cameră</string>
     <string name="shortcut_action_media_next">Muzică - următoarea piesă</string>
     <string name="shortcut_action_media_play_pause">Muzică - redare/pauză</string>
     <string name="shortcut_action_media_previous">Muzică - piesa anterioară</string>
@@ -617,11 +758,15 @@
     <string name="airplay">AirPlay</string>
     <string name="android">Android</string>
     <string name="badoo">Badoo</string>
+    <string name="battery">Baterie</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="bookmarks">Marcaje</string>
+    <string name="browser">Browser</string>
     <string name="browser2">Browser2</string>
     <string name="calculator">Calculator</string>
+    <string name="calendar">Calendar</string>
     <string name="calls">Apeluri</string>
+    <string name="camera">Cameră</string>
     <string name="chrome">Chrome</string>
     <string name="clock">Ceas</string>
     <string name="cnn">Cnn</string>
@@ -629,9 +774,13 @@
     <string name="deezer">Deezer</string>
     <string name="dolphin2">Delfin</string>
     <string name="downloads">Descărcări</string>
+    <string name="dropbox">Dropbox</string>
     <string name="ebay">Ebay</string>
+    <string name="email">E-mail</string>
+    <string name="evernote">Evernote</string>
     <string name="explorer">Explorer</string>
     <string name="falcon">Falcon</string>
+    <string name="fb">Facebook</string>
     <string name="flipboard">Flipboard</string>
     <string name="foursquare">Foursquare</string>
     <string name="firefox">Firefox</string>
@@ -641,12 +790,66 @@
     <string name="line">Linie</string>
     <string name="mic">Microfon</string>
     <string name="newyorktimes">NewYork times</string>
+    <string name="rootexplorer">Root explorer</string>
+    <string name="sim">Sim</string>
+    <string name="teamviewer">Teamviewer</string>
+    <string name="totalcommander">Total commander</string>
     <string name="weather">Vreme</string>
+    <string name="golocker">Go locker</string>
+    <string name="googlecurrents">Google currents</string>
+    <string name="googletalk">Google Talk</string>
+    <string name="gosms">Go sms</string>
+    <string name="meebo">Meebo</string>
+    <string name="maps2">Maps2</string>
+    <string name="memorycleaner">Curăţător de memorie</string>
+    <string name="navigation">Navigare</string>
     <string name="pulse">Puls</string>
+    <string name="shazam">Shazam</string>
+    <string name="swiftkey">Swiftkey</string>
+    <string name="tmobile">Tmobile</string>
+    <string name="trash">Coşul de gunoi</string>
+    <string name="games">Jocuri</string>
+    <string name="gmail">Gmail</string>
+    <string name="docs">Documente</string>
+    <string name="googledrive">Google Drive</string>
+    <string name="googleearth">Google earth</string>
+    <string name="googlehangouts">Google hangouts</string>
+    <string name="googlekeep">Google keep</string>
+    <string name="googleplay">Google Play</string>
+    <string name="googletranslate">Google translate</string>
     <string name="google">Google</string>
+    <string name="googleplus">Google plus</string>
+    <string name="imdb">imdb</string>
+    <string name="instagram">instagram</string>
+    <string name="lastfm">Lastfm</string>
+    <string name="maps">Hărţi</string>
+    <string name="messages">Mesaje</string>
     <string name="music">Muzică</string>
+    <string name="mxplayer">Mxplayer</string>
+    <string name="notepad">Mesaj direct</string>
+    <string name="opera">Opera</string>
+    <string name="paint">Paint</string>
+    <string name="paypal">Paypal</string>
+    <string name="phone">Telefon</string>
+    <string name="picasa">Picasa</string>
+    <string name="pictures2">Pictures2</string>
+    <string name="player_pro">Player pro</string>
+    <string name="playstation">Play station</string>
+    <string name="reddit">Reddit</string>
     <string name="settings">Configurări</string>
+    <string name="skype">Skype</string>
+    <string name="soundscloud">Sunete cloud</string>
+    <string name="spotifiy">Spotifiy</string>
+    <string name="tapatalk">Tapatalk</string>
+    <string name="tunein">Tunein</string>
     <string name="twitter">Twitter</string>
+    <string name="viber">Viber</string>
+    <string name="videocamera">Cameră video</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="xda">Xda</string>
+    <string name="yahoo">Yahoo</string>
+    <string name="youtube">YouTube</string>
     <string name="zedge">Zedge</string>
     <!-- Call notifications -->
     <string name="call_notifications_cat">Opțiuni Notificare Apel</string>
@@ -727,13 +930,23 @@
     <string name="lockscreen_hide_items_category">Ascunde elementele</string>
     <string name="lockscreen_clock_title">Widget ceas</string>
     <string name="lockscreen_clock_summary">Arată widgetul ceas le ecranul de blocare</string>
+    <string name="lockscreen_info_title">Obiecte sub ceas</string>
+    <string name="lockscreen_info_summary">Arată data, vremea, alarme și zen pe evranul de blocare</string>
     <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_styles_category">Stil ecran de blocare</string>
     <string name="lockscreen_clock_selection_title">Stil ceas</string>
     <string name="lockscreen_clock_selection_digital">Implicit</string>
     <string name="lockscreen_clock_selection_digital_bold">Digital (îngroșat)</string>
     <string name="lockscreen_clock_selection_analog">Analogic</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (îngroșat)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy cu accent</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy Accent (alternativ)</string>
+    <string name="lockscreen_clock_selection_shishu_nerves">Nervi Shishu</string>
+    <string name="lockscreen_clock_selection_gradient_btlglogo">Ceas Degradant (Cu sigla Bootleg)</string>
+    <string name="lockscreen_clock_selection_gradient_shishu">Ceas Degradant (Cu sigla Shishu)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Ceas degradant complet</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Ceas degradant monocrom</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Activează</string>
     <string name="daylight_header_pack_title">Colecție de imagini antet</string>
@@ -755,9 +968,16 @@
     <string name="file_header_select_summary">Selectaţi imagine particularizată</string>
     <string name="file_header_provider_title">Imagine particularizată</string>
     <!-- Volume Panel on Left -->
+    <string name="volume_panel_category">Panou de volum</string>
+    <string name="volume_panel_on_left_title">Panou volum pe stânga</string>
+    <string name="volume_panel_on_left_summary">Schimbă panoul de volum de pe stânga pe dreapta</string>
     <!-- Audio Panel view  -->
+    <string name="audio_panel_view">Stilul panoului de volum</string>
     <string name="audio_panel_view_media_title">Media</string>
     <string name="audio_panel_view_ringer_title">Sonerie</string>
+    <string name="audio_panel_view_notification_title">Notificare</string>
+    <string name="audio_panel_view_alarm_title">Alarmă</string>
+    <string name="audio_panel_view_voice_title">Voce</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Pixeli inteligenți</string>
@@ -767,7 +987,12 @@
     <string name="smart_pixels_on_power_save_title">Activare automată la economisirea bateriei</string>
     <string name="smart_pixels_on_power_save_summary">Activați Pixelii inteligenți când este activată economisirea bateriei</string>
     <string name="smart_pixels_percent">Procentajul de pixeli pentru dezactivare</string>
+    <string name="smart_pixels_shift">Împiedicați arderea prin deplasarea oricăror pixeli</string>
+    <string name="smart_pixels_warning_text">Pixeli inteligenți reprezintă o caracteristică de economisire a energiei. În funcție de numărul de pixeli pe care decideți să îi dezactivați, ați putea vedea o îmbunătățire semnificativă a duratei de viață a bateriei. Pentru o experiență bună a utilizatorului, vă recomandăm să setați numărul de pixeli dezactivaţi la 75%.</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">Ceasul bării de stare</string>
+    <string name="status_bar_clock_summary_on">Arată starea bării şi ceasul</string>
+    <string name="status_bar_clock_summary_off">Ascunde ceasul din starea bării</string>
     <string name="status_bar_show_clock_title">Arată ora &amp; data</string>
     <string name="clock_title_enable">Aliniere</string>
     <string name="clock_position_right">Ceas în partea dreaptă</string>
@@ -798,7 +1023,12 @@
     <string name="menu_save">Salvează</string>
     <!-- Active edge -->
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Coperta albumului pe ecranul de blocare</string>
     <string name="lockscreen_cover_filter_none">Nimic</string>
+    <string name="lockscreen_cover_filter_grayscale">Nuanțe de gri</string>
+    <string name="lockscreen_cover_filter_tint">Accentuare fumurie</string>
+    <string name="lockscreen_cover_filter_blur">Încețoșează</string>
+    <string name="lockscreen_cover_filter_grayblur">Tonuri de gri şi translucente</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Butonul de închidere a aplicației</string>
     <string name="notification_guts_kill_app_button_summary">Se afișează un buton pentru închiderea aplicaţiei în meniul apăsării lungi pe notificare</string>
@@ -808,11 +1038,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">Recente AOSP</string>
     <string name="slim_recents_category">Recente Slim</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">Când glisezi în sus, navigarea de acasă deschide recentele, numai recentele implicite sunt suportate</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Recente Slim</string>
     <string name="slim_recents_settings_title">Setări recente Slim</string>
     <string name="recents_max_apps_title">Aplicații maxim permise</string>
     <string name="recent_panel_scale_title">Dimensiune</string>
+    <string name="recent_panel_expanded_mode_title">Modul extins</string>
     <string name="recent_panel_expanded_mode_summary">Previzualizarea ultimelor sarcini în modul extins</string>
     <string name="recent_panel_expanded_mode_auto">Auto (implicit)</string>
     <string name="recent_panel_expanded_mode_always">Întotdeauna</string>
@@ -820,8 +1052,13 @@
     <string name="recent_panel_expanded_mode_disabled">Dezactivat</string>
     <string name="recent_panel_bg_color_title">Culoarea de fundal a panoului</string>
     <string name="recent_card_bg_color_title">Culoarea de fundal a cardului</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Apăsare lungă bară de memorie</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Eliminare Recente la apăsarea lungă a barei de memorie</string>
     <string name="slim_icon_pack_title">Set de pictograme</string>
     <string name="slim_icon_pack_summary">Aplicați un pachet de pictograme personalizat pentru aplicații din panou</string>
+    <string name="slim_recents_corner_radius_title">Modificarea razei de colţ</string>
+    <string name="slim_recents_aicp_empty_drawable_title">AICP şterge recente</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Imaginea pe care să o arate când nu există aplicaţii recente</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Afişare pe marginea stângă</string>
     <string name="recent_panel_lefty_mode_summary">Afișați panoul cu aplicații recente pe marginea stângă</string>
@@ -832,6 +1069,11 @@
     <string name="slim_blacklist_add_apps_summary">Atingeți aici pentru a adăuga, atingeți aplicația adăugată pentru a o elimina</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">Bară de memorie</string>
+    <string name="slim_recents_mem_display_title">Afișează bara de memorie</string>
+    <string name="slim_recents_mem_display_summaryOn">Bară de memorie activată</string>
+    <string name="slim_recents_mem_display_summaryOff">Bară de memorie dezactivată</string>
+    <string name="slim_recents_mem_display_color">Culoarea barei de memorie</string>
+    <string name="slim_recents_mem_display_text_color">Culoarea textului barii de memorie</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Buton Șterge Tot</string>
     <string name="show_clear_all_recents_button_summary">Afişare Buton Șterge Tot</string>
@@ -862,13 +1104,24 @@
     <string name="smart_pulldown_dismissable">nerevocabile</string>
     <string name="smart_pulldown_ongoing">nu este în curs de desfăşurare</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">Dezactivează setările rapide când este blocat</string>
+    <string name="lockscreen_qs_disabled_summary">Dezactivează extinderae când setările rapide sunt securizate pe ecranele de blocare</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Afişează setările cutout</string>
+    <string name="cutout_main_summary">Acestea taie într-adevăr colţuri cu acesta</string>
+    <string name="display_cutout_style_title">Stil decupaj</string>
     <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Imersiv</string>
     <string name="display_cutout_style_hide">Ascunde</string>
+    <string name="stock_statusbar_in_hide">Înălţimea barei de stare prestabilite</string>
+    <string name="stock_statusbar_in_hide_summary">Utilizaţi înălţime implicită pentru bara de stare</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">Această caracteristică nu este valabilă deoarece nu ai un ecran de blocare securizat. </string>
     <string name="no_no_summary_go">Această caracteristică nu este valabilă deoarece ai Android Go activat.</string>
     <string name="no_no_summary_owner">Această caracteristică nu este valabilă deoarece nu ai un mesaj informativ de proprietar</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">Setează jurnalul modificărilor</string>
+    <string name="bootleg_changelog_summary">Vezi ultimele schimbări adăugate în această versiune</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">Glisează în sus pentru a schimba aplicațiile</string>
 </resources>

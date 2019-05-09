@@ -207,6 +207,10 @@
     <!-- Dashboard Categories and suggestions -->
     <string name="dashboard_conditions_title">Сповіщення в меню налаштувань</string>
     <string name="summary_dashboard_conditions_enabled">Сповіщення в меню налаштувань ввімкнено</string>
+    <string name="summary_dashboard_conditions_disabled">Сповіщення в меню налаштувань вимкнено</string>
+    <string name="dashboard_suggestions_title">Сповіщення в меню налаштувань</string>
+    <string name="summary_dashboard_suggestions_enabled">Сповіщення в меню налаштувань ввімкнено</string>
+    <string name="summary_dashboard_suggestions_disabled">Пропозиції на інформаційній панелі вимкнено</string>
     <!-- Roaming indicator icon -->
     <!-- Data Disabled Icon -->
     <!-- SystemUI Restart -->
@@ -217,29 +221,62 @@
     <string name="recents_quickstep">Швидкі налаштування (якщо присутні)</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Стиль плиток Швидких налаштувань</string>
+    <string name="qs_styles_dialog_title">Вибрати стиль плиток Швидких налаштувань</string>
     <string name="qstile_default">Коло (за замовчуванням)</string>
     <string name="qstile_justicons">Значки без кола</string>
+    <string name="qstile_inkdrop">Інкрустор</string>
     <string name="qstile_shishu_nights">Нічні Shishu</string>
+    <string name="qstile_circle_gradient">Коло з градієнтом</string>
+    <string name="qstile_wavey">Хвиляста</string>
+    <string name="qstile_circle_dualtone">Коло з подвійним тоном</string>
     <string name="qstile_memedo_square">Площа Мемедо</string>
+    <string name="qstile_pokesign">Стиль Poke</string>
+    <string name="qstile_ninja">Ніндзя</string>
+    <string name="qstile_dottedcircle">Пунктирне коло</string>
+    <string name="qstile_shishuink">Shishu чорнило</string>
+    <string name="qstile_attemptmountain">Спроба гори</string>
     <!-- Battery light -->
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Подвійний дотик на екрані блокування для сну</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Двічі натисніть на верхній третині або в нижній зоні області ярликів блокування екрану, щоб перевести пристрій в режим сну</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Рядок стану</string>
+    <string name="double_tap_to_sleep_summary">Двічі торкніться рядка стану або кнопки розблокування екрану, щоб перевести пристрій в режим сну</string>
     <!-- Network traffic -->
+    <string name="network_traffic_type">Оберіть тип мережевої активності</string>
+    <string name="show_network_traffic_up">Вихідний</string>
+    <string name="show_network_traffic_down">Вхідний</string>
+    <string name="show_network_traffic_all">Вихідний і вхідний</string>
     <!-- Notification count -->
     <!-- Custom carrier label and position -->
+    <string name="carrier_category">Назва оператора</string>
+    <string name="carrier_label_settings_summary">Змінити назву оператора</string>
+    <string name="custom_carrier_label_explain">Будь ласка, введіть свою назву оператора. Залиште поле пустим, щоб повернутися до типового імені.</string>
+    <string name="show_carrier_keyguard">Лише на екрані блокування</string>
+    <string name="show_carrier_statusbar">Лише в рядку стану</string>
+    <string name="show_carrier_enabled">На екрані блокування &amp; та в рядку стану</string>
     <!-- Weather -->
     <string name="weather_title">Погода</string>
     <string name="show_weather_on_ls_title">Показувати погоду на екрані блокування</string>
     <string name="show_weather_on_ls_summary">Додати актуальну погоду на екран блокування</string>
+    <string name="weather_unit">Одиниця температури</string>
     <!-- Face unlock -->
     <!-- Running Services -->
+    <string name="qs_running_services_summary">Увімкнути значок запущених служб у нижньому колонтитулі QS(швидких налаштувань)</string>
     <!-- QS footer warnings -->
     <!-- Statusbar ticker -->
+    <string name="statusbar_notifi_cat">Показ сповіщень</string>
+    <string name="status_bar_show_ticker_summary">Попередній перегляд сповіщень в рядку стану</string>
+    <string name="ticker_tick_duration_title">Тривалість анімації рухомого рядка</string>
     <!-- SeekBar -->
+    <string name="seekbar_no_default_value">Немає значень за замовчуванням</string>
+    <string name="seekbar_default_value_set">Значення встановлено за замовчуванням <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">Значення за замовчуванням встановлено</string>
     <string name="seekbar_default_string">За замовчанням</string>
     <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_summary">Показати заголовок треку в плитці \"Музика\" швидких налаштувань</string>
     <!-- Screen state service -->
+    <string name="screen_state_off_delay_summary">Кількість секунд для очікування перед виконанням дій після вимкнення екрана</string>
     <!-- Fingerprint unlock keystore -->
     <!-- Show VoLTE icon on statusbar -->
     <!-- AppOps -->
