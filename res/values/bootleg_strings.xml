@@ -1157,6 +1157,12 @@
     <string name="lockscreen_clock_selection_gradient_full">Full gradient clock</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradient clock</string>
 
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Date style</string>
+    <string name="lockscreen_date_selection_default">Default</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Enable</string>
     <string name="daylight_header_pack_title">Header image collection</string>
