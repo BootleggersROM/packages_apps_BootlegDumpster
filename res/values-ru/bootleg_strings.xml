@@ -1145,4 +1145,6 @@
     <string name="bootleg_changelog_summary">Посмотреть последние изменения, добавленные в эту сборку</string>
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Свайп вверх для переключения приложений</string>
+    <string name="custom_fod_icon_title">Установить иконку FOD</string>
+
 </resources>

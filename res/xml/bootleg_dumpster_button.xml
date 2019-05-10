@@ -108,6 +108,10 @@
         </com.android.settings.smartnav.ActionPreference>
     </PreferenceCategory>
 
+    <Preference
+        android:title="@string/custom_fod_icon_title"
+        android:key="custom_fingerprint_icon" />
+
     <PreferenceCategory
         android:key="home_key"
         android:title="@string/hardware_keys_home_key_title" >
