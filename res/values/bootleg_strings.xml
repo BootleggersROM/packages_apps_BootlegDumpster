@@ -1396,4 +1396,8 @@
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Show Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+
+    <!-- FOD -->
+    <string name="custom_fod_icon_title">Set custom FOD image</string>
+
 </resources>
