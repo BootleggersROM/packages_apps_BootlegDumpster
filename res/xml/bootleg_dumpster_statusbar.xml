@@ -26,7 +26,7 @@
              android:key="show_fourg"
              android:title="@string/show_fourg_icon_title"
              android:summary="@string/show_fourg_icon_summary"
-             android:defaultValue="false"/>
+             android:defaultValue="true"/>
 
         <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
             android:key="use_old_mobiletype"
@@ -168,7 +168,7 @@
         android:summaryOn="@string/status_bar_clock_seconds_summary_on"
         android:summaryOff="@string/status_bar_clock_seconds_summary_off"
         android:dependency="status_bar_clock"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <Preference
         android:key="clock_adv_settings"
