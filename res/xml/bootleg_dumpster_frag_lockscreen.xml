@@ -46,6 +46,16 @@
             android:summary="@string/lockscreen_weather_summary"
             android:defaultValue="true" />
 
+        <com.bootleggers.support.preferences.SystemSettingListPreference
+            android:key="lockscreen_weather_style"
+            android:title="@string/lockscreen_weather_style_title"
+            android:dialogTitle="@string/lockscreen_weather_style_title"
+            android:entries="@array/lockscreen_weather_style_entries"
+            android:entryValues="@array/lockscreen_weather_style_values"
+            android:defaultValue="0"
+            android:dependency="lockscreen_weather_enabled"
+            android:summary="@string/lock_screen_weather_style_summary" />
+
         <com.bootleggers.support.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_weather_show_city"
             android:title="@string/lockscreen_weather_show_city_title"
