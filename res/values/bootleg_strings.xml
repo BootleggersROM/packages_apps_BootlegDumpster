@@ -346,4 +346,11 @@
     <string name="lockscreen_weather_show_city_summary">Show name of current city on left of image</string>
     <string name="lockscreen_weather_show_temp_title">Show temperature</string>
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
+
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+    <string name="lock_screen_weather_style_title">Show weather with Pixel style</string>
+    <string name="lock_screen_weather_style_summary">Instead of using the big widget, it\'ll show next to the date</string>
 </resources>
