@@ -121,6 +121,9 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
 
         LinearLayout attemptmountain = mView.findViewById(R.id.QsTileStyleAttemptMountain);
         setLayout("14", attemptmountain);
+
+        LinearLayout cookie = mView.findViewById(R.id.QsTileStyleCookie);
+        setLayout("15", cookie);
     }
 
     @Override
@@ -179,6 +182,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
         LinearLayout dottedcircle = mView.findViewById(R.id.QsTileStyleDottedCircle);
         LinearLayout shishuink = mView.findViewById(R.id.QsTileStyleShishuInk);
         LinearLayout attemptmountain = mView.findViewById(R.id.QsTileStyleAttemptMountain);
+        LinearLayout cookie = mView.findViewById(R.id.QsTileStyleCookie);
 
         TypedValue typedValue = new TypedValue();
         res.getValue(R.dimen.qs_styles_layout_opacity, typedValue, true);
@@ -199,6 +203,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 2 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha((float) 1.0);
@@ -214,6 +219,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 3 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -229,6 +235,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 4 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -244,6 +251,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 5 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -259,6 +267,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 6 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -274,6 +283,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 7 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -289,6 +299,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 8 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -304,6 +315,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 9 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -319,6 +331,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 10 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -334,6 +347,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 11 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -349,6 +363,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 12 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -364,6 +379,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha((float) 1.0);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 13 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -379,6 +395,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha((float) 1.0);
             attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 14 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -394,6 +411,23 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha(mLayoutOpacity);
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha((float) 1.0);
+            cookie.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 15 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha((float) 1.0);
         } else {
             squircle.setAlpha((float) 1.0);
             teardrop.setAlpha((float) 1.0);
@@ -409,6 +443,7 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             dottedcircle.setAlpha((float) 1.0);
             shishuink.setAlpha((float) 1.0);
             attemptmountain.setAlpha((float) 1.0);
+            cookie.setAlpha((float) 1.0);
         }
     }
 }

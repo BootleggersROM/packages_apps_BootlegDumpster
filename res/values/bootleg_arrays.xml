@@ -580,6 +580,7 @@
         <item>@string/qstile_dottedcircle</item>
         <item>@string/qstile_shishuink</item>
         <item>@string/qstile_attemptmountain</item>
+        <item>@string/qstile_cookie</item>
     </string-array>
      <string-array name="qs_selector_values" translatable="false">
         <item>0</item>
@@ -595,6 +596,7 @@
         <item>10</item>
         <item>11</item>
         <item>12</item>
+        <item>13</item>
     </string-array>
 
    <!-- Network Traffic Type -->
