@@ -88,7 +88,8 @@
     <string name="bootleg_moarstuff_cd_summary02">So come here and feel free to help us to translate our ROM to your native language!</string>
     <string name="bootleg_moarstuff_cd_sumgen" translatable="false">%s %s</string>
     <string name="bootleg_moarstuff_faq_summary">Where all the most asked questions and requested features got their answer.</string>
-
+    <string name="bootleg_moarstuff_donos_title">Support our project</string>
+    <string name="bootleg_moarstuff_donos_summary">Donate to support this project, we\'ll appreciate it a lot</string>
 
     <!-- Messages to send? -->
     <string name="share_chooser_title">Share our ROM via..</string>
