@@ -124,6 +124,21 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
 
         LinearLayout cookie = mView.findViewById(R.id.QsTileStyleCookie);
         setLayout("15", cookie);
+
+        LinearLayout neonlike = mView.findViewById(R.id.QsTileStyleNeonLike);
+        setLayout("16", neonlike);
+
+        LinearLayout oxygen = mView.findViewById(R.id.QsTileStyleOOS);
+        setLayout("17", oxygen);
+
+        LinearLayout triangles = mView.findViewById(R.id.QsTileStyleTriangles);
+        setLayout("18", triangles);
+
+        LinearLayout divided = mView.findViewById(R.id.QsTileStyleDivided);
+        setLayout("19", divided);
+
+        LinearLayout cosmos = mView.findViewById(R.id.QsTileStyleCosmos);
+        setLayout("20", cosmos);
     }
 
     @Override
@@ -183,6 +198,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
         LinearLayout shishuink = mView.findViewById(R.id.QsTileStyleShishuInk);
         LinearLayout attemptmountain = mView.findViewById(R.id.QsTileStyleAttemptMountain);
         LinearLayout cookie = mView.findViewById(R.id.QsTileStyleCookie);
+        LinearLayout neonlike = mView.findViewById(R.id.QsTileStyleNeonLike);
+        LinearLayout oxygen = mView.findViewById(R.id.QsTileStyleOOS);
+        LinearLayout triangles = mView.findViewById(R.id.QsTileStyleTriangles);
+        LinearLayout divided = mView.findViewById(R.id.QsTileStyleDivided);
+        LinearLayout cosmos = mView.findViewById(R.id.QsTileStyleCosmos);
 
         TypedValue typedValue = new TypedValue();
         res.getValue(R.dimen.qs_styles_layout_opacity, typedValue, true);
@@ -204,6 +224,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 2 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha((float) 1.0);
@@ -220,6 +245,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 3 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -236,6 +266,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 4 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -252,6 +287,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 5 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -268,6 +308,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 6 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -284,6 +329,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 7 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -300,6 +350,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 8 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -316,6 +371,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 9 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -332,6 +392,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 10 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -348,6 +413,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 11 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -364,6 +434,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 12 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -380,6 +455,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 13 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -396,6 +476,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha((float) 1.0);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 14 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -412,6 +497,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha((float) 1.0);
             cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
         } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 15 )) {
             squircle.setAlpha(mLayoutOpacity);
             teardrop.setAlpha(mLayoutOpacity);
@@ -428,6 +518,116 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha(mLayoutOpacity);
             attemptmountain.setAlpha(mLayoutOpacity);
             cookie.setAlpha((float) 1.0);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 16 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha((float) 1.0);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 17 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha((float) 1.0);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 18 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha((float) 1.0);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 19 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha((float) 1.0);
+            cosmos.setAlpha(mLayoutOpacity);
+        } else if (ThemeAccentUtils.isUsingQsTileStyles(mOverlayManager, mCurrentUserId, 20 )) {
+            squircle.setAlpha(mLayoutOpacity);
+            teardrop.setAlpha(mLayoutOpacity);
+            deletround.setAlpha(mLayoutOpacity);
+            inktober.setAlpha(mLayoutOpacity);
+            shishunights.setAlpha(mLayoutOpacity);
+            circlegradient.setAlpha(mLayoutOpacity);
+            wavey.setAlpha(mLayoutOpacity);
+            circledualtone.setAlpha(mLayoutOpacity);
+            memedosquare.setAlpha(mLayoutOpacity);
+            pokesign.setAlpha(mLayoutOpacity);
+            ninja.setAlpha(mLayoutOpacity);
+            dottedcircle.setAlpha(mLayoutOpacity);
+            shishuink.setAlpha(mLayoutOpacity);
+            attemptmountain.setAlpha(mLayoutOpacity);
+            cookie.setAlpha(mLayoutOpacity);
+            neonlike.setAlpha(mLayoutOpacity);
+            oxygen.setAlpha(mLayoutOpacity);
+            triangles.setAlpha(mLayoutOpacity);
+            divided.setAlpha(mLayoutOpacity);
+            cosmos.setAlpha((float) 1.0);
         } else {
             squircle.setAlpha((float) 1.0);
             teardrop.setAlpha((float) 1.0);
@@ -444,6 +644,11 @@ public class QsTileStyles extends InstrumentedDialogFragment implements OnClickL
             shishuink.setAlpha((float) 1.0);
             attemptmountain.setAlpha((float) 1.0);
             cookie.setAlpha((float) 1.0);
+            neonlike.setAlpha((float) 1.0);
+            oxygen.setAlpha((float) 1.0);
+            triangles.setAlpha((float) 1.0);
+            divided.setAlpha((float) 1.0);
+            cosmos.setAlpha((float) 1.0);
         }
     }
 }
