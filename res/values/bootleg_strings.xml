@@ -1373,4 +1373,8 @@
 
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Swipe up to switch apps</string>
+
+    <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
+    <string name="notification_sound_vib_screen_on_summary">Disable to block notifications sound and vibration when the screen is awake</string>
 </resources>
