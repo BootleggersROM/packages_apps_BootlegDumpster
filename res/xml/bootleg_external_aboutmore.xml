@@ -47,6 +47,15 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://bootleggersrom.github.io/faq" />
+
+        <Preference
+            android:key="bootleg_donos"
+            android:title="@string/bootleg_moarstuff_donos_title"
+            android:summary="@string/bootleg_moarstuff_donos_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://bootleggersrom.github.io/donate" />
+        </Preference>
         </Preference>
 
     </PreferenceCategory>
