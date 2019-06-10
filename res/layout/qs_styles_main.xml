@@ -54,6 +54,7 @@
                 <include layout="@layout/qs_styles_dottedcircle" />
                 <include layout="@layout/qs_styles_shishuink" />
                 <include layout="@layout/qs_styles_attemptmountain" />
+                <include layout="@layout/qs_styles_cookie" />
 
             </GridLayout>
         </HorizontalScrollView>

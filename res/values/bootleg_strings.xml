@@ -574,6 +574,7 @@
     <string name="qstile_dottedcircle">Dotted Circle</string>
     <string name="qstile_shishuink">Shishu Ink</string>
     <string name="qstile_attemptmountain">An attempt of a mountain</string>
+    <string name="qstile_cookie">Cookie</string>
 
     <!-- Battery light -->
     <string name="light_category">Battery LED</string>
