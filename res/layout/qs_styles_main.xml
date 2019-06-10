@@ -55,6 +55,11 @@
                 <include layout="@layout/qs_styles_shishuink" />
                 <include layout="@layout/qs_styles_attemptmountain" />
                 <include layout="@layout/qs_styles_cookie" />
+                <include layout="@layout/qs_styles_neonlike" />
+                <include layout="@layout/qs_styles_oos" />
+                <include layout="@layout/qs_styles_triangles" />
+                <include layout="@layout/qs_styles_divided" />
+                <include layout="@layout/qs_styles_cosmos" />
 
             </GridLayout>
         </HorizontalScrollView>
