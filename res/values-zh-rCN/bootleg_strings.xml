@@ -952,6 +952,17 @@
     <string name="lockscreen_clock_selection_gradient_shishu">渐变时钟(与shishu 标志)</string>
     <string name="lockscreen_clock_selection_gradient_full">完整渐变时钟</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">单色梯度时钟</string>
+    <string name="lockscreen_clock_selection_text">文本</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">日期样式</string>
+    <string name="lockscreen_date_selection_default">默认</string>
+    <string name="lockscreen_date_selection_str_box">半透明方块</string>
+    <string name="lockscreen_date_selection_str_round">半透明方块（圆角）</string>
+    <string name="lockscreen_date_selection_str_accent">圆角、简约、带有强调色</string>
+    <string name="lockscreen_date_selection_str_accent_day">圆角、简约、带有强调色（alt）</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">圆角、透明、带有强调色</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">圆角、透明、带有强调色（alt）</string>
+    <string name="lockscreen_date_selection_str_gradient">渐变</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">启用</string>
     <string name="daylight_header_pack_title">顶部图像收集</string>
@@ -1042,8 +1053,14 @@
     <string name="active_edge_sensitivity_title">挤压灵敏度</string>
     <string name="active_edge_wake_title">屏幕关闭时阻止</string>
     <string name="active_edge_wake_summary">当屏幕关闭时触发操作</string>
+    <string name="active_edge_footer_info">并非边缘压感中的所有挤压操作都能够激活屏幕</string>
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">锁屏专辑艺术滤镜</string>
     <string name="lockscreen_cover_filter_none">无</string>
+    <string name="lockscreen_cover_filter_grayscale">灰度</string>
+    <string name="lockscreen_cover_filter_tint">主题色</string>
+    <string name="lockscreen_cover_filter_blur">模糊</string>
+    <string name="lockscreen_cover_filter_grayblur">灰度和模糊</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">强制关闭应用按钮</string>
     <string name="notification_guts_kill_app_button_summary">在通知的长按菜单中显示清除后台按钮</string>
@@ -1053,11 +1070,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">AOSP最近任务</string>
     <string name="slim_recents_category">Slim 最近任务</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">当使用向上滑动的主页导航打开最近应用时, 只支持原生最近任务样式</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Slim 最近任务</string>
     <string name="slim_recents_settings_title">Slim 最近任务设置</string>
     <string name="recents_max_apps_title">最大允许应用数量</string>
     <string name="recent_panel_scale_title">大小</string>
+    <string name="recent_panel_expanded_mode_title">扩展模式</string>
     <string name="recent_panel_expanded_mode_summary">在最近任务中启用预览模式</string>
     <string name="recent_panel_expanded_mode_auto">自动（默认）</string>
     <string name="recent_panel_expanded_mode_always">总是</string>
@@ -1065,8 +1084,13 @@
     <string name="recent_panel_expanded_mode_disabled">禁用</string>
     <string name="recent_panel_bg_color_title">面板背景颜色</string>
     <string name="recent_card_bg_color_title">卡片背景颜色</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">内存栏长按</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">通过长按内存栏来清空最近任务</string>
     <string name="slim_icon_pack_title">图标包</string>
     <string name="slim_icon_pack_summary">为面板中的应用程序应用自定义图标包</string>
+    <string name="slim_recents_corner_radius_title">卡片圆角半径</string>
+    <string name="slim_recents_aicp_empty_drawable_title">AICP 无最近任务</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">没有最近的应用程序时显示的图像</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">显示在左侧边缘</string>
     <string name="recent_panel_lefty_mode_summary">在屏幕左侧显示最近任务列表</string>
@@ -1077,6 +1101,11 @@
     <string name="slim_blacklist_add_apps_summary">点击此处添加应用, 点击已添加的应用程序来删除</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">内存栏</string>
+    <string name="slim_recents_mem_display_title">显示内存栏</string>
+    <string name="slim_recents_mem_display_summaryOn">内存栏已启用</string>
+    <string name="slim_recents_mem_display_summaryOff">内存栏已禁用</string>
+    <string name="slim_recents_mem_display_color">内存栏颜色</string>
+    <string name="slim_recents_mem_display_text_color">内存栏文本颜色</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">一键清理按钮</string>
     <string name="show_clear_all_recents_button_summary">显示“一键清理”按钮</string>
@@ -1107,13 +1136,27 @@
     <string name="smart_pulldown_dismissable">没有清除</string>
     <string name="smart_pulldown_ongoing">没有持续</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">锁屏时禁用快速设置</string>
+    <string name="lockscreen_qs_disabled_summary">在锁屏界面禁用下拉访问快捷设置</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">显示执行设置</string>
+    <string name="cutout_main_summary">他们确实将这个角落割下来</string>
+    <string name="display_cutout_style_title">剪切样式</string>
     <string name="display_cutout_style_normal">正常</string>
+    <string name="display_cutout_style_immerse">沉浸式</string>
     <string name="display_cutout_style_hide">隐藏</string>
+    <string name="stock_statusbar_in_hide">原生状态栏高度</string>
+    <string name="stock_statusbar_in_hide_summary">在隐藏中使用默认状态栏高度</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">此功能不可用, 因为您没有安全的锁屏界面。 </string>
     <string name="no_no_summary_go">此功能不可用, 因为您已启用 Android。</string>
     <string name="no_no_summary_owner">此功能不可用，因为您没有所有者信息</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">查看更新日志</string>
+    <string name="bootleg_changelog_summary">查看在此构建上添加的最新更改</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">向上滑动可切换应用</string>
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

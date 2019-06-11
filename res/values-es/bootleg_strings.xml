@@ -777,6 +777,17 @@
     <string name="lockscreen_clock_selection_analog">Analógico</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (negrita)</string>
+    <string name="lockscreen_clock_selection_text">Texto</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Estilo de fecha</string>
+    <string name="lockscreen_date_selection_default">Por defecto</string>
+    <string name="lockscreen_date_selection_str_box">Caja semitransparente</string>
+    <string name="lockscreen_date_selection_str_round">Caja semitransparente (redondeada)</string>
+    <string name="lockscreen_date_selection_str_accent">Redondeada, simple y con acento</string>
+    <string name="lockscreen_date_selection_str_accent_day">Redondeada, simple y con acento (alt)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Redondeada, transparente y con acento</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Redondeada, transparente y con acento (alt)</string>
+    <string name="lockscreen_date_selection_str_gradient">Degradado</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Activado</string>
     <string name="daylight_header_pack_title">Colección de imagen de cabecera</string>
@@ -914,4 +925,7 @@
     <string name="no_no_summary_owner">Esta característica no está disponible porque no tienes un mensaje de propietario</string>
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

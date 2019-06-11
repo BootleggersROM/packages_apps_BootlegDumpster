@@ -39,9 +39,11 @@
     <string name="about_bootleg_title">Über Bootleggers</string>
     <string name="about_bootleg_summary">Einige Informationen über uns, nur für den Fall, dass du neugierig bist</string>
     <string name="about_bootleg_small_title">Über uns</string>
+    <string name="about_bootleg_small_summary">Weitere Informationen über unser Projekt</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Über uns</string>
     <string name="bootleg_ab_title_whoami">Was ist Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers ist eine ROM vollgepackt mit Features und Apps mit dem Ziel, dich wie 家 zu fühlen. Hoffentlich gefällt es Euch.</string>
     <string name="bootleg_ab_title_thankssec">Dankesliste</string>
     <string name="bootleg_pref_title_romextras">Extras und Addons</string>
     <string name="bootleg_ex_title_featurelist">Feature-Liste</string>
@@ -104,9 +106,11 @@
     <string name="set">Übernehmen</string>
     <string name="color_default">Standard</string>
     <!-- Preferences Categories -->
+    <string name="cat_volume_keys">Lautstärketasten</string>
     <string name="anim_general_category">Generelle Animationen</string>
     <string name="general_system_stuff_preference">Systemverhalten</string>
     <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibration bei Displayberührung</string>
     <!-- Global Actions -->
     <string name="global_actions_title">Power-Menü</string>
     <string name="global_actions_power">Ausschalten</string>
@@ -169,6 +173,8 @@
     <string name="lock_clock_font_themeable">Anpassbar (oder VCR OSD Mono)</string>
     <string name="lock_dateown_font_themeable">Gestaltbar (oder Fuchs und Katze)</string>
     <!-- Lockscreen fonts - Common strings -->
+    <string name="lock_fonts_bold">Fett</string>
+    <string name="lock_fonts_italic">Kursiv</string>
     <string name="lock_fonts_light">Hell</string>
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Uhr-Schriftart-Optionen</string>
@@ -227,6 +233,12 @@
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Hardware-Tasten</string>
     <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_3s">3 Sekunden</string>
+    <string name="backlight_timeout_default">5 Sekunden (Standard)</string>
+    <string name="backlight_timeout_10s">10 Sekunden</string>
+    <string name="backlight_timeout_15s">15 Sekunden</string>
+    <string name="backlight_timeout_20s">20 Sekunden</string>
+    <string name="backlight_timeout_30s">30 Sekunden</string>
     <!-- Enable keys backlight-->
     <!-- Enable keys backlight-->
     <!-- HW Keys customization -->
@@ -411,6 +423,8 @@
     <string name="incall_vibrate_call_wait_title">Vibrieren beim Anklopfen</string>
     <string name="incall_vibrate_disconnect_title">Vibrieren beim Trennen</string>
     <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">Systemweite Gesten</string>
+    <string name="gesture_anywhere_enabled_title">Systemweite Gesten</string>
     <string name="gesture_anywhere_position_title">Standort</string>
     <string name="gesture_anywhere_gestures_title">Gesten</string>
     <!-- Label, button used to add a gesture -->
@@ -455,6 +469,11 @@
     <string name="lockscreen_clock_selection_analog">Analog</string>
     <string name="lockscreen_clock_selection_sammy">Samsung</string>
     <string name="lockscreen_clock_selection_sammy_bold">Samsung (Fett)</string>
+    <string name="lockscreen_clock_selection_text">Text</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Datumsstil</string>
+    <string name="lockscreen_date_selection_default">Standard</string>
+    <string name="lockscreen_date_selection_str_gradient">Farbverlauf</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Aktivieren</string>
     <string name="daylight_header_pack_title">Header Bildersammlung</string>
@@ -589,4 +608,7 @@
     <string name="no_no_summary_owner">Dieses Feature ist nicht verfügbar, weil du keine Sperrbildschirmnachricht hast</string>
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

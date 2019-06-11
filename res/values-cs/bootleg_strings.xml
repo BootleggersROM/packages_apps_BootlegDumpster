@@ -952,6 +952,17 @@
     <string name="lockscreen_clock_selection_gradient_shishu">Gradientní hodiny (s logem shishu)</string>
     <string name="lockscreen_clock_selection_gradient_full">Hodiny s plným gradientem</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochromatické gradientní hodiny</string>
+    <string name="lockscreen_clock_selection_text">Text</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Styl data</string>
+    <string name="lockscreen_date_selection_default">Výchozí</string>
+    <string name="lockscreen_date_selection_str_box">Poloprůhledný box</string>
+    <string name="lockscreen_date_selection_str_round">Poloprůhledný box (kulatý)</string>
+    <string name="lockscreen_date_selection_str_accent">Zakulacené, jednoduché a s odstínem</string>
+    <string name="lockscreen_date_selection_str_accent_day">Zakulacené, jednoduché a s odstínem (alt)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Zakulacené, průhledné a s odstínem</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Zakulacené, průhledné a s odstínem (alt)</string>
+    <string name="lockscreen_date_selection_str_gradient">Barevný přechod</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Povolit</string>
     <string name="daylight_header_pack_title">Sbírka obrázků záhlaví</string>
@@ -1145,4 +1156,7 @@
     <string name="bootleg_changelog_summary">Podívejte se na nejnovější změny přidané do tohoto sestavení</string>
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Potáhnutím nahoru přepnete aplikace</string>
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

@@ -239,6 +239,8 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_digital">Predefinição </string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_default">Predefinição </string>
     <!-- QS Headers -->
     <string name="header_provider_disabled">Desactivado</string>
     <!-- Volume Panel on Left -->
@@ -278,4 +280,7 @@
     <string name="no_no_summary_owner">Esse recurso não está disponível porque você não tem uma mensagem de informação do proprietário</string>
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

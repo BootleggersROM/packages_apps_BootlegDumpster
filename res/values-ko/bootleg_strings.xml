@@ -308,6 +308,8 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_digital">기본값</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_default">기본값</string>
     <!-- QS Headers -->
     <string name="header_provider_disabled">비활성화</string>
     <string name="file_header_provider_title">사용자 지정 이미지</string>
@@ -375,4 +377,7 @@
     <string name="no_no_summary_owner">This feature is unavailable because you don\'t have an owner info message</string>
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

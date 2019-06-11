@@ -124,6 +124,7 @@
     <!-- ambient visualizer -->
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
+    <!-- Lockscreen Date styles -->
     <!-- QS Headers -->
     <!-- Volume Panel on Left -->
     <!-- Audio Panel view  -->
@@ -146,4 +147,7 @@
     <!-- The no-no list, messages explaining why some features are disabled -->
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

@@ -532,6 +532,17 @@ https://bootleggersrom.github.io </string>
     <string name="lockscreen_clock_selection_analog">Analogique</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (gras)</string>
+    <string name="lockscreen_clock_selection_text">Texte</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Style de la date</string>
+    <string name="lockscreen_date_selection_default">Par défaut</string>
+    <string name="lockscreen_date_selection_str_box">Carré semi-transparent</string>
+    <string name="lockscreen_date_selection_str_round">Carré semi-transparent (arrondi)</string>
+    <string name="lockscreen_date_selection_str_accent">Arrondi, simple et avec accent</string>
+    <string name="lockscreen_date_selection_str_accent_day">Arrondi, simple et avec accent (alternatif)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Arrondi, transparent et avec accent</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Arrondi, transparent et avec accent (alternatif)</string>
+    <string name="lockscreen_date_selection_str_gradient">Dégradé</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Activer</string>
     <string name="daylight_header_pack_title">Collection des images d\'entête</string>
@@ -667,4 +678,7 @@ https://bootleggersrom.github.io </string>
     <string name="no_no_summary_owner">Cette fonctionnalité n’est pas disponible car vous n\'avez pas les informations du propriétaire</string>
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

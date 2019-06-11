@@ -173,6 +173,7 @@
     <string name="shortcuts_icon_picker_play">ప్లే</string>
     <string name="shortcuts_icon_picker_quicksettings">త్వరిత సెట్టింగులు</string>
     <string name="shortcut_action_power_menu">పవర్ మెను</string>
+    <string name="shortcut_action_recent">Son uygulamalar</string>
     <string name="weather">వాతావరణం</string>
     <string name="music">సంగీతం</string>
     <!-- Call notifications -->
@@ -203,6 +204,8 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_digital">డిఫాల్ట్</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_default">డిఫాల్ట్</string>
     <!-- QS Headers -->
     <!-- Volume Panel on Left -->
     <!-- Audio Panel view  -->
@@ -229,4 +232,7 @@
     <!-- The no-no list, messages explaining why some features are disabled -->
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>
