@@ -310,6 +310,9 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_digital">Προεπιλογή</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_default">Προεπιλογή</string>
+    <string name="lockscreen_date_selection_str_gradient">Διαβάθμιση</string>
     <!-- QS Headers -->
     <!-- Volume Panel on Left -->
     <!-- Audio Panel view  -->
@@ -374,4 +377,7 @@
     <string name="no_no_summary_owner">Αυτή η λειτουργία δεν είναι διαθέσιμη επειδή δεν έχετε ένα μήνυμα πληροφοριών κατόχου</string>
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

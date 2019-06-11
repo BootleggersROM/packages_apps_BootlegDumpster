@@ -945,6 +945,17 @@
     <string name="lockscreen_clock_selection_gradient_shishu">ساعة متدرجة (مع شعار shishu)</string>
     <string name="lockscreen_clock_selection_gradient_full">ساعة متدرجة كاملة</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">ساعة متدرجة أحادية اللون</string>
+    <string name="lockscreen_clock_selection_text">نص</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">شكل التاريخ</string>
+    <string name="lockscreen_date_selection_default">الافتراضي</string>
+    <string name="lockscreen_date_selection_str_box">مربع شبه شفاف</string>
+    <string name="lockscreen_date_selection_str_round">مربع شبه شفاف(مستدير)</string>
+    <string name="lockscreen_date_selection_str_accent">مدور, بسيط ومع لكنة</string>
+    <string name="lockscreen_date_selection_str_accent_day">مدور ، بسيط ومع لكنة (بديل)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">مدور ، شفاف ومع لكنة</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">مدور ، شفاف ومع لكنة (بديل)</string>
+    <string name="lockscreen_date_selection_str_gradient">التدرج</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">تفعيل</string>
     <string name="daylight_header_pack_title">مجموعة صور الرأس</string>
@@ -1091,4 +1102,7 @@
     <string name="no_no_summary_owner">هذه الميزة غير متوفرة لأنه ليس لديك رسالة معلومات المالك</string>
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

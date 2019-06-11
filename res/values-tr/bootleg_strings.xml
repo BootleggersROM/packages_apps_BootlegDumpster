@@ -953,6 +953,17 @@
     <string name="lockscreen_clock_selection_gradient_shishu">Gradyan saat (shishu logolu)</string>
     <string name="lockscreen_clock_selection_gradient_full">Tam gradyan saat</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Tek renkli gradyan saat</string>
+    <string name="lockscreen_clock_selection_text">Metin</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Tarih stili</string>
+    <string name="lockscreen_date_selection_default">Varsayılan</string>
+    <string name="lockscreen_date_selection_str_box">Yarı şeffaf kutu</string>
+    <string name="lockscreen_date_selection_str_round">Yarı şeffaf kutu (yuvarlak)</string>
+    <string name="lockscreen_date_selection_str_accent">Yuvarlak, basit ve renkli</string>
+    <string name="lockscreen_date_selection_str_accent_day">Yuvarlak, basit ve renkli (alt)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Yuvarlak, şeffaf ve renkli</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Yuvarlak, şeffaf ve renkli (alt)</string>
+    <string name="lockscreen_date_selection_str_gradient">Yön</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Etkinleştir</string>
     <string name="daylight_header_pack_title">Başlık görüntü koleksiyonu</string>
@@ -1146,4 +1157,7 @@
     <string name="bootleg_changelog_summary">Bu yapıya eklenen son değişiklikleri görüntüle</string>
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Uygulamaları değiştirmek için yukarı kaydırın</string>
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

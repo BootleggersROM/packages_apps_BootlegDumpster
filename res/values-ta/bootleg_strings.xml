@@ -144,6 +144,8 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_digital">இயல்புநிலை</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_default">இயல்புநிலை</string>
     <!-- QS Headers -->
     <string name="header_provider_disabled">முடக்கப்பட்டது</string>
     <!-- Volume Panel on Left -->
@@ -172,4 +174,7 @@
     <!-- The no-no list, messages explaining why some features are disabled -->
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

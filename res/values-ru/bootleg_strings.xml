@@ -952,6 +952,17 @@
     <string name="lockscreen_clock_selection_gradient_shishu">Часы с градиентом и Shishu лого</string>
     <string name="lockscreen_clock_selection_gradient_full">Часы с полным градиентом</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Часы с монохромным градиентом</string>
+    <string name="lockscreen_clock_selection_text">Текст</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Стиль даты</string>
+    <string name="lockscreen_date_selection_default">По умолчанию</string>
+    <string name="lockscreen_date_selection_str_box">Полупрозрачная подложка</string>
+    <string name="lockscreen_date_selection_str_round">Полупрозрачная подложка (скругленная)</string>
+    <string name="lockscreen_date_selection_str_accent">Округлый, простой и с акцентом</string>
+    <string name="lockscreen_date_selection_str_accent_day">Округлый, простой и с акцентом (альт)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Округлый, простой и с акцентом</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Округленный, прозрачный и с акцентом (альт)</string>
+    <string name="lockscreen_date_selection_str_gradient">Градиент</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Включить</string>
     <string name="daylight_header_pack_title">Коллекция изображений для заголовка</string>
@@ -1145,6 +1156,8 @@
     <string name="bootleg_changelog_summary">Посмотреть последние изменения, добавленные в эту сборку</string>
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Свайп вверх для переключения приложений</string>
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
     <string name="custom_fod_icon_title">Установить иконку FOD</string>
-
 </resources>

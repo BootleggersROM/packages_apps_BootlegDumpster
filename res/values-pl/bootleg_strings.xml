@@ -40,6 +40,7 @@
     <string name="about_bootleg_title">O Bootleggers</string>
     <string name="about_bootleg_summary">Kilka informacji o nas na wypadek, gdybyś był tym zaciekawiony</string>
     <string name="about_bootleg_small_title">O nas</string>
+    <string name="about_bootleg_small_summary">Trochę więcej informacji o naszym projekcie</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">O nas</string>
     <string name="bootleg_ab_title_whoami">Co to jest Bootleggers?</string>
@@ -148,6 +149,7 @@
     <string name="statusbar_tuner_summary">Opcje baterii i możliwości wyłączenia ikon na pasku statusu</string>
     <string name="navbar_tuner_title">Edytuj pasek nawigacji</string>
     <string name="navbar_tuner_summary">Edytuj układ i przyciski paska nawigacji</string>
+    <string name="lockscreen_shortcuts_title">Dolne skróty na ekranie blokady</string>
     <string name="lockscreen_shortcuts_summary">Zarządzaj dolnymi skrótami ekranu blokady</string>
     <string name="vol_dnd_category_title">Nie przeszkadzać</string>
     <string name="volbtn_down_zen_title">Ścisz, aby włączyć tryb \"Nie przeszkadzać\"</string>
@@ -438,9 +440,17 @@
     <string name="qs_styles_dialog_title">Wybierz styl QS</string>
     <string name="qstile_default">Okrąg (domyślnie)</string>
     <string name="qstile_justicons">Ikony bez okręgu</string>
+    <string name="qstile_inkdrop">Atrament</string>
+    <string name="qstile_shishu_nights">Nocne Shishu</string>
     <string name="qstile_circle_gradient">Okrąg z gradientem</string>
+    <string name="qstile_wavey">Fala</string>
+    <string name="qstile_circle_dualtone">Okrąg z dwoma tonami</string>
+    <string name="qstile_memedo_square">Plac Memedo</string>
+    <string name="qstile_pokesign">Pokesign</string>
     <string name="qstile_ninja">Ninja</string>
     <string name="qstile_dottedcircle">Przerywany okręg</string>
+    <string name="qstile_shishuink">Atrament Shishu</string>
+    <string name="qstile_attemptmountain">Próba góry</string>
     <!-- Battery light -->
     <string name="light_category">Dioda LED baterii</string>
     <string name="battery_light_settings">Dioda ładowania baterii</string>
@@ -709,6 +719,10 @@
     <string name="shortcuts_icon_picker_help">Pomoc</string>
     <string name="shortcuts_icon_picker_joystick">Joystick</string>
     <string name="shortcuts_icon_picker_key">Przyciski/Konta</string>
+    <string name="shortcuts_icon_picker_laptop">Laptop</string>
+    <string name="shortcuts_icon_picker_notes">Notatki</string>
+    <string name="shortcuts_icon_picker_luggage">Podróż</string>
+    <string name="shortcuts_icon_picker_maps">Mapy</string>
     <string name="shortcuts_icon_picker_music">Muzyka</string>
     <string name="shortcuts_icon_picker_play">Odtwórz</string>
     <string name="shortcuts_icon_picker_quicksettings">Szybkie ustawienia</string>
@@ -778,6 +792,7 @@
     <string name="trash">Kosz</string>
     <string name="games">Gry</string>
     <string name="google">Google</string>
+    <string name="maps">Mapy</string>
     <string name="music">Muzyka</string>
     <string name="notepad">Bezpośrednia wiadomość</string>
     <string name="paypal">PayPal</string>
@@ -888,6 +903,17 @@
     <string name="lockscreen_clock_selection_gradient_shishu">Gradient zegara (z logo Shishu)</string>
     <string name="lockscreen_clock_selection_gradient_full">Zegar z pełnym gradientem</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Zegar z monochromatycznym gradientem</string>
+    <string name="lockscreen_clock_selection_text">Tekst</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Styl daty</string>
+    <string name="lockscreen_date_selection_default">Domyślny</string>
+    <string name="lockscreen_date_selection_str_box">Półprzezroczysty</string>
+    <string name="lockscreen_date_selection_str_round">Półprzezroczysty (zaokrąglony)</string>
+    <string name="lockscreen_date_selection_str_accent">Zaokrąglony, prosty z podkreśleniem</string>
+    <string name="lockscreen_date_selection_str_accent_day">Zaokrąglony, prosty z podkreśleniem</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Zaokrąglony, przezroczysty z podkreśleniem</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Zaokrąglony, przezroczysty z podkreśleniem</string>
+    <string name="lockscreen_date_selection_str_gradient">Gradient</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Włącz</string>
     <string name="daylight_header_pack_title">Kolekcja obrazów nagłówka</string>
@@ -913,7 +939,9 @@
     <!-- Audio Panel view  -->
     <string name="audio_panel_view_media_title">Multimedia</string>
     <string name="audio_panel_view_ringer_title">Dzwonek</string>
+    <string name="audio_panel_view_notification_title">Powiadomienie</string>
     <string name="audio_panel_view_alarm_title">Alarm</string>
+    <string name="audio_panel_view_voice_title">Głos</string>
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_title">Smart piksele</string>
@@ -923,12 +951,24 @@
     <string name="smart_pixels_on_power_save_title">Automatyczne włączanie oszczędzania baterii</string>
     <string name="smart_pixels_on_power_save_summary">Włącz Smart Pixele, gdy oszczędzanie baterii jest włączone</string>
     <string name="smart_pixels_percent">Procent pikseli do wyłączenia</string>
+    <string name="smart_pixels_shift">Zapobiegaj wypalaniu pikseli poprzez przesuwanie ich</string>
+    <string name="smart_pixels_warning_text">Inteligentne piksele to funkcja oszczędzania energii. W zależności od tego, ile pikseli zdecydujesz się wyłączyć, możesz zauważyć znaczną poprawę żywotności baterii. Dla wygody użytkowania zalecamy ustawienie liczby wyłączonych pikseli na 75 procent.</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">Zegar paska stanu</string>
+    <string name="status_bar_clock_summary_on">Pokazywanie zegara na pasku stanu</string>
+    <string name="status_bar_clock_summary_off">Ukrywanie zegara na pasku stanu</string>
+    <string name="status_bar_clock_seconds_summary_on">Pokazywanie zegara z sekundami</string>
+    <string name="status_bar_clock_seconds_summary_off">Pokazywanie zegara normalnie</string>
+    <string name="status_bar_clock_adv_title">Zaawansowane opcje zegara i daty</string>
+    <string name="status_bar_clock_adv_summary">Dostosuj zegar do swoich oczekiwań</string>
+    <string name="status_bar_time_cat">Czas</string>
     <string name="status_bar_show_clock_title">Pokaż zegar i datę</string>
     <string name="clock_title_enable">Porządkowanie</string>
+    <string name="clock_position">Styl zegara</string>
     <string name="clock_position_right">Zegar po prawej</string>
     <string name="clock_position_center">Wyśrodkuj zegar</string>
     <string name="clock_position_left">Zegar po lewej</string>
+    <string name="status_bar_clock_seconds_title">Pokaż sekundy na zegarku</string>
     <string name="status_bar_am_pm_title">12-godzinny</string>
     <string name="status_bar_am_pm_info">24-godzinny zegar jest aktywny</string>
     <string name="am_pm_clock_normal">Normalny rozmiar czcionki</string>
@@ -953,8 +993,21 @@
     <string name="menu_cancel">Anuluj</string>
     <string name="menu_save">Zapisz</string>
     <!-- Active edge -->
+    <string name="active_edge_title">Aktywne krawędzie</string>
+    <string name="active_edge_summary">Zaawansowana wersja funkcji ściskania z Pixeli</string>
+    <string name="active_edge_actions_title">Akcja ściśnięcia</string>
+    <string name="active_edge_long_squeeze_actions_title">Akcja dłuższego ściśnięcia</string>
+    <string name="active_edge_sensitivity_title">Czułość ściśnięcia</string>
+    <string name="active_edge_wake_title">Zezwól, gdy ekran jest włączony</string>
+    <string name="active_edge_wake_summary">Wywołaj akcję, gdy ekran jest wyłączony</string>
+    <string name="active_edge_footer_info">Nie wszystkie akcje Aktywnych krawędzi mają możliwość włączenia ekranu</string>
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Filtr albumu na ekranie blokady</string>
     <string name="lockscreen_cover_filter_none">Brak</string>
+    <string name="lockscreen_cover_filter_grayscale">Odcienie szarości</string>
+    <string name="lockscreen_cover_filter_tint">Akcentowane przyciemnienie</string>
+    <string name="lockscreen_cover_filter_blur">Rozmycie</string>
+    <string name="lockscreen_cover_filter_grayblur">Skala szarości i rozmycie</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Przycisk zamykania aplikacji</string>
     <string name="notification_guts_kill_app_button_summary">Pokaż przycisk wyłączania aplikacji po długim przytrzymaniu w menu powiadomień</string>
@@ -964,11 +1017,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">Ostatnio uruchomione AOSP</string>
     <string name="slim_recents_category">Panel ostatnich aplikacji w stylu Slim</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">Przy włączonym ustawieniu, przesuń palcem w górę na przycisku Home na pasku nawigacji, aby otworzyć Ostatnie aplikacje - obsługiwane są tylko domyślne Ostatnie aplikacje.</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Panel ostatnich aplikacji w stylu Slim</string>
     <string name="slim_recents_settings_title">Ustawienia wąskiego paska ostatnio uruchamianych</string>
     <string name="recents_max_apps_title">Maksymalna liczba dozwolonych aplikacji</string>
     <string name="recent_panel_scale_title">Rozmiar</string>
+    <string name="recent_panel_expanded_mode_title">Tryb rozszerzony</string>
     <string name="recent_panel_expanded_mode_summary">Tryb rozszerzonego podglądu panelu ostatnich aplikacji</string>
     <string name="recent_panel_expanded_mode_auto">Auto (domyślnie)</string>
     <string name="recent_panel_expanded_mode_always">Zawsze</string>
@@ -976,8 +1031,13 @@
     <string name="recent_panel_expanded_mode_disabled">Wyłączony</string>
     <string name="recent_panel_bg_color_title">Kolor tła panelu</string>
     <string name="recent_card_bg_color_title">Kolor tła karty</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Długie przyciśnięcie paska zużycia RAMu</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Wyczyść Ostatnie aplikacje przez długie przyciśnięcie paska pamięci</string>
     <string name="slim_icon_pack_title">Pakiet ikon</string>
     <string name="slim_icon_pack_summary">Zastosuj niestandardową paczkę ikon dla aplikacji w panelu</string>
+    <string name="slim_recents_corner_radius_title">Promień narożnika karty</string>
+    <string name="slim_recents_aicp_empty_drawable_title">Puste Ostatnie aplikacje z AICP</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Wyświetl obraz, gdy nie ma żadnych Ostatnich aplikacji</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Pokaż na lewej krawędzi ekranu</string>
     <string name="recent_panel_lefty_mode_summary">Wyświetlaj panel ostatnich aplikacji z lewej strony</string>
@@ -988,6 +1048,11 @@
     <string name="slim_blacklist_add_apps_summary">Stuknij tutaj, aby dodać, stuknij w dodaną aplikację, aby ją usunąć</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">Pasek pamięci</string>
+    <string name="slim_recents_mem_display_title">Pokaż pasek zużycia RAMu</string>
+    <string name="slim_recents_mem_display_summaryOn">Pasek pamięci włączony</string>
+    <string name="slim_recents_mem_display_summaryOff">Pasek pamięci wyłączony</string>
+    <string name="slim_recents_mem_display_color">Kolor paska zużycia RAMu</string>
+    <string name="slim_recents_mem_display_text_color">Kolor tekstu paska pamięci</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Przycisk \"Wyczyść wszystkie\"</string>
     <string name="show_clear_all_recents_button_summary">Pokaż przycisk \"Wyczyść wszystko\"</string>
@@ -1018,13 +1083,27 @@
     <string name="smart_pulldown_dismissable">brak usuwalnych</string>
     <string name="smart_pulldown_ongoing">brak trwałych</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">Wyłącz szybkie ustawienia na ekranie blokady</string>
+    <string name="lockscreen_qs_disabled_summary">Wyłącz rozszerzone szybkie ustawienia na zabezpieczonym ekranie blokady</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Ustawienia wyświetlania wcięcia</string>
+    <string name="cutout_main_summary">Naprawdę przycięte narożniki</string>
+    <string name="display_cutout_style_title">Styl wcięcia</string>
     <string name="display_cutout_style_normal">Normalny</string>
+    <string name="display_cutout_style_immerse">Immersywne</string>
     <string name="display_cutout_style_hide">Ukryj</string>
+    <string name="stock_statusbar_in_hide">Wysokość paska statusu</string>
+    <string name="stock_statusbar_in_hide_summary">Użyj domyślnej wysokości paska statusu w trybie ukrytym</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">Ta opcja jest niedostępna, ponieważ nie masz chronionego ekranu blokady. </string>
     <string name="no_no_summary_go">Ta opcja nie jest dostępna, ponieważ masz włączony Android Go.</string>
     <string name="no_no_summary_owner">Ta opcja jest niedostępna, ponieważ nie masz informacji o właścicielu</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">Zobacz listę zmian</string>
+    <string name="bootleg_changelog_summary">Zobacz zmiany dodane w tym buildzie</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">Przesuń do góry, aby przełączać aplikacje</string>
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

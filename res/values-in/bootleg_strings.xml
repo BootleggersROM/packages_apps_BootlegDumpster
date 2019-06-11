@@ -947,6 +947,17 @@
     <string name="lockscreen_clock_selection_gradient_shishu">Gradien jam (dengan shishu logo)</string>
     <string name="lockscreen_clock_selection_gradient_full">Jam gradien penuh</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Jam gradien monokrom</string>
+    <string name="lockscreen_clock_selection_text">Teks</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Bentuk tanggal</string>
+    <string name="lockscreen_date_selection_default">Standar</string>
+    <string name="lockscreen_date_selection_str_box">Kotak semi-transparan</string>
+    <string name="lockscreen_date_selection_str_round">Kotak semi-transparan (bulat)</string>
+    <string name="lockscreen_date_selection_str_accent">Bulat, sederhana dan dengan aksen</string>
+    <string name="lockscreen_date_selection_str_accent_day">Bulat, sederhana dan dengan aksen (alt)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Bulat, transparan dan dengan aksen</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Bulat, transparan dan dengan aksen (alt)</string>
+    <string name="lockscreen_date_selection_str_gradient">Gradien</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Aktifkan</string>
     <string name="daylight_header_pack_title">Koleksi gambar header</string>
@@ -1139,4 +1150,7 @@
     <string name="bootleg_changelog_summary">Lihat perubahan terbaru yang ditambahkan pada bangunan ini.</string>
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Usap ke atas untuk beralih aplikasi</string>
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

@@ -952,6 +952,17 @@
     <string name="lockscreen_clock_selection_gradient_shishu">Orologio Gradiente (con logo shishu)</string>
     <string name="lockscreen_clock_selection_gradient_full">Orologio completo</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Orologio gradiente monoromeno</string>
+    <string name="lockscreen_clock_selection_text">Testo</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Stile data</string>
+    <string name="lockscreen_date_selection_default">Predefinito</string>
+    <string name="lockscreen_date_selection_str_box">Riquadro semi-trasparente</string>
+    <string name="lockscreen_date_selection_str_round">Riquadro semi-trasparente (tondo)</string>
+    <string name="lockscreen_date_selection_str_accent">Arrotondato, semplice e colorato</string>
+    <string name="lockscreen_date_selection_str_accent_day">Arrotondato, semplice e colorato (alternativo)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Arrotondato, trasparente e colorato</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Arrotondato, trasparente e colorato (alternativo)</string>
+    <string name="lockscreen_date_selection_str_gradient">Sfumatura</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Abilita</string>
     <string name="daylight_header_pack_title">Collezione immagini testata</string>
@@ -1145,4 +1156,7 @@
     <string name="bootleg_changelog_summary">Vedi le ultime modifiche aggiunte su questa build</string>
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Scorri verso l\'alto per cambiare app</string>
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

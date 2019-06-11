@@ -470,6 +470,16 @@
     <string name="lockscreen_clock_selection_analog">ऐनालॉग</string>
     <string name="lockscreen_clock_selection_sammy">सैमी</string>
     <string name="lockscreen_clock_selection_sammy_bold">सैमी (बोल्ड)</string>
+    <string name="lockscreen_clock_selection_text">टेक्स्ट</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">दिनांक शैली</string>
+    <string name="lockscreen_date_selection_default">डिफॉल्ट</string>
+    <string name="lockscreen_date_selection_str_box">अर्द्ध पारदर्शी</string>
+    <string name="lockscreen_date_selection_str_round">अर्द्ध पारदर्शी (round)</string>
+    <string name="lockscreen_date_selection_str_accent">घुमावदार, सरल और उच्चारण के साथ</string>
+    <string name="lockscreen_date_selection_str_accent_day">घुमावदार, सरल और उच्चारण के साथ (alt)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">घुमावदार, सरल और उच्चारण के साथ</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">घुमावदार, सरल और उच्चारण के साथ (alt)</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">चालू है</string>
     <string name="daylight_header_pack_title">शीर्ष लेख छवि संग्रह</string>
@@ -577,4 +587,7 @@
     <string name="no_no_summary_owner">यह सुविधा अनुपलब्ध है क्योंकि आपके पास कोई स्वामी जानकारी संदेश नहीं है</string>
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

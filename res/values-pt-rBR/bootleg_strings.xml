@@ -40,6 +40,7 @@
     <string name="about_bootleg_title">Sobre a Bootleggers</string>
     <string name="about_bootleg_summary">Algumas informações sobre nós, caso você esteja curioso</string>
     <string name="about_bootleg_small_title">Sobre nós</string>
+    <string name="about_bootleg_small_summary">Mais informações sobre nosso projeto</string>
     <!-- DUMPSTER - About Section strings -->
     <string name="bootleg_pref_title_about_us">Sobre nós</string>
     <string name="bootleg_ab_title_whoami">O que é a Bootleggers?</string>
@@ -71,6 +72,8 @@
     <string name="bootleg_moarstuff_cd_back_summary">Nós não falamos o seu idioma? Então vem aqui e sinta-se a vontade pra nos ajudar a traduzir nossa ROM para o seu idioma nativo!</string>
     <string name="bootleg_moarstuff_cd_summary02">Então vem aqui e sinta-se a vontade pra nos ajudar a traduzir nossa ROM para o seu idioma nativo!</string>
     <string name="bootleg_moarstuff_faq_summary">Onde todas as perguntas mais feitas e recursos solicitados tiveram sua resposta.</string>
+    <string name="bootleg_moarstuff_donos_title">Apoie nosso projeto</string>
+    <string name="bootleg_moarstuff_donos_summary">Doe para apoiar esse projeto, nós apreciaremos muito</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">Compartilhe nossa ROM via..</string>
     <string name="bootleg_sharemsg1">Ei, eu estou usando essa ROM chamada Bootleggers, é muito legal. Para saber mais acesse https://bootleggersrom.github.io </string>
@@ -148,6 +151,7 @@
     <string name="statusbar_tuner_summary">Opções de bateria e ícones da barra de status desativados</string>
     <string name="navbar_tuner_title">Editar a barra de navegação</string>
     <string name="navbar_tuner_summary">Editar o layout e os botões da barra de navegação</string>
+    <string name="lockscreen_shortcuts_title">Atalhos inferiores da tela de bloqueio</string>
     <string name="lockscreen_shortcuts_summary">Atalho inferior da tela de bloqueio</string>
     <string name="vol_dnd_category_title">Não perturbe</string>
     <string name="volbtn_down_zen_title">Diminuir volume no modo Não Perturbe</string>
@@ -344,6 +348,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Estilo da bateria</string>
     <string name="status_bar_battery_style_port">Retrato</string>
+    <string name="status_bar_battery_style_q">Android Q</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
     <string name="battery_style_dotted_circle">Círculo pontilhado</string>
     <string name="status_bar_battery_style_text">Texto</string>
@@ -449,6 +454,7 @@
     <string name="qstile_dottedcircle">Círculo pontilhado</string>
     <string name="qstile_shishuink">Shishu Ink</string>
     <string name="qstile_attemptmountain">Uma tentativa de uma montanha</string>
+    <string name="qstile_cookie">Cookie</string>
     <!-- Battery light -->
     <string name="light_category">LED da Bateria </string>
     <string name="battery_light_settings">Luz de carregamento de bateria</string>
@@ -598,7 +604,7 @@
     <string name="qs_brightness_slider_summary">Definir a visibilidade do controle deslizante de brilho QS</string>
     <string name="qs_brightness_slider_position_title">Posição de ícone de brilho</string>
     <string name="qs_brightness_slider_position_summary_on">Mostrar controle de brilho em baixo</string>
-    <string name="qs_brightness_slider_position_summary_off">Mostrar controle de brilho em baixo</string>
+    <string name="qs_brightness_slider_position_summary_off">Mostrar controle de brilho no topo</string>
     <string name="brightness_icon_title">Botão de brilho adaptável</string>
     <string name="brightness_icon_summary">Botão de brilho adaptável</string>
     <string name="brightness_side_buttons_title">Aumentar/diminuir os botões de brilho</string>
@@ -950,6 +956,20 @@
     <string name="lockscreen_clock_selection_gradient_shishu">Relógio gradiente (com shishu logo)</string>
     <string name="lockscreen_clock_selection_gradient_full">relógio gradiente completo</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradiente relógio</string>
+    <string name="lockscreen_clock_selection_text">Texto</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">Estilo da data</string>
+    <string name="lockscreen_date_selection_default">Padrão</string>
+    <string name="lockscreen_date_selection_str_box">Caixa semi-transparente</string>
+    <string name="lockscreen_date_selection_str_round">Caixa semitransparente (arredondada)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Pílula da Beta Q</string>
+    <string name="lockscreen_date_selection_str_accent">Arredondada, simples e com destaque</string>
+    <string name="lockscreen_date_selection_str_accent_day">Arredondada, simples e com destaque (alternativo)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">Arredondada, transparente e com destaque</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">Arredondada, transparente e com destaque (alternativo)</string>
+    <string name="lockscreen_date_selection_str_gradient">Gradiente</string>
+    <string name="lockscreen_date_selection_str_border_accent">Escuro com bordas do accent</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Escuro com bordas gradiente</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Ativar</string>
     <string name="daylight_header_pack_title">Coleção de imagens de cabeçalho</string>
@@ -994,11 +1014,21 @@
     <string name="smart_pixels_shift">Prevenir o burn-in alternando os pixels a cada</string>
     <string name="smart_pixels_warning_text">O Smart Pixels é um recurso de economia de energia. Dependendo de quantos pixels você decidir desligar, haverá uma economia significativa de bateria. Para uma boa experiência de uso recomendamos definir a quantia de pixels para 75 por cento com alternância a cada 10 minutos.</string>
     <!-- Statusbar Clock options -->
+    <string name="status_bar_clock_title">Relógio da barra de status</string>
+    <string name="status_bar_clock_summary_on">Exibindo relógio da barra de status</string>
+    <string name="status_bar_clock_summary_off">Ocultando relógio da barra de status</string>
+    <string name="status_bar_clock_seconds_summary_on">Exibindo relógio com segundos</string>
+    <string name="status_bar_clock_seconds_summary_off">Exibindo relógio normalmente</string>
+    <string name="status_bar_clock_adv_title">Opções avançadas de data e hora</string>
+    <string name="status_bar_clock_adv_summary">Mude o relógio de acordo com seu gosto</string>
+    <string name="status_bar_time_cat">Hora</string>
     <string name="status_bar_show_clock_title">Mostrar o relógio e data</string>
     <string name="clock_title_enable">Alinhamento</string>
+    <string name="clock_position">Posição do relógio</string>
     <string name="clock_position_right">Relógio a direita</string>
     <string name="clock_position_center">Relógio no centro</string>
     <string name="clock_position_left">Relógio a esquerda</string>
+    <string name="status_bar_clock_seconds_title">Mostrar segundos no relógio</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">Ativar formato 24-horas</string>
     <string name="am_pm_clock_normal">Tamanho normal da fonte</string>
@@ -1023,8 +1053,21 @@
     <string name="menu_cancel">Cancelar</string>
     <string name="menu_save">Salvar</string>
     <!-- Active edge -->
+    <string name="active_edge_title">Borda Ativa</string>
+    <string name="active_edge_summary">Uma versão avançada do recurso apertar do Pixel</string>
+    <string name="active_edge_actions_title">Ação ao apertar</string>
+    <string name="active_edge_long_squeeze_actions_title">Função de aperto longo</string>
+    <string name="active_edge_sensitivity_title">Sensibilidade do aperto</string>
+    <string name="active_edge_wake_title">Permitir com a tela desligada</string>
+    <string name="active_edge_wake_summary">Ativar qualquer ação mesmo com a tela desligada</string>
+    <string name="active_edge_footer_info">Nem todas as ações da Borda Ativa tem a capacidade de ativar a tela</string>
     <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Filtro da capa do álbum na tela de bloqueio</string>
     <string name="lockscreen_cover_filter_none">Nenhum</string>
+    <string name="lockscreen_cover_filter_grayscale">Tons de cinza</string>
+    <string name="lockscreen_cover_filter_tint">Colorido com accent</string>
+    <string name="lockscreen_cover_filter_blur">Desfocado</string>
+    <string name="lockscreen_cover_filter_grayblur">Tons de cinza e desfocado</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Botão de encerrar aplicativo</string>
     <string name="notification_guts_kill_app_button_summary">Mostrar um botão para finalizar o aplicativo ao tocar e segurar em uma notificação</string>
@@ -1034,11 +1077,13 @@
     <!-- Recents categories-->
     <string name="aosp_recents_category">AOSP Recents</string>
     <string name="slim_recents_category">Slim recentes</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">Com o gesto de deslizar para cima para abrir os recentes, somente os recentes padrão são suportados</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Slim recentes</string>
     <string name="slim_recents_settings_title">Configurações do Slim Recents</string>
     <string name="recents_max_apps_title">Máximo de aplicativos permitidos</string>
     <string name="recent_panel_scale_title">Tamanho</string>
+    <string name="recent_panel_expanded_mode_title">Modo expandido</string>
     <string name="recent_panel_expanded_mode_summary">Modo de visualização expandida de aplicativos recentes</string>
     <string name="recent_panel_expanded_mode_auto">Automático (padrão)</string>
     <string name="recent_panel_expanded_mode_always">Sempre</string>
@@ -1046,8 +1091,13 @@
     <string name="recent_panel_expanded_mode_disabled">Desativado</string>
     <string name="recent_panel_bg_color_title">Cor de fundo do painel</string>
     <string name="recent_card_bg_color_title">Cor de fundo do cartão</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Pressionar a barra de memória</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Limpar os recentes pressionando a barra de memória</string>
     <string name="slim_icon_pack_title">Pacote de ícones</string>
     <string name="slim_icon_pack_summary">Aplicar um pacote de ícones personalizados para aplicativos no painel de recentes</string>
+    <string name="slim_recents_corner_radius_title">Raio do canto</string>
+    <string name="slim_recents_aicp_empty_drawable_title">Recentes vazios da AICP</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Imagem para mostrar sem aplicativos recentes</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Mostrar no canto esquerdo</string>
     <string name="recent_panel_lefty_mode_summary">Mostrar painel de aplicativos recentes no canto esquerdo</string>
@@ -1058,6 +1108,11 @@
     <string name="slim_blacklist_add_apps_summary">Toque aqui para adicionar, toque no aplicativo adicionado para removê-lo</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">Barra de memória</string>
+    <string name="slim_recents_mem_display_title">Mostrar barra de memória</string>
+    <string name="slim_recents_mem_display_summaryOn">Barra de memória ativada</string>
+    <string name="slim_recents_mem_display_summaryOff">Barra de memória desativada</string>
+    <string name="slim_recents_mem_display_color">Cor da barra de memória</string>
+    <string name="slim_recents_mem_display_text_color">Cor do texto da barra de memória</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Botão limpar tudo</string>
     <string name="show_clear_all_recents_button_summary">Mostrar botão limpar tudo</string>
@@ -1088,13 +1143,32 @@
     <string name="smart_pulldown_dismissable">não descartável</string>
     <string name="smart_pulldown_ongoing">nenhum curso</string>
     <!-- Allow to slide qs on lock -->
+    <string name="lockscreen_qs_disabled_title">Desativar os QS enquanto bloqueado</string>
+    <string name="lockscreen_qs_disabled_summary">Desativar expansão do QS em telas de bloqueio seguras</string>
     <!-- Display cutout options -->
+    <string name="cutout_main">Configurações do corte da tela</string>
+    <string name="cutout_main_summary">Eles realmente cortaram os cantos nesse</string>
+    <string name="display_cutout_style_title">Estilo do corte</string>
     <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Imersivo</string>
     <string name="display_cutout_style_hide">Esconder</string>
+    <string name="stock_statusbar_in_hide">Altura padrão da barra de status</string>
+    <string name="stock_statusbar_in_hide_summary">Usar a altura padrão da barra de status em Ocultar</string>
     <!-- The no-no list, messages explaining why some features are disabled -->
     <string name="no_no_summary_locked">Essa função não está disponível porque você não tem uma tela de bloqueio segura. </string>
     <string name="no_no_summary_go">Essa função não está disponível porque você tem o Android Go ativado.</string>
     <string name="no_no_summary_owner">Essa função não está disponível porque você não tem uma mensagem de informações sobre o dono</string>
     <!-- Bootleg changelog -->
+    <string name="bootleg_changelog_title">Ver a lista de mudanças</string>
+    <string name="bootleg_changelog_summary">Veja as últimas mudanças nessa atualização</string>
     <!-- Swipe up gesture -->
+    <string name="swipeup_settings_summary">Deslize para cima para mudar de aplicativo</string>
+    <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">Sons de notificações com tela ligada</string>
+    <string name="notification_sound_vib_screen_on_summary">Desative para bloquear sons e vibrações de notificações com a tela ligada</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Mostrar animação do Pixel</string>
+    <string name="pixel_navbar_anim_summary">Habilitar a animação do botão home</string>
+    <!-- FOD -->
+    <string name="custom_fod_icon_title">Definir imagem para FOD</string>
 </resources>

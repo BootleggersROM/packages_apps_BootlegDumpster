@@ -139,6 +139,8 @@
     <!-- Lockscreen items -->
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_digital">Standaard</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_default">Standaard</string>
     <!-- QS Headers -->
     <!-- Volume Panel on Left -->
     <!-- Audio Panel view  -->
@@ -163,4 +165,7 @@
     <!-- The no-no list, messages explaining why some features are disabled -->
     <!-- Bootleg changelog -->
     <!-- Swipe up gesture -->
+    <!-- smart notifications -->
+    <!-- Navbar Animation -->
+    <!-- FOD -->
 </resources>

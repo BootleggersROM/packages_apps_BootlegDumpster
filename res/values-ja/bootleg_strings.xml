@@ -72,6 +72,8 @@
     <string name="bootleg_moarstuff_cd_back_summary">あなたの言語が使用されていませんか? ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝ってすべて!</string>
     <string name="bootleg_moarstuff_cd_summary02">ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝ってすべて!</string>
     <string name="bootleg_moarstuff_faq_summary">FAQ と回答された要求機能がある場所</string>
+    <string name="bootleg_moarstuff_donos_title">プロジェクトを支援する</string>
+    <string name="bootleg_moarstuff_donos_summary">私たちのプロジェクトに寄付して下さることを大変感謝致します</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">私達の ROM を共有する</string>
     <string name="bootleg_sharemsg1">やあ、私は Bootleggers と呼ばれる ROM を使用しています。 正直言ってこれは素晴らしい ROM です。 詳細については https://bootleggersrom.github.io をご覧すべて。</string>
@@ -215,7 +217,7 @@
     <string name="listview_bounce_interpolator">弾む</string>
     <!-- Option to enable/disable scrolling cache -->
     <string name="pref_scrollingcache_title">スクロールキャッシュ</string>
-    <string name="pref_scrollingcache_summary">スクロールキャッシュはメモリを消費しますがスクロールのパフォーマンスが向上します</string>
+    <string name="pref_scrollingcache_summary">スクロールキャッシュはメモリを消費しますがスクロールの性能が向上します</string>
     <string name="pref_scrollingcache_force_enable">強制的に有効</string>
     <string name="pref_scrollingcache_default_enable">既定で有効</string>
     <string name="pref_scrollingcache_default_disable">既定で無効</string>
@@ -341,6 +343,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">バッテリースタイル</string>
     <string name="status_bar_battery_style_port">縦</string>
+    <string name="status_bar_battery_style_q">Q スタイル</string>
     <string name="status_bar_battery_style_circle">円</string>
     <string name="battery_style_dotted_circle">点線の円</string>
     <string name="status_bar_battery_style_text">テキスト</string>
@@ -423,7 +426,7 @@
     <string name="log_it_share_via">共有方法</string>
     <string name="cannot_get_su">Superuser アクセスが不足しているためアクションに失敗しました</string>
     <string name="log_it_alert_title">これは何ですか?</string>
-    <string name="log_it_alert_faq">おそらくあなたはここで「これは何で、なぜ送る必要があるのだろうか?」と思っているかもしれません。\nそうですね、あなたが送信できるものに関するいくつかの情報があります：\n\nLogcat: これは Android の全てのエラー、クラッシュ、または実行中プロセス情報といったシステムイベントです。 クラッシュや FC に最適です。\n\nDmesg: カーネルメッセージの一部を出力しますが、ユーザーが気にかけていないものをフィルタリングします&#8230;もし提供されていれば。\n\nKmesg: Dmesg と同じですが、フィルタが無く全てのカーネルイベントを取得できます。 ランダムリブートに最適です。</string>
+    <string name="log_it_alert_faq">おそらくあなたはここで「これは何で、なぜ送る必要があるのだろうか?」と思っているかもしれません。\nそうですね、あなたが送信できるものに関するいくつかの情報があります: \n\nLogcat: これは Android の全てのエラー、クラッシュ、または実行中プロセス情報といったシステムイベントです。 クラッシュや FC に最適です。\n\nDmesg: カーネルメッセージの一部を出力しますが、ユーザーが気にかけていないものをフィルタリングします&#8230;もし提供されていれば。\n\nKmesg: Dmesg と同じですが、フィルタが無く全てのカーネルイベントを取得できます。 ランダムリブートに最適です。</string>
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">アプリ履歴のスタイル</string>
     <string name="recents_quickstep">クイックステップ (可能な場合)</string>
@@ -446,6 +449,7 @@
     <string name="qstile_dottedcircle">点線の円</string>
     <string name="qstile_shishuink">Shishu インク</string>
     <string name="qstile_attemptmountain">山脈</string>
+    <string name="qstile_cookie">クッキー</string>
     <!-- Battery light -->
     <string name="light_category">バッテリーの LED</string>
     <string name="battery_light_settings">バッテリー充電時のライト</string>
@@ -947,6 +951,20 @@
     <string name="lockscreen_clock_selection_gradient_shishu">グラデーション時計 (shishu ロゴ付き)</string>
     <string name="lockscreen_clock_selection_gradient_full">フルグラデーション時計</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">モノクログラデーション時計</string>
+    <string name="lockscreen_clock_selection_text">テキスト</string>
+    <!-- Lockscreen Date styles -->
+    <string name="lockscreen_date_selection_title">日付のスタイル</string>
+    <string name="lockscreen_date_selection_default">既定</string>
+    <string name="lockscreen_date_selection_str_box">半透明ボックス</string>
+    <string name="lockscreen_date_selection_str_round">半透明ボックス (円形)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q ベータ Pill</string>
+    <string name="lockscreen_date_selection_str_accent">丸くてアクセントがあってシンプル</string>
+    <string name="lockscreen_date_selection_str_accent_day">丸くてアクセントがあってシンプル (代替)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">丸くてアクセントがって透明</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">丸くてアクセントがって透明 (代替)</string>
+    <string name="lockscreen_date_selection_str_gradient">グラデーション</string>
+    <string name="lockscreen_date_selection_str_border_accent">アクセント付きの暗い枠線</string>
+    <string name="lockscreen_date_selection_str_border_gradient">グラデーション付きの暗い枠線</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">有効</string>
     <string name="daylight_header_pack_title">ヘッダー画像コレクション</string>
@@ -984,7 +1002,7 @@
     <string name="smart_pixels_summary">余分な画素を停止することでバッテリーを節約する</string>
     <string name="smart_pixels_enable_title">スマートピクセルを有効化</string>
     <string name="smart_pixels_enable_summary">消費電力を削減するため画素を遮断する</string>
-    <string name="smart_pixels_on_power_save_title">バッテリーセーバー時は自動的に有効</string>
+    <string name="smart_pixels_on_power_save_title">自動有効</string>
     <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時はスマートピクセルを自動的に有効にする</string>
     <string name="smart_pixels_percent">無効にする画素の割合</string>
     <string name="smart_pixels_shift">使う画素を移し替えて画面の焼付きを避ける</string>
@@ -1139,4 +1157,12 @@
     <string name="bootleg_changelog_summary">このビルドに追加された最新の変更を見る</string>
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">上スワイプでアプリ切り替え</string>
+    <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">画面に現れる邪魔な通知</string>
+    <string name="notification_sound_vib_screen_on_summary">画面点灯時は通知の音と振動のブロックを無効化する</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel アニメーションを表示</string>
+    <string name="pixel_navbar_anim_summary">ホームボタンアニメーションを切り替える</string>
+    <!-- FOD -->
+    <string name="custom_fod_icon_title">カスタム FOD 画像を設定</string>
 </resources>
