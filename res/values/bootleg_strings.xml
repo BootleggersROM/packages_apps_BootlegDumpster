@@ -1422,4 +1422,7 @@
     <!-- FOD -->
     <string name="custom_fod_icon_title">Set custom FOD image</string>
 
+	<!-- The Drill -->
+	<string name="thedrill_title">The Drill</string>
+	<string name="thedrill_summary">A small message about bug reporting</string>
 </resources>

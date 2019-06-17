@@ -61,6 +61,13 @@
             android:fragment="com.android.settings.deviceinfo.Changelog"/>
 
         <Preference
+            android:key="bootleg_drill"
+            android:title="@string/thedrill_title"
+            android:summary="@string/thedrill_summary"
+            android:fragment="com.bootleggers.dumpster.external.TheDrill">
+        </Preference>
+
+        <Preference
             android:key="bootleg_listfeatures"
             android:title="@string/bootleg_ex_title_featurelist"
             android:summary="@string/bootleg_ex_summary_featurelist">
