@@ -70,6 +70,25 @@
     <string name="bootleg_ex_summary_sharemsg">Make people know about us and our work! We\'ll really appreciate it.</string>
     <string name="bootleg_ab_madstinky_test">It seems that you\'re running a Mad Stinky build, that means that you\'re using a totally experimental build, and obviously bugs and issues are expected. If the bugs you\'re facing aren\'t listed on our post about this kind of builds, please report it to our Telegram group or, in case that\'s a device-related issue, report it who did the build.</string>
 
+    <!-- Bootleg Introduction -->
+    <string name="btlg_intro1_title">Well, hello there!</string>
+    <string name="btlg_intro1_summary">Welcome to Bootleggers! We hope you have a great time with our features and additions. Our goal is making you feel like 家.</string>
+    <string name="btlg_intro2_title">A good amount of features</string>
+    <string name="btlg_intro2_summary">From clock position, QS header images and styles, to even themes and default apps. All you might need is ready to you to mix it up and make your device the coolest phone in the west. </string>
+    <string name="btlg_intro2_button">Check our dumpster</string>
+    <string name="btlg_intro3_title">Shishu Themes that make you dream</string>
+    <string name="btlg_intro3_summary">From a great selection of styles and inspired by various UI designs over the years, Shishu themes are ready to make the UI a bit refreshing. You should give them a shot.</string>
+    <string name="btlg_intro3_button">Check our themes</string>
+    <string name="btlg_intro4_title">Have a nice experience!</string>
+    <string name="btlg_intro4_summary">Hope you have a great time setting up your %s and enjoy the ROM! Don\'t forget to join our Telegram chat and let us know what do you think! %s</string>
+    <string name="btlg_intro4_ending_shishufied">Enjoy this shishufied release, remember to send logs when things get broken and keep the bootleg!</string>
+    <string name="btlg_intro4_ending_unshishufied">Remember this is a unofficial build, so, we can\'t provide a lot of support on our chat. Anything than else, have fun!</string>
+    <string name="btlg_intro4_ending_unsupported">Oh, this is not nice, this build is a weird one. So, we can\'t give you any support. So, anyways... have fun with this ROM.</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Let\'s do it!</string>
+
+
     <!-- More about us strings -->
     <string name="bootleg_pref_moarstuff_title">More about us?</string>
     <string name="bootleg_pref_moarstuff_info_title">Info and sources</string>
