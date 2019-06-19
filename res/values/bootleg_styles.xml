@@ -29,4 +29,14 @@
         <item name="android:fitsSystemWindows">false</item>
     </style>
 
+    <style name="BootlegWelcomeTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorPrimary">@android:color/transparent</item>
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:colorSecondary">@android:color/transparent</item>
+        <item name="android:windowShowWallpaper">true</item>   <!--Nukes navbar fade-out on Android 8.1: No fixes-->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
 </resources>
