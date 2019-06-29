@@ -46,7 +46,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     private static final String KEY_ASPECT_RATIO_APPS_LIST_SCROLLER = "aspect_ratio_apps_list_scroller";
     private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
     private static final String CALL_SETTINGS_OPTIONS = "call_features";
-    private static final String GAMING_MODE_MASTER_SWITCH = "gaming_mode_master_switch";
+    private static final String GAMING_MODE_ENABLED = "gaming_mode_enabled";
 
     private AppMultiSelectListPreference mAspectRatioAppsSelect;
     private ScrollAppsViewPreference mAspectRatioApps;
@@ -119,9 +119,9 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             overallPreferences.removePreference(smartPixelsPref);
         }
 
-        mGamingMode = (SystemSettingMasterSwitchPreference) findPreference(GAMING_MODE_MASTER_SWITCH);
+        mGamingMode = (SystemSettingMasterSwitchPreference) findPreference(GAMING_MODE_ENABLED);
         mGamingMode.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
-                Settings.System.GAMING_MODE_MASTER_SWITCH, 1) == 1));
+                Settings.System.GAMING_MODE_ENABLED, 0) == 1));
         mGamingMode.setOnPreferenceChangeListener(this);
     }
 
@@ -146,7 +146,13 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
             mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
             return true;
+		} else if (preference == mGamingMode) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.GAMING_MODE_ENABLED, value ? 1 : 0);
+            return true;
         }
+
         return false;
     }
 
