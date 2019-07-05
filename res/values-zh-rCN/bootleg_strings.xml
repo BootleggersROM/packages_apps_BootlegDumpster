@@ -72,6 +72,8 @@
     <string name="bootleg_moarstuff_cd_back_summary">我们不说你的语言？所以来这里，随时可以帮助我们将我们的ROM翻译成您的母语！</string>
     <string name="bootleg_moarstuff_cd_summary02">所以来这里，随时可以帮助我们将我们的ROM翻译成您的母语！</string>
     <string name="bootleg_moarstuff_faq_summary">所有被问得最多的问题和被要求的特性都得到了答案。</string>
+    <string name="bootleg_moarstuff_donos_title">支持我们的项目</string>
+    <string name="bootleg_moarstuff_donos_summary">捐赠支持这个项目，我们会非常感激</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">通过...分享我们的 ROM</string>
     <string name="bootleg_sharemsg1">嘿，我正在使用一个叫 Bootleggers 的 ROM，它很不错。你可以在 https://bootleggersrom.github.io 中了解更多有关这个 ROM 的信息。</string>
@@ -346,6 +348,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">电池样式</string>
     <string name="status_bar_battery_style_port">纵向</string>
+    <string name="status_bar_battery_style_q">Q 样式</string>
     <string name="status_bar_battery_style_circle">圆形图标</string>
     <string name="battery_style_dotted_circle">虚线圆圈</string>
     <string name="status_bar_battery_style_text">文本</string>
@@ -451,6 +454,7 @@
     <string name="qstile_dottedcircle">虚线圆圈</string>
     <string name="qstile_shishuink">Shishu 墨滴</string>
     <string name="qstile_attemptmountain">山脉</string>
+    <string name="qstile_cookie">曲奇</string>
     <!-- Battery light -->
     <string name="light_category">电量指示灯</string>
     <string name="battery_light_settings">充电指示灯</string>
@@ -958,11 +962,14 @@
     <string name="lockscreen_date_selection_default">默认</string>
     <string name="lockscreen_date_selection_str_box">半透明方块</string>
     <string name="lockscreen_date_selection_str_round">半透明方块（圆角）</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q 测试版药丸</string>
     <string name="lockscreen_date_selection_str_accent">圆角、简约、带有强调色</string>
     <string name="lockscreen_date_selection_str_accent_day">圆角、简约、带有强调色（alt）</string>
     <string name="lockscreen_date_selection_str_accent_transparent">圆角、透明、带有强调色</string>
     <string name="lockscreen_date_selection_str_accent_transparent_day">圆角、透明、带有强调色（alt）</string>
     <string name="lockscreen_date_selection_str_gradient">渐变</string>
+    <string name="lockscreen_date_selection_str_border_accent">深色加主题色边界</string>
+    <string name="lockscreen_date_selection_str_border_gradient">渐变边界暗淡</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">启用</string>
     <string name="daylight_header_pack_title">顶部图像收集</string>
@@ -1157,6 +1164,11 @@
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">向上滑动可切换应用</string>
     <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">若屏幕为开启状态, 发出通知提醒声音和振动</string>
+    <string name="notification_sound_vib_screen_on_summary">当屏幕唤醒时禁用通知声音和振动</string>
     <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">显示像素动画</string>
+    <string name="pixel_navbar_anim_summary">切换主按钮动画</string>
     <!-- FOD -->
+    <string name="custom_fod_icon_title">设置自定义 FOD 图像</string>
 </resources>

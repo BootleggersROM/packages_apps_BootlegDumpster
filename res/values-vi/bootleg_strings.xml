@@ -72,6 +72,8 @@
     <string name="bootleg_moarstuff_cd_back_summary">Chúng tôi không nói được ngôn ngữ của bạn? Vì vậy, đến đây và cảm thấy tự do để giúp chúng tôi dịch ROM của chúng tôi sang ngôn ngữ mẹ đẻ của bạn!</string>
     <string name="bootleg_moarstuff_cd_summary02">Vì vậy, đến đây và cảm thấy miễn phí để giúp chúng tôi dịch chúng tôi ROM ngôn ngữ mẹ đẻ của bạn!</string>
     <string name="bootleg_moarstuff_faq_summary">Nơi tất cả những câu hỏi và yêu cầu tính năng có câu trả lời của họ.</string>
+    <string name="bootleg_moarstuff_donos_title">Hỗ trợ dự án của chúng tôi</string>
+    <string name="bootleg_moarstuff_donos_summary">Đóng góp để hỗ trợ dự án này, chúng tôi sẽ đánh giá cao nó rất nhiều</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">Chia sẻ ROM của chúng tôi thông qua..</string>
     <string name="bootleg_sharemsg1">Tôi đang sử dụng ROM này được gọi là Bootleggers, nó là tốt đẹp tbh. Bạn nên kiểm tra nhiều hơn về nó trên https://bootleggersrom.github.io </string>
@@ -341,6 +343,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Kiểu pin</string>
     <string name="status_bar_battery_style_port">Màn hình dọc</string>
+    <string name="status_bar_battery_style_q">Kiểu Android Q</string>
     <string name="status_bar_battery_style_circle">Vòng tròn</string>
     <string name="battery_style_dotted_circle">Vòng chấm</string>
     <string name="status_bar_battery_style_text">Văn bản</string>
@@ -446,6 +449,7 @@
     <string name="qstile_dottedcircle">Vòng tròn chấm</string>
     <string name="qstile_shishuink">Mực Shishu</string>
     <string name="qstile_attemptmountain">Một nỗ lực của một ngọn núi</string>
+    <string name="qstile_cookie">Cookie</string>
     <!-- Battery light -->
     <string name="light_category">Đèn báo pin</string>
     <string name="battery_light_settings">Đèn báo sạc</string>
@@ -953,11 +957,14 @@
     <string name="lockscreen_date_selection_default">Mặc định</string>
     <string name="lockscreen_date_selection_str_box">Hộp bán trong suốt</string>
     <string name="lockscreen_date_selection_str_round">Hộp bán trong suốt (bo tròn)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q Beta pill</string>
     <string name="lockscreen_date_selection_str_accent">Bo tròn, đơn giản và với màu nhấn</string>
     <string name="lockscreen_date_selection_str_accent_day">Bo tròn, đơn giản và với màu nhấn (tất cả)</string>
     <string name="lockscreen_date_selection_str_accent_transparent">Bo tròn, trong suốt và với màu nhấn</string>
     <string name="lockscreen_date_selection_str_accent_transparent_day">Bo tròn, trong suốt và với màu nhấn (tất cả)</string>
     <string name="lockscreen_date_selection_str_gradient">Gradient</string>
+    <string name="lockscreen_date_selection_str_border_accent">Tối với viền có dấu</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Tối với viền chuyển màu</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Bật</string>
     <string name="daylight_header_pack_title">Bộ sưu tập ảnh đề mục</string>
@@ -1151,6 +1158,11 @@
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Vuốt lên để chuyển đổi ứng dụng</string>
     <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">Thông báo ồn ào nếu màn hình bật</string>
+    <string name="notification_sound_vib_screen_on_summary">Vô hiệu hoá để chặn thông báo âm thanh và rung khi màn hình sáng</string>
     <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Hiển thị hình ảnh động Pixel</string>
+    <string name="pixel_navbar_anim_summary">Chuyển đổi hoạt hình nút home</string>
     <!-- FOD -->
+    <string name="custom_fod_icon_title">Đặt hình ảnh FOD tùy chỉnh</string>
 </resources>

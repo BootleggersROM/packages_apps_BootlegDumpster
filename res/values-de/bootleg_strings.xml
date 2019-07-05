@@ -14,6 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Categories -->
     <string name="animations_title">Animationen</string>
+    <string name="animations_settings_summary">Mache deine Systemübergänge etwas genialer oder eben schrecklicher</string>
     <string name="button_title">HW-Tasten</string>
     <string name="buttons_settings_summary">Einstellungen der HW-Tasten ändern</string>
     <string name="gestures_title">Gesten</string>
@@ -45,6 +46,8 @@
     <string name="bootleg_ab_title_whoami">Was ist Bootleggers?</string>
     <string name="bootleg_ab_summary_whoami">Bootleggers ist eine ROM vollgepackt mit Features und Apps mit dem Ziel, dich wie 家 zu fühlen. Hoffentlich gefällt es Euch.</string>
     <string name="bootleg_ab_title_thankssec">Dankesliste</string>
+    <string name="bootleg_ab_summary_thankssec">Hier tippen, um zu sehen, wer an diesem Projekt mitgewirkt und es inspiriert hat. Ein dickes Danke an %s für %s.</string>
+    <string name="bootleg_ab_summary_thanksclean">Hier tippen, um zu sehen, wer an diesem Projekt mitgewirkt und es inspiriert hat.</string>
     <string name="bootleg_pref_title_romextras">Extras und Addons</string>
     <string name="bootleg_ex_title_featurelist">Feature-Liste</string>
     <string name="bootleg_ex_summary_featurelist">Überprüfen Sie die aktuelle Liste der Features bei diesem build</string>
@@ -68,6 +71,7 @@
     <string name="bootleg_moarstuff_cd_back_summary">Wir sprechen deine Sprache nicht? Dann komm her und fühl dich frei unsere ROM in deine Muttersprache zu übersetzten!</string>
     <string name="bootleg_moarstuff_cd_summary02">Wir sprechen deine Sprache nicht? Dann komm her und fühl dich frei unsere ROM in deine Muttersprache zu übersetzten!</string>
     <string name="bootleg_moarstuff_faq_summary">Wo die am meisten gestellte Fragen und gewünschten Funktionen ihre Antwort bekommen.</string>
+    <string name="bootleg_moarstuff_donos_title">Unterstützen Sie das Projekt</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">Teile unsere ROM über...</string>
     <string name="bootleg_sharemsg1">Hey, ich verwende dieses ROM genannt Bootleggers, es ist gut, um ehrlich zu sein. Du findest mehr Infos auf https://bootleggersrom.github.io </string>
@@ -96,6 +100,7 @@
     <string name="cancel">Abbrechen</string>
     <string name="save">Speichern</string>
     <!-- Footer alerts -->
+    <string name="animations_transparent_alert">Einige (oder vielleicht alle) dieser Animationen funktionieren nicht, wenn Sie ein durchsichtiges Theme benutzen!</string>
     <!-- Color Picker -->
     <string name="dialog_color_picker">Farbenpicker</string>
     <string name="press_color_to_apply">Zum Übernehmen auf Farbe drücken</string>
@@ -106,6 +111,9 @@
     <string name="set">Übernehmen</string>
     <string name="color_default">Standard</string>
     <!-- Preferences Categories -->
+    <string name="cat_general_ui">UI-Tweaks</string>
+    <string name="cat_general_system">Systembezogene Tweaks</string>
+    <string name="cat_powermenu_items">Power-Menü Elemente</string>
     <string name="cat_volume_keys">Lautstärketasten</string>
     <string name="anim_general_category">Generelle Animationen</string>
     <string name="general_system_stuff_preference">Systemverhalten</string>

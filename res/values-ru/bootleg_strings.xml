@@ -72,6 +72,8 @@
     <string name="bootleg_moarstuff_cd_back_summary">Мы не говорим на вашем языке? Поэтому не стесняйтесь, чтобы помочь нам перевести наш ROM на ваш родной язык!</string>
     <string name="bootleg_moarstuff_cd_summary02">Мы не говорим на вашем языке? Поэтому не стесняйтесь, чтобы помочь нам перевести наш ROM на ваш родной язык!</string>
     <string name="bootleg_moarstuff_faq_summary">Все наиболее задаваемые вопросы.</string>
+    <string name="bootleg_moarstuff_donos_title">Поддержите наш проект</string>
+    <string name="bootleg_moarstuff_donos_summary">Пожертвовать, чтобы поддержать этот проект, мы будем очень ценим его</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">Поделись нашей работой..</string>
     <string name="bootleg_sharemsg1">Привет, я использую прошивку под названием Bootleggers. Это отличный ROM. Ты можешь прочитать о нём больше на https://bootleggersrom.github.io </string>
@@ -346,6 +348,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Стиль значка батареи</string>
     <string name="status_bar_battery_style_port">Портреная ориентация</string>
+    <string name="status_bar_battery_style_q">Стиль Q</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="battery_style_dotted_circle">Точечный круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
@@ -451,6 +454,7 @@
     <string name="qstile_dottedcircle">Пунктирный круг</string>
     <string name="qstile_shishuink">Shishu чернила</string>
     <string name="qstile_attemptmountain">Горы</string>
+    <string name="qstile_cookie">Печенька</string>
     <!-- Battery light -->
     <string name="light_category">Индикатор батареи</string>
     <string name="battery_light_settings">Индикация зарядки батареи</string>
@@ -958,11 +962,14 @@
     <string name="lockscreen_date_selection_default">По умолчанию</string>
     <string name="lockscreen_date_selection_str_box">Полупрозрачная подложка</string>
     <string name="lockscreen_date_selection_str_round">Полупрозрачная подложка (скругленная)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q Бета-таблетка</string>
     <string name="lockscreen_date_selection_str_accent">Округлый, простой и с акцентом</string>
     <string name="lockscreen_date_selection_str_accent_day">Округлый, простой и с акцентом (альт)</string>
     <string name="lockscreen_date_selection_str_accent_transparent">Округлый, простой и с акцентом</string>
     <string name="lockscreen_date_selection_str_accent_transparent_day">Округленный, прозрачный и с акцентом (альт)</string>
     <string name="lockscreen_date_selection_str_gradient">Градиент</string>
+    <string name="lockscreen_date_selection_str_border_accent">Темно с акцентированными границами</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Темный с градиентными границами</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Включить</string>
     <string name="daylight_header_pack_title">Коллекция изображений для заголовка</string>
@@ -1157,7 +1164,11 @@
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Свайп вверх для переключения приложений</string>
     <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">Надоедливые уведомления при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Не блокировать звуковые и вибро уведомления при включённом экране</string>
     <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Показывать Pixel анимацию</string>
+    <string name="pixel_navbar_anim_summary">Включить анимацию кнопки \"Домой\"</string>
     <!-- FOD -->
     <string name="custom_fod_icon_title">Установить иконку FOD</string>
 </resources>

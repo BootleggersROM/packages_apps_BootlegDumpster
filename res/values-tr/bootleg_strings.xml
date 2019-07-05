@@ -72,6 +72,8 @@
     <string name="bootleg_moarstuff_cd_back_summary">Senin dilin ekli değil mi? Buraya gel ve kendi dilinize çevirmemize yardımcı ol!</string>
     <string name="bootleg_moarstuff_cd_summary02">Buraya gel ve ROM\'u kendi dilinize çevirmemize yardım etmekten çekinmeyin!</string>
     <string name="bootleg_moarstuff_faq_summary">En çok sorulan soruların ve istenen özelliklerin hepsinin yanıtları burada.</string>
+    <string name="bootleg_moarstuff_donos_title">Projemizi destekleyin</string>
+    <string name="bootleg_moarstuff_donos_summary">Bu projeyi desteklemek için bağış yapın, çok memnun olacağız</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">ROM\'u paylaş..</string>
     <string name="bootleg_sharemsg1">Hey, Bootleggers denen ROM\'u kullanıyorum, güzel tbh. Daha fazla bilgi için https://bootleggersrom.github.io adresini ziyaret etmelisiniz </string>
@@ -346,6 +348,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Pil stili</string>
     <string name="status_bar_battery_style_port">Dikey</string>
+    <string name="status_bar_battery_style_q">Q stili</string>
     <string name="status_bar_battery_style_circle">Daire</string>
     <string name="battery_style_dotted_circle">Noktalı daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
@@ -451,6 +454,7 @@
     <string name="qstile_dottedcircle">Noktalı daire</string>
     <string name="qstile_shishuink">Shishu mürekkebi</string>
     <string name="qstile_attemptmountain">Bir dağ girişimi</string>
+    <string name="qstile_cookie">Kurabiye</string>
     <!-- Battery light -->
     <string name="light_category">Pil ışığı</string>
     <string name="battery_light_settings">Pil şarj ışığı</string>
@@ -959,11 +963,14 @@
     <string name="lockscreen_date_selection_default">Varsayılan</string>
     <string name="lockscreen_date_selection_str_box">Yarı şeffaf kutu</string>
     <string name="lockscreen_date_selection_str_round">Yarı şeffaf kutu (yuvarlak)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q beta</string>
     <string name="lockscreen_date_selection_str_accent">Yuvarlak, basit ve renkli</string>
     <string name="lockscreen_date_selection_str_accent_day">Yuvarlak, basit ve renkli (alt)</string>
     <string name="lockscreen_date_selection_str_accent_transparent">Yuvarlak, şeffaf ve renkli</string>
     <string name="lockscreen_date_selection_str_accent_transparent_day">Yuvarlak, şeffaf ve renkli (alt)</string>
     <string name="lockscreen_date_selection_str_gradient">Yön</string>
+    <string name="lockscreen_date_selection_str_border_accent">Vurgu renkli karanlık kenar</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Graydan karanlık kenar</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Etkinleştir</string>
     <string name="daylight_header_pack_title">Başlık görüntü koleksiyonu</string>
@@ -1158,6 +1165,11 @@
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Uygulamaları değiştirmek için yukarı kaydırın</string>
     <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">Açık ekran bildirimleri</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran uyanıkken bildirimlerin ses ve titreşimini engelle</string>
     <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel animasyonunu göster</string>
+    <string name="pixel_navbar_anim_summary">Ana ekran tuşu animasyonunu değiştir</string>
     <!-- FOD -->
+    <string name="custom_fod_icon_title">Özel FOD resmi ayarla</string>
 </resources>
