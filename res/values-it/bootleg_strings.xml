@@ -72,6 +72,8 @@
     <string name="bootleg_moarstuff_cd_back_summary">Non parliamo la vostra lingua? Allora venite qui e sentitevi liberi di aiutarci a tradurre la nostra ROM nella tua lingua!</string>
     <string name="bootleg_moarstuff_cd_summary02">Allora venite qui e sentitevi liberi di aiutarci a tradurre la nostra ROM nella tua lingua!</string>
     <string name="bootleg_moarstuff_faq_summary">Dove tutte le più frequenti e caratteristiche domande ricevono la loro risposta.</string>
+    <string name="bootleg_moarstuff_donos_title">Supporta il nostro progetto</string>
+    <string name="bootleg_moarstuff_donos_summary">Dona per supportare questo progetto, lo apprezzeremo molto</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">Condividi la nostra ROM su..</string>
     <string name="bootleg_sharemsg1">Hey, sto usando questa ROM chiamata Bootleggers, è una figata atomica! Scoprì di più su https://bootleggersrom.github.io </string>
@@ -346,6 +348,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Stile della batteria</string>
     <string name="status_bar_battery_style_port">Verticale</string>
+    <string name="status_bar_battery_style_q">Stile Q</string>
     <string name="status_bar_battery_style_circle">Cerchio</string>
     <string name="battery_style_dotted_circle">Cerchio tratteggiato</string>
     <string name="status_bar_battery_style_text">Testo</string>
@@ -451,6 +454,7 @@
     <string name="qstile_dottedcircle">Cerchio punteggiato</string>
     <string name="qstile_shishuink">Shishu inchiostro</string>
     <string name="qstile_attemptmountain">Un tentativo di una montagna</string>
+    <string name="qstile_cookie">Cookie</string>
     <!-- Battery light -->
     <string name="light_category">LED della batteria</string>
     <string name="battery_light_settings">Luce batteria in carica</string>
@@ -958,11 +962,14 @@
     <string name="lockscreen_date_selection_default">Predefinito</string>
     <string name="lockscreen_date_selection_str_box">Riquadro semi-trasparente</string>
     <string name="lockscreen_date_selection_str_round">Riquadro semi-trasparente (tondo)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Pill Q Beta</string>
     <string name="lockscreen_date_selection_str_accent">Arrotondato, semplice e colorato</string>
     <string name="lockscreen_date_selection_str_accent_day">Arrotondato, semplice e colorato (alternativo)</string>
     <string name="lockscreen_date_selection_str_accent_transparent">Arrotondato, trasparente e colorato</string>
     <string name="lockscreen_date_selection_str_accent_transparent_day">Arrotondato, trasparente e colorato (alternativo)</string>
     <string name="lockscreen_date_selection_str_gradient">Sfumatura</string>
+    <string name="lockscreen_date_selection_str_border_accent">Scuro con bordi accentati</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Scuro con bordi sfumati</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Abilita</string>
     <string name="daylight_header_pack_title">Collezione immagini testata</string>
@@ -1157,6 +1164,11 @@
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Scorri verso l\'alto per cambiare app</string>
     <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">Notifiche con suono a schermo acceso</string>
+    <string name="notification_sound_vib_screen_on_summary">Disabilita per bloccare il suono e la vibrazione delle notifiche quando lo schermo è acceso</string>
     <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Mostra animazione Pixel</string>
+    <string name="pixel_navbar_anim_summary">Abilita l\'animazione del pulsante Home</string>
     <!-- FOD -->
+    <string name="custom_fod_icon_title">Imposta immagine FOD personalizzata</string>
 </resources>

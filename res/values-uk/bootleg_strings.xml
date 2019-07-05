@@ -72,6 +72,8 @@
     <string name="bootleg_moarstuff_cd_back_summary">Ми не розмовляємо вашою мовою? Так що приїжджайте сюди і не соромтеся допомогти нам перекласти наш ROM на вашу рідну мову!</string>
     <string name="bootleg_moarstuff_cd_summary02">Так що заходити сюди і не соромтеся допомогти нам перекласти наш ROM на вашу рідну мову!</string>
     <string name="bootleg_moarstuff_faq_summary">Там, де всі часті питання і запитані функції отримали відповідь.</string>
+    <string name="bootleg_moarstuff_donos_title">Підтримайте наш проект</string>
+    <string name="bootleg_moarstuff_donos_summary">Пожертвуйте, щоб підтримати наш проект, ми дуже цінуємо це</string>
     <!-- Messages to send? -->
     <string name="share_chooser_title">Поділитися нашим ПЗУ через..</string>
     <string name="bootleg_sharemsg1">Гей, я використовую цей ПЗУ під назвою Bootleggers, він чудивий. Докладніше про це можна дізнатися на сторінці https://bootleggersrom.github.io </string>
@@ -341,6 +343,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Стиль іконки батареї</string>
     <string name="status_bar_battery_style_port">Портрет</string>
+    <string name="status_bar_battery_style_q">Q стиль</string>
     <string name="status_bar_battery_style_circle">Коло</string>
     <string name="battery_style_dotted_circle">Пунктирне коло</string>
     <string name="status_bar_battery_style_text">Текст</string>
@@ -447,6 +450,7 @@
     <string name="qstile_dottedcircle">Пунктирне коло</string>
     <string name="qstile_shishuink">Shishu чорнило</string>
     <string name="qstile_attemptmountain">Спроба гори</string>
+    <string name="qstile_cookie">Куки</string>
     <!-- Battery light -->
     <string name="light_category">LED-індикатор батареї</string>
     <string name="battery_light_settings">Індикатор заряджання батареї</string>
@@ -954,11 +958,14 @@
     <string name="lockscreen_date_selection_default">За замовчанням</string>
     <string name="lockscreen_date_selection_str_box">Напівпрозора коробка</string>
     <string name="lockscreen_date_selection_str_round">Напів-прозора коробка (зкруглена)</string>
+    <string name="lockscreen_date_selection_qbeta_style">Q Бета таблетки</string>
     <string name="lockscreen_date_selection_str_accent">Закруглена, проста та з кольором стиля системи</string>
     <string name="lockscreen_date_selection_str_accent_day">Закруглена, проста та з кольором стиля системи (альтернативна)</string>
     <string name="lockscreen_date_selection_str_accent_transparent">Закруглена, прозора та з кольором стиля системи</string>
     <string name="lockscreen_date_selection_str_accent_transparent_day">Закруглена, прозора та з кольором стиля системи (альтернативна)</string>
     <string name="lockscreen_date_selection_str_gradient">Градієнт</string>
+    <string name="lockscreen_date_selection_str_border_accent">Темний з акцентованими гранями</string>
+    <string name="lockscreen_date_selection_str_border_gradient">Темний з градієнтними гранями</string>
     <!-- QS Headers -->
     <string name="status_bar_custom_header_title">Увімкнути</string>
     <string name="daylight_header_pack_title">Колекція зображень заголовка</string>
@@ -1152,6 +1159,11 @@
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">Свайп вгору для перемикання додатків</string>
     <!-- smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">Звукові сповіщення якщо екран увімкнено</string>
+    <string name="notification_sound_vib_screen_on_summary">Не блокувати звукові та вібро сповіщення при ввімкненому екрані</string>
     <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Показати Pixel анімацію</string>
+    <string name="pixel_navbar_anim_summary">Перемикач анімації кнопки \"Додому\"</string>
     <!-- FOD -->
+    <string name="custom_fod_icon_title">Встановити власне зображення FOD</string>
 </resources>

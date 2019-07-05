@@ -39,10 +39,10 @@
     <string name="notifications_settings_summary">通知の表示方法を変更する</string>
     <string name="about_bootleg_title">Bootleggers について</string>
     <string name="about_bootleg_summary">あなたが興味がある場合に備えての私たちに関するいくつかの情報</string>
-    <string name="about_bootleg_small_title">私たちについて</string>
+    <string name="about_bootleg_small_title">私達について</string>
     <string name="about_bootleg_small_summary">私たちのプロジェクトに関する追加情報</string>
     <!-- DUMPSTER - About Section strings -->
-    <string name="bootleg_pref_title_about_us">私たちについて</string>
+    <string name="bootleg_pref_title_about_us">私達について</string>
     <string name="bootleg_ab_title_whoami">Bootleggers って何?</string>
     <string name="bootleg_ab_summary_whoami">Bootleggers は家のような気分を味わう目的の機能やアプリが満載の ROM です。この ROM を好きになって、私たちの体験を楽しんでほしいと思います。</string>
     <string name="bootleg_ab_title_thankssec">感謝リスト</string>
@@ -53,15 +53,15 @@
     <string name="bootleg_ex_summary_featurelist">このビルドの現在の機能リストを確認する</string>
     <string name="bootleg_ex_title_addons">アドオンとダウンロード</string>
     <string name="bootleg_ex_summary_addons">私達のするテーマと Mod のリスト (つまりは広告)</string>
-    <string name="bootleg_ex_title_sharemsg">私たちの ROM を共有する</string>
+    <string name="bootleg_ex_title_sharemsg">私達の ROM を共有</string>
     <string name="bootleg_ex_summary_sharemsg">人々に私達とその仕事について知らせて下さい! 本当に感謝します。</string>
     <string name="bootleg_ab_madstinky_test">Mad Stinky ビルドを実行しているようです。つまり完全に実験的なビルドを使用していることを意味しています。明らかにバグや問題が予想されます。あなたが直面しているバグがこのビルドについての投稿に載っていない場合は、Telegram グループに報告するか、端末関連の問題の場合はビルドした人に報告して下さい。</string>
     <!-- More about us strings -->
     <string name="bootleg_pref_moarstuff_title">私達の詳細を参照しますか?</string>
     <string name="bootleg_pref_moarstuff_info_title">情報とソース</string>
-    <string name="bootleg_moarstuff_blog_title">私たちのブログ</string>
+    <string name="bootleg_moarstuff_blog_title">私達のブログ</string>
     <string name="bootleg_moarstuff_blog_summary">リリースとニュースについて投稿する場所</string>
-    <string name="bootleg_moarstuff_git_title">私たちの Github</string>
+    <string name="bootleg_moarstuff_git_title">私達の GitHub</string>
     <string name="bootleg_moarstuff_git_summary">私たちのソースと Revert がある場所</string>
     <string name="bootleg_pref_moarstuff_social_title">連絡する!</string>
     <string name="bootleg_moarstuff_tg_title">私たちの Telegram コミュニティ</string>
@@ -69,13 +69,13 @@
     <string name="bootleg_pref_moarstuff_wewsecret">あなたがこれを本当に秘密の場所ではないと思っていたと私は思うが、今ここに起動しているので、この ROM をインストールしてくれてありがとうと言いたいです。さて、私たちは何度か言ったように、 この ROM で楽しみ良い時間を過ごして下さい。</string>
     <string name="bootleg_moarstuff_faq_title">私たちの FAQ</string>
     <string name="bootleg_moarstuff_cd_title">私たちの Crowdin</string>
-    <string name="bootleg_moarstuff_cd_back_summary">あなたの言語が使用されていませんか? ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝ってすべて!</string>
-    <string name="bootleg_moarstuff_cd_summary02">ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝ってすべて!</string>
+    <string name="bootleg_moarstuff_cd_back_summary">あなたの言語が使用されていませんか? ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝って下さい!</string>
+    <string name="bootleg_moarstuff_cd_summary02">ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝って下さい!</string>
     <string name="bootleg_moarstuff_faq_summary">FAQ と回答された要求機能がある場所</string>
-    <string name="bootleg_moarstuff_donos_title">プロジェクトを支援する</string>
+    <string name="bootleg_moarstuff_donos_title">プロジェクトを支援</string>
     <string name="bootleg_moarstuff_donos_summary">私たちのプロジェクトに寄付して下さることを大変感謝致します</string>
     <!-- Messages to send? -->
-    <string name="share_chooser_title">私達の ROM を共有する</string>
+    <string name="share_chooser_title">私達の ROM を共有..</string>
     <string name="bootleg_sharemsg1">やあ、私は Bootleggers と呼ばれる ROM を使用しています。 正直言ってこれは素晴らしい ROM です。 詳細については https://bootleggersrom.github.io をご覧すべて。</string>
     <string name="bootleg_sharemsg2">私は Bootleggers ROM をインストールしました。現時点では動作は良好なようですが、https://bootleggersrom.github.io で詳細を確認して下さい。</string>
     <string name="bootleg_sharemsg3">だから私は Bootleggers ROM に行きました。今のところ良い体験をしています。かなりクールな ROM です。</string>
@@ -84,14 +84,14 @@
     <string name="bootleg_sharemsg6">今すぐ Bootleggers ROM を試して下さい! https://bootleggersrom.github.io</string>
     <string name="bootleg_sharemsg7">えーと、私は Bootleggers をテストしています。ちょっと変わっていますが、悪い ROM ではありません。</string>
     <!-- Build type info -->
-    <string name="bootleg_ri_title_buildtype">ビルドの種類</string>
+    <string name="bootleg_ri_title_buildtype">ビルド種類</string>
     <string name="bootleg_ri_summary_buildtype">あなたのビルドは%s...または%sです</string>
     <string name="bootleg_pref_title_rominfo">ROM 情報</string>
     <string name="bootleg_ri_title_ota">OTA 更新</string>
     <string name="bootleg_ri_summary_ota">新しいリリースがあるかどうかを確認する</string>
     <string name="bootleg_ri_title_musicode">ミュージカルコードネーム</string>
     <!-- System theme -->
-    <string name="accent_picker_dialog_title">アクセントカラーを選択する</string>
+    <string name="accent_picker_dialog_title">アクセントカラーを選択</string>
     <string name="theme_accent_picker_title">アクセントカラー</string>
     <string name="theme_accent_picker_summary">システムテーマのアクセントカラーを選択</string>
     <string name="theme_accent_picker_default">既定</string>
@@ -103,7 +103,7 @@
     <!-- Footer alerts -->
     <string name="animations_transparent_alert">お使いの端末で透明なテーマが使用中の場合、このアニメーションの一部 (または全て) が機能しないことがあります。</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">カラーピッカー</string>
+    <string name="dialog_color_picker">色の選択</string>
     <string name="press_color_to_apply">色を選択して適用</string>
     <string name="set">設定</string>
     <string name="color_default">既定</string>
@@ -115,7 +115,7 @@
     <string name="cat_misc_app">アプリ関係</string>
     <string name="anim_general_category">全体のアニメーション</string>
     <string name="anim_system_category">システム関係</string>
-    <string name="misc_settings_cat_title">設定アプリ関係</string>
+    <string name="misc_settings_cat_title">アプリ関係の設定</string>
     <string name="general_system_stuff_preference">システムの動作</string>
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">タッチで振動</string>
@@ -128,12 +128,12 @@
     <string name="global_actions_airplane">機内モード</string>
     <string name="global_actions_settings">設定</string>
     <string name="global_actions_lockdown">画面ロック</string>
-    <string name="global_actions_soundpanel">サウンドパネル</string>
+    <string name="global_actions_soundpanel">音量パネル</string>
     <string name="global_actions_users">ユーザー</string>
     <string name="global_actions_screenshot">スクリーンショット</string>
-    <string name="global_actions_screenrecord">スクリーンレコード</string>
+    <string name="global_actions_screenrecord">画面録画</string>
     <string name="global_actions_flashlight">フラッシュライト</string>
-    <string name="global_actions_advanced_reboot_title">高度な再起動を有効にする</string>
+    <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
     <string name="global_actions_advanced_reboot_summary">再起動時リカバリーとブートローダーのオプションを表示する</string>
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">充電情報</string>
@@ -142,16 +142,16 @@
     <string name="swap_volume_buttons_title">音量ボタンの回転</string>
     <string name="swap_volume_buttons_summary">画面回転時に音量ボタンを入れ替える</string>
     <!--SystemUI Tuner -->
-    <string name="statusbar_tuner_title">ステータスバーの項目</string>
+    <string name="statusbar_tuner_title">ステータスバーのアイコン</string>
     <string name="statusbar_tuner_summary">ステータスバーに表示する項目の切り替え</string>
     <string name="navbar_tuner_title">ナビゲーションバーを編集</string>
     <string name="navbar_tuner_summary">ナビゲーションバーのレイアウトとボタンを編集する</string>
     <string name="lockscreen_shortcuts_title">ロック画面下部のショートカット</string>
     <string name="lockscreen_shortcuts_summary">ロック画面下部のショートカットを編集する</string>
     <string name="vol_dnd_category_title">マナーモード</string>
-    <string name="volbtn_down_zen_title">音量を下げてマナーモードにする</string>
+    <string name="volbtn_down_zen_title">音量を下げてマナーモード</string>
     <string name="volbtn_down_zen_summary">音量を下げ続けてマナーモードにする</string>
-    <string name="volbtn_up_zen_title">音量を上げてマナーモードを解除する</string>
+    <string name="volbtn_up_zen_title">音量を上げてマナーモード解除</string>
     <string name="volbtn_up_zen_summary">音量を上げ続けてマナーモードを終了する</string>
     <string name="vol_zen_title">マナーモードスイッチ</string>
     <string name="vol_zen_summary">音量パネルにマナーモードのスイッチを表示する</string>
@@ -159,7 +159,7 @@
     <string name="toast_icon_title">トーストアプリアイコン</string>
     <string name="toast_icon_summary">トーストを表示したアプリのアイコンを表示する</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">ロック画面で電源メニューを無効化する</string>
+    <string name="lockscreen_power_menu_disabled_title">ロック画面で電源メニューを無効化</string>
     <string name="lockscreen_power_menu_disabled_summary">セキュアなロック画面で電源メニューを非表示にする</string>
     <!-- AOKP custom system animations -->
     <string name="animation_title">アニメーション</string>
@@ -277,7 +277,7 @@
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">時計のフォントオプション</string>
     <string name="lock_clock_font_summary">ロック画面の時計ウィジェットの既定のフォントを変更する</string>
-    <string name="lock_clock_font_dialog_title">ロック画面の時計のフォントを選択する</string>
+    <string name="lock_clock_font_dialog_title">ロック画面の時計のフォントを選択</string>
     <!-- Heads up -->
     <string name="heads_up_cat_title">Heads Up</string>
     <string name="heads_up_cat_summary">スヌーズ、表示時間、ブラックリストなど</string>
@@ -312,24 +312,24 @@
     <string name="wakeup_when_plugged_unplugged_title">充電時にスリープ解除</string>
     <string name="wakeup_when_plugged_unplugged_summary">電源ケーブルの抜き差し時にスリープ解除する</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">ステータスバー上の4Gアイコン</string>
-    <string name="show_fourg_icon_summary">LTE の代わりに 4G の電波アイコンを表示する</string>
+    <string name="show_fourg_icon_title">4G アイコン</string>
+    <string name="show_fourg_icon_summary">LTE の代わりに 4G アイコンを表示する</string>
     <!-- lock screen visualizer -->
     <string name="lockscreen_visualizer_title">ロック画面ビジュアライザー</string>
     <string name="lockscreen_visualizer_summary">聴いている音楽に反応するいくつかのスペクトルバーを表示する (ほとんどの音楽アプリで使用できます)</string>
     <!-- Lock date fonts -->
     <string name="lock_date_font_title">日付のフォントオプション</string>
     <string name="lock_date_font_summary">ロック画面の日付ウィジェットの既定のフォントを変更する</string>
-    <string name="lock_date_font_dialog_title">ロック画面の日付のフォントを選択する</string>
+    <string name="lock_date_font_dialog_title">ロック画面の日付のフォントを選択</string>
     <!-- Lock owner test -->
     <string name="lock_owner_font_title">所有者のフォントオプション</string>
     <string name="lock_owner_font_summary">ロック画面の所有者情報の既定のフォントを変更する</string>
-    <string name="lock_owner_font_dialog_title">ロック画面の所有者のフォントを選択する</string>
+    <string name="lock_owner_font_dialog_title">ロック画面の所有者のフォントを選択</string>
     <!-- Media art -->
-    <string name="media_art_title">メディアアートワーク</string>
+    <string name="media_art_title">メディアカバーアート</string>
     <string name="media_art_summary">ロック画面にアルバムアートを表示する</string>
     <!--Volume keys -->
-    <string name="volume_rocker_wake_title">音量ボタンでスリープ解除</string>
+    <string name="volume_rocker_wake_title">スリープ解除</string>
     <string name="volume_rocker_wake_summary">音量ボタンを押してスリープ解除を許可する</string>
     <!-- Volume key music control -->
     <string name="volume_rocker_music_controls_title">音楽の制御</string>
@@ -353,12 +353,12 @@
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">ボタンのバックライトの点灯時間</string>
     <string name="backlight_timeout_on">常に有効</string>
-    <string name="backlight_timeout_3s">3 秒</string>
-    <string name="backlight_timeout_default">5 秒 (既定)</string>
-    <string name="backlight_timeout_10s">10 秒</string>
-    <string name="backlight_timeout_15s">15 秒</string>
-    <string name="backlight_timeout_20s">20 秒</string>
-    <string name="backlight_timeout_30s">30 秒</string>
+    <string name="backlight_timeout_3s">3秒</string>
+    <string name="backlight_timeout_default">5秒 (既定)</string>
+    <string name="backlight_timeout_10s">10秒</string>
+    <string name="backlight_timeout_15s">15秒</string>
+    <string name="backlight_timeout_20s">20秒</string>
+    <string name="backlight_timeout_30s">30秒</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">バックライト</string>
     <!-- Enable keys backlight-->
@@ -381,15 +381,15 @@
     <string name="hardware_keys_back_key_title">戻るボタン</string>
     <string name="hardware_keys_double_tap_summary">ダブルタップアクションを設定する</string>
     <string name="hardware_keys_single_tap_summary">シングルタップアクションを設定する</string>
-    <string name="hardware_keys_long_press_summary">ロングプレスアクションを設定する</string>
+    <string name="hardware_keys_long_press_summary">長押しアクションを設定する</string>
     <string name="hardware_keys_single_tap_title">シングルタップアクション</string>
-    <string name="hardware_keys_long_press_title">ロングプレスアクション</string>
+    <string name="hardware_keys_long_press_title">長押しアクション</string>
     <string name="hardware_keys_double_tap_title">ダブルタップアクション</string>
     <string name="hardware_keys_disable_title">ハードウェアキーの無効化</string>
     <!-- Navbar toggle -->
     <string name="navbar_visibility">ナビゲーションバーを許可</string>
     <!-- Old mobile icon -->
-    <string name="use_old_mobiletype_title">古いモバイルタイプスタイルを使用</string>
+    <string name="use_old_mobiletype_title">古い電波アイコンを使用</string>
     <string name="use_old_mobiletype_summary">Pie 以前に使われた古い電波アイコンを表示します。反映させるにはシステム UI の再起動が必要です。</string>
     <!-- Dashboard Categories and suggestions -->
     <string name="dashboard_conditions_title">ダッシュボードの状態</string>
@@ -402,7 +402,7 @@
     <string name="roaming_indicator_icon_title">ローミング表示</string>
     <string name="roaming_indicator_icon_summary">ローミング中に電波アイコンにローミング表示をする</string>
     <!-- Data Disabled Icon -->
-    <string name="data_disabled_icon_title">データ通信が無効のアイコンを表示する</string>
+    <string name="data_disabled_icon_title">データ通信無効アイコン</string>
     <string name="data_disabled_icon_summary">モバイルデータが無効の場合にシグナルバーの隣に×を表示</string>
     <!-- SystemUI Restart -->
     <string name="systemui_restart_toast">この機能を使用するにはシステム UI の再起動が必要です。 今すぐシステム UI を再起動します。</string>
@@ -454,8 +454,8 @@
     <string name="light_category">バッテリーの LED</string>
     <string name="battery_light_settings">バッテリー充電時のライト</string>
     <string name="battery_light_enable">バッテリーライト</string>
-    <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
-    <string name="battery_light_low_blinking_title">バッテリ低下時のライト点滅</string>
+    <string name="battery_light_allow_on_dnd_title">マナーモード中のライト</string>
+    <string name="battery_light_low_blinking_title">残量低下時の点滅</string>
     <string name="battery_light_cat">充電中のバッテリーの色</string>
     <string name="battery_light_low_color">低バッテリー残量</string>
     <string name="battery_light_medium_color">中程度のバッテリー残量</string>
@@ -468,13 +468,13 @@
     <string name="double_tap_to_sleep_title">ステータスバー</string>
     <string name="double_tap_to_sleep_summary">ステータスバーをダブルタップして端末をスリープさせる</string>
     <!-- Network traffic -->
-    <string name="network_traffic_title">ネットワーク通信量</string>
+    <string name="network_traffic_title">通信速度</string>
     <string name="network_traffic_type">表示する通信方向を選択</string>
     <string name="show_network_traffic_up">送信</string>
     <string name="show_network_traffic_down">受信</string>
     <string name="show_network_traffic_all">送信と受信</string>
-    <string name="network_traffic_state_title">ステータスバーに通信速度を表示する</string>
-    <string name="network_traffic_autohide_threshold_title">自動非表示にする通信速度しきい値 (KB/s)</string>
+    <string name="network_traffic_state_title">通信速度を表示</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示の通信速度しきい値 (KB/s)</string>
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">通知の数を表示</string>
     <string name="status_bar_notif_count_summary">保留中の通知の数を表示する</string>
@@ -495,14 +495,14 @@
     <string name="show_weather_on_ls_summary">ロック画面の日付の近くに天気情報を追加する</string>
     <string name="weather_unit">温度の単位</string>
     <!-- Face unlock -->
-    <string name="face_auto_unlock_title">顔認証で自動ロック解除</string>
+    <string name="face_auto_unlock_title">顔認証ロック解除</string>
     <string name="face_auto_unlock_summary">顔認証した時ロック画面をスキップする</string>
     <!-- Running Services -->
     <string name="qs_running_services_title">実行中のサービスアイコン</string>
     <string name="qs_running_services_summary">クイック設定フッターの実行中サービスアイコンを有効化する</string>
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">クイック設定フッターの警告</string>
-    <string name="qs_footer_warnings_summary">外部アプリやVPNでネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
+    <string name="qs_footer_warnings_summary">外部アプリや VPN でネットワーク監視されている時にクイック設定パネルの下部に警告を表示する</string>
     <!-- Statusbar ticker -->
     <string name="statusbar_notifi_cat">通知ティッカー</string>
     <string name="status_bar_ticker_title">ティッカー</string>
@@ -522,12 +522,12 @@
     <string name="qs_music_tile_track_optional_summary">音楽タイルに再生中のタイトルを表示する</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
-    <string name="screen_state_toggles_title">アクションの中断</string>
+    <string name="screen_state_toggles_title">スリープ時アクション</string>
     <string name="screen_state_toggles_enable_title">有効</string>
     <string name="screen_state_toggles_enable_summary">画面消灯時にアクションが実行されます。画面が点灯すると以前の状態に戻ります。</string>
     <string name="screen_state_toggles_mobile_title">モバイルネットワーク</string>
     <string name="screen_state_toggles_location_title">位置情報</string>
-    <string name="screen_state_toggles_twog">2Gに切り替える</string>
+    <string name="screen_state_toggles_twog">2G に切り替える</string>
     <string name="screen_state_toggles_twog_summary">画面消灯時にネットワークモードを 2G に切り替える</string>
     <string name="screen_state_toggles_gps">GPS の無効化</string>
     <string name="screen_state_toggles_gps_summary">画面消灯時に GPS を使用した位置情報サービスを無効化する</string>
@@ -538,11 +538,11 @@
     <string name="screen_state_on_delay_title">画面点灯時アクションの遅延</string>
     <string name="screen_state_on_delay_summary">画面点灯時のアクションを実行する前に待つ秒数</string>
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">指紋アンロック</string>
+    <string name="fp_unlock_keystore_title">指紋認証ロック解除</string>
     <string name="fp_unlock_keystore_summary">再起動後も PIN/パスワード/パターン による認証なしで指紋認証によるロック解除を可能にする\n注意: 自己責任で使用して下さい!</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE アイコン</string>
-    <string name="volte_icon_summary">VoLTE アイコンを表示 (有効にするにはシステム UI の再起動が必要)</string>
+    <string name="volte_icon_summary">VoLTE アイコンを表示する (有効にするにはシステム UI の再起動が必要)</string>
     <!-- AppOps -->
     <string name="app_ops_settings">App Ops</string>
     <!-- Device extras -->
@@ -577,7 +577,7 @@
     <string name="aspect_ratio_category_title">従来のアプリのスケーリング</string>
     <string name="aspect_ratio_apps_info">変更後アプリを再起動させる必要があります</string>
     <!-- Torch Power gestures -->
-    <string name="torch_long_press_power_gesture_title">スリープ時電源ボタンを押してライト点灯</string>
+    <string name="torch_long_press_power_gesture_title">画面消灯時のライト点灯</string>
     <string name="torch_long_press_power_gesture_desc">ライトを ON にするには画面を消灯して電源ボタンを長押しします</string>
     <string name="torch_long_press_power_timeout_title">ライトを自動的に切る</string>
     <string name="torch_long_press_power_timeout_never">なし</string>
@@ -626,7 +626,7 @@
     <string name="battery_bar_use_charging_color">充電時のバーの色を変更する</string>
     <string name="battery_bar_blend_color_title">色のブレンド</string>
     <string name="battery_bar_blend_color_summary">バッテリー残量に対応してフルとローの色を混ぜ合わせる</string>
-    <string name="battery_bar_blend_color_reverse_title">色の順番を逆転させる</string>
+    <string name="battery_bar_blend_color_reverse_title">色の順番を逆転</string>
     <string name="battery_bar_blend_color_reverse_summary_off">フル &#8594; 残量低下: 赤 &#8592; 緑 &#8592; 青 &#8592; 赤</string>
     <string name="battery_bar_blend_color_reverse_summary_on">フル &#8594; 残量低下: 赤 &#8594; 緑 &#8594; 青 &#8594; 赤</string>
     <!-- Ambient Display Ticker -->
@@ -751,9 +751,9 @@
     <string name="shortcut_action_recent">アプリ履歴</string>
     <string name="shortcut_action_power">画面を消灯</string>
     <string name="shortcut_action_search">アプリ内検索</string>
-    <string name="shortcut_action_ring_vib">鳴動/振動</string>
-    <string name="shortcut_action_ring_silent">鳴動/サイレント</string>
-    <string name="shortcut_action_ring_vib_silent">鳴動/振動/サイレント</string>
+    <string name="shortcut_action_ring_vib">通常/振動</string>
+    <string name="shortcut_action_ring_silent">通常/サイレント</string>
+    <string name="shortcut_action_ring_vib_silent">通常/振動/サイレント</string>
     <string name="shortcut_action_camera">カメラ</string>
     <string name="shortcut_action_media_next">音楽 - 次のトラック</string>
     <string name="shortcut_action_media_play_pause">音楽 - 再生/一時停止</string>
@@ -924,9 +924,9 @@
     <!-- Rounded corners -->
     <string name="corners_category">コーナー</string>
     <string name="corner_radius">丸い角の半径</string>
-    <string name="content_padding">コーナーのコンテンツのパディング</string>
+    <string name="content_padding">角のコンテンツのパディング</string>
     <string name="corner_fwvals">フレームワークの値を使用</string>
-    <string name="corner_fwvals_summary">実際に端末が丸い角の場合に有用です</string>
+    <string name="corner_fwvals_summary">実際に端末の画面の角が丸い場合に有用です</string>
     <!-- ambient visualizer -->
     <string name="ambient_visualizer_title">アンビエント表示のロック画面ビジュアライザーを表示</string>
     <string name="ambient_visualizer_summary">視覚効果バーをアンビエント画面にも表示する (ただし透明度は低下します)</string>
@@ -960,8 +960,8 @@
     <string name="lockscreen_date_selection_qbeta_style">Q ベータ Pill</string>
     <string name="lockscreen_date_selection_str_accent">丸くてアクセントがあってシンプル</string>
     <string name="lockscreen_date_selection_str_accent_day">丸くてアクセントがあってシンプル (代替)</string>
-    <string name="lockscreen_date_selection_str_accent_transparent">丸くてアクセントがって透明</string>
-    <string name="lockscreen_date_selection_str_accent_transparent_day">丸くてアクセントがって透明 (代替)</string>
+    <string name="lockscreen_date_selection_str_accent_transparent">丸くてアクセントがあって透明</string>
+    <string name="lockscreen_date_selection_str_accent_transparent_day">丸くてアクセントがあって透明 (代替)</string>
     <string name="lockscreen_date_selection_str_gradient">グラデーション</string>
     <string name="lockscreen_date_selection_str_border_accent">アクセント付きの暗い枠線</string>
     <string name="lockscreen_date_selection_str_border_gradient">グラデーション付きの暗い枠線</string>
@@ -973,7 +973,7 @@
     <string name="static_header_provider_title">固定画像</string>
     <string name="daylight_header_provider_title">画像コレクション</string>
     <string name="custom_header_provider_title">ヘッダープロパイダー</string>
-    <string name="custom_header_browse_title">インストール済みのヘッダーを表示する</string>
+    <string name="custom_header_browse_title">インストール済みのヘッダーを表示</string>
     <string name="custom_header_browse_summary">固定モードで使う画像を選択する</string>
     <string name="custom_header_browse_summary_new">利用可能な全てのヘッダーコレクションを表示する</string>
     <string name="custom_header_pick_title">ヘッダー画像の選択</string>
@@ -988,11 +988,11 @@
     <!-- Volume Panel on Left -->
     <string name="volume_panel_category">音量パネル</string>
     <string name="volume_panel_on_left_title">左の音量パネル</string>
-    <string name="volume_panel_on_left_summary">音量 パネルを右側から左側に変更する</string>
+    <string name="volume_panel_on_left_summary">音量パネルを右側から左側に変更する</string>
     <!-- Audio Panel view  -->
     <string name="audio_panel_view">音量パネルのの表示</string>
     <string name="audio_panel_view_media_title">メディア</string>
-    <string name="audio_panel_view_ringer_title">鳴動</string>
+    <string name="audio_panel_view_ringer_title">通常</string>
     <string name="audio_panel_view_notification_title">通知</string>
     <string name="audio_panel_view_alarm_title">アラーム</string>
     <string name="audio_panel_view_voice_title">音声</string>
@@ -1023,21 +1023,21 @@
     <string name="clock_position_center">中央に表示</string>
     <string name="clock_position_left">左側に表示</string>
     <string name="status_bar_clock_seconds_title">時計の秒を表示</string>
-    <string name="status_bar_am_pm_title">午前/午後</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">24時間表示が有効です</string>
     <string name="am_pm_clock_normal">通常のフォントサイズ</string>
     <string name="am_pm_clock_small">小さいフォントサイズ</string>
-    <string name="am_pm_clock_none">表示しない</string>
+    <string name="am_pm_clock_none">非表示</string>
     <string name="clock_date_display">日付</string>
     <string name="clock_date_display_summary">時計の前にカスタムの日付を表示</string>
     <string name="clock_date_style">日付のスタイル</string>
     <string name="clock_date_position">日付の位置</string>
     <string name="clock_date_format">日付の形式</string>
-    <string name="clock_date_string_edittext_title">MM/dd/yyの形式でなければなりません</string>
+    <string name="clock_date_string_edittext_title">DateFormat 形式で入力して下さい 例. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">文字列を入力</string>
     <string name="clock_date_right">時刻の右</string>
     <string name="clock_date_left">時刻の左</string>
-    <string name="clock_date_display_none">表示しない</string>
+    <string name="clock_date_display_none">非表示</string>
     <string name="clock_date_display_small">小さいフォントサイズ</string>
     <string name="clock_date_display_normal">通常のフォントサイズ</string>
     <string name="clock_date_style_normal">標準</string>
@@ -1056,7 +1056,7 @@
     <string name="active_edge_wake_summary">画面消灯中にアクションを起動する</string>
     <string name="active_edge_footer_info">全てのアクティブエッジ内の握りアクションがディスプレイをアクティブにできる訳ではありません</string>
     <!-- Lockscreen cover art filter -->
-    <string name="lockscreen_cover_filter_title">ロック画面のアルバムアートフィルタ</string>
+    <string name="lockscreen_cover_filter_title">アルバムアートフィルター</string>
     <string name="lockscreen_cover_filter_none">なし</string>
     <string name="lockscreen_cover_filter_grayscale">グレースケール</string>
     <string name="lockscreen_cover_filter_tint">アクセント色</string>
@@ -1122,7 +1122,7 @@
     <string name="recents_show_membar_summary">端末で使用可能なメモリを表示する</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">クイックプルダウン</string>
-    <string name="quick_pulldown_summary">ステータスバーの%1$sでクイック設定パネルをプルダウンする</string>
+    <string name="quick_pulldown_summary">ステータスバーの%1$s端からプルダウンしてクイック設定を開く</string>
     <string name="quick_pulldown_summary_always">ステータスバーを引き下げたら常にクイック設定を開く</string>
     <string name="quick_pulldown_off">OFF</string>
     <string name="quick_pulldown_left">左</string>
@@ -1153,8 +1153,8 @@
     <string name="no_no_summary_go">Android Go が有効になっているためこの機能は利用できません</string>
     <string name="no_no_summary_owner">所有者情報メッセージがないためこの機能は利用できません</string>
     <!-- Bootleg changelog -->
-    <string name="bootleg_changelog_title">変更履歴を見る</string>
-    <string name="bootleg_changelog_summary">このビルドに追加された最新の変更を見る</string>
+    <string name="bootleg_changelog_title">更新履歴を表示</string>
+    <string name="bootleg_changelog_summary">このビルドに追加された最新の更新を見る</string>
     <!-- Swipe up gesture -->
     <string name="swipeup_settings_summary">上スワイプでアプリ切り替え</string>
     <!-- smart notifications -->
