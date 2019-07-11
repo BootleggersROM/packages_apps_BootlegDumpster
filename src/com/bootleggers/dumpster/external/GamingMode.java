@@ -48,8 +48,8 @@ import android.widget.ListView;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.havoc.support.preferences.PackageListAdapter;
-import com.havoc.support.preferences.PackageListAdapter.PackageItem;
+import com.bootleggers.dumpster.preferences.PackageListAdapter;
+import com.bootleggers.dumpster.preferences.PackageListAdapter.PackageItem;
 import android.provider.Settings;
 
 import java.util.ArrayList;
@@ -125,13 +125,13 @@ public class GamingMode extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.HAVOC_SETTINGS;
+        return MetricsProto.MetricsEvent.BOOTLEG;
     }
 
     @Override
     public int getDialogMetricsCategory(int dialogId) {
         if (dialogId == DIALOG_GAMING_APPS) {
-            return MetricsProto.MetricsEvent.HAVOC_SETTINGS;
+            return MetricsProto.MetricsEvent.BOOTLEG;
         }
         return 0;
     }
@@ -190,7 +190,7 @@ public class GamingMode extends SettingsPreferenceFragment
     }
 
     private void setGamingControls(boolean enable) {
-        mGamingModeEnabled.setEnabled(enable);
+        mGamingModeEnabled.setEnabled(true);
     }
 
     /**

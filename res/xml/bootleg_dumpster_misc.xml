@@ -97,12 +97,6 @@
         android:key="misc_settings_related"
         android:title="@string/misc_settings_cat_title">
 
-    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-        android:key="gaming_mode_enabled"
-        android:fragment="com.bootleggers.dumpster.external.GamingMode"
-        android:title="@string/gaming_mode_title"
-        android:summary="@string/gaming_mode_summary"
-        android:defaultValue="false" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="enable_conditions"
@@ -160,6 +154,13 @@
         android:key="allow_signature_fake"
         android:title="@string/allow_signature_fake"
         android:summary="@string/allow_signature_fake_summary"
+        android:defaultValue="false" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingMasterSwitchPreference
+        android:key="gaming_mode_enabled"
+        android:fragment="com.bootleggers.dumpster.external.GamingMode"
+        android:title="@string/gaming_mode_title"
+        android:summary="@string/gaming_mode_summary"
         android:defaultValue="false" />
 
     <Preference

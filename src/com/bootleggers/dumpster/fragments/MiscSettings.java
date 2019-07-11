@@ -25,6 +25,7 @@ import com.android.settings.R;
 import com.bootleggers.dumpster.extra.Utils;
 import com.bootleggers.dumpster.preferences.AppMultiSelectListPreference;
 import com.bootleggers.dumpster.preferences.ScrollAppsViewPreference;
+import com.bootleggers.dumpster.preferences.SystemSettingMasterSwitchPreference;
 
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -147,7 +148,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
             return true;
 		} else if (preference == mGamingMode) {
-            boolean value = (Boolean) newValue;
+            boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.GAMING_MODE_ENABLED, value ? 1 : 0);
             return true;
