@@ -40,6 +40,12 @@
         android:key="misc_app_stuff"
         android:title="@string/misc_title">
 
+    <Preference
+        android:key="display_cutout_force_fullscreen_settings"
+        android:title="@string/display_cutout_force_fullscreen_title"
+        android:summary="@string/display_cutout_force_fullscreen_summary"
+        android:fragment="com.bootleggers.dumpster.external.DisplayCutoutForceFullscreenSettings" />
+
     </PreferenceCategory>-->
 
 </PreferenceScreen>
