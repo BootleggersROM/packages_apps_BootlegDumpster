@@ -38,6 +38,15 @@
                 android:data="https://bootleggersrom.github.io/about/#thanks" />
         </Preference>
 
+        <Preference
+            android:key="bootleg_donos"
+            android:title="@string/bootleg_moarstuff_donos_title"
+            android:summary="@string/bootleg_moarstuff_donos_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://bootleggersrom.github.io/donate" />
+        </Preference>
+
     </PreferenceCategory>
 
 
