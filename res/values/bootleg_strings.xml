@@ -1425,4 +1425,9 @@
 	<!-- The Drill -->
 	<string name="thedrill_title">The Drill</string>
 	<string name="thedrill_summary">A small message about bug reporting</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
+    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+
 </resources>
