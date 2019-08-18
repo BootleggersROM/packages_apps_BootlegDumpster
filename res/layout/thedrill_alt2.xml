@@ -20,9 +20,9 @@
      android:layout_height="fill_parent">
           <ImageView
              android:key="thedrillimg"
-             android:id="@+id/the_drill_img"
+             android:id="@+id/the_drill_alt02"
              android:layout_gravity="center"
              android:layout_width="fill_parent"
              android:layout_height="fill_parent"
-             android:src="@drawable/ic_drill_pic"/>
+             android:src="@drawable/ic_drill_alt02"/>
   </LinearLayout>

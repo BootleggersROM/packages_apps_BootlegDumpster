@@ -12,15 +12,12 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:key="thedrill"
-    android:enabled="false"
-    android:selectable="false" 
-    android:title="@string/thedrill_title" >
-
-  <PreferenceScreen android:key="thedrill"
-                  android:enabled="false"
-                  android:selectable="false" 
-                  android:layout="@layout/thedrill" />
-
-
+    android:title="@string/thedrill_title"
+    android:gravity="center" >
+          <com.android.settings.widget.VideoPreference
+                android:key="drill_vid"
+                settings:animation="@raw/ic_drill_hyml"
+                settings:fitWidth="true"
+                android:layout_gravity="center"
+                settings:preview="@drawable/ic_drill_vid_fallback"/>
 </PreferenceScreen>
