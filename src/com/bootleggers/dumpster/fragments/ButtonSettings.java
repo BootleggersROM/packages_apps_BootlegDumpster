@@ -113,7 +113,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
 
         mFilePicker = (Preference) findPreference(FINGERPRINT_CUSTOM_ICON);
 
-        boolean isFODDevice = getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView);
+        boolean isFODDevice = getResources().getBoolean(com.android.internal.R.bool.config_supportsInDisplayFingerprint);
         if (!isFODDevice){
             removePreference(FINGERPRINT_CUSTOM_ICON);
         } else {
