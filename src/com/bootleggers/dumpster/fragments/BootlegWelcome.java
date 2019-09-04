@@ -164,20 +164,7 @@ public class BootlegWelcome extends Activity {
             layoutInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             View view = layoutInflater.inflate(layouts[position], container, false);
             container.addView(view);
-            if (position == 1) {
-                Button getDump = (Button) view.findViewById(R.id.intro2_button);
-                if (getDump != null) {
-                    getDump.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            Intent intent = new Intent(Intent.ACTION_MAIN);
-                            intent.setClassName("com.android.settings",
-                                  "com.android.settings.Settings$DisplaySettingsActivity");
-                            view.getContext().startActivity(intent);
-                        }
-                    });
-                }
-            } else if (position == 2) {
+	    if (position == 1) {
                 Button getDump = (Button) view.findViewById(R.id.intro2_button);
                 if (getDump != null) {
                     getDump.setOnClickListener(new View.OnClickListener() {
@@ -186,6 +173,19 @@ public class BootlegWelcome extends Activity {
                             Intent intent = new Intent(Intent.ACTION_MAIN);
                             intent.setClassName("com.android.settings",
                                   "com.android.settings.Settings$BootlegDumpsterActivity");
+                            view.getContext().startActivity(intent);
+                        }
+                    });
+                }
+            } else if (position == 2) {
+                Button getThemes = (Button) view.findViewById(R.id.intro3_button);
+                if (getThemes != null) {
+                    getThemes.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            Intent intent = new Intent(Intent.ACTION_MAIN);
+                            intent.setClassName("com.android.settings",
+                                  "com.android.settings.Settings$DisplaySettingsActivity");
                             view.getContext().startActivity(intent);
                         }
                     });
