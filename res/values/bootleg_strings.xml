@@ -402,6 +402,8 @@
     <string name="weather_icon_pack_info_title">Condition icon pack is used in quick settings and lock screen</string>
     <string name="lockscreen_weather_title">Show weather condition</string>
     <string name="lockscreen_weather_summary">Show current weather condition and temperature</string>
+    <string name="lock_screen_weather_style_title">Show weather with Pixel style</string>
+    <string name="lock_screen_weather_style_summary">Instead of using the big widget, it\'ll show next to the date</string>
 
     <!-- LockWeather Switches -->
     <string name="lockscreen_weather_show_city_title">Show city name</string>

@@ -48,12 +48,18 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
     private static final String KEY_LOCKSCREEN_MEDIA_FILTER = "lockscreen_album_art_filter";
     private static final String KEY_LOCKSCREEN_MEDIA_BLUR = "lockscreen_media_blur";
+    private static final String KEY_LOCKSCREEN_WEATHER_ENABLED = "lockscreen_weather_enabled";
+    private static final String KEY_LOCKSCREEN_WEATHER_STYLE = "lockscreen_weather_style";
+    private static final String KEY_LOCKSCREEN_WEATHER_CITY = "lockscreen_weather_show_city";
+    private static final String KEY_LOCKSCREEN_WEATHER_TEMP = "lockscreen_weather_show_temp";
 
     private PreferenceCategory mLockscreenUI;
     private SystemSettingListPreference mLockscreenMediaFilter;
     private CustomSeekBarPreference mLockscreenMediaBlur;
     private SystemSettingSwitchPreference mFingerprintSuccess;
     private SystemSettingSwitchPreference mFingerprintUnlock;
+    private SystemSettingSwitchPreference mLockscreenWeatherCity;
+    private SystemSettingSwitchPreference mLockscreenWeatherTemp;
     private PreferenceCategory mLsMisc;
 
     @Override
@@ -72,6 +78,8 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mLsMisc = (PreferenceCategory) findPreference("lock_misc_cat");
         mFingerprintSuccess = (SystemSettingSwitchPreference) findPreference("fingerprint_success_vib");
         mFingerprintUnlock = (SystemSettingSwitchPreference) findPreference("fp_unlock_keystore");
+        mLockscreenWeatherCity = (SystemSettingSwitchPreference) findPreference(KEY_LOCKSCREEN_WEATHER_CITY);
+        mLockscreenWeatherTemp = (SystemSettingSwitchPreference) findPreference(KEY_LOCKSCREEN_WEATHER_TEMP);
 
         if (!Utils.isDeviceWithFP(getActivity())) {
             mLsMisc.removePreference(mFingerprintSuccess);
@@ -91,12 +99,22 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mLockscreenMediaBlur.setValue(value);
         mLockscreenMediaBlur.setOnPreferenceChangeListener(this);
         updatePrefsVisiblities();
+        mLockscreenWeatherTemp.setEnabled(isOmniWeatherEnabled());
+        mLockscreenWeatherCity.setEnabled(isOmniWeatherEnabled());
     }
 
     private void updatePrefsVisiblities() {
         int lsFilterValue = Settings.System.getInt(getContentResolver(),
                 Settings.System.LOCKSCREEN_ALBUM_ART_FILTER, 5);
         mLockscreenMediaBlur.setEnabled(lsFilterValue > 2);
+    }
+
+    private boolean isOmniWeatherEnabled() {
+        boolean isWeatherEnabled = Settings.System.getInt(getContentResolver(),
+                Settings.System.OMNI_LOCKSCREEN_WEATHER_ENABLED, 1) == 1;
+        boolean isPixelStyleEnabled = Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_WEATHER_STYLE, 1) == 1;
+        return isWeatherEnabled && !isPixelStyleEnabled;
     }
 
     @Override
@@ -107,6 +125,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                 int value = (Integer) newValue;
                 Settings.System.putInt(getContentResolver(),
                         Settings.System.LOCKSCREEN_MEDIA_BLUR, value);
+                return true;
+            case KEY_LOCKSCREEN_WEATHER_ENABLED:
+            case KEY_LOCKSCREEN_WEATHER_STYLE:
+                mLockscreenWeatherTemp.setEnabled(isOmniWeatherEnabled());
+                mLockscreenWeatherCity.setEnabled(isOmniWeatherEnabled());
                 return true;
             default:
                 return false;
