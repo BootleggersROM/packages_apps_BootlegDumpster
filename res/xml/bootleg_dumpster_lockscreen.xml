@@ -29,6 +29,13 @@
         android:defaultValue="true" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_weather_style"
+        android:title="@string/lock_screen_weather_style_title"
+        android:summary="@string/lock_screen_weather_style_summary"
+        android:dependency="lockscreen_weather_enabled"
+        android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_weather_show_city"
         android:title="@string/lockscreen_weather_show_city_title"
         android:summary="@string/lockscreen_weather_show_city_summary"
