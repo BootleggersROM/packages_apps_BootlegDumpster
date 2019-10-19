@@ -46,6 +46,12 @@
             android:summary="@string/roaming_indicator_icon_summary"
             android:defaultValue="true"/>
 
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
+
       <Preference
         android:key="traffic"
         android:title="@string/traffic_title"
