@@ -48,11 +48,17 @@
 
     </PreferenceCategory>
 
-    <!--<PreferenceCategory
-        android:key="statusbar_misc_cat"
-        android:title="@string/misc_title">
+    <PreferenceCategory
+        android:key="statusbar_battery_icon"
+        android:title="@string/battery_style_category_title">
 
-    </PreferenceCategory>-->
+    <Preference
+         android:key="battery_mode"
+         android:title="@string/battery_mode_title"
+         android:summary="@string/battery_mode_summary"
+         android:fragment="com.bootleggers.dumpster.fragments.BatteryMode" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="statusbar_clock_cat"
