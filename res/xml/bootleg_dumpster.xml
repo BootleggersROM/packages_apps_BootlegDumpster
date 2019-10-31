@@ -17,93 +17,93 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/bootleg_dumpster_title" >
 
-        <!-- Status Bar -->
+        <!-- Status Bar
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:summary="@string/statusbar_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.StatusBarSettings" 
-            android:icon="@drawable/ic_settings_statusbar"/>
+            android:icon="@drawable/ic_settings_statusbar"/> -->
 
-        <!-- Quick Settings panel -->
+        <!-- Quick Settings panel
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:summary="@string/quicksettings_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
+            android:icon="@drawable/ic_settings_quicksettings"/> -->
 
-        <!-- Buttons -->
+        <!-- Buttons 
         <Preference
             android:key="buttonsettings_category"
             android:title="@string/button_title"
             android:summary="@string/buttons_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
+            android:icon="@drawable/ic_settings_buttons"/>-->
 
-        <!-- Navigation Bar -->
+        <!-- Navigation Bar
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title" 
             android:summary="@string/navbar_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
+            android:icon="@drawable/ic_settings_navbar"/> -->
 
-        <!-- Lock Screen -->
+        <!-- Lock Screen 
         <Preference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title" 
             android:summary="@string/lockscreen_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.LockScreenSettings"
-            android:icon="@drawable/ic_settings_lockscreens"/>
+            android:icon="@drawable/ic_settings_lockscreens"/>-->
 
-        <!-- Recents -->
+        <!-- Recents 
         <Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:summary="@string/recents_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
+            android:icon="@drawable/ic_settings_recents"/>-->
 
-        <!-- Notifications -->
+        <!-- Notifications 
         <Preference
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:summary="@string/notifications_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
+            android:icon="@drawable/ic_settings_notifications"/>-->
 
-        <!-- Power Menu -->
+        <!-- Power Menu 
         <Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title" 
             android:summary="@string/powermenu_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
+            android:icon="@drawable/ic_settings_powermenu"/>-->
 
-        <!-- Animations -->
+        <!-- Animations 
         <Preference
             android:key="animations__category"
             android:title="@string/animations_title" 
             android:summary="@string/animations_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.AnimationSettings"
-            android:icon="@drawable/ic_settings_animations"/>
+            android:icon="@drawable/ic_settings_animations"/>-->
 
-        <!-- Gestures -->
+        <!-- Gestures 
         <Preference
             android:key="gestures__category"
             android:title="@string/gestures_title" 
             android:summary="@string/gestures_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
+            android:icon="@drawable/ic_settings_gestures"/>-->
 
-        <!-- Misc -->
+        <!-- Misc 
         <Preference
             android:key="misc_category"
             android:title="@string/misc_title" 
             android:summary="@string/misc_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_miscs"/>
+            android:icon="@drawable/ic_settings_miscs"/>-->
 
         <!-- About the ROM -->
         <Preference
