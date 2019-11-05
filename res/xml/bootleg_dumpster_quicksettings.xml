@@ -22,6 +22,11 @@
         android:key="quickset_uiandstuff"
         android:title="@string/cat_general_ui">
 
+    <SwitchPreference
+        android:key="qs_show_privacy_chip"
+        android:title="@string/qs_privacy_perm_title"
+        android:summary="@string/qs_privacy_perm_summary"/>
+
     </PreferenceCategory>-->
 
     <!--<PreferenceCategory

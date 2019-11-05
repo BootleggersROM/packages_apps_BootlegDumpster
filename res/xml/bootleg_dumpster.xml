@@ -25,13 +25,13 @@
             android:fragment="com.bootleggers.dumpster.fragments.StatusBarSettings" 
             android:icon="@drawable/ic_settings_statusbar"/> -->
 
-        <!-- Quick Settings panel
+        <!-- Quick Settings panel -->
         <Preference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
             android:summary="@string/quicksettings_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/> -->
+            android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Buttons 
         <Preference
