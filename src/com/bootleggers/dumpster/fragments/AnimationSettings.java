@@ -22,7 +22,8 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class AnimationSettings extends SettingsPreferenceFragment {
+public class AnimationSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,14 @@ public class AnimationSettings extends SettingsPreferenceFragment {
 
         addPreferencesFromResource(R.xml.bootleg_dumpster_animations);
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.animations_transparent_alert);
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        switch (preference.getKey()) {
+            default:
+                return false;
+        }
     }
 
     @Override

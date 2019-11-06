@@ -22,7 +22,7 @@ import java.util.HashSet;
 import com.android.settings.SettingsPreferenceFragment;
 
 public class RecentsSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+        Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -31,14 +31,15 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.bootleg_dumpster_recents);
 
         ContentResolver resolver = getActivity().getContentResolver();
-
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-
-    return false;
-
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        switch (preference.getKey()) {
+            default:
+                return false;
+        }
     }
 
     @Override

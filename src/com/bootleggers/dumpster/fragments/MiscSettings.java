@@ -27,20 +27,22 @@ import java.util.HashSet;
 import com.android.settings.SettingsPreferenceFragment;
 
 public class MiscSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+        Preference.OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.bootleg_dumpster_misc);
-
     }
 
     @Override
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-
-        return false;
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        switch (preference.getKey()) {
+            default:
+                return false;
+        }
     }
 
     @Override

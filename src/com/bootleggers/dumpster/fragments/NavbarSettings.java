@@ -19,6 +19,7 @@ package com.bootleggers.dumpster.fragments;
 import java.util.ArrayList;
 
 import android.app.AlertDialog;
+import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
@@ -37,19 +38,22 @@ import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 
-public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
+public class NavbarSettings extends SettingsPreferenceFragment 
+    implements OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.bootleg_dumpster_navigation);
-
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-
-        return false;
+        ContentResolver resolver = getActivity().getContentResolver();
+        switch (preference.getKey()) {
+            default:
+                return false;
+        }
     }
 
     @Override
