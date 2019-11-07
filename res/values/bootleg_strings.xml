@@ -112,7 +112,7 @@
     <string name="bootleg_sharemsg5">I went to Bootleggers ROM, it seems pretty nice, it got some different default fonts and various features </string>
     <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
     <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
-    
+
     <!-- Build type info -->
     <string name="bootleg_ri_title_buildtype">Build Type</string>
     <string name="bootleg_ri_summary_buildtype" formatted="false">Your build is %1s... or %2s.</string>
@@ -145,4 +145,8 @@
     <string name="theme_customization_navbar_summary">Set custom navigation bar style</string>
     <string name="theme_customization_ui_style_title">UI Style</string>
     <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
+
+    <!-- Advanced Reboot -->
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 </resources>

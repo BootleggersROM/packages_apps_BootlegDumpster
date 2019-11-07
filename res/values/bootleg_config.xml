@@ -23,7 +23,7 @@
     <bool name="has_gestures_options">false</bool>
     <!-- Buttons -->
     <bool name="has_volume_options">false</bool>
-    <bool name="has_powermenu_options">false</bool>
+    <bool name="has_powermenu_options">true</bool>
     <bool name="has_navbar_options">false</bool>
     <bool name="has_hwkeys_options">false</bool>
     <bool name="has_fingerprint_options">false</bool>
