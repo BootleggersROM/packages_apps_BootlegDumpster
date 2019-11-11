@@ -25,6 +25,13 @@
         android:key="anim_system"
         android:title="@string/anim_system_category" >
 
+        <ListPreference
+            android:key="screen_off_animation"
+            android:title="@string/screen_off_animation_title"
+            android:entries="@array/screen_off_animation_entries"
+            android:entryValues="@array/screen_off_animation_values"
+            android:persistent="false"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
