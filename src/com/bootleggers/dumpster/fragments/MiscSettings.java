@@ -34,8 +34,8 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        final PreferenceScreen prefSet = getPreferenceScreen();
         addPreferencesFromResource(R.xml.bootleg_dumpster_misc);
+        final PreferenceScreen prefSet = getPreferenceScreen();
         PreferenceCategory overallPreferences = (PreferenceCategory) findPreference("misc_overall_cat");
 
         boolean enableSmartPixels = getContext().getResources().
@@ -43,7 +43,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         Preference smartPixelsPref = (Preference) findPreference("smart_pixels");
 
         if (!enableSmartPixels){
-            overallPreferences.removePreference(smartPixelsPref);
+            prefSet.removePreference(overallPreferences);
         }
     }
 
