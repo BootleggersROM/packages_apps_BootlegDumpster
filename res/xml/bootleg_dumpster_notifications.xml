@@ -18,4 +18,10 @@
 	android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!--<PreferenceCategory
+        android:key="notifs_random_misc"
+        android:title="@string/misc_title">
+
+    </PreferenceCategory>-->
+
 </PreferenceScreen>

@@ -18,9 +18,22 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceScreen
-        android:key="volume_key"
-        android:fragment="com.bootleggers.dumpster.fragments.VolumeRockerSettings"
-        android:title="@string/volume_title" />
+    <!--<PreferenceCategory
+        android:key="vol_buttons_category"
+        android:title="@string/cat_volume_keys">
+
+    </PreferenceCategory>-->
+
+    <!--<PreferenceCategory
+        android:key="hardware_keys"
+        android:title="@string/hardware_keys_category" >
+
+    </PreferenceCategory>-->
+
+    <!--<PreferenceCategory
+        android:key="vol_power_category"
+        android:title="@string/powermenu_title">
+
+    </PreferenceCategory>-->
 
 </PreferenceScreen>

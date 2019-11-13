@@ -49,6 +49,19 @@
     <string name="notifications_title">Notifications</string>
     <string name="notifications_settings_summary">Change how you can see those notifications</string>
 
+    <!-- Preferences Categories -->
+    <string name="cat_general_ui">UI tweaks</string>
+    <string name="cat_general_system">System related tweaks</string>
+    <string name="cat_powermenu_items">Power menu items</string>
+    <string name="cat_volume_keys">Volume keys</string>
+    <string name="cat_misc_app">App related</string>
+    <string name="anim_general_category">Overall Animations</string>
+    <string name="anim_system_category">System related</string>
+    <string name="misc_settings_cat_title">Settings app related</string>
+    <string name="general_system_stuff_preference">System Behaviour</string>
+    <string name="hardware_keys_category">Hardware keys</string>
+    <string name="lockscreen_ambient_display_category">Ambient Display</string>
+
     <string name="about_bootleg_title">About Bootleggers</string>
     <string name="about_bootleg_summary">Some info about us, just in case you\'re curious about it</string>
     <string name="about_bootleg_small_title">About us</string>

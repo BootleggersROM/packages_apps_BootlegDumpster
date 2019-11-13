@@ -18,4 +18,10 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
+    <!--<PreferenceCategory
+        android:key="navbar_ui_stuff"
+        android:title="@string/cat_general_ui">
+
+     </PreferenceCategory>-->
+
 </PreferenceScreen>
