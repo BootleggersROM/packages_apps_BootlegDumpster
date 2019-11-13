@@ -18,7 +18,7 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="quickset_uiandstuff"
         android:title="@string/cat_general_ui">
 
@@ -27,9 +27,9 @@
         android:title="@string/qs_privacy_perm_title"
         android:summary="@string/qs_privacy_perm_summary"/>
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="quickset_random_misc"
         android:title="@string/misc_title">
 
@@ -39,6 +39,6 @@
         android:summary="@string/qs_music_tile_track_optional_summary"
         android:defaultValue="false"/>
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
 </PreferenceScreen>

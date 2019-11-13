@@ -18,7 +18,7 @@
 	android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="misc_overall_cat"
         android:title="@string/general_system_stuff_preference" >
 
@@ -28,7 +28,7 @@
         android:summary="@string/smart_pixels_summary"
         android:fragment="com.bootleggers.dumpster.external.SmartPixels" />
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
     <!--<PreferenceCategory
         android:key="misc_settings_related"
@@ -36,7 +36,7 @@
 
     </PreferenceCategory>-->
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="misc_app_stuff"
         android:title="@string/misc_title">
 
@@ -46,6 +46,6 @@
         android:summary="@string/display_cutout_force_fullscreen_summary"
         android:fragment="com.bootleggers.dumpster.external.DisplayCutoutForceFullscreenSettings" />
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
 </PreferenceScreen>
