@@ -41,18 +41,42 @@ import com.android.internal.logging.nano.MetricsProto;
 public class ButtonSettings extends SettingsPreferenceFragment implements
     Preference.OnPreferenceChangeListener {
 
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+
+    private ListPreference mTorchPowerButton;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.bootleg_dumpster_button);
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+        int mTorchPowerButtonValue = Settings.Secure.getInt(resolver,
+                Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0);
+        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+        mTorchPowerButton.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
         switch (preference.getKey()) {
+            case TORCH_POWER_BUTTON_GESTURE:
+                int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+                int index = mTorchPowerButton.findIndexOfValue((String) newValue);
+                mTorchPowerButton.setSummary(
+                        mTorchPowerButton.getEntries()[index]);
+                Settings.Secure.putInt(resolver, Settings.Secure.TORCH_POWER_BUTTON_GESTURE,
+                        mTorchPowerButtonValue);
+                if (mTorchPowerButtonValue == 1) {
+                    //if doubletap for torch is enabled, switch off double tap for camera
+                    Settings.Secure.putInt(resolver, Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED, 1);
+                }
+                return true;
             default:
                 return false;
         }

@@ -30,10 +30,16 @@
 
     </PreferenceCategory>-->
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="vol_power_category"
         android:title="@string/powermenu_title">
 
-    </PreferenceCategory>-->
+        <ListPreference
+            android:key="torch_power_button_gesture"
+            android:title="@string/power_button_torch_gesture_title"
+            android:entries="@array/power_button_torch_gesture_entries"
+            android:entryValues="@array/power_button_torch_gesture_values" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

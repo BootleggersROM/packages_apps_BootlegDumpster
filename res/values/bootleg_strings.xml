@@ -188,4 +188,10 @@
     <string name="qs_privacy_perm_title">Show permissions chip</string>
     <string name="qs_privacy_perm_summary">Show on QS when an app is using the Microphone or Location</string>
 
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_gesture_title">Screen off torch</string>
+    <string name="power_button_torch_gesture_none">Disabled</string>
+    <string name="power_button_torch_gesture_dt">Double tap power button</string>
+    <string name="power_button_torch_gesture_lp">Long press power button</string>
+
 </resources>
