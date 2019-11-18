@@ -502,6 +502,7 @@
     <string name="status_bar_battery_style_icon_portrait">Portrait</string>
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
     <string name="battery_percentage_title">Battery percentage</string>
     <string name="battery_percentage_off">Disabled</string>
