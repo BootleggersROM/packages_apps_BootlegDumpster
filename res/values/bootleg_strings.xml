@@ -194,4 +194,7 @@
     <string name="power_button_torch_gesture_dt">Double tap power button</string>
     <string name="power_button_torch_gesture_lp">Long press power button</string>
 
+    <!-- Volume key music control -->
+    <string name="volume_rocker_music_controls_title">Volume Keys as Music Controls</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 </resources>
