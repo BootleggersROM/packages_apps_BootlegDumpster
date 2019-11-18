@@ -24,11 +24,17 @@
 
     </PreferenceCategory>-->
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="lock_ambient_cat"
         android:title="@string/lockscreen_ambient_display_category">
 
-    </PreferenceCategory>-->
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:title="@string/pulse_on_new_tracks_title"
+        android:summary="@string/pulse_on_new_tracks_summary"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="lock_misc_cat"
