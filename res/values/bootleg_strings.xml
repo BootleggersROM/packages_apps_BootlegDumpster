@@ -218,4 +218,8 @@
     <string name="lockscreen_cover_filter_blur">Blur</string>
     <string name="lockscreen_cover_filter_grayblur">Grayscale and blurred</string>
     <string name="lockscreen_cover_filter_gradientblur">Gradient Blur</string>
+
+    <!-- lock screen media blur -->
+    <string name="lockscreen_media_blur_title">Media artwork blur level</string>
+    <string name="lockscreen_media_blur_summary">Control the blur amount of media artwork</string>
 </resources>
