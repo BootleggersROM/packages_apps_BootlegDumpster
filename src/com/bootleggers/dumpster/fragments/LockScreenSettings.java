@@ -74,7 +74,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     	});
 
         int value = Settings.System.getInt(getContentResolver(),
-                Settings.System.LOCKSCREEN_MEDIA_BLUR, 2500);
+                Settings.System.LOCKSCREEN_MEDIA_BLUR, 250);
         mLockscreenMediaBlur.setValue(value);
         mLockscreenMediaBlur.setOnPreferenceChangeListener(this);
         updatePrefsVisiblities();
