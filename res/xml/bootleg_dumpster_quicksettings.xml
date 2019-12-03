@@ -46,6 +46,12 @@
         android:summary="@string/qs_running_services_summary"
         android:defaultValue="true" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="footer_text_show"
+        android:title="@string/footer_text_show_title"
+        android:summary="@string/footer_text_show_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
