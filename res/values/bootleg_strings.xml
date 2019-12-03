@@ -411,4 +411,8 @@
     <string name="lockscreen_weather_show_temp_title">Show temperature</string>
     <string name="lockscreen_weather_show_temp_summary">Show current city temperature on right of image</string>
 
+    <!-- QS Footer Text -->
+    <string name="footer_text_show_title">Display footer text</string>
+    <string name="footer_text_show_summary">Toogle to show custom text on qs footer</string>
+
 </resources>
