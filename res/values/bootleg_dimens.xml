@@ -32,4 +32,10 @@
     <dimen name="slide_title">24dp</dimen>
     <dimen name="slide_desc">14dp</dimen>
     <dimen name="desc_padding">40dp</dimen>
+
+    <!-- FOD Icon Picker -->
+    <dimen name="fod_picker_item_margin">20dp</dimen>
+    <dimen name="fod_picker_item_size">100dp</dimen>
+    <dimen name="fod_picker_item_padding">20dp</dimen>
+
 </resources>

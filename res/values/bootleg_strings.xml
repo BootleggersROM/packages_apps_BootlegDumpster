@@ -634,4 +634,10 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+
+    <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">FOD icon picker</string>
+    <string name="fod_icon_picker_summary">Choose your favorite fingerprint icon</string>
+    <string name="fod_icon_picker_footer">In order to add your own icon, select the top left icon and use the OnePlus 6T FP Customizer app to select the icon you want.</string>
+
 </resources>
