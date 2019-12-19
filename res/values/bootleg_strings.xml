@@ -415,4 +415,8 @@
     <string name="footer_text_show_title">Display footer text</string>
     <string name="footer_text_show_summary">Toogle to show custom text on qs footer</string>
 
+    <!-- QS Custom Footer text -->
+    <string name="footer_text_string_title">Customize footer text</string>
+    <string name="footer_text_string_summary">Ideal to promote something, if empty, it\'ll show the default text</string> 
+
 </resources>

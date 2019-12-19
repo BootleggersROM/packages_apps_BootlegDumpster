@@ -52,6 +52,12 @@
         android:summary="@string/footer_text_show_summary"
         android:defaultValue="false" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingEditTextPreference
+        android:key="footer_text_string"
+        android:title="@string/footer_text_string_title"
+        android:summary="@string/footer_text_string_summary"
+        android:dependency="footer_text_show" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
