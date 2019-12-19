@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.DeviceConfig;
 import android.content.ContentResolver;
@@ -27,6 +28,7 @@ import android.view.View;
 
 import com.android.internal.config.sysui.SystemUiDeviceConfigFlags;
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
+import com.bootleggers.dumpster.preferences.SystemSettingEditTextPreference;
 import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference;
 
 import java.util.List;
@@ -47,6 +49,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mHeaderEnabled;
     private Preference mFileHeader;
     private String mFileHeaderProvider;
+    private SystemSettingEditTextPreference mFooterString;
+    private String mFooterFallbackString;
 
     private static final String QS_PRIVACY_PILL = "qs_show_privacy_chip";
     private static final String CUSTOM_HEADER_BROWSE = "custom_header_browse";
@@ -57,6 +61,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
     private static final String CUSTOM_HEADER_ENABLED = "status_bar_custom_header";
     private static final String FILE_HEADER_SELECT = "file_header_select";
+    private static final String FOOTER_TEXT_STRING = "footer_text_string";
 
     private static final int REQUEST_PICK_IMAGE = 0;
 
@@ -116,6 +121,20 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
         mFileHeader = findPreference(FILE_HEADER_SELECT);
         mFileHeader.setEnabled(providerName.equals(mFileHeaderProvider));
+
+        mFooterString = (SystemSettingEditTextPreference) findPreference(FOOTER_TEXT_STRING);
+        mFooterString.setOnPreferenceChangeListener(this);
+        String buildType = SystemProperties.get("ro.bootleggers.releasetype", "KeepTheBootleg");
+        mFooterFallbackString = "#" + buildType;
+        String footerString = Settings.System.getString(getContentResolver(),
+                FOOTER_TEXT_STRING);
+        if (footerString != null && footerString != "")
+            mFooterString.setText(footerString);
+        else {
+            mFooterString.setText(mFooterFallbackString);
+            Settings.System.putString(getActivity().getContentResolver(),
+                    Settings.System.FOOTER_TEXT_STRING, mFooterFallbackString);
+        }
     }
 
     private void updateHeaderProviderSummary(boolean headerEnabled) {
@@ -176,6 +195,18 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             case CUSTOM_HEADER_ENABLED:
                 Boolean headerEnabled = (Boolean) newValue;
                 updateHeaderProviderSummary(headerEnabled);
+                return true;
+
+            case FOOTER_TEXT_STRING:
+                String text = (String) newValue;
+                if (text != "" && text != null)
+                    Settings.System.putString(getActivity().getContentResolver(),
+                            Settings.System.FOOTER_TEXT_STRING, text);
+                else {
+                    mFooterString.setText(mFooterFallbackString);
+                    Settings.System.putString(getActivity().getContentResolver(),
+                            Settings.System.FOOTER_TEXT_STRING, mFooterFallbackString);
+                }
                 return true;
 
             default:
