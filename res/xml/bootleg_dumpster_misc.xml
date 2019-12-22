@@ -22,6 +22,13 @@
         android:key="misc_overall_cat"
         android:title="@string/general_system_stuff_preference" >
 
+    <com.bootleggers.dumpster.preferences.SystemSettingListPreference
+        android:key="screenshot_type"
+        android:title="@string/screenshot_type_title"
+        android:entries="@array/screenshot_type_entries"
+        android:entryValues="@array/screenshot_type_values"
+        android:defaultValue="0" />
+
       <Preference
         android:key="smart_pixels"
         android:title="@string/smart_pixels_title"
