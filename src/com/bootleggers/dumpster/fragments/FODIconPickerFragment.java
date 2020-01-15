@@ -35,7 +35,7 @@ public class FODIconPickerFragment extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.evolution_settings_fod_picker);
+        addPreferencesFromResource(R.xml.bootleg_dumpster_fod_picker);
 
         getActivity().getActionBar().setTitle(R.string.fod_icon_picker_title);
 

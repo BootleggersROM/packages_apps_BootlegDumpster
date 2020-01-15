@@ -55,6 +55,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String LOCK_CLOCK_FONT_STYLE = "lock_clock_font_style";
     private static final String LOCK_DATE_FONTS = "lock_date_fonts";
     private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
 
     private ListPreference mLockClockFonts;
     private ListPreference mLockDateFonts;
@@ -66,7 +67,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private SystemSettingSwitchPreference mLockscreenWeatherCity;
     private SystemSettingSwitchPreference mLockscreenWeatherTemp;
     private PreferenceCategory mLsMisc;
-    private Preference mFODIconPicker;
+    private PreferenceCategory mFODIconPickerCategory;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -92,17 +93,18 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             mLsMisc.removePreference(mFingerprintUnlock);
         }
 
+        mFODIconPickerCategory = (PreferenceCategory) findPreference(FOD_ICON_PICKER_CATEGORY);
+        if (mFODIconPickerCategory != null
+                && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
+            prefScreen.removePreference(mFODIconPickerCategory);
+        }
+
         mLockscreenMediaFilter.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
         	@Override
         	public boolean onPreferenceChange(Preference preference, Object newVal) {
         		updatePrefsVisiblities();
         		return true;
         	}
-        mFODIconPicker = (Preference) findPreference(FOD_ICON_PICKER_CATEGORY);
-        if (mFODIconPicker != null
-                && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
-            prefScreen.removePreference(mFODIconPicker);
-        }
 
     	});
 
