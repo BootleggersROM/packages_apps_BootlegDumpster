@@ -38,8 +38,10 @@ import androidx.preference.PreferenceScreen;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.bootleggers.dumpster.extra.Utils;
 import com.bootleggers.dumpster.preferences.CustomSeekBarPreference;
 import com.bootleggers.dumpster.preferences.SystemSettingListPreference;
+import com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference; 
 
 public class LockScreenSettings extends SettingsPreferenceFragment implements
     Preference.OnPreferenceChangeListener {
@@ -50,6 +52,9 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private PreferenceCategory mLockscreenUI;
     private SystemSettingListPreference mLockscreenMediaFilter;
     private CustomSeekBarPreference mLockscreenMediaBlur;
+    private SystemSettingSwitchPreference mFingerprintSuccess;
+    private SystemSettingSwitchPreference mFingerprintUnlock;
+    private PreferenceCategory mLsMisc;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -64,6 +69,14 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
         mLockscreenMediaFilter = (SystemSettingListPreference) findPreference(KEY_LOCKSCREEN_MEDIA_FILTER);
         mLockscreenMediaBlur = (CustomSeekBarPreference) findPreference(KEY_LOCKSCREEN_MEDIA_BLUR);
+        mLsMisc = (PreferenceCategory) findPreference("lock_misc_cat");
+        mFingerprintSuccess = (SystemSettingSwitchPreference) findPreference("fingerprint_success_vib");
+        mFingerprintUnlock = (SystemSettingSwitchPreference) findPreference("fp_unlock_keystore");
+
+        if (!Utils.isDeviceWithFP(getActivity())) {
+            mLsMisc.removePreference(mFingerprintSuccess);
+            mLsMisc.removePreference(mFingerprintUnlock);
+        }
 
         mLockscreenMediaFilter.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
         	@Override
