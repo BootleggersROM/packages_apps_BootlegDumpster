@@ -18,11 +18,17 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="statusbar_ui_stuff"
         android:title="@string/cat_general_ui">
 
-    </PreferenceCategory>-->
+      <Preference
+        android:key="traffic"
+        android:title="@string/traffic_title"
+        android:summary="@string/traffic_summary"
+        android:fragment="com.bootleggers.dumpster.external.Traffic" />
+
+    </PreferenceCategory>
 
     <!--<PreferenceCategory
         android:key="statusbar_misc_cat"
