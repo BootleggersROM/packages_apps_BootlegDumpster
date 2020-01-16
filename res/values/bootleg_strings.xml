@@ -322,5 +322,7 @@
     <string name="show_network_traffic_all">Uplink and Downlink</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
 
 </resources>
