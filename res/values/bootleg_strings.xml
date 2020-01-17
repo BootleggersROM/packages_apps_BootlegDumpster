@@ -115,7 +115,7 @@
     <string name="bootleg_sharemsg5">I went to Bootleggers ROM, it seems pretty nice, it got some different default fonts and various features </string>
     <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
     <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
-    
+
     <!-- Build type info -->
     <string name="bootleg_ri_title_buildtype">Build Type</string>
     <string name="bootleg_ri_summary_buildtype">Your build is %s... or %s.</string>
@@ -419,4 +419,12 @@
     <string name="footer_text_string_title">Customize footer text</string>
     <string name="footer_text_string_summary">Ideal to promote something, if empty, it\'ll show the default text</string> 
 
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Aggressive Battery</string>
+    <string name="aggressive_idle_title">Aggressive Idle</string>
+    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
+    <string name="aggressive_standby_title">Aggressive Standby</string>
+    <string name="aggressive_standby_summary">Restrict apps from running in the background</string>
+    <string name="aggressive_battery_saver_title">Auto-enable on battery saver</string>
+    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
 </resources>
