@@ -15,7 +15,7 @@
 -->
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-	android:title="@string/misc_title"
+        android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
@@ -39,6 +39,33 @@
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 
         android:fragment="com.bootleggers.dumpster.external.ScreenStateToggles" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="aggressive_battery"
+            android:title="@string/aggressive_battery_title">
+
+            <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+                android:key="aggressive_battery_saver"
+                android:title="@string/aggressive_battery_saver_title"
+                android:summary="@string/aggressive_battery_saver_summary"
+                android:defaultValue="true"
+                android:disableDependentsState="true" />
+
+            <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+                android:key="aggressive_idle_enabled"
+                android:title="@string/aggressive_idle_title"
+                android:summary="@string/aggressive_idle_summary"
+                android:defaultValue="false"
+                android:dependency="aggressive_battery_saver" />
+
+            <com.bootleggers.dumpster.preferences.GlobalSettingSwitchPreference
+                android:key="aggressive_standby_enabled"
+                android:title="@string/aggressive_standby_title"
+                android:summary="@string/aggressive_standby_summary"
+                android:defaultValue="false"
+                android:dependency="aggressive_battery_saver" />
 
     </PreferenceCategory>
 
