@@ -17,13 +17,13 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/bootleg_dumpster_title" >
 
-        <!-- Status Bar
+        <!-- Status Bar -->
         <Preference
             android:key="statusbar_category"
             android:title="@string/statusbar_title"
             android:summary="@string/statusbar_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.StatusBarSettings" 
-            android:icon="@drawable/ic_settings_statusbar"/> -->
+            android:icon="@drawable/ic_settings_statusbar"/>
 
         <!-- Quick Settings panel -->
         <Preference
@@ -89,13 +89,13 @@
             android:fragment="com.bootleggers.dumpster.fragments.AnimationSettings"
             android:icon="@drawable/ic_settings_animations"/>
 
-        <!-- Gestures 
+        <!-- Gestures -->
         <Preference
             android:key="gestures__category"
             android:title="@string/gestures_title" 
             android:summary="@string/gestures_settings_summary"
             android:fragment="com.bootleggers.dumpster.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>-->
+            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Misc -->
         <Preference
