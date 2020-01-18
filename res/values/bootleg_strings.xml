@@ -239,6 +239,7 @@
     <string name="global_actions_soundpanel">Sound Panel</string>
     <string name="global_actions_users">Users</string>
     <string name="global_actions_screenshot">Screenshot</string>
+    <string name="global_actions_screenrecord">Screen Recorder</string>
     <string name="global_actions_flashlight">Flashlight</string>
     <string name="global_actions_emergency">Emergency</string>
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
