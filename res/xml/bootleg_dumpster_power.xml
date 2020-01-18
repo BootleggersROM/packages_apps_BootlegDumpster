@@ -38,6 +38,11 @@
         android:defaultValue="false" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="global_actions_screenrecord"
+        android:title="@string/global_actions_screenrecord"
+        android:defaultValue="false" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="global_actions_airplane"
         android:title="@string/global_actions_airplane"
         android:defaultValue="false" />
