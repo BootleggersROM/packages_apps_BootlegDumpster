@@ -54,7 +54,6 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String KEY_LOCKSCREEN_WEATHER_TEMP = "lockscreen_weather_show_temp";
     private static final String LOCK_CLOCK_FONT_STYLE = "lock_clock_font_style";
     private static final String LOCK_DATE_FONTS = "lock_date_fonts";
-    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
     private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
 
     private ListPreference mLockClockFonts;

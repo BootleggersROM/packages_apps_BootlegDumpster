@@ -197,6 +197,13 @@
             android:summary="@string/fod_icon_picker_summary"
             android:fragment="com.bootleggers.dumpster.fragments.FODIconPickerFragment" />
 
+        <!-- FOD recognizing animation -->
+        <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="fod_recognizing_animation"
+            android:title="@string/fod_recog_animation"
+            android:summary="@string/fod_recog_animation_summary"
+            android:defaultValue="false" />
+
         <com.bootleggers.dumpster.preferences.SystemSettingListPreference
             android:key="fod_pressed_state"
             android:dialogTitle="@string/fod_pressed_state_title"
