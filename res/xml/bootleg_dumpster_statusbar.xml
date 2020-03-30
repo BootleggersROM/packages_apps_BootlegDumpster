@@ -46,6 +46,13 @@
         android:summary="@string/traffic_summary"
         android:fragment="com.bootleggers.dumpster.external.Traffic" />
 
+    <PreferenceScreen
+        android:key="status_bar_icons"
+        android:title="@string/status_bar_system_icons_title"
+        android:summary="@string/status_bar_system_icons_summary">
+        <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+    </PreferenceScreen>
+
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -508,4 +508,8 @@
     <string name="battery_percentage_off">Disabled</string>
     <string name="battery_percentage_on">Enabled</string>
     <string name="battery_percentage_charging">Enabled (While charging)</string>
+
+    <!-- StatusBar -->
+    <string name="status_bar_system_icons_title">System items</string>
+    <string name="status_bar_system_icons_summary">Enable/Disable status bar icons</string>
 </resources>
