@@ -663,4 +663,7 @@
     <string name="fod_recog_animation_bluefirework">Blue Fireworks</string>
     <string name="fod_recog_animation_coloros7_2">ColorOS7 2</string>
 
+   <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Less boring heads up</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for dialer, messaging and alarm app</string>
 </resources>
