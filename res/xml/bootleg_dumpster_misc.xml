@@ -35,6 +35,13 @@
         android:summary="@string/smart_pixels_summary"
         android:fragment="com.bootleggers.dumpster.external.SmartPixels" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingMasterSwitchPreference
+        android:key="gaming_mode_enabled"
+        android:fragment="com.bootleggers.dumpster.fragments.GamingMode"
+        android:title="@string/gaming_mode_title"
+        android:summary="@string/gaming_mode_summary"
+        android:defaultValue="false" />
+
       <Preference
         android:key="screenstate_category"
         android:title="@string/screen_state_toggles_title" 
