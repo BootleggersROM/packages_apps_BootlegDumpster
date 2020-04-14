@@ -51,6 +51,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private String mFileHeaderProvider;
     private SystemSettingEditTextPreference mFooterString;
     private String mFooterFallbackString;
+    private CustomSeekBarPreference mQsBlurRadius;
 
     private static final String QS_PRIVACY_PILL = "qs_show_privacy_chip";
     private static final String CUSTOM_HEADER_BROWSE = "custom_header_browse";
@@ -62,6 +63,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String CUSTOM_HEADER_ENABLED = "status_bar_custom_header";
     private static final String FILE_HEADER_SELECT = "file_header_select";
     private static final String FOOTER_TEXT_STRING = "footer_text_string";
+    private static final String QS_BLUR_RADIUS = "qs_blur_radius"; 
 
     private static final int REQUEST_PICK_IMAGE = 0;
 
@@ -135,6 +137,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             Settings.System.putString(getActivity().getContentResolver(),
                     Settings.System.FOOTER_TEXT_STRING, mFooterFallbackString);
         }
+
+        mQsBlurRadius = (CustomSeekBarPreference) findPreference(QS_BLUR_RADIUS);
+        final int blurRadius = Settings.System.getInt(resolver,
+                Settings.System.QS_BLUR_RADIUS, 0);
+            mQsBlurRadius.setValue((blurRadius));
+            mQsBlurRadius.setOnPreferenceChangeListener(this);
     }
 
     private void updateHeaderProviderSummary(boolean headerEnabled) {
@@ -207,6 +215,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                     Settings.System.putString(getActivity().getContentResolver(),
                             Settings.System.FOOTER_TEXT_STRING, mFooterFallbackString);
                 }
+                return true;
+
+            case QS_BLUR_RADIUS:
+                Integer blurRadius = (Integer) newValue;
+                Settings.System.putInt(resolver,
+                        Settings.System.QS_BLUR_RADIUS, blurRadius);
                 return true;
 
             default:

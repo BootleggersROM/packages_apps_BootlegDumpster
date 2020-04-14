@@ -534,4 +534,6 @@
     <!-- QS blur -->
     <string name="blur_quicksettings_title">Blur behind quick settings</string>
     <string name="blur_quicksettings_summary">Blurs the darkened background behind quick settings</string>
+    <string name="qs_blur_radius_title">Blur intensity behind Quick Settings</string>
+    <string name="qs_blur_radius_summary">Set radius of blur behind QS panel</string>
 </resources>
