@@ -536,4 +536,25 @@
     <string name="blur_quicksettings_summary">Blurs the darkened background behind quick settings</string>
     <string name="qs_blur_radius_title">Blur intensity behind Quick Settings</string>
     <string name="qs_blur_radius_summary">Set radius of blur behind QS panel</string>
+
+    <!-- Lockscreen fonts - Common strings -->
+    <string name="lock_fonts_system_headline">System headline (default)</string>
+    <string name="lock_fonts_system_body">System body</string>
+    <string name="lock_fonts_stock">Normal</string>
+    <string name="lock_fonts_bold">Bold</string>
+    <string name="lock_fonts_italic">Italic</string>
+    <string name="lock_fonts_bold_italic">Bold Italic</string>
+    <string name="lock_fonts_light_italic">Light Italic</string>
+    <string name="lock_fonts_light">Light</string>
+    <string name="lock_fonts_condensed_normal">Condensed</string>
+    <string name="lock_fonts_condensed_italic">Condensed Italic</string>
+    <string name="lock_fonts_condensed_bold">Condensed Bold</string>
+    <string name="lock_fonts_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="lock_fonts_medium_normal">Medium</string>
+    <string name="lock_fonts_medium_italic">Medium Italic</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Clock font options</string>
+    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_dialog_title">Select lock clock font</string>
 </resources>

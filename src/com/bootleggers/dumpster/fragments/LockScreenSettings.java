@@ -52,7 +52,9 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String KEY_LOCKSCREEN_WEATHER_STYLE = "lockscreen_weather_style";
     private static final String KEY_LOCKSCREEN_WEATHER_CITY = "lockscreen_weather_show_city";
     private static final String KEY_LOCKSCREEN_WEATHER_TEMP = "lockscreen_weather_show_temp";
+    private static final String LOCK_CLOCK_FONT_STYLE = "lock_clock_font_style";
 
+    private ListPreference mLockClockFonts;
     private PreferenceCategory mLockscreenUI;
     private SystemSettingListPreference mLockscreenMediaFilter;
     private CustomSeekBarPreference mLockscreenMediaBlur;
@@ -101,6 +103,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         updatePrefsVisiblities();
         mLockscreenWeatherTemp.setEnabled(isOmniWeatherEnabled());
         mLockscreenWeatherCity.setEnabled(isOmniWeatherEnabled());
+
+        mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONT_STYLE);
+        mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_CLOCK_FONT_STYLE, 0)));
+        mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+        mLockClockFonts.setOnPreferenceChangeListener(this);
     }
 
     private void updatePrefsVisiblities() {
@@ -130,6 +138,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             case KEY_LOCKSCREEN_WEATHER_STYLE:
                 mLockscreenWeatherTemp.setEnabled(isOmniWeatherEnabled());
                 mLockscreenWeatherCity.setEnabled(isOmniWeatherEnabled());
+                return true;
+            case LOCK_CLOCK_FONT_STYLE:
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCK_CLOCK_FONT_STYLE,
+                        Integer.valueOf((String) newValue));
+                mLockClockFonts.setValue(String.valueOf(newValue));
+                mLockClockFonts.setSummary(mLockClockFonts.getEntry());
                 return true;
             default:
                 return false;
