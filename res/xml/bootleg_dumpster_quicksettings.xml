@@ -54,6 +54,12 @@
         android:defaultValue="true" />
 
     <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="qs_blur"
+        android:title="@string/blur_quicksettings_title"
+        android:summary="@string/blur_quicksettings_summary"
+        android:defaultValue="true" />
+
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
         android:key="footer_text_show"
         android:title="@string/footer_text_show_title"
         android:summary="@string/footer_text_show_summary"
