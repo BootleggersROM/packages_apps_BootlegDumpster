@@ -53,8 +53,10 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String KEY_LOCKSCREEN_WEATHER_CITY = "lockscreen_weather_show_city";
     private static final String KEY_LOCKSCREEN_WEATHER_TEMP = "lockscreen_weather_show_temp";
     private static final String LOCK_CLOCK_FONT_STYLE = "lock_clock_font_style";
+    private static final String LOCK_DATE_FONTS = "lock_date_fonts";
 
     private ListPreference mLockClockFonts;
+    private ListPreference mLockDateFonts;
     private PreferenceCategory mLockscreenUI;
     private SystemSettingListPreference mLockscreenMediaFilter;
     private CustomSeekBarPreference mLockscreenMediaBlur;
@@ -109,6 +111,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                 getContentResolver(), Settings.System.LOCK_CLOCK_FONT_STYLE, 0)));
         mLockClockFonts.setSummary(mLockClockFonts.getEntry());
         mLockClockFonts.setOnPreferenceChangeListener(this);
+
+        mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
+        mLockDateFonts.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.LOCK_DATE_FONTS, 1)));
+        mLockDateFonts.setSummary(mLockDateFonts.getEntry());
+        mLockDateFonts.setOnPreferenceChangeListener(this);
     }
 
     private void updatePrefsVisiblities() {
@@ -144,6 +152,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                         Integer.valueOf((String) newValue));
                 mLockClockFonts.setValue(String.valueOf(newValue));
                 mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+                return true;
+            case LOCK_DATE_FONTS:
+                Settings.System.putInt(getContentResolver(), Settings.System.LOCK_DATE_FONTS,
+                        Integer.valueOf((String) newValue));
+                mLockDateFonts.setValue(String.valueOf(newValue));
+                mLockDateFonts.setSummary(mLockDateFonts.getEntry());
                 return true;
             default:
                 return false;

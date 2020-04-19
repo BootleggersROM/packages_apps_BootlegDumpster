@@ -606,4 +606,9 @@
     <string name="lock_clock_font_title">Clock font options</string>
     <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
     <string name="lock_clock_font_dialog_title">Select lock clock font</string>
+
+    <!-- Lock date fonts -->
+    <string name="lock_date_font_title">Date font options</string>
+    <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
+    <string name="lock_date_font_dialog_title">Select lock date font</string>
 </resources>
