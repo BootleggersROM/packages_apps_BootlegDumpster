@@ -28,6 +28,8 @@
     <string name="misc_title">Miscellaneous</string>
     <string name="misc_settings_summary">Some random stuff that doesn\'t go in other options</string>
 
+    <string name="music_options">Music Options</string>
+
     <string name="navbar_title">Navbar features</string>
     <string name="navbar_settings_summary">Teach your navbar some newer tricks</string>
 
@@ -727,4 +729,8 @@
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert layout</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Launch music app on headset connection</string>
+    <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
 </resources>
