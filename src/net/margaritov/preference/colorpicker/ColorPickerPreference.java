@@ -62,6 +62,8 @@ public class ColorPickerPreference extends Preference implements
     int mDefValue = -1;
     
     private boolean mShowLedPreview;
+    private boolean mShowReset;
+    private boolean mShowPreview;
 
     private EditText mEditText;
 
@@ -101,6 +103,8 @@ public class ColorPickerPreference extends Preference implements
                 mDefValue = defVal;
             }
             mShowLedPreview = attrs.getAttributeBooleanValue(null, "ledPreview", false);
+            mShowReset = attrs.getAttributeBooleanValue(SETTINGS_NS, "showReset", false);
+            mShowPreview = attrs.getAttributeBooleanValue(SETTINGS_NS, "showPreview", true);
         }
     }
 
@@ -133,7 +137,7 @@ public class ColorPickerPreference extends Preference implements
      * @author Randall Rushing aka Bigrushdog
      */
     private void setDefaultButton() {
-        if (mView == null)
+        if (!mShowReset || mView == null)
             return;
 
         LinearLayout widgetFrameView = ((LinearLayout) mView
@@ -182,7 +186,7 @@ public class ColorPickerPreference extends Preference implements
     }
 
     private void setPreviewColor() {
-        if (mView == null)
+        if (!mShowPreview || mView == null)
             return;
 
         ImageView iView = new ImageView(getContext());
