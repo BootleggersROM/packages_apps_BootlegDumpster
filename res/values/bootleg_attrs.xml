@@ -27,6 +27,8 @@
         <attr name="defaultColorValue" format="integer" />
         <attr name="ledPreview" format="boolean" />
         <attr name="alphaSlider" format="boolean" />
+        <attr name="showPreview" format="boolean" />
+        <attr name="showReset" format="boolean" />
     </declare-styleable>
 	
     <declare-styleable name="SeekBarPreference">
