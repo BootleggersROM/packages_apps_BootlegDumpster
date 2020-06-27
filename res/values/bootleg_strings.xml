@@ -219,6 +219,18 @@
     <string name="volume_rocker_music_controls_title">Volume Keys as Music Controls</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
+    <!--  Volume Panel Plugin   -->
+    <string name="volume_panel">Volume Panel Style</string>
+    <string name="volume_panel_aosp">AOSP</string>
+    <string name="volume_panel_compat">Compat</string>
+    <string name="volume_panel_oreo">Oreo</string>
+    <string name="volume_panel_tiled">Tiled</string>
+    <!--  Volume Panel Plugin Values   -->
+    <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+    <string name="volume_panel_compat_val">co.potatoproject.plugin.volume.compact</string>
+    <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+    <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+
     <!-- Pulse ambient display on music change -->
     <string name="pulse_on_new_tracks_title">Pulse ambient display on new song</string>
     <string name="pulse_on_new_tracks_summary">When a new song is playing, wake up the screen to display the new info</string>
