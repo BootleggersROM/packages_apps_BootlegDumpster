@@ -210,6 +210,7 @@
         <item>@string/fod_pressed_state_vivo_cyan_shadow_et713</item>
         <item>@string/fod_pressed_state_vivo_green</item>
         <item>@string/fod_pressed_state_vivo_yellow_shadow</item>
+        <item>@string/fod_pressed_state_realme_white</item>
     </string-array>
 
     <string-array name="fod_pressed_state_values" translatable="false">
@@ -220,7 +221,8 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
-    </string-array>
+        <item>7</item>   
+   </string-array>
 
     <string-array name="clock_date_display_entries">
         <item>@string/clock_date_display_none</item>

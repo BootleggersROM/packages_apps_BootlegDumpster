@@ -656,7 +656,7 @@
     <string name="fod_pressed_state_vivo_cyan_shadow_et713">Vivo Cyan (Shadow alt)</string>
     <string name="fod_pressed_state_vivo_green">Vivo Green</string>
     <string name="fod_pressed_state_vivo_yellow_shadow">Vivo Yellow (Shadow)</string>
-
+    <string name="fod_pressed_state_realme_white">Realme White</string>
     <!-- FOD animations -->
     <string name="fod_recog_animation">Recognizing animation</string>
     <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
