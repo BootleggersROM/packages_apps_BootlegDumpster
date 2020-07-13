@@ -22,6 +22,7 @@ import android.app.AlertDialog;
 import android.app.IActivityManager;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
@@ -43,6 +44,7 @@ import android.os.UserHandle;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
+import android.util.TypedValue;
 import android.view.DisplayInfo;
 import android.view.Surface;
 import android.view.WindowManager;
@@ -273,6 +275,12 @@ public final class Utils {
             // Ignore
         }
         return false;
+    }
+
+    public static int getThemeAccentColor (final Context context) {
+        final TypedValue value = new TypedValue();
+        context.getTheme().resolveAttribute(android.R.attr.colorAccent, value, true);
+        return value.data;
     }
 
     public static void restartSystemUi(Context context) {
