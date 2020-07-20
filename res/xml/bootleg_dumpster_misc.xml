@@ -103,6 +103,12 @@
         android:summary="@string/allow_signature_fake_summary"
         android:defaultValue="false" />
 
+    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+        android:key="clipboard_toast_info"
+        android:title="@string/show_clipboard_toast_title"
+        android:summary="@string/show_clipboard_toast_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="display_cutout_force_fullscreen_settings"
         android:title="@string/display_cutout_force_fullscreen_title"
