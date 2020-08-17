@@ -779,4 +779,12 @@
     <string name="pulse_custom_div">Bar spacing</string>
     <string name="pulse_filled_block_size">Block size</string>
     <string name="pulse_empty_block_size">Block spacing</string>
+
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS tile style</string>
+    <string name="qs_tile_style_pick">Pick your QS Style</string>
+    <string name="qstile_default">System icon shape</string>
+    <string name="qstile_circle_trim">Circle with trim</string>
+    <string name="qstile_dual_tone_circle">Dual-toned circle</string>
+    <string name="qstile_squircle_trim">Squircle with trim</string>
 </resources>
