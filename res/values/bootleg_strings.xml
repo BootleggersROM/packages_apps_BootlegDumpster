@@ -787,4 +787,22 @@
     <string name="qstile_circle_trim">Circle with trim</string>
     <string name="qstile_dual_tone_circle">Dual-toned circle</string>
     <string name="qstile_squircle_trim">Squircle with trim</string>
+    <string name="qstile_justicons">Icons without circle</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_shishu_nights">Shishu Nights</string>
+    <string name="qstile_mono_gradient">Monochrome Gradient</string>
+    <string name="qstile_wavey">Wavey</string>
+    <string name="qstile_memedo_square">The Memedo Square</string>
+    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qstile_ninja">Ninja</string>
+    <string name="qstile_dottedcircle">Dotted Circle</string>
+    <string name="qstile_shishuink">Shishu Ink</string>
+    <string name="qstile_attemptmountain">An attempt of a mountain</string>
+    <string name="qstile_neonlike">Neon</string>
+    <string name="qstile_oos">Oxygen</string>
+    <string name="qstile_triangles">Triangles</string>
+    <string name="qstile_divided">Divided Circle</string>
+    <string name="qstile_cosmos">Shishu Cosmos</string>
+    <string name="qstile_gradient">Gradients</string>
+    <string name="qstile_pureaccent">Pure Accent</string>
 </resources>
