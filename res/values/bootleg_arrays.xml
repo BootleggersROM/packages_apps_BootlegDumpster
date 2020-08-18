@@ -594,6 +594,7 @@
         <item>@string/qstile_circle_trim</item>
         <item>@string/qstile_dual_tone_circle</item>
         <item>@string/qstile_squircle_trim</item>
+        <item>@string/qstile_cookie</item>
         <item>@string/qstile_justicons</item>
         <item>@string/qstile_inkdrop</item>
         <item>@string/qstile_shishu_nights</item>
@@ -637,6 +638,7 @@
         <item>19</item>
         <item>20</item>
         <item>21</item>
+        <item>22</item>
     </string-array>
 
 </resources>
