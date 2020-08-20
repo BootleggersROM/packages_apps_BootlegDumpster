@@ -784,9 +784,9 @@
     <string name="qs_tile_style_title">QS tile style</string>
     <string name="qs_tile_style_pick">Pick your QS Style</string>
     <string name="qstile_default">System icon shape</string>
-    <string name="qstile_circle_trim">Circle with trim</string>
-    <string name="qstile_dual_tone_circle">Dual-toned circle</string>
-    <string name="qstile_squircle_trim">Squircle with trim</string>
+    <string name="qstile_dual_tone">Dual-toned</string>
+    <string name="qstile_trim">Trim</string>
+    <string name="qstile_dual_tone_trim">Dual-toned Trim</string>
     <string name="qstile_cookie">Cookie</string>
     <string name="qstile_justicons">Icons without circle</string>
     <string name="qstile_inkdrop">Inkdrop</string>
