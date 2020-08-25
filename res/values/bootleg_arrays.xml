@@ -601,7 +601,6 @@
         <item>@string/qstile_mono_gradient</item>
         <item>@string/qstile_wavey</item>
         <item>@string/qstile_memedo_square</item>
-        <item>@string/qstile_pokesign</item>
         <item>@string/qstile_ninja</item>
         <item>@string/qstile_dottedcircle</item>
         <item>@string/qstile_shishuink</item>
@@ -638,7 +637,6 @@
         <item>19</item>
         <item>20</item>
         <item>21</item>
-        <item>22</item>
     </string-array>
 
 </resources>
