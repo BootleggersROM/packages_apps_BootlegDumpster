@@ -85,21 +85,12 @@
     <PreferenceCategory
         android:key="launch_music"
         android:title="@string/music_options">
-
-     <!-- Launch music player when headset is connected -->
-    <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
-        android:key="headset_connect_player"
-        android:title="@string/headset_connect_player_title"
-        android:summary="@string/headset_connect_player_summary"
-        android:defaultValue="false" />
-
-    <com.bootleggers.dumpster.preferences.SystemSettingListPreference
-        android:key="ringtone_focus_mode"
-        android:title="@string/ringtone_focus_mode_title"
-        android:entries="@array/ringtone_focus_mode_entries"
-        android:entryValues="@array/ringtone_focus_mode_values"
-        android:defaultValue="1" />
-
+            <!-- Launch music player when headset is connected -->
+            <com.bootleggers.dumpster.preferences.SystemSettingSwitchPreference
+            android:key="headset_connect_player"
+            android:title="@string/headset_connect_player_title"
+            android:summary="@string/headset_connect_player_summary"
+            android:defaultValue="false" />
     </PreferenceCategory>
 
     <PreferenceCategory

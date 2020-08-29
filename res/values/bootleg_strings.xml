@@ -733,9 +733,4 @@
     <!-- Launch music player when headset is connected -->
     <string name="headset_connect_player_title">Launch music app on headset connection</string>
     <string name="headset_connect_player_summary">Launch the default music app when headset is connected</string>
-
-    <!-- Headset ringtone audio focus -->
-    <string name="ringtone_focus_mode_title">When headset connected, incoming call plays on</string>
-    <string name="ringtone_focus_mode_dynamic">Headset only if music is active</string>
-    <string name="ringtone_focus_mode_stock">Both speaker and headset</string>
 </resources>
