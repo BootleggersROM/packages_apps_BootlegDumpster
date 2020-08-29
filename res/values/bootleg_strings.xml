@@ -837,4 +837,8 @@
     <!-- Quick Settings brightness  side buttons -->
     <string name="brightness_side_buttons_title">Increase/decrease brightness buttons</string>
     <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
+
+    <!-- QS Header offset -->
+    <string name="status_bar_custom_header_offset_title">Header image offset</string>
+    <string name="status_bar_custom_header_offset_summary">Adjust the image header size</string>
 </resources>
