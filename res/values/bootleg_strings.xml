@@ -209,7 +209,9 @@
     <string name="battery_bar_animate_title">Charging animation</string>
     <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
     <string name="battery_bar_hide">Hide</string>
-    <string name="battery_bar_statusbar">Statusbar</string>
+    <string name="battery_bar_statusbar_top">Statusbar Top</string>
+    <string name="battery_bar_statusbar_bot">Statusbar bottom</string>
+    <string name="battery_bar_qs_header">QS Header</string>
     <string name="battery_bar_topnav">Top of navbar</string>
     <string name="battery_bar_bottomnav">Bottom of navbar</string>
     <string name="battery_bar_reg">Regular</string>
