@@ -32,7 +32,7 @@ public class AboutMore extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.bootleg_external_aboutmore);
+        addPreferencesFromResource(R.xml.bootleg_external_frag_aboutmore);
         Resources res = getResources();
         prefCrowd = (Preference) findPreference("bootleg_morecd");
 

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Nitrogen Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/bootleg_dumpster_title" >
+
+    <PreferenceCategory
+        android:key="cat_interface"
+        android:title="@string/category_interface_title">
+
+        <Preference
+            android:key="status_bar_category"
+            android:icon="@drawable/ic_subcategory_status_bar"
+            android:title="@string/statusbar_title"
+            android:summary="@string/statusbar_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.StatusBarSettings" />
+
+        <Preference
+            android:key="quick_settings_category"
+            android:icon="@drawable/ic_subcategory_quick_settings"
+            android:title="@string/quicksettings_title"
+            android:summary="@string/quicksettings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.QuickSettings" />
+
+        <Preference
+            android:key="notifications_category"
+            android:icon="@drawable/ic_subcategory_notifications"
+            android:title="@string/notifications_title"
+            android:summary="@string/notifications_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.NotificationsSettings" />
+
+        <Preference
+            android:key="lockscreen_category"
+            android:icon="@drawable/ic_subcategory_lockscreen"
+            android:title="@string/lockscreen_title"
+            android:summary="@string/lockscreen_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.LockScreenSettings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_tweaks"
+        android:title="@string/category_tweaks_title">
+
+        <Preference
+            android:key="recents_category"
+            android:icon="@drawable/ic_subcategory_recents"
+            android:title="@string/recents_title"
+            android:summary="@string/recents_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.RecentsSettings" />
+
+        <Preference
+            android:key="animations_category"
+            android:icon="@drawable/ic_subcategory_animations"
+            android:title="@string/animations_title"
+            android:summary="@string/animations_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.AnimationsSettings" />
+
+        <Preference
+            android:key="gestures_category"
+            android:icon="@drawable/ic_subcategory_gestures"
+            android:title="@string/gestures_title"
+            android:summary="@string/gestures_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.GesturesSettings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_buttons"
+        android:title="@string/category_buttons_title">
+
+        <Preference
+            android:key="volume_category"
+            android:icon="@drawable/ic_subcategory_volume"
+            android:title="@string/volume_title"
+            android:summary="@string/volume_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.VolumeSettings" />
+
+        <Preference
+            android:key="powermenu_category"
+            android:icon="@drawable/ic_subcategory_power_menu"
+            android:title="@string/powermenu_title"
+            android:summary="@string/powermenu_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.PowerMenuSettings" />
+
+        <Preference
+            android:key="navbar_category"
+            android:icon="@drawable/ic_subcategory_navbar"
+            android:title="@string/navbar_title"
+            android:summary="@string/navbar_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.NavBarSettings" />
+
+        <Preference
+            android:key="hwkeys_category"
+            android:icon="@drawable/ic_subcategory_hwkeys"
+            android:title="@string/hwkeys_title"
+            android:summary="@string/hwkeys_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.HwKeysSettings" />
+
+        <Preference
+            android:key="fingerprint_category"
+            android:icon="@drawable/ic_subcategory_fingerprint"
+            android:title="@string/fingerprint_title"
+            android:summary="@string/fingerprint_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.FingerprintSettings" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_misc"
+        android:title="@string/category_misc_title">
+
+        <Preference
+            android:key="device_extras_category"
+            android:icon="@drawable/ic_subcategory_deviceextras"
+            android:title="@string/device_extras_title_fallback"
+            android:summary="@string/device_extras_summary_fallback" />
+
+        <Preference
+            android:key="app_related_category"
+            android:icon="@drawable/ic_subcategory_app_related"
+            android:title="@string/app_related_title"
+            android:summary="@string/app_related_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.AppSettings" />
+
+        <Preference
+            android:key="system_category"
+            android:icon="@drawable/ic_subcategory_system"
+            android:title="@string/system_title"
+            android:summary="@string/system_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.SystemSettings" />
+
+        <Preference
+            android:key="about_bootleggers_category"
+            android:icon="@drawable/ic_settings_bootlegdump"
+            android:title="@string/about_bootleg_title"
+            android:summary="@string/about_bootleg_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.AboutBootleggers" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

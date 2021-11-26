@@ -153,6 +153,20 @@ public final class Utils {
         return isPackageInstalled(context, pkg, true);
     }
 
+    public static String getPackageLabel(Context context, String pkg) {
+        if (pkg != null) {
+            try {
+                PackageInfo pi = context.getPackageManager().getPackageInfo(pkg, 0);
+                String appName = context.getPackageManager().getApplicationLabel(
+                                    pi.applicationInfo).toString();
+                return appName;
+            } catch (NameNotFoundException e) {
+                return null;
+            }
+        }
+        return null;
+    }
+
     /**
      * Locks the activity orientation to the current device orientation
      * @param activity

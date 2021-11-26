@@ -1,43 +1,36 @@
 package com.bootleggers.dumpster.fragments;
 
-import com.android.internal.logging.nano.MetricsProto;
-
-import android.os.Bundle;
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.content.pm.ResolveInfo;
-import android.os.UserHandle;
-import android.content.ContentResolver;
-import android.content.res.Resources;
-import androidx.preference.ListPreference;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceScreen;
-import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
-import android.provider.Settings;
-import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
-import java.util.Locale;
-import android.text.TextUtils;
-import android.view.View;
-
-import java.util.List;
 import java.util.ArrayList;
 
-public class QuickSettings extends SettingsPreferenceFragment implements
-        OnPreferenceChangeListener {
+import android.app.AlertDialog;
+import android.content.Context;
+import android.content.ContentResolver;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.UserHandle;
+import androidx.preference.ListPreference;
+import androidx.preference.SwitchPreference;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import android.provider.Settings;
 
+import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.logging.MetricsLogger;
+import com.android.internal.logging.nano.MetricsProto;
+import com.android.settings.R;
+
+public class NotificationsSettings extends SettingsPreferenceFragment 
+        implements OnPreferenceChangeListener {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.bootleg_dumpster_frag_quick_settings);
-
-        PreferenceScreen prefScreen = getPreferenceScreen();
-        ContentResolver resolver = getActivity().getContentResolver();
-
+        addPreferencesFromResource(R.xml.bootleg_dumpster_frag_notifications);
     }
 
     @Override
@@ -53,5 +46,4 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.BOOTLEG;
     }
-
 }

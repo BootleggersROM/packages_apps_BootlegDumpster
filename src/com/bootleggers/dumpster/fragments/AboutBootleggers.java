@@ -64,7 +64,7 @@ public class AboutBootleggers extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources res = getResources();
 
-        addPreferencesFromResource(R.xml.bootleg_dumpster_about);
+        addPreferencesFromResource(R.xml.bootleg_dumpster_frag_about);
 
         /** All main stuff we'll declare to check on build.prop **/
 
