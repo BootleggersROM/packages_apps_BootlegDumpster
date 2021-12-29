@@ -133,6 +133,7 @@
 
     <!-- Theming -->
     <string name="style_theming_cat_title">Theming</string>
+    <string name="statusbar_icon_cat_title">Icons</string>
 
     <!-- Font style / Icon pack -->
     <string name="theme_customization_font_title">Font style</string>
@@ -197,4 +198,8 @@
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Status bar icons</string>
+    <string name="statusbar_items_summary">Tune and toggle your icons</string>
 </resources>
