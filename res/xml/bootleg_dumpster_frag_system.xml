@@ -22,6 +22,27 @@
         android:key="cat_theming"
         android:title="@string/style_theming_cat_title">
 
+        <!-- Icon pack -->
+        <Preference
+            android:key="android.theme.customization.icon_pack"
+            android:title="@string/theme_customization_icon_pack_title"
+            android:summary="@string/theme_customization_icon_pack_summary"
+            android:fragment="com.bootleggers.dumpster.external.themebox.StatusBarIcons"/>
+
+        <!-- Adaptive icon pack -->
+        <Preference
+            android:key="android.theme.customization.adaptive_icon_shape"
+            android:title="@string/theme_customization_icon_shape_title"
+            android:summary="@string/theme_customization_icon_shape_summary"
+            android:fragment="com.bootleggers.dumpster.external.themebox.IconShapes"/>
+
+        <!-- Font style -->
+        <Preference
+            android:key="android.theme.customization.fonts"
+            android:title="@string/theme_customization_font_title"
+            android:summary="@string/theme_customization_font_summary"
+            android:fragment="com.bootleggers.dumpster.external.themebox.FontsPicker"/>
+
    </PreferenceCategory>
 
 </PreferenceScreen>
