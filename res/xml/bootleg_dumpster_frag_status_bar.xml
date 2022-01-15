@@ -67,6 +67,12 @@
             android:summary="@string/statusbar_colored_icons_summary"
             android:defaultValue="false" />
 
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+	        android:key="statusbar_notif_count"
+	        android:title="@string/statusbar_notif_count_title"
+	        android:summary="@string/statusbar_notif_count_summary"
+	        android:defaultValue="false" />
+
         <Preference
                 android:key="systemui_tuner_statusbar"
                 android:title="@string/statusbar_items_title"
