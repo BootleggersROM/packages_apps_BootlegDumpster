@@ -45,8 +45,10 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     // Preferences
     private static final String KEY_SHOW_FOURG = "show_fourg_icon";
+    private static final String KEY_USE_OLD_MOBILETYPE = "use_old_mobiletype";
 
     private SwitchPreference mShowFourg;
+    private SwitchPreference mOldMobileType;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -58,9 +60,11 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
         mIconsCat = (PreferenceCategory) prefSet.findPreference(KEY_CAT_ICONS);
         mShowFourg = (SwitchPreference) mIconsCat.findPreference(KEY_SHOW_FOURG);
+        mOldMobileType = (SwitchPreference) mIconsCat.findPreference(KEY_USE_OLD_MOBILETYPE);
 
         if (!Utils.isVoiceCapable(getActivity())) {
             mIconsCat.removePreference(mShowFourg);
+            mIconsCat.removePreference(mOldMobileType);
         }
     }
 

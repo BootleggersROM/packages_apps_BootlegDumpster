@@ -34,6 +34,12 @@
         android:title="@string/statusbar_icon_cat_title">
 
         <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="use_old_mobiletype"
+            android:title="@string/old_mobiletype_title"
+            android:summary="@string/old_mobiletype_summary"
+            android:defaultValue="true"/>
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
             android:title="@string/show_fourg_icon_title"
             android:summary="@string/show_fourg_icon_summary"
