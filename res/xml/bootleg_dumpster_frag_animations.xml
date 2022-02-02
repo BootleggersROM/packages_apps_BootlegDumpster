@@ -15,6 +15,15 @@
     android:title="@string/animations_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Screen Off animation -->
+    <com.bootleggers.support.preferences.SystemSettingListPreference
+        android:key="screen_off_animation"
+        android:title="@string/screen_off_animation_title"
+        android:dialogTitle="@string/screen_off_animation_title"
+        android:entries="@array/screen_off_animation_entries"
+        android:entryValues="@array/screen_off_animation_values"
+        android:defaultValue="0" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="footer_anim_transparent_theme"
         android:title="@string/animations_transparent_alert"
