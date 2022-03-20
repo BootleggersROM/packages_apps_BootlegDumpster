@@ -188,4 +188,8 @@
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
 
+    <!-- Lockscreen battery info -->
+    <string name="lockscreen_charging_info_title">Show charging info in lockscreen</string>
+    <string name="lockscreen_charging_info_summary">Shows temperature, charging current and more while plugged in</string>
+
 </resources>

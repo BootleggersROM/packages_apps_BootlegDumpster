@@ -16,7 +16,7 @@
     <bool name="has_statusbar_options">true</bool>
     <bool name="has_quicksettings_options">false</bool>
     <bool name="has_notifications_options">false</bool>
-    <bool name="has_lockscreen_options">false</bool>
+    <bool name="has_lockscreen_options">true</bool>
     <!-- Tweaks -->
     <bool name="has_recents_options">false</bool>
     <bool name="has_animations_options">true</bool>
