@@ -55,6 +55,12 @@
             android:summary="@string/show_fourg_icon_summary"
             android:defaultValue="false"/>
 
+        <com.bootleggers.support.preferences.SecureSettingSwitchPreference
+            android:key="show_wifi_standard_icon"
+            android:title="@string/show_wifi_standard_icon_title"
+            android:summary="@string/show_wifi_standard_icon_summary"
+            android:defaultValue="false" />
+
         <Preference
                 android:key="systemui_tuner_statusbar"
                 android:title="@string/statusbar_items_title"
