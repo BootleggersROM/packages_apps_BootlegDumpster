@@ -28,7 +28,7 @@
     <bool name="has_hwkeys_options">true</bool>
     <bool name="has_fingerprint_options">false</bool>
     <!-- Misc -->
-    <bool name="has_app_related_options">false</bool>
+    <bool name="has_app_related_options">true</bool>
     <bool name="has_system_options">true</bool>
 
     <!-- Device extras package -->
