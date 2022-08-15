@@ -18,4 +18,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/system_title">
 
+    <PreferenceCategory
+        android:key="cat_theming"
+        android:title="@string/style_theming_cat_title">
+
+   </PreferenceCategory>
+
 </PreferenceScreen>

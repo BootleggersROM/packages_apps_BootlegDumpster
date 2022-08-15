@@ -131,4 +131,7 @@
     <!-- Footer alerts -->
     <string name="animations_transparent_alert">Some (or maybe all) of this animations may not work if your device got a transparent theme!</string>
 
+    <!-- Theming -->
+    <string name="style_theming_cat_title">Theming</string>
+
 </resources>
