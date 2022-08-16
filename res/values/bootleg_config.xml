@@ -29,7 +29,7 @@
     <bool name="has_fingerprint_options">false</bool>
     <!-- Misc -->
     <bool name="has_app_related_options">false</bool>
-    <bool name="has_system_options">false</bool>
+    <bool name="has_system_options">true</bool>
 
     <!-- Device extras package -->
     <string name="device_extras_package_name" translatable="false"/>
