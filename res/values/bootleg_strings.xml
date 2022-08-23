@@ -143,4 +143,6 @@
     <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
     <string name="theme_customization_navbar_title">Navbar style</string>
     <string name="theme_customization_navbar_summary">Set custom navigation bar style</string>
+    <string name="theme_customization_ui_style_title">UI Style</string>
+    <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
 </resources>
