@@ -302,4 +302,16 @@
     <!-- Hide status bar on lock screen -->
     <string name="hide_lockscreen_status_bar_title">Hide status bar</string>
     <string name="hide_lockscreen_status_bar_summary">Touch status bar to toggle visibility</string>
+
+    <!-- QS brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_never">Never show</string>
+    <string name="qs_brightness_slider_expanded">Show when expanded</string>
+    <string name="qs_brightness_slider_always">Show always</string>
+    <string name="qs_brightness_slider_position_title">Position</string>
+    <string name="qs_brightness_slider_position_top">Top</string>
+    <string name="qs_brightness_slider_position_bottom">Bottom</string>
+    <!-- QS auto brightness icon -->
+    <string name="qs_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
 </resources>
