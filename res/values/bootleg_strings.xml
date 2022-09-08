@@ -210,4 +210,8 @@
     <!-- Old mobiletype icon style -->
     <string name="old_mobiletype_title">Old style signal icon</string>
     <string name="old_mobiletype_summary">Use the old combined signal icons</string>
+
+    <!-- Surpress Notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Allow notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_summary">If enabled, this will allow all your notifications to play a sound and vibrate when the screen is on</string>
 </resources>
