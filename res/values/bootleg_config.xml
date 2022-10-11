@@ -19,7 +19,7 @@
     <bool name="has_lockscreen_options">false</bool>
     <!-- Tweaks -->
     <bool name="has_recents_options">false</bool>
-    <bool name="has_animations_options">false</bool>
+    <bool name="has_animations_options">true</bool>
     <bool name="has_gestures_options">false</bool>
     <!-- Buttons -->
     <bool name="has_volume_options">false</bool>
