@@ -18,4 +18,10 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_charging_info_title"
+        android:summary="@string/lockscreen_charging_info_summary"
+        android:defaultValue="1" />
+
 </PreferenceScreen>
