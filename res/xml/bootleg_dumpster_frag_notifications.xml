@@ -28,5 +28,11 @@
              android:summary="@string/notification_sound_vib_screen_on_summary"
              android:defaultValue="true" />
 
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>
