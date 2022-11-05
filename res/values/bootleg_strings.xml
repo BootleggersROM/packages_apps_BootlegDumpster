@@ -224,4 +224,8 @@
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+
+    <!-- DT2S on lockscreen-->
+    <string name="double_tap_sleep_title">Double tap to sleep</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double-tap anywhere on the lockscreen to put the device to sleep</string>
 </resources>
