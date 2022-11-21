@@ -140,6 +140,19 @@
 
     </PreferenceCategory>
 
+    <!-- Udfps options -->
+    <PreferenceCategory
+        android:key="udfps_category"
+        android:title="@string/udfps_category">
+
+        <Preference
+            android:key="udfps_settings"
+            android:title="@string/udfps_settings_title"
+            android:summary="@string/udfps_settings_summary"
+            android:fragment="com.bootleggers.dumpster.fragments.UdfpsSettings" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="lock_misc_cat"
         android:title="@string/category_misc_title">

@@ -40,6 +40,7 @@ import androidx.preference.PreferenceScreen;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.util.bootleg.udfps.UdfpsUtils;
 
 import com.bootleggers.support.preferences.SystemSettingListPreference;
 
@@ -59,6 +60,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         private SystemSettingListPreference mStartShortcut;
     	private SystemSettingListPreference mEndShortcut;
     	private SwitchPreference mEnforceShortcut;
+        private PreferenceCategory mUdfpsCategory;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -68,6 +70,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
+
+        mUdfpsCategory = findPreference(UDFPS_CATEGORY);
+        if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
+            prefSet.removePreference(mUdfpsCategory);
+        }
 
         mStartShortcut = findPreference(SHORTCUT_START_KEY);
         mEndShortcut = findPreference(SHORTCUT_END_KEY);
