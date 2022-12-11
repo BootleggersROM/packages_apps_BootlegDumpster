@@ -25,7 +25,7 @@
     <bool name="has_volume_options">false</bool>
     <bool name="has_powermenu_options">true</bool>
     <bool name="has_navbar_options">false</bool>
-    <bool name="has_hwkeys_options">false</bool>
+    <bool name="has_hwkeys_options">true</bool>
     <bool name="has_fingerprint_options">false</bool>
     <!-- Misc -->
     <bool name="has_app_related_options">false</bool>
