@@ -18,6 +18,12 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="android.theme.customization.lockscreen_clock_font"
+        android:title="@string/theme_customization_lock_clock_title"
+        android:summary="@string/theme_customization_lock_clock_summary"
+        android:fragment="com.bootleggers.dumpster.external.themebox.LockClockFonts"/>
+
     <com.bootleggers.support.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_charging_info_title"

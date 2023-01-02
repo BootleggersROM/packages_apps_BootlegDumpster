@@ -145,6 +145,8 @@
     <string name="theme_customization_navbar_summary">Set custom navigation bar style</string>
     <string name="theme_customization_ui_style_title">UI Style</string>
     <string name="theme_customization_ui_style_summary">Set custom style for your interface</string>
+    <string name="theme_customization_lock_clock_title">Lockscreen clock font</string>
+    <string name="theme_customization_lock_clock_summary">Set LS clock font style</string>
 
     <!-- Advanced Reboot -->
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
