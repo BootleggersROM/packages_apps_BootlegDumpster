@@ -48,6 +48,28 @@
 
     </PreferenceCategory>
 
+    <!-- Lockscreen bottom shortcuts -->
+    <PreferenceCategory
+        android:title="@string/lockscreen_shortcut_category">
+
+        <com.bootleggers.support.preferences.SystemSettingListPreference
+            android:key="lockscreen_shortcut_start"
+            android:title="@string/lockscreen_shortcut_start_title"
+            android:summary="%s"
+            android:entries="@array/lockscreen_shortcut_entries"
+            android:entryValues="@array/lockscreen_shortcut_values"
+            android:defaultValue="1" />
+
+        <com.bootleggers.support.preferences.SystemSettingListPreference
+            android:key="lockscreen_shortcut_end"
+            android:title="@string/lockscreen_shortcut_end_title"
+            android:summary="%s"
+            android:entries="@array/lockscreen_shortcut_entries"
+            android:entryValues="@array/lockscreen_shortcut_values"
+            android:defaultValue="0" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="lockscreen_media_art_options"
         android:title="@string/lockscreen_media_art_options_title">
