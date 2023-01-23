@@ -56,10 +56,16 @@
 
     </PreferenceCategory>
 
-    <com.bootleggers.support.preferences.SystemSettingSwitchPreference
-        android:key="double_tap_sleep_gesture"
-        android:title="@string/double_tap_sleep_title"
-        android:summary="@string/double_tap_sleep_gesture_summary"
-        android:defaultValue="false" />
+    <PreferenceCategory
+        android:key="statusbar_misc_cat"
+        android:title="@string/category_misc_title">
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_title"
+            android:summary="@string/double_tap_sleep_gesture_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>

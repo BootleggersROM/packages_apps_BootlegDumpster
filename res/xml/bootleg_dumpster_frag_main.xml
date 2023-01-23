@@ -83,13 +83,6 @@
         android:title="@string/category_buttons_title">
 
         <Preference
-            android:key="volume_category"
-            android:icon="@drawable/ic_subcategory_volume"
-            android:title="@string/volume_title"
-            android:summary="@string/volume_summary"
-            android:fragment="com.bootleggers.dumpster.fragments.VolumeSettings" />
-
-        <Preference
             android:key="powermenu_category"
             android:icon="@drawable/ic_subcategory_power_menu"
             android:title="@string/powermenu_title"

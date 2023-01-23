@@ -18,10 +18,16 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/powermenu_title">
 
-    <!-- Advanced Reboot -->
-    <com.bootleggers.support.preferences.SecureSettingSwitchPreference
-        android:key="advanced_reboot"
-        android:title="@string/global_actions_advanced_reboot_title"
-        android:summary="@string/global_actions_advanced_reboot_summary"
-        android:defaultValue="false" />
+    <PreferenceCategory
+        android:key="power_tweaks_cat"
+        android:title="@string/category_tweaks_title">
+
+        <!-- Advanced Reboot -->
+        <com.bootleggers.support.preferences.SecureSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/global_actions_advanced_reboot_title"
+            android:summary="@string/global_actions_advanced_reboot_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>

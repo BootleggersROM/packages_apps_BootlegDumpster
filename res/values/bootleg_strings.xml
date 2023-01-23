@@ -16,7 +16,9 @@
     <string name="category_interface_title">Interface</string>
     <string name="category_tweaks_title">Tweaks</string>
     <string name="category_buttons_title">Buttons</string>
+    <string name="category_system_title">System</string>
     <string name="category_misc_title">Misc</string>
+    <string name="category_volume_title">Volume Keys</string>
 
     <!-- Subcategories -->
     <!-- Interface -->
@@ -38,8 +40,6 @@
     <string name="gestures_summary">Set some gestures to make stuff easier</string>
 
     <!-- Buttons -->
-    <string name="volume_title">Volume Keys</string>
-    <string name="volume_summary">Get those volume buttons to do magic stuff</string>
     <string name="powermenu_title">Power menu</string>
     <string name="powermenu_summary">Make that shutdown menu more useful</string>
     <string name="navbar_title">Navbar features</string>
