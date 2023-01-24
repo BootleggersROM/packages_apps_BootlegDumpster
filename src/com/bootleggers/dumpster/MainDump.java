@@ -79,7 +79,6 @@ public class MainDump extends SettingsPreferenceFragment {
         Preference recentsPref = catTweaks.findPreference("recents_category");
         Preference animationsPref = catTweaks.findPreference("animations_category");
         Preference gesturesPref = catTweaks.findPreference("gestures_category");
-        Preference volumePref = catButtons.findPreference("volume_category");
         Preference powerMenuPref = catButtons.findPreference("powermenu_category");
         Preference navbarPref = catButtons.findPreference("navbar_category");
         Preference hwKeysPref = catButtons.findPreference("hwkeys_category");
@@ -114,14 +113,12 @@ public class MainDump extends SettingsPreferenceFragment {
             }
         }
         if (catButtons != null) {
-            if (!mRes.getBoolean(R.bool.has_volume_options) &&
-                    !mRes.getBoolean(R.bool.has_powermenu_options) &&
+            if (!mRes.getBoolean(R.bool.has_powermenu_options) &&
                     !mRes.getBoolean(R.bool.has_navbar_options) &&
                     !mRes.getBoolean(R.bool.has_hwkeys_options) &&
                     !mRes.getBoolean(R.bool.has_fingerprint_options)) {
                 removePreference("cat_buttons");
             } else {
-                if (!mRes.getBoolean(R.bool.has_volume_options)) catButtons.removePreference(volumePref);
                 if (!mRes.getBoolean(R.bool.has_powermenu_options)) catButtons.removePreference(powerMenuPref);
                 if (!mRes.getBoolean(R.bool.has_navbar_options)) catButtons.removePreference(navbarPref);
                 if (!mRes.getBoolean(R.bool.has_hwkeys_options)) catButtons.removePreference(hwKeysPref);
