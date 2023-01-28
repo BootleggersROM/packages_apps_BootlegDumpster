@@ -14,7 +14,7 @@
 	<!-- Settings category switcharoo -->
 	<!-- Interface -->
     <bool name="has_statusbar_options">true</bool>
-    <bool name="has_quicksettings_options">false</bool>
+    <bool name="has_quicksettings_options">true</bool>
     <bool name="has_notifications_options">false</bool>
     <bool name="has_lockscreen_options">true</bool>
     <!-- Tweaks -->
