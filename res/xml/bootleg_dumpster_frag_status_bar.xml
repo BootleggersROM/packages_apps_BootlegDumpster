@@ -49,9 +49,7 @@
                 android:key="systemui_tuner_statusbar"
                 android:title="@string/statusbar_items_title"
                 android:summary="@string/statusbar_items_summary" >
-                <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.systemui"
-                    android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+                <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
         </Preference>
 
     </PreferenceCategory>
