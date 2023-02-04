@@ -51,6 +51,13 @@
            android:title="@string/wake_when_plugged_or_unplugged_title"
            android:summary="@string/wake_when_plugged_or_unplugged_summary"
            android:defaultValue="false" />
-    </PreferenceCategory>
+        
+        <com.bootleggers.support.preferences.SecureSettingSwitchPreference
+           android:key="screen_off_udfps_enabled"
+           android:title="@string/screen_off_udfps_title"
+           android:summary="@string/screen_off_udfps_summary"
+           android:defaultValue="false" />
+  
+  </PreferenceCategory>
 
 </PreferenceScreen>
