@@ -42,11 +42,25 @@ import com.android.settings.R;
 public class SystemSettings extends SettingsPreferenceFragment 
         implements OnPreferenceChangeListener {
 
+    // private static final String TAG = "System";
+    private static final String SMART_PIXELS = "smart_pixels";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.bootleg_dumpster_frag_system);
+        updateSmartPixelsPreference();
+    }
 
+    private void updateSmartPixelsPreference() {
+        PreferenceScreen prefSet = getPreferenceScreen();
+        boolean enableSmartPixels = getContext().getResources().
+                getBoolean(com.android.internal.R.bool.config_supportSmartPixels);
+        Preference smartPixels = findPreference(SMART_PIXELS);
+
+        if (!enableSmartPixels){
+            prefSet.removePreference(smartPixels);
+        }
     }
 
     @Override
