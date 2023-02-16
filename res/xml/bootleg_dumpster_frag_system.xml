@@ -64,6 +64,12 @@
             android:summary="@string/smart_pixels_summary" 
             android:fragment="com.bootleggers.dumpster.fragments.SmartPixels" />
 
+            <com.bootleggers.support.preferences.SecureSettingSwitchPreference
+            android:key="window_ignore_secure"
+            android:title="@string/laboratory_ignore_window_secure_title"
+            android:summary="@string/laboratory_ignore_window_secure_summary"
+            android:defaultValue="false"/>
+
    </PreferenceCategory>
 
 </PreferenceScreen>
