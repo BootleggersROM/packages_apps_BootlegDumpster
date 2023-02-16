@@ -19,6 +19,25 @@
     android:title="@string/notifications_title">
 
     <PreferenceCategory
+        android:key="reticker"
+        android:title="@string/reticker_category" >
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="reticker_status"
+            android:title="@string/reticker_title"
+            android:summary="@string/reticker_summary"
+            android:defaultValue="false" />
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:dependency="reticker_status"
+            android:key="reticker_colored"
+            android:title="@string/reticker_colored_title"
+            android:summary="@string/reticker_colored_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="notif_tweaks_cat"
         android:title="@string/category_tweaks_title">
 
