@@ -277,4 +277,12 @@
     <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
     <string name="reticker_landscape_only_title">Landscape only</string>
     <string name="reticker_landscape_only_summary">Only enable reTicker when device is in landscape mode</string>
+
+    <!-- Incall options -->
+    <string name="incall_category">In-call options</string>
+    <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+    <string name="flashlight_on_call_disabled">Disabled</string>
+    <string name="flashlight_on_call_ringer">Only in ringer mode</string>
+    <string name="flashlight_on_call_silent">Only when ringer is silent</string>
+    <string name="flashlight_on_call_always">Always</string>
 </resources>
