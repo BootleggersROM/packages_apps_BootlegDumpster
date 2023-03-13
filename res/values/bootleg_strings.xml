@@ -326,4 +326,8 @@
     <string name="lockscreen_shortcut_qr">QR code scanner</string>
     <string name="lockscreen_shortcut_camera">Camera</string>
     <string name="lockscreen_shortcut_none">None</string>
+
+    <!-- Fingerprint Ripple Effect -->
+    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 </resources>
