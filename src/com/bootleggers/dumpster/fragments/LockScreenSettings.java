@@ -52,7 +52,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     	private static final String SHORTCUT_END_KEY = "lockscreen_shortcut_end";
 
     	private static final String[] DEFAULT_START_SHORTCUT = new String[] { "home", "flashlight" };
-    	private static final String[] DEFAULT_END_SHORTCUT = new String[] { "wallet", "qr", "camera" };
+    	private static final String[] DEFAULT_END_SHORTCUT = new String[] { "wallet", "qr_code_scanner", "camera" };
     	private static final String SHORTCUT_ENFORCE_KEY = "lockscreen_shortcut_enforce";
 
         private SystemSettingListPreference mStartShortcut;
@@ -102,7 +102,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     
     private String getSettingsShortcutValue() {
         String value = Settings.System.getString(getActivity().getContentResolver(),
-                Settings.System.KEYGUARD_QUICK_TOGGLES);
+                Settings.System.KEYGUARD_QUICK_TOGGLES_NEW);
         if (value == null || value.isEmpty()) {
             StringBuilder sb = new StringBuilder(DEFAULT_START_SHORTCUT[0]);
             for (int i = 1; i < DEFAULT_START_SHORTCUT.length; i++) {
@@ -149,7 +149,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             split[splitIndex] = sb.toString();
         }
         Settings.System.putString(getActivity().getContentResolver(),
-                Settings.System.KEYGUARD_QUICK_TOGGLES, split[0] + ";" + split[1]);
+                Settings.System.KEYGUARD_QUICK_TOGGLES_NEW, split[0] + ";" + split[1]);
 
         if (start) {
             mStartShortcut.setValue(value);
