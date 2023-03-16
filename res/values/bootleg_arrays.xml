@@ -262,6 +262,7 @@
         <item>@string/lockscreen_shortcut_flashlight</item>
         <item>@string/lockscreen_shortcut_qr</item>
         <item>@string/lockscreen_shortcut_camera</item>
+        <item>@string/lockscreen_shortcut_dnd</item>
         <item>@string/lockscreen_shortcut_none</item>
     </string-array>
 
@@ -269,8 +270,9 @@
         <item>wallet</item>
         <item>home</item>
         <item>flashlight</item>
-        <item>qr</item>
+        <item>qr_code_scanner</item>
         <item>camera</item>
+        <item>do_not_disturb</item>
         <item>none</item>
     </string-array>
 </resources>
