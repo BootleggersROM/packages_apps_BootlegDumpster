@@ -454,4 +454,14 @@
     <string name="lockscreen_shortcut_none">None</string>
     <string name="lockscreen_shortcut_enforce_title">Single shortcut</string>
     <string name="lockscreen_shortcut_enforce_summary">Enforce chosen shortcut to be the only existing priority\nWill show nothing until the specific chosen shortcut is available</string>
+
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge light</string>
+    <string name="edge_light_summary">Light up the side edges of the screen on notification pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Whether to show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Edge light color mode</string>
 </resources>
