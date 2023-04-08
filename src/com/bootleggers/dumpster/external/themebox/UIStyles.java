@@ -24,6 +24,8 @@ import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 import android.view.LayoutInflater;
@@ -57,6 +59,9 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.util.bootleg.ThemeUtils;
 
 import java.util.ArrayList;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -72,6 +77,10 @@ public class UIStyles extends SettingsPreferenceFragment {
     private String mCategory = "android.theme.customization.style.android";
 
     private List<String> mPkgs;
+
+    private ExecutorService mExecutor = Executors.newSingleThreadExecutor();
+    private Handler mHandler = new Handler();
+    private final AtomicBoolean mApplyingOverlays = new AtomicBoolean(false);
 
     Map<String, String> overlayMap = new HashMap<String, String>();
     {
@@ -156,6 +165,7 @@ public class UIStyles extends SettingsPreferenceFragment {
             holder.itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    if (mApplyingOverlays.get()) return;
                     updateActivatedStatus(mSelectedPkg, false);
                     updateActivatedStatus(pkg, true);
                     mSelectedPkg = pkg;
@@ -223,12 +233,16 @@ public class UIStyles extends SettingsPreferenceFragment {
     }
 
     public void enableOverlays(int position) {
-        mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position), "android");
-        String pattern = "android".equals(mPkgs.get(position)) ? ""
-                : mPkgs.get(position).split("\\.")[4];
-        for (Map.Entry<String, String> entry : overlayMap.entrySet()) {
-            enableOverlay(entry.getValue(), entry.getKey(), pattern);
-        }
+        mApplyingOverlays.set(true);
+        mExecutor.execute(() -> {
+            mThemeUtils.setOverlayEnabled(mCategory, mPkgs.get(position), "android");
+            String pattern = "android".equals(mPkgs.get(position)) ? ""
+                    : mPkgs.get(position).split("\\.")[4];
+            for (Map.Entry<String, String> entry : overlayMap.entrySet()) {
+                enableOverlay(entry.getValue(), entry.getKey(), pattern);
+            }
+            mHandler.post(() -> mApplyingOverlays.set(false));
+        });
     }
 
     public void enableOverlay(String category, String target, String pattern) {
