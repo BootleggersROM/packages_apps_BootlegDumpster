@@ -19,7 +19,20 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <PreferenceCategory
-        android:title="@string/general_category">
+        android:key="lock_interface_cat"
+        android:title="@string/category_interface_title">
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_charging_info_title"
+            android:summary="@string/lockscreen_charging_info_summary"
+            android:defaultValue="1" />
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="hide_lockscreen_status_bar"
+            android:title="@string/hide_lockscreen_status_bar_title"
+            android:summary="@string/hide_lockscreen_status_bar_summary"
+            android:defaultValue="false" />
 
         <com.bootleggers.support.preferences.SystemSettingSwitchPreference
             android:key="enable_ripple_effect"
@@ -27,23 +40,11 @@
             android:summary="@string/enable_fingerprint_ripple_effect_summary"
             android:defaultValue="true" />
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="lock_interface_cat"
-        android:title="@string/category_interface_title">
-
         <Preference
             android:key="android.theme.customization.lockscreen_clock_font"
             android:title="@string/theme_customization_lock_clock_title"
             android:summary="@string/theme_customization_lock_clock_summary"
             android:fragment="com.bootleggers.dumpster.external.themebox.LockClockFonts"/>
-
-        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
-            android:key="lockscreen_battery_info"
-            android:title="@string/lockscreen_charging_info_title"
-            android:summary="@string/lockscreen_charging_info_summary"
-            android:defaultValue="1" />
 
     </PreferenceCategory>
 
@@ -111,12 +112,6 @@
            android:title="@string/screen_off_udfps_title"
            android:summary="@string/screen_off_udfps_summary"
            android:defaultValue="false" />
-
-        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
-            android:key="hide_lockscreen_status_bar"
-            android:title="@string/hide_lockscreen_status_bar_title"
-            android:summary="@string/hide_lockscreen_status_bar_summary"
-            android:defaultValue="false" />
   
   </PreferenceCategory>
 

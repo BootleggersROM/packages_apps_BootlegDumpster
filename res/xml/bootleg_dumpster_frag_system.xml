@@ -57,6 +57,12 @@
             android:summary="@string/theme_customization_navbar_summary"
             android:fragment="com.bootleggers.dumpster.external.themebox.NavbarStyles"/>
 
+   </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_system_misc"
+        android:title="@string/category_misc_title">
+
         <!-- Smart Pixels -->
         <Preference
             android:key="smart_pixels"

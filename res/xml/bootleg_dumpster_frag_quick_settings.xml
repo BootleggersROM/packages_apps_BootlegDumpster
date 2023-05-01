@@ -19,8 +19,8 @@
     android:title="@string/quicksettings_title">
 
     <PreferenceCategory
-        android:key="quickset_uiandstuff"
-        android:title="@string/category_misc_title">
+        android:key="quickset_brightnessbar"
+        android:title="@string/qs_brightness_cat_title">
 
         <com.bootleggers.support.preferences.SecureSettingListPreference
             android:key="qs_show_brightness_slider"
@@ -41,6 +41,12 @@
             android:title="@string/qs_auto_brightness_title"
             android:summary="@string/qs_auto_brightness_summary"
             android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="quickset_uiandstuff"
+        android:title="@string/category_misc_title">
 
         <com.bootleggers.support.preferences.SecureSettingSwitchPreference
             android:key="qs_show_data_usage"

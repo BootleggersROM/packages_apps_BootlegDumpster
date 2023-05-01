@@ -19,6 +19,30 @@
     android:title="@string/notifications_title">
 
     <PreferenceCategory
+        android:key="notif_tweaks_cat"
+        android:title="@string/category_tweaks_title">
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+             android:key="notification_sound_vib_screen_on"
+             android:title="@string/notification_sound_vib_screen_on_title"
+             android:summary="@string/notification_sound_vib_screen_on_summary"
+             android:defaultValue="true" />
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="less_boring_heads_up"
+            android:title="@string/less_boring_heads_up_title"
+            android:summary="@string/less_boring_heads_up_summary"
+            android:defaultValue="false" />
+
+        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
+            android:key="notification_guts_kill_app_button"
+            android:title="@string/notification_guts_kill_app_button_title"
+            android:summary="@string/notification_guts_kill_app_button_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="reticker"
         android:title="@string/reticker_category" >
 
@@ -45,30 +69,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="notif_tweaks_cat"
-        android:title="@string/category_tweaks_title">
-
-        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
-             android:key="notification_sound_vib_screen_on"
-             android:title="@string/notification_sound_vib_screen_on_title"
-             android:summary="@string/notification_sound_vib_screen_on_summary"
-             android:defaultValue="true" />
-
-        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
-            android:key="less_boring_heads_up"
-            android:title="@string/less_boring_heads_up_title"
-            android:summary="@string/less_boring_heads_up_summary"
-            android:defaultValue="false" />
-
-        <com.bootleggers.support.preferences.SystemSettingSwitchPreference
-            android:key="notification_guts_kill_app_button"
-            android:title="@string/notification_guts_kill_app_button_title"
-            android:summary="@string/notification_guts_kill_app_button_summary"
-            android:defaultValue="false" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="notif_incall_vib_cat"
         android:title="@string/incall_vibration_category" >
 
@@ -86,6 +86,12 @@
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="notif_incall_flash_cat"
+        android:title="@string/incall_flash_category" >
 
          <com.bootleggers.support.preferences.SystemSettingListPreference
             android:key="flashlight_on_call"
