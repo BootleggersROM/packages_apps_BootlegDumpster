@@ -81,6 +81,7 @@
     <string name="bootleg_ab_madstinky_test">It seems that you\'re running a testing build, that obviously means that you\'re using a totally experimental build, and bugs and things crashing are expected. If the bugs you\'re facing aren\'t listed on the post from this build, please, take care to report it to the right person (in this case, the person who built this). Thanks</string>
     <string name="bootleg_changelog_title">See the changelog</string>
     <string name="bootleg_changelog_summary">See the latest changes added on this build</string>
+    <string name="bootleg_changelog_title_alt">Changelog</string>
 
     <!-- More about us strings -->
     <string name="bootleg_pref_moarstuff_title">More about us?</string>
