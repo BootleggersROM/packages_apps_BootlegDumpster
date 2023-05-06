@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">الواجهة</string>
+    <string name="category_system_title">النظام</string>
+    <string name="category_volume_title">مفاتيح الصوت</string>
+    <string name="statusbar_summary">شريط الحالة لطيف ولكن يمكن أن يكون أفضل</string>
+    <string name="quicksettings_title">الإعدادات السريعة</string>
+    <string name="quicksettings_summary">جعل الاعدادات السريعة مريحة</string>
+    <string name="notifications_title">الإشعارات</string>
+    <string name="notifications_summary">تغيير كيف يمكنك أن ترى تلك الإشعارات</string>
+    <string name="lockscreen_title">قفل الشاشة</string>
+    <string name="lockscreen_summary">تغيير التخطيط والميزات على شاشة القفل الخاصة بك</string>
+    <string name="recents_title">التطبيقات الأخيرة</string>
+    <string name="recents_summary">استكشاف مزيد من السبل لتعدد المهام</string>
+    <string name="animations_title">المؤثرات الحركية</string>
+    <string name="gestures_title">الإيماءات</string>
+    <string name="gestures_summary">تعيين بعض الإيماءات لجعل الأشياء أسهل</string>
+    <string name="powermenu_title">قائمة الطاقة</string>
+    <string name="powermenu_summary">جعل قائمة إيقاف التشغيل أكثر فائدة</string>
+    <string name="navbar_title">ميزات شريط التنقل</string>
+    <string name="navbar_summary">تعليم شريط التنقل بعض الخدع الحديثة</string>
+    <string name="hwkeys_summary">اعدادات ازرار الجهاز</string>
+    <string name="fingerprint_title">بصمة الإصبع</string>
+    <string name="device_extras_title_fallback">إضافات الجهاز</string>
+    <string name="about_bootleg_title">حول Bootleggers</string>
+    <string name="about_bootleg_small_title">من نحن</string>
+    <string name="about_bootleg_small_summary">معلومات اضافية عن المشروع</string>
+    <string name="bootleg_ab_title_whoami">ماهو Bootleggers؟</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers هو نظام مدمج مليئ بالمميزات والتطبيقات هدفه جعلك ان تشعر انك مثل 家. نأمل أن يعجبك وان تستمتع بتجربتنا.</string>
+    <string name="bootleg_ab_title_thankssec">قائمة الشكر</string>
+    <string name="bootleg_ab_summary_thanksclean">المس هنا لمعرفة من صنع هذا المشروع وألهمه.</string>
+    <string name="bootleg_pref_title_romextras">إضافات والوظائف الإضافية</string>
+    <string name="bootleg_ex_title_featurelist">قائمة المميزات</string>
+    <string name="bootleg_ex_summary_featurelist">تحقق من قائمة الميزات في هذا البناء الحالي</string>
+    <string name="bootleg_ex_title_addons">الإضافات و التنزيلات</string>
+    <string name="bootleg_ex_summary_addons">قائمة الموصى بها من المواضيع والتعديلات، ومن جانبنا (الملقب الإعلان صادق)</string>
+    <string name="bootleg_ex_title_sharemsg">مشاركة نظامنا</string>
+    <string name="bootleg_ex_summary_sharemsg">جعل الناس يعرفون عنا وعملنا! ونحن سوف نقدر ذلك حقاً.</string>
+    <string name="bootleg_pref_moarstuff_title">مزيد من المعلومات عنا؟</string>
+    <string name="bootleg_pref_moarstuff_info_title">المعلومات والمصادر</string>
+    <string name="bootleg_moarstuff_blog_title">مدونتنا</string>
+    <string name="bootleg_moarstuff_blog_summary">أين سنقوم بالنشر حول الإصدارات والأخبار</string>
+    <string name="bootleg_moarstuff_git_title">Github الخاص بنا</string>
+    <string name="bootleg_moarstuff_git_summary">أين توضع المصادر و العوائد الخاصة بنا</string>
+    <string name="bootleg_pref_moarstuff_social_title">ابقى على اتصال!</string>
+    <string name="bootleg_moarstuff_tg_title">مجتمع تليجرام الخاص بِنا</string>
+    <string name="bootleg_moarstuff_tg_summary">التحدث معنا والحصول على وفقات مع التحديثات المستقبلية والانضمام إلى مجتمعنا الكبير</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">أعتقد أنك وجدت هذا المكان ليس سرياً للغاية ولكن حسنًا ، إذا كنت قد وصلت إلى هنا ، فأنا أريد فقط أن أشكرك على تثبيت هذا الروم ، كما قلنا مرات عديدة من قبل ، آمل أن تستمتع بهذا الروم.</string>
+    <string name="bootleg_moarstuff_faq_title">أسئلتنا</string>
+    <string name="bootleg_moarstuff_cd_title">حسابنا على Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">نحن لا نتكلم لغتك؟ نرجو ان تساعدنا في ترجمة النظام الى اللغتك الام!</string>
+    <string name="bootleg_moarstuff_cd_summary02">نحن لا نتكلم لغتك؟ نرجو ان تساعدنا في ترجمة النظام الى اللغتك الام!</string>
+    <string name="bootleg_moarstuff_faq_summary">حيث جميع الأسئلة وطلبال ميزات تحصل على الإجابة.</string>
+    <string name="bootleg_moarstuff_donos_title">دعم المشروع</string>
+    <string name="bootleg_moarstuff_donos_summary">تبرع للمشروع, نحن نقدر لك ذلك جدا</string>
+    <string name="share_chooser_title">مشاركة نظامنا بـ..</string>
+    <string name="bootleg_sharemsg1">مهلاً. أنا أستخدم روم يسمى Bootleggers، وهو لطيف. يجب عليك التحقق أكثر حول هذا الموضوع على https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">لقد قمت بتثبيت روم Bootleggers ويبدو أنه جيد في الوقت الحالي، يجب عليك التحقق أكثر على https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">لذا ذهبت إلى روم Bootleggers وأحب التجربة الآن ، إنه روم رائع </string>
+    <string name="bootleg_sharemsg4">مهلاً ، لقد ثبّتُ Bootleggers وانا مستمتع بالروم الآن ، أود أن أوصي به </string>
+    <string name="bootleg_sharemsg5">ذهبت إلى روم Bootleggers ، يبدو لطيفا جداً ، أنه حصل على بعض الخطوط الافتراضية المختلفة والميزات المتنوعة </string>
+    <string name="bootleg_sharemsg6">جرب \"نظام bootleggers\" الآن! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">أنا أختبر bootleggers وهو غريب نوعاً ما لكن ليس روم سيء </string>
+    <string name="bootleg_ri_title_buildtype">نوع البناء</string>
+    <string name="bootleg_pref_title_rominfo">معلومات ROM</string>
+    <string name="bootleg_ri_title_ota">تحديثات النظام عبر الهواء</string>
+    <string name="bootleg_ri_summary_ota">التحقق من ما إذا كان هناك أي إصدار جديد</string>
+    <string name="bootleg_ri_title_musicode">الاسم الرمزي الموسيقي</string>
+    <string name="ok">حسناً</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+    <string name="animations_transparent_alert">بعض (أو ربما كل) هذه الحركات قد لا تعمل إذا تم تطبيق ثيم شفاف على جهازك!</string>
+    <string name="statusbar_icon_cat_title">الأيقونات</string>
+    <string name="theme_customization_icon_pack_title">حزم الإيقونات</string>
+    <string name="theme_customization_icon_shape_title">شكل الأيقونة</string>
+    <string name="global_actions_advanced_reboot_title">تمكين إعادة التشغيل المتقدمة</string>
+    <string name="screen_off_animation_title">مؤثرات اغلاق الشاشة</string>
+    <string name="screen_off_animation_default">الافتراضي</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">مقياس</string>
+    <string name="status_bar_clock_style_title">نمط الساعة</string>
+    <string name="status_bar_clock_style_right">يمين</string>
+    <string name="status_bar_clock_style_center">الوسط</string>
+    <string name="status_bar_clock_style_left">يسار</string>
+    <string name="status_bar_am_pm_info">تم تمكين تنسيق 24 ساعة</string>
+    <string name="status_bar_am_pm_normal">مُتوسّطة</string>
+    <string name="status_bar_am_pm_small">صغيرة</string>
+    <string name="clock_seconds_display">إظهار الثواني</string>
+    <string name="clock_date_display">التاريخ</string>
+    <string name="clock_date_display_none">عدم الإظهار</string>
+    <string name="clock_date_display_small">حجم الخط الصغير</string>
+    <string name="clock_date_display_normal">حجم الخط الطبيعي</string>
+    <string name="clock_date_style">شكل التاريخ</string>
+    <string name="clock_date_style_normal">مُتوسّطة</string>
+    <string name="clock_date_style_lowercase">أحرف صغيرة</string>
+    <string name="clock_date_style_uppercase">أحرف كبيرة</string>
+    <string name="clock_date_format_custom">نسق جاڤا مخصص</string>
+    <string name="clock_date_format">تنسيق التاريخ</string>
+    <string name="clock_date_string_edittext_title">يجب أن يكون بنسق التاريخ مثال. شهر/يوم/سنة</string>
+    <string name="clock_date_string_edittext_summary">أدخل السلسلة</string>
+    <string name="statusbar_items_title">رموز شريط الحالة</string>
+    <string name="incall_vibrate_connect_title">إهتزاز عند الإتصال</string>
+    <string name="incall_vibrate_call_wait_title">الاهتزاز أثناء انتظار المكالمة</string>
+    <string name="incall_vibrate_disconnect_title">إهتزاز عند قطع الإتصال</string>
+    <string name="double_tap_sleep_title">الضغط المزدوج للنوم</string>
+    <string name="wake_when_plugged_or_unplugged_title">الإيقاظ عند التوصيل</string>
+    <string name="wake_when_plugged_or_unplugged_summary">تشغيل الشاشة عند توصيل أو قطع مصدر الطاقة</string>
+    <string name="smart_pixels_title">الدقة الذكية</string>
+    <string name="smart_pixels_summary">تقليل الدقة لتقليل أستهلاك الطاقة</string>
+    <string name="smart_pixels_on_power_save_title">تشغيل تلقائي في وضع توفير الطاقة</string>
+    <string name="smart_pixels_percent">نسبة البكسلات لإيقافها</string>
+    <string name="smart_pixels_shift">تجنب الحرق بتحويل كل بكسل</string>
+    <string name="flashlight_on_call_disabled">معطل</string>
+    <string name="flashlight_on_call_always">دائماً</string>
+    <string name="lockscreen_power_menu_disabled_title">تعطيل قائمة التشغيل على شاشة القفل</string>
+    <string name="lockscreen_power_menu_disabled_summary">سيؤدي ذلك إلى تعطيل قائمة التشغيل على الشاشات المقفلة الآمنة</string>
+    <string name="hide_lockscreen_status_bar_title">أخفِ شريط الحالة</string>
+    <string name="qs_brightness_slider_never">ابداً</string>
+    <string name="qs_brightness_slider_always">دائماً</string>
+    <string name="category_weather_title">الطقس</string>
+    <string name="header_weather_title">عرض الطقس في رأس اللوحة</string>
+    <string name="header_weather_summary">تمكين عرض الطقس في رأس لوحة الإشعارات</string>
+    <string name="weather_icon_pack_title">حزمة رموز الحالة</string>
+    <string name="weather_icon_pack_note">ملاحظة: يمكنك تثبيت حزم رموز جديدة من متجر Play بالبحث عن \"أيقونات Chronus\"</string>
+    <string name="statusbar_notif_count_title">اظهار عدد الاشعارات</string>
+    <string name="statusbar_notif_count_summary">عرض عدد الإشعارات المعلقة</string>
+</resources>

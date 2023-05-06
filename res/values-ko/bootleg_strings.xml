@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_volume_title">볼륨 키 설정</string>
+    <string name="statusbar_summary">The statusbar is nice but it could be better</string>
+    <string name="quicksettings_title">빠른 설정</string>
+    <string name="quicksettings_summary">Make that QS comfortable</string>
+    <string name="notifications_title">알림</string>
+    <string name="notifications_summary">Change how you can see those notifications</string>
+    <string name="lockscreen_title">잠금화면</string>
+    <string name="lockscreen_summary">잠금화면 레이아웃 및 기능 변경</string>
+    <string name="recents_title">최근 앱</string>
+    <string name="recents_summary">Explore more ways to multitask</string>
+    <string name="animations_title">애니메이션</string>
+    <string name="gestures_title">제스쳐</string>
+    <string name="gestures_summary">보다 쉽게 만들기 위해 몇가지 제스처 설정</string>
+    <string name="powermenu_title">전원 메뉴</string>
+    <string name="powermenu_summary">Make that shutdown menu more useful</string>
+    <string name="navbar_title">Navbar features</string>
+    <string name="navbar_summary">Teach your navbar some newer tricks</string>
+    <string name="hwkeys_summary">하드웨어 버튼 변경</string>
+    <string name="fingerprint_title">지문</string>
+    <string name="about_bootleg_title">About Bootleggers</string>
+    <string name="about_bootleg_small_title">소개</string>
+    <string name="bootleg_ab_title_whoami">What\'s Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers is a ROM packed with features and apps with the purpose of make your feel like 家. Hope you like it and enjoy our experience.</string>
+    <string name="bootleg_ab_title_thankssec">Thank you list</string>
+    <string name="bootleg_pref_title_romextras">Extras and Addons</string>
+    <string name="bootleg_ex_title_featurelist">Feature List</string>
+    <string name="bootleg_ex_summary_featurelist">Check the current list of features on this build</string>
+    <string name="bootleg_ex_title_addons">Addons and Downloads</string>
+    <string name="bootleg_ex_summary_addons">Recommended list of Themes and Mods from our part (a.k.a honest advertisement)</string>
+    <string name="bootleg_ex_title_sharemsg">Share our ROM</string>
+    <string name="bootleg_ex_summary_sharemsg">Make people know about us and our work! We\'ll really appreciate it.</string>
+    <string name="bootleg_pref_moarstuff_title">More about us?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Info and sources</string>
+    <string name="bootleg_moarstuff_blog_title">Our Blog</string>
+    <string name="bootleg_moarstuff_blog_summary">Where we will post about releases and news</string>
+    <string name="bootleg_moarstuff_git_title">Our Github</string>
+    <string name="bootleg_moarstuff_git_summary">Where our sources and reverts are placed</string>
+    <string name="bootleg_pref_moarstuff_social_title">Get in touch!</string>
+    <string name="bootleg_moarstuff_tg_title">Our Telegram Community</string>
+    <string name="bootleg_moarstuff_tg_summary">Talk with us, get hyped with future updates and join our great community</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">I think you found this really not so secret place but well, if you got here i just want to let you know that thank you for flashing this ROM and welp, as we said many times before, hope you enjoy it and have a good time with this ROM.</string>
+    <string name="bootleg_moarstuff_faq_title">Our FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">Our Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">We don\'t speak your language? So come here and feel free to help us to translate our ROM to your native language!</string>
+    <string name="bootleg_moarstuff_cd_summary02">So come here and feel free to help us to translate our ROM to your native language!</string>
+    <string name="bootleg_moarstuff_faq_summary">Where all the most asked questions and requested features got their answer.</string>
+    <string name="share_chooser_title">Share our ROM via..</string>
+    <string name="bootleg_sharemsg1">Hey, i\'m using this ROM called Bootleggers, it\'s nice tbh. You should check more about it on https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">I\'ve installed Bootleggers ROM and it seems to be good at the moment, you should check more on https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">So i went to Bootleggers ROM and i\'m liking the experience for now, it\'s a pretty cool ROM </string>
+    <string name="bootleg_sharemsg4">Hey, i\'ve just flashed Bootleggers and i\'m kinda enjoying the ROM right now, i would recommend it </string>
+    <string name="bootleg_sharemsg5">I went to Bootleggers ROM, it seems pretty nice, it got some different default fonts and various features </string>
+    <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Um, i\'m testing bootleggers and it\'s a bit weird but not a bad ROM </string>
+    <string name="bootleg_ri_title_buildtype">빌드 종류</string>
+    <string name="bootleg_pref_title_rominfo">롬 정보</string>
+    <string name="bootleg_ri_title_ota">OTA 업데이트</string>
+    <string name="bootleg_ri_summary_ota">Check if there\'s any new release</string>
+    <string name="bootleg_ri_title_musicode">Musical Codename</string>
+    <string name="ok">확인</string>
+    <string name="reset">재설정</string>
+    <string name="cancel">취소</string>
+    <string name="save">저장</string>
+    <string name="animations_transparent_alert">투명 테마를 적용할 경우 일부 혹은 전체 애니메이션이 작동하지 않을 수 있습니다.</string>
+    <string name="screen_off_animation_default">기본값</string>
+    <string name="status_bar_clock_style_right">오른쪽</string>
+    <string name="status_bar_clock_style_left">왼쪽</string>
+    <string name="status_bar_am_pm_normal">일반</string>
+    <string name="clock_date_style_normal">일반</string>
+    <string name="wake_when_plugged_or_unplugged_title">충전 시 화면 켜기</string>
+    <string name="wake_when_plugged_or_unplugged_summary">전원이 연결되거나 분리될 때 화면 켜기</string>
+    <string name="flashlight_on_call_disabled">비활성화</string>
+    <string name="flashlight_on_call_always">항상</string>
+    <string name="qs_brightness_slider_never">안함</string>
+    <string name="qs_brightness_slider_always">항상</string>
+    <string name="category_weather_title">날씨</string>
+</resources>

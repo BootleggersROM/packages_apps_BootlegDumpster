@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">Інтерфейс</string>
+    <string name="category_system_title">Система</string>
+    <string name="category_volume_title">Клавіші регулювання гучності</string>
+    <string name="statusbar_summary">Рядок стану гарний, але можна ще краще</string>
+    <string name="quicksettings_title">Швидкі налаштування</string>
+    <string name="quicksettings_summary">Зробіть швидкі налаштування комфортними</string>
+    <string name="notifications_title">Сповіщення</string>
+    <string name="notifications_summary">Змініть відображення сповіщень</string>
+    <string name="lockscreen_title">Екран блокування</string>
+    <string name="lockscreen_summary">Змініть макет та функції вашого екрану блокування</string>
+    <string name="recents_title">Нещодавні додатки</string>
+    <string name="recents_summary">Вивчіть нові способи працювати в багатозадачному режимі</string>
+    <string name="animations_title">Анімації</string>
+    <string name="gestures_title">Жести</string>
+    <string name="gestures_summary">Встановіть керування жестами, щоб полегшити собі життя</string>
+    <string name="powermenu_title">Меню живлення</string>
+    <string name="powermenu_summary">Зробіть меню завершення роботи кориснішим</string>
+    <string name="navbar_title">Функції панелі навігації</string>
+    <string name="navbar_summary">Навчіть панель навігації деяким сучасним хитрощам</string>
+    <string name="hwkeys_summary">Змініть стан речей у ваших апаратних клавішах</string>
+    <string name="fingerprint_title">Відбиток пальця</string>
+    <string name="device_extras_title_fallback">Додаткові налаштування</string>
+    <string name="about_bootleg_title">Про Bootleggers</string>
+    <string name="about_bootleg_small_title">Про нас</string>
+    <string name="about_bootleg_small_summary">Більше інформації про наш проект</string>
+    <string name="bootleg_ab_title_whoami">Що таке Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers - це ПЗУ, в якому присутні функції та додатки, завдяки яким ви почуватиметеся немов у 家 (сім\'ї). Сподіваємося, вам сподобається і ви насолоджуватиметесь нашим досвідом.</string>
+    <string name="bootleg_ab_title_thankssec">Список подяк</string>
+    <string name="bootleg_ab_summary_thanksclean">Торкніться тут, щоб дізнатися, хто наповнив життям та започаткував цей проект.</string>
+    <string name="bootleg_pref_title_romextras">Додаткові можливості</string>
+    <string name="bootleg_ex_title_featurelist">Список функцій</string>
+    <string name="bootleg_ex_summary_featurelist">Переглянути поточний список функцій в даній версії</string>
+    <string name="bootleg_ex_title_addons">Доповнення та завантаження</string>
+    <string name="bootleg_ex_summary_addons">Рекомендовані нами список тем й модифікацій (на правах реклами)</string>
+    <string name="bootleg_ex_title_sharemsg">Розповсюдити</string>
+    <string name="bootleg_ex_summary_sharemsg">Розкажіть про наш ROM! Ми будемо вельми вдячними.</string>
+    <string name="bootleg_changelog_title">Переглянути список змін</string>
+    <string name="bootleg_changelog_summary">Переглянути вимправлення та зміни цієї збірки</string>
+    <string name="bootleg_pref_moarstuff_title">Детальніше про нас?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Інформація та джерела</string>
+    <string name="bootleg_moarstuff_blog_title">Наш блоґ</string>
+    <string name="bootleg_moarstuff_blog_summary">В ньому ми розміщуємо новини й релізи</string>
+    <string name="bootleg_moarstuff_git_title">Ми на GitHub</string>
+    <string name="bootleg_moarstuff_git_summary">В ньому увесь наш вихідний матеріал та джерела</string>
+    <string name="bootleg_pref_moarstuff_social_title">Наші контакти.</string>
+    <string name="bootleg_moarstuff_tg_title">Спільнота у Telegram</string>
+    <string name="bootleg_moarstuff_tg_summary">Спілкуйтеся з нами, дізнавайтеся інформацію про майбутні оновлення та багато іншого</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">Я думаю, ви знайшли це дійсно не таємне місце, але добре, якщо ви отримали тут я просто хочу, щоб ви знали, що спасибі за перемикання цього ПЗУ і welp, як ми вже казали багато разів, сподіваюся, вам сподобається і добре провести час з цим ПЗУ.</string>
+    <string name="bootleg_moarstuff_faq_title">Наші FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">Наші Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">Ми не розмовляємо вашою мовою? Так що приїжджайте сюди і не соромтеся допомогти нам перекласти наш ROM на вашу рідну мову!</string>
+    <string name="bootleg_moarstuff_cd_summary02">Так що заходити сюди і не соромтеся допомогти нам перекласти наш ROM на вашу рідну мову!</string>
+    <string name="bootleg_moarstuff_faq_summary">Там, де всі часті питання і запитані функції отримали відповідь.</string>
+    <string name="bootleg_moarstuff_donos_title">Підтримайте наш проект</string>
+    <string name="bootleg_moarstuff_donos_summary">Пожертвуйте, щоб підтримати наш проект, ми дуже цінуємо це</string>
+    <string name="share_chooser_title">Поділитися нашим ПЗУ через..</string>
+    <string name="bootleg_sharemsg1">Гей, я використовую цей ПЗУ під назвою Bootleggers, він чудивий. Докладніше про це можна дізнатися на сторінці https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">Я встановив Bootleggers ROM і, здається, все добре, ви можете переглянути більше на https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">Таким чином я перейшов на Bootleggers ПЗУ і це чудове ПЗУ </string>
+    <string name="bootleg_sharemsg4">Гей, я тільки що прошив Bootleggers і я насолоджуюся ним прямо зараз, і я рекомендую його </string>
+    <string name="bootleg_sharemsg5">Я встановив Bootleggers ПЗУ і мені дуже приємно, він отримав деякі різні шрифти за замовчуванням і різні функції </string>
+    <string name="bootleg_sharemsg6">Спробуйте Bootleggers ПЗУ зараз! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Я тестую бутлегерів, трохи дивна, але доволі непоганий ПЗУ </string>
+    <string name="bootleg_ri_title_buildtype">Тип збірки</string>
+    <string name="bootleg_pref_title_rominfo">Інформація про ПЗУ</string>
+    <string name="bootleg_ri_title_ota">OTA оновлення</string>
+    <string name="bootleg_ri_summary_ota">Перевірте, чи є новий випуск</string>
+    <string name="bootleg_ri_title_musicode">Музичний коднейм</string>
+    <string name="ok">Гаразд</string>
+    <string name="reset">Скинути</string>
+    <string name="cancel">Скасувати</string>
+    <string name="save">Зберегти</string>
+    <string name="animations_transparent_alert">Деякі (або, можливо, всі) з цих анімацій можуть не працювати, якщо у вас ввімкнена прозора тема!</string>
+    <string name="statusbar_icon_cat_title">Значки</string>
+    <string name="theme_customization_icon_pack_title">Пакет іконок</string>
+    <string name="theme_customization_icon_shape_title">Форма іконок</string>
+    <string name="global_actions_advanced_reboot_title">Ввімкнути розширене перезавантаження</string>
+    <string name="screen_off_animation_title">Анімація вимкнення екрану</string>
+    <string name="screen_off_animation_default">За замовчанням</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Шкала</string>
+    <string name="status_bar_clock_style_title">Стиль годинника</string>
+    <string name="status_bar_clock_style_right">Праворуч</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_left">Ліворуч</string>
+    <string name="status_bar_am_pm_info">24-годинний формат часу увімкнено</string>
+    <string name="status_bar_am_pm_normal">Звичайний</string>
+    <string name="status_bar_am_pm_small">Малий</string>
+    <string name="clock_seconds_display">Показати секунди</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_none">Не показувати</string>
+    <string name="clock_date_display_small">Малий розмір шрифта</string>
+    <string name="clock_date_display_normal">Стандартний розмір шрифту</string>
+    <string name="clock_date_style">Стиль дати</string>
+    <string name="clock_date_style_normal">Звичайний</string>
+    <string name="clock_date_style_lowercase">Нижній регістр</string>
+    <string name="clock_date_style_uppercase">Верхній регістр</string>
+    <string name="clock_date_format_custom">Користувацький java формат</string>
+    <string name="clock_date_format">Формат дати</string>
+    <string name="clock_date_string_edittext_title">Має бути в форматі ММ/ДД/РР</string>
+    <string name="clock_date_string_edittext_summary">Введіть значення</string>
+    <string name="statusbar_items_title">Значки в рядку стану</string>
+    <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрувати під час очікування виклику</string>
+    <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
+    <string name="double_tap_sleep_title">Подвійне натискання для сну</string>
+    <string name="wake_when_plugged_or_unplugged_title">Прокидатись при підключені</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ввікнути екран під час підключення чи відключення зарядного пристрою</string>
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Вимкнути пікселі, щоб зменшити споживання енергії</string>
+    <string name="smart_pixels_on_power_save_title">Автоматичне увімкнення в режимі збереження енергії</string>
+    <string name="smart_pixels_percent">Відсоток пікселів для відключення</string>
+    <string name="smart_pixels_shift">Запобігання вигорання переміщенням пікселів завжди</string>
+    <string name="general_category">Загальне</string>
+    <string name="flashlight_on_call_disabled">Вимкнено</string>
+    <string name="flashlight_on_call_always">Завжди</string>
+    <string name="flashlight_on_call_rate_title">Рейтинг</string>
+    <string name="lockscreen_power_menu_disabled_title">Вимкнути меню живлення на екрані блокування</string>
+    <string name="lockscreen_power_menu_disabled_summary">Ця опція вимикає меню живлення тільки на захищеному екрані блокування</string>
+    <string name="hide_lockscreen_status_bar_title">Приховувати рядок стану</string>
+    <string name="qs_brightness_slider_never">Ніколи</string>
+    <string name="qs_brightness_slider_always">Завжди</string>
+    <string name="category_weather_title">Погода</string>
+    <string name="header_weather_title">Перегляд погоди у заголовку</string>
+    <string name="header_weather_summary">Увімкнути показ погоди у заголовку панелі сповіщень</string>
+    <string name="weather_icon_pack_title">Пакет значків стану</string>
+    <string name="weather_icon_pack_note">Примітка\u003a ви можете встановити нові пакети значків із магазину ігор за допомогою значка \"Chronus\"</string>
+    <string name="statusbar_notif_count_title">Показувати кількість сповіщень</string>
+    <string name="statusbar_notif_count_summary">Показувати кількість очікуючих сповіщень</string>
+</resources>

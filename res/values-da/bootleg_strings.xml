@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_volume_title">Lydniveau Knapper</string>
+    <string name="statusbar_summary">Statusbaren er lækker, men du kan gøre den langt lækrere</string>
+    <string name="quicksettings_title">Hurtig Indstillinger</string>
+    <string name="quicksettings_summary">Gør dine hurtig indstillinger brugbare</string>
+    <string name="notifications_title">Notifikationer</string>
+    <string name="notifications_summary">Ændr hvordan du ser dine notifikationer</string>
+    <string name="lockscreen_title">Låseskærm</string>
+    <string name="lockscreen_summary">Ændr funktioner og udseende på din låseskærm</string>
+    <string name="recents_title">Seneste apps</string>
+    <string name="recents_summary">Udforsk flere måder at multitaske på</string>
+    <string name="animations_title">Animationer</string>
+    <string name="gestures_title">Bevægelser</string>
+    <string name="gestures_summary">Tilføj nogle bevægelser for at lette din hverdag</string>
+    <string name="powermenu_title">Tænd/sluk-menu</string>
+    <string name="powermenu_summary">Gør din tænd/sluk-menu lidt federe</string>
+    <string name="navbar_title">Navigationsbar funktioner</string>
+    <string name="navbar_summary">Lær din navigationsbar nogle nye tricks</string>
+    <string name="hwkeys_summary">Ændr hvordan dine hardware knapper opfører sig</string>
+    <string name="about_bootleg_title">Omkring Bootleggers</string>
+    <string name="about_bootleg_small_title">Om os</string>
+    <string name="bootleg_ab_title_whoami">Hvad er Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers er en ROM pakket med fede funktioner og apps, der har til formål at få dig til at føle som en boss. Vi håber du kan lide det og at du nyder din oplevelse.</string>
+    <string name="bootleg_ab_title_thankssec">Takkelisten</string>
+    <string name="bootleg_pref_title_romextras">Extra og tilføjelser</string>
+    <string name="bootleg_ex_title_featurelist">Funktions Liste</string>
+    <string name="bootleg_ex_summary_featurelist">Check den nuværende funktionsliste for dette byg</string>
+    <string name="bootleg_ex_title_addons">Tilføjelser og Overførsler</string>
+    <string name="bootleg_ex_summary_addons">Anbefalet liste af temaer og modifikationer fra vores hånd (også kendt som ærlig reklame)</string>
+    <string name="bootleg_ex_title_sharemsg">Del denne ROM</string>
+    <string name="bootleg_ex_summary_sharemsg">Spred budskabet om os og denne Rom. Vi er dig evigt taknemmelige.</string>
+    <string name="bootleg_pref_moarstuff_title">Mere om os?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Info og kilder</string>
+    <string name="bootleg_moarstuff_blog_title">Vores blog</string>
+    <string name="bootleg_moarstuff_blog_summary">Hvor vi poster om udgivelser og nyheder</string>
+    <string name="bootleg_moarstuff_git_title">Vores GitHub</string>
+    <string name="bootleg_moarstuff_git_summary">Hvor vores kilder er placeret</string>
+    <string name="bootleg_pref_moarstuff_social_title">Kom i kontakt!</string>
+    <string name="bootleg_moarstuff_tg_title">Vores Telegram fællesskab</string>
+    <string name="bootleg_moarstuff_tg_summary">Tal med os, kør dig selv op over fremtidige opdateringer og vær en del af vores skønne fællesskab</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">Så fandt du vores ikke-så-hemmelige gemmested, men ja ja... Nu du er her vil jeg bare lige takke dig for at flashe denne ROM og, som vi har sagt tusinde gange før, håber jeg du nyder din oplevelse.</string>
+    <string name="bootleg_moarstuff_faq_title">Vores Ofte Stillede Spørgsmål</string>
+    <string name="bootleg_moarstuff_cd_title">Vores Crowding</string>
+    <string name="bootleg_moarstuff_cd_back_summary">Taler vi ikke dit sprog? Så hjælp gerne med at oversætte denne ROM til dit modersprog!</string>
+    <string name="bootleg_moarstuff_cd_summary02">Taler vi ikke dit sprog? Så hjælp gerne med at oversætte denne ROM til dit modersprog!</string>
+    <string name="bootleg_moarstuff_faq_summary">Hvor de oftest stillede spørgsmål og ønskede funktioner fik deres svar.</string>
+    <string name="share_chooser_title">Del denne ROM via..</string>
+    <string name="bootleg_sharemsg1">Er du træt af dit kedelige Android software? Download Bootleggers ROM på https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">Bootleggers ROM link til dig: https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">Bootleggers er bedre end alle andre </string>
+    <string name="bootleg_sharemsg4">Jeg synes du skal prøve Bootleggers ROM. Download her: https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg5">Skal du have andre fonts end standard? Download Bootleggers ROM</string>
+    <string name="bootleg_sharemsg6">Put your hands up for Bootleggers - a lovely ROM. https://bootleggersrom.github.io</string>
+    <string name="bootleg_sharemsg7">Det er skørt, men det er godt! https://bootleggersrom.github.io</string>
+    <string name="bootleg_ri_title_buildtype">Byg Type</string>
+    <string name="bootleg_pref_title_rominfo">ROM info</string>
+    <string name="bootleg_ri_title_ota">OTA Opdateringer</string>
+    <string name="bootleg_ri_summary_ota">Check for nyt release</string>
+    <string name="bootleg_ri_title_musicode">Musisk Kodenavn</string>
+    <string name="ok">OK</string>
+    <string name="reset">Nulstil</string>
+    <string name="cancel">Annullér</string>
+    <string name="save">Gem</string>
+    <string name="animations_transparent_alert">Nogle (eller alle) af disse animationer virker måske næppe hvis du bruger et gennemsigtigt tema!</string>
+    <string name="screen_off_animation_default">Standard</string>
+    <string name="status_bar_clock_style_right">Højre</string>
+    <string name="status_bar_clock_style_left">Venstre</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="wake_when_plugged_or_unplugged_title">Væk ved strøm</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Tænd skærmen, når opladeren til- eller frakobles</string>
+    <string name="flashlight_on_call_always">Altid</string>
+    <string name="qs_brightness_slider_always">Altid</string>
+    <string name="category_weather_title">Vejr</string>
+</resources>

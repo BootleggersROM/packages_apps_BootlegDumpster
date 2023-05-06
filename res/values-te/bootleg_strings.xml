@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_volume_title">శబ్ధ బట్టన్లు</string>
+    <string name="statusbar_summary">స్టేటస్ బార్ బాగుంది కానీ ఇంకా బాగా ఉండొచ్చు</string>
+    <string name="quicksettings_title">త్వరిత సెట్టింగులు</string>
+    <string name="quicksettings_summary">త్వరిత సెట్టింగులను సౌకర్యవంతంగా మార్చండి</string>
+    <string name="notifications_title">నోటిఫికేషన్లు</string>
+    <string name="notifications_summary">నోటిఫికేషన్లు మీకు కావలసిన విధంగా మార్చుకోండి</string>
+    <string name="lockscreen_title">లాక్ స్క్రీన్</string>
+    <string name="lockscreen_summary">మీ లాక్ స్క్రీన్ పై లేఅవుట్ మరియు ఫీచర్లు మార్చుకోండి</string>
+    <string name="recents_title">రీసెంట్ యాప్స్</string>
+    <string name="recents_summary">మల్టీటాస్కింగ్ కోసం మరిన్ని మార్గాలను చూడండి</string>
+    <string name="animations_title">అనిమేషన్లు</string>
+    <string name="gestures_title">సంజ్ఞలు</string>
+    <string name="gestures_summary">సులభమైన వినియోగం కోసం కొన్ని సంజ్ఞలు సెట్ చేసుకోండి</string>
+    <string name="powermenu_title">పవర్ మెను</string>
+    <string name="powermenu_summary">షట్ డౌన్ మెను ని మరింత ఉపయోగకరంగా మార్చండి</string>
+    <string name="navbar_title">నావిగేషన్ బార్ ఫీచర్లు</string>
+    <string name="navbar_summary">మీ నావిగేషన్ బార్ కి కొన్ని కొత్త ట్రిక్కులు నేర్పండి</string>
+    <string name="hwkeys_summary">మీ హార్డ్ వేర్ బట్టన్లు మార్చండి</string>
+    <string name="about_bootleg_title">Bootleggers గురించి</string>
+    <string name="about_bootleg_small_title">మా గురించి</string>
+    <string name="bootleg_ab_title_whoami">Bootleggers అంటే ఏమిటి?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers ROM మిమ్మల్ని సంతృప్తి పరచడానికి కొన్ని ఫీచర్లు మరియు యాప్ ల తో నింపబడినది. మీరు దీనిని ఆస్వాదిస్తారు అని కోరుకుంటున్నాము.</string>
+    <string name="bootleg_ab_title_thankssec">కృతజ్ఞతల జాబితా</string>
+    <string name="bootleg_pref_title_romextras">అదనములు మరియు యాడాన్లు</string>
+    <string name="bootleg_ex_title_featurelist">ఫీచర్ల జాబితా</string>
+    <string name="bootleg_ex_summary_featurelist">ఈ వర్షన్ యొక్క ప్రస్తుత ఫీచర్ల జాబితా చూడండి</string>
+    <string name="bootleg_ex_title_addons">యాడాన్లు మరియు డౌన్లోడ్ లు</string>
+    <string name="bootleg_ex_summary_addons">మేము సలహా ఇస్తున్న థీమ్ మరియు Mod ల జాబితా (నిజాయితీ ప్రకటన)</string>
+    <string name="bootleg_ex_title_sharemsg">మా ROM ని షేర్ చేయండి</string>
+    <string name="bootleg_ex_summary_sharemsg">మా గరించి మరియు మా ఉత్పత్తి గురించి తెలియజేయండి! మేము తప్పకుండా అభినందిస్తాము.</string>
+    <string name="bootleg_pref_moarstuff_title">మా గురించి ఇంకా తెలుసుకోవాలా?</string>
+    <string name="bootleg_pref_moarstuff_info_title">సమాచారం మరియు మూలాలు</string>
+    <string name="bootleg_moarstuff_blog_title">మా బ్లాగ్</string>
+    <string name="bootleg_moarstuff_blog_summary">మేము విడుదల వార్తలు తెలియజేసే స్థలం</string>
+    <string name="bootleg_moarstuff_git_title">మా GitHub</string>
+    <string name="bootleg_moarstuff_git_summary">మా మూలాలు మరియు వెనుదిరిగిన అంశాల స్థలం</string>
+    <string name="bootleg_pref_moarstuff_social_title">అందుబాటులో ఉండండి!</string>
+    <string name="bootleg_moarstuff_tg_title">మా టెలిగ్రామ్ సంఘం</string>
+    <string name="bootleg_moarstuff_tg_summary">మాతో మాట్లాడండి, భవిష్యత్ అప్డేట్ ల సమాచారం పొందండి మరియు మా యొక్క గొప్ప సంఘం లో చేరండి</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">మీరు రహస్యం గా లేని ఈ ప్రదేశం ని కనుక్కున్నారు, మా యొక్క ROM ని ఫ్లాష్ చేసినందుకు మీకు ధన్యవాదమలు, ముందుగా చెప్పినట్టు మా యొక్క ROM ని ఆస్వాదిస్తారు అని కోరుకుంటున్నాము.</string>
+    <string name="bootleg_moarstuff_faq_title">మా FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">మా Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">మా వద్ద మీ భాష అందుబాటులో లేదా? అయితే రండి మరియు మా యొక్క ROM ని మీ భాష లోకి అనువదించడంలో మాకు సహాయం చేయండి!</string>
+    <string name="bootleg_moarstuff_cd_summary02">అయితే రండి మరియు మా యొక్క ROM ని మీ భాష లోకి అనువదించడంలో మాకు సహాయం చేయండి!</string>
+    <string name="theme_customization_icon_pack_title">Simge paketi</string>
+    <string name="theme_customization_icon_shape_title">Simge şekli</string>
+    <string name="screen_off_animation_default">డిఫాల్ట్</string>
+    <string name="status_bar_am_pm_normal">సాధారణం</string>
+    <string name="status_bar_am_pm_small">Küçük</string>
+    <string name="clock_date_style_normal">సాధారణం</string>
+    <string name="category_weather_title">వాతావరణం</string>
+</resources>

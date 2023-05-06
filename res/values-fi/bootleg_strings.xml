@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_volume_title">Äänenvoimakkuuden Näppäimet</string>
+    <string name="statusbar_summary">Tilapalkki on kiva mutta se voisi olla parempikin</string>
+    <string name="quicksettings_title">Pika-asetukset</string>
+    <string name="quicksettings_summary">Tee tuosta Pika-asetuksista mukavempi</string>
+    <string name="notifications_title">Ilmoitukset</string>
+    <string name="notifications_summary">Muuta miten näet nuo ilmoitukset</string>
+    <string name="lockscreen_title">Lukitusnäyttö</string>
+    <string name="lockscreen_summary">Muuta asettelua ja ominaisuuksia sinun lukitusnäytolläsi</string>
+    <string name="recents_title">Viimeisimmät sovellukset</string>
+    <string name="recents_summary">Löydä enemmän tapoja multitaskata</string>
+    <string name="animations_title">Animaatiot</string>
+    <string name="gestures_title">Eleet</string>
+    <string name="gestures_summary">Aseta eleitä tehdäksesi asioista helpompia</string>
+    <string name="powermenu_title">Virtavalikko</string>
+    <string name="powermenu_summary">Tee tuosta virtavalikosta hyödyllisempi</string>
+    <string name="navbar_title">Navigointipalkin ominaisuudet</string>
+    <string name="navbar_summary">Opeta sinun navigointipalkille uusia temppuja</string>
+    <string name="hwkeys_summary">Muuta asioita sinun laitteisto näppäimistä</string>
+    <string name="about_bootleg_title">Tietoja Bootleggerseistä</string>
+    <string name="about_bootleg_small_title">Tietoa meistä</string>
+    <string name="bootleg_ab_title_whoami">Mikä on Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers on ROM joka on täynnä ominaisuuksia ja sovelluksia joiden tarkoitus on saada sinut tuntumaan kuin 家. Toivottavasti tykkäät siitä ja nautit meidän kokemuksestamme.</string>
+    <string name="bootleg_ab_title_thankssec">Kiitos lista</string>
+    <string name="bootleg_pref_title_romextras">Extrat ja Lisäosat</string>
+    <string name="bootleg_ex_title_featurelist">Ominaisuus Lista</string>
+    <string name="bootleg_ex_summary_featurelist">Tarkista nykyinen lista ominaisuuksista tästä versiosta</string>
+    <string name="bootleg_ex_title_addons">Lisäosat ja Lataukset</string>
+    <string name="bootleg_ex_summary_addons">Suositeltu lista Teemoista ja Muokkauksista meiltä
+(a.k.a rehellinen mainonta)</string>
+    <string name="bootleg_ex_title_sharemsg">Jaa meidän ROM</string>
+    <string name="bootleg_pref_moarstuff_title">Lisää meistä?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Info ja lähteet</string>
+    <string name="bootleg_moarstuff_blog_title">Meidän Blogi</string>
+    <string name="bootleg_moarstuff_blog_summary">Missä me kerromme päivityksistä ja uutisista</string>
+    <string name="bootleg_moarstuff_git_title">Meidän Github</string>
+    <string name="bootleg_moarstuff_git_summary">Missä meidän lähteet ja revertit siaitsee</string>
+    <string name="bootleg_pref_moarstuff_social_title">Ota yhteyttä!</string>
+    <string name="bootleg_moarstuff_tg_title">Meidän Telegram yhteisö</string>
+    <string name="bootleg_moarstuff_faq_title">Meidän FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">Medän Crowdin</string>
+    <string name="share_chooser_title">Jaa meidän ROM..</string>
+    <string name="bootleg_sharemsg3">Joten menin kokeilemaan Bootleggerssia ja tykkään kokemuksesta tällä kertaa, se on aika siisti ROM </string>
+    <string name="bootleg_sharemsg4">Hei, olen juuri asentanut Bootleggerssin ja tykkään jotenkin tällä kertaa, suosittelisin sitä </string>
+    <string name="bootleg_sharemsg5">Juuri menin Bootleggerssiin, ja se vaikuttaa aika hyvältä, siinä on erilaisia fontteja ja ominaisuuksia </string>
+    <string name="bootleg_sharemsg6">Kokeile Bootleggerssiä nyt! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Ööh, testaan bootleggerssiä ja se on vähän outo mutta ei huono ROM </string>
+    <string name="bootleg_ri_title_buildtype">Versio Tyyppi</string>
+    <string name="bootleg_pref_title_rominfo">ROM Info</string>
+    <string name="bootleg_ri_title_ota">OTA Päivitykset</string>
+    <string name="bootleg_ri_summary_ota">Tarkista jos on uutta versiota</string>
+    <string name="bootleg_ri_title_musicode">Musikaalinen Koodinimi</string>
+    <string name="ok">OK</string>
+    <string name="reset">Palauta</string>
+    <string name="cancel">Peruuta</string>
+    <string name="save">Tallenna</string>
+    <string name="animations_transparent_alert">Jotkut (tai ehkä kaikki) näistä animaatioista ei toimi jos laitteellasi on läpinäkyvä teema!</string>
+    <string name="screen_off_animation_default">Oletus</string>
+    <string name="status_bar_clock_style_right">Oikea</string>
+    <string name="status_bar_clock_style_left">Vasemmalla</string>
+    <string name="status_bar_am_pm_normal">Normaali</string>
+    <string name="clock_date_style_normal">Normaali</string>
+    <string name="wake_when_plugged_or_unplugged_title">Herää kytkettäessä</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Käynnistä näyttö kun virtalähde liitetään tai irrotetaan</string>
+    <string name="flashlight_on_call_always">Aina</string>
+    <string name="qs_brightness_slider_always">Aina</string>
+    <string name="category_weather_title">Sää</string>
+</resources>

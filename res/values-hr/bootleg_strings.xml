@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_volume_title">Tipke za glasnoću</string>
+    <string name="quicksettings_title">Brze postavke</string>
+    <string name="lockscreen_title">Zaključani zaslon</string>
+    <string name="recents_title">Nedavne aplikacije</string>
+    <string name="animations_title">Animacije</string>
+    <string name="gestures_title">Geste</string>
+    <string name="powermenu_title">Izbornik isključivanja</string>
+    <string name="navbar_title">Značajke navigacijske trake</string>
+    <string name="about_bootleg_title">O Bootleggers sustavu</string>
+    <string name="about_bootleg_small_title">O nama</string>
+    <string name="bootleg_ab_title_whoami">Što je Bootleggers?</string>
+    <string name="bootleg_ex_title_featurelist">Popis značajki</string>
+    <string name="ok">OK</string>
+    <string name="reset">Resetiraj</string>
+    <string name="cancel">Odustani</string>
+    <string name="save">Spremi</string>
+    <string name="screen_off_animation_default">Zadano</string>
+    <string name="status_bar_am_pm_normal">Normalno</string>
+    <string name="clock_date_style_normal">Normalno</string>
+    <string name="hide_lockscreen_status_bar_title">Sakrij statusnu traku</string>
+    <string name="qs_brightness_slider_never">Nikad</string>
+    <string name="category_weather_title">Vrijeme</string>
+</resources>

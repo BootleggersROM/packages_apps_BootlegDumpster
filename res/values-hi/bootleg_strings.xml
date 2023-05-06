@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">अंतरफलक</string>
+    <string name="category_volume_title">वॉल्यूम कीज़</string>
+    <string name="statusbar_summary">स्टेटस बार अच्छा है लेकिन यह बेहतर हो सकता है</string>
+    <string name="quicksettings_title">शीग्र सेटिंग्स</string>
+    <string name="quicksettings_summary">उस शीग्र सेटिंग को आरामदायक बनाएं</string>
+    <string name="notifications_title">सूचनाएँ</string>
+    <string name="notifications_summary">आप उन सूचनाओं को कैसे देख सकते है परिवर्तित करें</string>
+    <string name="lockscreen_title">लॉकस्क्रीन</string>
+    <string name="lockscreen_summary">अपने लॉकस्क्रीन पर लेआउट और सुविधाएं बदलें</string>
+    <string name="recents_title">हाल के ऐप्स</string>
+    <string name="recents_summary">मल्टीटास्क के अधिक तरीकों का अन्वेषण करें</string>
+    <string name="animations_title">एनीमेशन</string>
+    <string name="gestures_title">इशारों</string>
+    <string name="gestures_summary">सामान को आसान बनाने के लिए कुछ इशारों को सेट करें</string>
+    <string name="powermenu_title">पावर मेनू</string>
+    <string name="powermenu_summary">उस शटडाउन मेनू को अधिक उपयोगी बनाएं</string>
+    <string name="navbar_title">नवबर फीचर्स</string>
+    <string name="navbar_summary">अपने नवबार को कुछ नई चालें सिखाएं</string>
+    <string name="hwkeys_summary">अपने HW बटनों की चीज़ें बदलें</string>
+    <string name="fingerprint_title">फिंगरप्रिंट</string>
+    <string name="about_bootleg_title">Bootleggers के बारे में</string>
+    <string name="about_bootleg_small_title">हमारे बारे में</string>
+    <string name="bootleg_ab_title_whoami">Bootleggers क्या है?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers एक रोम है सुविधाओं और क्षुधा के साथ पैक 家 के रूप में अपने महसूस करने के उद्देश्य के साथ। आशा है कि आप इसे पसंद करेंगे और हमारे अनुभव का आनंद लेंगे।</string>
+    <string name="bootleg_ab_title_thankssec">धंयवाद सूची</string>
+    <string name="bootleg_pref_title_romextras">अतिरिक्त और Addons</string>
+    <string name="bootleg_ex_title_featurelist">सुविधा सूची</string>
+    <string name="bootleg_ex_summary_featurelist">इस बिल्ड पर सुविधाओं की वर्तमान सूची की जाँच करें</string>
+    <string name="bootleg_ex_title_addons">Addons और डाउनलोड</string>
+    <string name="bootleg_ex_summary_addons">हमारे भाग से थीम और मॉड की अनुशंसित सूची (ए.के. ईमानदार विज्ञापन)</string>
+    <string name="bootleg_ex_title_sharemsg">हमारे ROM को एक दूसरे को बटिये</string>
+    <string name="bootleg_ex_summary_sharemsg">लोगों को हमारे और हमारे काम के बारे में जानें! हम इसकी सराहना करेंगे।</string>
+    <string name="bootleg_pref_moarstuff_title">हमारे बारे में और अधिक?</string>
+    <string name="bootleg_pref_moarstuff_info_title">जानकारी और स्रोत</string>
+    <string name="bootleg_moarstuff_blog_title">हमारे ब्लॉग</string>
+    <string name="bootleg_moarstuff_blog_summary">जहां हम विज्ञप्ति और समाचार के बारे में पोस्ट करेंगे</string>
+    <string name="bootleg_moarstuff_git_title">हमारे Github</string>
+    <string name="bootleg_moarstuff_git_summary">जहां हमारे स्रोतों और वापस कर दिया जाता है</string>
+    <string name="bootleg_pref_moarstuff_social_title">संपर्क में जाओ!</string>
+    <string name="bootleg_moarstuff_tg_title">हमारे टेलीग्राम समुदाय</string>
+    <string name="bootleg_moarstuff_tg_summary">हमारे साथ बात करें, भावी अपडेटों के साथ hyped करें और हमारे महान समुदाय में शामिल हों</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">मुझे लगता है कि आपको लगता है कि यह वाकई बहुत ही गुप्त स्थान नहीं है, लेकिन ठीक है, अगर आप यहां आए तो मैं आपको यह बताना चाहता हूं कि इस रोम और वेलप को चमकाने के लिए धन्यवाद, जैसा कि हमने कई बार कहा था, आशा है कि आप इसे आनंद लेंगे और आपको अच्छा समय मिलेगा इस रॉम के साथ|</string>
+    <string name="bootleg_moarstuff_faq_title">हमारे अकसर किए गए सवाल</string>
+    <string name="bootleg_moarstuff_cd_title">हमारे Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">हम आपकी भाषा नहीं बोलते? तो यहाँ आते हैं और अपने मूल भाषा के लिए हमारे ROM अनुवाद करने के लिए हमें मदद करने के लिए स्वतंत्र महसूस!</string>
+    <string name="bootleg_moarstuff_cd_summary02">हम आपकी भाषा नहीं बोलते? तो यहाँ आते हैं और अपने मूल भाषा के लिए हमारे ROM अनुवाद करने के लिए हमें मदद करने के लिए स्वतंत्र महसूस!</string>
+    <string name="bootleg_moarstuff_faq_summary">जहां सभी सबसे सवाल पूछा और सुविधाओं का अनुरोध उनके जवाब मिल गया ।</string>
+    <string name="share_chooser_title">हमारे रोम को बाटने का माध्यम.....</string>
+    <string name="bootleg_sharemsg1">हे, में इस Bootleggers नाम से जानने वाला ROM इस्थमन कर रहा हु। सचाई यह है की यह बहुत ही अछि हैं। अधिक जानकारी आप https://bootleggersrom.github.io से प्राप्तः कर सकते हैं। </string>
+    <string name="bootleg_sharemsg2">में Bootleggers इस्तमाल कर रहा हूँ। अभी क लिए में इंसाफ से बहुत अच्छा है। और अधिक जानने क लिए इससे खोलके देखे। </string>
+    <string name="bootleg_sharemsg3">तो मैं Bootleggers rom के पास गया और मैं अब के लिए अनुभव पसंद कर रहा हूं, यह एक बहुत अच्छा ROM है </string>
+    <string name="bootleg_sharemsg4">हे। मेने अभी Bootleggers को flash किया और में इससे बहुद आनंदित हूँ। में आप सब को इससे इस्तमाल करने क लिए अनुरोध करूँगा। </string>
+    <string name="bootleg_sharemsg5">मैं Bootleggers ROM के पास गया, यह बहुत अच्छा लगता है, यह कुछ अलग डिफ़ॉल्ट फोंट और विभिंन सुविधाओं को मिला </string>
+    <string name="bootleg_sharemsg6">अब Bootleggers ROM की कोशिश करो! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">उम, मैं परीक्षण कर रहा हूं bootleggers और यह एक अजीब सा है लेकिन नहीं एक बुरा ROM </string>
+    <string name="bootleg_ri_title_buildtype">बिल्ड प्रकार</string>
+    <string name="bootleg_pref_title_rominfo">ROM जानकारी</string>
+    <string name="bootleg_ri_title_ota">OTA अपडेट</string>
+    <string name="bootleg_ri_summary_ota">कोई नई रिलीज की जांच करें</string>
+    <string name="bootleg_ri_title_musicode">संगीतमय Codename</string>
+    <string name="ok">ठीक है</string>
+    <string name="reset">रीसेट करें</string>
+    <string name="cancel">कैंसिल</string>
+    <string name="save">सेव</string>
+    <string name="animations_transparent_alert">इस एनिमेशन के कुछ (या शायद सभी) अगर आपके डिवाइस एक पारदर्शी विषय समझे काम नहीं कर सकते!</string>
+    <string name="screen_off_animation_title">स्क्रीन बंद एनीमेशन</string>
+    <string name="screen_off_animation_default">डिफॉल्ट</string>
+    <string name="screen_off_animation_crt">सीआरटी</string>
+    <string name="screen_off_animation_scale">स्केल</string>
+    <string name="status_bar_clock_style_right">दाएँ</string>
+    <string name="status_bar_clock_style_left">बाएं</string>
+    <string name="status_bar_am_pm_info">24-घंटे की घडी चालु हैं।</string>
+    <string name="status_bar_am_pm_normal">समान्य</string>
+    <string name="clock_seconds_display">सेकंड दिखाएँ</string>
+    <string name="clock_date_display">दिनांक</string>
+    <string name="clock_date_display_none">ना दिखाए</string>
+    <string name="clock_date_display_small">लघु अक्षर आकार</string>
+    <string name="clock_date_display_normal">साधारण अक्षरों के कद</string>
+    <string name="clock_date_style">दिनांक शैली</string>
+    <string name="clock_date_style_normal">समान्य</string>
+    <string name="clock_date_style_lowercase">छोटे अक्षरों में</string>
+    <string name="clock_date_style_uppercase">बड़े अक्षरों में</string>
+    <string name="clock_date_format_custom">इच्छित जावा स्वरूप</string>
+    <string name="clock_date_format">दिनांक का स्वरूप</string>
+    <string name="clock_date_string_edittext_title">दिनांक स्वरुप में ही होना चाहिए जैसे कि. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">स्ट्रिंग दर्ज करें</string>
+    <string name="incall_vibrate_connect_title">डिसकनेक्ट होने पर कंपन करें</string>
+    <string name="incall_vibrate_call_wait_title">कॉल प्रतीक्षा पर कंपन</string>
+    <string name="incall_vibrate_disconnect_title">डिसकनेक्ट होने पर कंपन करें</string>
+    <string name="double_tap_sleep_title">स्क्रीन बंद करने के लिए दो बार स्पर्श करें</string>
+    <string name="wake_when_plugged_or_unplugged_title">प्लग पर जागो</string>
+    <string name="wake_when_plugged_or_unplugged_summary">पावर स्रोत से कनेक्ट करते समय या उससे डिसकनेक्ट करते समय स्क्रीन को चालू करें</string>
+    <string name="flashlight_on_call_disabled">चालू नहीं है</string>
+    <string name="flashlight_on_call_always">हमेशा</string>
+    <string name="qs_brightness_slider_always">हमेशा</string>
+    <string name="category_weather_title">मौसम</string>
+    <string name="header_weather_title">शीर्ष लेख दृश्य मौसम</string>
+    <string name="header_weather_summary">सूचना पैनल शीर्षक छवि को सक्षम करें</string>
+    <string name="statusbar_notif_count_title">सूचना गणना दिखाएँ</string>
+    <string name="statusbar_notif_count_summary">लंबित सूचनाओं की संख्या प्रदर्शित करें</string>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">Rozhraní</string>
+    <string name="category_system_title">Systém</string>
+    <string name="category_volume_title">Tlačítka hlasitosti</string>
+    <string name="statusbar_summary">Stavová lišta je pěkná, ale mohla by být lepší</string>
+    <string name="quicksettings_title">Rychlá nastavení</string>
+    <string name="quicksettings_summary">Vytvořte pohodlnější rychlá nastavení</string>
+    <string name="notifications_title">Oznámení</string>
+    <string name="notifications_summary">Změňte způsob zobrazení těchto upozornění</string>
+    <string name="lockscreen_title">Zamykací obrazovka</string>
+    <string name="lockscreen_summary">Změňte rozložení a funkce zamykací obrazovky</string>
+    <string name="recents_title">Nedávné aplikace</string>
+    <string name="recents_summary">Prozkoumejte další způsoby, jak dělat více věcí najednou</string>
+    <string name="animations_title">Animace</string>
+    <string name="gestures_title">Gesta</string>
+    <string name="gestures_summary">Nastavit některá gesta k usnadnění práce</string>
+    <string name="powermenu_title">Menu napájení</string>
+    <string name="powermenu_summary">Využijte tohoto menu pro vypnutí</string>
+    <string name="navbar_title">Funkce navigačního panelu</string>
+    <string name="navbar_summary">Naučte navigační panel několik nových triků</string>
+    <string name="hwkeys_summary">Změna nastavení HW tlačítek</string>
+    <string name="fingerprint_title">Otisk prstu</string>
+    <string name="device_extras_title_fallback">Extra funkce zařízení</string>
+    <string name="about_bootleg_title">O Bootleggers</string>
+    <string name="about_bootleg_small_title">O nás</string>
+    <string name="about_bootleg_small_summary">Další informace o našem projektu</string>
+    <string name="bootleg_ab_title_whoami">Co je Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers je ROM vybavená funkcemi a aplikacemi navrženými tak, aby vytvářela pocit jako 家. Doufáme, že se vám to líbí a užíváte si zažítků.</string>
+    <string name="bootleg_ab_title_thankssec">Seznam poděkování</string>
+    <string name="bootleg_ab_summary_thanksclean">Dotkněte se zde, abyste zjistili, kdo tento projekt vytvořil.</string>
+    <string name="bootleg_pref_title_romextras">Doplňky a extra</string>
+    <string name="bootleg_ex_title_featurelist">Seznam funkcí</string>
+    <string name="bootleg_ex_summary_featurelist">Zkontrolujte aktuální seznam funkcí tohoto sestavení</string>
+    <string name="bootleg_ex_title_addons">Doplňky a soubory ke stažení</string>
+    <string name="bootleg_ex_summary_addons">Doporučený seznam motivů a módů z naší strany (a.k.a čestná reklama)</string>
+    <string name="bootleg_ex_title_sharemsg">Sdílejte naši ROM</string>
+    <string name="bootleg_ex_summary_sharemsg">Informujte lidi o nás a naší práci! Opravdu si toho vážíme.</string>
+    <string name="bootleg_changelog_title">Zobrazit seznam změn</string>
+    <string name="bootleg_changelog_summary">Podívejte se na nejnovější změny přidané do tohoto sestavení</string>
+    <string name="bootleg_pref_moarstuff_title">Více o nás?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Informace a zdroje</string>
+    <string name="bootleg_moarstuff_blog_title">Náš blog</string>
+    <string name="bootleg_moarstuff_blog_summary">Kde budeme zveřejňovat vydání a zprávy</string>
+    <string name="bootleg_moarstuff_git_title">Náš Github</string>
+    <string name="bootleg_moarstuff_git_summary">Kde jsou uloženy naše zdroje</string>
+    <string name="bootleg_pref_moarstuff_social_title">Buďte v kontaktu!</string>
+    <string name="bootleg_moarstuff_tg_title">Naše komunita Telegram</string>
+    <string name="bootleg_moarstuff_tg_summary">Promluvte si s námi, připravte se na budoucí aktualizace a připojte se k naší skvělé komunitě</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">Myslím, že jste zjistili, že toto není opravdu tajné místo, ale v pořádku, protože teď jste tady. Chci vám jen říct - děkuji vám, že jste nainstalovali ROM a ano, jak jsem již několikrát řekl, doufám, že se vám to líbí a máte dobrý pocit s této ROM.</string>
+    <string name="bootleg_moarstuff_faq_title">Naše FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">Náš Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">Nemluvíme vaším jazykem? Přejděte sem a neváhejte nám pomoci přeložit ROM do vašeho rodného jazyka!</string>
+    <string name="bootleg_moarstuff_cd_summary02">Přejděte sem a neváhejte nám pomoci přeložit ROM do vašeho rodného jazyka!</string>
+    <string name="bootleg_moarstuff_faq_summary">Místo, de budou zodpovězeny všechny nejčastější dotazy a žádosti o funkce.</string>
+    <string name="bootleg_moarstuff_donos_title">Podpořte náš projekt</string>
+    <string name="bootleg_moarstuff_donos_summary">Přispějte na podporu tohoto projektu, hodně to oceníme</string>
+    <string name="share_chooser_title">Sdílejte naši ROM přes..</string>
+    <string name="bootleg_sharemsg1">Hej, používám tuto ROM nazvanou Bootleggers a je to paráda. Měli byste se o tom dozvědět více na https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">Nainstaloval jsem Bootleggers ROM a zdá se, že je v tuto chvíli dobrá. Měli byste se o tom dozvědět více na https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">Tak jsem šel do Bootleggers ROM a užívám si zážitek, je to opravdu skvělá ROM </string>
+    <string name="bootleg_sharemsg4">Hej, právě jsem nainstaloval Bootleggers a ROM se mi zalíbila, vřele ji doporučuji </string>
+    <string name="bootleg_sharemsg5">Šel jsem do Bootleggers ROM a zdá se mi být opravdu skvělá, má nějaké různé výchozí písma a množství funkcí </string>
+    <string name="bootleg_sharemsg6">Vyzkoušejte Bootleggers ROM! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Hmm, zkouším Bootleggers a je to trochu divné, ale není to špatná ROM </string>
+    <string name="bootleg_ri_title_buildtype">Typ sestavení</string>
+    <string name="bootleg_pref_title_rominfo">Info o ROM</string>
+    <string name="bootleg_ri_title_ota">OTA aktualizace</string>
+    <string name="bootleg_ri_summary_ota">Zkontrolujte, zda je nějaké nové vydání</string>
+    <string name="bootleg_ri_title_musicode">Hudební kódové označení</string>
+    <string name="ok">OK</string>
+    <string name="reset">Resetovat</string>
+    <string name="cancel">Zrušit</string>
+    <string name="save">Uložit</string>
+    <string name="animations_transparent_alert">Některé (nebo možná všechny) z těchto animací nemusí fungovat, pokud má vaše zařízení průhledný motiv!</string>
+    <string name="statusbar_icon_cat_title">Ikony</string>
+    <string name="theme_customization_icon_pack_title">Balíček ikon</string>
+    <string name="theme_customization_icon_shape_title">Tvar ikony</string>
+    <string name="global_actions_advanced_reboot_title">Povolit rozšířený restart</string>
+    <string name="screen_off_animation_title">Animace vypnutí obrazovky</string>
+    <string name="screen_off_animation_default">Výchozí</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Stupnice</string>
+    <string name="status_bar_clock_style_title">Styl hodin</string>
+    <string name="status_bar_clock_style_right">Vpravo</string>
+    <string name="status_bar_clock_style_center">Uprostřed</string>
+    <string name="status_bar_clock_style_left">Vlevo</string>
+    <string name="status_bar_am_pm_info">24-hodinový formát je povolen</string>
+    <string name="status_bar_am_pm_normal">Normální</string>
+    <string name="status_bar_am_pm_small">Malé</string>
+    <string name="clock_seconds_display">Zobrazit sekundy</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_none">Nezobrazovat</string>
+    <string name="clock_date_display_small">Malá velikost písma</string>
+    <string name="clock_date_display_normal">Normální velikost písma</string>
+    <string name="clock_date_style">Styl data</string>
+    <string name="clock_date_style_normal">Normální</string>
+    <string name="clock_date_style_lowercase">Malá písmena</string>
+    <string name="clock_date_style_uppercase">Velká písmena</string>
+    <string name="clock_date_format_custom">Vlastní formát Java</string>
+    <string name="clock_date_format">Formát data</string>
+    <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Zadejte řetězec</string>
+    <string name="statusbar_items_title">Ikony ve stavové liště</string>
+    <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrace při dalším hovoru</string>
+    <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
+    <string name="double_tap_sleep_title">Uspat dvojím poklepáním</string>
+    <string name="wake_when_plugged_or_unplugged_title">Probudit při nabíjení</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Zapnout obrazovku při připojení nebo odpojení nabíječky</string>
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Chcete-li snížit spotřebu energie, vypněte pixely</string>
+    <string name="smart_pixels_on_power_save_title">Automatické zapnutí při spořiči baterie</string>
+    <string name="smart_pixels_percent">Procenta pixelů k vypnutí</string>
+    <string name="smart_pixels_shift">Zabraňuje vypalování častým přepínáním pixelů</string>
+    <string name="general_category">Obecné</string>
+    <string name="flashlight_on_call_disabled">Zakázáno</string>
+    <string name="flashlight_on_call_always">Vždy</string>
+    <string name="flashlight_on_call_rate_title">Ohodnotit</string>
+    <string name="lockscreen_power_menu_disabled_title">Zakázat menu napájení na zamykací obrazovce</string>
+    <string name="lockscreen_power_menu_disabled_summary">Toto zakáže nabídku napájení na zabezpečené uzamčené obrazovce</string>
+    <string name="hide_lockscreen_status_bar_title">Skrýt stavovou lištu</string>
+    <string name="qs_brightness_slider_never">Nikdy</string>
+    <string name="qs_brightness_slider_always">Vždy</string>
+    <string name="category_weather_title">Počasí</string>
+    <string name="header_weather_title">Zobrazit počasí v záhlaví</string>
+    <string name="header_weather_summary">Povolit zobrazení počasí v záhlaví panelu oznámení</string>
+    <string name="weather_icon_pack_title">Balíček ikon stavu počasí</string>
+    <string name="weather_icon_pack_note">Poznámka\u003a nové balíčky ikon můžete nainstalovat z obchodu play vyhledáním \"Chronus ikony\"</string>
+    <string name="statusbar_notif_count_title">Zobrazit počet oznámení</string>
+    <string name="statusbar_notif_count_summary">Zobrazí počet nezobrazených oznámení</string>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">Kezelőfelület</string>
+    <string name="category_system_title">Rendszer</string>
+    <string name="category_volume_title">Hangerőgombok</string>
+    <string name="statusbar_summary">Az állapotsor jó, de lehetne sokkal jobb</string>
+    <string name="quicksettings_title">Gyorsbeállítások</string>
+    <string name="quicksettings_summary">Változtassa komfortosabbá a Gyorsmenüt</string>
+    <string name="notifications_title">Értesítések</string>
+    <string name="notifications_summary">Módosítsa, hogyan láthatja ezeket az értesítéseket</string>
+    <string name="lockscreen_title">Záróképernyő</string>
+    <string name="lockscreen_summary">Megváltoztathatja a záróképernyő kinézetét és funkcióit</string>
+    <string name="recents_title">Alkalmazáselőzmények</string>
+    <string name="recents_summary">Fedezzen fel több módot a több feladat egyszerre kezeléséhez</string>
+    <string name="animations_title">Animációk</string>
+    <string name="gestures_title">Mozdulatvezérlés</string>
+    <string name="gestures_summary">Mozdulatvezérléssel egy csomó mindent könnyebbé tehet</string>
+    <string name="powermenu_title">Kikapcsolómenü</string>
+    <string name="powermenu_summary">Tegye a kikapcsolómenüt még használhatóbbá</string>
+    <string name="navbar_title">A navigációs sáv funkciói</string>
+    <string name="navbar_summary">Tanítsa meg navigációs sávját új trükkökre</string>
+    <string name="hwkeys_summary">Változtassa meg hardvergombjainak viselkedését</string>
+    <string name="fingerprint_title">Ujjlenyomat</string>
+    <string name="device_extras_title_fallback">Készülék extrák</string>
+    <string name="about_bootleg_title">A Bootleggers-ről</string>
+    <string name="about_bootleg_small_title">A ROM készítőiről</string>
+    <string name="about_bootleg_small_summary">További információk a projektünkről</string>
+    <string name="bootleg_ab_title_whoami">Mi az a Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers egy ROM, jól megtömve funkciókkal és alkalmazásokkal, azzal a céllal, hogy Ön otthon (家) érezhesse magát. Reméljük tetszik, és megkapja a várt felhasználói élményt.</string>
+    <string name="bootleg_ab_title_thankssec">Akiknek meg kell köszönnünk</string>
+    <string name="bootleg_ab_summary_thanksclean">Érintse meg itt, hogy láthassa ki inspirálta és készítette ezt a projektet.</string>
+    <string name="bootleg_pref_title_romextras">Exrák és Kiegészítők</string>
+    <string name="bootleg_ex_title_featurelist">Funkciók listája</string>
+    <string name="bootleg_ex_summary_featurelist">Nézze meg a funciók listáját a jelenlegi kiadásban</string>
+    <string name="bootleg_ex_title_addons">Kiegészítők és Letöltések</string>
+    <string name="bootleg_ex_summary_addons">Az általunk ajánlott témák és a módosítások listája (ez egy őszinte önreklám)</string>
+    <string name="bootleg_ex_title_sharemsg">Ossza meg a ROM-unkat</string>
+    <string name="bootleg_ex_summary_sharemsg">Hogy az emberek tudjanak rólunk, és a munkánkról! Mi igazán méltányoljuk ezt.</string>
+    <string name="bootleg_changelog_title">A változáslista megtekintése</string>
+    <string name="bootleg_changelog_summary">Megtekintheti, melyek a legfontosabb változások ebben a kiadásban</string>
+    <string name="bootleg_pref_moarstuff_title">Még többet kíván tudni rólunk?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Információk és források</string>
+    <string name="bootleg_moarstuff_blog_title">A mi Blogunk</string>
+    <string name="bootleg_moarstuff_blog_summary">Hol adunk információkat a megjelenésekről és az újdonságokról</string>
+    <string name="bootleg_moarstuff_git_title">A Github elérhetőségünk</string>
+    <string name="bootleg_moarstuff_git_summary">Hol találhatók forrásaink és korábbi munkáink</string>
+    <string name="bootleg_pref_moarstuff_social_title">Vegye fel a kapcsolatot!</string>
+    <string name="bootleg_moarstuff_tg_title">Telegram közösségünk</string>
+    <string name="bootleg_moarstuff_tg_summary">Beszéljen velünk, legyen tájékozott a jövőbeli frissítésekről, és csatlakozzon nagy közösségünkhöz</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">Úgy gondolom, ezt jól megtalálta ezen a nem annyira titkos helyen. S ha már itt megszerezte, csak azt szeretném, hogy tudja, hálás vagyok, hogy telepítette ezt a ROM-ot, és komolyan, ahogy sokszor mondtuk, reméljük, élvezni fogja, és jól érezheti magát ezen a ROM-on.</string>
+    <string name="bootleg_moarstuff_faq_title">Gyakran Ismételt Kérdéseink</string>
+    <string name="bootleg_moarstuff_cd_title">A Crowdinunk</string>
+    <string name="bootleg_moarstuff_cd_back_summary">Még nem beszéljük az Ön nyelvét? Hát akkor szabadon csatlakozhat és segíthet nekünk lefordítani az Ön anyanyelvére is!</string>
+    <string name="bootleg_moarstuff_cd_summary02">Szabadon csatlakozhat és segíthet nekünk lefordítani a Bootleggers-t az Ön anyanyelvére is!</string>
+    <string name="bootleg_moarstuff_faq_summary">Ahol a legtöbb kérdésnek és kért szolgáltatásnak megtalálható a megoldása.</string>
+    <string name="bootleg_moarstuff_donos_title">Támogassa projektünket</string>
+    <string name="bootleg_moarstuff_donos_summary">Támogassa ezt a fejlesztést, sokra értékeljük a segítségét</string>
+    <string name="share_chooser_title">ROM megosztása ezzel </string>
+    <string name="bootleg_sharemsg1">Hé, én a Bootleggers ROM-ot használom, napi használatra tökéletes. Keresned kellene több infót róla a https://bootleggersrom.github.io oldalon </string>
+    <string name="bootleg_sharemsg2">Én már telepítettem a Bootleggers ROM-ot, és úgy tűnik, hogy eddig semmi hibát nem találtam, új infókat kaphatsz a https://bootleggersrom.github.io oldalon </string>
+    <string name="bootleg_sharemsg3">Így teszek egy próbát a Bootleggers ROM-mal, most a tapasztalatokat gyűjtöm, de ez egy baromi jó ROM </string>
+    <string name="bootleg_sharemsg4">Hé, én már telepítettem a Bootleggers-t és ilyesformán most élvezem a ROM előnyeit, ajánlanám mindenkinek </string>
+    <string name="bootleg_sharemsg5">Teszek egy próbát a Bootleggers ROM-mal, mert jónak tűnik, a megszokottól eltérő alapértelmezett betűtipusokkal és funkciókkal </string>
+    <string name="bootleg_sharemsg6">Próbálja ki most Bootleggers ROM-ot! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Hümm-hümm, tesztelem a Bootleggers-t, bár egy kicsit furcsa, de nem egy rossz ROM </string>
+    <string name="bootleg_ri_title_buildtype">Build állapota</string>
+    <string name="bootleg_pref_title_rominfo">ROM-Információ</string>
+    <string name="bootleg_ri_title_ota">OTA frissítések</string>
+    <string name="bootleg_ri_summary_ota">Ellenőrizze van-e bármi újdonság</string>
+    <string name="bootleg_ri_title_musicode">Zenei kódneve</string>
+    <string name="ok">OK</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="cancel">Mégse</string>
+    <string name="save">Mentés</string>
+    <string name="animations_transparent_alert">Néhány (vagy vagy lehet, hogy az összes) animáció működésképtelenné válik, ha a készülék átlátszó témát kapott!</string>
+    <string name="statusbar_icon_cat_title">Ikonok</string>
+    <string name="theme_customization_icon_pack_title">Ikoncsomag</string>
+    <string name="theme_customization_icon_shape_title">Az ikonok formája</string>
+    <string name="global_actions_advanced_reboot_title">A Speciális újraindítás engedélyezése</string>
+    <string name="screen_off_animation_title">Képernyő-kikapcsolási animáció</string>
+    <string name="screen_off_animation_default">Alapértelmezett</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Skála</string>
+    <string name="status_bar_clock_style_title">Az óra stílusa</string>
+    <string name="status_bar_clock_style_right">Jobb</string>
+    <string name="status_bar_clock_style_center">Közepe</string>
+    <string name="status_bar_clock_style_left">Bal</string>
+    <string name="status_bar_am_pm_info">24-órás formátum engedélyezve</string>
+    <string name="status_bar_am_pm_normal">Normális</string>
+    <string name="status_bar_am_pm_small">Kicsi</string>
+    <string name="clock_seconds_display">Másodpercek megjelenítése</string>
+    <string name="clock_date_display">Dátum</string>
+    <string name="clock_date_display_none">Ne jelenjenítse meg</string>
+    <string name="clock_date_display_small">Kis betűméret</string>
+    <string name="clock_date_display_normal">Normál betűméret</string>
+    <string name="clock_date_style">A Dátum stílusa</string>
+    <string name="clock_date_style_normal">Normális</string>
+    <string name="clock_date_style_lowercase">Kisbetűs</string>
+    <string name="clock_date_style_uppercase">Nagybetűs</string>
+    <string name="clock_date_format_custom">Egyéni Java-formátum</string>
+    <string name="clock_date_format">A Dátum formátuma</string>
+    <string name="clock_date_string_edittext_title">A dátumformátum pl. MM/dd/yy kell legyen</string>
+    <string name="clock_date_string_edittext_summary">Formátum megadása</string>
+    <string name="statusbar_items_title">Állapotsor-ikonok</string>
+    <string name="incall_vibrate_connect_title">Rezgés a kapcsolat létrejöttekor</string>
+    <string name="incall_vibrate_call_wait_title">Rezgés hívásvárakoztatáskor</string>
+    <string name="incall_vibrate_disconnect_title">Rezgés a kapcsolat bontásakor</string>
+    <string name="double_tap_sleep_title">Dupla érintésre alvómód</string>
+    <string name="wake_when_plugged_or_unplugged_title">Ébredés töltő csatlakoztatásakor</string>
+    <string name="wake_when_plugged_or_unplugged_summary">A töltő csatlakoztatása vagy eltávolítása után kapcsolódjon be a képernyő</string>
+    <string name="smart_pixels_title">Intelligens pixelek</string>
+    <string name="smart_pixels_summary">Képpontok kikapcsolása az akkufogyasztás csökkentése érdekében</string>
+    <string name="smart_pixels_on_power_save_title">Automatikus engedélyezés akkumulátorkímélő-üzemmódban</string>
+    <string name="smart_pixels_percent">A képpontok százalékos letiltása</string>
+    <string name="smart_pixels_shift">Képpont-mozgatás a beégés megelőzéséért a következő időközönként</string>
+    <string name="general_category">Általános</string>
+    <string name="flashlight_on_call_disabled">Letiltva</string>
+    <string name="flashlight_on_call_always">Mindig</string>
+    <string name="flashlight_on_call_rate_title">Értékelés</string>
+    <string name="lockscreen_power_menu_disabled_title">Kikapcsolómenü-tiltás a képernyőzáron</string>
+    <string name="lockscreen_power_menu_disabled_summary">Ez a beállítás csak a kikapcsolómenüt tiltja le a biztonságos képernyőzáron</string>
+    <string name="hide_lockscreen_status_bar_title">Rejtse el az állapotsort</string>
+    <string name="qs_brightness_slider_never">Soha</string>
+    <string name="qs_brightness_slider_always">Mindig</string>
+    <string name="category_weather_title">Időjárás</string>
+    <string name="header_weather_title">Időjárás fejlécnézet</string>
+    <string name="header_weather_summary">Engedélyezi az időjárás megjelenítését az értesítési sávban</string>
+    <string name="weather_icon_pack_title">Időjárás-állapot ikoncsomag</string>
+    <string name="weather_icon_pack_note">Megjegyzés: \u003a új ikoncsomagokat telepíthet, ha a Google Play Áruházban a \"Chronus icons\"-ra keres rá</string>
+    <string name="statusbar_notif_count_title">Értesítések számának megjelenítése</string>
+    <string name="statusbar_notif_count_summary">Függőben lévő értesítések számának megjelenítése</string>
+</resources>

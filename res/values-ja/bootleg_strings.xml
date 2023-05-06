@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">インターフェース</string>
+    <string name="category_system_title">システム</string>
+    <string name="category_volume_title">音量ボタン</string>
+    <string name="statusbar_summary">素晴らしいステータスバーですが、もっと良くなりますよ。</string>
+    <string name="quicksettings_title">クイック設定</string>
+    <string name="quicksettings_summary">クイック設定をもっと快適にする</string>
+    <string name="notifications_title">通知</string>
+    <string name="notifications_summary">通知の表示方法を変更する</string>
+    <string name="lockscreen_title">ロック画面</string>
+    <string name="lockscreen_summary">ロック画面のレイアウトと機能を変更する</string>
+    <string name="recents_title">アプリ履歴</string>
+    <string name="recents_summary">更なるマルチタスクの方法を探る</string>
+    <string name="animations_title">アニメーション</string>
+    <string name="gestures_title">ジェスチャー</string>
+    <string name="gestures_summary">ジェスチャーを変更して動作を実行しやすくする</string>
+    <string name="powermenu_title">電源メニュー</string>
+    <string name="powermenu_summary">シャットダウンメニューをもっと便利にする</string>
+    <string name="navbar_title">ナビゲーションバーの機能</string>
+    <string name="navbar_summary">ナビゲーションバーのいくつかの新しいトリックを教えます</string>
+    <string name="hwkeys_summary">ハードウェアボタンの設定を変更する</string>
+    <string name="fingerprint_title">指紋認証</string>
+    <string name="device_extras_title_fallback">端末の追加機能</string>
+    <string name="about_bootleg_title">Bootleggers について</string>
+    <string name="about_bootleg_small_title">私達について</string>
+    <string name="about_bootleg_small_summary">私たちのプロジェクトに関する追加情報</string>
+    <string name="bootleg_ab_title_whoami">Bootleggers って何?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers は家のような気分を味わう目的の機能やアプリが満載の ROM です。あなたが好きになって、私たちの体験を楽しんでほしいと思います。</string>
+    <string name="bootleg_ab_title_thankssec">感謝リスト</string>
+    <string name="bootleg_ab_summary_thanksclean">ここをタップしてこのプロジェクトに影響を与えた人を参照して下さい</string>
+    <string name="bootleg_pref_title_romextras">追加要素とアドオン</string>
+    <string name="bootleg_ex_title_featurelist">機能リスト</string>
+    <string name="bootleg_ex_summary_featurelist">このビルドの現在の機能リストを確認する</string>
+    <string name="bootleg_ex_title_addons">アドオンとダウンロード</string>
+    <string name="bootleg_ex_summary_addons">私達のするテーマと Mod のリスト (つまりは広告)</string>
+    <string name="bootleg_ex_title_sharemsg">私達の ROM を共有</string>
+    <string name="bootleg_ex_summary_sharemsg">人々に私達とその働きについて知らせて下さい! 非常に有難いです。</string>
+    <string name="bootleg_changelog_title">更新履歴を表示</string>
+    <string name="bootleg_changelog_summary">このビルドに追加された最新の更新を確認する</string>
+    <string name="bootleg_pref_moarstuff_title">私達の詳細を参照しますか?</string>
+    <string name="bootleg_pref_moarstuff_info_title">情報とソース</string>
+    <string name="bootleg_moarstuff_blog_title">私達のブログ</string>
+    <string name="bootleg_moarstuff_blog_summary">リリースとニュースについて投稿する場所</string>
+    <string name="bootleg_moarstuff_git_title">私達の GitHub</string>
+    <string name="bootleg_moarstuff_git_summary">私たちのソースと Revert がある場所</string>
+    <string name="bootleg_pref_moarstuff_social_title">連絡する!</string>
+    <string name="bootleg_moarstuff_tg_title">私たちの Telegram コミュニティ</string>
+    <string name="bootleg_moarstuff_tg_summary">私たちと話をして、将来の更新で大騒ぎをして、偉大なコミュニティに参加してく下さい。</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">あなたがこれを本当に秘密の場所ではないと思っていたと私は思うが、今ここに起動しているので、この ROM をインストールしてくれてありがとうと言いたいです。さて、私たちは何度か言ったように、 この ROM で楽しみ良い時間を過ごして下さい。</string>
+    <string name="bootleg_moarstuff_faq_title">私たちの FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">私たちの Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">あなたの言語が使用されていませんか? ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝って下さい!</string>
+    <string name="bootleg_moarstuff_cd_summary02">ここに来て、私たちの ROM をあなたの母国語に翻訳するのを手伝って下さい!</string>
+    <string name="bootleg_moarstuff_faq_summary">FAQ と回答された要求機能がある場所</string>
+    <string name="bootleg_moarstuff_donos_title">プロジェクトを支援</string>
+    <string name="bootleg_moarstuff_donos_summary">私たちのプロジェクトに寄付して下さることを大変感謝致します</string>
+    <string name="share_chooser_title">私達の ROM を共有..</string>
+    <string name="bootleg_sharemsg1">やあ、私は Bootleggers と呼ばれる ROM を使用しています。 正直言ってこれは素晴らしい ROM です。 詳細については https://bootleggersrom.github.io をご覧すべて。</string>
+    <string name="bootleg_sharemsg2">私は Bootleggers ROM をインストールしました。現時点では動作は良好なようですが、https://bootleggersrom.github.io で詳細を確認して下さい。</string>
+    <string name="bootleg_sharemsg3">だから私は Bootleggers ROM に行きました。今のところ良い体験をしています。かなりクールな ROM です。</string>
+    <string name="bootleg_sharemsg4">やあ、私はちょうど Bootleggers をインストールして少し ROM を楽しんでいます。ぜひお勧めしようと思います。</string>
+    <string name="bootleg_sharemsg5">私は Bootleggers ROM にたどり着きました。かなり良好なようです。いくつかの異なる既定のフォントと様々な機能を持っています。</string>
+    <string name="bootleg_sharemsg6">今すぐ Bootleggers ROM を試して下さい! https://bootleggersrom.github.io</string>
+    <string name="bootleg_sharemsg7">えーと、私は Bootleggers をテストしています。ちょっと変わっていますが、悪い ROM ではありません。</string>
+    <string name="bootleg_ri_title_buildtype">ビルド種類</string>
+    <string name="bootleg_pref_title_rominfo">ROM 情報</string>
+    <string name="bootleg_ri_title_ota">OTA 更新</string>
+    <string name="bootleg_ri_summary_ota">新しいリリースがあるかどうかを確認する</string>
+    <string name="bootleg_ri_title_musicode">ミュージカルコードネーム</string>
+    <string name="ok">OK</string>
+    <string name="reset">リセット</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="animations_transparent_alert">お使いの端末で透明なテーマが使用中の場合、このアニメーションの一部 (または全て) が機能しないことがあります。</string>
+    <string name="statusbar_icon_cat_title">アイコン</string>
+    <string name="theme_customization_icon_pack_title">アイコンパック</string>
+    <string name="theme_customization_icon_shape_title">アイコンの形状</string>
+    <string name="global_actions_advanced_reboot_title">高度な再起動の有効化</string>
+    <string name="screen_off_animation_title">画面消灯時のアニメーション</string>
+    <string name="screen_off_animation_default">既定</string>
+    <string name="screen_off_animation_crt">ブラウン管</string>
+    <string name="screen_off_animation_scale">縮小</string>
+    <string name="status_bar_clock_style_title">時計のスタイル</string>
+    <string name="status_bar_clock_style_right">右</string>
+    <string name="status_bar_clock_style_center">中央</string>
+    <string name="status_bar_clock_style_left">左</string>
+    <string name="status_bar_am_pm_info">24時間表示が有効です</string>
+    <string name="status_bar_am_pm_normal">標準</string>
+    <string name="status_bar_am_pm_small">小</string>
+    <string name="clock_seconds_display">秒を表示</string>
+    <string name="clock_date_display">日付</string>
+    <string name="clock_date_display_none">非表示</string>
+    <string name="clock_date_display_small">小さいフォントサイズ</string>
+    <string name="clock_date_display_normal">通常のフォントサイズ</string>
+    <string name="clock_date_style">日付のスタイル</string>
+    <string name="clock_date_style_normal">標準</string>
+    <string name="clock_date_style_lowercase">小文字</string>
+    <string name="clock_date_style_uppercase">大文字</string>
+    <string name="clock_date_format_custom">カスタム java 形式</string>
+    <string name="clock_date_format">日付の形式</string>
+    <string name="clock_date_string_edittext_title">DateFormat 形式で入力して下さい 例. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">文字列を入力</string>
+    <string name="statusbar_items_title">ステータスバーのアイコン</string>
+    <string name="incall_vibrate_connect_title">接続時に振動</string>
+    <string name="incall_vibrate_call_wait_title">割込通話時に振動</string>
+    <string name="incall_vibrate_disconnect_title">切断時に振動</string>
+    <string name="double_tap_sleep_title">ダブルタップでスリープ</string>
+    <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>
+    <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断した時に画面を点灯させる</string>
+    <string name="smart_pixels_title">スマートピクセル</string>
+    <string name="smart_pixels_summary">消費電力を削減するため画素を遮断する</string>
+    <string name="smart_pixels_on_power_save_title">自動有効</string>
+    <string name="smart_pixels_percent">無効にする画素の割合</string>
+    <string name="smart_pixels_shift">使う画素を移し替えて画面の焼付きを避ける</string>
+    <string name="general_category">一般</string>
+    <string name="flashlight_on_call_disabled">無効</string>
+    <string name="flashlight_on_call_always">常時</string>
+    <string name="flashlight_on_call_rate_title">評価する</string>
+    <string name="lockscreen_power_menu_disabled_title">保護時は無効化</string>
+    <string name="lockscreen_power_menu_disabled_summary">保護されたロック画面で電源メニューを非表示にする</string>
+    <string name="hide_lockscreen_status_bar_title">ステータスバーを隠す</string>
+    <string name="qs_brightness_slider_never">なし</string>
+    <string name="qs_brightness_slider_always">常時</string>
+    <string name="category_weather_title">天気</string>
+    <string name="header_weather_title">ヘッダーに天気を表示</string>
+    <string name="header_weather_summary">通知パネルの天気ヘッダー画像を有効にする</string>
+    <string name="weather_icon_pack_title">天候アイコンパック</string>
+    <string name="weather_icon_pack_note">備考\u003a プレイストアで「Chronus アイコン」を検索することで新しいアイコンパックをインストールできます</string>
+    <string name="statusbar_notif_count_title">通知の数を表示</string>
+    <string name="statusbar_notif_count_summary">保留中の通知の数を表示する</string>
+</resources>

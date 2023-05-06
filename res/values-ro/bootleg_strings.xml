@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">Interfață</string>
+    <string name="category_system_title">Sistem</string>
+    <string name="category_volume_title">Taste de volum</string>
+    <string name="statusbar_summary">Bara de stare este frumoasa dar ar putea fi mai bine</string>
+    <string name="quicksettings_title">Setări rapide</string>
+    <string name="quicksettings_summary">Face-ți setările mai rapide mult mai confortabile</string>
+    <string name="notifications_title">Notificări</string>
+    <string name="notifications_summary">Schimbă cum poți vedea acele notificări</string>
+    <string name="lockscreen_title">Ecran de blocare</string>
+    <string name="lockscreen_summary">Modificare aspect şi caracteristici a ecranului dumneavoastă de blocare</string>
+    <string name="recents_title">Aplicații recente</string>
+    <string name="recents_summary">Explorați mai multe moduri de a face multi-task</string>
+    <string name="animations_title">Animații</string>
+    <string name="gestures_title">Gesturi</string>
+    <string name="gestures_summary">Setați câteva gesturi pentru a face lucrurile mai ușoare</string>
+    <string name="powermenu_title">Meniul power</string>
+    <string name="powermenu_summary">Face-ți mai util meniul de oprire</string>
+    <string name="navbar_title">Caracteristici a barei de navigație</string>
+    <string name="navbar_summary">Invață-ți bara de navigație niște trucuri noi</string>
+    <string name="hwkeys_summary">Schimbă lucrurile butoanelor tale fizice</string>
+    <string name="fingerprint_title">Amprentă</string>
+    <string name="device_extras_title_fallback">Gestos do dispositivo</string>
+    <string name="about_bootleg_title">Despre Bootleggers</string>
+    <string name="about_bootleg_small_title">Despre noi</string>
+    <string name="about_bootleg_small_summary">Ceva mai multe informații legate de proiectul nostru</string>
+    <string name="bootleg_ab_title_whoami">Ce este Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers este un ROM plin cu caracteristici si aplicații care au rolul de a te face să te simți ca 家. Sper că îți place si bucurați-vă de experiența noastră.</string>
+    <string name="bootleg_ab_title_thankssec">Lista de mulțumiri</string>
+    <string name="bootleg_ab_summary_thanksclean">Toque aqui para ver quem criou e inspirou este projeto.</string>
+    <string name="bootleg_pref_title_romextras">Extras și Addon-uri</string>
+    <string name="bootleg_ex_title_featurelist">Listă de caracteristici</string>
+    <string name="bootleg_ex_summary_featurelist">Verifică lista curentă de caracteristici pe această versiune</string>
+    <string name="bootleg_ex_title_addons">Addon-uri şi descărcări</string>
+    <string name="bootleg_ex_summary_addons">O listă recomandată de Teme și Moduri din partea noastră (a.k.a reclama sincera)</string>
+    <string name="bootleg_ex_title_sharemsg">Împărtășește ROM-ul nostru</string>
+    <string name="bootleg_ex_summary_sharemsg">Fă-i pe oameni să știe de noi și de munca noastră! Noi vom aprecia asta pe bune.</string>
+    <string name="bootleg_changelog_title">Setează jurnalul modificărilor</string>
+    <string name="bootleg_changelog_summary">Vezi ultimele schimbări adăugate în această versiune</string>
+    <string name="bootleg_pref_moarstuff_title">Mai multe despre noi?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Informaţii şi surse</string>
+    <string name="bootleg_moarstuff_blog_title">Blog-ul nostru</string>
+    <string name="bootleg_moarstuff_blog_summary">Unde vom posta despre update-uri si știri</string>
+    <string name="bootleg_moarstuff_git_title">Github-ul nostru</string>
+    <string name="bootleg_moarstuff_git_summary">Unde sunt sursele si revenirile noastre amplasate</string>
+    <string name="bootleg_pref_moarstuff_social_title">Intră în contact!</string>
+    <string name="bootleg_moarstuff_tg_title">Comunitatea noastră Telegram</string>
+    <string name="bootleg_moarstuff_tg_summary">Vorbește cu noi, fii pe fază cu noi actualizări și alătură-te comunității noastre</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">Văd că ai găsit locul acesta \"secret\", așa că dacă tot ești aici am vrut să-ți mulțumim că ai instalat acest ROM și după cum am tot zis, sper să îți placă și să te distrezi cu acest ROM.</string>
+    <string name="bootleg_moarstuff_faq_title">Întrebări frecvente</string>
+    <string name="bootleg_moarstuff_cd_title">Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">Nu avem limba ta? Vino aici și ajută-ne să traducem ROM-ul în limba ta nativă!</string>
+    <string name="bootleg_moarstuff_cd_summary02">Vino aici și ajută-ne să traducem ROM-ul în limba ta nativă!</string>
+    <string name="bootleg_moarstuff_faq_summary">Unde multe din întrebările frecvente și caracteristici cerute și-au găsit răspunsul.</string>
+    <string name="share_chooser_title">Partajează ROM-ul nostru prin..</string>
+    <string name="bootleg_sharemsg1">Hey, folosesc acest ROM numit Bootleggers, e foarte fain. Intră pe https://bootleggersrom.github.io să afli mai multe </string>
+    <string name="bootleg_sharemsg2">Mi-am instalat ROM-ul Bootleggers și pare bun momentan, intră pe https://bootleggersrom.github.io să afli mai multe </string>
+    <string name="bootleg_sharemsg3">Mi-am pus ROM-ul Bootleggers și îmi place experiența, e destul de interesant </string>
+    <string name="bootleg_sharemsg4">Hey, mi-am instalat Bootleggers și îmi cam place, l-aș recomanda </string>
+    <string name="bootleg_sharemsg5">Mi-am instalat ROM-ul Bootleggers, pare interesant, are o grămadă de chestii și fonturi diferite </string>
+    <string name="bootleg_sharemsg6">Încearcă acum ROM-ul Bootleggers! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Testez ROM-ul Bootleggers și e puțin ciudat, dar nu e rău </string>
+    <string name="bootleg_ri_title_buildtype">Tipul ROM-ului</string>
+    <string name="bootleg_pref_title_rominfo">Informații despre ROM</string>
+    <string name="bootleg_ri_title_ota">Actualizări OTA</string>
+    <string name="bootleg_ri_summary_ota">Verifică pentru actualizări noi</string>
+    <string name="bootleg_ri_title_musicode">Nume de cod muzical</string>
+    <string name="ok">OK</string>
+    <string name="reset">Resetează</string>
+    <string name="cancel">Anulează</string>
+    <string name="save">Salvează</string>
+    <string name="animations_transparent_alert">Unele (sau poate toate) dintre aceste animaţii nu vor merge dacă dispozitivul tău are o temă transparentă!</string>
+    <string name="statusbar_icon_cat_title">Pictograme</string>
+    <string name="theme_customization_icon_pack_title">Pachet de pictograme</string>
+    <string name="theme_customization_icon_shape_title">Forma pictogramei</string>
+    <string name="global_actions_advanced_reboot_title">Habilitar o reinício avançado</string>
+    <string name="screen_off_animation_title">Animație închidere ecran</string>
+    <string name="screen_off_animation_default">Implicit</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Scală</string>
+    <string name="status_bar_clock_style_title">Stil ceas</string>
+    <string name="status_bar_clock_style_right">Dreapta</string>
+    <string name="status_bar_clock_style_center">Centru</string>
+    <string name="status_bar_clock_style_left">Stânga</string>
+    <string name="status_bar_am_pm_info">Format 24 ore activat</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Mic</string>
+    <string name="clock_seconds_display">Afișează secundele</string>
+    <string name="clock_date_display">Dată</string>
+    <string name="clock_date_display_none">Nu se afișează</string>
+    <string name="clock_date_display_small">Font de dimensiune mică</string>
+    <string name="clock_date_display_normal">Font de dimensiune normală</string>
+    <string name="clock_date_style">Stil dată</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Litere mici</string>
+    <string name="clock_date_style_uppercase">Majuscule</string>
+    <string name="clock_date_format_custom">Format java particularizat</string>
+    <string name="clock_date_format">Format dată</string>
+    <string name="clock_date_string_edittext_title">Trebuie să fie în formatul datei. Ex. LL/ZZ/AA</string>
+    <string name="clock_date_string_edittext_summary">Introduceți text</string>
+    <string name="statusbar_items_title">Pictograme bară de stare</string>
+    <string name="incall_vibrate_connect_title">Vibrează la conectare</string>
+    <string name="incall_vibrate_call_wait_title">Vibrare pentru apel în așteptare</string>
+    <string name="incall_vibrate_disconnect_title">Vibrare la deconectare apel</string>
+    <string name="double_tap_sleep_title">Apăsare dublă pentru a adormi dispozitivul</string>
+    <string name="wake_when_plugged_or_unplugged_title">Trezire la alimentare</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Aprinde ecranul la conectare sau deconectare de la sursa de alimentare</string>
+    <string name="smart_pixels_title">Pixeli inteligenți</string>
+    <string name="smart_pixels_summary">Dezactivare pixeli pentru a reduce consumul de energie</string>
+    <string name="smart_pixels_on_power_save_title">Activare automată la economisirea bateriei</string>
+    <string name="smart_pixels_percent">Procentajul de pixeli pentru dezactivare</string>
+    <string name="smart_pixels_shift">Prevenir o burn-in alternando os pixels a cada</string>
+    <string name="general_category">General</string>
+    <string name="flashlight_on_call_disabled">Dezactivat</string>
+    <string name="flashlight_on_call_always">Întotdeauna</string>
+    <string name="flashlight_on_call_rate_title">Evaluează</string>
+    <string name="lockscreen_power_menu_disabled_title">Desativar o menu de energia na tela de bloqueio</string>
+    <string name="lockscreen_power_menu_disabled_summary">Esta opção só irá desativar o Menu de Energia na Tela de Bloqueio</string>
+    <string name="hide_lockscreen_status_bar_title">Ascunde bara de stare</string>
+    <string name="qs_brightness_slider_never">Niciodată</string>
+    <string name="qs_brightness_slider_always">Întotdeauna</string>
+    <string name="category_weather_title">Vreme</string>
+    <string name="header_weather_title">Antet vreme</string>
+    <string name="header_weather_summary">Activați afișarea antetului de vreme, în panoul de notificări</string>
+    <string name="weather_icon_pack_title">Pictograme condiţii meteo</string>
+    <string name="weather_icon_pack_note">Notă\u003a puteți instala pachete noi de pictograme din Magazinul Google Play, căutând \"pictograme Chronus\"</string>
+    <string name="statusbar_notif_count_title">Arată numărul de notificări</string>
+    <string name="statusbar_notif_count_summary">Afișează numărul notificărilor în așteptare</string>
+</resources>

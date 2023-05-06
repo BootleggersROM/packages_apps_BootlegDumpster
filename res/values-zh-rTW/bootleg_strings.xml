@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">界面配置</string>
+    <string name="category_tweaks_title">調整</string>
+    <string name="category_buttons_title">按鍵</string>
+    <string name="category_system_title">系统</string>
+    <string name="category_misc_title">其他</string>
+    <string name="category_volume_title">音量鍵</string>
+    <string name="statusbar_title">基本訊息欄</string>
+    <string name="statusbar_summary">通知欄可以變得更貼合您的喜好</string>
+    <string name="quicksettings_title">快速設定面板</string>
+    <string name="quicksettings_summary">把快速設定面板變得更舒適</string>
+    <string name="notifications_title">通知消息</string>
+    <string name="notifications_summary">設定通知的樣式</string>
+    <string name="lockscreen_title">鎖定畫面</string>
+    <string name="lockscreen_summary">更改鎖屏畫面上的佈局和功能</string>
+    <string name="recents_title">最近使用的應用程式</string>
+    <string name="recents_summary">探索更多處理多項任務的方法</string>
+    <string name="animations_title">動畫</string>
+    <string name="animations_summary">自定義這些過渡</string>
+    <string name="gestures_title">手勢</string>
+    <string name="gestures_summary">設置手勢</string>
+    <string name="powermenu_title">電源選單</string>
+    <string name="powermenu_summary">把電源選單變得更方便使用</string>
+    <string name="navbar_title">導航欄設定</string>
+    <string name="navbar_summary">更改導航欄的設定</string>
+    <string name="hwkeys_title">實體按鍵</string>
+    <string name="hwkeys_summary">更改實體按鈕的設定</string>
+    <string name="fingerprint_title">指紋辨識</string>
+    <string name="fingerprint_summary">不僅僅是安全鎖</string>
+    <string name="device_extras_title_fallback">其他手勢</string>
+    <string name="device_extras_summary" formatted="false">針對您的 %1$s 的具體調整</string>
+    <string name="device_extras_summary_fallback">針對您的設備的特定調整</string>
+    <string name="app_related_title">應用程序相關調整</string>
+    <string name="app_related_summary">所有應用程序的全局更改</string>
+    <string name="system_title">系統特色</string>
+    <string name="about_bootleg_title">關於Bootleggers</string>
+    <string name="about_bootleg_summary">關於我們和您的構建的信息</string>
+    <string name="about_bootleg_small_title">關於我們</string>
+    <string name="about_bootleg_small_summary">關於我們項目的更多信息</string>
+    <string name="bootleg_ab_title_whoami">什麽是Bootleggers？</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers是個具有不同特色和功能的系統，讓您有“家”的感覺。希望您喜歡和享受使用這系統。</string>
+    <string name="bootleg_ab_title_thankssec">感謝名單</string>
+    <string name="bootleg_ab_summary_thankssec" formatted="false">按這查看是誰創造和啓發了這個項目。還有就是，非常感謝%1s幫忙適配%2s。</string>
+    <string name="bootleg_ab_summary_thanksclean">觸摸此處查看誰製作了這個項目並激發了他的靈感。</string>
+    <string name="bootleg_pref_title_romextras">附加功能和插件</string>
+    <string name="bootleg_ex_title_featurelist">精選功能清單</string>
+    <string name="bootleg_ex_summary_featurelist">查看當前版本的功能</string>
+    <string name="bootleg_ex_title_addons">插件和下載</string>
+    <string name="bootleg_ex_summary_addons">廣告.......</string>
+    <string name="bootleg_ex_title_sharemsg">分享Bootleggers</string>
+    <string name="bootleg_ex_summary_sharemsg">讓別人知道我們的項目！我們會非常感激您。</string>
+    <string name="bootleg_ab_madstinky_test">看起來你正在運行一個測試版本，這顯然意味著你正在使用一個完全實驗性的版本，並且預計會出現錯誤和崩潰。如果您遇到的錯誤未在此構建的帖子中列出，請注意將其報告給正確的人（在本例中為構建此內容的人）。謝謝</string>
+    <string name="bootleg_changelog_title"> 檢視更新日誌!</string>
+    <string name="bootleg_changelog_summary">查看此構建中添加的最新更改</string>
+    <string name="bootleg_pref_moarstuff_title">更多我們的資料</string>
+    <string name="bootleg_pref_moarstuff_info_title">信息和來源</string>
+    <string name="bootleg_moarstuff_blog_title">部落格</string>
+    <string name="bootleg_moarstuff_blog_summary">我們將在哪裡發布有關發布和新聞的信息</string>
+    <string name="bootleg_moarstuff_git_title">Github</string>
+    <string name="bootleg_moarstuff_git_summary">我們的來源和回复放在哪裡</string>
+    <string name="bootleg_pref_moarstuff_social_title">聯絡我們</string>
+    <string name="bootleg_moarstuff_tg_title">Telegram社區</string>
+    <string name="bootleg_moarstuff_tg_summary">與我們交談，了解未來的更新並加入我們偉大的社區</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">我想你發現這真的不是那麼秘密的地方但是好吧，如果你來到這裡我只是想讓你知道感謝你刷這個 ROM 並且歡迎，就像我們之前說過很多次一樣，希望你喜歡它並玩得開心 有了這個ROM。</string>
+    <string name="bootleg_moarstuff_donos_title">支持這個專案</string>
+    <string name="share_chooser_title">透過.. 分享Bootleggers</string>
+    <string name="bootleg_sharemsg6">Try Bootleggers ROM now! https://bootleggersrom.github.io </string>
+    <string name="bootleg_ri_title_buildtype">編譯類型</string>
+    <string name="bootleg_ri_summary_buildtype" formatted="false">您當前的版本是%1s... 或者説是%2s。</string>
+    <string name="bootleg_pref_title_rominfo">ROM信息</string>
+    <string name="bootleg_ri_title_ota">OTA 更新</string>
+    <string name="ok">確定</string>
+    <string name="reset">重置</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+    <string name="screen_off_animation_default">預設</string>
+    <string name="status_bar_am_pm_normal">正常</string>
+    <string name="clock_date_style_normal">正常</string>
+    <string name="statusbar_items_title">狀態欄圖示</string>
+    <string name="smart_pixels_title">智慧畫素</string>
+    <string name="flashlight_on_call_disabled">已停用</string>
+    <string name="qs_brightness_slider_never">從不</string>
+    <string name="category_weather_title">天氣</string>
+</resources>

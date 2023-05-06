@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_volume_title">Teclas de volume</string>
+    <string name="statusbar_summary">A barra de navegação é bom, mas poderia ser melhor</string>
+    <string name="quicksettings_title">Configurações Rápidas</string>
+    <string name="quicksettings_summary">Fazer aquelas configurações rápidas mais confortáveis</string>
+    <string name="notifications_title">Notificações</string>
+    <string name="notifications_summary">Mude como você vê essas notificações</string>
+    <string name="lockscreen_title">Tela de bloqueio</string>
+    <string name="lockscreen_summary">Mude o layout e algumas funcionalidades da sua tela de bloqueio</string>
+    <string name="recents_title">Aplicações recentes</string>
+    <string name="recents_summary">Explorar mais maneiras para multitarefa</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="gestures_summary">Define alguns gestos para facilitar as coisas</string>
+    <string name="powermenu_title">Menu de ligar/desligar</string>
+    <string name="powermenu_summary">Fazer esse menu de desligar mais útil</string>
+    <string name="navbar_title">Configurações da barra de navegação</string>
+    <string name="navbar_summary">Ensine à sua barra de navegação alguns truques novos</string>
+    <string name="hwkeys_summary">Mude algumas coisas dos seus botões de HW</string>
+    <string name="fingerprint_title">Impressão digital</string>
+    <string name="about_bootleg_title">Sobre a Bootleggers</string>
+    <string name="about_bootleg_small_title">Sobre nós</string>
+    <string name="bootleg_ab_title_whoami">O que é os Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers é uma ROM repleto de funcionalidades e aplicações com o objetivo de fazer sua sensação como 家. Espero que gostem e desfrutem a sua experiência.</string>
+    <string name="bootleg_ab_title_thankssec">Lista de agradecimentos</string>
+    <string name="bootleg_pref_title_romextras">Extras e Adições</string>
+    <string name="bootleg_ex_title_featurelist">Lista de funcionalidades</string>
+    <string name="bootleg_ex_summary_featurelist">Veja a lista de funcionalidades nesta versão</string>
+    <string name="bootleg_ex_title_addons">Adições e Downloads</string>
+    <string name="bootleg_ex_summary_addons">Lista de recomendações de temas e modificações por nós (também conhecido como publicidade honesta)</string>
+    <string name="bootleg_ex_title_sharemsg">Partilhe o nosso sistema</string>
+    <string name="bootleg_ex_summary_sharemsg">Faça que as pessoas saibam sobre nós e do nosso trabalho! Nós agradecemos.</string>
+    <string name="bootleg_pref_moarstuff_title">Mais sobre nós?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Informações e sources</string>
+    <string name="bootleg_moarstuff_blog_title">O nosso blog</string>
+    <string name="bootleg_moarstuff_blog_summary">Onde nós iremos publicar sobre as releases e notícias</string>
+    <string name="bootleg_moarstuff_git_title">O nosso Github</string>
+    <string name="bootleg_moarstuff_git_summary">Onde as nossas sources e reverts estão postas</string>
+    <string name="bootleg_pref_moarstuff_social_title">Mantenha o contacto!</string>
+    <string name="bootleg_moarstuff_tg_title">A nossa comunidade Telegram</string>
+    <string name="bootleg_moarstuff_tg_summary">Fale connosco, fique ansioso com as futuras actualizações e junte se à nossa maravilhosa comunidade</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">Eu acho que achou que este sítio não é assim tão secreto mas enfim, se chegou aqui eu só queria dizer obrigado por instalar o nosso sistema e como dizemos várias vezes espero que goste e que tenha um bom tempo com este sistema.</string>
+    <string name="share_chooser_title">Partilha a nossa ROM através de..</string>
+    <string name="bootleg_sharemsg1">Olá, estou a usar esta ROM chamada Bootleggers, é boa. Devias verificar mais sobre isto em https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">Eu instalei a Bootleggers ROM e parece ser boa até ao momento, deverias verificar mais no https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">Então eu fui para a Bootleggers ROM e estou a gostar da experiência, por enquanto, é uma ROM muito boa </string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+    <string name="animations_transparent_alert">Algumas (ou talvez todas) as animações podem não funcionar se o seu dispositivo tiver um tema transparente!</string>
+    <string name="screen_off_animation_default">Predefinição </string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="wake_when_plugged_or_unplugged_title">Ligar ecrã ao detetar carregador</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Ativar o ecrã quando conectar ou desconectar uma fonte de energia</string>
+    <string name="flashlight_on_call_disabled">Desactivado</string>
+    <string name="category_weather_title">Condições meteorológicas</string>
+</resources>

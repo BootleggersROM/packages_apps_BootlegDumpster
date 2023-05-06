@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="category_interface_title">Interfaccia</string>
+    <string name="category_system_title">Sistema</string>
+    <string name="category_volume_title">Pulsanti del volume</string>
+    <string name="statusbar_summary">La barra di stato è ok ma potrebbe essere migliore</string>
+    <string name="quicksettings_title">Impostazioni rapide</string>
+    <string name="quicksettings_summary">Rendi funzionale le tue impostazioni rapide</string>
+    <string name="notifications_title">Notifiche</string>
+    <string name="notifications_summary">Cambia il modo in cui vedi le notifiche</string>
+    <string name="lockscreen_title">Schermata di blocco</string>
+    <string name="lockscreen_summary">Cambia la disposizione e le funzioni della tua schermata di blocco</string>
+    <string name="recents_title">App recenti</string>
+    <string name="recents_summary">Esplora più modi di gestire il muktitasking</string>
+    <string name="animations_title">Animazioni</string>
+    <string name="gestures_title">Gesti</string>
+    <string name="gestures_summary">Rendi la vita più facile con i gesti</string>
+    <string name="powermenu_title">Menù di spegnimento</string>
+    <string name="powermenu_summary">Rendi utile il menù di spegnimento</string>
+    <string name="navbar_title">Barra di navigazione</string>
+    <string name="navbar_summary">Insegna alla barra di navigazione alcuni trucchi più recenti</string>
+    <string name="hwkeys_summary">Modifica i pulsanti fisici</string>
+    <string name="fingerprint_title">Impronta digitale</string>
+    <string name="device_extras_title_fallback">Extra del dispositivo</string>
+    <string name="about_bootleg_title">Info su Bootleggers</string>
+    <string name="about_bootleg_small_title">Su di noi</string>
+    <string name="about_bootleg_small_summary">Altre informazioni sul nostro progetto</string>
+    <string name="bootleg_ab_title_whoami">Cos\'è Bootleggers?</string>
+    <string name="bootleg_ab_summary_whoami">Bootleggers è una ROM fornita di funzionalità e app con l\'intento di farti sentire a 家. Speriamo ti piaccia l\'esperienza che vivrai.</string>
+    <string name="bootleg_ab_title_thankssec">Lista dei ringraziamenti</string>
+    <string name="bootleg_ab_summary_thanksclean">Toccare qui per vedere chi fatto e ha ispirato questo progetto.</string>
+    <string name="bootleg_pref_title_romextras">Extra e aggiunte</string>
+    <string name="bootleg_ex_title_featurelist">Lista funzionalità</string>
+    <string name="bootleg_ex_summary_featurelist">Guarda la lista attuale delle funzionalità di questa build</string>
+    <string name="bootleg_ex_title_addons">Aggiunte e Download</string>
+    <string name="bootleg_ex_summary_addons">Lista di temi e mod consigliate da parte nostra (pubblicità onesta)</string>
+    <string name="bootleg_ex_title_sharemsg">Condividi la nostra ROM</string>
+    <string name="bootleg_ex_summary_sharemsg">Fai conoscere a tutti il nostro lavoro! Lo apprezzeremo molto.</string>
+    <string name="bootleg_changelog_title">Vedi il log delle modifiche</string>
+    <string name="bootleg_changelog_summary">Vedi le ultime modifiche aggiunte su questa build</string>
+    <string name="bootleg_pref_moarstuff_title">Qualcos\'altro su di noi?</string>
+    <string name="bootleg_pref_moarstuff_info_title">Info e sorgenti</string>
+    <string name="bootleg_moarstuff_blog_title">Il nostro Blog</string>
+    <string name="bootleg_moarstuff_blog_summary">Dove posteremo i nuovi rilasci e le notizie</string>
+    <string name="bootleg_moarstuff_git_title">Il nostro Github</string>
+    <string name="bootleg_moarstuff_git_summary">Il posto in cui le nostre sorgenti e i revert si trovano</string>
+    <string name="bootleg_pref_moarstuff_social_title">Contattaci!</string>
+    <string name="bootleg_moarstuff_tg_title">La nostra comunità Telegram</string>
+    <string name="bootleg_moarstuff_tg_summary">Parla con noi, resta aggiornatissimo sui futuri aggiornamenti e unisciti alla comunità</string>
+    <string name="bootleg_pref_moarstuff_wewsecret">Credo tu abbia trovato questo posto non troppo segreto, comunque, se sei arrivato/a fin qui voglio solo ringraziarti per aver flashato questa ROM e si, come abbiamo già detto molte volte, spero ti piaccia e che ti divertirai con essa.</string>
+    <string name="bootleg_moarstuff_faq_title">Le nostre FAQ</string>
+    <string name="bootleg_moarstuff_cd_title">Il nostro Crowdin</string>
+    <string name="bootleg_moarstuff_cd_back_summary">Non parliamo la vostra lingua? Allora venite qui e sentitevi liberi di aiutarci a tradurre la nostra ROM nella tua lingua!</string>
+    <string name="bootleg_moarstuff_cd_summary02">Allora venite qui e sentitevi liberi di aiutarci a tradurre la nostra ROM nella tua lingua!</string>
+    <string name="bootleg_moarstuff_faq_summary">Dove tutte le più frequenti e caratteristiche domande ricevono la loro risposta.</string>
+    <string name="bootleg_moarstuff_donos_title">Supporta il nostro progetto</string>
+    <string name="bootleg_moarstuff_donos_summary">Dona per supportare questo progetto, lo apprezzeremo molto</string>
+    <string name="share_chooser_title">Condividi la nostra ROM su..</string>
+    <string name="bootleg_sharemsg1">Hey, sto usando questa ROM chiamata Bootleggers, è una figata atomica! Scoprì di più su https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg2">Ho installato la ROM Bootleggers e sembra davvero carina, scopri di più su https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg3">Allora, ho installato la ROM Bootleggers e mi sta davvero piacendo.. È una ROM davvero niente male </string>
+    <string name="bootleg_sharemsg4">Hey, ho appena flashato la Bootleggers e mi sta piacendo, la consiglierei </string>
+    <string name="bootleg_sharemsg5">Ho provato la ROM Bootleggers, sembra veramente bella, ha dei font diversi e un sacco di roba </string>
+    <string name="bootleg_sharemsg6">Prova la Bootleggers ROM adesso! https://bootleggersrom.github.io </string>
+    <string name="bootleg_sharemsg7">Ehm, sto provando la Bootleggers ed è un pò strana ma non è malaccio </string>
+    <string name="bootleg_ri_title_buildtype">Tipo Build</string>
+    <string name="bootleg_pref_title_rominfo">Info sulla ROM</string>
+    <string name="bootleg_ri_title_ota">Aggiornamenti OTA</string>
+    <string name="bootleg_ri_summary_ota">Guarda se c\'è un nuovo rilascio</string>
+    <string name="bootleg_ri_title_musicode">Nome in codice musicale</string>
+    <string name="ok">OK</string>
+    <string name="reset">Ripristino</string>
+    <string name="cancel">Annulla</string>
+    <string name="save">Salva</string>
+    <string name="animations_transparent_alert">Alcuni (o forse tutte) queste animazioni potrebbero non funzionare se il dispositivo ha un tema trasparente!</string>
+    <string name="statusbar_icon_cat_title">Icone</string>
+    <string name="theme_customization_icon_pack_title">Pacchetto icone</string>
+    <string name="theme_customization_icon_shape_title">Forma icona</string>
+    <string name="global_actions_advanced_reboot_title">Abilita le opzioni di riavvio avanzate</string>
+    <string name="screen_off_animation_title">Animazione spegnimento schermo</string>
+    <string name="screen_off_animation_default">Predefinito</string>
+    <string name="screen_off_animation_crt">Tubo Catodico</string>
+    <string name="screen_off_animation_scale">Scala</string>
+    <string name="status_bar_clock_style_title">Stile orologio</string>
+    <string name="status_bar_clock_style_right">Destra</string>
+    <string name="status_bar_clock_style_center">Centro</string>
+    <string name="status_bar_clock_style_left">Sinistra</string>
+    <string name="status_bar_am_pm_info">Formato 24 ore abilitato</string>
+    <string name="status_bar_am_pm_normal">Normale</string>
+    <string name="status_bar_am_pm_small">Piccolo</string>
+    <string name="clock_seconds_display">Mostra i secondi</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_none">Non mostrare</string>
+    <string name="clock_date_display_small">Dimensione carattere piccola</string>
+    <string name="clock_date_display_normal">Dimensione carattere normale</string>
+    <string name="clock_date_style">Stile data</string>
+    <string name="clock_date_style_normal">Normale</string>
+    <string name="clock_date_style_lowercase">Minuscolo</string>
+    <string name="clock_date_style_uppercase">Maiuscolo</string>
+    <string name="clock_date_format_custom">Formato java personalizzato</string>
+    <string name="clock_date_format">Formato data</string>
+    <string name="clock_date_string_edittext_title">Deve essere in formato data es. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Inserisci stringa</string>
+    <string name="statusbar_items_title">Icone barra di stato</string>
+    <string name="incall_vibrate_connect_title">Vibra alla connessione</string>
+    <string name="incall_vibrate_call_wait_title">Vibra in attesa</string>
+    <string name="incall_vibrate_disconnect_title">Vibra alla disconnessione</string>
+    <string name="double_tap_sleep_title">Doppio tocco per spegnere lo schermo</string>
+    <string name="wake_when_plugged_or_unplugged_title">Risveglia al collegamento</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando ci si connette o disconnette da una fonte di energia</string>
+    <string name="smart_pixels_title">Pixel intelligenti</string>
+    <string name="smart_pixels_summary">Spegni pixel per ridurre il consumo energetico</string>
+    <string name="smart_pixels_on_power_save_title">Attiva automaticamente insieme al risparmio energetico</string>
+    <string name="smart_pixels_percent">Percentuale di pixel da disattivare</string>
+    <string name="smart_pixels_shift">Previeni burn-in spostando i pixel</string>
+    <string name="general_category">Generale</string>
+    <string name="flashlight_on_call_disabled">Disabilitato</string>
+    <string name="flashlight_on_call_always">Sempre</string>
+    <string name="flashlight_on_call_rate_title">Vota</string>
+    <string name="lockscreen_power_menu_disabled_title">Disattiva il menù di alimentazione sulla schermata di blocco</string>
+    <string name="lockscreen_power_menu_disabled_summary">Questa opzione disabiliterà l\'accesso al menù alimentazione dalla schermata di blocco solo con blocco sicuro attivato</string>
+    <string name="hide_lockscreen_status_bar_title">Nascondi barra di stato</string>
+    <string name="qs_brightness_slider_never">Mai</string>
+    <string name="qs_brightness_slider_always">Sempre</string>
+    <string name="category_weather_title">Meteo</string>
+    <string name="header_weather_title">Visualizza meteo nell\'intestazione</string>
+    <string name="header_weather_summary">Attiva la visualizzazione del meteo nell\'intestazione del pannello delle notifiche</string>
+    <string name="weather_icon_pack_title">Pacchetto icone condizioni meteo</string>
+    <string name="weather_icon_pack_note">Note\u003a è possibile installare nuovi pacchetti icone dal Play Store \"icone Chronus\"</string>
+    <string name="statusbar_notif_count_title">Mostra contatore notifiche</string>
+    <string name="statusbar_notif_count_summary">Mostra il numero di notifiche in sospeso</string>
+</resources>
