@@ -270,7 +270,7 @@
     <string name="notification_guts_kill_app_button_summary">Show force stop button in the notification\'s longpress menu</string>
 
     <!-- reTicker -->
-    <string name="reticker_category" translatable="false">Brief notifications</string>
+    <string name="reticker_category">Brief notifications</string>
     <string name="reticker_title">Use reTicker notifications</string>
     <string name="reticker_summary">Replace your notifications with a slim, less invasive and brief notification.</string>
     <string name="reticker_colored_title">Use app colored background</string>
