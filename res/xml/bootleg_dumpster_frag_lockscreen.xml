@@ -58,12 +58,6 @@
             android:summary="@string/media_art_summary"
             android:defaultValue="false" />
 
-       <Preference
-        android:key="pulse_settings"
-        android:fragment="com.bootleggers.dumpster.fragments.PulseSettings"
-        android:title="@string/pulse_settings"
-        android:summary="@string/pulse_settings_summary" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
