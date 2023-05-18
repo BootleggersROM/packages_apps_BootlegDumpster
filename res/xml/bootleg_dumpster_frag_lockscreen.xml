@@ -155,6 +155,12 @@
            android:title="@string/wake_when_plugged_or_unplugged_title"
            android:summary="@string/wake_when_plugged_or_unplugged_summary"
            android:defaultValue="false" />
+
+        <com.bootleggers.support.preferences.SecureSettingSwitchPreference
+           android:key="doze_on_charge"
+           android:defaultValue="false"
+           android:title="@string/doze_on_charge_title"
+           android:summary="@string/doze_on_charge_summary" />
         
         <com.bootleggers.support.preferences.SecureSettingSwitchPreference
            android:key="screen_off_udfps_enabled"
