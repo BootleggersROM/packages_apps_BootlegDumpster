@@ -506,4 +506,8 @@
     <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
     <string name="edge_light_repeat_animation_summary_off">Show only once</string>
     <string name="edge_light_color_mode_title">Edge light color mode</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Always show when charging</string>
+    <string name="doze_on_charge_summary">Display device is charging</string>
 </resources>
