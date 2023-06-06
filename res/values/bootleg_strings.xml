@@ -470,6 +470,7 @@
     <string name="pulse_ambient_light_color_mode_wall">Automatic (Wallpaper Based)</string>
     <string name="pulse_ambient_light_color_mode_accent">Accent</string>
     <string name="pulse_ambient_light_color_mode_custom">Custom</string>
+    <string name="pulse_ambient_light_color_mode_random">Random Color</string>
     <string name="pulse_ambient_light_duration_title">Light duration</string>
     <string name="pulse_ambient_light_repeat_count_title">Light repeat count</string>
     <string name="pulse_ambient_light_show_always_title">Show always</string>
