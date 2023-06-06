@@ -492,4 +492,7 @@
     <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
     <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
     <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
+
+    <!-- Edge Light -->
+    <string name="pulse_ambient_light_width_title">Light width</string>
 </resources>
