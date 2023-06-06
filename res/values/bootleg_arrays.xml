@@ -282,12 +282,14 @@
         <item>@string/pulse_ambient_light_color_mode_wall</item>
         <item>@string/pulse_ambient_light_color_mode_accent</item>
         <item>@string/pulse_ambient_light_color_mode_custom</item>
+        <item>@string/pulse_ambient_light_color_mode_random</item>
     </string-array>
     <string-array name="pulse_ambient_light_color_mode_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
     </string-array>
 
     <string-array name="pulse_ambient_light_layout_entries">
