@@ -326,4 +326,17 @@
         <item>300</item>
         <item>600</item>
     </string-array>
+
+    <!-- Pulse Light Layout style -->
+    <string-array name="pulse_light_layout_style_entries" translatable="false">
+        <item>@string/pulse_light_both</item>
+        <item>@string/pulse_light_top_bottom</item>
+        <item>@string/pulse_light_left_right</item>
+    </string-array>
+
+    <string-array name="pulse_light_layout_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

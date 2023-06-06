@@ -495,4 +495,10 @@
 
     <!-- Edge Light -->
     <string name="pulse_ambient_light_width_title">Light width</string>
+
+    <!-- Pulse Light Layout Style -->
+    <string name="pulse_light_layout_style_title">Light Layout Style</string>
+    <string name="pulse_light_both">All Four Sides</string>
+    <string name="pulse_light_top_bottom">Only Top-Bottom</string>
+    <string name="pulse_light_left_right">Only Left-Right</string>
 </resources>
