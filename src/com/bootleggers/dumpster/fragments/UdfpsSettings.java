@@ -54,14 +54,14 @@ public class UdfpsSettings extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.udfps_settings);
 
-        final PreferenceScreen prefSet = getPreferenceScreen();
+        final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 
         final boolean udfpsResPkgInstalled = BootlegUtils.isPackageInstalled(getContext(),
                 "com.bootleggers.udfps.resources");
         mUdfpsAnimPreview = findPreference(UDFPS_ANIM_PREVIEW);
         if (!udfpsResPkgInstalled) {
-            prefSet.removePreference(mUdfpsAnimPreview);
+            prefScreen.removePreference(mUdfpsAnimPreview);
         }
     }
 

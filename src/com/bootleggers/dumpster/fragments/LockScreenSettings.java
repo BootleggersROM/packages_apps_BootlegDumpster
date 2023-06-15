@@ -73,7 +73,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
         mUdfpsCategory = findPreference(UDFPS_CATEGORY);
         if (!UdfpsUtils.hasUdfpsSupport(getContext())) {
-            prefSet.removePreference(mUdfpsCategory);
+            prefScreen.removePreference(mUdfpsCategory);
         }
 
         mStartShortcut = findPreference(SHORTCUT_START_KEY);
