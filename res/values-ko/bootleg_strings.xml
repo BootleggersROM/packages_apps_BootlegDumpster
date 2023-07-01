@@ -87,4 +87,5 @@
     <string name="qs_brightness_slider_never">안함</string>
     <string name="qs_brightness_slider_always">항상</string>
     <string name="category_weather_title">날씨</string>
+    <string name="volume_steps_reset">재설정</string>
 </resources>

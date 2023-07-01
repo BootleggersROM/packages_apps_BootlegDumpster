@@ -140,4 +140,6 @@
     <string name="weather_icon_pack_note">Megjegyzés: \u003a új ikoncsomagokat telepíthet, ha a Google Play Áruházban a \"Chronus icons\"-ra keres rá</string>
     <string name="statusbar_notif_count_title">Értesítések számának megjelenítése</string>
     <string name="statusbar_notif_count_summary">Függőben lévő értesítések számának megjelenítése</string>
+    <string name="volume_steps_reset">Visszaállítás</string>
+    <string name="pulse_custom_gravity_center">Közepe</string>
 </resources>

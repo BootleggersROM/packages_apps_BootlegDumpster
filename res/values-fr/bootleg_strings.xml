@@ -141,4 +141,6 @@ https://bootleggersrom.github.io </string>
     <string name="weather_icon_pack_note">Note\u003a Vous pouvez installer de nouveau pack d’icônes depuis le Play Store en cherchant \"Chronus icons\"</string>
     <string name="statusbar_notif_count_title">Montrer le nombre de notifications</string>
     <string name="statusbar_notif_count_summary">Afficher le nombre de notifications en attente</string>
+    <string name="volume_steps_reset">Réinitialiser</string>
+    <string name="pulse_custom_gravity_center">Centre</string>
 </resources>

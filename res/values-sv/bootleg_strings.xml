@@ -35,4 +35,5 @@
     <string name="statusbar_items_title">Statusfältsikoner</string>
     <string name="qs_brightness_slider_never">Aldrig</string>
     <string name="category_weather_title">Väder</string>
+    <string name="pulse_custom_gravity_center">Mitten</string>
 </resources>

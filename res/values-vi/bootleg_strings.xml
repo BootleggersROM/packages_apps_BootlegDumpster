@@ -198,4 +198,8 @@
     <string name="statusbar_colored_icons_summary">Sử dụng các biểu tượng ứng dụng thích hợp cho các biểu tượng thông báo trên thanh trạng thái</string>
     <string name="statusbar_notif_count_title">Hiện số lượng thông báo</string>
     <string name="statusbar_notif_count_summary">Hiển thị số lượng thông báo đang chờ</string>
+    <string name="volume_steps_reset">Thiết lập lại</string>
+    <string name="pulse_custom_gravity_bottom">Dưới cùng</string>
+    <string name="pulse_custom_gravity_top">Trên</string>
+    <string name="pulse_custom_gravity_center">Giữa</string>
 </resources>

@@ -111,4 +111,5 @@
     <string name="header_weather_summary">सूचना पैनल शीर्षक छवि को सक्षम करें</string>
     <string name="statusbar_notif_count_title">सूचना गणना दिखाएँ</string>
     <string name="statusbar_notif_count_summary">लंबित सूचनाओं की संख्या प्रदर्शित करें</string>
+    <string name="volume_steps_reset">रीसेट करें</string>
 </resources>

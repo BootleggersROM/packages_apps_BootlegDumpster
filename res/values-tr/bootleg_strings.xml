@@ -194,10 +194,13 @@
     <string name="laboratory_ignore_window_secure_summary">Bu, tüm uygulamalar için ekran görüntüsü ve ekran kaydedici korumasını kaldırır. Bu, bazı durumlarda kullanışlıdır ancak gizlilik sızıntılarına neden olabilir. Seçeneği değiştirdikten sonra değişikliklerin geçerli olması için uygulamaları yeniden başlatın.</string>
     <string name="notification_guts_kill_app_button_title">Uygulama sonlandırma tuşu</string>
     <string name="notification_guts_kill_app_button_summary">Bildirimlere uzun basma menüsünde zorla durdurma tuşunu göster</string>
+    <string name="reticker_title">reTicker bildirimlerini kullan</string>
+    <string name="reticker_summary">Bildirimlerinizi ince, daha az müdahaleci ve kısa bir bildirimle değiştirin.</string>
     <string name="reticker_colored_title">Uygulama rengine göre arkaplan kullan</string>
     <string name="reticker_colored_summary">reTicker arkaplan rengini uygulamanın ana rengine göre değiştir</string>
     <string name="reticker_landscape_only_title">Sadece yatay</string>
     <string name="reticker_landscape_only_summary">reTicker\'i sadece cihaz yatay moddayken etkinleştirin</string>
+    <string name="incall_flash_category">Arama sırasında flaş</string>
     <string name="flashlight_on_call_title">Gelen aramada el fenerini yakıp söndür</string>
     <string name="flashlight_on_call_disabled">Devre dışı</string>
     <string name="flashlight_on_call_ringer">Zil sesi çalarken</string>
@@ -214,7 +217,10 @@
     <string name="lockscreen_power_menu_disabled_summary">Bu seçenek sadece güvenli kilit ekranlarında güç menüsünü devre dışı bırakır</string>
     <string name="hide_lockscreen_status_bar_title">Durum çubuğunu gizle</string>
     <string name="hide_lockscreen_status_bar_summary">Görünür yapmak için durum çubuğuna dokunun</string>
+    <string name="qs_brightness_cat_title">Parlaklık çubuğu</string>
+    <string name="qs_brightness_slider_title">Parlaklık kaydırıcısını göster</string>
     <string name="qs_brightness_slider_never">Asla</string>
+    <string name="qs_brightness_slider_expanded">Genişletildiğinde</string>
     <string name="qs_brightness_slider_always">Her zaman</string>
     <string name="qs_brightness_slider_position_title">Konum</string>
     <string name="qs_brightness_slider_position_top">Üst</string>
@@ -248,4 +254,8 @@
     <string name="statusbar_colored_icons_summary">Durum çubuğundaki bildirim simgeleri için uygun uygulama simgelerini kullanın</string>
     <string name="statusbar_notif_count_title">Bildirim sayısı</string>
     <string name="statusbar_notif_count_summary">Bekleyen bildirimlerin sayısını görüntüle</string>
+    <string name="volume_steps_reset">Sıfırla</string>
+    <string name="pulse_custom_gravity_bottom">Alt</string>
+    <string name="pulse_custom_gravity_top">Üst</string>
+    <string name="pulse_custom_gravity_center">Orta</string>
 </resources>

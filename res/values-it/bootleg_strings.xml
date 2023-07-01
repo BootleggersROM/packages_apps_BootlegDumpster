@@ -140,4 +140,6 @@
     <string name="weather_icon_pack_note">Note\u003a è possibile installare nuovi pacchetti icone dal Play Store \"icone Chronus\"</string>
     <string name="statusbar_notif_count_title">Mostra contatore notifiche</string>
     <string name="statusbar_notif_count_summary">Mostra il numero di notifiche in sospeso</string>
+    <string name="volume_steps_reset">Ripristino</string>
+    <string name="pulse_custom_gravity_center">Centro</string>
 </resources>

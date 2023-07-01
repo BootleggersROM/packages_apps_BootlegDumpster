@@ -33,4 +33,5 @@
     <string name="hide_lockscreen_status_bar_title">Sakrij statusnu traku</string>
     <string name="qs_brightness_slider_never">Nikad</string>
     <string name="category_weather_title">Vrijeme</string>
+    <string name="volume_steps_reset">Resetiraj</string>
 </resources>

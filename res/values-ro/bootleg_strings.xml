@@ -138,4 +138,6 @@
     <string name="weather_icon_pack_note">Notă\u003a puteți instala pachete noi de pictograme din Magazinul Google Play, căutând \"pictograme Chronus\"</string>
     <string name="statusbar_notif_count_title">Arată numărul de notificări</string>
     <string name="statusbar_notif_count_summary">Afișează numărul notificărilor în așteptare</string>
+    <string name="volume_steps_reset">Resetează</string>
+    <string name="pulse_custom_gravity_center">Centru</string>
 </resources>

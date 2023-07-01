@@ -140,4 +140,6 @@
     <string name="weather_icon_pack_note">Poznámka\u003a nové balíčky ikon můžete nainstalovat z obchodu play vyhledáním \"Chronus ikony\"</string>
     <string name="statusbar_notif_count_title">Zobrazit počet oznámení</string>
     <string name="statusbar_notif_count_summary">Zobrazí počet nezobrazených oznámení</string>
+    <string name="volume_steps_reset">Resetovat</string>
+    <string name="pulse_custom_gravity_center">Uprostřed</string>
 </resources>

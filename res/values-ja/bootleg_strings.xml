@@ -140,4 +140,6 @@
     <string name="weather_icon_pack_note">備考\u003a プレイストアで「Chronus アイコン」を検索することで新しいアイコンパックをインストールできます</string>
     <string name="statusbar_notif_count_title">通知の数を表示</string>
     <string name="statusbar_notif_count_summary">保留中の通知の数を表示する</string>
+    <string name="volume_steps_reset">リセット</string>
+    <string name="pulse_custom_gravity_center">中央</string>
 </resources>

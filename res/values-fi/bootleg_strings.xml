@@ -77,4 +77,5 @@
     <string name="flashlight_on_call_always">Aina</string>
     <string name="qs_brightness_slider_always">Aina</string>
     <string name="category_weather_title">Sää</string>
+    <string name="volume_steps_reset">Palauta</string>
 </resources>

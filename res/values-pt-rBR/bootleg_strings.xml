@@ -194,10 +194,13 @@
     <string name="laboratory_ignore_window_secure_summary">Isso remove as restrições de captura e gravação de tela para todos os aplicativos. Normalmente, aplicativos protegidos não permitem e emitem uma tela preta nos registros. Remover essa restrição pode ser conveniente em alguns casos, mas pode facilitar o furto de dados. Após alterar este botão, pode ser necessário reiniciar o aplicativo para que a alteração tenha efeito.</string>
     <string name="notification_guts_kill_app_button_title">Botão de forçar parada</string>
     <string name="notification_guts_kill_app_button_summary">Mostrar um botão para fechar o aplicativo ao tocar e segurar em uma notificação</string>
+    <string name="reticker_title">Usar notificações reTicker</string>
+    <string name="reticker_summary">Substitua o estilo padrão de notificações por um visual mais limpo e menos invasivo.</string>
     <string name="reticker_colored_title">Usar fundo colorido do aplicativo</string>
     <string name="reticker_colored_summary">Substitua a cor de fundo do reTicker usando a cor principal do aplicativo de notificação</string>
     <string name="reticker_landscape_only_title">Somente em paisagem</string>
     <string name="reticker_landscape_only_summary">Ativar o reTicker apenas quando o dispositivo estiver em modo paisagem</string>
+    <string name="incall_flash_category">Lanterna na chamada</string>
     <string name="flashlight_on_call_title">Piscar lanterna ao receber ligações</string>
     <string name="flashlight_on_call_disabled">Desativado</string>
     <string name="flashlight_on_call_ringer">Quando tocar</string>
@@ -214,7 +217,10 @@
     <string name="lockscreen_power_menu_disabled_summary">Esta opção só irá desativar o Menu de Energia na Tela de Bloqueio</string>
     <string name="hide_lockscreen_status_bar_title">Ocultar barra de status</string>
     <string name="hide_lockscreen_status_bar_summary">Toque na barra de status para alternar a visibilidade</string>
+    <string name="qs_brightness_cat_title">Controle deslizante de brilho</string>
+    <string name="qs_brightness_slider_title">Mostrar controle deslizante de brilho</string>
     <string name="qs_brightness_slider_never">Nunca</string>
+    <string name="qs_brightness_slider_expanded">Quando expandido</string>
     <string name="qs_brightness_slider_always">Sempre</string>
     <string name="qs_brightness_slider_position_title">Posição</string>
     <string name="qs_brightness_slider_position_top">Acima</string>
@@ -248,4 +254,8 @@
     <string name="statusbar_colored_icons_summary">Mostrar ícones coloridos igual a do aplicativo nas notificações da barra de status</string>
     <string name="statusbar_notif_count_title">Mostrar contador de notificação</string>
     <string name="statusbar_notif_count_summary">Exibir o número de notificações pendentes</string>
+    <string name="volume_steps_reset">Redefinir</string>
+    <string name="pulse_custom_gravity_bottom">Abaixo</string>
+    <string name="pulse_custom_gravity_top">Acima</string>
+    <string name="pulse_custom_gravity_center">Centralizado</string>
 </resources>

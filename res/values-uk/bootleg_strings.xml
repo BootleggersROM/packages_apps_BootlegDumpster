@@ -12,8 +12,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="category_interface_title">Інтерфейс</string>
+    <string name="category_tweaks_title">Налаштування</string>
+    <string name="category_buttons_title">Кнопки</string>
     <string name="category_system_title">Система</string>
+    <string name="category_misc_title">Інше</string>
     <string name="category_volume_title">Клавіші регулювання гучності</string>
+    <string name="statusbar_title">Рядок стану</string>
     <string name="statusbar_summary">Рядок стану гарний, але можна ще краще</string>
     <string name="quicksettings_title">Швидкі налаштування</string>
     <string name="quicksettings_summary">Зробіть швидкі налаштування комфортними</string>
@@ -24,15 +28,23 @@
     <string name="recents_title">Нещодавні додатки</string>
     <string name="recents_summary">Вивчіть нові способи працювати в багатозадачному режимі</string>
     <string name="animations_title">Анімації</string>
+    <string name="animations_summary">Налаштування переходів</string>
     <string name="gestures_title">Жести</string>
     <string name="gestures_summary">Встановіть керування жестами, щоб полегшити собі життя</string>
     <string name="powermenu_title">Меню живлення</string>
     <string name="powermenu_summary">Зробіть меню завершення роботи кориснішим</string>
     <string name="navbar_title">Функції панелі навігації</string>
     <string name="navbar_summary">Навчіть панель навігації деяким сучасним хитрощам</string>
+    <string name="hwkeys_title">Апаратні кнопки</string>
     <string name="hwkeys_summary">Змініть стан речей у ваших апаратних клавішах</string>
     <string name="fingerprint_title">Відбиток пальця</string>
+    <string name="fingerprint_summary">Більше ніж безпечне блокування</string>
     <string name="device_extras_title_fallback">Додаткові налаштування</string>
+    <string name="device_extras_summary" formatted="false">Специфічні налаштування для вашого %1$s</string>
+    <string name="device_extras_summary_fallback">Специфічні налаштування для вашого пристрою</string>
+    <string name="app_related_title">Налаштування додатків</string>
+    <string name="app_related_summary">Глобальні зміни для всіх додатків</string>
+    <string name="system_title">Системні можливості</string>
     <string name="about_bootleg_title">Про Bootleggers</string>
     <string name="about_bootleg_small_title">Про нас</string>
     <string name="about_bootleg_small_summary">Більше інформації про наш проект</string>
@@ -140,4 +152,6 @@
     <string name="weather_icon_pack_note">Примітка\u003a ви можете встановити нові пакети значків із магазину ігор за допомогою значка \"Chronus\"</string>
     <string name="statusbar_notif_count_title">Показувати кількість сповіщень</string>
     <string name="statusbar_notif_count_summary">Показувати кількість очікуючих сповіщень</string>
+    <string name="volume_steps_reset">Скинути</string>
+    <string name="pulse_custom_gravity_center">По центру</string>
 </resources>

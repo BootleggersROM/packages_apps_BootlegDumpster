@@ -136,4 +136,6 @@
     <string name="weather_icon_pack_note">ملاحظة: يمكنك تثبيت حزم رموز جديدة من متجر Play بالبحث عن \"أيقونات Chronus\"</string>
     <string name="statusbar_notif_count_title">اظهار عدد الاشعارات</string>
     <string name="statusbar_notif_count_summary">عرض عدد الإشعارات المعلقة</string>
+    <string name="volume_steps_reset">إعادة تعيين</string>
+    <string name="pulse_custom_gravity_center">الوسط</string>
 </resources>

@@ -96,6 +96,7 @@
     <string name="bootleg_ri_title_ota">OTA 更新</string>
     <string name="bootleg_ri_summary_ota">检查是否有新的版本</string>
     <string name="bootleg_ri_title_musicode">音乐代号</string>
+    <string name="bootleg_ri_summary_musicode" formatted="false">%1s</string>
     <string name="ok">确定</string>
     <string name="reset">重置</string>
     <string name="cancel">取消</string>
@@ -193,10 +194,13 @@
     <string name="laboratory_ignore_window_secure_summary">这将删除所有应用程序的截图和录屏限制。 通常，某些应用程序会把截图或录屏中的内容变黑。 在某些情况下这可能很方便，但可能会导致隐私泄露。 更改此切换后，您可能需要重新启动</string>
     <string name="notification_guts_kill_app_button_title">强行停止按钮</string>
     <string name="notification_guts_kill_app_button_summary">长按菜单中的通知显示强行停止按钮</string>
+    <string name="reticker_title">使用 reTicker 通知</string>
+    <string name="reticker_summary">将您的通知替换为简单、侵入性较小且简短的通知。</string>
     <string name="reticker_colored_title">使用应用的颜色作为背景</string>
     <string name="reticker_colored_summary">使用通知应用的主颜色替换 reTicker 背景颜色</string>
     <string name="reticker_landscape_only_title">仅横屏</string>
     <string name="reticker_landscape_only_summary">仅当设备处于横屏模式时启用重启器</string>
+    <string name="incall_flash_category">通话闪光灯</string>
     <string name="flashlight_on_call_title">来电时闪烁闪光灯</string>
     <string name="flashlight_on_call_disabled">禁用</string>
     <string name="flashlight_on_call_ringer">响铃时</string>
@@ -213,7 +217,10 @@
     <string name="lockscreen_power_menu_disabled_summary">这个选项将仅在安全锁屏下禁用电源菜单</string>
     <string name="hide_lockscreen_status_bar_title">隐藏状态栏</string>
     <string name="hide_lockscreen_status_bar_summary">点按状态栏以切换可见性</string>
+    <string name="qs_brightness_cat_title">亮度条</string>
+    <string name="qs_brightness_slider_title">显示亮度滑块</string>
     <string name="qs_brightness_slider_never">从不</string>
+    <string name="qs_brightness_slider_expanded">展开时</string>
     <string name="qs_brightness_slider_always">总是</string>
     <string name="qs_brightness_slider_position_title">位置</string>
     <string name="qs_brightness_slider_position_top">顶部</string>
@@ -247,4 +254,8 @@
     <string name="statusbar_colored_icons_summary">在状态栏使用适当的应用图标通知图标</string>
     <string name="statusbar_notif_count_title">显示通知计数</string>
     <string name="statusbar_notif_count_summary">显示未读通知的数量</string>
+    <string name="volume_steps_reset">重置</string>
+    <string name="pulse_custom_gravity_bottom">底部</string>
+    <string name="pulse_custom_gravity_top">顶部</string>
+    <string name="pulse_custom_gravity_center">中间</string>
 </resources>
