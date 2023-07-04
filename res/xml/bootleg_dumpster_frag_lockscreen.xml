@@ -48,6 +48,34 @@
 
     </PreferenceCategory>
 
+    <!-- Lockscreen bottom shortcuts -->
+    <PreferenceCategory
+        android:title="@string/lockscreen_shortcut_category">
+
+        <com.bootleggers.support.preferences.SystemSettingListPreference
+            android:key="lockscreen_shortcut_start"
+            android:title="@string/lockscreen_shortcut_start_title"
+            android:summary="%s"
+            android:entries="@array/lockscreen_shortcut_entries"
+            android:entryValues="@array/lockscreen_shortcut_values"
+            android:defaultValue="1" />
+
+        <com.bootleggers.support.preferences.SystemSettingListPreference
+            android:key="lockscreen_shortcut_end"
+            android:title="@string/lockscreen_shortcut_end_title"
+            android:summary="%s"
+            android:entries="@array/lockscreen_shortcut_entries"
+            android:entryValues="@array/lockscreen_shortcut_values"
+            android:defaultValue="0" />
+
+        <SwitchPreference
+            android:key="lockscreen_shortcut_enforce"
+            android:title="@string/lockscreen_shortcut_enforce_title"
+            android:summary="@string/lockscreen_shortcut_enforce_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="lockscreen_media_art_options"
         android:title="@string/lockscreen_media_art_options_title">
@@ -66,7 +94,7 @@
             android:entryValues="@array/lockscreen_albumart_filter_values"
             android:dependency="lockscreen_media_metadata"
             android:defaultValue="0" />
-
+        
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -127,6 +155,12 @@
            android:title="@string/wake_when_plugged_or_unplugged_title"
            android:summary="@string/wake_when_plugged_or_unplugged_summary"
            android:defaultValue="false" />
+
+        <com.bootleggers.support.preferences.SecureSettingSwitchPreference
+           android:key="doze_on_charge"
+           android:defaultValue="false"
+           android:title="@string/doze_on_charge_title"
+           android:summary="@string/doze_on_charge_summary" />
         
         <com.bootleggers.support.preferences.SecureSettingSwitchPreference
            android:key="screen_off_udfps_enabled"
